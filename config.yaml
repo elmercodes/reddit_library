@@ -154,11 +154,14 @@ batch_discount: 0.5
 chat_models:
   - id: claude-opus-5-5
     label: Opus (deep)
+    effort: high
   - id: claude-sonnet-5-5
     label: Sonnet (default)
     default: true
+    effort: medium
   - id: claude-haiku-5-5
     label: Haiku (quick)
+    effort: low
 
 chat:
   # Summarize older turns once a conversation's history passes this many tokens.
@@ -166,6 +169,8 @@ chat:
   # Keep this many most recent turns verbatim when summarizing.
   keep_recent_turns: 6
   max_output_tokens: 16000
+  # Max tool rounds (read_chapter / read_thread) per answer.
+  max_tool_rounds: 8
 
 # ---------------------------------------------------------------------------
 # App

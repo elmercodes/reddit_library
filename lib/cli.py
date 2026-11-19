@@ -370,6 +370,21 @@ def book_index(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     print(f"Wrote books/{sub}/index.md")
 
 
+@app.command("app")
+def run_app(no_browser: bool = typer.Option(False, "--no-browser", help="Don't open the browser")) -> None:
+    """Start the local web app and open it in the browser."""
+    import threading
+    import webbrowser
+
+    import uvicorn
+    cfg = C.config()["app"]
+    url = f"http://{cfg['host']}:{cfg['port']}"
+    print(f"Reddit Library running at {url}  (Ctrl+C to stop)")
+    if not no_browser:
+        threading.Timer(1.2, lambda: webbrowser.open(url)).start()
+    uvicorn.run("app.server:app", host=cfg["host"], port=cfg["port"], log_level="warning")
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""
