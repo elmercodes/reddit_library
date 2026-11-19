@@ -82,13 +82,12 @@ apify:
 # ---------------------------------------------------------------------------
 images:
   max_per_post: 3
+  # Post flairs where the picture is always the point (matched case-insensitively).
+  design_flairs: [Card Critique, Advice Needed, Feedback, Rate My Design]
   # Flair or title keywords that suggest the picture is the point.
   design_keywords: [rate, critique, feedback, layout, prototype, card, design, art, template, mockup, review, thoughts, opinion]
   # Keywords that suggest a meme or a collection photo (skipped).
   skip_keywords: [meme, haul, collection, pulled, unboxing, shitpost]
-  # Rough tokens per image description call, used for estimates.
-  est_input_tokens_per_image: 1600
-  est_output_tokens_per_image: 400
 
 # ---------------------------------------------------------------------------
 # Claude models (pipeline). VERIFY IDs and prices before Phase 3.
@@ -116,10 +115,18 @@ effort:
 batch: true
 
 # USD per 1M tokens. cache_write = 5-minute cache write, cache_read = cache hit.
+# Verified 2026-11-19 against platform.claude.com/docs/en/about-claude/pricing.
+# `long_context`: a request whose prompt (input + cache writes + cache reads) is over
+# `threshold` tokens pays these prices for the whole request (Haiku 5.5 only).
 prices:
   claude-opus-5-5:   {input: 4.00, output: 20.00, cache_write: 5.00,  cache_read: 0.20}
   claude-sonnet-5-5: {input: 2.00, output: 10.00, cache_write: 2.50,  cache_read: 0.10}
-  claude-haiku-5-5:  {input: 0.10, output: 0.50,  cache_write: 0.125, cache_read: 0.01}
+  claude-haiku-5-5:
+    input: 0.10
+    output: 0.50
+    cache_write: 0.125
+    cache_read: 0.01
+    long_context: {threshold: 100000, input: 0.50, output: 2.50, cache_write: 0.625, cache_read: 0.05}
 # Discount applied to batch requests.
 batch_discount: 0.5
 

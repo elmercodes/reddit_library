@@ -6,3 +6,5 @@ timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,ac
 2026-11-19T04:06:15+00:00,phase2-comments-20261119T040517-386fa3,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 2,643 results,0.962540,0.958070,vYHPfvY9P08aO8hYe
 2026-11-19T04:07:09+00:00,phase2-comments-20261119T040615-766c5a,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 3,582 results,0.870160,0.867180,9NaJuO7hmPFbOSSRJ
 2026-11-19T04:07:56+00:00,phase2-comments-20261119T040709-cd58b8,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 4,495 results,0.761390,0.737550,g8efrOWiKNvliXN4L
+2026-11-19T04:13:23+00:00,phase2-comments-20261119T041303-f31467,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 1,26 results,0.038740,0.038740,WR1FyKFpk3m5iYPgK
+2026-11-19T04:40:00+00:00,keycheck-manual,setup,anthropic,claude-haiku-5-5,Anthropic key check,1 call,0.000004,0.000004,

@@ -12,6 +12,7 @@ dependencies = [
     "fastapi",
     "uvicorn",
     "typer",
+    "pillow>=12.3.0",
 ]
 
 [project.scripts]

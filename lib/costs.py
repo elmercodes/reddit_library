@@ -94,6 +94,9 @@ def claude_cost(model: str, input_tokens: int = 0, output_tokens: int = 0,
                 cache_write_tokens: int = 0, cache_read_tokens: int = 0,
                 batch: bool = False) -> float:
     p = C.price(model)
+    lc = p.get("long_context")
+    if lc and input_tokens + cache_write_tokens + cache_read_tokens > lc["threshold"]:
+        p = lc
     usd = (
         input_tokens * p["input"]
         + output_tokens * p["output"]

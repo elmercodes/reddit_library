@@ -5,6 +5,9 @@
 data/raw/*
 !data/raw/.gitkeep
 
+# Downloaded images stay local (large); their descriptions (.md, notes.json) are committed
+data/images/**/*.jpg
+
 # Python
 .venv/
 __pycache__/

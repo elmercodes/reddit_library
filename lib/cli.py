@@ -214,6 +214,32 @@ def costs_reconcile() -> None:
         print(f"Apify credit left this billing cycle: ${left:.4f}")
 
 
+@app.command("anthropic-check")
+def anthropic_check() -> None:
+    """Confirm the Anthropic key works with one tiny Haiku message (prints cost, never the key)."""
+    import anthropic
+
+    from . import claude
+    try:
+        text, cost, _ = claude.call("extract", [{"role": "user", "content": "Reply with the single word: ok"}],
+                                    max_tokens=200)
+        print(f"Anthropic key: valid (reply: {text.strip()!r}, cost ${cost:.6f})")
+        from . import costs
+        costs.log(costs.new_run_id("keycheck"), "setup", "anthropic", claude.model_for("extract"),
+                  "Anthropic key check", "1 call", cost, cost)
+    except anthropic.AuthenticationError:
+        print("Anthropic key: INVALID")
+    except anthropic.BadRequestError as e:
+        print(f"Anthropic key: accepted, but the request failed: {e.message}")
+
+
+@app.command("images")
+def images(sub: str = typer.Option(..., help="Subreddit name")) -> None:
+    """Phase 3: select image posts, download (free), describe with Claude (y/N)."""
+    from pipeline.describe_images import run
+    run(sub)
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""

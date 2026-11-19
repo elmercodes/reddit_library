@@ -3,9 +3,9 @@ from lib.ledger import Ledger
 
 
 def test_claude_cost_math():
-    # Haiku 5.5: $0.10 in / $0.50 out per 1M
-    assert abs(costs.claude_cost("claude-haiku-5-5", 1_000_000, 1_000_000) - 0.60) < 1e-9
-    assert abs(costs.claude_cost("claude-haiku-5-5", 1_000_000, 1_000_000, batch=True) - 0.30) < 1e-9
+    # Haiku 5.5 under 100K prompt tokens: $0.10 in / $0.50 out per 1M
+    assert abs(costs.claude_cost("claude-haiku-5-5", 50_000, 10_000) - (0.005 + 0.005)) < 1e-9
+    assert abs(costs.claude_cost("claude-haiku-5-5", 50_000, 10_000, batch=True) - 0.005) < 1e-9
 
 
 def test_cost_from_usage_dict_includes_cache():
@@ -37,3 +37,10 @@ def test_ledger_stages(tmp_path):
     assert led.missing(["abc", "def"], "fetched_at") == ["def"]
     led.save()
     assert Ledger(path).has("abc")
+
+
+def test_haiku_long_context_tier():
+    small = costs.claude_cost("claude-haiku-5-5", 100_000, 0)
+    big = costs.claude_cost("claude-haiku-5-5", 100_001, 0)
+    assert abs(small - 0.01) < 1e-9
+    assert abs(big - 100_001 * 0.50 / 1e6) < 1e-9
