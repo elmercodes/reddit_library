@@ -164,7 +164,7 @@ def run_tool(name: str, args: dict) -> tuple[str, bool]:
 
 def tab_kind(tab: str) -> tuple[str, str]:
     kind, _, key = tab.partition(":")
-    if kind not in ("book", "game") or not SAFE.match(key or "-"):
+    if kind not in ("book", "game") or not key or not SAFE.match(key):
         raise ValueError(f"Chat is not available for tab {tab!r}")
     return kind, key
 
