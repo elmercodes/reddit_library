@@ -32,7 +32,7 @@ collection:
   # comments in Reddit's "Best" order, depth-first, and replies count toward this
   # number. Comments are kept exactly in that order; no local re-selection.
   # Each comment is one billed result.
-  comments_per_thread: 30
+  comments_per_thread: 25   # 25 for r/homemadeTCGs (free-plan credit); set back to 30 after upgrading
   # Kept threads are fetched in chunks of this many URLs per Apify run, so a
   # failure or the monthly credit limit only affects one chunk.
   fetch_chunk_size: 25
