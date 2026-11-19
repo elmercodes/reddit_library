@@ -28,14 +28,14 @@ collection:
   posts_per_listing: 250
   # Threads kept per subreddit after ranking; only these get comments fetched.
   keep_per_sub: 100
-  # Top-voted top-level comments kept per thread.
-  comments_per_thread: 15
-  # Also keep the single highest-voted reply to each kept top-level comment.
-  # Decided after the Phase 1 test (cost shown with and without).
-  include_best_reply: true
-  # How many comment records to request from the actor per thread, so that local
-  # selection can find the top 15 (+ replies). Tuned after the Phase 1 test.
-  comments_fetch_per_thread: 40
+  # Comments fetched per kept thread (the actor's maxComments). The actor returns
+  # comments in Reddit's "Best" order, depth-first, and replies count toward this
+  # number. Comments are kept exactly in that order; no local re-selection.
+  # Each comment is one billed result.
+  comments_per_thread: 30
+  # Kept threads are fetched in chunks of this many URLs per Apify run, so a
+  # failure or the monthly credit limit only affects one chunk.
+  fetch_chunk_size: 25
   # Keep NSFW posts?
   include_nsfw: false
 
@@ -52,14 +52,17 @@ collector: fatihtahta
 collectors:
   fatihtahta:
     actor_id: fatihtahta/reddit-scraper-search-fast
-    # USD per 1,000 results. VERIFY in Phase 1 (listing: $1.49 entry tier, $1.19 top tier).
+    # USD per 1,000 dataset items (posts AND comments are each one item).
+    # Verified 2026-11-18 via Apify API: FREE $1.49, BRONZE $1.39, SILVER $1.29, GOLD+ $1.19.
     price_per_1000_results: 1.49
     start_fee_usd: 0.0
-    # Assume comment records are billed as results until the Phase 1 test says otherwise.
+    # Comments are separate dataset items, so they are billed (confirmed in pricing).
     comments_billed: true
   harshmaur:
     actor_id: harshmaur/reddit-scraper
-    # VERIFY in Phase 1 (listing: $2.00 entry tier, $1.50 top tier, plus small start fee).
+    # Verified 2026-11-18 via Apify API: FREE $2.00, BRONZE $1.80, SILVER $1.60, GOLD+ $1.50
+    # per 1,000 saved posts/comments, plus $0.02 per GB of memory at actor start.
+    # Its AI add-ons (aiAnalysis, custom labels) are paid extras and always disabled.
     price_per_1000_results: 2.00
     start_fee_usd: 0.02
     comments_billed: true

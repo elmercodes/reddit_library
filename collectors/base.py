@@ -56,12 +56,15 @@ class Collector(ABC):
     name: str
 
     @abstractmethod
-    def list_top(self, subreddit: str, timeframe: str, limit: int) -> RunResult:
-        """Top posts (no comments) for a subreddit and time filter. items: list[Post]."""
+    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None) -> RunResult:
+        """Top posts (no comments) for a subreddit and time filter. items: list[Post].
+        `since` (YYYY-MM-DD) lets the actor skip older posts when it can do so without
+        changing the ranking."""
 
     @abstractmethod
     def fetch_threads(self, urls: list[str], comments_per_thread: int) -> RunResult:
-        """Posts plus up to `comments_per_thread` comment records each. items: list[Thread]."""
+        """Posts plus up to `comments_per_thread` comment records each, in the order the
+        actor returns them (Reddit "Best", depth-first, replies included). items: list[Thread]."""
 
     @abstractmethod
     def estimate_results(self, posts: int, comments_per_post: int = 0) -> int:

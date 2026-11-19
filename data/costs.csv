@@ -1,1 +1,2 @@
 timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,actual_usd
+2026-11-19T03:32:48+00:00,phase1-test-20261119T033214-a27640,phase1,apify,fatihtahta/reddit-scraper-search-fast,test pull r/homemadeTCGs (actual corrected from Apify run bTIk1Gzxfwdf88J4v: 60 charged results),60 results,0.089400,0.089400

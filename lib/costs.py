@@ -58,7 +58,7 @@ def confirm(estimate: Estimate, assume_yes: bool = False, max_spend: float | Non
         print("Proceeding unattended (--yes, within --max-spend).")
         return True
     if not sys.stdin.isatty():
-        print("No terminal to confirm on; not proceeding.")
+        print("No terminal to answer y/N on, so nothing was run. Run this command yourself in a terminal to confirm.")
         return False
     answer = input("Proceed? [y/N] ").strip().lower()
     return answer in ("y", "yes")
