@@ -1,0 +1,68 @@
+{
+  "id": "1ugpsu0",
+  "title": "Cyclemental Card UI update: brush strokes and better ratio",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1ugpsu0/cyclemental_card_ui_update_brush_strokes_and/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-27",
+  "upvotes": 177,
+  "comments": 33,
+  "engagement_score": 10.4713,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "art direction",
+    "card frame design",
+    "print bleed"
+  ],
+  "summary": "The poster shared an updated card layout for Cyclemental, swapping a flat digital frame for a hand-brushed blue border, a scroll-style title bar, and a more portrait ratio with larger text, and asked whether the brush-stroke frame is too much. Replies were overwhelmingly positive, with most praising the art and the new frame's painted feel and legibility. The few critical points were about wordy ability text, a flavor line that doesn't fit the creature, and text sitting too close to the card edge for print. The overall temperature is friendly and warm, with little real pushback.",
+  "consensus": [
+    "The brush-stroke frame suits the watercolor artwork and gives the game a distinct physical, hand-painted character.",
+    "The new layout reads as a clear improvement over the flat before version, with cleaner, more legible text.",
+    "The creature art is the strongest part of the card and drew the most praise."
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    "Keep critical text (title, stats, and key info) well inside the safe zone. Commenters flagged that info placed close to the trim edge risks getting cut off in print, so set a safe margin inside the bleed before finalizing the frame.",
+    "Trim ability text to the minimum wording the rules need. One commenter noted the abilities carry unnecessary words, and tighter rules text would make the bottom box cleaner and easier to read at a glance.",
+    "Make flavor text specific to the creature. A commenter pointed out that a generic line about swallowing fleets doesn't match the Kodo artwork, which weakens the tie between art and text.",
+    "Use a decorative frame that carries the art style, but test it at print size. Commenters liked the brush border, yet the poster's own question about whether it is too much suggests checking how much ornament the card can take before it competes with the art."
+  ],
+  "business_lessons": [
+    "Asking the community for layout feedback and then showing visible responses to it built goodwill; the poster credited earlier suggestions for the rice-paper and brush direction."
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Is my brush-stroke card frame too much, or is it the best thing on the card?",
+      "why_it_lands": "The poster explicitly asked this, and the thread mostly loved it, which sets up a fun tension if you show the before and after and let viewers weigh in on how far ornament should go."
+    },
+    {
+      "type": "question",
+      "hook": "Why does my card text look fine on screen but might get cut off when printed?",
+      "why_it_lands": "A commenter raised bleed and trim risk directly, and the poster admitted printing usually goes wrong. Creators who print their own cards will recognize this pain point and want the safe-zone checklist."
+    }
+  ],
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the updated card layout UI, in particular whether the digital brush-stroke frame is too much and how the layout could be pushed further to match the artwork.",
+    "images": [
+      {
+        "file": "data/images/1ugpsu0/1.jpg",
+        "description": "'After' version of the card 'Kodo, the Tidal Surfer' on a blurred pastel gradient background, with a rounded black outer border and a hand-brushed, rough-edged blue inner frame. Top left: a circular blue water-kanji (水) element icon. Top banner: a scroll-style cream title bar with the name 'Kodo, the Tidal Surfer' and a blue pill below reading 'Water Elemental', and a small blue scroll end on the right. Art box: a watercolor blue frog/fish-like creature with red fins and yellow eyes on an off-white rice-paper texture with faint kanji watermarks. Text box overlaid on the bottom of the art, with two abilities, each with an icon showing a hand of cards and a multiplier: '2x' 'Ripple. Reveal target's full hand to everyone. Take 1 card of your choice excluding Qi' and '3x' 'Vortex. Swap hands of any two players (can be yourself)'. Bottom strip in a scroll style: left 'Weakness' with purple metal (金) and green wood (木) circles, center flavor text 'It has swallowed whole fleets. It is still hungry.', right 'Destroys' with red fire (火) and yellow-gold earth (土) circles. Footer: 'Cyclémental © 2026'. The ratio is more portrait than the before version, and the text is larger."
+      },
+      {
+        "file": "data/images/1ugpsu0/2.jpg",
+        "description": "'Before' version of the same card on the same blurred gradient background. Clean flat digital layout with a black outer border, a thin solid blue inner frame, and a white interior. Top left: a circular blue water-kanji icon, with the name 'Kodo, the Tidal Surfer' and a blue 'Water Elemental' pill beside it. The creature art sits on a plain white background with no art frame. Below it is a pale-blue flavor text box: 'It has swallowed whole fleets. It is still hungry.' Bottom row has three sections: left 'Weakness' with green wood and purple metal circles stacked vertically; center two ability rows 'Ripple. Reveal target's full hand to everyone. Take 1 card of your choice excluding Qi' (2x icon) and 'Vortex. Swap the entire hands of any two players (can be yourself)' (3x icon); right 'Destroys' with red fire and gold earth circles. Footer: 'Cyclémental 2026'. The card is squatter and wider, and the text is smaller than in the After version."
+      },
+      {
+        "file": "data/images/1ugpsu0/3.jpg",
+        "description": "Photo of an unframed watercolor-and-ink sheet on a wooden table, next to a Talens watercolor palette (pink paint mixing) and a watercolor box at the top. The sheet holds four sketched water creatures with small pencil labels: 'Vora' (top, a coiled anglerfish/eel with yellow fins and a lure), 'Drauge' (right, partially cropped, a blue-teal bulbous creature with pink-red fins), 'Kuru' (bottom left, partially cropped, the blue frog-like creature used on the Kodo card, with orange fins), and 'Sela' (bottom, a cloaked, flowing blue-purple nudibranch-like figure with a yellow and orange frilled crown). Style: hand-painted watercolor with black ink outlines."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T04:44:07+00:00",
+  "extract_model": "claude-haiku-5-5",
+  "extract_cost_usd": 0.000699
+}

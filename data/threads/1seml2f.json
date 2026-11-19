@@ -1,0 +1,76 @@
+{
+  "id": "1seml2f",
+  "title": "What are TCG mechanics you never want to see again?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-07",
+  "upvotes": 40,
+  "comments": 101,
+  "engagement_score": 10.651,
+  "flair": "Discussion",
+  "post_type": "text",
+  "topics": [
+    "game mechanics",
+    "rng and randomness",
+    "resource systems",
+    "card text complexity"
+  ],
+  "summary": "The poster asked which TCG mechanics people never want to see again, and the thread turned into a broad list of grievances rather than a single argument. The most upvoted complaints targeted tying rarity to power (Altered, KeyForge's non-modifiable random decks) and Magic-style lands that decide whether a hand functions. Commenters repeatedly pushed back on main-deck resources, automatic zero-risk resource gain, wordy cards with long resolution text, and out-of-turn loops like Digimon's end-turn trick. Tone was friendly and conversational, with people agreeing with each other and adding examples rather than fighting over specifics, though a few replies asked for clarification and one commenter's Duel Masters remark drew a follow-up question.",
+  "consensus": [
+    "Cards with heavy text and paragraph-length resolution hurt play speed and readability, and simpler text is preferred.",
+    "Resources should carry some risk of missing; automatic, zero-risk resource gain per turn is widely disliked (Hearthstone, Gundam, One Piece were named).",
+    "Separate resource decks are seen as a more modern and better solution than putting lands or mana into the main deck.",
+    "Tutors and deck searches are unpopular because they slow the game and cause mistakes like skipping the target card.",
+    "Hidden or hard-to-track state (unmarked once-per-turn abilities, invisible resources) creates memory burden, and visible markers or tokens are preferred."
+  ],
+  "disagreements": [
+    {
+      "issue": "Whether randomness itself is acceptable in a card game",
+      "side_a": "Some want RNG kept at a moderate level for variety and excitement, objecting only when it is too swingy (Hearthstone was the example).",
+      "side_b": "Others object to any system where the hand or resource count is decided by chance, such as Magic land ratios, and prefer deterministic resource setups."
+    },
+    {
+      "issue": "Whether Magic's mulligan and land system is salvageable",
+      "side_a": "A few commenters accept the Chicago mulligan as a workable patch that reduces mana screw.",
+      "side_b": "The more common view is that land-based resource systems are fundamentally flawed and mulligans only partly fix them."
+    }
+  ],
+  "design_lessons": [
+    "Tie power to card text, not rarity; when rare cards are strictly better, deck quality becomes a function of pack luck and players feel locked out, so keep rarity as a flavor or access signal instead of a power signal.",
+    "If decks are randomly generated or non-modifiable, make sure the random outcomes stay roughly balanced, because a single lucky or unlucky deck can decide competitive play.",
+    "Give resources a real chance of failure (draws, decks that can run dry, or a separate resource deck you choose from) so that resource gain is a decision rather than a free guarantee.",
+    "Keep resolution text short and move complexity into how cards interact; long per-card instructions slow down every use and make rules checking a chore.",
+    "Avoid resources that players cannot interact with (experience or energy counters) because the only counterplay becomes racing to win before they pay off.",
+    "Use visible tokens, counters, or status chips for ongoing effects so players do not have to memorize once-per-turn restrictions or hidden conditions.",
+    "Limit board size: several commenters said more than two rows per side pushes a game toward a board game that needs a special playmat.",
+    "Protect permanents with a cost (like Magic's ward) instead of hard protection such as hexproof, which removes the player's ability to interact and gives a one-for-one trade with no upside.",
+    "Make instant-speed or out-of-turn interaction deliberate and limited, since it adds decision load and slows the game for everyone.",
+    "Avoid double-faced or sideways cards that are hard to read in the hand and require sleeves to be off the table; each card should be readable at a glance."
+  ],
+  "business_lessons": [
+    "Several commenters said rarity-driven power creep is a deliberate sales tactic, so players will keep rewarding designs that sell packs; a homemade game can differentiate by keeping power level independent of rarity.",
+    "Some commenters said they were put off by games that need a separate resource deck or specialty playmat, which raises the physical entry cost for new players.",
+    "Approachability matters: several praised games with simpler text as more welcoming to newcomers, which is a retention and onboarding point for a small publisher."
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Lands in your opening hand should not decide who wins a card game.",
+      "why_it_lands": "The top-scored comment (22 points) argued this directly, and several replies agreed, so it sets up a clear stance with community backing; a designer can show a resource deck alternative and invite pushback."
+    },
+    {
+      "type": "question",
+      "hook": "Does a card game need resources in the main deck at all?",
+      "why_it_lands": "This is a recurring split in the thread between main-deck mana (Magic, Lorcana) and separate resource decks (One Piece, Gundam, Riftbound), so it invites designers to share their choice and reasons."
+    },
+    {
+      "type": "debate",
+      "hook": "Rare cards should never be stronger than common ones, and this thread agrees.",
+      "why_it_lands": "The 16-point rarity-equals-power comment and its follow-ups (Altered, KeyForge) give a concrete, shared grievance with specific examples, making it a strong stance for a design video."
+    }
+  ],
+  "image_notes": null,
+  "extracted_at": "2026-11-19T04:44:01+00:00",
+  "extract_model": "claude-haiku-5-5",
+  "extract_cost_usd": 0.001224
+}

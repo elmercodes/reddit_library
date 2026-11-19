@@ -16,7 +16,9 @@
       "book": "homemadeTCGs",
       "images_done": "described",
       "images_described": 1,
-      "images_model": "claude-sonnet-5-5"
+      "images_model": "claude-sonnet-5-5",
+      "extracted_at": "2026-11-19T04:43:50+00:00",
+      "extract_model": "claude-haiku-5-5"
     },
     "1m4x1yq": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
@@ -180,7 +182,9 @@
       "engagement_score": 10.651,
       "run_id": "phase2-comments-20261119T040403-7b2118",
       "book": "homemadeTCGs",
-      "images_done": "skipped: no images"
+      "images_done": "skipped: no images",
+      "extracted_at": "2026-11-19T04:44:01+00:00",
+      "extract_model": "claude-haiku-5-5"
     },
     "1xurdr1": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
@@ -230,7 +234,9 @@
       "book": "homemadeTCGs",
       "images_done": "described",
       "images_described": 3,
-      "images_model": "claude-sonnet-5-5"
+      "images_model": "claude-sonnet-5-5",
+      "extracted_at": "2026-11-19T04:44:07+00:00",
+      "extract_model": "claude-haiku-5-5"
     },
     "1rolfe6": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
