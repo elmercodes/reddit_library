@@ -16,28 +16,10 @@
   "one_line": "Dominant defaults, resource variance, attack risk-reward, readable stacks, and loved or hated mechanics from other TCGs.",
   "consensus": [
     {
-      "point": "A visibly offset stack of cards, with each lower ability panel showing, reads intuitively as a menu of available abilities. Commenters pointed to Digimon, One Deck Dungeon, Pokémon and the MapleStory TCG as precedents.",
-      "threads": [
-        "T5"
-      ]
-    },
-    {
       "point": "Name ability types by what they do. If the stacked abilities include heals, items and utility, 'actions' fits better than 'attacks'. A separate naming thread similarly pushed designers to choose card-type words that fit the game rather than inheriting Magic terms.",
       "threads": [
         "T5",
         "S2"
-      ]
-    },
-    {
-      "point": "Putting resource cards like lands in the main deck lets draw variance decide games. Separate resource decks or mulligans are credited as improvements, even though people disagree on what the ideal replacement is.",
-      "threads": [
-        "T3"
-      ]
-    },
-    {
-      "point": "In the elemental-cycle game, attacking risks too much for too little: the attacker spends their action and a card while the defender gains cards, so players default to combos.",
-      "threads": [
-        "T4"
       ]
     },
     {
@@ -242,6 +224,29 @@
         "T5",
         "T3"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "A visibly offset stack of cards, with each lower ability panel showing, reads intuitively as a menu of available abilities. Commenters pointed to Digimon, One Deck Dungeon, Pokémon and the MapleStory TCG as precedents.",
+      "threads": [
+        "T5"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "Putting resource cards like lands in the main deck lets draw variance decide games. Separate resource decks or mulligans are credited as improvements, even though people disagree on what the ideal replacement is.",
+      "threads": [
+        "T3"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "In the elemental-cycle game, attacking risks too much for too little: the attacker spends their action and a card while the defender gains cards, so players default to combos.",
+      "threads": [
+        "T4"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

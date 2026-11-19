@@ -354,6 +354,14 @@ def write_collect() -> None:
         collect(batch_id)
 
 
+@app.command("book-rerender")
+def book_rerender(sub: str = typer.Option(..., help="Subreddit name")) -> None:
+    """Re-render chapter Markdown from saved chapter JSON, applying code rules (free)."""
+    from pipeline.write import rerender
+    changed = rerender(sub)
+    print(f"Re-rendered r/{sub}. Consensus rule moved points in: {changed or 'none'}")
+
+
 @app.command("book-index")
 def book_index(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Rebuild books/<sub>/index.md from the plan and written chapters (free)."""

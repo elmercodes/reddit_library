@@ -16,8 +16,11 @@ The subreddit has moved from arguing about AI art to banning it outright. The ba
 ## Consensus
 
 - Placeholder art is a normal part of prototyping, and nobody argued prototypes need finished art. The dispute is only over which kind of placeholder is acceptable. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1qv7ztx/ban_ai_art_from_this_subreddit/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1unj3c9/just_use_your_art_not_ai_stop_using_ai_for_your/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1ww9h9v/placeholder_pigeon_no_ai_art_allowed_this/), [S4](https://www.reddit.com/r/homemadeTCGs/comments/1vzyi02/encouragement_that_you_dont_need_ai_or_art_skills/))
-- Disclosure is a floor that people on both sides of the ban question accepted. Tags, labels or a filter for AI content were raised by ban supporters and opponents alike. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1qv7ztx/ban_ai_art_from_this_subreddit/))
 - In practice, AI art in posts here draws downvotes and pushback, even in threads asking for unrelated feedback such as card layout. AI placeholder art is known well enough to appear as a running joke among the sub's common tropes. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1qv7ztx/ban_ai_art_from_this_subreddit/), [S5](https://www.reddit.com/r/homemadeTCGs/comments/1qn3g25/card_layout_first_draft_feedback_summons/), [S6](https://www.reddit.com/r/homemadeTCGs/comments/1sysr95/starterpack_from_my_observations_no_hate_love/))
+
+**Agreed within a single thread:**
+
+- Disclosure is a floor that people on both sides of the ban question accepted. Tags, labels or a filter for AI content were raised by ban supporters and opponents alike. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1qv7ztx/ban_ai_art_from_this_subreddit/))
 
 ## Hot takes and splits
 

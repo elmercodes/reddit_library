@@ -40,18 +40,6 @@
         "S4",
         "S5"
       ]
-    },
-    {
-      "point": "Card terminology works best when it grows out of the game's lore or is a coined word, rather than a swap for one generic synonym.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
-      "point": "Real-world brands, cars and landmarks raise licensing questions, so content should be original or renamed.",
-      "threads": [
-        "T3"
-      ]
     }
   ],
   "splits": [
@@ -238,6 +226,22 @@
       "threads": [
         "T1"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Card terminology works best when it grows out of the game's lore or is a coined word, rather than a swap for one generic synonym.",
+      "threads": [
+        "T2"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "Real-world brands, cars and landmarks raise licensing questions, so content should be original or renamed.",
+      "threads": [
+        "T3"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

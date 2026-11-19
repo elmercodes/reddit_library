@@ -13,18 +13,6 @@
   "one_line": "Card art: quality is rarely the blocker; per-piece cost and hours times set size decide everything.",
   "consensus": [
     {
-      "point": "When the art is already good, quality is not the reason to hire. The real drivers are speed, workload and timeline.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "point": "Indie and hobby TCG budgets, not art quality, are the main barrier to commissioning. Many card projects have little or no money for art.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
       "point": "A TCG needs a large number of illustrations, so even modest per-piece rates or hours per piece add up to thousands of dollars or months of work.",
       "threads": [
         "T1",
@@ -189,6 +177,22 @@
       "threads": [
         "T1"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "When the art is already good, quality is not the reason to hire. The real drivers are speed, workload and timeline.",
+      "threads": [
+        "T1"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "Indie and hobby TCG budgets, not art quality, are the main barrier to commissioning. Many card projects have little or no money for art.",
+      "threads": [
+        "T2"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

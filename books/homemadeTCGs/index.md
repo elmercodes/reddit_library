@@ -1,6 +1,6 @@
 ---
 subreddit: homemadeTCGs
-updated_at: '2026-11-19T05:25:42+00:00'
+updated_at: '2026-11-19T05:29:22+00:00'
 chapters:
 - slug: card-frames-and-templates
   title: Card frames and template style

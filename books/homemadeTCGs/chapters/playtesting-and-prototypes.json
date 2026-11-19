@@ -21,12 +21,6 @@
   "one_line": "First playtests expose overload; strip to the core, prototype cheap, and make games easy to try.",
   "consensus": [
     {
-      "point": "A boring or rough first playtest is normal and is a signal to iterate, not a verdict on the game. The common fix is to strip the design back to a simpler core before adding complexity.",
-      "threads": [
-        "T3"
-      ]
-    },
-    {
       "point": "Public playtest milestones get warm encouragement, and a strong, readable visual identity earns praise before anyone has read the rules.",
       "threads": [
         "T1",
@@ -251,6 +245,15 @@
         "T3",
         "T4"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "A boring or rough first playtest is normal and is a signal to iterate, not a verdict on the game. The common fix is to strip the design back to a simpler core before adding complexity.",
+      "threads": [
+        "T3"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

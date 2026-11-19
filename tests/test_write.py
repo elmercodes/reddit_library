@@ -8,3 +8,12 @@ def test_link_refs_turns_citations_into_reddit_links():
 
 def test_link_refs_leaves_unknown_refs_alone():
     assert _link_refs("See [T9].", {"T1": {"url": "u"}}) == "See [T9]."
+
+
+def test_single_thread_consensus_is_moved():
+    from pipeline.write import enforce_consensus
+    out = enforce_consensus({"consensus": [{"point": "a", "threads": ["T1"]},
+                                           {"point": "b", "threads": ["T1", "T2"]},
+                                           {"point": "c", "threads": ["T3", "T3"]}]})
+    assert [c["point"] for c in out["consensus"]] == ["b"]
+    assert [c["point"] for c in out["single_thread_agreement"]] == ["a", "c"]

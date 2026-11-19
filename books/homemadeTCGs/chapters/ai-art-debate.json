@@ -27,12 +27,6 @@
       ]
     },
     {
-      "point": "Disclosure is a floor that people on both sides of the ban question accepted. Tags, labels or a filter for AI content were raised by ban supporters and opponents alike.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
       "point": "In practice, AI art in posts here draws downvotes and pushback, even in threads asking for unrelated feedback such as card layout. AI placeholder art is known well enough to appear as a running joke among the sub's common tropes.",
       "threads": [
         "T2",
@@ -226,6 +220,15 @@
       "threads": [
         "T1"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Disclosure is a floor that people on both sides of the ban question accepted. Tags, labels or a filter for AI content were raised by ban supporters and opponents alike.",
+      "threads": [
+        "T2"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

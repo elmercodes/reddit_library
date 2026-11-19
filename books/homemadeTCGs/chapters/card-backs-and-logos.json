@@ -17,18 +17,6 @@
   "one_line": "Card backs as recognition and discovery tools: readable names, fanned-hand testing, colour over icons.",
   "consensus": [
     {
-      "point": "Across camps, commenters treated a card back with no readable game name as a risk for a new, unknown game. Even some who preferred the cleaner single-letter Everdawn back conceded it.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
-      "point": "Secondary text laid over the main title hurts legibility and should be moved into its own band or truly merged into the letterforms. In the TAG thread, people who preferred the old logo and people who preferred the new one both said this.",
-      "threads": [
-        "T4"
-      ]
-    },
-    {
       "point": "The artwork and custom lettering in these card back threads were broadly praised. Critique focused on readability and recognition rather than taste.",
       "threads": [
         "T1",
@@ -235,6 +223,22 @@
       "threads": [
         "T4"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Across camps, commenters treated a card back with no readable game name as a risk for a new, unknown game. Even some who preferred the cleaner single-letter Everdawn back conceded it.",
+      "threads": [
+        "T2"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "Secondary text laid over the main title hurts legibility and should be moved into its own band or truly merged into the letterforms. In the TAG thread, people who preferred the old logo and people who preferred the new one both said this.",
+      "threads": [
+        "T4"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }

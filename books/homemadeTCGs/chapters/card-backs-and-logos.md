@@ -15,9 +15,12 @@ These threads keep asking one question: can someone who glimpses a card back rea
 
 ## Consensus
 
+- The artwork and custom lettering in these card back threads were broadly praised. Critique focused on readability and recognition rather than taste. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+
+**Agreed within a single thread:**
+
 - Across camps, commenters treated a card back with no readable game name as a risk for a new, unknown game. Even some who preferred the cleaner single-letter Everdawn back conceded it. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
 - Secondary text laid over the main title hurts legibility and should be moved into its own band or truly merged into the letterforms. In the TAG thread, people who preferred the old logo and people who preferred the new one both said this. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
-- The artwork and custom lettering in these card back threads were broadly praised. Critique focused on readability and recognition rather than taste. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
 
 ## Hot takes and splits
 

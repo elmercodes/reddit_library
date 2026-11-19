@@ -11,7 +11,8 @@ You get the chapter's title and description, and the threads filed in it. Each t
 ## Sections to write
 - `tldr`: 2 to 4 sentences: what this chapter's threads keep coming back to and the most useful takeaway.
 - `one_line`: one line, under 20 words, for the book's index.
-- `consensus`: what the community agrees on across the threads. When threads split, consensus is only the shared ground both sides accept. Never restate the winning side of a split as consensus. An empty list is fine.
+- `consensus`: what the community agrees on across threads. Every consensus point must be supported by at least two different threads (cite them all). When threads split, consensus is only the shared ground both sides accept. Never restate the winning side of a split as consensus. An empty list is fine.
+- `single_thread_agreement`: real agreement that shows up within only one thread (many commenters in that thread agreed, but no other thread backs it). Put it here, never in `consensus`. Cite the one thread. An empty list is fine.
 - `splits`: real disagreements. Give each side's position, and `weight`: which side carried more support and by roughly how much, based on the support counts (e.g. "side A clearly heavier: 12 commenters, 205 points vs 9 and 68"). An empty list is fine.
 - `design_lessons`: concrete, reusable advice a designer could act on, each with the reason, strongest-supported first. Merge duplicates across threads. Skip generic advice unless the threads add something specific.
 - `business_lessons`: Kickstarter, pricing, printing and manufacturing, marketing, stores, community. Empty list if the threads have none.

@@ -15,11 +15,14 @@ This chapter's threads keep returning to two things. One is how a single strong 
 
 ## Consensus
 
-- A visibly offset stack of cards, with each lower ability panel showing, reads intuitively as a menu of available abilities. Commenters pointed to Digimon, One Deck Dungeon, Pokémon and the MapleStory TCG as precedents. ([T5](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/))
 - Name ability types by what they do. If the stacked abilities include heals, items and utility, 'actions' fits better than 'attacks'. A separate naming thread similarly pushed designers to choose card-type words that fit the game rather than inheriting Magic terms. ([T5](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1q81b1f/what_better_alternative_term_to_indicate_creature/))
+- Put information players need during play on the components themselves rather than in their heads or on a rules sheet. Suggested ways included printing element strengths and weaknesses on cards, using tokens or counters for statuses, and discarding one-shot cards. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/), [T5](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/))
+
+**Agreed within a single thread:**
+
+- A visibly offset stack of cards, with each lower ability panel showing, reads intuitively as a menu of available abilities. Commenters pointed to Digimon, One Deck Dungeon, Pokémon and the MapleStory TCG as precedents. ([T5](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/))
 - Putting resource cards like lands in the main deck lets draw variance decide games. Separate resource decks or mulligans are credited as improvements, even though people disagree on what the ideal replacement is. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/))
 - In the elemental-cycle game, attacking risks too much for too little: the attacker spends their action and a card while the defender gains cards, so players default to combos. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/))
-- Put information players need during play on the components themselves rather than in their heads or on a rules sheet. Suggested ways included printing element strengths and weaknesses on cards, using tokens or counters for statuses, and discarding one-shot cards. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/), [T5](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/))
 
 ## Hot takes and splits
 

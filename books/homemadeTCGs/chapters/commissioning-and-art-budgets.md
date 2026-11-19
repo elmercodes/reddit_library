@@ -15,9 +15,12 @@ Both main threads land on the same point: the art itself is rarely the problem, 
 
 ## Consensus
 
+- A TCG needs a large number of illustrations, so even modest per-piece rates or hours per piece add up to thousands of dollars or months of work. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1t3q6md/do_i_continue_doing_art_myself_or_should_i/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1tkrdeg/im_trying_to_contribute_in_tcg_projects_but_what/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1v32yjk/warning_long_rambling_dev_diary_about_making_32/))
+
+**Agreed within a single thread:**
+
 - When the art is already good, quality is not the reason to hire. The real drivers are speed, workload and timeline. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1t3q6md/do_i_continue_doing_art_myself_or_should_i/))
 - Indie and hobby TCG budgets, not art quality, are the main barrier to commissioning. Many card projects have little or no money for art. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1tkrdeg/im_trying_to_contribute_in_tcg_projects_but_what/))
-- A TCG needs a large number of illustrations, so even modest per-piece rates or hours per piece add up to thousands of dollars or months of work. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1t3q6md/do_i_continue_doing_art_myself_or_should_i/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1tkrdeg/im_trying_to_contribute_in_tcg_projects_but_what/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1v32yjk/warning_long_rambling_dev_diary_about_making_32/))
 
 ## Hot takes and splits
 

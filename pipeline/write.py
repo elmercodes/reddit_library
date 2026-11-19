@@ -46,6 +46,7 @@ SCHEMA = {
         "tldr": {"type": "string"},
         "one_line": {"type": "string"},
         "consensus": {"type": "array", "items": _cited("point")},
+        "single_thread_agreement": {"type": "array", "items": _cited("point")},
         "splits": {"type": "array", "items": {
             "type": "object",
             "properties": {"issue": {"type": "string"}, "side_a": {"type": "string"},
@@ -57,7 +58,7 @@ SCHEMA = {
         "debates": {"type": "array", "items": _IDEA},
         "questions": {"type": "array", "items": _IDEA},
     },
-    "required": ["tldr", "one_line", "consensus", "splits", "design_lessons", "business_lessons",
+    "required": ["tldr", "one_line", "consensus", "single_thread_agreement", "splits", "design_lessons", "business_lessons",
                  "debates", "questions"],
     "additionalProperties": False,
 }
@@ -160,6 +161,19 @@ def _cite(threads_refs: list, refmap: dict) -> str:
     return " " + _link_refs("[" + ", ".join(refs) + "]", refmap) if refs else ""
 
 
+def enforce_consensus(out: dict) -> dict:
+    """Consensus must cite at least two different threads; anything else is single-thread agreement."""
+    out.setdefault("single_thread_agreement", [])
+    keep = []
+    for c in out["consensus"]:
+        if len(set(c["threads"])) >= 2:
+            keep.append(c)
+        else:
+            out["single_thread_agreement"].append({**c, "moved_from_consensus": True})
+    out["consensus"] = keep
+    return out
+
+
 def render_chapter(sub: str, chapter: dict, out: dict, main: list, sec: list, stats: dict) -> str:
     refmap = {ref: d for ref, d in main + sec}
     L = [f"# {chapter['title']}", "", f"*r/{sub} · {chapter['description']}*", "",
@@ -173,7 +187,10 @@ def render_chapter(sub: str, chapter: dict, out: dict, main: list, sec: list, st
 
     L += ["## Consensus", ""]
     L += [f"- {_link_refs(c['point'], refmap)}{_cite(c['threads'], refmap)}" for c in out["consensus"]] or \
-         ["- No clear shared ground across these threads."]
+         ["- No point is backed by more than one thread yet."]
+    if out.get("single_thread_agreement"):
+        L += ["", "**Agreed within a single thread:**", ""]
+        L += [f"- {_link_refs(c['point'], refmap)}{_cite(c['threads'], refmap)}" for c in out["single_thread_agreement"]]
     L += ["", "## Hot takes and splits", ""]
     if out["splits"]:
         for s in out["splits"]:
@@ -222,12 +239,35 @@ def chapter_stats(plan: dict, threads: dict) -> dict:
 
 
 def save_chapter(sub: str, plan: dict, chapter: dict, threads: dict, out: dict, cost: float, model: str) -> None:
+    out = enforce_consensus(out)
     main, sec = chapter_refs(plan, chapter["slug"], threads)
     stats = chapter_stats(plan, threads)[chapter["slug"]]
     write_json(chapters_dir(sub) / f"{chapter['slug']}.json", {
         "slug": chapter["slug"], "written_at": now(), "model": model, "cost_usd": round(cost, 6),
         "refs": {ref: d["id"] for ref, d in main + sec}, **out})
     write_text(chapters_dir(sub) / f"{chapter['slug']}.md", render_chapter(sub, chapter, out, main, sec, stats))
+
+
+def rerender(sub: str) -> list[str]:
+    """Re-render every chapter's Markdown from its saved JSON (free). Returns slugs changed by enforcement."""
+    plan = read_json(plan_path(sub))
+    threads = load_threads(sub)
+    stats = chapter_stats(plan, threads)
+    changed = []
+    for ch in plan["chapters"]:
+        path = chapters_dir(sub) / f"{ch['slug']}.json"
+        saved = read_json(path)
+        if not saved:
+            continue
+        before = len(saved["consensus"])
+        out = enforce_consensus(saved)
+        if len(out["consensus"]) != before:
+            changed.append(ch["slug"])
+            write_json(path, out)
+        main, sec = chapter_refs(plan, ch["slug"], threads)
+        write_text(chapters_dir(sub) / f"{ch['slug']}.md", render_chapter(sub, ch, out, main, sec, stats[ch["slug"]]))
+    write_index(sub)
+    return changed
 
 
 def write_index(sub: str) -> None:

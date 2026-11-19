@@ -15,9 +15,12 @@ These threads are mostly friendly milestone posts: first proxies, first playtest
 
 ## Consensus
 
-- A boring or rough first playtest is normal and is a signal to iterate, not a verdict on the game. The common fix is to strip the design back to a simpler core before adding complexity. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/looking_for_some_advice_first_playtest_went/))
 - Public playtest milestones get warm encouragement, and a strong, readable visual identity earns praise before anyone has read the rules. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1r8q2t4/update_on_my_card_game_i_made_proxies_for_the/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1pjhhbr/first_playtest_session_of_my_homemade_tcg_i_love/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1xichnd/playtesting_doodlz_tcg_beta_starter_decks_test/), [T5](https://www.reddit.com/r/homemadeTCGs/comments/1rnjk30/print_and_play_deck_download_is_now_available_in/), [T6](https://www.reddit.com/r/homemadeTCGs/comments/1vdkbmb/playtesting_runes_rivals_with_my_daughter/), [T7](https://www.reddit.com/r/homemadeTCGs/comments/1v32yjk/warning_long_rambling_dev_diary_about_making_32/))
 - Card images alone do not explain how a game plays. Readers repeatedly ask for rules, what a corner number means, or how resources work. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1r8q2t4/update_on_my_card_game_i_made_proxies_for_the/), [T6](https://www.reddit.com/r/homemadeTCGs/comments/1vdkbmb/playtesting_runes_rivals_with_my_daughter/), [T9](https://www.reddit.com/r/homemadeTCGs/comments/1qfp7ur/got_to_playtest_my_homemadetcg_with_my_kids_today/), [S3](https://www.reddit.com/r/homemadeTCGs/comments/1wrrlck/finally_sharing_my_first_6th_game_on_here/))
+
+**Agreed within a single thread:**
+
+- A boring or rough first playtest is normal and is a signal to iterate, not a verdict on the game. The common fix is to strip the design back to a simpler core before adding complexity. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/looking_for_some_advice_first_playtest_went/))
 
 ## Hot takes and splits
 

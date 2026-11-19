@@ -15,9 +15,12 @@ Both main threads are friendly, low-scoring showcases: a desktop card database a
 
 ## Consensus
 
+- How a creator built their cards, templates or card database site is a recurring curiosity, even in threads that are mainly about something else. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1sqv27p/tcg_forge_a_tcg_card_database_made_for_tcg/), [S1](https://www.reddit.com/r/homemadeTCGs/comments/1w0y1es/elemental_creatures_tcg_website_updated_with_set_2/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1xg0qb3/i_work_on_an_incremental_game_that_mimic_old/), [S3](https://www.reddit.com/r/homemadeTCGs/comments/1x7a612/got_some_test_prints_in_for_duel_eterna/))
+
+**Agreed within a single thread:**
+
 - Commenters liked the idea of a dedicated card database tool with one-time pricing. Several said they would hold off until it could put their own art and frames onto cards or export to Tabletop Simulator. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1sqv27p/tcg_forge_a_tcg_card_database_made_for_tcg/))
 - Building a custom digital version of a homemade TCG drew admiration. Commenters noted that most designers avoid it or find game programming daunting. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1sm0b6x/my_simulator_is_taking_shape_sidus_proxyma/))
-- How a creator built their cards, templates or card database site is a recurring curiosity, even in threads that are mainly about something else. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1sqv27p/tcg_forge_a_tcg_card_database_made_for_tcg/), [S1](https://www.reddit.com/r/homemadeTCGs/comments/1w0y1es/elemental_creatures_tcg_website_updated_with_set_2/), [S2](https://www.reddit.com/r/homemadeTCGs/comments/1xg0qb3/i_work_on_an_incremental_game_that_mimic_old/), [S3](https://www.reddit.com/r/homemadeTCGs/comments/1x7a612/got_some_test_prints_in_for_duel_eterna/))
 
 ## Hot takes and splits
 

@@ -14,18 +14,6 @@
   "one_line": "Card database tools and custom simulators: what designers need before adopting, and when to build digital.",
   "consensus": [
     {
-      "point": "Commenters liked the idea of a dedicated card database tool with one-time pricing. Several said they would hold off until it could put their own art and frames onto cards or export to Tabletop Simulator.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "point": "Building a custom digital version of a homemade TCG drew admiration. Commenters noted that most designers avoid it or find game programming daunting.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
       "point": "How a creator built their cards, templates or card database site is a recurring curiosity, even in threads that are mainly about something else.",
       "threads": [
         "T1",
@@ -175,6 +163,22 @@
       "threads": [
         "T2"
       ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Commenters liked the idea of a dedicated card database tool with one-time pricing. Several said they would hold off until it could put their own art and frames onto cards or export to Tabletop Simulator.",
+      "threads": [
+        "T1"
+      ],
+      "moved_from_consensus": true
+    },
+    {
+      "point": "Building a custom digital version of a homemade TCG drew admiration. Commenters noted that most designers avoid it or find game programming daunting.",
+      "threads": [
+        "T2"
+      ],
+      "moved_from_consensus": true
     }
   ]
 }
