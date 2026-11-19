@@ -1,0 +1,145 @@
+# Reddit Library configuration.
+# Everything that might change lives here: subreddits, caps, scoring, models, actors, prices.
+# Prices marked "VERIFY" are re-checked against live pages before the phase that uses them.
+
+# ---------------------------------------------------------------------------
+# Sources
+# ---------------------------------------------------------------------------
+# Subreddit names without the "r/" prefix. Each one becomes a book in books/<name>/.
+subreddits:
+  - tabletopgamedesign
+  - BoardgameDesign
+  - boardgames
+  - homemadeTCGs
+  - tcg
+  - kickstarter
+
+# ---------------------------------------------------------------------------
+# Collection (Phase 2)
+# ---------------------------------------------------------------------------
+collection:
+  # Top listings pulled for candidates. Reddit shows ~250 posts per listing.
+  timeframes: [year, all]
+  # Only keep candidate posts newer than this many months.
+  max_age_months: 24
+  # Max candidate posts kept per subreddit after de-duplication.
+  candidates_per_sub: 300
+  # Max posts requested from each Top listing (caps Apify spend on candidates).
+  posts_per_listing: 250
+  # Threads kept per subreddit after ranking; only these get comments fetched.
+  keep_per_sub: 100
+  # Top-voted top-level comments kept per thread.
+  comments_per_thread: 15
+  # Also keep the single highest-voted reply to each kept top-level comment.
+  # Decided after the Phase 1 test (cost shown with and without).
+  include_best_reply: true
+  # How many comment records to request from the actor per thread, so that local
+  # selection can find the top 15 (+ replies). Tuned after the Phase 1 test.
+  comments_fetch_per_thread: 40
+  # Keep NSFW posts?
+  include_nsfw: false
+
+# Engagement score = upvote_weight * log(upvotes+1) + comment_weight * log(comments+1)
+scoring:
+  upvote_weight: 1.0
+  comment_weight: 1.5
+
+# ---------------------------------------------------------------------------
+# Collectors (swappable). Change `collector` to switch; nothing else changes.
+# ---------------------------------------------------------------------------
+collector: fatihtahta
+
+collectors:
+  fatihtahta:
+    actor_id: fatihtahta/reddit-scraper-search-fast
+    # USD per 1,000 results. VERIFY in Phase 1 (listing: $1.49 entry tier, $1.19 top tier).
+    price_per_1000_results: 1.49
+    start_fee_usd: 0.0
+    # Assume comment records are billed as results until the Phase 1 test says otherwise.
+    comments_billed: true
+  harshmaur:
+    actor_id: harshmaur/reddit-scraper
+    # VERIFY in Phase 1 (listing: $2.00 entry tier, $1.50 top tier, plus small start fee).
+    price_per_1000_results: 2.00
+    start_fee_usd: 0.02
+    comments_billed: true
+
+# Hard safety caps applied to every Apify run (on top of per-run maxItems).
+apify:
+  # Never let a single run charge more than this, whatever the estimate says.
+  max_charge_usd_per_run: 15.00
+  # Seconds to wait for a run before giving up.
+  run_timeout_secs: 3600
+
+# ---------------------------------------------------------------------------
+# Images (Phase 3)
+# ---------------------------------------------------------------------------
+images:
+  max_per_post: 3
+  # Flair or title keywords that suggest the picture is the point.
+  design_keywords: [rate, critique, feedback, layout, prototype, card, design, art, template, mockup, review, thoughts, opinion]
+  # Keywords that suggest a meme or a collection photo (skipped).
+  skip_keywords: [meme, haul, collection, pulled, unboxing, shitpost]
+  # Rough tokens per image description call, used for estimates.
+  est_input_tokens_per_image: 1600
+  est_output_tokens_per_image: 400
+
+# ---------------------------------------------------------------------------
+# Claude models (pipeline). VERIFY IDs and prices before Phase 3.
+# ---------------------------------------------------------------------------
+models:
+  extract: claude-haiku-5-5      # per-thread extraction (Phase 4)
+  route: claude-haiku-5-5        # chapter routing for new threads (Phase 8)
+  dedupe: claude-haiku-5-5       # ideas board de-duplication (Phase 6)
+  summarize_chat: claude-haiku-5-5  # summarizing old chat turns (Phase 7)
+  images: claude-opus-5-5        # image descriptions (Phase 3)
+  books: claude-opus-5-5         # clustering, chapter writing (Phase 5)
+  master: claude-opus-5-5        # master book (Phase 6)
+
+# Effort level per pipeline role (low/medium/high/xhigh/max).
+effort:
+  extract: low
+  route: low
+  dedupe: low
+  summarize_chat: low
+  images: medium
+  books: high
+  master: high
+
+# Use the Message Batches API (50% off) for bulk extraction runs.
+batch: true
+
+# USD per 1M tokens. cache_write = 5-minute cache write, cache_read = cache hit.
+prices:
+  claude-opus-5-5:   {input: 4.00, output: 20.00, cache_write: 5.00,  cache_read: 0.20}
+  claude-sonnet-5-5: {input: 2.00, output: 10.00, cache_write: 2.50,  cache_read: 0.10}
+  claude-haiku-5-5:  {input: 0.10, output: 0.50,  cache_write: 0.125, cache_read: 0.01}
+# Discount applied to batch requests.
+batch_discount: 0.5
+
+# ---------------------------------------------------------------------------
+# Chat (Phase 7). Model picker shown next to every chat box.
+# Add, remove or rename entries freely; prices come from `prices` above.
+# ---------------------------------------------------------------------------
+chat_models:
+  - id: claude-opus-5-5
+    label: Opus (deep)
+  - id: claude-sonnet-5-5
+    label: Sonnet (default)
+    default: true
+  - id: claude-haiku-5-5
+    label: Haiku (quick)
+
+chat:
+  # Summarize older turns once a conversation's history passes this many tokens.
+  summarize_after_tokens: 60000
+  # Keep this many most recent turns verbatim when summarizing.
+  keep_recent_turns: 6
+  max_output_tokens: 16000
+
+# ---------------------------------------------------------------------------
+# App
+# ---------------------------------------------------------------------------
+app:
+  host: 127.0.0.1
+  port: 8765

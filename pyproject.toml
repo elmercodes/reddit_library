@@ -1,0 +1,33 @@
+[project]
+name = "reddit-library"
+version = "0.1.0"
+description = "Private research library built from game design and TCG subreddits"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "apify-client",
+    "httpx",
+    "pyyaml",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "typer",
+]
+
+[project.scripts]
+rl = "lib.cli:app"
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lib", "collectors", "pipeline", "app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

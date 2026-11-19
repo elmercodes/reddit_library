@@ -1,0 +1,3 @@
+# King of Weebs
+
+_Describe the game here: pitch, player count, play time, core loop, rules, and card lists. You can edit this from the app's King of Weebs tab. The chat for this tab reads this file._

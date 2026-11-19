@@ -1,0 +1,5 @@
+# Paste Reddit thread links here, one per line, then run `uv run rl add-urls`
+# (or use "+ Add threads" in the app). Lines starting with # are ignored.
+# Processed links are moved under the "done" marker below.
+
+# --- done ---
