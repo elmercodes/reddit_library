@@ -1,0 +1,359 @@
+{
+  "id": "1seml2f",
+  "title": "What are TCG mechanics you never want to see again?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-07",
+  "upvotes": 40,
+  "comments": 101,
+  "engagement_score": 10.651,
+  "flair": "Discussion",
+  "post_type": "text",
+  "topics": [
+    "disliked mechanics",
+    "resource systems",
+    "card text complexity",
+    "rarity and randomness"
+  ],
+  "summary": "A designer asked r/homemadeTCGs which TCG mechanics they never want to see again. The 101-comment thread was friendly and wide-ranging, with commenters naming pet peeves rather than arguing. The biggest point clusters were land/mana-in-deck screw, wall-of-text cards, and two-sided or hard-to-read cards. Resource systems drew opposing views: some hate random land draws, others hate risk-free automatic resources.",
+  "consensus": [
+    {
+      "point": "Several commenters object to mana/lands in the main deck because screw and flood decide games.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 31,
+        "share": 0.237
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters criticize KeyForge-style fixed random decks: unmodifiable plus fully random plus used competitively lets power gaps decide matches.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 24,
+        "share": 0.183
+      }
+    },
+    {
+      "point": "Many commenters dislike excessive card text and heavy keyword or rules overhead; they want complexity to come from interactions rather than reading paragraphs.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Several commenters dislike dual-faced or flipped/sideways cards because they are hard to track, break sleeveless or clear-sleeve play, and hurt hand readability.",
+      "evidence": [
+        "C10",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter dislikes once-per-turn abilities with no visible marker, since they strain memory late game; another likes tokens and counters to offload tracking and math.",
+      "evidence": [
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    },
+    {
+      "point": "One commenter says resources with no counterplay (experience, energy) leave only the option of racing before they pay off.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.038
+      }
+    },
+    {
+      "point": "One commenter dislikes unit upkeep costs.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.031
+      }
+    },
+    {
+      "point": "One commenter criticizes hexproof-style untargetability and prefers a fair tax like ward.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "One commenter dislikes cards that negate all opposing effects by existing and also respawn, plus 'you can't' effects generally.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "One commenter says instant-speed play slows the game down and should be added cautiously.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "One commenter says Digimon's memory gauge allows end-turn-and-return loops that force constant fixes for new infinite-loop risks.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which resource system is the problem: random lands or automatic risk-free resources?",
+      "side_a": "Drawing resources from the main deck makes games swingy and should be replaced with automatic or separate-deck resources.",
+      "side_a_evidence": [
+        "C4",
+        "C13"
+      ],
+      "side_b": "Automatic, risk-free resources are boring and make games play alike; some risk of missing resources is good.",
+      "side_b_evidence": [
+        "C15",
+        "C20"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 24,
+        "share": 0.183
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.061
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Keep card text short and make depth come from interactions between simple cards, so players can understand a new card on one read.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
+    },
+    {
+      "lesson": "If you want resource risk, consider a separate resource deck that players choose to draw from, or a mulligan variant, to reduce land screw while keeping some tension.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 31,
+        "share": 0.237
+      }
+    },
+    {
+      "lesson": "Make state visible: use counters or tokens for once-per-turn abilities and statuses, so players do not rely on memory.",
+      "evidence": [
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    },
+    {
+      "lesson": "Avoid two-sided and sideways cards if you want sleeveless or clear-sleeve play and readable hands.",
+      "evidence": [
+        "C10",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "lesson": "Give protective effects a cost, like ward, rather than total immunity, so opponents keep counterplay.",
+      "evidence": [
+        "C23",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Tying rarity to power sells but frustrates players; a designer can stand out by decoupling them.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 16,
+        "share": 0.122
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Lands in your deck or automatic resources: this subreddit can't agree.",
+      "why_it_lands": "Commenters split: land-screw critics (C4, C13) versus those calling risk-free resources boring (C15, C20). Designers have strong opinions here.",
+      "evidence": [
+        "C4",
+        "C13",
+        "C15",
+        "C20"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 32,
+        "share": 0.244
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How much text is too much on a card?",
+      "why_it_lands": "Text walls and keyword overload were a repeated complaint, and every designer has to pick a limit.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Would you ever put a card on two sides?",
+      "why_it_lands": "Dual-faced cards were criticized for sleeves and readability, which is a practical production question.",
+      "evidence": [
+        "C10",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    }
+  ],
+  "comment_points_total": 131,
+  "comment_ids": {
+    "C1": "oesq8n4",
+    "C2": "oesriaq",
+    "C3": "oetd6a0",
+    "C4": "oertjoy",
+    "C5": "oesgs6s",
+    "C6": "oet2obe",
+    "C7": "oevtzij",
+    "C8": "oewia0x",
+    "C9": "oew3kr1",
+    "C10": "oetzjz9",
+    "C11": "oewhh8r",
+    "C12": "oeyxz8t",
+    "C13": "oex5y8m",
+    "C14": "oexcm2j",
+    "C15": "oesd677",
+    "C16": "oer9ag0",
+    "C17": "oerg2x2",
+    "C18": "oeu3xxf",
+    "C19": "oevdgr5",
+    "C20": "oewmwla",
+    "C21": "oetetcp",
+    "C22": "oewg3jh",
+    "C23": "oey8man",
+    "C24": "of2jxfv",
+    "C25": "ofa4s87"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T04:52:06+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.023441
+}

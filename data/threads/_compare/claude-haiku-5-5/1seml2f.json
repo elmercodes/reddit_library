@@ -1,0 +1,308 @@
+{
+  "id": "1seml2f",
+  "title": "What are TCG mechanics you never want to see again?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-07",
+  "upvotes": 40,
+  "comments": 101,
+  "engagement_score": 10.651,
+  "flair": "Discussion",
+  "post_type": "text",
+  "topics": [
+    "card text",
+    "resource systems",
+    "randomness",
+    "dual-faced cards"
+  ],
+  "summary": "A designer asked which card game mechanics commenters never want to see again, and invited stories of games they quit over them. Commenters answered with a mix of named examples: Magic's land-screw dice roll, KeyForge's random unmodifiable decks, Duel Masters' unfolding cards, and text-heavy cards. The tone was friendly and critical without being heated. No split drew strong opposition, though a few commenters defended some randomness.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Magic's land system makes opening hands decide games, and one commenter says a mulligan variant softens this but does not fix it.",
+      "evidence": [
+        "C4",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 29,
+        "share": 0.221
+      }
+    },
+    {
+      "point": "Duel Masters' cards that unfold as they become more complex were called painful by one commenter, though another only asked what that meant.",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 28,
+        "share": 0.214
+      }
+    },
+    {
+      "point": "Random, non-modifiable prebuilt decks let players break parity with a lucky build, according to one commenter who responded to a KeyForge example.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 24,
+        "share": 0.183
+      }
+    },
+    {
+      "point": "Cards with too much text or too many stats are hard to resolve and slow the game, so complexity should come from interactions rather than from individual cards.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Automatic or risk-free resource generation is boring and should be avoided, with commenters preferring resources you can miss or that must be spent from a separate deck.",
+      "evidence": [
+        "C15",
+        "C20",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Dual-faced and flip cards are a readability and sleeving problem, since opponents may not know the other side and the cards are hard to read in hand.",
+      "evidence": [
+        "C21",
+        "C10",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Hidden once-per-turn abilities with no visible marker create memory load, and tokens or chips help avoid that.",
+      "evidence": [
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    },
+    {
+      "point": "Upkeep costs on units, such as paying each turn or each attack, were called a dislike by one commenter.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.031
+      }
+    },
+    {
+      "point": "Unfair evasion and hexproof-style protection leave players unable to manage permanents, and ward-style taxes were offered as a fairer alternative.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "How much randomness belongs in a card game",
+      "side_a": "Randomness should be kept low, since dice-like land draws and random unmodifiable decks decide games too much.",
+      "side_a_evidence": [
+        "C1",
+        "C3",
+        "C4"
+      ],
+      "side_b": "Some RNG is necessary for variety and excitement, though swingy systems like Hearthstone go too far.",
+      "side_b_evidence": [
+        "C18",
+        "C15"
+      ],
+      "side_a_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 46,
+        "share": 0.351
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.061
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Keep the number of text-heavy card rules low and push complexity into how cards interact, because long resolution text slows play and makes cards hard to process.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
+    },
+    {
+      "lesson": "Give resources a cost or a chance to miss, so the choice of when to spend them matters; automatic free resources each turn make games feel similar.",
+      "evidence": [
+        "C15",
+        "C20",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "lesson": "Avoid two-sided cards if the game must be playable without sleeves, since opponents cannot see the other side and the card becomes hard to read in hand.",
+      "evidence": [
+        "C10",
+        "C25",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "lesson": "Mark once-per-turn or hidden triggers visibly, such as with tokens or state changes, so late-game boards stay manageable.",
+      "evidence": [
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "One commenter says tying rarity to power sells packs, so designers should expect pressure to keep rare cards strictly stronger.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 16,
+        "share": 0.122
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Free mana every turn: is that smart design or just lazy resource design?",
+      "why_it_lands": "The thread split on whether risk-free resources are a shortcut, with three commenters against them and their points stacking up quickly. Designers can take a side on camera and show a risk-based alternative.",
+      "evidence": [
+        "C15",
+        "C20",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How many words can a card hold before players stop reading it?",
+      "why_it_lands": "Text bloat came up as a recurring pain point, with three commenters tying it to slow games and rules memorization. A designer can answer with a concrete word budget and a before-and-after card.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
+    }
+  ],
+  "comment_points_total": 131,
+  "comment_ids": {
+    "C1": "oesq8n4",
+    "C2": "oesriaq",
+    "C3": "oetd6a0",
+    "C4": "oertjoy",
+    "C5": "oesgs6s",
+    "C6": "oet2obe",
+    "C7": "oevtzij",
+    "C8": "oewia0x",
+    "C9": "oew3kr1",
+    "C10": "oetzjz9",
+    "C11": "oewhh8r",
+    "C12": "oeyxz8t",
+    "C13": "oex5y8m",
+    "C14": "oexcm2j",
+    "C15": "oesd677",
+    "C16": "oer9ag0",
+    "C17": "oerg2x2",
+    "C18": "oeu3xxf",
+    "C19": "oevdgr5",
+    "C20": "oewmwla",
+    "C21": "oetetcp",
+    "C22": "oewg3jh",
+    "C23": "oey8man",
+    "C24": "of2jxfv",
+    "C25": "ofa4s87"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T04:51:33+00:00",
+  "extract_model": "claude-haiku-5-5",
+  "extract_cost_usd": 0.002149
+}

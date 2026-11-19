@@ -1,0 +1,332 @@
+{
+  "id": "1qv7ztx",
+  "title": "Ban AI art from this subreddit?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qv7ztx/ban_ai_art_from_this_subreddit/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-03",
+  "upvotes": 175,
+  "comments": 231,
+  "engagement_score": 13.3406,
+  "flair": "Discussion",
+  "post_type": "image",
+  "topics": [
+    "ai art",
+    "placeholder art",
+    "subreddit moderation",
+    "art budget"
+  ],
+  "summary": "A poster asked whether AI art, even as placeholder art, should be banned from r/homemadeTCGs, showing a gray question-mark placeholder card (ATLAS BUSTER) as the alternative. Responses were sharply split: ban supporters and anti-AI commenters carried more points, but a sizable group defended AI as a prototyping tool and cited cost. Many on both sides converged on a softer middle: tag or label AI art. The tone was heated but mostly argued rather than hostile.",
+  "consensus": [
+    {
+      "point": "Many commenters support banning or at least restricting AI art here, with several saying they see it constantly and are tired of it.",
+      "evidence": [
+        "C1",
+        "C7",
+        "C10",
+        "C11",
+        "C13",
+        "C14",
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 180,
+        "share": 0.604
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Several commenters from both camps want AI art to be disclosed through a tag, label, or citation, as a minimum or compromise.",
+      "evidence": [
+        "C10",
+        "C12",
+        "C22"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 34,
+        "share": 0.114
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter said art is not core to TCG design and that showing finished art turns the sub into an art sub rather than a game design sub; they pointed to the HTCG Discord policy of keeping AI content out of main channels.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 26,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter argued placeholders are a normal workflow step in film and design, so using AI for one says nothing about artistic integrity.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.04
+      }
+    },
+    {
+      "point": "One commenter argued art and flavor communicate game systems and make cards readable across the table, so placeholder art matters for design legibility.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "One commenter noted a hand-drawn sketch is preferable to nothing, and nothing is preferable to AI; they said hand-drawn posts are their favorites.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "Two commenters compared art commission costs: one cited roughly 15k for a TTRPG, another about 3-4k for around 180 commissioned TCG pieces, questioning the high price claims.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.017
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should AI art, including placeholders, be banned from the subreddit?",
+      "side_a": "Ban or restrict it: it signals low effort, plagiarism and environmental harm, and the art is not needed to discuss game design.",
+      "side_a_evidence": [
+        "C1",
+        "C7",
+        "C11",
+        "C13",
+        "C14",
+        "C16",
+        "C19",
+        "C25"
+      ],
+      "side_b": "Do not ban it: AI is a tool, placeholders are private testing material, and many cannot afford commissions.",
+      "side_b_evidence": [
+        "C5",
+        "C12",
+        "C15",
+        "C17",
+        "C20",
+        "C21",
+        "C23",
+        "C24"
+      ],
+      "side_a_support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 166,
+        "share": 0.557
+      },
+      "side_b_support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 56,
+        "share": 0.188
+      }
+    },
+    {
+      "issue": "Is paying for or making placeholder art a reasonable expectation?",
+      "side_a": "Yes: sketches, stock images or crayon drawings show effort and avoid AI.",
+      "side_a_evidence": [
+        "C18",
+        "C25"
+      ],
+      "side_b": "No: many creators lack money or skill, and better placeholders help them design.",
+      "side_b_evidence": [
+        "C2",
+        "C5",
+        "C15"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.037
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 39,
+        "share": 0.131
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Treat placeholder art as a design tool: images that match a card's function help you judge flavor, legibility and mechanic communication before commissioning final art.",
+      "evidence": [
+        "C15",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 34,
+        "share": 0.114
+      }
+    },
+    {
+      "lesson": "If you want to avoid AI, a plain placeholder like a sketch or the question-mark art box still lets you test layout, costs and rules text.",
+      "evidence": [
+        "C18",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.037
+      }
+    },
+    {
+      "lesson": "Mark placeholder cards clearly (as the ATLAS BUSTER card does with its PLACEHOLDER tag) so viewers know art is not final.",
+      "evidence": [
+        "C12",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 26,
+        "share": 0.087
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Public design communities are sensitive to AI use, so label it up front; undisclosed AI can damage trust and how people judge your project.",
+      "evidence": [
+        "C10",
+        "C12",
+        "C25",
+        "C3"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 35,
+        "share": 0.117
+      }
+    },
+    {
+      "lesson": "Budget realistically for art: reported costs ranged widely (about 3-4k for 180 pieces versus 15k for a TTRPG), so get quotes and consider doing some art yourself.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.017
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Should AI placeholder art be banned? This subreddit mostly said yes.",
+      "why_it_lands": "Clear split with the ban side holding more points, while defenders cite cost and workflow.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C14",
+        "C15",
+        "C24"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 140,
+        "share": 0.47
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do you need art to playtest a card game?",
+      "why_it_lands": "Commenters disagree on whether art helps legibility and ideas or is irrelevant to mechanics.",
+      "evidence": [
+        "C7",
+        "C15",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 60,
+        "share": 0.201
+      }
+    }
+  ],
+  "comment_points_total": 298,
+  "comment_ids": {
+    "C1": "o3hpb9t",
+    "C2": "o3qi2xk",
+    "C3": "o3hqiv6",
+    "C4": "o3hzxd7",
+    "C5": "o3hmmlr",
+    "C6": "o3ixo0l",
+    "C7": "o3ikqr2",
+    "C8": "o3ip1xc",
+    "C9": "o3n3gmz",
+    "C10": "o3hwtg7",
+    "C11": "o3hiukf",
+    "C12": "o3jxgsm",
+    "C13": "o3jtgoi",
+    "C14": "o3hjmxn",
+    "C15": "o3hste3",
+    "C16": "o3hmmgy",
+    "C17": "o3p2qjh",
+    "C18": "o3is1k5",
+    "C19": "o3hwpg6",
+    "C20": "o3sg74f",
+    "C21": "o3wbdst",
+    "C22": "o3hqckz",
+    "C23": "o3ij9n7",
+    "C24": "o3jc41w",
+    "C25": "o3hyo3g"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants opinions on whether AI art, even as placeholder art, should be banned from the subreddit, and offers this card as an example of a non-AI placeholder.",
+    "images": [
+      {
+        "file": "data/images/1qv7ztx/1.jpg",
+        "description": "Custom TCG card with a generic gray placeholder art box (large white-outlined dark question mark on a speckled gray halftone background) instead of real art. Layout: top-left red/orange spiky badge with cost '3' and 'RP' below it; two round icons stacked beneath it (red fist icon, yellow winged-sword/emblem icon). Title bar at top reads 'ATLAS BUSTER' in bold condensed stencil-like type, with the subtitle 'TECTONIC STORM' beneath on a red-to-gold gradient. Below the art on the left is a red tab reading 'EVENT'. A white banner across the card reads 'EARTH LIGHTNING SONG'. Text box (white with a faint gray fortress silhouette watermark) reads: 'Choose one — • Deal 8 damage to target unit. • Exhaust all units target player controls.' On the right edge are small tabs 'RED' (red) and 'YLW' (yellow). Footer: 'FACTION' label with 'THE FREE WASTES / IRON EAGLES', and a bottom-right faction crest combining a yellow sword emblem and red fist on a black flame-like splash. Bottom-left reads a small sword icon ': PLACEHOLDER' and bottom-right a 'L' (likely rarity/set code). Frame is red on left fading to gold on right with a black outer border. Text is legible."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T04:51:53+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.031282
+}

@@ -1,0 +1,235 @@
+{
+  "id": "1ugpsu0",
+  "title": "Cyclemental Card UI update: brush strokes and better ratio",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1ugpsu0/cyclemental_card_ui_update_brush_strokes_and/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-27",
+  "upvotes": 177,
+  "comments": 33,
+  "engagement_score": 10.4713,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "card frame design",
+    "watercolor art",
+    "card text legibility"
+  ],
+  "summary": "The poster shared an updated card layout for their creature card Kodo, switching from a flat digital frame to a brush-stroke frame with a larger, more portrait ratio, and asked whether the brush strokes are too much. The community response was warm and mostly complimentary, with praise for the art, the painted frame and the clearer info. Commenters also raised practical concerns: the text is too wordy, the info sits too close to the edge and may be cut off, and the flavour text is generic. The temperature is friendly, with no real split in opinion.",
+  "consensus": [
+    {
+      "point": "The painted brush-stroke frame suits the watercolor art and gives the game character.",
+      "evidence": [
+        "C8",
+        "C18",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.171
+      }
+    },
+    {
+      "point": "The new layout is clearer and more legible than the earlier version.",
+      "evidence": [
+        "C8",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.171
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "The ability and flavour text is wordy and could be shortened for a cleaner look.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "point": "Key info sits too close to the card edge and may get cut off in print without proper bleed.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "The flavour text is generic and does not fit Kodo as a creature.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "The card's mechanics are readable from the design alone, even without context.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Trim rules and flavour text so the card reads faster; a commenter found the wording padded, and shorter text would make the frame look more polished.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "lesson": "Keep text and icons inside the safe zone away from the trim line, since edge placement risks being cut off when printed.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Flavour text should match the creature's look, since a mismatch between the art and the line weakens the card.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Set up bleed and cut lines before printing a test batch, since print misalignment is a common risk for a first run.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Does a painted brush-stroke frame make a card better or just busier?",
+      "why_it_lands": "The poster asked this exact question and the thread answered yes, but the one practical objection about edge safety shows the tension between aesthetics and print readiness.",
+      "evidence": [
+        "C8",
+        "C18",
+        "C14"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.171
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you keep card text short when the flavour and rules compete for space?",
+      "why_it_lands": "A commenter flagged wordy text and another flagged generic flavour, two pain points designers face on every card.",
+      "evidence": [
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.146
+      }
+    }
+  ],
+  "comment_points_total": 41,
+  "comment_ids": {
+    "C1": "ou1x3dk",
+    "C2": "ou1ykys",
+    "C3": "ou3jh2a",
+    "C4": "ou3kiyn",
+    "C5": "ou2b5uf",
+    "C6": "ou2b9ep",
+    "C7": "ou3d4jh",
+    "C8": "ou5bvde",
+    "C9": "ou6ngyf",
+    "C10": "ou3o81i",
+    "C11": "ou3s97c",
+    "C12": "ou4iwfn",
+    "C13": "ou6oh4f",
+    "C14": "ou6190t",
+    "C15": "ou6n7nr",
+    "C16": "ou7gozt",
+    "C17": "ou7j5sw",
+    "C18": "oub9qsm",
+    "C19": "oueno6a",
+    "C20": "oukdxkr",
+    "C21": "oum1xcp",
+    "C22": "oulpq5c",
+    "C23": "oxffrxw",
+    "C24": "oxfiihz",
+    "C25": "ou2fulj"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the updated card layout UI, in particular whether the digital brush-stroke frame is too much and how the layout could be pushed further to match the artwork.",
+    "images": [
+      {
+        "file": "data/images/1ugpsu0/1.jpg",
+        "description": "'After' version of the card 'Kodo, the Tidal Surfer' on a blurred pastel gradient background, with a rounded black outer border and a hand-brushed, rough-edged blue inner frame. Top left: a circular blue water-kanji (水) element icon. Top banner: a scroll-style cream title bar with the name 'Kodo, the Tidal Surfer' and a blue pill below reading 'Water Elemental', and a small blue scroll end on the right. Art box: a watercolor blue frog/fish-like creature with red fins and yellow eyes on an off-white rice-paper texture with faint kanji watermarks. Text box overlaid on the bottom of the art, with two abilities, each with an icon showing a hand of cards and a multiplier: '2x' 'Ripple. Reveal target's full hand to everyone. Take 1 card of your choice excluding Qi' and '3x' 'Vortex. Swap hands of any two players (can be yourself)'. Bottom strip in a scroll style: left 'Weakness' with purple metal (金) and green wood (木) circles, center flavor text 'It has swallowed whole fleets. It is still hungry.', right 'Destroys' with red fire (火) and yellow-gold earth (土) circles. Footer: 'Cyclémental © 2026'. The ratio is more portrait than the before version, and the text is larger."
+      },
+      {
+        "file": "data/images/1ugpsu0/2.jpg",
+        "description": "'Before' version of the same card on the same blurred gradient background. Clean flat digital layout with a black outer border, a thin solid blue inner frame, and a white interior. Top left: a circular blue water-kanji icon, with the name 'Kodo, the Tidal Surfer' and a blue 'Water Elemental' pill beside it. The creature art sits on a plain white background with no art frame. Below it is a pale-blue flavor text box: 'It has swallowed whole fleets. It is still hungry.' Bottom row has three sections: left 'Weakness' with green wood and purple metal circles stacked vertically; center two ability rows 'Ripple. Reveal target's full hand to everyone. Take 1 card of your choice excluding Qi' (2x icon) and 'Vortex. Swap the entire hands of any two players (can be yourself)' (3x icon); right 'Destroys' with red fire and gold earth circles. Footer: 'Cyclémental 2026'. The card is squatter and wider, and the text is smaller than in the After version."
+      },
+      {
+        "file": "data/images/1ugpsu0/3.jpg",
+        "description": "Photo of an unframed watercolor-and-ink sheet on a wooden table, next to a Talens watercolor palette (pink paint mixing) and a watercolor box at the top. The sheet holds four sketched water creatures with small pencil labels: 'Vora' (top, a coiled anglerfish/eel with yellow fins and a lure), 'Drauge' (right, partially cropped, a blue-teal bulbous creature with pink-red fins), 'Kuru' (bottom left, partially cropped, the blue frog-like creature used on the Kodo card, with orange fins), and 'Sela' (bottom, a cloaked, flowing blue-purple nudibranch-like figure with a yellow and orange frilled crown). Style: hand-painted watercolor with black ink outlines."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T04:51:39+00:00",
+  "extract_model": "claude-haiku-5-5",
+  "extract_cost_usd": 0.000737
+}

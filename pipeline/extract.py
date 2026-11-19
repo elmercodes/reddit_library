@@ -21,7 +21,12 @@ from .describe_images import notes_path
 
 MAX_POST_CHARS = 6000
 MAX_COMMENT_CHARS = 1500
-EST_OUTPUT_TOKENS = 1800   # measured ~1,400 before evidence lists; +evidence
+EST_OUTPUT_TOKENS = 1800   # fallback for models without a measured figure
+# Measured on the 3-thread comparison (2026-11-19), output incl. thinking, per thread:
+EST_OUTPUT_BY_MODEL = {"claude-haiku-5-5": 2500, "claude-sonnet-5-5": 1450, "claude-opus-5-5": 1450}
+# Structured-output schema + system prompt overhead per request, measured (~1,700 tokens
+# more than the character count suggested).
+SCHEMA_OVERHEAD_TOKENS = 2300
 CHARS_PER_TOKEN = 3.8
 
 EVIDENCE = {"type": "array", "items": {"type": "string"}}
@@ -208,15 +213,16 @@ def system_prompt() -> list:
     return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
 
-def estimate(raws: dict[str, dict], batch: bool) -> tuple[float, int, int]:
-    model = claude.model_for("extract")
-    sys_tokens = int(len((C.PROMPTS / "extract_thread.md").read_text()) / CHARS_PER_TOKEN) + 400  # + schema
+def estimate(raws: dict[str, dict], batch: bool, model: str | None = None) -> tuple[float, int, int]:
+    model = model or claude.model_for("extract")
+    out = EST_OUTPUT_BY_MODEL.get(model, EST_OUTPUT_TOKENS)
+    sys_tokens = int(len((C.PROMPTS / "extract_thread.md").read_text()) / CHARS_PER_TOKEN) + SCHEMA_OVERHEAD_TOKENS
     usd = tin = tout = 0
     for pid, raw in raws.items():
         i = sys_tokens + int(len(render_thread(raw, _image_notes(pid))) / CHARS_PER_TOKEN)
-        usd += costs.claude_cost(model, i, EST_OUTPUT_TOKENS, batch=batch)
+        usd += costs.claude_cost(model, i, out, batch=batch)
         tin += i
-        tout += EST_OUTPUT_TOKENS
+        tout += out
     return usd, tin, tout
 
 
