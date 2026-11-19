@@ -1,0 +1,26 @@
+{
+  "post_id": "1qn3g25",
+  "described_at": "2026-11-19T04:26:31+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023746,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants general feedback on the first-draft card layout for the Summon creature cards in their game SumMons.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Fire Summon card 'Charyudon' (subtitle 'Fire-breathing Dragon' in small italic above the name). Orange frame with a mottled, flame-like parchment texture and a dark gray outer border. Cost 6 in a pink lotus-shaped gem at top left, overlapping the border. Large art box with an orange border shows a red cartoony dragon with white belly and cream horns/crest, wings spread, on a yellow-orange background with holographic-style sparkles. The art looks like a Pokémon-style (Charizard-like) digital or AI-generated illustration. The name overlaps the top of the art frame, so the descender of the 'y' crosses into the art. Under the art is a type bar: 'Summon' at left, 'Reptile' at right, with a center cluster of a gray DEF shield (1), an orange circular fire element icon, and a gray HP shield (7). The text area has an attack icon 'DMG 4' (starburst) next to the attack name 'Burning Breath'. Rules: 'Deal half the damage dealt to defending Summon to each of its adjacent Summons rounded up.' A divider line follows, then a passive: 'As long as this Summon is Active, enemy Summons cannot be played onto Sealed Totems in this Leyline.' Text is dark on a light orange background and readable."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Earth Summon card 'Hominape' (subtitle 'Sasquatch'). Red/pink frame with a cloudy texture and the same layout as the other cards. Cost 4 in a pink lotus gem at top left. The art shows a brown and green shaggy ape/sasquatch with a white face, standing in a forest with holographic sparkles. It is a watercolor-like, Pokémon-style creature and the art overlaps the top of the art frame, with the head extending over the border. The type bar reads 'Summon' on the left and 'Mammal' on the right, with DEF 3, a red circular earth icon (stacked stones), and HP 6. Attack 'Reclusive Roar' with DMG 2: 'This attack deals +1 DMG for each adjacent enemy Summon next to the defending Summon.' A divider line follows, then the passive: 'Enemy Summons in adjacent Leylines cannot attack unless they have an adjacent friendly Summon.' Text is dark on a pale pink background."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Dark Summon card 'Fanguine' (subtitle 'Vampire'). Purple frame with a misty texture and the same layout as the other cards. Cost 4 in a pink lotus gem at top left. The art shows a black and purple bat-like creature with large ears, outstretched wings, and a white fluffy collar, against a red and dark purple cloudy background with holographic sparkles. It is a Pokémon-style (Noivern/Crobat-like) illustration, and the ears and wing tips overlap the art frame's top edge. The type bar reads 'Summon' on the left and 'Mammal' on the right, with DEF 1, a purple dark-element swirl icon, and HP 5. Attack 'Consuming Crunch' with DMG 3: 'Heal this Summon for half of the life lost by defending Summon (rounded down).' A divider line follows, then the passive: 'At the end of your turn, if this Summon is Dormant, you may put a card from your discard pile on top of your deck, if you do heal 1 health.' Text is dark on a light lavender background."
+    }
+  ]
+}

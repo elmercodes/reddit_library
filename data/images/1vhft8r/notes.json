@@ -1,0 +1,26 @@
+{
+  "post_id": "1vhft8r",
+  "described_at": "2026-11-19T04:32:59+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.016096,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on the improved hacker/cyber card design (ASCII art, color scheme, layout) and opinions on turning the card text into colored syntax highlighting.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'worm.spread' (name shown as '< > worm.spread') with a dark charcoal frame and magenta/pink border and rounded corners. Top bar: name at left in monospace font, a large magenta asterisk icon at top right (card type indicator). Below is a wide art box with colored ASCII art of a worm/dragon-like creature on a near-black background; the colors are faint and hard to see. Stats block under the art: left 'CPU = 1' and 'RAM = 1'; right 'Strength = 1' and 'Stability = 1'. Rules text in code style: 'on_attack:' then indented 'enemy.integrity -= 1', then 'systemEFFECT; { duplicate }'. Flavor text at the bottom: 'LOG: //Duplicating, duplicating ...' (cut off at the edge). Tiny footer line: 'Set x - xxx/xxx - rarity'. All text is white monospace, plain with no syntax coloring."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "The same 'worm.spread' card on a black background with red hand-drawn ellipses and arrows labeling each element: Name; 'Icon and color to indicate cardtype' (asterisk); Art; 'Cost to play the card' (CPU = 1); 'The cost to keep the card in play' (RAM = 1); 'The power of the card' (Strength); 'The health of the card' (Stability); 'Ability's and effects' (the on_attack/systemEFFECT text); 'Flavor text' (the LOG line); 'Set/card number/rarity' (footer). It works as a layout legend. Card text is the same as in image 1."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "A second card with a yellow border and dark charcoal body. The art banner at top is a black strip with ASCII-art text, very small and unreadable, which seems to be the card's title in big ASCII letters, so the name is not legible. Stats in monospace, right-aligned values: 'CPU = 0', 'RAM = 5', 'Integrity = 24', 'Script.size = 30 - 40'. Rules text: 'static: self.damage_taken -= 1' and 'restriction: no script.type(virus)'. Flavor: '[LOG] // \"defence.protocol active\"'. Footer: 'Set 1 - 001/100 - OS'. It appears to be a defensive OS/base-type card with a yellow frame as its type color. All text is white and uncolored."
+    }
+  ]
+}

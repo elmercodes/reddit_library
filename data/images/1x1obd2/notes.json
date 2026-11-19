@@ -1,0 +1,26 @@
+{
+  "post_id": "1x1obd2",
+  "described_at": "2026-11-19T04:34:50+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.007048,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is asking for feedback on their hand-drawn placeholder card art, which they now make themselves instead of using AI.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Crude MS Paint-style digital drawing of two gray oval space stations or ships with blue stripes, one above the other and mirrored, joined by an orange beam or tether. Each has a spike at one end. The background is black with scattered yellow-orange stars and a few tiny white specks. No card frame, text, or stats."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Crude MS Paint-style drawing of a green fish- or plane-shaped aircraft with brown diagonal stripes and yellow-orange fins and wings. A stick figure pilot sits in a white cockpit bubble at the front, and a small brown bandage-like patch sits on top. The sky is blue with white clouds. No card frame or text."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Crude MS Paint-style drawing of a white ghost or mushroom-like creature with a flat hat-shaped top, two red round eyes, and tentacle-like lines on its face, on a blue background. A red flame with yellow marks floats on each side. No card frame or text."
+    }
+  ]
+}

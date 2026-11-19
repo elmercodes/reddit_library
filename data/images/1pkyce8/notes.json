@@ -1,0 +1,16 @@
+{
+  "post_id": "1pkyce8",
+  "described_at": "2026-11-19T04:25:29+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.009502,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing character art and lore for Fenwick, a leader character in their TCG Everdawn, with no specific feedback requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Hand-drawn ink and watercolor illustration on a spiral-bound sketchbook page (photo of the physical page). It shows Fenwick, a gnome-like wizard, standing in front of a tall dead tree trunk with a few sprouting leafy branches. He wears a tall pointed gray-blue hat with yellow highlights, a gray-blue robe, and brown boots. His face is hidden under the hat brim and a large scruffy off-white beard. He holds a gnarled wooden staff in his left hand (viewer's left) with a yellow glow and sparkles at the tip, and a small pot or lantern-like yellow-brown pouch in his other hand. Grass tufts and a muted green and yellow ground wash sit at the base. Loose black ink linework with muted, earthy watercolor palette (gray, blue, yellow, brown, green) and a whimsical storybook mood. No card frame, text, cost, or stats are shown; it is standalone art only."
+    }
+  ]
+}

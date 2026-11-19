@@ -1,0 +1,16 @@
+{
+  "post_id": "1p8zisv",
+  "described_at": "2026-11-19T04:25:05+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.011412,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their finished card front and back design after several rounds of feedback, with no specific question asked.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Promo mockup on a black background with a magenta diagonal band and bullet-hole graphics, showing a card front (left, tilted) and card back (right) of the 'TAG Trading Card Game' (Japanese subtitle ガンガールズ). FRONT: purple rounded frame. Top-left corner has a dark purple tab with the number 2 (cost). Top-right has a dark purple heart icon with 2 (health). Large full-bleed art box in lime green: 80s/90s retro-anime style digital illustration of a black-haired girl with a pink bow, earrings, off-shoulder pink top and jeans, holding a submachine gun with a serious expression. Over the lower art, a semi-transparent dark green text overlay holds two keyword pills: orange 'On Arrival' with 'Deal 1 DMG to a target unit.' and pink 'Stealth' with '(This cannot be targeted for 1 turn.)', then small gray italic flavor text: 'Shoot first, then shoot again, then one more time...' (small and low contrast). Below the art on the purple strip: type line 'TAG UNIT' with a blue 'R' rarity badge; name 'MIKU 未来'; subtype 'ASSAULT' with a bullet icon; tiny collector line 'BSGG001b' with artist credit 'Brandon Lopez'. Bottom right has two black stat boxes: a bullet icon 'RG 2' (range) and a fist icon 'CC 2' (close combat). BACK: black card with a cyan rounded border and a cyan targeting-reticle/crosshair circle behind the magenta 'TAG' logo in angular italic type with the Japanese katakana below and 'TRADING CARD GAME' in white."
+    }
+  ]
+}

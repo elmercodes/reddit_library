@@ -1,0 +1,16 @@
+{
+  "post_id": "1xb5mjy",
+  "described_at": "2026-11-19T04:35:34+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.012724,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants first impressions and feedback on the hero card layout for their TCG, STARS ALIGNED.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Full-art hero card 'Hikari' from STARS ALIGNED TCG, portrait orientation with a thin gold rounded frame over the illustration. Name 'Hikari' is centered at top. Top-left: a purple orb with a wave/water-like symbol in an ornate gold diamond-shaped badge (element/faction icon). Top-right: a purple diamond badge showing '200' (HP). Art: polished digital anime style of a fox-eared woman with long purple hair holding a katana overhead, wearing a white kimono with armor pieces and a red sash. A teal ghost spirit floats beside her. Background has cherry blossoms, red/orange swirling flames and a Japanese pagoda. A faint semi-transparent white watermark/placeholder pattern is across the center. Text sits directly over the lower art with no solid text box, white text with dark outline: [PASSIVE tag, blue] 'While Hikari is in your Frontline, your Heroes in Frontline gain Parry (When attacked, roll a die, if 6 take no damage).' [BOUND BY FATE tag, red] 'While Kage is on the field, 5 and 6 on die roll parry the attack when using Hikari's passive.' Ability 1: cost 2 (gold diamond), 'Blossoming Strike', damage 50 right-aligned: 'Apply Bleed for 2 turns to opponent Hero who possess an ability that deals more damage than this one.' Ability 2: cost 3, 'The Blade of Light', damage '20+': 'This ability deals +20 DMG every time you use it.' Footer: 'TFS-EN XXX/XXX  ARTIST: サキ' at left and '© 2025 STARS ALIGNED TCG' at right, with a small purple star icon at bottom center. Small gold ornaments sit on the left and right edges. Text over busy art may be hard to read in places."
+    }
+  ]
+}

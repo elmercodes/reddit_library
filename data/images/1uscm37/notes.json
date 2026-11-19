@@ -1,0 +1,26 @@
+{
+  "post_id": "1uscm37",
+  "described_at": "2026-11-19T04:31:26+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02301,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants advice on print settings, card stock, box types, and whether holographic cards are worth the cost, plus a check on whether AUD30 for 10 sheets of 300gsm is a fair price.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Photo of the hand-cut Cyclémental prototype on a wooden table, with a cutting mat and yellow scissors at the top right. A small black box printed with the 'Cyclémental - Casual Party Strategy Game' logo, '2-5 Players' and '20-40 Est. Min' tabs, and a five-element cycle diagram (fire, wood, earth, metal, water) in colored circles with Chinese characters. Left: a stack of card backs showing the same swirling dark vortex with the five-element wheel and logo. Below it, a fanned stack of Qi cards with a yin-yang icon in the corners, a rainbow-colored watercolor creature, and an 'EFFECT' text box ('Gather 3 Qi Cards to win the game'). Under that, a card back with a large yin-yang. Right: five fanned creature cards, each with a colored border matching its element. Orange/yellow earth: 'Muthu, the Deep Bury', with abilities Petrify and Fissure. Green wood: 'Ulassha, the Patient Coil', with Harvest and Overgrowth. Red fire: 'Apirak, the Unbroken', with Ignite and Inferno. Blue water: 'Kodo, the Tidal Surfer', with Ripple and Vortex. Purple metal: 'Logamir, the Howling', with Calibrate and Transmute. Layout: name at the top left over a colored banner, a large watercolor/ink creature illustration on the left, and a white text box on the right with bold ability names, cost icons, and WEAK/STRONG element icons at the bottom. Corners are visibly rounded unevenly from hand-cutting, and some text is cut off by overlap."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Photo of the unfolded, hand-cut box template lying flat on a wooden table with a ruler, scissors, and a craft knife on a cutting mat. The top panel shows the Cyclémental logo, '2-5 Players', and '20-40 Est. Min', with the five-element wheel on a dark vortex background. The side panel has upside-down logo art flanked by creature illustrations (a sun-headed figure and a golden beast). The left panel has the tagline 'Five elements. One cycle. Endless rivalry.' and a blurb: 'Sixty creatures, hand-painted in ink and watercolour, brought to life through philosophy. Attack, defend, and outwit your rivals to collect 3 Qi cards and claim victory. Every card hand-painted. No two the same.', with small element icons and a copyright line. Other panels show colorful creature art, and some flaps are plain black. Edges are cut roughly and the paper is glossy."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Selfie of the poster, half hidden behind fanned printed A4 sheets of card fronts. Each sheet holds a 3x3 grid of cards, grouped by element color: red fire cards on the front sheet, then blue, green, orange/brown, and purple/dark sheets behind. Each card has a thick colored border, creature art on top, a text box with small text, and two small icons at the bottom right. The cards are uncut, with white margins, and the text is too small to read at this resolution."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "post_id": "1ru1chp",
+  "described_at": "2026-11-19T04:28:05+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.012142,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants opinions on which of the three era-themed card frame styles (Handwritten Manuscript, Printing Press, Computer Printout) people like best.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Comparison graphic on white background showing three blank card templates side by side, each with a heading: 'Handwritten Manuscript Era', 'Printing Press Era', 'Computer Printout Era'. All three share the same layout. Top bar: a diamond icon with '0' at top-left (cost-like), centered 'Card Name', and a round pie-segment icon with '0' at top-right. Below is a row with '#00000' on the left and 'Card Type' on the right. A large central art box has a faint diagonal 'Illustration' watermark. Under it is a text box with 'Ability 1' and 'Ability 2' centered. A bottom stat row has a starburst (attack-like) with '0' at left, a shield with '0' in center, and a heart with '0' at right. Icons look like distressed stamped textures.\n\nLeft (Manuscript): aged tan parchment with a double-line ornate border, a cursive/handwritten script font, and muted gray, olive-green and red icons. Middle (Printing Press): lighter cream paper, thin dark single-line borders, typewriter-style font, and more saturated icons in blue diamond, orange/green pie, tan starburst, gray shield, and red heart. Right (Computer Printout): green-bar striped continuous-feed paper with perforated tractor-feed holes along both sides, dashed lines marking the sections, a monospace font, and desaturated, grayish-green icons with a lower-contrast look. Below the cards is a row of the five icons in color: blue diamond, green/orange pie, tan starburst, gray shield, pink-red heart. Layouts are consistent between the styles; only the frame texture, fonts, and colors change. The Computer Printout text is lighter gray with lower contrast."
+    }
+  ]
+}

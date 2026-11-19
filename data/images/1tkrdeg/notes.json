@@ -1,0 +1,26 @@
+{
+  "post_id": "1tkrdeg",
+  "described_at": "2026-11-19T04:29:57+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.018302,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster, an illustrator seeking TCG art work, wants honest feedback on whether their art fundamentals, style, portfolio presentation, or marketing/networking is holding them back.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Two oval-cropped digital paintings on a black background, apparently TCG art boxes. Left: bright, warm yellow-green top-down scene of a giant gray metal wrench set into a brown wooden frame on sandy ground, with two knurled gray knobs with brass screws. Small cute plant creatures (purple and teal cabbage-like) sit in the upper left, with leaves and vines around. Right: dark teal and hot pink scene of a muscular shirtless lumberjack in suspenders and jeans leaping with an axe in each hand toward a gnarled tree stump monster with a glowing pink-white core. Dead branches hang overhead, red X marks appear on the stumps, and the style is painterly and stylized."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Landscape digital painting, close-up of a green-skinned, pointy-eared elf's upper face (forehead, eyes, ears) in saturated lime green. A golden circlet in a flower and leaf design with a glowing pearl-like center floats above the brow, with extra bronze and maroon leaf-shaped loops forming a wreath. The background is a blue-teal gradient with radiating light rays and green sparkle crosses. The brushwork is loose and painterly, and the focus is the crown as an item or artifact."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Square digital painting in a dark purple, magenta, and teal palette. A frightened young pointy-eared boy sits on the ground under a collapsed, overgrown metal structure, clutching a dagger with a bloody, torn knee. A robotic claw at the top emits a red-pink scanning beam that forms a triangle around him, with a glowing pink line along the ground. Dark foliage frames the bottom corners and there are drops of blood on the grass. The mood is tense and cinematic, with dramatic lighting."
+    }
+  ]
+}

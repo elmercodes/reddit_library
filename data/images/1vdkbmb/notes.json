@@ -1,0 +1,26 @@
+{
+  "post_id": "1vdkbmb",
+  "described_at": "2026-11-19T04:32:47+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023772,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "Just sharing a playtest story with a young child; no specific feedback requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Photo of a homemade TCG playtest on a wooden coffee table with a glass center panel. Two people sit behind the table (black Ghostface tee, pink tee). Printed paper cards in thin sleeves/cut white borders. Top row of the opponent's side: 4 Caster/spell cards (colorful art). Below them, face-up rune cards (green Earth Rune, 3 total) in a zone. Player's middle row: 5 Caster cards with name, small round element/cost icon top-left, colored pips down the right edge, art box, purple type/name banner, parchment text box, and a round blue number (8 or 9) bottom-right. Visible names: The Overseer, Grindlewyn, Moldrake, Aeris the Banished, Shady Swims (green, frog with top hat). Right side: Fire Rune cards (dark red/maroon, glowing orange rune, 2) and an Air Rune (pale lavender). Left side: Water Rune cards (blue, stacked) and an Air Rune. A hand in the foreground holds a fan of rune cards (blue, purple Myth..., red Fire Rune) and a Lord Scalazar caster card (orange dragon/lizard in a wizard hat, text about Basic Attack gaining +1 AV until end of turn, number 8). Blank white paper cards/stacks act as decks/placeholders. Art is flat, stylized, digital/vector-like. Card text is mostly too small to read."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Mid-game photo of the same table. Opponent side top: several spell/caster cards with small dark circular numbered tokens (e.g. -5, 3, 1, 2) placed on them; a hand holds a card and a finger points at the table. Center cards: Grindlewyn (green/gray monster) with 2 tokens. Player's row of 5 casters: Lord Scalazar (8), Aeris, the Banished (9; 'Deal 1 damage to opposing Caster if it has 5 or less HP'), Kalthu of the Deep (9; 'If opposing Caster has less [icon] than this Caster, deal 1 damage to opposing Caster'), Venturus (10; 'Look at the top 3 cards of the Spell Deck and put them back in any order'), Chilly, Hoodfaint Survivor (10; 'If this Caster casts a Spell this turn, that Spell deals +1 damage'). Dark teal/black tokens with numbers sit on the cards as damage/counters; more loose tokens at left. A drink bottle sits at left; a stack of spell cards (green) at right. Card layout: element/cost icon top-left, pips at right, art, purple name banner, text box, round HP-like number bottom-right."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Photo of the table showing the poster's daughter's favorite cards. Bottom: Aeris, the Banished, a Caster-Master card (cost 2, blue wispy cloud-spirit with yellow shape on purple background, text 'Deal 1 damage to opposing Caster if it has 5 or less HP', number 9). Upside-down on the opponent's side: a purple creature caster card with tokens (8), a blue 'Sacred Torch' spell/artifact card with green flame art, and a colorful pink/yellow/blue spell card with tokens on it. A water bottle with orange cap sits on the glass; two blank white paper cards stand upright at left; spell cards at the left edge (red 'Magmus...' card). Print-and-play paper cards with the older frames."
+    }
+  ]
+}

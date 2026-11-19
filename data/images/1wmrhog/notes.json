@@ -1,0 +1,26 @@
+{
+  "post_id": "1wmrhog",
+  "described_at": "2026-11-19T04:34:09+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02445,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing a milestone, their first manufactured prototype of Runes & Rivals, and not asking for specific feedback.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Three fanned card backs on a dark gray table, with a purple rulebook partly visible at the top reading 'Designed and developed by Anuby Games 2026'. Each back has a dark blue field with a red-purple radial glow in the center and a teal/blue wizard hat with yellow stars on top. The yellow hand-drawn rune-style logo 'RUNES + RIVALS' sits under the hat, with the vertical stroke of a cross between the words. Small faint rune glyphs are scattered around. The border is thin, with a light blue edge on top and right and a pale yellow-green edge on left and bottom. A rune icon sits in a dark circle in each corner. The cards have a white outer margin and rounded corners. The print looks clean and saturated, and the stock appears to have a slight leather-like texture."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "A shrink-wrapped hanging-tab deck box standing on a dark surface; the photo is slightly blurry. The box is purple-blue with the same wizard hat, red-purple glow, and yellow 'RUNES + RIVALS' logo. Top corners read '2 PLAYERS' and 'AGES 12+'. The bottom reads 'EXPANDABLE CARD GAME'. A dark blue hang tab with a hole is at the top."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Flat lay of the full prototype contents on a dark gray table. At the top is the open purple box, with 'Earn the crown.' and a trophy icon on the lid and 'RUNES + RIVALS', '2 PLAYERS', 'AGES 12+' and 'EXPANDABLE CARD GAME' on the front. At left is a stack of Caster cards (top card 'Shady Swims', Caster - Former Champion, with a red creature in a hat on a forest background) and a purple Rulebook booklet. Rune cards: Water Rune (blue, 'This counts as 1 Water Rune'), Fire Rune (red/orange, 'This counts as 1 Fire Rune'), Mythic Rune (dark purple with crystal, 'This counts as 1 Rune of your choice'). Battlegear cards: Crystal Ball (draw-related text about looking at the top 5 cards of the Spell Deck, drawing 1 and placing the other on the bottom), Sacred Torch ('Equipped Caster has +1 ... when performing Basic Attacks'), Rune Pendant (Affinity text about choosing an Affinity, Equipped Caster gains that Affinity while equipped). Spell cards: Fireball (orange; 'Deal 2 damage to opposing Caster', Fire Bonus 'Deal +2 damage'), Ground Shatter (green; 'Deal 2 damage to opposing Caster', Earth Bonus 'If opposing Caster is equipped, destroy opposing Battlegear'), Super Cyclone (dark/gray with a tornado over Earth; 'Deal 4 damage to opposing Caster', Air Bonus 'Once this resolves, put it on the bottom of the Spell Deck then draw 1 card'). Partly cut off at right are Caster cards 'Chilly, Ghostflame Sorcerer' (Caster - Former Champion; cost 3; 'If this Caster casts a Spell, that Spell deals +1 damage') and 'Sir Reginald' (Caster - Former Champion; cost 3; text about healing this Caster). Card layout: name at top center, type below it, a large central art box, a parchment-scroll text box in the lower part, and rune-slot circles down the right side of Spells and Casters. The text is too small to read fully. The poster says these visuals are already outdated."
+    }
+  ]
+}

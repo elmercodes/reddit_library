@@ -1,0 +1,26 @@
+{
+  "post_id": "1v5w74a",
+  "described_at": "2026-11-19T04:32:14+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.017024,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster shares their hand-drawn artwork for the game Forebode and asks whether commenters like the style or find it hard on the eyes, while encouraging others to make their own art.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Hand-drawn digital sketch on a black background: a tall, hooded or long-haired armored humanoid figure with spiked shoulder pads, drawn in loose magenta/pink line work with a few red accents. It holds a large angular greatsword on the right, with a bright magenta tip. Faint brownish swirling smoke or wind streaks curve around it. No card frame, text, or UI; raw illustration only."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Hand-drawn digital sketch in pale teal/gray lines on black: a dark industrial or crypt interior with a pale cream-colored skeleton of a horned or crested creature standing upright at center right. Jointed mechanical or robotic arms and pipes extend from the right and center, with pillars, a bone-filled crate at the bottom left, and bone piles at the lower right. The scribbly line work is loose, and the left side is fainter. Raw illustration, no card frame or text."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Hand-drawn digital landscape on black: dense horizontal scribbled streaks in purple, magenta, hot pink, and white form a sunset or sky gradient. Black silhouetted tall poles or stalks with blocky tops, like antennas or totems, stand across a black hill in the foreground. Abstract and stylized, with no text, card frame, or UI."
+    }
+  ]
+}

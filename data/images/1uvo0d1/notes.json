@@ -1,0 +1,26 @@
+{
+  "post_id": "1uvo0d1",
+  "described_at": "2026-11-19T04:31:37+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023582,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants advice on selling their self-made martial-arts monster TCG grassroots-style (card shows, markets, etc.) if their Kickstarter fails, plus general opinions.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "MeleeMon card 'KINGRAB' (Grapple Style - MeleeMon, Champion Rank - Rank Up! from GRAPAHOLD), blue-themed, number R 003, HP 85. Layout: black header with a small style-label tab on the upper left, a fist icon at left of a white name box, HP at right, rank line beneath in italics. Small 'M' logo and rarity/number tag top right. Large central art of a chunky blue crab-like creature with brown claws and a gold crown mark, in a thick black outline, cartoon digital style, on a blue brushed diagonal background with white bubbles. Attack bar below the art: action/running icon with cost 6, 'Double Suplex', damage '15x'. Bottom left: red RANGE panel with 3 bars (all red) and TARGET 2. Right: black 'MELEEMON TRAIT' box with keyword tags GRAB (blue) and SLIP (green), text: 'Double Suplex deals +15 damage to each Grappled target.' Bottom: gold crown icon, italic flavor text 'Kingrab are master grapplers, using hardened mud on their hands to solidify their already powerful grip.', and a circled 6 with action icon at bottom right (retreat/movement cost). Footer: ©2026 AlexMonfra/BuffaloKimchiWorks."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "MeleeMon card 'LUCHEE' (Agility Style - MeleeMon, Base Rank), yellow-themed, C 060, HP 35. Same layout as Kingrab with a yellow lightning-pattern background. Left side has a 'STARTER' badge with an 'S' style icon. Art: small cartoon leopard/cat with a pink luchador-style mask and purple spots, white sparkles. Attack: cost 2, 'Dropkick', damage 10. RANGE panel with 3 bars (only the middle one red) and TARGET 1. MELEEMON TRAIT box with QUICK (yellow) and SNEAK (dark blue) tags: 'LUCHEE has no movement cost while it's your only MeleeMon in play.' Bottom left: circled 5 with crown 'RANK UP!' badge (rank-up cost); bottom right circled 1 with action icon (movement cost). Flavor text: 'Luchee are very friendly towards humans and love attention. They enjoy grappling and acrobatics.' Same copyright footer."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "MeleeMon Coach card 'DANNY DOU' (Coach, Champion Rank), C 170, orange/gold themed. Header has a black bar with a crown-shield icon on both sides of the white name box, no HP. Art: muscular shirtless pro-wrestler with a dark mullet, orange headband and glove, holding a championship belt, and a hulking orange-and-dark armored creature behind him; cartoon style with thick black outlines and white bubbles. Large white text box titled 'COACH TRAIT': 'Your MeleeMon have -1 Attack cost for each MeleeMon Style you have in play.' with much empty space beneath. Bottom left gold crown icon; black footer box: 'This card must start the game on its Rookie Rank side.' Same copyright footer."
+    }
+  ]
+}

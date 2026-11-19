@@ -1,0 +1,26 @@
+{
+  "post_id": "1vnqm2t",
+  "described_at": "2026-11-19T04:33:18+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.017366,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants general critique of their revised card frames and suggestions for where the frame design could improve.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'Ethereal Fae' from Fractals ECG, purple-framed. Layout: cost gem (diamond) with '3' top-left; name centered in a cream banner at top; faction/element emblem (white flame-like swirl on purple circle) top-right with two small pip icons beneath it. Large full-bleed art box: a purple-skinned fairy woman with crescent wings and gold armor casting a glowing white-blue energy blast, in a dark moody forest. Type line: 'Celestial Combatant - Fairy'. Text box (large, mostly empty, pale pink): 'I can only be played using' followed by a dark circular energy icon. Bottom-left shield-like stat '4', bottom-right shield stat '4'. Flavor text in italics: 'From stardust to stardust'. Footer: 'Fractals ECG © 2026 Time Loss Studios LLC' and 'Artist: Amar Sekarwangi'. Ornate gold filigree border with scroll corners, black outer border. Art looks like polished digital painting."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Token card 'Egg' from Fractals ECG, green/olive frame. Top-left has an empty green circle (no cost); name 'Egg' centered in cream banner; top-right green emblem with white horned/shield-like symbol. Art: a large glowing yellow-green slimy egg with mechanical/runic patterns in a cluster of other eggs, grey misty alien setting. Type line: 'Huskborne Crew Token - Insect'. Text box: '(Tokens do not count towards the 1 Crew per region limit)' in parentheses, with most of the box empty. Flavor: 'Power in numbers'. Only bottom-right shield stat '1' (no bottom-left stat). Footer shows copyright 'Fractals ECG © 2026 Time Loss Studios LLC' and 'Artist : Amar Sekarwangi'. Angular, tech-styled green-gold border; digital painted art."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Card 'Empyrean Sniper' from Fractals ECG, purple frame, same layout as Ethereal Fae. Cost gem '6' top-left; faction emblem top-right with three pips below. Art: red dragon humanoid in pants and gold bracers flying in space, firing a yellow beam from its mouth at a ringed structure, with nebula sky and small ships. Type line: 'Celestial Combatant - Dragon'. Text box: 'Evasive' and 'Attack → +1 [dark circle energy icon]', then reminder text '(Evasive: My Attacks can only be defend by Combatants with Evasive or Perceptive)' (sic). Stats '6' bottom-left and '6' bottom-right in shield shapes. Flavor: 'Energy provides myriad outputs'. Footer: 'Fractals ECG © 2026 Time Loss Studios LLC', 'Artist : Amar Sekarwangi'. Ornate gold filigree border; digital painted art."
+    }
+  ]
+}

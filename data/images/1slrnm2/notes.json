@@ -1,0 +1,26 @@
+{
+  "post_id": "1slrnm2",
+  "described_at": "2026-11-19T04:28:38+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.015348,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants to know whether the generic Legendary searcher (Blessed Horn) is overpowered relative to the new Legendaries, and whether to buff future Legendaries or whether players simply value consistency.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'Blessed Horn', colorless Spell, cost 0 (circle top right), set number S1-100, LEGENDARY badge at bottom center, 'COLORLESS' bottom right. Grey-blue frame, name top left, large cream art box with a hand-drawn marker-style golden ornate horn with gems. Type line 'Spell' below art. Rules text: 'Add a creature from your deck to your hand.' No stats."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card 'Bombasaurus', Fire Legendary Reptile creature, cost 3 (top right circle), stats 7 (bottom left) and 3 (bottom right) in orange corner tabs. Red frame, cream art box with marker-style red dinosaur with grey round belly and a fuse-like tail ending in a spark. Rules text: 'Anytime during either players turn, you can destroy this card to destroy a card on the field.' Footer: 'LP-001: Grayson', LEGENDARY badge, 'FIRE'."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Card 'Aromasaurus', Earth Legendary Reptile creature, cost 3, stats 8 (bottom left) and 6 (bottom right) in brown corner tabs. Tan/brown frame, cream art box with marker-style orange-brown long-necked dinosaur with a green bush with pink flowers on its back and leaves on its neck. Rules text: 'When this creature destroys a creature in battle, you can put an energy card into play.' Footer: 'LP-003: MathewGX', LEGENDARY badge, 'EARTH'."
+    }
+  ]
+}

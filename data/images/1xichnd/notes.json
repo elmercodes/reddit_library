@@ -1,0 +1,26 @@
+{
+  "post_id": "1xichnd",
+  "described_at": "2026-11-19T04:35:57+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02535,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing photos of a Doodlz TCG beta starter-deck playtest and is not asking a specific question.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Playtest photo of a table with a hand of sleeved prototype cards in the foreground and an opponent's cards behind. Cards use a notebook-paper look: ruled lines, a title at top, a cost bubble at top left (e.g. '2 Blue Pg'), a watercolor/cartoon art box, and a text box below with a card code at bottom right (PMO | 031, 034, 026, 044, 049). Visible cards in hand: Eraser Tip (PMO 031, art of a pencil eraser over a screaming stick figure, text partly hidden: '...Canvas with'), Wooden Ruler (PMO 034, ruler held by two small yellow/blue creatures), Blizzard (2 Blue Pg, icy monster art), Star Gazer (blue, art of a moon and stars with a blue blob creature; partly legible text 'Astronomer... you may return a hand... side of the Canvas... Study 1'). A fanned row at the lower left shows blue-bordered cards with 'Acrylic Paint' and 'Crayon' titles in a different style (resource or pigment cards). On the right is a column of blue cards: Show Star (1 Blue Pg, x2), Turn the Page (2 Any), Auditions! (2 Blue Pg), HammerTime Shark (2 Blue Pg), DJ Freddy Fin (3 Blue Pg). DJ Freddy Fin is a creature with a red Attack triangle showing 2, a Health circle showing 3, and a cyan shark DJ with a mohawk and sunglasses. Its type line reads 'Unique Doodlz | Sea Krill DJ' with text: 'When you Sketch this Doodlz, look at the top 2 cards of your Sketchpad, put them in any order. When this Doodlz leaves your canvas, remove 1 damage point from a Performer or Sea Doodlz you control.' Footer reads 'Breezy Studioz · 2026'. HydroTron is on the table with 5 cost, Attack 2 and a blue robot art. The opponent's side shows red-bordered cards including TortCano and Cactu Cadet, plus a red-bordered facedown deck. Cards are in black sleeves; print is slightly small."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Close-up of the opponent's side of the table, seen upside down. In a row are three red-themed cards: TortCano (cost 5, Attack 4, Health 3, art of a red volcanic turtle), Cactu Cadet (cost 2, Attack 1, Health 2, type 'Doodlz | Cactu Soldier', text about Cadets always arriving and traded, with art of a red cactus-creature), and The Initiation (Event | Action, cost 3, red/purple art with a character group). Above are red-bordered backs labeled 'Acrylic Paint' and 'Crayon' stacks, with a reversed card. Hands holding a hand of cards are at the top. Text on the cards is mostly too small or blurry to read in this photo."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Another playtest photo, with blue-deck cards in the foreground. Visible cards: Twista! (2 Blue Pg, Event | Action, art of a blue tornado with a screaming stick figure; text 'Return the Doodlz with the highest Pigment cost on the entire Canvas to its Artist's hand'), HydroTron (PMO 015, Elemental Construct, blue robot art, text about returning up to a Sketched 4pg or less Doodlz from the canvas to its Artist's hand, Study 1), DJ Freddy Fin (PMO 049, 2 Blue, DJ art), HammerTime Shark, Auditions!, Turn the Page, and two Show Star cards stacked in a fan. Blue 'Crayon' cards sit at the far left. The opponent's side shows a small deck in black sleeves, a few cards, and red-bordered backs. Layout is consistent: notebook-line background, cost bubble top left, art box center, text box lower, with the card number at the bottom right."
+    }
+  ]
+}

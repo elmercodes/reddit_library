@@ -1,0 +1,26 @@
+{
+  "post_id": "1unj3c9",
+  "described_at": "2026-11-19T04:31:17+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.019492,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their own hand-drawn card art as an example and urging other designers to use their own art or sketches instead of AI, even in prototypes.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Hand-drawn digital creature card 'Gem Cracker' on a flat purple background. Top-left: parchment scroll with the cost '7'. Title 'Gem Cracker' in bold serif at top center, with a round purple crystal-resource icon at top right. Art: a black shaggy gorilla-like creature with lavender fur highlights, red-pink hands and feet, and a gray rectangular robot-like face plate with sleepy eyes, crouching with one hand extended. The art is not in a framed box; it sits on the card background. Pink text box with a thick black border reads 'When Played: Discard 1 resource and Gain:' followed by two purple crystal icons. There is a faint pink smudge at the bottom-left of the text box. Bottom row: 'Strength:' with one purple crystal icon, and 'Weakness:' with a cyan water/fish icon and a green leaf icon."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Hand-drawn digital creature card 'Big Bear' on a flat green background. Top-left: parchment scroll with the cost '8' in a stylized rune-like font. Title 'Big Bear' centered at top, with a green leaf-resource icon at top right. Art: a huge round purple bear seen from a low angle, with a small head, a brown nose, fangs, and large pale-blue crystal-like claws. It fills most of the card. There is no text box or rules text. Bottom row: 'Strength:' with a cyan water icon, and 'Weakness:' with two red circular icons."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Hand-drawn digital creature card 'Spell Squirrel' on a flat green background. Top-left: parchment scroll with the cost '2'. Title 'Spell Squirrel' at top, with a green leaf-resource icon at top right. Art: a cartoon brown squirrel with big buck teeth and a worried expression, wearing a light-blue spiked shell/backpack and holding a small scroll. Pink text box with a thick black border reads 'When Played: Gain' followed by three icons: green leaf, purple crystal, and a green tornado on a magenta circle. Bottom row: 'Strength:' with nothing listed, and 'Weakness:' with two red circular icons."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1rdjj2s",
+  "described_at": "2026-11-19T04:27:22+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.016364,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing an opinion piece and a how-to suggestion, encouraging TCG creators to photograph posed figures or use game-engine screenshots as card or placeholder art instead of AI art.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Photo of a white and black articulated action figure (mannequin-style, faceless) in a low lunge/crouch ninja pose with a black sword held across its body. It stands on a light wood surface in front of a blue backdrop with a blue and white snowflake pattern. Sharp focus, side angle, soft shadow; usable as example art for a warrior/ninja character."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Photo of a yellow and black articulated action figure in a bent-knee, leaning stance with arms drawn across the torso, seen from a slightly low front-side angle. Same snowflake backdrop and wood surface, with a small shadow beneath it. Shows a different color and pose from the same figure type."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Close-up photo of a red and black articulated figure mounted on a red ring-base stand, posed mid-air in a split-leg jump or kick while gripping a long thin black sword/staff extended to the right. Magnets are visible on the soles of the feet. Same snowflake backdrop, shallow depth of field with a blurred background, and a dark object at the right edge. Dynamic action pose."
+    }
+  ]
+}

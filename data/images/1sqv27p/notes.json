@@ -1,0 +1,26 @@
+{
+  "post_id": "1sqv27p",
+  "described_at": "2026-11-19T04:28:50+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.03226,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their TCG card database desktop app (TCG Forge) and asking for feedback from other TCG creators.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Screenshot of the TCG Forge Pro vBETA 0.9.9 home screen in a dark UI. Left sidebar has New/Open/Save/undo/redo buttons and a Settings button. Center shows the app logo (hammer icon), the title 'TCG Forge PRO', the tagline 'The card database manager built for indie TCG designers. Organise your cards, templates, sets, and game data — all in one place.', and '+ New project' and 'Open project...' buttons. Below, under 'ALL PRO FEATURES UNLOCKED', is a 3x2 grid of feature tiles: Card management (sets, templates, fields & full type support), Deckbuilder (build & test decks with rules & export), Dictionary (game terms with ? tooltips throughout), Goals & stats (full targets including per-type & field goals), Find & Replace (bulk-edit field values across any set), Export (CSV, ZIP backup, deck PNG & more). Beneath is a green 'TCG Forge Pro — Active / Master license' bar with a Manage button, then a 'Recent projects' list: Starfront, test, Starfront (paths under C:\\Users\\Seaof\\Downloads\\*.tcgforge)."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Screenshot of the TCG Forge card gallery for the set 'A Realm Awakened' (project 'Souls TCG', 20 cards), showing rendered cards in a 4-column grid. Top toolbar buttons: Duplicate (Pro), Goals, Edit set, Export combined, Export by type, Import CSV, Reorder IDs (Pro), Find & Replace, Blank cards, + Add card. Sidebar lists Overview, All cards (20), Deckbuilder, Dictionary, and the set list. Cards are dark-framed fantasy cards with a cost gem top-left (blue diamond number), name banner at top, a red/colored vertical strip at top-right with class/faction icons, painterly fantasy art, a semi-transparent gray text box over the lower art, a type line bar at the bottom, and a footer 'A Realm Awakened 0XX/260 • C' with '™ & © 2025 Vesuvius Games'. Row 1: Goblin Blademaster (cost 3, Soul - Goblin, stat column 1/3/1, text 'Souls you control with a base power of 1 have Piercing. (Damage from a source with Piercing ignores Armor)', goblin with sword art); Goblin Horde (cost 3, Skill, 'Summon 3 1/1/0 Goblin Grunt Soul Tokens.', goblin crowd art); Unruly Ordinance (cost 2, red backlash 1, Skill - Strike, 'Deal damage equal to the number of Souls you control to target Soul or Warlord.', goblin on cannon); Riotous Command (cost 1, Skill, 'Give your Souls with a base Power of 1 +2/+0/+0 until end of turn.', shouting soldier with red banners). Row 2 partially visible: Blessed Mace (2), Crude Signal Horn (3), Soul-Flame Conduit (5, backlash 1), Oathbreaker Thane (4, backlash 1). Below each card is a label with type, ID chip (e.g. ARW-008/020) and name; the Riotous Command card is labeled just 'ARW-013'. Card frames have colored top borders (red for Soul, teal for Skill)."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Screenshot of the TCG Forge set view in list/table mode for 'A Realm Awakened' (Cards (20) tab; other tabs Stats & analysis, Set templates). Filter chips for type: All, Reliquary, Soul, Equipment, Skill; dropdowns All Rarity, All Class, All Role; search box; view toggle icons; 'Sort: Rarity', 'Asc', 'No focus field'. Table columns: #, Type, Name, Cost, Backlash, Subtype, Rarity, Class, Effect, Role, Attack, Health, Armor, plus a tiny art thumbnail. Rows are color-coded on the left by type (yellow Reliquary, red Soul, teal Skill, dark Equipment). Example rows: ARW-002 Reliquary Goblin Camp cost 6, backlash 1, Common, Warrior; ARW-003 Altar of Nymri 3/2 Paladin; ARW-006 Soul Charging Axemaster cost 1, backlash 2, Human, Warrior, Damage, 4/1/0, 'Swift (This soul c...'; ARW-008 Soul Goblin Blademaster 3, Goblin, 1/3/1; ARW-011 Skill Goblin Horde; ARW-012 Unruly Ordinance; ARW-013 Skill with blank name '—'; ARW-016 Equipment Blessed Mace (Weapon, Paladin, Tank); ARW-018 Crude Signal Horn (Accessory); ARW-020 Soul Flame Conduit (Enchantment, Mage); ARW-007 Oathbreaker Thane Legendary Paladin 4/1, 3/3/1; Rare: Academy Library, Broken Blade Rec..., Scrabble for Scraps; Uncommon: Festival of Culture (Bard), Broken Blade Prie..., Cull the Mighty, Warn-Out Breast... (Armor), Aether Converge... (Enchantment). Effect text is truncated in the column; rarity shown with colored dots (gray common, blue rare, orange legendary, green uncommon); roles shown with colored dots (Damage, Support, Tank)."
+    }
+  ]
+}

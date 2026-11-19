@@ -1,0 +1,16 @@
+{
+  "post_id": "1rnjk30",
+  "described_at": "2026-11-19T04:27:45+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.009452,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants play-testers to download the print-and-play Everdawn deck via their Discord, critique it harshly, and help improve the game.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Selfie of a bearded man in a tan cap and maroon sweater making a wide-eyed face while holding a fanned stack of printed cards in front of his lower face. Only the front card is clearly visible: 'Ole Fenwick'. It has a dark blue/navy frame with a white-ish inner border, a name banner at the top center, and crescent moon icons in the top left and top right corners. The art box shows a watercolor/ink-style illustration of a small gnome with a pointed gray-blue hat and white beard sitting at the base of a gnarled tree, with sparse plants around. Stat boxes sit along the bottom: '15' at bottom left, '12' in a box at bottom right, and '+2' in a box beneath it. Some partially cut-off rules text sits at bottom center, with only '...rants' and '...k' legible. The edges of other cards in the fan show colored borders (purple, green, red, blue), suggesting multiple color or faction types. The cards appear to be printed on white stock with rounded corners. Background is a living room with a lamp, framed leaf picture, window, and couch."
+    }
+  ]
+}

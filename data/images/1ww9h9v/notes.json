@@ -1,0 +1,16 @@
+{
+  "post_id": "1ww9h9v",
+  "described_at": "2026-11-19T04:34:34+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.009564,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is announcing a free, hand-drawn placeholder art piece (a muscular pigeon) for the community to use instead of AI art in shared card prototypes, and invites people to customize it and submit their versions.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Portrait-orientation digital illustration of an anthropomorphic muscular pigeon, shown from the chest up. The head is a realistic pigeon head with a pale gray crown, an orange eye, a heart-shaped pink cere on the beak, and an iridescent green-to-purple neck and chest. The pigeon has human-like arms with raw, meat-like red muscle texture and white striations. Claw-like fingers grip the opposite arm, and a small anchor tattoo sits on the upper left arm. The gray wing and body feathers are at the lower left. The background is a blurred, glowing orange and yellow fire that fades to dark brown at the edges. A semi-transparent black banner crosses the middle with white serif all-caps text reading 'PLACEHOLDER PIGEON'. The art appears hand-drawn and digitally painted. It has no card frame, stats, or rules text; it is art only, sized roughly like a card art box or full-bleed card."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "post_id": "1qlztqk",
+  "described_at": "2026-11-19T04:26:21+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.013744,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether their new full art card template is distinct enough from the regular template or needs changes.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Full art version of card 'Fire Dragon' (S1-000, FIRE, ULTRARARE). Portrait card with red border and black outer edge. Art fills nearly the whole card: hand-drawn, marker/colored-pencil style red dragon with yellow eye, white claws, pink wings, on a cream background with thick wobbly black outlines. Top-left: white flame icon in a circle. Top center: name 'Fire Dragon' in a comic-style font in a notched cream banner overlapping the art. Top-right: large white number 3 with black outline (cost). Bottom-left: white 9, bottom-right: white 6 (stats), both large outlined numbers over the art corners. Bottom of art: type line 'Dragon' in bold, then rules text 'You can have up to three copies of this card in your deck.' printed directly over the art with no separate text box, in dark text on cream. Bottom center: purple 'ULTRARARE' label. Small 'S1-000' bottom left and 'FIRE' bottom right on the red border. Text over the art is somewhat close to the dragon's claws."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Regular version of 'Fire Dragon' (S1-008, FIRE, ULTRARARE), landscape-ish wide frame on black background with red border. Name 'Fire Dragon' in black comic font top-left, cost 3 in white on an orange circle top-right. Square art box with rounded irregular black frame holding the same hand-drawn red dragon on cream. Orange quarter-circle corner badges at bottom-left (9) and bottom-right (6) overlap the art box. Below art: type line 'Dragon', then a separate cream rules box with text 'You can have up to three copies of this card in your deck.' with empty space beneath. Purple 'ULTRARARE' tag at bottom center; 'S1-008' bottom left and 'FIRE' bottom right. Note: this version has no element icon at top-left, unlike the full art version."
+    }
+  ]
+}

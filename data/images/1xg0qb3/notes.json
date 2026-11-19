@@ -1,0 +1,26 @@
+{
+  "post_id": "1xg0qb3",
+  "described_at": "2026-11-19T04:35:46+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.021252,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether the old-school Pokemon-parody card style for their incremental game is appealing, plus ideas for illustrations with a contemporary meme-culture twist.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Screenshot from the incremental game showing five yellow-bordered cards on a purple wood-grain background, three in the top row and two below. Layout: name top-left, rarity icon top-right (C or UN), framed art box, a level bar (Lv.1 0/10), then stat lines, and three stars under each card. Cards: FAIRY (C, orange/red swirl art of a fly with a magic wand, brown card, Lv.1 0/10, keyword 'Magnet' in red, clock 10, green up arrow with coin 4, overlaid number 5). FAKE HAMMER (C, hammer labeled '10 t', Lv.1 0/10, clock 30, green up arrow with card-icon 3, overlaid number 11). WISE FROG (UN, blue card, green dithered art of a pink frog with a propeller cap, Lv.5 with green bar 86/244, clock 20, red down arrow with coin 120, green up arrow with card-icon 180). COOL MASCOT (C, black-and-white spiky-haired character with a boombox, Lv.1 0/10, green up arrow with coin 1,5). BEEFY DEER (C, muscular deer on green art, Lv.1 0/10, green up arrow with green gem 1,5). Small card-shaped icons float between the rows. Art is a goofy, simple, pixel/dithered cartoon style."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Photo of a computer screen with a physical French first-edition Pokemon card (Evoli/Eevee, 50 PV, Jungle set 51/64) laid on it next to the game's DOG card. DOG card: yellow border, name top-left, 'C' rarity icon top-right, large art box with a pixel-art raccoon-like dog with a mask-like face, red keyword 'CATALYST', clock icon 3, green up arrow with card-icon 6, separated by thin black lines. The Pokemon card has art box, an attack list with energy costs, weakness/resistance/retreat row, and flavor text. In the background is another card with a pixel-art creature riding a bicycle. The comparison shows the game cards mimic the Pokemon frame: yellow border, framed art, and a simple text area."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Photo of a drawing tablet or monitor showing the game's WISE FROG card (UN rarity, blue sky-gradient card, yellow border, green dithered art of a pink frog with a propeller hat, Lv.2 with green bar 14/20, clock 20, red down arrow with coin 5, green up arrow with card-icon 10). A stylus is pointing at it. Art software brush panels and rulers are visible on the left, with a 'MOMENTUM' keyword tag at the top and a teapot doodle at right. Two physical French Pokemon cards lie in front for reference: Natu (purple, 30 PV) and Ptitard (Poliwag, blue, 40 PV, 59/102). They show the style being referenced, with color-coded frames, framed art, and a type-line banner."
+    }
+  ]
+}

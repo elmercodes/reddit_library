@@ -1,0 +1,26 @@
+{
+  "post_id": "1qiektx",
+  "described_at": "2026-11-19T04:26:11+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.018146,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster, a 13-year-old making a TCG for younger siblings, wants general thoughts and feedback on their hand-drawn water-element cards.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Hand-drawn, marker/colored-pencil card on white paper: 'Fishron'. Blue rounded name bar at top with a circular wave icon (water element) at right. Large empty art area with a small blue fish with brown fangs/tusks near its mouth. Blue-bordered flavor text band: 'Although fishron has impressive fangs, they are so large that it can barely open its mouth. This makes the fangs pretty much useless.' Bottom section split: left stat column with heart 6 (health), sword 3 (attack), shield 1 (defense); right rules box: 'Fishron can only attack once every 2 turns.' No cost shown. Handwriting is small but legible."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Hand-drawn card: 'Jellno', same layout (name bar, water wave icon in circle, big art area, flavor band, stat column left, rules right). Art is a blue jellyfish with long tentacles. Flavor text: 'Jellno float peacefully through the sea until touched, when they electrocute the toucher with a large amount of electricity.' Stats: heart 2, sword 2, shield 0. Rules: 'Jellno cannot be taken back into hand after being played. When attacked, Jellno inflicts paralysis 1.' Some text is a bit smudged and cramped; no cost shown."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Hand-drawn card: 'Stath', same blue water frame and layout. Art is a blue five-point starfish with a dark circular mouth in the center. Flavor text: 'The stath live in shallow waters, pretending to be starfish until they stick on to their food, and eat them alive.' Stats: heart 2, sword 3, shield 1. Rules: 'After attacking, stath moves to the opponent's active card and gains Latch.' (last word is handwritten, appears to be 'Latch'). No cost shown."
+    }
+  ]
+}

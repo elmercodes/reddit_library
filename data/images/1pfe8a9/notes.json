@@ -1,0 +1,16 @@
+{
+  "post_id": "1pfe8a9",
+  "described_at": "2026-11-19T04:25:25+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.00742,
+  "design_relevant": false,
+  "skip_reason": "Photo of a game store display case showing the poster's TCG product; shared as a milestone/celebration, not for design feedback.",
+  "what_is_asked": "The poster is just sharing that a local game store is displaying their trading card game, with no feedback requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Photo of a glass display case at a game store with stacked Elemental Creatures Trading Card Game booster display boxes (purple/yellow dragon-scale art, logo, fanned cards) in back, and several holo cards in acrylic stands in front, including Cheearctic, Frightmear, Montigo, Arrowkin and two Volgairo cards. A large dragon playmat lies underneath."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1x4ewd7",
+  "described_at": "2026-11-19T04:35:03+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.021702,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing progress on their homemade TCG (inspired by Yu-Gi-Oh, Vanguard, and Magic) with three sample cards, with no specific question beyond general sharing and possible feedback.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Sample card 'DICE WIZARD', a Rare UNIT. Black outer border with white card face. Top-left: orange circle with cost 3. Name in bold black sans-serif beside it; a yellow four-point star icon at top right. Orange type bar below reads 'UNIT • TOY • WIZARD'. Large square art box with thick black outline: loose, sketchy digital cartoon art in yellow, orange, red, black and white with white outlines, showing a die-shaped character in a top hat with big eyes and gloved hands, with a white burst or flash on the right. Text box: '[1/TURN]' in blue, 'Roll. You may Free Play 1' then 'TOY' in orange, 'UNIT from your hand with COST equal to the result.' Right side: orange diamond with 3 (likely power/attack) and black shield shape with 3 (likely health/defense). Bottom strip: '@DTCG - SAMPLE CARD' on left, blue pill labelled 'RARE' in center, 'art//JANKENDEE' on right. Colour coding: orange frame accents for this card. Text is readable."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Sample card 'ATTITUDE DUDE', a Common UNIT. Same layout as the other cards but with a grey/white colour scheme: grey circle cost 1 at top left, name in black, yellow four-point star at top right, grey type bar 'UNIT • RUFFIAN'. Art: sketchy digital drawing of a lime-green spiky-haired character in a purple jacket and blue pants with a red scarf or collar, in a confident pose against a dark teal background with yellow-green sparkles. Rules text in purple: 'When this UNIT is used for EVO or CHANGE, you may draw 1 card.' Grey diamond stat of 2 and black shield stat of 2 on the right. Footer: '@DTCG - SAMPLE CARD', grey 'COMMON' pill, 'art//JANKENDEE'. Large empty white space under the text."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Sample card 'STRIKE RUFFIAN JUNKRAT', a Super Rare EVO UNIT. Same frame with grey cost circle 4 at top left. Name is on two lines in smaller type ('STRIKE RUFFIAN' above 'JUNKRAT'). Yellow star at top right. Grey type bar 'EVO UNIT • RUFFIAN • STRK'. Art: chaotic sketchy digital illustration with pink/magenta, dark purple, light blue, yellow and red shapes, showing a character with a blue round helmet or head. Text box, mixing colours: 'EVO • RUFFIAN 2️⃣ • STRK ITEM MP THRESHOLD increased by 1.' (orange/purple, with an emoji-style number 2); '[EVO PLAY] Select any number of STRK ITEMs from DROP, equip them to this UNIT.'; '[On ATK >] Deal X DMG to 1 UNIT, X = # of ITEM equipped to your UNITs.' Grey diamond stat 4 and black shield stat 4 at right; the shield overlaps the end of the last text line, which is crowded against it. Footer: '@DTCG - SAMPLE CARD', purple 'SUPER RARE' pill, 'art//JANKENDEE'."
+    }
+  ]
+}

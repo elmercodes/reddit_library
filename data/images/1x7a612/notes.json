@@ -1,0 +1,26 @@
+{
+  "post_id": "1x7a612",
+  "described_at": "2026-11-19T04:35:11+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.020258,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is mainly sharing first test prints of their homemade TCG Duel Eterna and its foil, listing planned layout fixes, and implicitly welcoming reactions.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card back held in a hand: black card with a thin blue inner border and rounded corners. The center art is a purple, blue and pink nebula swirl around a solid black circle, like an eclipse or black hole. There is no text. The finish is matte and the print looks clean. The background is colorful posters."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card front, non-foil test print, held in a hand. The card is black with blue-bordered boxes. Name: \"Psychedelic Pterafractal\", with a round emblem (a dark animal-face/paw-like icon) at the top right. Flavor text: \"When faced with danger, the pterafractal is known to split apart in a surreal mitosis.\" - Cosmic Bestiary. The art box shows an orange and cream stylized pterosaur-like creature against a pale blue cloudy sky. Type line: \"Super Creature - Cosmic Dinosaur\". Rules text: \"Play Cost - Sacrifice a creature you control\"; \"Flight (This creature can't be defended by creatures without flight.)\"; \"If this creature is defended against or targeted by an effect, sacrifice it. Create two \"Pteron\" tokens. (They're dinosaur creatures with base stats 1/0/1 and flight.)\". Bottom left credit text, small and dim: \"ART - Bhenzon John Fajardo / BASE SET 000/999 / TM & © eTerna Gameworks 2026\". A small yellow rarity or set dot sits at the bottom center. At the bottom right are three stat boxes: ATK 3 (red), DEF 0 (pink), HP 1 (blue). The text boxes have dark, almost invisible gradients and the borders are thick and black, as the poster notes."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "The same Psychedelic Pterafractal card, now a foil version, tilted in the light. A rainbow holographic \"Surge\" pattern with diagonal bands of purple, blue, green, yellow and orange runs across the whole card, including the art, text and frame. The layout and text are identical to image 2: name, flavor text, Super Creature - Cosmic Dinosaur type line, rules text, stats ATK 3 / DEF 0 / HP 1, and bottom-left credits. Foil glare makes some text and the art slightly harder to read."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1wmc2hi",
+  "described_at": "2026-11-19T04:33:59+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.019284,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants advice and best practices for designing full art card variants, including text legibility over art, how much text/stats to keep, and general inspiration.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Side-by-side comparison titled 'STANDARD VS FULL ART' of the card 'Singara, the Sun's Envy' (Fire Elemental), v1.0, Cyclémental © 2026, on a cream swirled background with @cyclementalgame watermark. Left (standard): red brushstroke-style border, round red fire-element icon top left, name in a white banner with a scroll end at right, red 'Fire Elemental' subtype tag, art on a white background of a fiery armored lion-like humanoid with a yellow mane and a sun disc on its chest. Text box in lower third with white background: '2x Ignite. Force target to give you 2 cards of their choice' and '3x Inferno. Force target to give you half their hand (rounded down), their choice', each with a red icon showing the multiplier. Bottom bar: WEAK (earth and water icons), center flavor text 'That sunburst on his chest is not armour. It's a second heart.', STRONG (metal and wood icons); the right side is partly cropped by the overlapping card. Right (full art): black border, art fills the whole card in a dynamic red/orange/yellow painterly style with the creature closer and bigger, flames at the right. Name and type tag sit directly on the art at the top. An extra keyword line appears: 'Ember. If attack is successful, target discards an additional 1 card' with a sword icon. Ignite and Inferno text is white over a darkened gradient at the bottom, with the same weak/strong bar and flavor text. Text is white with a dark shadow over busy art."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Standalone standard art version of Singara, the Sun's Envy: red brush-edged border, fire icon, name banner with scroll, 'Fire Elemental' tag, watercolor-style fire lion warrior on a white/cream art area, a boxed white text panel with '2x Ignite. Force target to give you 2 cards of their choice' and '3x Inferno. Force target to give you half their hand (rounded down), their choice'. The bottom bar shows WEAK (earth, water), flavor text 'That sunburst on his chest is not armour. It's a second heart.', and STRONG (metal, wood). Footer 'Cyclémental © 2026 v1.0'. There is no Ember keyword on this version."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Standalone full art version of Singara, the Sun's Envy: black thin border, hand-painted style art covering the whole card with the red/orange/yellow creature in dynamic pose, flames at right and a glowing orb at the lower left. The fire icon, name and 'Fire Elemental' tag overlay the top of the art. At the bottom, a dark gradient supports the white text with shadow: 'Ember. If attack is successful, target discards an additional 1 card' (Ember in red with sword icon), 'Ignite. Force target to give you 2 cards of their choice' (2x icon), 'Inferno. Force target to give you half their hand (rounded down), their choice' (3x icon). Below that, a translucent red-edged bar holds WEAK (earth, water), flavor text, and STRONG (metal, wood). Footer 'Cyclémental © 2026 v1.0'. Text is small and sits over busy art, with a legibility risk in the name area at the top."
+    }
+  ]
+}

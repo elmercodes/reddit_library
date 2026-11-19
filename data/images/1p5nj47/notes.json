@@ -1,0 +1,16 @@
+{
+  "post_id": "1p5nj47",
+  "described_at": "2026-11-19T04:24:52+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.009884,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants to know whether commenters prefer the old or new logo and card back design.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Side-by-side mockup of two card backs on a dark gray background, labeled 'old' (left) and 'new' (right) in white bold text below. Both backs are portrait, rounded-corner, black cards with a thin cyan inner border line. Centered on each is a cyan targeting-reticle motif: concentric circles, crosshair lines, small arrow/triangle markers at the top, bottom and diagonals, and a faint dark vinyl-record-like texture in the middle, with a light cyan rounded rectangle tab peeking out behind the circle at left and right. OLD: logo reads 'TAG' in flat magenta/pink block letters with white outlines, the A slanted and overlapping, with white outlined Japanese katakana (ガンガールズ) behind it. The katakana is outlined only and partly hidden behind the letters, so it is hard to read. NEW: logo is a wide, angular, 3D-extruded magenta 'TAG' with a beveled perspective look, with the white katakana 'ガンガールズ' in a bold filled font set in a dark-outlined white-edged band across the middle, and small magenta accent lines at the bottom corners. The new logo is larger, spans nearly the full width of the reticle, and has more dimension. The rest of the card back design is identical in both."
+    }
+  ]
+}

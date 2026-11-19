@@ -1,0 +1,26 @@
+{
+  "post_id": "1xnwbt1",
+  "described_at": "2026-11-19T04:36:12+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02177,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their finished Dragon Bound TCG Combat Box (a 2-player set with two starter decks), with no specific question asked.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Front of the Dragon Bound Trading Card Game 'Combat Box – 2 Player Set' lying on a dragon-art playmat. The box is glossy, split diagonally: red/fire side with a spiky red-black dragon on the left, blue/yellow/teal water-light dragon on the right, lightning bolts down the middle. A gold dragon-head logo reads 'Dragon Bound Trading Card Game'. 'COMBAT BOX' is in large orange-yellow block letters with a red outline, and '2 PLAYER SET' is in white below it. The art is a digital/marker-style illustration."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Back of the box, with a blue left half and a red right half. The header reads 'THE BATTLE BEGINS HERE'. Two deck lists are printed. Blue deck: Kailahnai x1, Darya x1, Vodahn x1, Tasseth x1, Sigil x2, Siedrex x2, Stratomari x2, Oberon x2, Taylum x3, Sirena x3, Sola x3, Alakan x3, Kalux x1, Aqua Medallion x3, Merge Core x1. Red deck: Magmorath x1, Sovek x1, Daigar x1, Brutahk x1, Tharabane x2, Ryuuga x2, Spara x3, Noir x3, Balox x3, Alakan x3, Flambian x3, Ignis x1, Nova Medallion x3, Merge Core x1. The center blurb describes the 2-player set with the Dark Flames Rising deck (Fire and Dark) and the Torrent of Light deck (Water and Light). A YouTube QR code sits at the bottom right. Dragon illustrations appear in the corners and bottom. The small white deck-list text on the dark background is dense."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "The open box shows two card stacks in a cardboard-divided tray, with the lid art behind. Top cards: 'Magmorath, The Dreaded Flame' (Dragon/Elemental, 2800 power, fire dragon art) and 'Kallahnai, Spirit of The Ocean' (Sea Serpent/Leviathan, 2800 power, teal water dragon art). Both have a gold frame, a full-art box, a type line, a text box with underlined keywords, a power value at the bottom left in a gold banner, element icons beside a central rainbow orb, and a row of green dots (soul/tier pips). Magmorath's text: gains 200 attack for every Fire and Dark dragon in the burial zone, opponent loses 1 soul counter for every Water and Light dragon on the field, negates its abilities, and more. Kallahnai's text: negates all of the opponent's Fire dragon abilities on the field, gains 200 attack for every Water and Light dragon in the burial zone, gains 2 soul counters, flips a card face down, and destroys a card in the opponent's arsenal zone. The rules text is small."
+    }
+  ]
+}

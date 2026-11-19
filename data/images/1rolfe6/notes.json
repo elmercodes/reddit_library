@@ -1,0 +1,26 @@
+{
+  "post_id": "1rolfe6",
+  "described_at": "2026-11-19T04:27:58+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.028106,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on the new card frame designs (Hero and Spell) and the example card, specifically what can be improved or removed.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Finished example Hero card with a dark charcoal frame and orange/red trim, in portrait layout. Title banner: \"FLAMMESLANGE, SUNDER LORD OF SKIES\" with a pink \"HERO\" subtype line beneath it. A white tower/flame emblem sits top right, with a fire-element circle icon below it. Left column of four hexagonal stat badges: fist (yellow) 18 with +4, boot/speed (yellow) 8 with -1, book (purple) 3 with -4, leaf/green icon 12 with +1. The art box is a large painting of a fiery phoenix/dragon wing in orange and red, overlaid with a semi-transparent \"PLACEHOLDER\" watermark and the credit \"ART BY: CHRIS RAHN - MTG\". A blue water-drop cost badge shows 7, flanked by hexagon pips. Below the art are two text boxes. Left: talent \"Flamelord Reborn\": when an attack is declared on Flammeslange it can use its Reaction; the attacker must do a check 15 (fist icon). If it fails, it receives 3D6 Fire Damage and 15 Toughness reduction. Once, when Flammeslange's HP drops to 0, it Revives with half its original HP. Right: skill \"Eruption of the Skylord\" with a row of icons (cost 9, 5D8 fire, target icon, -20 toughness badge): deals 5D8 Fire Damage to all enemies and 30 Burn Damage to the Enemy Quartz. Bottom row: green heart HP 220, cyan shield TN 90, a shield-shaped \"13 AC\", resistance icon (fire) and weakness icon (blue/arcane), and a basic attack box \"Claw of Magma\": deals 3D4 Fire Damage to one enemy target, skip your next Draw Phase, 1D4 fire, -15 badge. Text is small but readable, and the layout is dense with many inline icons."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Side-by-side comparison of Hero card templates, labeled OLD (left) and NEW (right), with blank art boxes and Lorem Ipsum filler text. OLD: purple/grey rounded frame with a name bar at top, a purple water-drop cost (3) at top right, a faction emblem and class icon at top left, and a white art box with a vertical column of five stat icons marked \"x\". Below that are a \"Talent\" header with a long block of Lorem Ipsum text on the left, and on the right an \"Ability Exemple\" header (cost icons, 1D10 damage, 15 badge) and an \"Ultimate Exemple\" header (pink), each with Lorem Ipsum text. The bottom has pill-shaped stat bars: 60 PV (green) and 30 TN (cyan), a central 10 AC shield, RES and WEK icons, and 1D6 and 1D4 attack pills. Text is very small and dense. NEW: black frame with violet trim and the same layout as the finished example card: \"CARD NAME HERE\" with a pink HERO line, large white art area, four stat hexagons (18 +4, 8 -1, 3 -4, 12 +1), a cost drop of 3, a \"Talent\" box and a \"Skill\" box with Description placeholders, 220 HP, 90 TN, 10 AC, resistance and weakness icons, and a \"Basic attack\" description box. It is more modular, with cleaner separation and larger text areas."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Side-by-side comparison of Spell card frames, labeled OLD (left) and NEW (right), with blank white art areas. OLD: a light grey/lavender/beige angular, crystalline frame with a \"✦ SPELL ✦\" black header, a large white art area, three diamond icons overlapping the art/text boundary (left blue spellcasting swirl icon with 3, center lightning-bolt icon, right flame icon with 3), and a large dark grey text area split by a thin vertical line into two halves. NEW: black card base with a beige and lavender angular frame, a \"SPELL\" header in stylized lettering, and a soft vignette-edged art window with decorative diamonds and crescent moons. Below the art are a left swirl icon with value 6 and a label \"Arcousia Spellcasting\", a central shield emblem, a right label \"Pneumand Spellcasting\" with a value 6, and a right flame icon. A \"Spell name\" banner sits below, then two effect headers (\"EFFECT 1\" with a blue swirl icon and \"EFFECT 2\" with a blue flame icon), and a dark text area split into two columns by a vertical line. The new frame is more ornate and has a dedicated name field."
+    }
+  ]
+}

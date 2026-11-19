@@ -1,0 +1,26 @@
+{
+  "post_id": "1tszn8p",
+  "described_at": "2026-11-19T04:30:12+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023248,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing results of a solo playtest of their hand-drawn prototype TCG (hand replenish, energy, evolution, D12 HP) and the lessons learned, with no explicit question.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "A hand fans five hand-drawn paper prototype cards in front of a desk. Pen-and-ink sketches on white cardstock, with a colored-pencil circle for cost at the top left (green or yellow). Visible cards: a hooded figure (cost 2); a bird, with text partly hidden that reads 'Animal: L...' and '1 DM...' (cost 2, yellow); 'Virgo' with a crowned queen and a '5' cost with a small '3' (80 at the top right); and 'Virgo' The Hermit with a lantern (cost 3, small '2', +40). The Hermit's text reads 'As long as other allies, cannot be active, and cannot be targeted', partly covered by the thumb. A cloud/animal sketch (cost 3) is at the far left. In the background is a loose sheet reading 'Triton +1 DMG' and 'STINGER 1 DMG per turn'. Fingers cover some text."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "A close-up of a stack of hand-drawn prototype cards on a wood table, with a d6 at the bottom left and a blue/purple D12 at the top right (the HP marker). The top card is a Hero card: green cost circle '3' top left, 'VIRGO' at the top center, '+40' top right, and a small '2' with a level mark under the cost. The art shows a hooded hermit holding a lantern under clouds, a moon, and stars. Name: 'The Hermit'. Text: 'As long as other allies, cannot be active, and cannot be targeted'. Under it are smaller evolution/attachment strips partially tucked beneath the card. One reads 'can use all Animals ~~hit twice (if you can pay for it)~~' with the 'hit twice' part crossed out, and another reads 'DMG -1', with rounded-corner frames."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "A tabletop playtest layout of hand-drawn cards, dice, and coins. Top left: a stack with the Virgo hero 'The Queen' (cost 5, small 3, +80; art of a crowned woman with large earrings). Text: 'When played 1 ♡ to each opponent'. Under it are strips: 'can use all Animals ~~hit twice (if you can pay for it)~~' and 'Queen's Staff: Revenge deals +1 DMG'. A D12 and a d6 sit nearby. Top right: a Pisces hero 'The Ocean' (blue cost 5, small 3, +80) with a trident-wielding sea figure, and a partly hidden strip reading 'STINGER ... per turn'. A blue D12, a d6, and 100 pesos coins are nearby. Bottom row: three action cards, each with a green cost circle top left, a star icon top right, central art, and name/text at the bottom. 'Lantern' (cost 1): 'Draw 2 cards'. 'Charmed' (cost 2, two hearts): 'Place 2 charm ...' (text cut off). 'Revenge' (cost 3, broken heart): '1 DMG per ♡ token'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1s4la31",
+  "described_at": "2026-11-19T04:28:18+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02007,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants general feedback on their new hand-drawn card art (replacing AI placeholder art), especially the backgrounds, and on the cards overall.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'Coastal Courier', blue-framed Spirit card. Top-left stacked stat icons: blue potion cost 2, grey sword-shield attack 2, red heart health 2. Name in a banner at top center. Large art box shows a cartoon white seagull in a blue bucket hat with a brown satchel, flying against a blue sky with photo-like clouds; the bird is flat-colored with black outlines, and the satchel is partly faded by a cloud overlay. Type line (overlapping bottom-left of art): 'Spirit — Avian'. Text box: bold 'Airborne' with italic reminder '(Can only be guarded by Spirits with Airborne or Scope)'. Bottom strip: 'U', 'SD01 - 15', '(C)', palette icon + 'Doug Summers' (art credit), lightbulb icon + 'Doug Summers' (design credit), '©Dopey Yeti Games'. Grey outer border, dark blue textured frame, light periwinkle text box."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card 'Elegant Koi', same blue frame/layout. Cost 1, attack 0, health 4. Art: hand-drawn orange, white and black koi curled in a C-shape on a flat-looking cyan water texture with darker ripple lines; the koi has barbels that look like a mustache. Type 'Spirit — Fish'. Text box contains only italic flavor text: 'Hey look, it looks like it has a mustache.' Footer: U, SD01 - 13, (C), Doug Summers for art and design, ©Dopey Yeti Games."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Card 'Night Magician', grey/black-framed Spirit card (different color than the blue cards). Cost 7, attack 6, health 7. Art: chibi wizard in a purple pointed hat and robe with glowing yellow eyes, brown belt, and staff, pointing up toward a small purple rune orb, on a swirly purple background; flat cartoon style with outlines. Type 'Spirit — Wizard'. Text: bold 'Scope' (italic reminder: Can guard Spirits with Airborne.); 'When this card is summoned: you can add 1 Spell card from your graveyard to your hand.'; italic flavor 'The limit of his power has yet to be seen.' Footer: B, BP01 - 188, (SE), Doug Summers art and design credits, ©Dopey Yeti Games. Text box is filled with text, unlike the other two cards."
+    }
+  ]
+}

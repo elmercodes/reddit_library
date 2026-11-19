@@ -1,0 +1,26 @@
+{
+  "post_id": "1qns58a",
+  "described_at": "2026-11-19T04:26:39+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.018182,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants general feedback and opinions on the NETHERWEB card face templates, especially whether the streamlined retro abandoned-OS look works.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Blank Proxy card template, portrait, on a dark grainy noise background. It mimics a retro OS window with a lavender-gray beveled frame. Top: a wide title bar with a cyan-to-blue gradient and a small empty square box at the right (likely cost or icon). Below is a large black rectangular art box. Under the art, a bottom strip reads 'Offense: 000' at left and 'Defense: 000' at right in black pixel/monospace font. Beneath the card is a separate beveled rules-text window with a cyan-to-blue title bar reading 'Proxy - [FACTION NAME]' and a pale pink-lavender empty text area. The gradient bars look slightly glitchy/noisy. The only stats are Offense and Defense."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Blank Prompt card template with the same layout as the Proxy: lavender beveled frame, top title bar with a green-to-teal gradient, small empty square at upper right, large black art box. The bottom strip under the art is empty, with no stats. The lower text window has a green-to-teal title bar reading 'Prompt - [FACTION NAME]' and an empty pale lavender text area. The background is dark noise."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Blank Virus card template with the same layout: lavender beveled frame, title bar with a purple/magenta-to-red/pink gradient, small empty square at upper right, black art box, and an empty bottom strip with no stats. The lower text window has a magenta-to-red title bar reading 'Virus - [FACTION NAME]' and an empty pale lavender text area. The background is dark noise. Card type is distinguished only by title bar color and the type label."
+    }
+  ]
+}

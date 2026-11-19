@@ -1,0 +1,26 @@
+{
+  "post_id": "1uy1ngw",
+  "described_at": "2026-11-19T04:31:48+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.025358,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants advice on whether Chinese Hanzi/Japanese Kanji or custom icons work better for the five element symbols in Cyclémental, considering flavor, accessibility, and legibility at small sizes.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Comparison sheet on a cream ink-wash background. Top half is labeled \"With Chinese Hanzi / Japanese Kanji\", bottom half \"With custom icons\", with a bold brush-style \"VS\" between them. Each half has two rows of five elements. Row 1 shows single round tokens with a brush-stroke black/cream ring. Row 2 shows double-element tokens, two smaller circles overlapping on a black brushed disc. Colors: Fire is red, Water blue, Wood green, Earth orange/gold, Metal purple. Kanji set: 火, 水, 木, 土, 金 in white. Custom set: Fire is a white flame, Water a white droplet, Wood a four-pointed star/leaf shape, Earth a stacked-bars pyramid, Metal a white hexagon with a downward triangle. Icons are flat and bold. In the double tokens the glyphs are noticeably smaller."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Two versions of the same sample card side by side, labeled \"Special Elemental\"; the left uses Hanzi/Kanji icons, the right uses custom icons. Both have a red \"SAMPLE\" watermark. The card is \"Pasiris, the Sand Clasher\", an Earth Elemental, with a black border plus a gold brush-stroke inner frame. Top-left has a round element icon (土 or pyramid icon), then the name on a white banner with a scroll end at right, and an orange \"Earth Elemental\" type tag below the name. The art is a watercolor/ink-style blue-gray mechanical spider with glowing orange orbs. A dark ability bar reads \"Waterproof. When attacking, this creature cannot be countered by Water.\" and has a blue Water icon with a crossed-out badge. The cream text box lists combos: 2x \"Petrify. Cancel an attack, combo, or spell targeting you\" and 3x \"Gravity. Every player with more cards than you discards down to match you after using this combo.\" The bottom bar has WEAK (Wood icon) at left, a flavor-text scroll \"Time's up, I'll send you back to the deserted island\", and STRONG (Metal and Fire icons) at right. Footer: \"Cyclémental © 2026 James Rotanson v1.0\". The weak/strong icons and combo cost badges are very small; the kanji versions are slightly harder to read at that size."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Two versions of the same sample card side by side, labeled \"Striker Elemental\"; left uses Hanzi/Kanji, right uses custom icons. Both have a red \"SAMPLE\" watermark. The card is \"Tsunaja, the Wave King\", a Water Elemental, with a blue frame and the same layout as the Pasiris card. The art is a watercolor-style blue and teal dragon-like humanoid with multiple arms, golden antlers, and orange accents. The ability bar reads \"Swirl. If attack is successful, target gives you 1 additional card of their choice\". The text box has 2x \"Ripple. Reveal target's full hand to everyone, take 1 card of your choice excluding Qi\" and 3x \"Vortex. All players pool their hands (excluding Qi), then shuffle, and redeal evenly. Leftover cards go to you.\" The bottom bar has WEAK (Metal and Wood icons) at left, flavor text \"It wears the robes of every court it waved goodbye to\" in the center, and STRONG (Fire and Earth icons) at right. Footer: \"Cyclémental © 2026 James Rotanson v1.0\". The small icons in the weak/strong areas are tiny in both versions."
+    }
+  ]
+}

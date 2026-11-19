@@ -1,0 +1,26 @@
+{
+  "post_id": "1ukcxhg",
+  "described_at": "2026-11-19T04:31:11+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.024396,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on their card back designs for Cyclemental (whether they feel too busy, what makes a card back iconic, and how to improve them), plus feedback on the custom logo typography.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Mockup on a cream swirled background, captioned 'Card back for Elemental Creature'. Left: front of a red-framed Fire creature card. Top-left has a red circle with the white kanji 火. Name banner reads 'Singara, the Sun's Envy', with a red subtype tag 'Fire Elemental' below. The banner ends in a scroll curl on the right. The art box shows a watercolor-style fire spirit with a spiky yellow mane, red armor and a sun-like orb on its chest. The text box has two abilities with red cost icons: '2x Ignite. Force target to give you 2 cards of their choice' and '3x Inferno. Force target to discard half their hand rounded down'. The bottom strip has a WEAK box with blue 水 and yellow-brown 土 circles, a flavor text box reading 'That sunburst on his chest is not armour. It's a second heart.', and a STRONG box with green 木 and a purple circle (cut off by the overlapping card back). Footer: 'Cyclémental © 2026'. The frame is a black brushstroke border with a red inner border. Right: the card back. It has a dark charcoal swirling vortex texture in monochrome inside a rounded black brushy border. At the center is a pentagram-style element cycle: five circular kanji icons (火 red at top, 木 green at right, 土 yellow-orange at lower right, 金 purple at lower left, 水 blue at left) joined by colored brushstroke arrows. Each element's color glows softly into the vortex. The silver-white custom 'Cyclémental' logo sits at the bottom."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Mockup on the same cream background, captioned 'Card back for Qi (purposefully distinct)'. Left: front of the Qi card. It has a rainbow gradient border (green, orange, purple, blue) inside a black brush frame. Yin-yang symbols sit in the top-left, top-right and bottom-left corners; the bottom-right one is partly cut off by the overlapping card. The title bar reads 'Qi'. The watercolor art shows a meditating figure with a golden halo, surrounded by red flame, blue water, green foliage and purple branches/metal, with a small yin-yang on its chest. The text box has an 'EFFECT' tag, bold text 'Gather 3 Qi Cards to win the game', and flavor text 'Stillness is not emptiness. It is where clarity is born.' Footer: 'Cyclémental © 2026 by James Rotanson'. Right: the Qi card back. It uses the same dark monochrome vortex, but the vortex has rainbow color (red, blue, purple, green, orange) swirling around a large black-and-white brush-style yin-yang at the center. The silver 'Cyclémental' logo sits at the bottom."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Top: a vector outline of the custom 'Cyclémental' logotype in an italic, brush-script style with sharp swooping tails, shown with blue anchor points and Bézier handles in a bounding box (traced by hand with a trackpad). Bottom: a photo of the pen sketch on paper showing the original lettering, with faint pencil doodles of faces behind it. Below it are three rough card-back thumbnails. The first has a wavy vortex pattern and scribbled logo text. The second has an oval containing a vertical logo. The third has a pentagram inside a circle with five nodes, radiating lines and the logo underneath. This third one is the concept that led to the final element cycle design."
+    }
+  ]
+}

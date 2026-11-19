@@ -1,0 +1,26 @@
+{
+  "post_id": "1xurdr1",
+  "described_at": "2026-11-19T04:36:20+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023098,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is introducing and promoting their expandable card game VaelStrike (the text cuts off), apparently sharing it for interest and feedback from fellow homemade TCG makers.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'Ethereal Bloom (Relic)'. Cost 0 in a gold-ringed grey coin in a shield-shaped banner at top left, no element icons. Blue/navy frame. Art box fills the upper two-thirds: painterly, glowing pink-blue lotus on a thorny vine dripping blood, next to a skull, in cold blue tones. Below the art: name with type in parentheses, then a grey text box. Text: 'Immediate / Deploy: An enemy player of your choice chooses one: • 1 player of your choice draws 1 card. • 1 player of your choice discards 1 card at random. • Rotate Ethereal Bloom. R, Banish Ethereal Bloom: Gain 1.' (R is a rotate icon, 1 is a resource icon). Flavor text: 'One bloom ... three thorns.' Bottom black bar: Relic type in a hexagon, rarity R, set code RSH 0217, an element-style symbol, a gold '2x' hex (copies in playset), art credit Maria Holzleitner, ©2023-2026 VaelStrike. Photographed on a wood table."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card 'Illusionary Duelist'. Cost 3 in a grey coin plus two orange spiral icons, in a banner at top left. Orange/teal frame. Art: a hooded blue-glowing ninja-like figure leaping with curved glowing blades, a ghostly duplicate behind it, crescent moon at top right, digital painterly style. Type line: blue 'Airy' pill, then 'Champion: Spiritblade, Illusion, Trickster'. Text: 'Phantom Strike – When this is blocked, its blocker borrows Stumble +50%. (They have a 50% increased chance to deal no combat damage this turn.)' Flavor: 'Striking from the shadows, the Illusionary Duelist dances between reality and illusion.' Bottom bar: stats 4/3 in a hexagon, rarity U, RSH 0142, symbol, grey '3x' hex, art by Albert Chauw (Raito), ©2023-2026 VaelStrike."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Playmat design for two players, mirrored top and bottom, with a dragon illustration background in orange/pink sunset tones. Center grid per side: blue Airy slots A1-A3 and an orange Celestial slot C1, plus four green Grounded slots G1-G4 per side meeting at a middle line with numerals I-IV. Left side: 'The Vael' zone, Nemesis Deck draw/discard piles (slot #1 and #2), quest card spots, a Nemesis HP red box, and a turn track 1-9 and a numbered 10-20 track. Right column: discard pile, essence pile, draw pile for each player. Corners: 'Essences' and 'Permanents' zones, and VP boxes at top and bottom center. Grey placeholder boxes mark piles."
+    }
+  ]
+}

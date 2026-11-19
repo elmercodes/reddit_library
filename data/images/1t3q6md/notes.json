@@ -1,0 +1,26 @@
+{
+  "post_id": "1t3q6md",
+  "described_at": "2026-11-19T04:29:21+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.021314,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether their self-made card art is good enough to keep doing themselves or whether they should hire an artist.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Digital card, 'Avatar — Engineer' with a blue circuit-board frame and a sci-fi terminal look (green monospace text on dark green CRT-style panels). Name box at top-left reads 'ECHNICIAN SZAREN' with a small gear/sun icon (first letter 'T' appears cut off, so likely 'Technician'). Four round green screen slots sit in the corners and each shows only a dash: top-right, bottom-left and bottom-right, so the stats are placeholders. Type line at the bottom center reads 'AVATAR — ENGINEER'. Full-bleed art shows a purple, orange and teal robot or spacesuit character with a round gold-visor helmet, long tentacle-like cables and a raised open hand, surrounded by white lightning on a purple background. The style is painterly digital with rough brush strokes and white outlines. The text box is a semi-transparent dark box over the lower art: 'Once per game, you may pay 1★. Search your deck for a Tech card and put it in your hand. Then shuffle your deck. You may play this ability' The last line fades and is cut off, and the text overflows the box. The mouse cursor is visible at the bottom right."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Digital card, 'Avatar — Scoundrel' with a red/copper circuit-board frame and the same green terminal-screen UI. Name box reads 'KATSIA,' with a gear icon, right-aligned, and a blurry smudge on the left suggests a text-rendering glitch. The four corner screens show dashes (placeholder stats). Type line reads 'AVATAR — SCOUNDREL' and sits tight in its box. Art is a painterly digital portrait of a hooded figure in a bright magenta/pink hood with swirled dark hair, a mask or goggles, and one eye visible, against a dark starry blue and green background with white and pink electric or crackle textures at the bottom left. The text box is dark and translucent and reads: 'Once per game, you may gain Camoflauge.' (Camouflage is misspelled.)"
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Digital card, 'Avatar — Soldier' with a brown/bronze circuit-board frame and the same green terminal UI. The name box is a bright green glowing blur with no legible name, apparently a rendering glitch or placeholder. The corner screens show dashes. Type line reads 'AVATAR — SOLDIER'. Art shows an astronaut or soldier in a cream and purple suit with a dark visor helmet, holding a pistol up in one hand and a large gold weapon in the other, with a jetpack on the side. A white-cyan energy burst and lightning cover the center, and the background is mottled red, green and yellow. The style is digital, with halftone dot shading and bold outlines. The text box is dark blue-gray and reads: 'Once per game, pay 2★. You gain 3 shields.' There are some dark smudges over the box."
+    }
+  ]
+}

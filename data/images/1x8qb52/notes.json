@@ -1,0 +1,21 @@
+{
+  "post_id": "1x8qb52",
+  "described_at": "2026-11-19T04:35:28+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.013076,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback comparing the old bordered card layout (first image) with the new full-art layout (second image) for their TCG Relicon.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Old layout of the card 'Forward Observer'. Black card frame. Top: white name bar at left with the name in bold black sans-serif; at top right a white round cost badge showing '1' next to a black-and-white radiation/nuclear symbol icon. Below is a boxed art window with a hand-painted oil/acrylic-style image of a hooded, cloaked figure in gray and brown armor against a red and dark smeared background. Beneath the art is a gray bar with a hexagonal white type label reading 'Infantry'. Text box is a white rounded rectangle with a faint circular tech/HUD watermark. Bold keywords: 'Overwatch, Initiative, Intel'. Italic flavor text: \"They do not fear the dark. They were trained to disappear within it.\" Bottom left: hexagonal white label 'Universal'. Bottom right: two white round stat badges reading '1' and '1'. Text is legible with strong contrast."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "New full-art layout of the same 'Forward Observer' card. The painted hooded figure art (gray cloak, brown/tan armor, red background) now fills the entire card, enlarged and cropped closer. Name sits in a small off-white grungy textured label at top left, with bold black text. Top right has the cost '1' in a white circle plus the radiation symbol icon, now directly over the art. Hexagonal 'Infantry' type label with gray line sits across the art at about 60% down. Text box is a semi-opaque parchment/tan weathered texture rectangle containing the same text: bold 'Overwatch, Initiative, Intel' and italic flavor quote \"They do not fear the dark. They were trained to disappear within it.\" Bottom left hex label 'Universal'; bottom right two white round stat badges '1' and '1'. Black text on tan box is readable; the art is more visible and the black frame is removed."
+    }
+  ]
+}

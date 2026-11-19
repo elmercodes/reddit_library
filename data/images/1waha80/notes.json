@@ -1,0 +1,26 @@
+{
+  "post_id": "1waha80",
+  "described_at": "2026-11-19T04:33:49+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.01939,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their nearly finished TCG card design (VALLEY) and its dithered home-print version, and seems to want general feedback or advice before printing the first real cards.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Near-final card 'Brambletrail Marauder', a black-bordered card scanned flat with slight wear/speckling. Top left: small gold bearded-face icon; name in white serif at top; top right two round icons: blue circle with a sword and green circle with a leaf. Large framed art box with a bright, painterly illustration of a purple monkey with cream chest leaping rightward-to-left through a green berry bush under a starry night sky and blue mountains. Type line below art: 'Creature / Ape Scout / Monkey', with a gold set/rarity symbol at right. Text box is a pink/salmon parchment with red border: 'Main Phase: Brambletrail Marauder can move one additional space if it has received any damage this turn.' (Main Phase bolded). Bottom left: orange/gold circle with '2' and a four-way arrow move icon; small credit 'Illus. Trey Servant'. Bottom right: blue hexagonal stat plate '4 / 5'. Text is large and readable."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Black-and-white dithered (halftone/stipple) version of the same Brambletrail Marauder card, for home or label printers, on a white square with black margin. Layout identical: name, two icons top right, art, type line, text box, move cost circle '2' with arrows, illustrator credit, '4 / 5' stat plate. The art is heavily reduced and hard to read as a monkey; rules text remains legible, though icons and small text are less clear due to the dither."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Older test card 'Two & Urthos, King-Rider' with a brown wood-style frame and a tan/yellow parchment text box. Top right: small round green tree icon. Art: a large maroon bear charging through splashing blue water with a small crowned human rider on its back, rocky cliffs and a branch around, purple sky. Type line: 'Hero / Guardian / Human, Bear'. Text: 'Diagonal / Dismount / Remount'; 'Remount: Pay 1 Essence. If Two and Urthos are adjacent and untapped, merge into Mounted on either space; remove the other token.'; 'Mounted Ability: \"Unstoppable Charge\" Once per turn: Move up to 2 spaces forward. Each enemy entered or crossed by this movement is pushed back 1 and takes 1 damage.' Bottom left: white boxes '3 / 22' and '2' with a move-arrows icon, and 'art by servant' in small text. Bottom right: a small dark box with a warrior/class icon. Layout is simpler, with the name in small white text at top left."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1r2bn5m",
+  "described_at": "2026-11-19T04:27:06+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.019486,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants commenters to say which of the five guild patches they would join, to see how preferences are spread across the guilds.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Collage of five embroidered guild patches on denim/dark fabric. Each has a small star in the top-left corner and two bars (chevron/stripe pairs) in the lower section, with a distinct shape and color per guild. Left top: teal rounded rectangle with a dark-teal tangled wire/circuit-line pattern, a 2x2 block of dark bars below (the Weave). Left bottom: gold/yellow inverted triangle over a cream field of small tile/rectangle motifs, with two wide gold bars beneath (the Tile, Gilded). Center, largest: salmon/coral-red tall hexagon with radiating lines, a flame inside a crystal/prism cage, and two red chevron bars below (the flame guild, presumably the Prism). Right top: purple oval/disc with a stylized eye with lines and dots, over a stacked dark-purple base with bars (the Unknown/Veiled). Right bottom: brown/maroon pentagon with five claw/spike shapes and two dark bars below. Muted tonal colors; thread-on-thread embroidery."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Pencil sketch on paper of the red flame patch design: tall hexagonal badge with a small star in the top-left corner, a zigzag-stitch border, radiating dashes around a prism/crystal cage holding a hatched flame, and two chevron bands of heavy scribble shading at the bottom. Part of another flame sketch is visible at the top right edge."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Close-up of the finished embroidered salmon/coral-red flame patch on dark denim. Tall hexagon shape with a star at the top-left, radiating line burst, a wireframe crystal/prism cage containing an embroidered flame, and two thick chevron bars at the bottom. Tone-on-tone red thread; matches the sketch closely. A small sparkle icon watermark is in the bottom right corner."
+    }
+  ]
+}

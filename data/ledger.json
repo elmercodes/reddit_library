@@ -13,7 +13,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 13.3406,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1m4x1yq": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
@@ -28,77 +31,110 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 12.9423,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1v5w74a": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 12.1442,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1ww9h9v": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 11.6785,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1t8ucs3": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 11.5244,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rjrir0": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 11.4895,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1uvo0d1": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 11.4807,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1slrnm2": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.9793,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1x1obd2": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.9476,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1r8q2t4": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.9388,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1pfe8a9": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.8827,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rdjj2s": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.8068,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rfgz9u": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
@@ -113,21 +149,30 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.7858,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1ryhz14": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.7566,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1se6651": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.6741,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1seml2f": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
@@ -142,49 +187,70 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.6153,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1uscm37": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.5514,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vzyi02": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.5338,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1v7pahj": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.4933,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1ugpsu0": {
       "fetched_at": "2026-11-19T04:05:17+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.4713,
       "run_id": "phase2-comments-20261119T040403-7b2118",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rolfe6": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.4296,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1x7ko6b": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.4161,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1wgf6yi": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -199,35 +265,50 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.2764,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1wmrhog": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.2551,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vibcpr": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.1063,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1s4la31": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.0952,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qn3g25": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 10.0433,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1sz9zve": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -242,7 +323,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.9867,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1w0y1es": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -265,21 +349,30 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.7783,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1x4ewd7": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.7746,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1q5tk3l": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.76,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1tsnlih": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -294,7 +387,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6864,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1wwaia8": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -309,42 +405,60 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6791,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1sqv27p": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6519,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qb6zrp": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6508,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vcq0fm": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6442,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1uy1ngw": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.6153,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qxllp8": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.607,
       "run_id": "phase2-comments-20261119T040517-386fa3",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1sm0b6x": {
       "fetched_at": "2026-11-19T04:06:15+00:00",
@@ -359,21 +473,30 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.5207,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1sx9e28": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.5049,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1ukcxhg": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.4918,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qapqvw": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
@@ -388,161 +511,230 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.4753,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1p8zisv": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.4665,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1txqr99": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.4045,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vzwjk9": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.3951,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1wrrlck": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.3822,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1stnuxh": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.3284,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1sej6k2": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.3223,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vf4fdd": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.2994,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vhft8r": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.2945,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1q81b1f": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.2945,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qns58a": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.2876,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1waha80": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.271,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1tgh9ld": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.2016,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vnqm2t": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.1692,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1p6g6ye": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.1689,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1xichnd": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.123,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1p5nj47": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.1188,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rk4lm0": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.0674,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1xg0qb3": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.0118,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1xnwbt1": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 9.0031,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1u30qmb": {
       "fetched_at": "2026-11-19T04:07:09+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9856,
       "run_id": "phase2-comments-20261119T040615-766c5a",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1pemndc": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9828,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1wmc2hi": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9673,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1uzrt59": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -557,7 +749,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9493,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1s1n6id": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -572,42 +767,60 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9476,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1rnjk30": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9373,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vdkbmb": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9275,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qlztqk": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.9038,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1r2bn5m": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8942,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1v32yjk": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8789,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1w77mdb": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -622,42 +835,60 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8761,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1q7f1um": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8708,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1pezeic": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8351,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1t3q6md": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8304,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qiektx": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.8245,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1tkrdeg": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.819,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1qfp7ur": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -672,7 +903,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.7886,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 2,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vnbr1h": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -695,7 +929,10 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.7782,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 3,
+      "images_model": "claude-sonnet-5-5"
     },
     "1vlf5tj": {
       "fetched_at": "2026-11-19T04:07:56+00:00",
@@ -710,14 +947,20 @@
       "subreddit": "homemadeTCGs",
       "engagement_score": 8.7626,
       "run_id": "phase2-comments-20261119T040709-cd58b8",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     },
     "1xntzql": {
       "fetched_at": "2026-11-19T04:13:23+00:00",
       "subreddit": "homemadeTCGs",
       "engagement_score": 11.2803,
       "run_id": "phase2-comments-20261119T041303-f31467",
-      "book": "homemadeTCGs"
+      "book": "homemadeTCGs",
+      "images_done": "described",
+      "images_described": 1,
+      "images_model": "claude-sonnet-5-5"
     }
   }
 }

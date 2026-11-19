@@ -1,0 +1,26 @@
+{
+  "post_id": "1v7pahj",
+  "described_at": "2026-11-19T04:32:24+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.018442,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing the first cards of their game Battle Goomis (flair Card Critique), implicitly asking for feedback on card design and layout.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card 'Bigfoot Bobby', 20 GP (gold badge top-left), card number 01 in a star badge top-right. Brown fur-pattern frame with a dark brown name banner. Art is a photo of a crocheted brown Bigfoot amigurumi with a red nose, holding a yellow crochet butterfly, on green felt with crochet pine trees. Below the art: pink bar with 4 red hearts (health) and a mint bar with 2 green shields. Three stat boxes: orange '2' with burst icon (attack), blue '2' with spiral/yarn icon, green '1' with shield icon. White text box: blue spiral+check icon, 'Hug: Heal both Bobby and one other Goomi +1 [heart].' Footer: purple star-circle icon, two trophy icons, '© ClubCrochet 2026', black pill with yarn icon and '00000000', code '0001A', star and 'P' circle, 'Louie's Loops'. Text is clear."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card 'Walter the Frog', 10 GP, number 02. Dark teal frame with faint lily pad pattern. Art: photo of a small crocheted green frog wearing a red mushroom hat with white spots, next to a black crochet cauldron with a gold crochet hook, on green felt. Pink bar with 2 hearts, mint bar with 1 shield. Stats: 1 attack (orange burst), 2 (blue spiral), 2 (green shield). Text box: green shield+check icon, 'Ribbit: Inspire + [yellow star die icon] all other friendly Goomis.' Footer: paw icon, one trophy, same copyright, serial bar, code '0002A', 'P', 'Louie's Loops'."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Card 'Perry the Pinecone', 10 GP, number 03. Green pine-needle pattern frame with brown name banner. Art: photo of a round crocheted brown pinecone creature with two googly eyes on green felt, crochet trees behind. Pink bar with 2 hearts, mint bar with 2 shields. Stats: 2 attack, 1 (blue spiral), 1 (green shield). Text box: green shield+check icon, 'Seed: +10 GP at the start of Perry's next turn.' plus an empty rounded square placeholder at right of the text box. Footer: sprout icon, one trophy, copyright, serial bar, code '0003A', 'P', 'Louie's Loops'."
+    }
+  ]
+}

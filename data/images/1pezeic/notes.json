@@ -1,0 +1,26 @@
+{
+  "post_id": "1pezeic",
+  "described_at": "2026-11-19T04:25:22+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.020938,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing a positive experience with MakePlayingCards' new foil patterns for promo cards and inviting players to try their game on Tabletop Simulator for free foil cards; no specific feedback is requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Angled close-up photo of a printed foil promo card, 'CRYPTAG', lying on a purple/white graveyard-and-rose playmat. Card has a black border, a 'MONSTER' type label in a rounded box at top left, the name 'CRYPTAG' at top center, and a blue circle with '20 EP' at top right. A large art box shows a pale outlined antlered stag/deer creature with dark purple patches on a dark red streaked background. Flavor text in white italic on a dark strip below the art: 'The legend says that a single glance at Cryptag can drive a person mad. But oh how beautiful she is. Wait...'. Text box has 'When Rescued: Draw a card. OR When Rescued: Look at a rival player's hand and place any card from it on the bottom of their deck.' A skull icon sits bottom right with '12/92'; a star/key icon sits bottom left. The shattered-glass/crystal-shard holographic foil covers the whole card and catches the light in rainbow colors, making some text hard to read at this angle and glare."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Top-down, slightly angled photo of the same Cryptag card on the same playmat. Layout is clearer: 'MONSTER' label top left, 'CRYPTAG' title top center, '20 EP' blue circle top right, stag art in the upper half, italic flavor text over the bottom of the art, two rules boxes ('When Rescued: Draw a card.' / 'OR' / 'When Rescued: Look at a rival player's hand and place any card from it on the bottom of their deck.'). Bottom shows a star/wand icon left, the copyright line '© 2025 Git Gud Games LLC, illus. by Jeff Yates', '12/92' and a skull icon at right. Cracked-ice/shard holo foil pattern covers the entire card, including text areas, with some glare but text is mostly legible."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Straight-on, top-down photo of the same Cryptag card on the playmat, showing the foil most evenly. Same layout and text: MONSTER label, CRYPTAG name, 20 EP cost, stag art with dark red streaks, flavor text, two 'When Rescued' abilities separated by OR, copyright '© 2025 Git Gud Games LLC, illus. by Jeff Yates', '12/92', star icon bottom left, skull icon bottom right. Multicolor shard-pattern foil covers the whole card; the small rules text is legible but slightly busy over the foil. Card has a black border with rounded corners."
+    }
+  ]
+}

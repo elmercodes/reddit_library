@@ -1,0 +1,21 @@
+{
+  "post_id": "1pemndc",
+  "described_at": "2026-11-19T04:25:13+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.0172,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether the new card frame (wax seal faction icon, bookmark level indicator, recolored power/guard shapes) is more cohesive than the old frame.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "OLD frame, portrait card with black border and ornate silver vine/filigree frame, pink/red tint at top edge. Top-left: an 8-point silver starburst containing the level number \"1\". Name \"Bloomling\" in bold dark serif on a white parchment scroll banner at top; below it the type line \"Familiar - Flowerfolk\" (Flowerfolk italic). Art box: glossy 3D-rendered pink bulb-shaped flower creature with raised arms and orange-red petals, sparkles, light rays, lavender sky, grassy flowers at bottom (appears digital/CGI or AI-like). Bottom-left of art: two stat shapes overlapping the text box, both white/silver-rimmed with dark numerals: \"1\" in a rounded blob/angled shape (power) and \"2\" in a shield shape (guard). Text box is white/cream parchment with only italic flavor text: \"It rises with the morning light, drifitng whichever way the wind calls.\" (typo \"drifitng\" as printed). Bottom scroll strip: \"C X/145\" at left (collector number), \"Alpha\" 1st Edition at right, centered red floral wax seal emblem, four gold stars beneath it, credit bar \"Daniel Tinning | Eng.\" at left and \"TM & © 2026 Spellpatch Game\" at right."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "NEW frame, same card (Bloomling, Familiar - Flowerfolk, same art, same flavor text with the same \"drifitng\" typo, same C X/145 and Alpha 1st Edition, same credits). Black border with more rounded corners, pink-to-purple gradient tint at the top edge, silver vine frame. Changes: top-left now has a large pink/magenta floral wax seal (faction marker) overlapping the title scroll, with a red-and-white striped ribbon/bookmark hanging beneath it showing the level \"1\" in red. Stat shapes recolored: power \"1\" is a white shape with red numeral; guard \"2\" is a dark black/charcoal shield with white numeral. Art colors are slightly more saturated pink. The bottom center, where the old red seal was, now has a blank white oval placeholder above the four gold stars (intended for set symbol or rarity indicator)."
+    }
+  ]
+}

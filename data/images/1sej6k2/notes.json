@@ -1,0 +1,16 @@
+{
+  "post_id": "1sej6k2",
+  "described_at": "2026-11-19T04:28:32+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.011272,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether the stacked-card layout clearly communicates that a leveled-up card offers a choice among three attacks (the current one plus older ones).",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Digital mockup of three vertically stacked, offset cards on a dark teal gradient background, with the top card fully visible and the lower two showing only their bottom ability panels. Top card: 'Elvin Witch'. A green leaf-shaped cost icon with '3' sits top-left, the name is centered in cream text with thin line flourishes, and '200' (HP) is in bold white top-right. Art is full-bleed anime/fantasy digital illustration of a blonde long-haired elf woman in a green sleeveless dress, smiling, holding out her hand to a glowing cyan spirit/fairy figure in a dark forest. Text over the art near the bottom: 'When Elvin Witch comes into play, heal 20HP from any 1 hero.' Below it is an ability panel with a purple bow-and-arrow icon on the left: 'Long Shot - Deal 20 damage to any opponent hero'. A white pointing-hand cursor points at this top ability. The second card, peeking out below, shows a teal potion icon with 'Healing Potion - Heal 20 HP to any hero.' The third card shows an orange feather icon with 'Phoenix Feather - Revive a hero. You can only do this once. asdf.' (placeholder text 'asdf'). Each card has a dark navy rounded frame, with ability panels at the bottom that have gold corner accents and a square icon at left. The stacked cards are offset so each lower card's ability panel is visible, suggesting selectable attacks. The art is partly covered by the text and ability panel, and the lower cards' art is mostly hidden. Text is small but legible."
+    }
+  ]
+}

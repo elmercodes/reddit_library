@@ -1,0 +1,21 @@
+{
+  "post_id": "1x7ko6b",
+  "described_at": "2026-11-19T04:35:20+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.012784,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster shares their first hand-painted card art for Relicon TCG and seems to want critique of the art and the finished card.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Full painting of the card art, acrylic or gouache on paper in a rough, blocky brushstroke style. A hooded, cloaked armored figure with a black void face opening stands hunched and leans forward, holding a long rifle or staff diagonally across the body. The palette is gray cloak, brown and cream armor plates, and black outlines. The background is streaky, textured red and black with a dark, ominous mood. Hand-painted, with visible brush texture. Small illegible marks near the lower foot."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Finished card 'Forward Observer' in a black frame, portrait orientation. Top: white name bar with the name in bold black text on the left. At top right, a cost of '1' in a silver circle next to a black circle with a white radiation/nuclear trefoil symbol. Below is a wide, landscape-cropped art box using the painting from image 1, cropped to the torso and cloak. A gray tech-style divider banner holds a hexagonal type label reading 'Infantry'. The white rounded text box has a faint circular tech/HUD watermark. Bold centered keywords read 'Overwatch, Initiative, Intel'. Italic flavor text reads: \"They do not fear the dark. They were trained to disappear within it.\" Bottom left: hexagonal label 'Universal'. Bottom right: two silver circles with stats '1' and '1'. The layout is clean and high-contrast, with a sci-fi/military look. The red-gray painting contrasts with the black, white and silver frame."
+    }
+  ]
+}

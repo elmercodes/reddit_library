@@ -1,0 +1,26 @@
+{
+  "post_id": "1u30qmb",
+  "described_at": "2026-11-19T04:30:28+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.020432,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing that their Kickstarter print run of the Escape Land TCG is finished, with no specific feedback requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Angled close-up of a shrink-wrapped pink booster display box for 'Escape Land: Free the Monsters'. The top shows the Escape Land logo, a purple 'FREE THE MONSTERS' banner with a key/door icon, a yellow winged dragon and a pale silver-blue creature, and the text '24 BOOSTER PACKS / 10 CARDS PER PACK' next to a green Kickstarter 'K' logo. The side panel shows a clawed gray-brown monster, the logo, the banner, and the publisher line (partially legible, '...GAMES, LLC'). Loose cards are visible beneath: Snuggler (length 3'7\", weight 64lbs), Ghoulie (4'6\", 121lbs), Fishpal (Dino), and a Necrofowl-style card, all with Pokémon-like monster art on colorful frames."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Overhead view of about ten purple marbled booster packs with the Escape Land logo, a pink/magenta dragon, a 'FREE THE MONSTERS' banner, '10 TRADING CARDS' text, and a green K logo. Below them is a spread of cards. Names include Necroninja (Legend), Blazewing (Basic), Scorptide (Legend), Bogstalker (Basic, 2AP), Necrofowl (Basic), Neffarat (Legend), Wraithclaw, Finodon (Legend), Necrorex (Monster, 20EP), and Emberheart (Legend, holofoil, 9EP). Card layout: the name is in a top banner, with a rarity badge (BASIC or LEGEND) at the top right. A large art box sits in the middle with a species/length/weight line beneath it. The text box has rules like '[Link 3] Critters to summon' and 'Constant Effect', and EP cost or AP values sit in corner circles. Frames are black with a colored border, and the art is bright, saturated, creature-collector style."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Straight-on top view of the pink marbled booster box lid. The Escape Land logo and a pink-green dragon are at top, with a purple 'FREE THE MONSTERS' banner with a red key/door icon below. A yellow winged dragon with blue accents is at lower left and a pale silver/blue cloud-like creature at lower right. Text reads '24 BOOSTER PACKS / 10 CARDS PER PACK' with a green Kickstarter 'K' badge. The perforated tear-out display flap is visible at the top. Booster packs and cards are scattered around the box."
+    }
+  ]
+}

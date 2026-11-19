@@ -1,0 +1,26 @@
+{
+  "post_id": "1v2t8uc",
+  "described_at": "2026-11-19T04:31:57+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.022846,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants advice on how to set up and run a Discord server for playtest feedback and community building ahead of their TCG's Kickstarter, and what features people want in a game's Discord.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Single card, portrait, red-themed frame with diagonal white/red art background. Top bar (black): small red label 'ARTILLERY STYLE - MELEEMON', a rocket-icon box at left, name 'T-ROCKET' in a white box, 'HP 75' at right, 'M' logo and 'R 015' code top right. Subtitle: 'Champion Rank - Rank Up! from HITHEAD'. Art: a cartoon red armored dinosaur/dragon creature wearing a helmet and boxing gloves with yellow motion streaks, thick white outline sticker style, digital, in flat colors. Attack bar: fist icon with cost 6, 'Rocket Flurry', damage '15x'. Bottom left: 'RANGE' with three red boxes and 'TARGET 3'. Text box titled 'MELEEMON TRAIT' with keyword tags SNEAK and SOLID: 'When this card is dealt damage from an attack, place 1 Hit counter on it. Hit Counters on T-Rocket deal 10 damage.' Flavor text: 'T-Rocket's glove-like propulsion fists are controlled telekinetically.' Gold crown rarity/set icon bottom left, a running-figure icon with circled 7 (retreat/movement cost) bottom right. Copyright '©2026 AlexMonfra/BuffaloKimchiWorks'. All text readable."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Screenshot of the TableTopia digital prototype: a 3D green play mat for two players (opponent 'PotatoHydra' at top, 'BuffaloKimchi' at bottom). Mat labeled with Meleemon Zones, Equipment Zones, Lanes, and Counter Stack areas, 'MeleeMon Trading Card Game' logo. Cards on the field: player has blue Loopey and two red Punchy cards with yellow damage dice on them; opponent has three cards (yellow, green, orange) with dice. Red/yellow tokens show point totals (6, 4 STA with 'reset to 20 at refresh', 15). Player's hand at the bottom shows six cards: Reposition, Roster Call, Gauroog, Gauromemon, Patch Up Crate, Icepack. Chat box in the lower right has banter. Card text is too small to read in most spots."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Promo banner with orange/yellow halftone background and large block text 'CARDS' behind a fan of six cards: Danny Dou (coach, Champion Rank, trait 'COACH TRAIT'), Kickaround (green Strike, Second Rank), T-Rocket (red Artillery, center), Kingrab (blue Grapple, HP 85, Double Suplex 15x), Luchee (yellow Agility, HP 35, Dropkick 10, Base Rank starter), and Shiello (grey Shield, HP 75, Buckler Whip 15). Button text at bottom: 'CLICK HERE TO VIEW GALLERY' with arrows, and a Buffalo Kimchi Works logo at lower right. Cards share a consistent layout with colored frames per style."
+    }
+  ]
+}

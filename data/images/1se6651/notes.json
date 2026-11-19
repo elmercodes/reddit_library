@@ -1,0 +1,16 @@
+{
+  "post_id": "1se6651",
+  "described_at": "2026-11-19T04:28:26+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.011666,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants to know which of the two card layouts looks better aesthetically, to make the cards appealing to new TCG players.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Side-by-side comparison of the same card, \"Elvin Witch\", in two layouts on a gray-blue background. Both show a green hexagonal cost gem with \"3\" at top left, the name \"Elvin Witch\" in cream text centered at top flanked by thin lines, and \"200\" in bold white at top right (likely HP). Rules text: \"When Elvin Witch comes into play, heal 20HP from any 1 hero.\" At the bottom of both is a dark navy ability box with a potion-flask icon in a diamond badge and a green-gradient tab reading \"Phoenix Feather\" (italic), with text \"Revive a hero. You can only do this once.\"\n\nLeft layout (framed): black outer border with rounded corners and a textured teal/dark-green frame. The art sits in a smaller inset box with notched corners in the upper half and shows a blonde elf woman in a green sleeveless outfit on a forest background, with a glowing cyan spirit above her hand. The rules text is left-aligned in plain white on the teal textured panel below the art, with empty space beneath it before the ability box. Small diamond ornaments sit at the corners.\n\nRight layout (full-bleed): dark slate-blue thin border with rounded corners. The art fills the whole card, so the elf is larger and more cropped (the spirit is cut off at the right edge), and a sword and armor are visible at the bottom. The name, cost and 200 are overlaid directly on the art. The rules text is centered in white with a dark outline/shadow over a semi-transparent dark band across the art. The ability box overlays the lower art.\n\nThe art is anime-style digital illustration (Lodoss War, a placeholder, not the poster's own)."
+    }
+  ]
+}

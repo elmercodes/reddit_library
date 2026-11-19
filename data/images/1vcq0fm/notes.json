@@ -1,0 +1,26 @@
+{
+  "post_id": "1vcq0fm",
+  "described_at": "2026-11-19T04:32:34+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.02059,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants constructive criticism on the redesigned logo, card layout, and new artwork for their homemade CCG Moonfall ahead of a planned release.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Moonfall logo: white stylized text \"MOONFALL\" on a solid black background. The letters are angular and stencil-like, with chopped cuts and small notches. The middle \"O\" (the second O) is a circle with a vertical sword or cross running through it: a point at the top and a blade tip below. The two L's at the end resemble swords, with crossguards at their bases and pointed tops. The \"F\" and \"N\" have extended, tapering strokes. The look is a runic, fantasy, minimalist one."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card \"PRAYER PAWN\", Follower • Moonmoth, cost 1 (cyan diamond crest icon next to the cost at top left). Layout: black card with a white jagged, notched border. The name is centered at the top in bold white caps, with the type line beneath it and decorative broken lines under that. A cyan ribbon banner with a white faction emblem hangs from the top right corner. Art is a large central flat-vector, low-poly illustration of a yellow/gold moth with spread arms, antennae, and a long spear-like abdomen, standing on a dark ellipse shadow on the black background. A white divider line with a center diamond sits below the art. The red ribbon stat at bottom left reads 1 (attack) and the green castle-shaped badge at bottom right reads 2 (health). Text box: a teal \"Spearhead\" keyword tag followed by \": on play, summon a friendly \"Winged Recruit\".\" Text is centered white on black, with the card name in italics."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Card \"SINS EVALUATOR\", Follower • Maskmaker, cost 3 (same cyan diamond icon). Same frame as the other card: black background, white jagged border, cyan faction ribbon top right, red attack ribbon bottom left reading 0, green health badge bottom right reading 6. The art is a flat low-poly figure in a blue robe with gold trim, a red hood, and a gray bird/jackal-like mask with a green eye. It holds a small balance scale in one hand and a green up arrow floating above the other hand, standing on a dark ellipse shadow. Rules text: a green \"Taunt\" keyword tag, then \"After defending, buff an adjacent friendly follower.\" with \"buff\" in bold italics."
+    }
+  ]
+}

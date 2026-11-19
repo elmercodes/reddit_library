@@ -1,0 +1,16 @@
+{
+  "post_id": "1qv7ztx",
+  "described_at": "2026-11-19T04:26:48+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.009638,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants opinions on whether AI art, even as placeholder art, should be banned from the subreddit, and offers this card as an example of a non-AI placeholder.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Custom TCG card with a generic gray placeholder art box (large white-outlined dark question mark on a speckled gray halftone background) instead of real art. Layout: top-left red/orange spiky badge with cost '3' and 'RP' below it; two round icons stacked beneath it (red fist icon, yellow winged-sword/emblem icon). Title bar at top reads 'ATLAS BUSTER' in bold condensed stencil-like type, with the subtitle 'TECTONIC STORM' beneath on a red-to-gold gradient. Below the art on the left is a red tab reading 'EVENT'. A white banner across the card reads 'EARTH LIGHTNING SONG'. Text box (white with a faint gray fortress silhouette watermark) reads: 'Choose one — • Deal 8 damage to target unit. • Exhaust all units target player controls.' On the right edge are small tabs 'RED' (red) and 'YLW' (yellow). Footer: 'FACTION' label with 'THE FREE WASTES / IRON EAGLES', and a bottom-right faction crest combining a yellow sword emblem and red fist on a black flame-like splash. Bottom-left reads a small sword icon ': PLACEHOLDER' and bottom-right a 'L' (likely rarity/set code). Frame is red on left fading to gold on right with a black outer border. Text is legible."
+    }
+  ]
+}

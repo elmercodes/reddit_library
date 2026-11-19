@@ -1,0 +1,26 @@
+{
+  "post_id": "1t8ucs3",
+  "described_at": "2026-11-19T04:29:31+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.019978,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing and promoting their upcoming TCG (releasing in June, free print-and-play option) and inviting people to visit the website; no specific feedback is requested.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Full-art foil card \"HANUMAN\" (subtitle \"HINDU GOD\", type line \"Color Reaper\"), set number OG01-18 SV, \"Alpha\" logo, \"© 2026 OMGCG\". Art is a bold black-outlined comic/anime-style white-haired monkey god with a bell, prayer beads and red/white shading, on a gold/orange holographic foil background. Top-left: hexagonal gold icon with three vertical bars. Top-right: black diamond with the number 4. Bottom-left: three circular icons, a lightning-bolt compass icon, an orange mountain icon in a larger circle, and a gear icon. Rules text overlaid on the art in a blue \"Play:\" pill: \"Rest four opponent Gems.\" Name is in white block letters at bottom center. Text sits directly over busy art with no text box; the foil gives some glare."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Full-art foil card \"GANESH\" (\"HINDU GOD\", \"Color Reaper\"), OG01-03 SV, Alpha logo, © 2026 OMGCG. Art is a comic-style elephant-headed god in green, purple and tan with a green energy swirl at top, on a green/gold holographic foil. Same layout: hexagon three-bar icon top-left, diamond 4 top-right, bottom-left icons (crossed-bones compass icon, orange open book icon in a large circle, an eye icon). Text in a blue \"Play:\" pill over the art: \"Activate two rested cards.\" No separate text box; text sits over busy art."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Full-art foil card \"SHIVA\" (\"HINDU GOD\", \"Color Reaper\"), OG01-06 SV, Alpha logo, © 2026 OMGCG. Art shows a meditating figure with long black flowing hair, hands in prayer, a purple third eye, a gold-olive shawl and a glowing purple serpent coiling around, on a silver/purple holographic foil background. Same layout: three-bar hexagon top-left, diamond 4 top-right, bottom-left icons (a four-pointed sparkle compass icon, a purple eye icon in a large circle, crossed bones icon). Text in a blue \"Play:\" pill: \"Destroy one Being.\" Name in white block letters bottom center. Text overlays the art directly."
+    }
+  ]
+}

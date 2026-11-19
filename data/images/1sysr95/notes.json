@@ -1,0 +1,16 @@
+{
+  "post_id": "1sysr95",
+  "described_at": "2026-11-19T04:29:12+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.008226,
+  "design_relevant": false,
+  "skip_reason": "Meme image parodying stereotypical homemade TCG cards; not a real design for feedback.",
+  "what_is_asked": "The poster shares a joke 'starterpack' meme about homemade TCG tropes and asks what stereotypes they missed.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Meme titled 'Homemade TCG Starterpack' showing four crudely drawn parody cards: a 'Creatures! of the four Aristotelian Elements' card with a red rat and fire icon captioned 'nft.com'; 'Arthur's Magic of the Realm' with a cost of two lightning icons and 1, a knight with axe, text 'move the card, strategically'; 'Battle Women' with a green-haired woman, sword, shield, text 'hee hee showering is for normies!! drive effect: playmat' (with a struck-out word); and 'Zeus vs Odin' with two figures and text 'also somehow about weed'."
+    }
+  ]
+}

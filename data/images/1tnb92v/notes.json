@@ -1,0 +1,21 @@
+{
+  "post_id": "1tnb92v",
+  "described_at": "2026-11-19T04:30:03+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.010992,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants general feedback on their trading card frame template and card back design.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Blank card template, portrait, sci-fi/tech frame in cyan and dark navy with angular hexagonal borders over a blue gradient art area. Top-left: two stacked tabs labeled 'ATK' and 'HP'. Top-right: a circle labeled 'COST'. Large central art window spans the upper two-thirds. A wide cyan-bordered banner across the middle reads 'CARD NAME'. Below it is the text area with the placeholder 'CARD EFFECT' centered over the same blue gradient. Bottom-left: a hex badge reading 'TERRA XYZ' (likely a faction/set name). Bottom-center: a tab labeled 'CARD TYPE'. Bottom-right: a circle with the number 3 above the Portuguese word 'Raridade' (rarity). White rounded sans-serif futuristic font. The text box has no distinct panel, so effect text would sit directly on the gradient background, and the art area overlaps the text area visually."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card back design, portrait, with rounded corners and a pale lavender border. Digitally painted black hole with a glowing white-pink accretion disk tilted diagonally across the center, a black circular void, and swirling streaks of violet and magenta radiating outward over a dark purple starfield with small white specks. Painterly, hand-drawn digital style. No text, logo, or other frame elements."
+    }
+  ]
+}

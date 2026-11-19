@@ -1,0 +1,21 @@
+{
+  "post_id": "1stnuxh",
+  "described_at": "2026-11-19T04:28:59+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.013132,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on which of two card back designs for their game Everdawn (single-letter logo vs full title) to use.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Card back option A, portrait orientation with rounded corners, shown with a lavender outer border, thin red line, and cream inner border (likely bleed/safe zone). The dark teal starry background has a swirling, brushed pale-blue galaxy pattern, scattered white specks, and sparkles. A thin gold border line frames the card, with ornate gold and teal scrollwork flourishes in all four corners (larger in top-left and bottom-right, smaller in top-right and bottom-left). At center is a gold line-art sunburst with many long pointed rays around a dark circle. Inside the circle is a single white stylized gothic/decorative capital 'E' with a small diamond/star shape cut into it. Looks hand-drawn and digitally painted, with a celestial tarot-like mood."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Card back option B, identical to option A in layout, background, corner flourishes, gold sunburst, and border colors, except the center circle shows the full game title 'Everdawn' in large white/light lavender custom decorative serif lettering. The text stretches across the full width of the sunburst, overlapping the circle and the inner rays; the 'E' has the same diamond cutout and the 'd' and 'a' have similar pointed flourishes. The title covers much of the sunburst center and is the main visual change from option A."
+    }
+  ]
+}

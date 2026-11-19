@@ -1,0 +1,26 @@
+{
+  "post_id": "1rjrir0",
+  "described_at": "2026-11-19T04:27:32+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.023256,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether the minimalist stick-figure art and template style is appealing, whether the outer glow behind characters improves contrast versus the clean version, and how to keep art legible in print on darker clan colors.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Side-by-side comparison of the same red-clan card 'Saboteur' (SDVR-004), left 'Without outer glow', right 'With outer glow' (large black caption overlays on translucent boxes cover the lower text box). Layout: light gray textured card on dark background; red angled banner at top with centered serif small-caps name; hexagon clan/type icon (hooded figure) top-left; large red gradient circle as art frame with black line-art stick-figure fox holding a pistol, winking, jointed stick limbs, scribbled ground shadow; left vertical stats on dark shield icons: star icon 1, heart 5, claw-slash 2; right vertical red strip 'ART: JOSHUA M.'; red-outlined sci-fi text box at bottom reading 'WHEN SUMMONED: TARGET AN ENEMY ENTITY AND PLACE 2 BURN COUNTERS ON IT.' in small gray sans-serif caps (low contrast, partly hidden by caption); bottom red banner '© 2026 CØREBREAK TCG'. Glow version adds a soft light halo around the black linework so the figure separates from the dark red circle; the clean version has thin black lines that blend into the red, especially on the dark lower part of the gradient. Hand-drawn digital line art."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Same comparison for blue-clan card 'Sovereign' (SDAD-012), left without outer glow, right with. Same template in light blue: blue name banner, blue gradient circle, black line-art octopus-headed king with crown, cape and trident, stick-figure jointed legs with flippers. Stats: 5 (star), 10 (heart), 6 (claw). Text box: 'WHEN SUMMONED: PLACE 3 ABYSS COUNTERS ON ALL ENEMY ENTITIES. THEN, IF AN ENEMY ENTITY DROWNS BY THIS EFFECT, YOU MAY DESTROY AN OPPONENT'S SHIELD.' (partly covered by caption). Art credit 'ART: JOSHUA M', footer '© 2026 CØREBREAK TCG'. Black lines read clearly on the lighter blue in both versions; glow effect is subtle here."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Same comparison for yellow/gold-clan card 'Sniper' (SDVS-009), left without outer glow, right with. Gold/orange banners and gradient circle; black line-art stick figure archer with headband drawing a bow, small lightning/spark scribbles near the arrow hand. Stats: 3 (star), 8 (heart), 4 (claw). Text box: 'AT THE END OF YOUR TURN: TARGET A RANDOM ENEMY ENTITY ON THE FIELD AND MAKE IT STATIC. IF IT IS ALREADY STATIC, DEAL 2 DAMAGE TO IT INSTEAD.' (partly covered by caption). Art credit and footer same as others. Black linework has strong contrast on the gold in both versions; glow is barely noticeable."
+    }
+  ]
+}

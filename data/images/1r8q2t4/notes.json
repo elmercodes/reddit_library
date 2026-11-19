@@ -1,0 +1,26 @@
+{
+  "post_id": "1r8q2t4",
+  "described_at": "2026-11-19T04:27:16+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.022192,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster is sharing their first printed proxies of the CRUCIBLE TCG as a progress update, with no specific feedback request.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Photo of printed, sleeved proxy cards on a patterned rug. Three Undead cards are laid out on top, with a large fanned stack of identical blue-bordered cards below. Cards share one layout: blue frame, round blue cost gem top-left, purple name banner at the top, art box, purple type banner (Undead / Fabled - Undead) below the art, parchment text box, gold attack-style icon bottom-left, red shield stat bottom-right, footer '©2026 Adrian | CRUCIBLE TCG'. Cards: 'Graveking Ausar' (cost 3, stats 3 and 4): 'When this enters the battlefield, return all friendly Undead creatures that died during the last Combat Phase to your hand. Reduce their Weights by 2, down to 1.' 'Lichten, Battle Prophet' (cost 1, stats 1 and 3): 'During the Combat Phase, the first Undead creature you attack with gains +3 Attack, Executor, and Ambidextrous until the end of combat.' 'Nilios, Death Given Form' (cost 5, Fabled - Undead, stats 0 and 0): 'Ambidextrous, Executor, Lifesteal, Veiled. Whenever a creature dies, this gains +1/+1 permanently. (Wherever it is.)' The front of the stack shows 'Reanimated Guardian' (cost 4, Undead, stats 3 and 5). Art is dark-fantasy digital painting, possibly AI-generated. Cards have black sleeves or edges."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Close-up of a hand holding the proxy 'Reanimated Guardian' (cost 4, Undead, stats 3 and 5). Text: 'Provoke. While in your graveyard, this has +1 Weight. You may summon this from your graveyard as if it were in your hand. (Creatures with Provoke must be attacked first.)' The art shows a green-skinned armored undead brute with horns and orange bat-like wings. The text is readable at this size. A dark sleeve or border is visible around the card edge, and other cards are blurred in the background."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "A hand fans four proxy Undead cards, partly covered. 'Viral Harbinger' (cost 4, green-toned art, text cut off: 'Before com... to remo... you...', stat 4). 'Speaker of the Damned' (cost 1, hooded skeletal figure, text cut off: 'At the... Unde... start', stat 2). 'Marrow Fiend' (cost 1, grey ghoul, text partly visible: 'Executor. This... (Creatu...', stat 2). 'Wastefury' (cost 5, Undead, stats 7 and 7): 'Ambidextrous. Executor. The Weight of this card is reduced by 1 for every 2 creatures in your graveyard. (Ambidextrous creatures can choose to ignore enemies with Provoke.)' Same frame and layout throughout, with dark moody digital art in blue, green and orange tones. Cables and other cards appear in the background."
+    }
+  ]
+}

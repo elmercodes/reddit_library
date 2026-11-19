@@ -1,0 +1,16 @@
+{
+  "post_id": "1qxllp8",
+  "described_at": "2026-11-19T04:26:58+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.01169,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants first impressions on which visual setting (occult archive vs bureaucratic record) is more appealing to playtest, plus any quick improvement suggestions for either card layout.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Side-by-side mockup of the same card, 'Normal Frog', on a checkerboard transparent background. Both use the same AI-generated art: a green toad with orange spots, sitting beside leaves, in a woodcut/ink-and-color style with a dark band at top.\n\nLeft card (bureaucratic/archival version, per the poster): beige aged-paper card with rounded corners and thin ruled lines. Top-left has a grey diamond with '2' (cost). Name 'NORMAL FROG' in handwritten-style caps, with a handwritten black '2' beside it. Top-right has an hourglass icon (timer-like, no clearly readable number). Below the title is a row with a 'CATEGORY' label and 'ENTITY' value. Large art box in the middle. Text box reads 'WHEN THIS CARD IS SUMMONED: DRAW A CARD' in all-caps handwritten-style font. Bottom-left has an orange starburst with '2' (attack), bottom-right has a heart with '4' (health). Stamp/label/note feel, a bit busy at the top.\n\nRight card (fantasy/occult version, per the poster): off-white textured parchment inside a thick dark charcoal border with square corners. Top-left blue-grey diamond '2', centered serif name 'Normal Frog', top-right hourglass icon with '0'. Art box below the name, then a framed type line 'Entity', then a large text box with centered serif text: 'When this card is Summoned: Move opposing entity'. Bottom-left brown starburst '2', bottom-right dark red heart '2'. Cleaner and more traditional layout with lots of empty space in the text box.\n\nThe two cards differ in stats and rules text (left: 2 cost/2 attack/4 health, draw a card; right: 2 cost/0 timer/2 attack/2 health, move opposing entity), so they are layout mockups with placeholder values."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "post_id": "1tgh9ld",
+  "described_at": "2026-11-19T04:29:50+00:00",
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.021978,
+  "design_relevant": true,
+  "skip_reason": "",
+  "what_is_asked": "The poster wants feedback on whether their car/racing TCG, Quarter Mile, is interesting and whether the theme is niche or has market appeal.",
+  "images": [
+    {
+      "file": "1.jpg",
+      "index": 1,
+      "description": "Car card, landscape art on a portrait-sized file with the text rotated 90 degrees. Card is QM-02 (top right, with a car silhouette icon). Type tab 'CAR' sits on a black tab at the left edge. Name box reads '1996 TOYOTA SUPRA' with 'RWD' at the end, in a dark translucent panel with a light outline. Stats are in white boxes at the top right: ACCELERATION 80 and HANDLING 50. Art is a stylized, cel-shaded digital illustration (appears to be AI-generated) of a white Supra drifting at sunset, with palm trees, an orange sky, a city skyline, motion blur and tire smoke/debris. Art fills the full card with a thin dark frame. No rules text."
+    },
+    {
+      "file": "2.jpg",
+      "index": 2,
+      "description": "Driver card QM-49, portrait orientation, with a person icon at top right. A black side tab reads 'DRIVER'. Name 'Ana Nas' sits in a translucent white text panel over the lower part of the card. 'Specialty: +40 CP(after calculations) if you lost the last round.' 'Advantage: If you have 4 or more AWD and/or FWD cars in your Garage, boost all base stats to all your cars by +30. If Berlin Drift Track Location is in play, give your RWD cars +50 Handling.' Art is anime-style (appears to be AI-generated): a full-body woman with long black and blonde hair in a ponytail, wearing a leather jacket with red samurai-style shoulder armor and a dragon embroidery, arms crossed, in front of a dark car. A large faded, enlarged close-up of the same character is overlaid behind her on a pineapple-pattern background. The frame is a pastel purple-yellow gradient. Text is black on a semi-transparent panel and sits over busy art, so legibility is reduced. The rules text is small relative to the name and headers."
+    },
+    {
+      "file": "3.jpg",
+      "index": 3,
+      "description": "Location card QM-13, landscape art with text rotated 90 degrees. A location pin icon sits at top right and a black 'LOCATION' tab at the left. Name reads 'COSTAL HIGHWAY: I-32' (spelled 'Costal'). The rules text box is a tall translucent dark panel on the right: 'All cars gain x2 multiplier to Acceleration and +10 to Handling.' (spelled 'multiplier' as 'multiplier' with a typo, 'mutlipier'). Art is an anime-style digital landscape (appears to be AI-generated) of a coastal cliff road at sunset over the ocean, with teal sky, orange clouds and a large sun. Full-bleed art with a thin frame."
+    }
+  ]
+}
