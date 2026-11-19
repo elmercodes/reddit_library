@@ -112,7 +112,7 @@ def test_pull(
     run_id = costs.new_run_id("phase1-test")
     res = col.sample_threads(sub, timeframe, posts, comments)
     costs.log(run_id, "phase1", "apify", cfg["actor_id"], f"test pull r/{sub}",
-              f"{res.raw_count} results", est.total, res.actual_usd)
+              f"{res.raw_count} results", est.total, res.actual_usd, external_id=res.run_id)
 
     raw = load_raw_run(res.run_id)["items"]
     kinds = Counter(i.get("kind") or i.get("dataType") for i in raw)
@@ -173,9 +173,45 @@ def recover_run(
     res = save_run(run_id, actor_id, label, run_input, None)
     est = res.actual_usd or 0.0
     costs.log(costs.new_run_id(f"{phase}-recovered"), phase, "apify", actor_id,
-              f"recovered run {run_id} ({label})", f"{res.raw_count} results", est, res.actual_usd)
+              f"recovered run {run_id} ({label})", f"{res.raw_count} results", est, res.actual_usd,
+              external_id=run_id)
     print(f"Saved {res.raw_count} items from run {run_id} as '{label}' (charged ${res.actual_usd or 0:.4f} originally; "
           f"logged to costs.csv). Recovery itself was free.")
+
+
+@app.command("costs-reconcile")
+def costs_reconcile() -> None:
+    """Re-read every logged Apify run's final charge and correct costs.csv (free)."""
+    import csv
+
+    from collectors.apify_common import _actual_usd, _charged_count, client, remaining_monthly_usd
+
+    path = C.COSTS
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    fixed = 0
+    for r in rows:
+        if r["service"] != "apify" or not r.get("external_id"):
+            continue
+        run = client().run(r["external_id"]).get()
+        if run is None:
+            continue
+        real = _actual_usd(run)
+        old = float(r["actual_usd"] or 0)
+        if real is not None and abs(real - old) > 1e-6:
+            print(f"{r['external_id']}  {r['description'][:45]:<45}  logged ${old:.4f} -> Apify ${real:.4f} "
+                  f"({_charged_count(run)} charged results)")
+            r["actual_usd"] = f"{real:.6f}"
+            fixed += 1
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+    apify_total = sum(float(r["actual_usd"] or 0) for r in rows if r["service"] == "apify")
+    print(f"\n{fixed} row(s) corrected. Apify total in costs.csv: ${apify_total:.4f}")
+    left = remaining_monthly_usd()
+    if left is not None:
+        print(f"Apify credit left this billing cycle: ${left:.4f}")
 
 
 @app.command("ranked")

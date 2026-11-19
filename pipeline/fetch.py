@@ -87,9 +87,19 @@ def collect(sub: str, refresh_candidates: bool = False) -> None:
                         costs.apify_cost(n, col_cfg))
     else:
         print(f"Using {len(cached)} cached candidates from {candidates_path(sub).relative_to(C.ROOT)} (no charge).")
-    upper = keep * (1 + per_thread)
-    est.add(f"Step 2 preview: {keep} threads x (1 + {per_thread} comments), max",
-            f"{upper} results", costs.apify_cost(upper, col_cfg))
+    if cached is not None:
+        # Candidates are known, so the step 2 preview is exact: only kept threads not yet fetched.
+        need = [p for p, _ in R.rank(cached)[:keep] if not ledger.has(p.id, "fetched_at")]
+        if not need:
+            print(f"All {keep} kept threads for r/{sub} are already fetched. Nothing to buy.")
+            return
+        n = comment_results(need, per_thread)
+        est.add(f"Step 2 preview: {len(need)} kept thread(s) not yet fetched", f"{n} results",
+                costs.apify_cost(n, col_cfg))
+    else:
+        upper = keep * (1 + per_thread)
+        est.add(f"Step 2 preview: {keep} threads x (1 + {per_thread} comments), max",
+                f"{upper} results", costs.apify_cost(upper, col_cfg))
     print("Step 2 is confirmed separately after ranking, with an exact estimate.")
     _credit_line(est)
     if not costs.confirm(est):
@@ -106,7 +116,8 @@ def collect(sub: str, refresh_candidates: bool = False) -> None:
                                reuse_days=None if refresh_candidates else cfg.get("listing_reuse_days", 30))
             if not res.reused:
                 costs.log(run_id, "phase2", "apify", col_cfg["actor_id"], f"r/{sub} Top/{tf} candidates",
-                          f"{res.raw_count} results", costs.apify_cost(n, col_cfg), res.actual_usd)
+                          f"{res.raw_count} results", costs.apify_cost(n, col_cfg), res.actual_usd,
+                          external_id=res.run_id)
             print(f"Top/{tf}: {len(res.items)} posts (charged ${res.actual_usd or 0:.4f}, Apify run {res.run_id})")
             posts.extend(res.items)
         fresh = R.filter_recent(R.dedupe(posts), cfg["max_age_months"])
@@ -174,7 +185,7 @@ def _fetch_comments(sub, to_fetch, per_thread, col, col_cfg, ledger) -> None:
         spent += res.actual_usd or 0
         costs.log(run_id, "phase2", "apify", col_cfg["actor_id"],
                   f"r/{sub} comments chunk {start // chunk + 1}", f"{res.raw_count} results",
-                  est_usd, res.actual_usd)
+                  est_usd, res.actual_usd, external_id=res.run_id)
         print(f"Chunk {start // chunk + 1}: {len(by_id)} threads, {res.raw_count} results, "
               f"charged ${res.actual_usd or 0:.4f}")
     print(f"\nFetched {got} threads for r/{sub}; total charged ${spent:.4f}.")

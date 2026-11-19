@@ -12,7 +12,7 @@ from .ledger import now
 
 CSV_FIELDS = [
     "timestamp", "run_id", "phase", "service", "model_or_actor",
-    "description", "units", "estimated_usd", "actual_usd",
+    "description", "units", "estimated_usd", "actual_usd", "external_id",
 ]
 
 
@@ -69,7 +69,9 @@ def new_run_id(phase: str) -> str:
 
 
 def log(run_id: str, phase: str, service: str, model_or_actor: str,
-        description: str, units: str, estimated_usd: float, actual_usd: float | None) -> None:
+        description: str, units: str, estimated_usd: float, actual_usd: float | None,
+        external_id: str = "") -> None:
+    """Append one row. `external_id` is the Apify run ID (or Anthropic batch ID) for reconciling."""
     path = C.COSTS
     new = not path.exists() or path.stat().st_size == 0
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -82,6 +84,7 @@ def log(run_id: str, phase: str, service: str, model_or_actor: str,
             "model_or_actor": model_or_actor, "description": description, "units": units,
             "estimated_usd": f"{estimated_usd:.6f}",
             "actual_usd": "" if actual_usd is None else f"{actual_usd:.6f}",
+            "external_id": external_id,
         })
 
 

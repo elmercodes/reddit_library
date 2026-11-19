@@ -1,3 +1,8 @@
-timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,actual_usd
-2026-11-19T03:32:48+00:00,phase1-test-20261119T033214-a27640,phase1,apify,fatihtahta/reddit-scraper-search-fast,test pull r/homemadeTCGs (actual corrected from Apify run bTIk1Gzxfwdf88J4v: 60 charged results),60 results,0.089400,0.089400
-2026-11-19T03:58:37+00:00,phase2-recovered-20261119T035837-db36dd,phase2,apify,fatihtahta/reddit-scraper-search-fast,recovered run rnAXoRcVoiO9eCBeY (list_top homemadeTCGs year),250 results,0.372500,0.372500
+timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,actual_usd,external_id
+2026-11-19T03:32:48+00:00,phase1-test-20261119T033214-a27640,phase1,apify,fatihtahta/reddit-scraper-search-fast,test pull r/homemadeTCGs (actual corrected from Apify run bTIk1Gzxfwdf88J4v: 60 charged results),60 results,0.089400,0.089400,bTIk1Gzxfwdf88J4v
+2026-11-19T03:58:37+00:00,phase2-recovered-20261119T035837-db36dd,phase2,apify,fatihtahta/reddit-scraper-search-fast,recovered run rnAXoRcVoiO9eCBeY (list_top homemadeTCGs year),250 results,0.372500,0.372500,rnAXoRcVoiO9eCBeY
+2026-11-19T04:01:28+00:00,phase2-candidates-20261119T040029-7a78b4,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs Top/all candidates,3 results,0.372500,0.004470,5mr0s3BUArWqxtBFc
+2026-11-19T04:05:17+00:00,phase2-comments-20261119T040403-7b2118,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 1,624 results,0.968500,0.929760,A4SpW2px0zdpPMpEA
+2026-11-19T04:06:15+00:00,phase2-comments-20261119T040517-386fa3,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 2,643 results,0.962540,0.958070,vYHPfvY9P08aO8hYe
+2026-11-19T04:07:09+00:00,phase2-comments-20261119T040615-766c5a,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 3,582 results,0.870160,0.867180,9NaJuO7hmPFbOSSRJ
+2026-11-19T04:07:56+00:00,phase2-comments-20261119T040709-cd58b8,phase2,apify,fatihtahta/reddit-scraper-search-fast,r/homemadeTCGs comments chunk 4,495 results,0.761390,0.737550,g8efrOWiKNvliXN4L

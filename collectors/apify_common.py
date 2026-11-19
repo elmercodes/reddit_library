@@ -100,7 +100,18 @@ def save_run(run_id: str, actor_id: str, label: str, run_input: dict, max_items:
     try:
         run = _settled_run(run_id, len(items))
         actual = _actual_usd(run)
+        source = "apify"
+        if _charged_count(run) < len(items):
+            # Apify still hasn't finished counting: log what the items cost at list price
+            # (flagged), and `rl costs-reconcile` replaces it with Apify's final figure later.
+            col = _price_for(actor_id)
+            if col:
+                actual = max(actual or 0.0, len(items) * col["price_per_1000_results"] / 1000)
+                source = "provisional"
+                print(f"NOTE: Apify had not finished counting charges for run {run_id}; logged "
+                      f"${actual:.4f} from item count. Run `rl costs-reconcile` later to confirm.")
         record["actual_usd"] = actual
+        record["actual_source"] = source
         record["charged_event_counts"] = _dump(run.charged_event_counts)
         write_json(raw_path, record)
     except Exception as e:  # noqa: BLE001 - cost reporting must never lose data
@@ -131,28 +142,24 @@ def _charged_count(run) -> int:
     return int(sum(counts.values())) if isinstance(counts, dict) else 0
 
 
-def _settled_run(run_id: str, item_count: int, max_wait_secs: int = 60):
-    """Apify finishes counting per-result charges a few seconds after a run ends.
+def _settled_run(run_id: str, item_count: int, max_wait_secs: int = 180):
+    """Apify finishes counting per-result charges well after a run ends (seconds to minutes).
 
-    Reading the run straight away under-reports spend (the Phase 1 test showed $0.019
-    when the real charge was $0.0894). Re-read until the charged count covers every
-    dataset item, or stops changing.
+    Reading too early under-reports spend: the Phase 1 test showed $0.019 for a $0.0894 run,
+    and stopping when the count merely paused under-logged Phase 2 chunks by $0.44. So wait
+    until every dataset item has been charged, with no early exit; the caller handles a timeout.
     """
     rc = client().run(run_id)
     run = rc.get()
-    last, stable = -1, 0
     deadline = time.monotonic() + max_wait_secs
-    while time.monotonic() < deadline:
-        n = _charged_count(run)
-        if n >= item_count:
-            break
-        stable = stable + 1 if n == last else 0
-        if stable >= 3:
-            break
-        last = n
-        time.sleep(3)
+    while _charged_count(run) < item_count and time.monotonic() < deadline:
+        time.sleep(5)
         run = rc.get()
     return run
+
+
+def _price_for(actor_id: str) -> dict | None:
+    return next((c for c in C.config()["collectors"].values() if c["actor_id"] == actor_id), None)
 
 
 def _actual_usd(run) -> float | None:
