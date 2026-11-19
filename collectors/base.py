@@ -50,13 +50,15 @@ class RunResult:
     actual_usd: float | None
     run_id: str | None
     raw_count: int
+    reused: bool = False      # True when served from a saved run at no charge
 
 
 class Collector(ABC):
     name: str
 
     @abstractmethod
-    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None) -> RunResult:
+    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None,
+                 reuse_days: int | None = None) -> RunResult:
         """Top posts (no comments) for a subreddit and time filter. items: list[Post].
         `since` (YYYY-MM-DD) lets the actor skip older posts when it can do so without
         changing the ranking."""

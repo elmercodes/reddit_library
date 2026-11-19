@@ -138,6 +138,46 @@ def collect(
     run(sub, refresh_candidates=refresh_candidates)
 
 
+@app.command("recover-run")
+def recover_run(
+    run_id: str = typer.Argument(..., help="Apify run ID (from the Apify Console)"),
+    phase: str = typer.Option("phase2", help="Phase to log the cost under"),
+) -> None:
+    """Import a finished, already-paid Apify run from its dataset (free) so it is never re-bought."""
+    from collectors.apify_common import client, save_run
+    from lib import costs
+
+    run = client().run(run_id).get()
+    if run is None:
+        print(f"No Apify run {run_id}.")
+        raise typer.Exit(1)
+    actor_id = next((c["actor_id"] for c in C.config()["collectors"].values()
+                     if client().actor(c["actor_id"]).get().id == run.act_id), None)
+    if actor_id is None:
+        print("That run is not from a configured actor.")
+        raise typer.Exit(1)
+    rec = client().key_value_store(run.default_key_value_store_id).get_record("INPUT")
+    run_input = (rec or {}).get("value") if isinstance(rec, dict) else getattr(rec, "value", None)
+    run_input = run_input or {}
+
+    # Rebuild the label the collector would have used, so the run is found and reused.
+    if run_input.get("subredditName") and not run_input.get("scrapeComments"):
+        label = f"list_top {run_input['subredditName']} {run_input.get('subredditTimeframe', 'all')}"
+    elif run_input.get("startUrls") and not run_input.get("crawlCommentsPerPost"):
+        url = run_input["startUrls"][0]["url"]
+        tf = url.split("t=")[-1] if "t=" in url else "all"
+        label = f"list_top {url.split('/r/')[1].split('/')[0]} {tf}"
+    else:
+        label = f"recovered {run_id}"
+
+    res = save_run(run_id, actor_id, label, run_input, None)
+    est = res.actual_usd or 0.0
+    costs.log(costs.new_run_id(f"{phase}-recovered"), phase, "apify", actor_id,
+              f"recovered run {run_id} ({label})", f"{res.raw_count} results", est, res.actual_usd)
+    print(f"Saved {res.raw_count} items from run {run_id} as '{label}' (charged ${res.actual_usd or 0:.4f} originally; "
+          f"logged to costs.csv). Recovery itself was free.")
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""

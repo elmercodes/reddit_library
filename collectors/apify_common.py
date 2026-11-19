@@ -29,8 +29,38 @@ def client() -> ApifyClient:
     return ApifyClient(token)
 
 
-def run_actor(actor_id: str, run_input: dict, max_items: int, label: str) -> RunResult:
-    """Run an actor synchronously with a hard result cap and a hard USD cap."""
+def find_saved_run(actor_id: str, label: str, max_age_days: int) -> dict | None:
+    """Most recent saved raw run with this actor + label, if younger than max_age_days."""
+    from datetime import datetime, timezone
+
+    from lib.store import read_json
+    best = None
+    for f in (C.RAW / "_runs").glob("*.json"):
+        d = read_json(f)
+        if not d or d.get("actor_id") != actor_id or d.get("label") != label:
+            continue
+        saved = d.get("saved_at")
+        if not saved:
+            continue
+        age = datetime.now(timezone.utc) - datetime.fromisoformat(saved)
+        if age.days <= max_age_days and (best is None or saved > best["saved_at"]):
+            best = d
+    return best
+
+
+def run_actor(actor_id: str, run_input: dict, max_items: int, label: str,
+              reuse_days: int | None = None) -> RunResult:
+    """Run an actor synchronously with a hard result cap and a hard USD cap.
+
+    If `reuse_days` is set and a run with the same actor + label was saved within that many
+    days, its saved items are returned at no charge instead of buying them again.
+    """
+    if reuse_days is not None:
+        saved = find_saved_run(actor_id, label, reuse_days)
+        if saved:
+            print(f"Reusing saved Apify run {saved['run_id']} for '{label}' from {saved['saved_at'][:10]} (no charge).")
+            return RunResult(items=saved["items"], actual_usd=0.0, run_id=saved["run_id"],
+                             raw_count=len(saved["items"]), reused=True)
     cfg = C.config()["apify"]
     # Hard USD cap: what max_items can cost (+5% and 1 cent slack), never above the config ceiling.
     col = next((c for c in C.config()["collectors"].values() if c["actor_id"] == actor_id), None)
@@ -47,26 +77,53 @@ def run_actor(actor_id: str, run_input: dict, max_items: int, label: str) -> Run
     )
     if run is None:
         raise RuntimeError(f"Apify run for {actor_id} returned nothing")
+    return save_run(run.id, actor_id, label, run_input, max_items)
+
+
+def save_run(run_id: str, actor_id: str, label: str, run_input: dict, max_items: int | None) -> RunResult:
+    """Read a finished run's dataset and save it locally FIRST, then work out the charge.
+
+    Reading a dataset is free, so this is also how a paid run is recovered after a crash.
+    """
+    from lib.ledger import now
+    run = client().run(run_id).get()
     items = list(client().dataset(run.default_dataset_id).iterate_items())
-    run = _settled_run(run.id, len(items))
-    actual = _actual_usd(run)
-    raw_path = C.RAW / "_runs" / f"{run.id}.json"
-    write_json(raw_path, {
-        "label": label, "actor_id": actor_id, "run_id": run.id, "status": str(run.status),
-        "input": run_input, "max_items": max_items, "actual_usd": actual,
-        "charged_event_counts": _dump(run.charged_event_counts), "items": items,
-    })
+    raw_path = C.RAW / "_runs" / f"{run_id}.json"
+    record = {
+        "label": label, "actor_id": actor_id, "run_id": run_id, "saved_at": now(),
+        "status": str(run.status), "input": run_input, "max_items": max_items,
+        "actual_usd": None, "charged_event_counts": None, "items": items,
+    }
+    write_json(raw_path, record)  # paid data is on disk before anything else can fail
+
+    actual = None
+    try:
+        run = _settled_run(run_id, len(items))
+        actual = _actual_usd(run)
+        record["actual_usd"] = actual
+        record["charged_event_counts"] = _dump(run.charged_event_counts)
+        write_json(raw_path, record)
+    except Exception as e:  # noqa: BLE001 - cost reporting must never lose data
+        print(f"WARNING: could not read the charge for run {run_id} ({e}); check the Apify Console.")
+
     status = str(run.status).split(".")[-1].upper()
     if "SUCCEEDED" not in status:
-        print(f"WARNING: Apify run {run.id} finished with status {status} "
+        print(f"WARNING: Apify run {run_id} finished with status {status} "
               f"({run.status_message}). {len(items)} items kept; raw saved to {raw_path.relative_to(C.ROOT)}")
-    return RunResult(items=items, actual_usd=actual, run_id=run.id, raw_count=len(items))
+    return RunResult(items=items, actual_usd=actual, run_id=run_id, raw_count=len(items))
 
 
 def _dump(obj):
+    """Pydantic models (also nested inside dicts/lists) -> plain JSON-able data."""
     if obj is None:
         return None
-    return obj.model_dump(mode="json", by_alias=True) if hasattr(obj, "model_dump") else obj
+    if hasattr(obj, "model_dump"):
+        return obj.model_dump(mode="json", by_alias=True)
+    if isinstance(obj, dict):
+        return {k: _dump(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_dump(v) for v in obj]
+    return obj
 
 
 def _charged_count(run) -> int:

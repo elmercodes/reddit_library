@@ -25,7 +25,8 @@ class HarshmaurCollector(Collector):
         # Never enable the paid AI add-ons.
         return {"aiAnalysis": False, "searchTerms": [], "subredditUrls": []}
 
-    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None) -> RunResult:
+    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None,
+                 reuse_days: int | None = None) -> RunResult:
         # `since` is ignored here: this actor's postedAfter switches to newest-first,
         # which breaks Top ranking. The 24-month filter is applied locally instead.
         run_input = self._base_input() | {
@@ -35,7 +36,7 @@ class HarshmaurCollector(Collector):
             "includeNSFW": self.nsfw,
         }
         res = A.run_actor(self.cfg["actor_id"], run_input, max_items=limit,
-                          label=f"list_top {subreddit} {timeframe}")
+                          label=f"list_top {subreddit} {timeframe}", reuse_days=reuse_days)
         res.items = [self.to_post(i) for i in res.items if i.get("dataType", "post") == "post"]
         return res
 

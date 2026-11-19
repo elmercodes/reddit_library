@@ -10,7 +10,7 @@ from __future__ import annotations
 from dataclasses import asdict
 
 from collectors import get_collector
-from collectors.apify_common import remaining_monthly_usd
+from collectors.apify_common import find_saved_run, remaining_monthly_usd
 from collectors.base import Post
 from lib import config as C
 from lib import costs
@@ -77,8 +77,14 @@ def collect(sub: str, refresh_candidates: bool = False) -> None:
     if cached is None:
         for tf in cfg["timeframes"]:
             n = cfg["posts_per_listing"]
-            est.add(f"Step 1: Top/{tf} listing, posts only (max)", f"{n} results",
-                    costs.apify_cost(n, col_cfg))
+            saved = None if refresh_candidates else find_saved_run(
+                col_cfg["actor_id"], f"list_top {sub} {tf}", cfg.get("listing_reuse_days", 30))
+            if saved:
+                est.add(f"Step 1: Top/{tf} listing (saved run {saved['run_id']}, reused)",
+                        f"{len(saved['items'])} results", 0.0)
+            else:
+                est.add(f"Step 1: Top/{tf} listing, posts only (max)", f"{n} results",
+                        costs.apify_cost(n, col_cfg))
     else:
         print(f"Using {len(cached)} cached candidates from {candidates_path(sub).relative_to(C.ROOT)} (no charge).")
     upper = keep * (1 + per_thread)
@@ -96,9 +102,11 @@ def collect(sub: str, refresh_candidates: bool = False) -> None:
         for tf in cfg["timeframes"]:
             run_id = costs.new_run_id("phase2-candidates")
             n = cfg["posts_per_listing"]
-            res = col.list_top(sub, tf, n, since=since)
-            costs.log(run_id, "phase2", "apify", col_cfg["actor_id"], f"r/{sub} Top/{tf} candidates",
-                      f"{res.raw_count} results", costs.apify_cost(n, col_cfg), res.actual_usd)
+            res = col.list_top(sub, tf, n, since=since,
+                               reuse_days=None if refresh_candidates else cfg.get("listing_reuse_days", 30))
+            if not res.reused:
+                costs.log(run_id, "phase2", "apify", col_cfg["actor_id"], f"r/{sub} Top/{tf} candidates",
+                          f"{res.raw_count} results", costs.apify_cost(n, col_cfg), res.actual_usd)
             print(f"Top/{tf}: {len(res.items)} posts (charged ${res.actual_usd or 0:.4f}, Apify run {res.run_id})")
             posts.extend(res.items)
         fresh = R.filter_recent(R.dedupe(posts), cfg["max_age_months"])

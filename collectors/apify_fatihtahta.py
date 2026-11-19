@@ -18,7 +18,8 @@ class FatihtahtaCollector(Collector):
         self.nsfw = C.config()["collection"].get("include_nsfw", False)
 
     # --- interface ------------------------------------------------------
-    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None) -> RunResult:
+    def list_top(self, subreddit: str, timeframe: str, limit: int, since: str | None = None,
+                 reuse_days: int | None = None) -> RunResult:
         run_input = {
             "subredditName": subreddit,
             "subredditSort": "top",
@@ -32,7 +33,7 @@ class FatihtahtaCollector(Collector):
             # Ranking stays "top" (forceSortNewForTimeFilteredRuns stays off).
             run_input["dateFrom"] = since
         res = A.run_actor(self.cfg["actor_id"], run_input, max_items=limit,
-                          label=f"list_top {subreddit} {timeframe}")
+                          label=f"list_top {subreddit} {timeframe}", reuse_days=reuse_days)
         res.items = [self.to_post(i) for i in res.items if i.get("kind", "post") == "post"]
         return res
 

@@ -56,3 +56,20 @@ def test_video_posts_drop_media():
     p = FatihtahtaCollector.to_post({"id": "t3_v", "permalink": "/r/x/comments/v/t/", "media_type": "video",
                                      "is_video": True, "url": "https://i.redd.it/x.png"})
     assert p.is_video and p.image_urls == []
+
+
+def test_actual_usd_handles_models_nested_in_dicts():
+    # Regression: Apify returns event_usage as {event: RunEventUsage(...)}; this crashed Phase 2.
+    from types import SimpleNamespace
+
+    from collectors.apify_common import _actual_usd
+
+    class FakeModel:
+        def __init__(self, usd):
+            self.usd = usd
+
+        def model_dump(self, **_):
+            return {"eventTotalUsd": self.usd, "eventTitle": "result"}
+
+    run = SimpleNamespace(event_usage={"apify-default-dataset-item": FakeModel(0.3725)}, usage_total_usd=None)
+    assert abs(_actual_usd(run) - 0.3725) < 1e-12

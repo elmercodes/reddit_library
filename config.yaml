@@ -26,6 +26,9 @@ collection:
   candidates_per_sub: 300
   # Max posts requested from each Top listing (caps Apify spend on candidates).
   posts_per_listing: 250
+  # A Top listing bought within this many days is reused for free instead of re-bought.
+  # (`rl collect --refresh-candidates` and `rl refresh` always buy fresh listings.)
+  listing_reuse_days: 30
   # Threads kept per subreddit after ranking; only these get comments fetched.
   keep_per_sub: 100
   # Comments fetched per kept thread (the actor's maxComments). The actor returns
