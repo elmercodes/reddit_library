@@ -1,0 +1,293 @@
+{
+  "id": "1s4la31",
+  "title": "Made the decision to drop the AI placeholder art, just drawing them myself even if it's not good. I a m especially bad at backgrounds lol. What do you guys think of these?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1s4la31/made_the_decision_to_drop_the_ai_placeholder_art/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-26",
+  "upvotes": 116,
+  "comments": 34,
+  "engagement_score": 10.0952,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "hand-drawn art",
+    "ai placeholder art",
+    "card critique",
+    "backgrounds"
+  ],
+  "summary": "A designer posted three hand-drawn cards (Coastal Courier, Elegant Koi, Night Magician) that replace AI placeholder art, and asked for feedback, especially on backgrounds. The community responded with overwhelming, friendly encouragement, with many commenters saying the art is better than the poster thinks and some comparing it favorably to published games. Practical advice was limited to reusing backgrounds, using textures or stock images, and adding some shading. The one real tension was whether reusing existing AI textures is acceptable, and only a couple of commenters weighed in on it. Overall temperature is warm and supportive.",
+  "consensus": [
+    {
+      "point": "The hand-drawn art looks good, with a charming, distinctive style, and the poster is underrating their own skill.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C9",
+        "C10",
+        "C12",
+        "C14",
+        "C18",
+        "C19",
+        "C22",
+        "C25"
+      ],
+      "support": {
+        "comments": 11,
+        "commenters": 11,
+        "points": 71,
+        "share": 0.747
+      }
+    },
+    {
+      "point": "Dropping the AI placeholder art for hand-drawn art was welcomed.",
+      "evidence": [
+        "C4",
+        "C11",
+        "C14",
+        "C22",
+        "C23"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 24,
+        "share": 0.253
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Night Magician was singled out as the standout card, with commenters saying it already reads as finished art rather than placeholder art.",
+      "evidence": [
+        "C4",
+        "C16",
+        "C21",
+        "C24"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 22,
+        "share": 0.232
+      }
+    },
+    {
+      "point": "One commenter suggested making a single high-quality background and reusing it across several cards to reduce the workload.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.074
+      }
+    },
+    {
+      "point": "One commenter suggested adding some shading but otherwise found the art solid, and said stock images and simple backgrounds are fine for cards.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.032
+      }
+    },
+    {
+      "point": "A fellow solo artist advised stepping back every 10 to 20 cards to see progress, and resisting the urge to redo old cards.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.011
+      }
+    },
+    {
+      "point": "One commenter said Coastal Courier showed a strength for drawing birds.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.011
+      }
+    },
+    {
+      "point": "One commenter predicted that the hand-drawn art would attract far more people than the AI placeholders would.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.011
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If backgrounds are your weak spot, build one strong background and reuse it across cards, or use simple textures. This saves time and keeps the focus on the characters, which are the strong part of the art.",
+      "evidence": [
+        "C6",
+        "C8",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.168
+      }
+    },
+    {
+      "lesson": "A consistent, flat-color, outlined cartoon style with personality (the seagull in a bucket hat, the mustached koi) gets noticed more than technical polish. A distinctive character concept can carry art that is still developing.",
+      "evidence": [
+        "C9",
+        "C20",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.084
+      }
+    },
+    {
+      "lesson": "Treat shading as a later polish pass rather than a blocker. Commenters found the current flat style solid and suggested only light shading in places.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.032
+      }
+    },
+    {
+      "lesson": "When drawing a whole set yourself, look back at your earliest and latest cards periodically to see your improvement, and avoid redoing finished cards, so the project keeps moving.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.011
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Replacing AI placeholder art with original hand-drawn art may widen a game's appeal and earn goodwill from the community, since commenters actively praised the switch.",
+      "evidence": [
+        "C11",
+        "C14",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.063
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Can you reuse one background across a whole card set without it feeling lazy?",
+      "why_it_lands": "Backgrounds were the poster's stated weak spot, and commenters offered reuse and stock textures as fixes. Every solo designer faces this tradeoff.",
+      "evidence": [
+        "C6",
+        "C8",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.168
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer ditched AI placeholder art for hand-drawn cards. How did the reaction go?",
+      "why_it_lands": "The thread gave the switch overwhelming support, with commenters saying the art beat some published games. It speaks to designers wondering whether to make the same move.",
+      "evidence": [
+        "C4",
+        "C11",
+        "C14",
+        "C22",
+        "C23"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 24,
+        "share": 0.253
+      }
+    }
+  ],
+  "comment_points_total": 95,
+  "comment_ids": {
+    "C1": "ocors68",
+    "C2": "ocssqqu",
+    "C3": "ocuihj4",
+    "C4": "ocp97jx",
+    "C5": "ocst4hb",
+    "C6": "oco2ex2",
+    "C7": "ocsueh4",
+    "C8": "ocnwctk",
+    "C9": "oco3z07",
+    "C10": "ocqfori",
+    "C11": "ocqgfji",
+    "C12": "ocrdbc3",
+    "C13": "ocstuvf",
+    "C14": "ocrddkv",
+    "C15": "ocstryq",
+    "C16": "ocoxkh7",
+    "C17": "ocqefwp",
+    "C18": "ocqjwir",
+    "C19": "ocor9hn",
+    "C20": "ocpbygz",
+    "C21": "ocqk18k",
+    "C22": "ocr0bbt",
+    "C23": "ocrpsgl",
+    "C24": "ocrr08q",
+    "C25": "ocuq85y"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general feedback on their new hand-drawn card art (replacing AI placeholder art), especially the backgrounds, and on the cards overall.",
+    "images": [
+      {
+        "file": "data/images/1s4la31/1.jpg",
+        "description": "Card 'Coastal Courier', blue-framed Spirit card. Top-left stacked stat icons: blue potion cost 2, grey sword-shield attack 2, red heart health 2. Name in a banner at top center. Large art box shows a cartoon white seagull in a blue bucket hat with a brown satchel, flying against a blue sky with photo-like clouds; the bird is flat-colored with black outlines, and the satchel is partly faded by a cloud overlay. Type line (overlapping bottom-left of art): 'Spirit — Avian'. Text box: bold 'Airborne' with italic reminder '(Can only be guarded by Spirits with Airborne or Scope)'. Bottom strip: 'U', 'SD01 - 15', '(C)', palette icon + 'Doug Summers' (art credit), lightbulb icon + 'Doug Summers' (design credit), '©Dopey Yeti Games'. Grey outer border, dark blue textured frame, light periwinkle text box."
+      },
+      {
+        "file": "data/images/1s4la31/2.jpg",
+        "description": "Card 'Elegant Koi', same blue frame/layout. Cost 1, attack 0, health 4. Art: hand-drawn orange, white and black koi curled in a C-shape on a flat-looking cyan water texture with darker ripple lines; the koi has barbels that look like a mustache. Type 'Spirit — Fish'. Text box contains only italic flavor text: 'Hey look, it looks like it has a mustache.' Footer: U, SD01 - 13, (C), Doug Summers for art and design, ©Dopey Yeti Games."
+      },
+      {
+        "file": "data/images/1s4la31/3.jpg",
+        "description": "Card 'Night Magician', grey/black-framed Spirit card (different color than the blue cards). Cost 7, attack 6, health 7. Art: chibi wizard in a purple pointed hat and robe with glowing yellow eyes, brown belt, and staff, pointing up toward a small purple rune orb, on a swirly purple background; flat cartoon style with outlines. Type 'Spirit — Wizard'. Text: bold 'Scope' (italic reminder: Can guard Spirits with Airborne.); 'When this card is summoned: you can add 1 Spell card from your graveyard to your hand.'; italic flavor 'The limit of his power has yet to be seen.' Footer: B, BP01 - 188, (SE), Doug Summers art and design credits, ©Dopey Yeti Games. Text box is filled with text, unlike the other two cards."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009361
+}

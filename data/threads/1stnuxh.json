@@ -1,0 +1,274 @@
+{
+  "id": "1stnuxh",
+  "title": "I need your help in deciding on our card design!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-23",
+  "upvotes": 49,
+  "comments": 36,
+  "engagement_score": 9.3284,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card back design",
+    "branding",
+    "logo",
+    "card critique"
+  ],
+  "summary": "A studio posted two card back options for their game Everdawn, one with a single-letter 'E' logo and one with the full title, and asked which to use. Responses leaned strongly toward the full-name version, mostly for marketing and recognition reasons, while a smaller group preferred the cleaner, more tarot-like 'E' version. The tone was friendly and supportive, with praise for the custom font and artwork. Full-name supporters clearly outweighed 'E' supporters by score.",
+  "consensus": [
+    {
+      "point": "Both camps praise the artwork and font, and even some who prefer the 'E' version concede that a card back with no name is a risk for a new game.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C17",
+        "C25",
+        "C21",
+        "C20"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 22,
+        "share": 0.151
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested using an 'ED' monogram for social media and watermarks, and another commenter advised against that short form.",
+      "evidence": [
+        "C18",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter suggested a middle ground: keep the 'E' symbol dominant and add the name smaller below it or faded behind it.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.021
+      }
+    },
+    {
+      "point": "One commenter noted that simplified logos like Google's 'G' or the Starbucks mermaid work because the brand is already recognized, which a new unknown game does not have yet.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.014
+      }
+    },
+    {
+      "point": "One commenter said the 'E' version feels like a tarot card while the full-name one reads as a TCG, so the choice affects genre signaling.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.014
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which card back to use: full title or single 'E' logo",
+      "side_a": "Use the full-name version: it markets the game, identifies it instantly, and matches what other TCGs do.",
+      "side_a_evidence": [
+        "C1",
+        "C2",
+        "C3",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C24",
+        "C25"
+      ],
+      "side_b": "Use the single 'E' version: it is cleaner, cooler, and feels more like a tarot card.",
+      "side_b_evidence": [
+        "C4",
+        "C5",
+        "C20",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "side_a_support": {
+        "comments": 16,
+        "commenters": 16,
+        "points": 101,
+        "share": 0.692
+      },
+      "side_b_support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 31,
+        "share": 0.212
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When a title overlaps a central emblem, check that it still feels balanced; the full title covering the sunburst gave a more 'TCG' look but cost some of the clean, tarot-like elegance of the lone emblem. Consider a smaller title tucked below or behind the emblem to keep both.",
+      "evidence": [
+        "C17",
+        "C22",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.048
+      }
+    },
+    {
+      "lesson": "Put the game's name on the card back so anyone who sees a loose card can tell what game it belongs to. Established TCGs do this, and it matters most for unknown games.",
+      "evidence": [
+        "C16",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.034
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A new game with no brand recognition should use its full name on card backs, because every card seen in public becomes a free marketing impression. Save abbreviated marks for places where the full name already appears.",
+      "evidence": [
+        "C1",
+        "C2",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 38,
+        "share": 0.26
+      }
+    },
+    {
+      "lesson": "Test a short-form monogram before adopting it for social media and watermarks; one commenter pushed back on 'ED' as a shortened brand.",
+      "evidence": [
+        "C18",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.075
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Full title or just a logo on your card back? Designers voted.",
+      "why_it_lands": "The vote was lopsided toward the full name, yet a vocal minority loved the clean logo-only version, so it works as a clear, relatable branding choice.",
+      "evidence": [
+        "C2",
+        "C6",
+        "C4",
+        "C20",
+        "C25"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 58,
+        "share": 0.397
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card back need your game's name on it?",
+      "why_it_lands": "Commenters tied the answer to recognition: unknown games need the name, while famous brands can use a symbol, which gives creators something concrete to film about.",
+      "evidence": [
+        "C16",
+        "C25",
+        "C1"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.11
+      }
+    }
+  ],
+  "comment_points_total": 146,
+  "comment_ids": {
+    "C1": "ohurifm",
+    "C2": "ohul6y3",
+    "C3": "ohumux9",
+    "C4": "ohuxx1z",
+    "C5": "ohv01km",
+    "C6": "ohuphzq",
+    "C7": "ohulmr0",
+    "C8": "ohuyywh",
+    "C9": "ohuqya9",
+    "C10": "ohuzxvv",
+    "C11": "ohvsi8o",
+    "C12": "ohw9ndp",
+    "C13": "ohwhjma",
+    "C14": "ohws2zk",
+    "C15": "ohww10d",
+    "C16": "ohx3f4b",
+    "C17": "ohy7d8s",
+    "C18": "ohuv0a7",
+    "C19": "ohvb52u",
+    "C20": "ohy1wy7",
+    "C21": "ohyluwg",
+    "C22": "ohyutin",
+    "C23": "ohz9x0a",
+    "C24": "ohzuwah",
+    "C25": "ohzwm4r"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on which of two card back designs for their game Everdawn (single-letter logo vs full title) to use.",
+    "images": [
+      {
+        "file": "data/images/1stnuxh/1.jpg",
+        "description": "Card back option A, portrait orientation with rounded corners, shown with a lavender outer border, thin red line, and cream inner border (likely bleed/safe zone). The dark teal starry background has a swirling, brushed pale-blue galaxy pattern, scattered white specks, and sparkles. A thin gold border line frames the card, with ornate gold and teal scrollwork flourishes in all four corners (larger in top-left and bottom-right, smaller in top-right and bottom-left). At center is a gold line-art sunburst with many long pointed rays around a dark circle. Inside the circle is a single white stylized gothic/decorative capital 'E' with a small diamond/star shape cut into it. Looks hand-drawn and digitally painted, with a celestial tarot-like mood."
+      },
+      {
+        "file": "data/images/1stnuxh/2.jpg",
+        "description": "Card back option B, identical to option A in layout, background, corner flourishes, gold sunburst, and border colors, except the center circle shows the full game title 'Everdawn' in large white/light lavender custom decorative serif lettering. The text stretches across the full width of the sunburst, overlapping the circle and the inner rays; the 'E' has the same diamond cutout and the 'd' and 'a' have similar pointed flourishes. The title covers much of the sunburst center and is the main visual change from option A."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.00813
+}

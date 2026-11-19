@@ -1,0 +1,243 @@
+{
+  "id": "1qlztqk",
+  "title": "Thought on my full art card template?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qlztqk/thought_on_my_full_art_card_template/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-24",
+  "upvotes": 114,
+  "comments": 15,
+  "engagement_score": 8.9038,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "full art template",
+    "stat readability",
+    "card critique"
+  ],
+  "summary": "A designer posted a full art template for their hand-drawn Fire Dragon card next to the regular version, asking whether the two look different enough. The thread was friendly and small, with only 30 community points across 15 comments. The top comment praised the art style and the full art look but worried about room for effect text, and others gave layout and readability tips. Opinions leaned mildly toward the full art template, but one commenter preferred the regular layout, so there was no heated debate.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "The top commenter liked the art style and full art template but worried that long effect text would not fit over the art.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 14,
+        "share": 0.467
+      }
+    },
+    {
+      "point": "One commenter preferred the regular layout and wanted the 9/6 stat badges moved onto the text box so they do not cover the art, since they dislike anything obscuring art in a TCG.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.167
+      }
+    },
+    {
+      "point": "Two commenters suggested replacing the sentence about running three copies with a keyword, symbol, or numbered stat.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.133
+      }
+    },
+    {
+      "point": "A commenter offered to mock up a stat-symbol design, which the poster accepted for a future set.",
+      "evidence": [
+        "C12",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.133
+      }
+    },
+    {
+      "point": "One commenter praised the simple, clean look as appealing to players.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.067
+      }
+    },
+    {
+      "point": "One commenter, who works in graphics, suggested adding a symbol or color coding to the three corner numbers (cost, attack, defense) so players know what each means.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.033
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which template layout is better: full art or the regular framed layout?",
+      "side_a": "The full art template looks good as it is.",
+      "side_a_evidence": [
+        "C1",
+        "C10"
+      ],
+      "side_b": "The regular layout is preferable because the stats and text sit off the art.",
+      "side_b_evidence": [
+        "C9"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.5
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.167
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "If full art cards put text directly over the art, restrict them to cards with short abilities, because there is little room for rules text.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 14,
+        "share": 0.467
+      }
+    },
+    {
+      "lesson": "Give each corner number a visual cue such as a small icon, letter in a circle, or color coding, so new players can tell cost, attack and defense apart without learning by playing.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.033
+      }
+    },
+    {
+      "lesson": "Turn unusual rules such as deck copy limits into a keyword, symbol, or numbered stat instead of a full sentence. This saves space and makes it easier to scan.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.133
+      }
+    },
+    {
+      "lesson": "Consider placing stat badges over the text box instead of the art, to keep illustration visible, especially for players who dislike art being covered.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.167
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should card stats cover the art, or sit on the text box?",
+      "why_it_lands": "One commenter said they are always against anything obscuring art, while the top comment liked the full art look. It is a layout trade-off every designer faces.",
+      "evidence": [
+        "C9",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 19,
+        "share": 0.633
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do your card numbers need icons, or can players just learn them?",
+      "why_it_lands": "A graphics-minded commenter wanted symbols or colors for cost, attack and defense, while the poster said playtesters had no trouble. It invites designers to weigh clarity against clutter.",
+      "evidence": [
+        "C10",
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.167
+      }
+    }
+  ],
+  "comment_points_total": 30,
+  "comment_ids": {
+    "C1": "o1i4m7t",
+    "C2": "o1i5vw3",
+    "C3": "o1iadr1",
+    "C4": "o1ifcfr",
+    "C5": "o1k03jl",
+    "C6": "o1liefs",
+    "C7": "o1yoqay",
+    "C8": "o1zud4a",
+    "C9": "o1i7sx6",
+    "C10": "o1mr1ot",
+    "C11": "o1ojjl2",
+    "C12": "o2bdg6e",
+    "C13": "o2ctrcb",
+    "C14": "o3cqdnh",
+    "C15": "o3g8kkb"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether their new full art card template is distinct enough from the regular template or needs changes.",
+    "images": [
+      {
+        "file": "data/images/1qlztqk/1.jpg",
+        "description": "Full art version of card 'Fire Dragon' (S1-000, FIRE, ULTRARARE). Portrait card with red border and black outer edge. Art fills nearly the whole card: hand-drawn, marker/colored-pencil style red dragon with yellow eye, white claws, pink wings, on a cream background with thick wobbly black outlines. Top-left: white flame icon in a circle. Top center: name 'Fire Dragon' in a comic-style font in a notched cream banner overlapping the art. Top-right: large white number 3 with black outline (cost). Bottom-left: white 9, bottom-right: white 6 (stats), both large outlined numbers over the art corners. Bottom of art: type line 'Dragon' in bold, then rules text 'You can have up to three copies of this card in your deck.' printed directly over the art with no separate text box, in dark text on cream. Bottom center: purple 'ULTRARARE' label. Small 'S1-000' bottom left and 'FIRE' bottom right on the red border. Text over the art is somewhat close to the dragon's claws."
+      },
+      {
+        "file": "data/images/1qlztqk/2.jpg",
+        "description": "Regular version of 'Fire Dragon' (S1-008, FIRE, ULTRARARE), landscape-ish wide frame on black background with red border. Name 'Fire Dragon' in black comic font top-left, cost 3 in white on an orange circle top-right. Square art box with rounded irregular black frame holding the same hand-drawn red dragon on cream. Orange quarter-circle corner badges at bottom-left (9) and bottom-right (6) overlap the art box. Below art: type line 'Dragon', then a separate cream rules box with text 'You can have up to three copies of this card in your deck.' with empty space beneath. Purple 'ULTRARARE' tag at bottom center; 'S1-008' bottom left and 'FIRE' bottom right. Note: this version has no element icon at top-left, unlike the full art version."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007475
+}

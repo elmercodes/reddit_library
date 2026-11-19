@@ -1,0 +1,217 @@
+{
+  "id": "1pkyce8",
+  "title": "Character closeup - a look into Fenwick, one of my first cards.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pkyce8/character_closeup_a_look_into_fenwick_one_of_my/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-12-12",
+  "upvotes": 112,
+  "comments": 28,
+  "engagement_score": 9.7783,
+  "flair": "Discussion",
+  "post_type": "image",
+  "topics": [
+    "card art",
+    "watercolor style",
+    "lore delivery",
+    "building in public"
+  ],
+  "summary": "A designer shared a hand-drawn ink and watercolor character illustration of Fenwick, a gnome wizard leader from their TCG Everdawn, with no specific feedback requested. The response was friendly and uniformly positive, centered on praise for the art style and interest in following along or buying. Scores were low overall (45 points across the community comments), with no disagreement. One lore-delivery question drew the only substantive suggestion.",
+  "consensus": [
+    {
+      "point": "Commenters liked the sketchbook watercolor art style and said they would follow the project, and a few said they would buy it.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C7",
+        "C9",
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 6,
+        "points": 22,
+        "share": 0.489
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said they would buy the game on the strength of the art if the quality stays consistent, so consistency across the set is part of the promise. Another would buy just to collect the cards.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.156
+      }
+    },
+    {
+      "point": "Two commenters asked how the lore will be told, and one suggested tie-in short stories, novels or graphic novels, or an art book with lore and development notes, citing FFG's LCG tie-ins and an art book from EBR as examples.",
+      "evidence": [
+        "C3",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.133
+      }
+    },
+    {
+      "point": "One commenter noted that Fenwick looks like a Gandalf-style wizard, a familiar archetype that people recognize and joke about right away.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.067
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A distinctive, cohesive art style such as ink and watercolor is a strong hook and can win interest before any rules are shown. Pick a style that suits the setting and commit to keeping it consistent across the set.",
+      "evidence": [
+        "C1",
+        "C9",
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 13,
+        "share": 0.289
+      }
+    },
+    {
+      "lesson": "Physical cards have limited room for lore, so plan where the story lives. Options include tie-in stories, graphic novels, or an art book with development notes, which commenters pointed to as models.",
+      "evidence": [
+        "C3",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.133
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A series of character closeup posts builds anticipation and followers before launch. People asked for more art and said they would follow along, so a steady cadence gives them a reason to return.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 12,
+        "share": 0.267
+      }
+    },
+    {
+      "lesson": "Telling people that the art quality will stay consistent builds purchase intent, because buyers want to know the standard will hold across the full set.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.156
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Where should a card game's lore live when the cards are too small?",
+      "why_it_lands": "Two commenters asked about lore delivery and one suggested tie-in books or an art book, so it is a real open problem for physical card games.",
+      "evidence": [
+        "C3",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.133
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does a hand-painted art style sell a card game before anyone sees the rules?",
+      "why_it_lands": "Several commenters praised the watercolor style, and a few said they would buy or follow on the art alone.",
+      "evidence": [
+        "C1",
+        "C7",
+        "C9",
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 16,
+        "share": 0.356
+      }
+    }
+  ],
+  "comment_points_total": 45,
+  "comment_ids": {
+    "C1": "ntpkd18",
+    "C2": "ntpsjzn",
+    "C3": "ntpzzim",
+    "C4": "ntpkt6f",
+    "C5": "ntpstjv",
+    "C6": "ntpti0s",
+    "C7": "ntpmbae",
+    "C8": "ntptrek",
+    "C9": "ntqknl3",
+    "C10": "ntw3i0q",
+    "C11": "ntr8y1r",
+    "C12": "ntw3mct",
+    "C13": "ntsrb60",
+    "C14": "ntw3vp0",
+    "C15": "ntuij2y",
+    "C16": "ntwbee5",
+    "C17": "nty85th",
+    "C18": "ntyrcbf",
+    "C19": "nu4gzw6",
+    "C20": "ntokeuj",
+    "C21": "ntoltwd",
+    "C22": "ntwv632",
+    "C23": "nurb0f3",
+    "C24": "ntq12s0",
+    "C25": "ntsyjza"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing character art and lore for Fenwick, a leader character in their TCG Everdawn, with no specific feedback requested.",
+    "images": [
+      {
+        "file": "data/images/1pkyce8/1.jpg",
+        "description": "Hand-drawn ink and watercolor illustration on a spiral-bound sketchbook page (photo of the physical page). It shows Fenwick, a gnome-like wizard, standing in front of a tall dead tree trunk with a few sprouting leafy branches. He wears a tall pointed gray-blue hat with yellow highlights, a gray-blue robe, and brown boots. His face is hidden under the hat brim and a large scruffy off-white beard. He holds a gnarled wooden staff in his left hand (viewer's left) with a yellow glow and sparkles at the tip, and a small pot or lantern-like yellow-brown pouch in his other hand. Grass tufts and a muted green and yellow ground wash sit at the base. Loose black ink linework with muted, earthy watercolor palette (gray, blue, yellow, brown, green) and a whimsical storybook mood. No card frame, text, cost, or stats are shown; it is standalone art only."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007605
+}

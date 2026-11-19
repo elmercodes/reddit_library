@@ -1,0 +1,240 @@
+{
+  "id": "1r2bn5m",
+  "title": "5 Guild Patches. Which one would you join? Interested to see the spread.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1r2bn5m/5_guild_patches_which_one_would_you_join/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-11",
+  "upvotes": 61,
+  "comments": 23,
+  "engagement_score": 8.8942,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "guild identity",
+    "faction design",
+    "mockup art",
+    "ai-assisted art"
+  ],
+  "summary": "A designer posted five embroidered guild patch mockups for a homemade TCG and asked which guild commenters would join. The thread was small and friendly, with 20 total community points, and people mostly named a patch they liked and often asked about the game. The Illuminated flame patch drew the most praise for its look, and several commenters chose by aesthetics rather than lore. Confusion over which patch belonged to which guild came up, because the OP admitted the image order was mixed up.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter said the fire/prism patch looked especially cool, and two others separately picked the red patch or the crystal one, so the Illuminated flame design drew the most visual appeal.",
+      "evidence": [
+        "C3",
+        "C14",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.25
+      }
+    },
+    {
+      "point": "Because the image order was wrong, one commenter picked a guild by its described government/leadership role and got the wrong patch, and another had to ask which patch was which.",
+      "evidence": [
+        "C5",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.15
+      }
+    },
+    {
+      "point": "One commenter would pick based on the top-left patch's aesthetic and wanted to know what kind of game it is, showing the patches prompt gameplay questions.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.1
+      }
+    },
+    {
+      "point": "One commenter wanted a black emblem for a different guild, hinting the palette lacks a dark option.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.05
+      }
+    },
+    {
+      "point": "One designer with a similar secret-society concept said these patch designs sent them back to the drawing board.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.05
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make sure image order matches the labels you give players. Mislabelled patches led one commenter to choose a guild by the wrong visual and another to ask which was which.",
+      "evidence": [
+        "C5",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.15
+      }
+    },
+    {
+      "lesson": "Let a standout emblem set the visual bar for the rest. The flame-in-prism patch drew the most praise, so weaker faction marks risk looking flat beside it, as the poster noted.",
+      "evidence": [
+        "C3",
+        "C14",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.25
+      }
+    },
+    {
+      "lesson": "Explain deck-building rules for factions early. Commenters wanted to know if guilds could be mixed, and the answer (ID-based, some guilds exclusive, others open) is a key hook.",
+      "evidence": [
+        "C1",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.3
+      }
+    },
+    {
+      "lesson": "Tie faction identity to simple, readable visuals. People picked by color and shape before reading the lore, so visuals must carry identity.",
+      "evidence": [
+        "C5",
+        "C10",
+        "C14"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.25
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Asking an audience to pick a faction is an easy engagement hook. Commenters answered, then asked follow-up questions about game type and guild count, which opens conversations to build a following.",
+      "evidence": [
+        "C1",
+        "C8",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.35
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Do players pick a faction by its lore or by its patch?",
+      "why_it_lands": "Several commenters picked on looks alone, such as color or the crystal, while one picked from lore, so the question fits faction design.",
+      "evidence": [
+        "C1",
+        "C14",
+        "C17",
+        "C10"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 8,
+        "share": 0.4
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer asked which guild patch you'd join. Would your faction art survive that test?",
+      "why_it_lands": "The thread shows the flame patch drew most of the praise, so weaker marks stand out, which is a relatable worry for designers.",
+      "evidence": [
+        "C3",
+        "C14",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.25
+      }
+    }
+  ],
+  "comment_points_total": 20,
+  "comment_ids": {
+    "C1": "o4xsi35",
+    "C2": "o4z9dpf",
+    "C3": "o4zmqkj",
+    "C4": "o50v7al",
+    "C5": "o4w0zv8",
+    "C6": "o4w31pq",
+    "C7": "o4xskbd",
+    "C8": "o4z4iy7",
+    "C9": "o4z9om6",
+    "C10": "o50l1cm",
+    "C11": "o50vfto",
+    "C12": "o4wlmb8",
+    "C13": "o4wni75",
+    "C14": "o50fobo",
+    "C15": "o50ixk8",
+    "C16": "o50ngi9",
+    "C17": "o51heoo",
+    "C18": "o51jmkq",
+    "C19": "o51zoay",
+    "C20": "o4z8ea2",
+    "C21": "o50us4m",
+    "C22": "o518smv"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants commenters to say which of the five guild patches they would join, to see how preferences are spread across the guilds.",
+    "images": [
+      {
+        "file": "data/images/1r2bn5m/1.jpg",
+        "description": "Collage of five embroidered guild patches on denim/dark fabric. Each has a small star in the top-left corner and two bars (chevron/stripe pairs) in the lower section, with a distinct shape and color per guild. Left top: teal rounded rectangle with a dark-teal tangled wire/circuit-line pattern, a 2x2 block of dark bars below (the Weave). Left bottom: gold/yellow inverted triangle over a cream field of small tile/rectangle motifs, with two wide gold bars beneath (the Tile, Gilded). Center, largest: salmon/coral-red tall hexagon with radiating lines, a flame inside a crystal/prism cage, and two red chevron bars below (the flame guild, presumably the Prism). Right top: purple oval/disc with a stylized eye with lines and dots, over a stacked dark-purple base with bars (the Unknown/Veiled). Right bottom: brown/maroon pentagon with five claw/spike shapes and two dark bars below. Muted tonal colors; thread-on-thread embroidery."
+      },
+      {
+        "file": "data/images/1r2bn5m/2.jpg",
+        "description": "Pencil sketch on paper of the red flame patch design: tall hexagonal badge with a small star in the top-left corner, a zigzag-stitch border, radiating dashes around a prism/crystal cage holding a hatched flame, and two chevron bands of heavy scribble shading at the bottom. Part of another flame sketch is visible at the top right edge."
+      },
+      {
+        "file": "data/images/1r2bn5m/3.jpg",
+        "description": "Close-up of the finished embroidered salmon/coral-red flame patch on dark denim. Tall hexagon shape with a star at the top-left, radiating line burst, a wireframe crystal/prism cage containing an embroidered flame, and two thick chevron bars at the bottom. Tone-on-tone red thread; matches the sketch closely. A small sparkle icon watermark is in the bottom right corner."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008593
+}

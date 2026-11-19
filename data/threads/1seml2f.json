@@ -10,67 +10,348 @@
   "flair": "Discussion",
   "post_type": "text",
   "topics": [
-    "game mechanics",
-    "rng and randomness",
     "resource systems",
-    "card text complexity"
+    "card text complexity",
+    "rarity and power",
+    "mechanics to avoid"
   ],
-  "summary": "The poster asked which TCG mechanics people never want to see again, and the thread turned into a broad list of grievances rather than a single argument. The most upvoted complaints targeted tying rarity to power (Altered, KeyForge's non-modifiable random decks) and Magic-style lands that decide whether a hand functions. Commenters repeatedly pushed back on main-deck resources, automatic zero-risk resource gain, wordy cards with long resolution text, and out-of-turn loops like Digimon's end-turn trick. Tone was friendly and conversational, with people agreeing with each other and adding examples rather than fighting over specifics, though a few replies asked for clarification and one commenter's Duel Masters remark drew a follow-up question.",
+  "summary": "A designer asked which TCG mechanics people never want to see again. The community replied with a wide spread of dislikes, mostly friendly and constructive, with the OP agreeing in replies. The biggest recurring themes were Magic-style land draws, walls of card text, and resource systems, though people disagreed on whether automatic resources are a fix or a problem. Top comments carried only modest scores, so no single complaint dominated.",
   "consensus": [
-    "Cards with heavy text and paragraph-length resolution hurt play speed and readability, and simpler text is preferred.",
-    "Resources should carry some risk of missing; automatic, zero-risk resource gain per turn is widely disliked (Hearthstone, Gundam, One Piece were named).",
-    "Separate resource decks are seen as a more modern and better solution than putting lands or mana into the main deck.",
-    "Tutors and deck searches are unpopular because they slow the game and cause mistakes like skipping the target card.",
-    "Hidden or hard-to-track state (unmarked once-per-turn abilities, invisible resources) creates memory burden, and visible markers or tokens are preferred."
+    {
+      "point": "Magic's lands-in-the-main-deck system is widely seen as flawed because it lets draw variance decide games. Commenters credit newer designs with separate resource decks as improvements.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 31,
+        "share": 0.237
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Tying rarity to power, and Altered-style unique cards or KeyForge's fixed random decks, were criticized. One commenter said the real problem with KeyForge is that decks are fully random and unmodifiable yet used competitively.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 24,
+        "share": 0.183
+      }
+    },
+    {
+      "point": "Card text that is long or needs memorizing makes play slow and hard to follow. Commenters prefer complexity from interactions over paragraphs, keyword piles, or hidden state.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10",
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 19,
+        "share": 0.145
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Dual-faced and flip cards were disliked. They are hard to read without memorizing the other side and rule out clear or no sleeves.",
+      "evidence": [
+        "C10",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "point": "Resources with no counterplay, such as experience or energy, were called out because the only answer is to win first.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.038
+      }
+    },
+    {
+      "point": "Upkeep costs on units were disliked by one commenter, who is wary of Neuroscape for it.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.031
+      }
+    },
+    {
+      "point": "Magic's hexproof was criticized as unfair. One commenter prefers ward-style taxes, which let opponents still pay to interact.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "Negate-everything effects, such as Yu-Gi-Oh cards that shut off all opposing effects while auto-respawning, were criticized. One commenter prefers counter-style play to a 'your cards no longer work' approach.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "Tokens, counters and status chips were praised as ways to offload memory and math from players.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "Instant-speed interaction was said to slow games, so it deserves careful thought before inclusion.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.023
+      }
+    },
+    {
+      "point": "Digimon's memory gauge was criticized for letting a player end their turn and immediately get it back. Devs must constantly patch the resulting loops. The same commenter dislikes boards with more than two rows per side and life cards that give no benefit.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    }
   ],
   "disagreements": [
     {
-      "issue": "Whether randomness itself is acceptable in a card game",
-      "side_a": "Some want RNG kept at a moderate level for variety and excitement, objecting only when it is too swingy (Hearthstone was the example).",
-      "side_b": "Others object to any system where the hand or resource count is decided by chance, such as Magic land ratios, and prefer deterministic resource setups."
-    },
-    {
-      "issue": "Whether Magic's mulligan and land system is salvageable",
-      "side_a": "A few commenters accept the Chicago mulligan as a workable patch that reduces mana screw.",
-      "side_b": "The more common view is that land-based resource systems are fundamentally flawed and mulligans only partly fix them."
+      "issue": "Are automatic or risk-free resource systems a good modern solution or a boring flaw?",
+      "side_a": "Automatic or generic resource systems, or separate resource decks, are an improvement over land-in-deck systems.",
+      "side_a_evidence": [
+        "C4",
+        "C13"
+      ],
+      "side_b": "Automatic or face-down resources with no risk are dull and make games feel the same.",
+      "side_b_evidence": [
+        "C15",
+        "C20"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 24,
+        "share": 0.183
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.061
+      }
     }
   ],
   "design_lessons": [
-    "Tie power to card text, not rarity; when rare cards are strictly better, deck quality becomes a function of pack luck and players feel locked out, so keep rarity as a flavor or access signal instead of a power signal.",
-    "If decks are randomly generated or non-modifiable, make sure the random outcomes stay roughly balanced, because a single lucky or unlucky deck can decide competitive play.",
-    "Give resources a real chance of failure (draws, decks that can run dry, or a separate resource deck you choose from) so that resource gain is a decision rather than a free guarantee.",
-    "Keep resolution text short and move complexity into how cards interact; long per-card instructions slow down every use and make rules checking a chore.",
-    "Avoid resources that players cannot interact with (experience or energy counters) because the only counterplay becomes racing to win before they pay off.",
-    "Use visible tokens, counters, or status chips for ongoing effects so players do not have to memorize once-per-turn restrictions or hidden conditions.",
-    "Limit board size: several commenters said more than two rows per side pushes a game toward a board game that needs a special playmat.",
-    "Protect permanents with a cost (like Magic's ward) instead of hard protection such as hexproof, which removes the player's ability to interact and gives a one-for-one trade with no upside.",
-    "Make instant-speed or out-of-turn interaction deliberate and limited, since it adds decision load and slows the game for everyone.",
-    "Avoid double-faced or sideways cards that are hard to read in the hand and require sleeves to be off the table; each card should be readable at a glance."
+    {
+      "lesson": "Keep per-card text short and let depth come from how cards interact. Long resolution text slows play and makes game states hard to predict. Keyword lists should be used sparingly.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
+    },
+    {
+      "lesson": "If you want resource variance, soften it with a mulligan or a separate resource deck so a bad land ratio does not decide the game.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 31,
+        "share": 0.237
+      }
+    },
+    {
+      "lesson": "Give players visible markers like tokens or counters for once-per-turn abilities and statuses so nobody has to remember hidden state.",
+      "evidence": [
+        "C12",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    },
+    {
+      "lesson": "Keep cards readable in hand and playable unsleeved. Avoid flip, dual-faced or sideways cards that demand memorizing the hidden side.",
+      "evidence": [
+        "C10",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.076
+      }
+    },
+    {
+      "lesson": "Make protection from interaction cost something, like ward's tax, rather than absolute immunity, so opponents keep counterplay.",
+      "evidence": [
+        "C23",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.046
+      }
+    },
+    {
+      "lesson": "Test any resource or turn-manipulation system for loops, such as regaining a turn, and ensure every resource can be interacted with.",
+      "evidence": [
+        "C13",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.053
+      }
+    }
   ],
   "business_lessons": [
-    "Several commenters said rarity-driven power creep is a deliberate sales tactic, so players will keep rewarding designs that sell packs; a homemade game can differentiate by keeping power level independent of rarity.",
-    "Some commenters said they were put off by games that need a separate resource deck or specialty playmat, which raises the physical entry cost for new players.",
-    "Approachability matters: several praised games with simpler text as more welcoming to newcomers, which is a retention and onboarding point for a small publisher."
+    {
+      "lesson": "Rarity tied to power is hard to escape because it sells. A fairer model where rarity does not equal strength can be a selling point.",
+      "evidence": [
+        "C1",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 19,
+        "share": 0.145
+      }
+    }
   ],
   "content_ideas": [
     {
       "type": "debate",
-      "hook": "Lands in your opening hand should not decide who wins a card game.",
-      "why_it_lands": "The top-scored comment (22 points) argued this directly, and several replies agreed, so it sets up a clear stance with community backing; a designer can show a resource deck alternative and invite pushback."
+      "hook": "Automatic resources every turn: smart fix or boring shortcut? This subreddit split.",
+      "why_it_lands": "Commenters split on risk-free resources, with some praising resource decks over lands and others calling zero-risk resources boring.",
+      "evidence": [
+        "C4",
+        "C13",
+        "C15",
+        "C20"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 32,
+        "share": 0.244
+      }
     },
     {
       "type": "question",
-      "hook": "Does a card game need resources in the main deck at all?",
-      "why_it_lands": "This is a recurring split in the thread between main-deck mana (Magic, Lorcana) and separate resource decks (One Piece, Gundam, Riftbound), so it invites designers to share their choice and reasons."
-    },
-    {
-      "type": "debate",
-      "hook": "Rare cards should never be stronger than common ones, and this thread agrees.",
-      "why_it_lands": "The 16-point rarity-equals-power comment and its follow-ups (Altered, KeyForge) give a concrete, shared grievance with specific examples, making it a strong stance for a design video."
+      "hook": "How much text is too much on a card?",
+      "why_it_lands": "Several commenters wanted shorter text and fewer keywords, which designers can answer by showing their own card text.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.099
+      }
     }
   ],
+  "comment_points_total": 131,
+  "comment_ids": {
+    "C1": "oesq8n4",
+    "C2": "oesriaq",
+    "C3": "oetd6a0",
+    "C4": "oertjoy",
+    "C5": "oesgs6s",
+    "C6": "oet2obe",
+    "C7": "oevtzij",
+    "C8": "oewia0x",
+    "C9": "oew3kr1",
+    "C10": "oetzjz9",
+    "C11": "oewhh8r",
+    "C12": "oeyxz8t",
+    "C13": "oex5y8m",
+    "C14": "oexcm2j",
+    "C15": "oesd677",
+    "C16": "oer9ag0",
+    "C17": "oerg2x2",
+    "C18": "oeu3xxf",
+    "C19": "oevdgr5",
+    "C20": "oewmwla",
+    "C21": "oetetcp",
+    "C22": "oewg3jh",
+    "C23": "oey8man",
+    "C24": "of2jxfv",
+    "C25": "ofa4s87"
+  },
   "image_notes": null,
-  "extracted_at": "2026-11-19T04:44:01+00:00",
-  "extract_model": "claude-haiku-5-5",
-  "extract_cost_usd": 0.001224
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.012429
 }

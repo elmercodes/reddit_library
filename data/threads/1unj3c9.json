@@ -1,0 +1,288 @@
+{
+  "id": "1unj3c9",
+  "title": "Just use your art, not AI. Stop using AI for your images, even in prototypes",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1unj3c9/just_use_your_art_not_ai_stop_using_ai_for_your/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-04",
+  "upvotes": 161,
+  "comments": 187,
+  "engagement_score": 12.9423,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "ai art",
+    "prototype art",
+    "playtesting",
+    "community norms"
+  ],
+  "summary": "A designer posted three hand-drawn phone cards (Gem Cracker, Big Bear, Spell Squirrel) and urged others to use their own art or sketches instead of AI, even in prototypes. The thread is split between anti-AI commenters and people defending others' freedom to use AI for prototypes. Visible comment scores are low overall, and most of the largest-scoring comments are one-liners or the OP's own replies. The top community comments by score split roughly evenly: one agrees that stick figures beat AI (21 pts), while another says personal-use AI is nobody's business (21 pts). Tone is heated, with insults on both sides.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter says better-looking placeholder art helps them generate new ideas for the game more easily than stick figures do.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.073
+      }
+    },
+    {
+      "point": "One commenter argues that AI placeholders give artists no real direction, since a generic AI dragon says little about the designer's vision, whereas rough personal sketches carry intent and are more useful to a hired artist.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter says they would never back a project using AI art, so AI imagery can cost a creator potential backers.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter says that a polished card template deserves attention before art, and that a template is the main way a card conveys information.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter says it is already hard to get anyone, even friends, to playtest a new card game, and weak art makes that harder.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.012
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should designers avoid AI art in prototypes and playtests?",
+      "side_a": "Prototype art should be your own sketches or stick figures; AI cheapens the project and makes it blend in with other AI games.",
+      "side_a_evidence": [
+        "C7",
+        "C12",
+        "C1",
+        "C5"
+      ],
+      "side_b": "Others have no right to dictate tools; AI is fine for personal use or cheap prototyping, and decent-looking art helps get playtesters.",
+      "side_b_evidence": [
+        "C9",
+        "C14",
+        "C20",
+        "C24",
+        "C22"
+      ],
+      "side_a_support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 33,
+        "share": 0.402
+      },
+      "side_b_support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 33,
+        "share": 0.402
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Treat prototype art as a communication tool: a rough sketch conveys your intent to a future artist better than a generic generated image, which locks in a look you did not choose.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Playtest cards only need to be functional; plain printed text cards can be enough, so spend effort on rules and template clarity first.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "lesson": "Weigh how placeholder art affects your own ideation and your ability to recruit playtesters, since some people find rough visuals less inspiring and less inviting.",
+      "evidence": [
+        "C10",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.085
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "AI art can cost you audience goodwill and backers in some indie circles, so decide your art policy early and be open about it.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "If you plan to commission an artist later, showing an AI placeholder may signal less personal investment, while a personal sketch signals a project worth investing in.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Using AI to build a following before paying for commissioned art is a cost-saving argument some designers make, but it is contested.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.037
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Should prototype cards use AI art, or just stick figures?",
+      "why_it_lands": "The top two comments by score, 21 points each, landed on opposite sides: stick figures over AI versus leave AI users alone.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 45,
+        "share": 0.549
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does a hand-drawn placeholder help a future artist more than AI art?",
+      "why_it_lands": "One commenter argued sketches give artists real direction while AI images give none, which is a practical angle for designers planning commissions.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do better-looking placeholder cards actually help you get playtesters?",
+      "why_it_lands": "Commenters disagreed on whether rough visuals hurt idea generation and playtest recruitment, a real pain point for solo designers.",
+      "evidence": [
+        "C10",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.085
+      }
+    }
+  ],
+  "comment_points_total": 82,
+  "comment_ids": {
+    "C1": "ovwxtih",
+    "C2": "ovxn66j",
+    "C3": "ovx26yw",
+    "C4": "ovxn111",
+    "C5": "ow0yiub",
+    "C6": "ow23f0t",
+    "C7": "ovkiiuy",
+    "C8": "ovltiop",
+    "C9": "ovkv6yt",
+    "C10": "ovmt1zl",
+    "C11": "ovnrxd2",
+    "C12": "ovng666",
+    "C13": "ovnrkmq",
+    "C14": "ovlcw0t",
+    "C15": "ovlts8b",
+    "C16": "ovl9yo4",
+    "C17": "ovltti4",
+    "C18": "ovm3hua",
+    "C19": "ovm7c9z",
+    "C20": "ovl2ytk",
+    "C21": "ovlub3x",
+    "C22": "ovnz2qq",
+    "C23": "ovootkv",
+    "C24": "ovl68f9",
+    "C25": "ovlu5y6"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their own hand-drawn card art as an example and urging other designers to use their own art or sketches instead of AI, even in prototypes.",
+    "images": [
+      {
+        "file": "data/images/1unj3c9/1.jpg",
+        "description": "Hand-drawn digital creature card 'Gem Cracker' on a flat purple background. Top-left: parchment scroll with the cost '7'. Title 'Gem Cracker' in bold serif at top center, with a round purple crystal-resource icon at top right. Art: a black shaggy gorilla-like creature with lavender fur highlights, red-pink hands and feet, and a gray rectangular robot-like face plate with sleepy eyes, crouching with one hand extended. The art is not in a framed box; it sits on the card background. Pink text box with a thick black border reads 'When Played: Discard 1 resource and Gain:' followed by two purple crystal icons. There is a faint pink smudge at the bottom-left of the text box. Bottom row: 'Strength:' with one purple crystal icon, and 'Weakness:' with a cyan water/fish icon and a green leaf icon."
+      },
+      {
+        "file": "data/images/1unj3c9/2.jpg",
+        "description": "Hand-drawn digital creature card 'Big Bear' on a flat green background. Top-left: parchment scroll with the cost '8' in a stylized rune-like font. Title 'Big Bear' centered at top, with a green leaf-resource icon at top right. Art: a huge round purple bear seen from a low angle, with a small head, a brown nose, fangs, and large pale-blue crystal-like claws. It fills most of the card. There is no text box or rules text. Bottom row: 'Strength:' with a cyan water icon, and 'Weakness:' with two red circular icons."
+      },
+      {
+        "file": "data/images/1unj3c9/3.jpg",
+        "description": "Hand-drawn digital creature card 'Spell Squirrel' on a flat green background. Top-left: parchment scroll with the cost '2'. Title 'Spell Squirrel' at top, with a green leaf-resource icon at top right. Art: a cartoon brown squirrel with big buck teeth and a worried expression, wearing a light-blue spiked shell/backpack and holding a small scroll. Pink text box with a thick black border reads 'When Played: Gain' followed by three icons: green leaf, purple crystal, and a green tornado on a magenta circle. Bottom row: 'Strength:' with nothing listed, and 'Weakness:' with two red circular icons."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010675
+}

@@ -1,0 +1,261 @@
+{
+  "id": "1vcq0fm",
+  "title": "MOONFALL CCG - Logo redesign, new artworks and also something more!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vcq0fm/moonfall_ccg_logo_redesign_new_artworks_and_also/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-01",
+  "upvotes": 60,
+  "comments": 39,
+  "engagement_score": 9.6442,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "art style",
+    "homemade tcg",
+    "faction symbols"
+  ],
+  "summary": "A solo designer shared a redesigned logo, card frame and new art for Moonfall CCG and asked for constructive criticism ahead of a planned release. The community was friendly and mostly praised the minimalist low-poly style, with only a handful of small design suggestions. The thread is low-scoring overall (35 community points) and there is no real split, just polite praise plus a few layout tweaks.",
+  "consensus": [
+    {
+      "point": "Commenters broadly liked the minimalist, clean aesthetic and art style of the cards and logo.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C8",
+        "C10",
+        "C11",
+        "C15",
+        "C17",
+        "C21"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 25,
+        "share": 0.714
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested removing the notches on the white borders and UI elements for cleaner lines, though they were unsure it would be better.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.171
+      }
+    },
+    {
+      "point": "One commenter found the faction symbol repeated beside the cost confusing and suggested a plain solid-color cost symbol.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.086
+      }
+    },
+    {
+      "point": "One commenter suggested subtle minimalist backgrounds (slightly different dark colors or patterns) to help tell cards apart.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    },
+    {
+      "point": "One commenter noted text line breaks look inconsistent between cards and suggested the hanging stat banners restrict the top of the text box; moving them could help.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    },
+    {
+      "point": "One commenter asked whether the jagged border corners line up with rounded physical card corners, which is hard to judge on a dark display.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make sure border details echo the logo so the card frame and brand feel unified, but test whether decorative notches add clutter on small UI elements. Ask testers if the cleaner version reads better.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.171
+      }
+    },
+    {
+      "lesson": "Avoid repeating a faction icon right next to another one, such as in the cost marker. A plain, solid cost symbol may read faster than an icon that duplicates the faction crest.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.086
+      }
+    },
+    {
+      "lesson": "On all-black card frames, consider subtle background tints or patterns to differentiate cards or factions, since uniform black makes cards look alike.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    },
+    {
+      "lesson": "Stat banners that hang down into the text box narrow the top of the rules area and cause uneven line breaks. Check text wrapping consistency across cards, or move the banners outside the text area.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    },
+    {
+      "lesson": "Check how a sharp, jagged border meets the physical rounded corners of a printed card, and preview in different display modes since dark frames can hide the edge.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should a card's cost icon repeat the faction symbol, or be plain?",
+      "why_it_lands": "Two commenters engaged with the cost symbol design: one found the repeated faction icons weird, and the designer defended them for clarity. It is a concrete layout question other designers face.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.086
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do decorative notches on card borders add identity or just clutter?",
+      "why_it_lands": "The top non-OP comment suggested clean lines, while the designer said the notches tie into the logo and stop the cards feeling empty. It is a tangible tradeoff with visible examples.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.171
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do stat banners that hang into the text box hurt your rules text?",
+      "why_it_lands": "One commenter pointed out that hanging stat banners restrict the text box and cause inconsistent line breaks, a layout issue many designers run into.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.029
+      }
+    }
+  ],
+  "comment_points_total": 35,
+  "comment_ids": {
+    "C1": "p1330ga",
+    "C2": "p13noai",
+    "C3": "p13a9ja",
+    "C4": "p13nli4",
+    "C5": "p131b4y",
+    "C6": "p13ihou",
+    "C7": "p13olur",
+    "C8": "p13m31k",
+    "C9": "p13ssfv",
+    "C10": "p13ne64",
+    "C11": "p143pnx",
+    "C12": "p14vy9w",
+    "C13": "p15kfls",
+    "C14": "p164lce",
+    "C15": "p16568k",
+    "C16": "p16s477",
+    "C17": "p17aehe",
+    "C18": "p17t1i5",
+    "C19": "p17zxrm",
+    "C20": "p188394",
+    "C21": "p1acnvz",
+    "C22": "p1f19gz",
+    "C23": "p1f4w8m",
+    "C24": "p14d9an",
+    "C25": "p14q5sm"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants constructive criticism on the redesigned logo, card layout, and new artwork for their homemade CCG Moonfall ahead of a planned release.",
+    "images": [
+      {
+        "file": "data/images/1vcq0fm/1.jpg",
+        "description": "Moonfall logo: white stylized text \"MOONFALL\" on a solid black background. The letters are angular and stencil-like, with chopped cuts and small notches. The middle \"O\" (the second O) is a circle with a vertical sword or cross running through it: a point at the top and a blade tip below. The two L's at the end resemble swords, with crossguards at their bases and pointed tops. The \"F\" and \"N\" have extended, tapering strokes. The look is a runic, fantasy, minimalist one."
+      },
+      {
+        "file": "data/images/1vcq0fm/2.jpg",
+        "description": "Card \"PRAYER PAWN\", Follower • Moonmoth, cost 1 (cyan diamond crest icon next to the cost at top left). Layout: black card with a white jagged, notched border. The name is centered at the top in bold white caps, with the type line beneath it and decorative broken lines under that. A cyan ribbon banner with a white faction emblem hangs from the top right corner. Art is a large central flat-vector, low-poly illustration of a yellow/gold moth with spread arms, antennae, and a long spear-like abdomen, standing on a dark ellipse shadow on the black background. A white divider line with a center diamond sits below the art. The red ribbon stat at bottom left reads 1 (attack) and the green castle-shaped badge at bottom right reads 2 (health). Text box: a teal \"Spearhead\" keyword tag followed by \": on play, summon a friendly \"Winged Recruit\".\" Text is centered white on black, with the card name in italics."
+      },
+      {
+        "file": "data/images/1vcq0fm/3.jpg",
+        "description": "Card \"SINS EVALUATOR\", Follower • Maskmaker, cost 3 (same cyan diamond icon). Same frame as the other card: black background, white jagged border, cyan faction ribbon top right, red attack ribbon bottom left reading 0, green health badge bottom right reading 6. The art is a flat low-poly figure in a blue robe with gold trim, a red hood, and a gray bird/jackal-like mask with a green eye. It holds a small balance scale in one hand and a green up arrow floating above the other hand, standing on a dark ellipse shadow. Rules text: a green \"Taunt\" keyword tag, then \"After defending, buff an adjacent friendly follower.\" with \"buff\" in bold italics."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008795
+}

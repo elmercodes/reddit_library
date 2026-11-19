@@ -1,0 +1,311 @@
+{
+  "id": "1u85n3t",
+  "title": "First time designing card game based on the elemental cycle. Need feedback on mechanics",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-17",
+  "upvotes": 71,
+  "comments": 44,
+  "engagement_score": 9.9867,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card game mechanics",
+    "combat incentives",
+    "combo balance",
+    "rules clarity"
+  ],
+  "summary": "A designer posted a one-page ruleset for an elemental-cycle party card game and asked how to make single-element attacks worth using over hand combos. The thread was friendly and constructive, with a lot of detailed feedback. Commenters largely agreed attacking is too risky for its payoff, and flagged combo balance (Ignite vs Inferno, Wood vs Metal) and overlapping special action cards. Reactions were supportive in tone, though total thread points are low (38).",
+  "consensus": [
+    {
+      "point": "Attacking is too risky versus its reward, so players favor combos; the attacker loses a card and the action while the defender gains cards, and the reward is weak.",
+      "evidence": [
+        "C5",
+        "C7",
+        "C14",
+        "C12"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 12,
+        "share": 0.316
+      }
+    },
+    {
+      "point": "Printing element strengths and weaknesses on the cards would help players remember the cycle.",
+      "evidence": [
+        "C3",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.237
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested limiting hand combos to one per turn, and another suggested a cooldown after a combo, both to make attacks matter more.",
+      "evidence": [
+        "C14",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.211
+      }
+    },
+    {
+      "point": "Combos appear unevenly balanced across elements and cost tiers, with Ignite stronger than Inferno and Wood stronger than Metal.",
+      "evidence": [
+        "C12",
+        "C16",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.132
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter praised the post for focusing on core mechanics and a clear rules graphic rather than art and rarities.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.132
+      }
+    },
+    {
+      "point": "One commenter suggested making attackers draw a random card from the defender instead of letting the defender choose a useless one, possibly with a small chance to steal Qi as a comeback mechanic.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "point": "One commenter noted that cards benefiting yourself beat cards targeting one opponent in multiplayer, as in Commander, which explains why Ignite beats Inferno.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter said special action cards overlap thematically with the elements (intel, block, deck manipulation), dilute element identity, and that Shuffle is situational and Glimpse weak.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter pointed out that Qi Mastery wording should use 'give' and reveal-if-none, which removes lying about hand contents.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If the attacker risks losing their once-per-turn action plus a card while the defender gains two cards, nobody will attack. Narrow the gap between attack success and failure payoffs, for instance by letting the winning attacker choose or take a random card.",
+      "evidence": [
+        "C5",
+        "C7",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.263
+      }
+    },
+    {
+      "lesson": "When a defender picks the card they give up, they hand over the least useful one. Random or attacker-chosen steals make attacking feel worthwhile.",
+      "evidence": [
+        "C7",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.132
+      }
+    },
+    {
+      "lesson": "Check same-cost combos against each other. Self-benefit effects like drawing or taking cards usually beat single-target punishments, so scale costs or effects accordingly.",
+      "evidence": [
+        "C16",
+        "C12",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.132
+      }
+    },
+    {
+      "lesson": "Put the cycle's strengths and weaknesses on the cards so players stop consulting the rule sheet.",
+      "evidence": [
+        "C3",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.237
+      }
+    },
+    {
+      "lesson": "Make sure special cards do not duplicate what element combos already do thematically, and give them a distinct mechanical goal.",
+      "evidence": [
+        "C14",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.105
+      }
+    },
+    {
+      "lesson": "Limiting combos per turn or adding combos that improve attack odds, like Ripple revealing hands, could push players toward attacking.",
+      "evidence": [
+        "C14",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.211
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Distinct Qi card backs add tension by showing who is close to winning, but they raise production cost, so weigh that trade-off.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "If attacking loses you two cards of advantage, why would anyone attack?",
+      "why_it_lands": "The top feedback in the thread centered on risk-reward imbalance between attacks and combos, a common design pitfall.",
+      "evidence": [
+        "C5",
+        "C7",
+        "C14"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.263
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should defenders choose which card they give up when you win an attack?",
+      "why_it_lands": "A specific rule tweak was debated, with random-steal and attacker-choice alternatives proposed.",
+      "evidence": [
+        "C7",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.132
+      }
+    }
+  ],
+  "comment_points_total": 38,
+  "comment_ids": {
+    "C1": "os5jgch",
+    "C2": "os5jn8s",
+    "C3": "os5toey",
+    "C4": "os5weay",
+    "C5": "os6exbo",
+    "C6": "os6gug7",
+    "C7": "os817aq",
+    "C8": "os96n0n",
+    "C9": "os63wmh",
+    "C10": "os6ju9i",
+    "C11": "os96ou4",
+    "C12": "os7d59b",
+    "C13": "os8ojpv",
+    "C14": "os7whhu",
+    "C15": "os95ye2",
+    "C16": "osm2gxf",
+    "C17": "osmcpqf",
+    "C18": "os60d2r",
+    "C19": "os96sr3",
+    "C20": "osbob7q",
+    "C21": "osbp1xb",
+    "C22": "oslvk0d",
+    "C23": "osmbn64",
+    "C24": "ow85akl",
+    "C25": "ow884w2"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants mechanics feedback on their elemental-cycle card game ruleset, especially how to give single-element attacks more incentive, plus input on the special action cards.",
+    "images": [
+      {
+        "file": "data/images/1u85n3t/1.jpg",
+        "description": "A one-page, three-column rules sheet (white background, black text, small colored icons) for a 2-5 player elemental card game. Goal: be first to hold all 3 Qi cards at the start of your turn.\n\nLeft column:\n- OVERVIEW: collect 3 Qi cards to win, using elemental creatures and hand combinations to attack, defend and outmanoeuvre.\n- WINNING THE GAME: first player to hold all 3 Qi cards at the start of their turn declares victory.\n- QI CARDS (art: 3 white yin-yang cards): they enter your hand when drawn; cannot be used as elemental cards or discarded voluntarily; can be stolen through attacks and combo effects; hold 3 at the start of your turn and you win.\n- SETUP: remove the Qi cards and deal 5 cards to each player. Each player gets 1 starter Qi card, and the remaining Qi cards are shuffled into the deck.\n- ON YOUR TURN: draw 1 card, then in any order (1) attack another player, once per turn only; (2) play a Special Action card; (3) play a Hand Combination.\n- 1 ATTACKING:\n  1. Declare an attack, choose a target, and spend 1 elemental card.\n  2. The target may counter by spending 1 card of the element that destroys the attacking element.\n  3. Example: Fire is countered by Water or Earth (see the elemental cycle).\n  4. If countered, the defender gains both spent cards and the attack ends. It cannot be countered back.\n  5. If not countered, the target gives 1 card of the attacker's choice, and the attacking card returns to the attacker's hand.\n  6. Attacks may also be countered by Special Action cards or Hand Combinations.\n- A flow diagram beside it shows P1 attacking P2 with a Fire card. If P2 counters with an effective element, special card or combo, P2 gains both spent cards and the attack fails. If P2 has nothing to counter with, P1 gets the Fire card back and P2 gives P1 a card.\n\nMiddle column:\n- 3 HAND COMBINATION: Doubles or Triples trigger special effects. Combos cannot be countered unless using a counter combo. Discard the required cards after use. Each combo has pictured cards, which are round kanji element icons on grey cards.\n\nDoubles and triples by element:\n- Fire: Ignite (2 cards) forces the target to give you 2 cards of their choice. Inferno (3) forces the target to discard half their hand, rounded down.\n- Water: Ripple (2) reveals the target's full hand outwards and you take 1 card of your choice excluding Qi. Vortex (3) swaps the entire hands of any two players, which can include yourself.\n- Wood: Harvest (2) draws the top 3 cards of the deck to your hand. Overgrowth (3) draws the top 5.\n- Earth: Petrify (2) blocks and negates a single attack or combo targeting you. Fissure (3) is an immediate counter that reflects any attack or combo back to the caster.\n- Metal: Calibrate (2) looks at and rearranges the top 3 cards, then you take 1 to your hand. Transmute (3) looks at and rearranges the top 5 cards, then you take 2 to your hand.\n- Qi Mastery (5 cards, one of each element): demand a Qi card from another player and discard all 5 cards after use.\n\nRight column:\n- 2 SPECIAL ACTION CARDS (art: 3 black cards with purple circle kanji emblems). They can be played freely on your turn without spending elemental cards, and are weaker than combos but need no setup.\n  - Peek: look at the top 3 cards of the deck without arranging.\n  - Glimpse: look at 1 card from any player's hand.\n  - Nullify: cancel a single card attack before it resolves.\n  - Shuffle: shuffle the entire deck.\n- THE ELEMENTAL CYCLE: described as rock-paper-scissors but 5 ways. Fire burns Wood and melts Metal. Wood absorbs Water and breaks Earth. Earth holds Metal and extinguishes Fire. Metal carries Water and cuts Wood. Water quenches Fire and dissolves Earth.\n- Pentagon diagram with 5 colored circle icons: Fire (red, top), Wood (green, right), Earth (orange/gold, bottom right), Metal (grey, bottom left), Water (blue, left). Colored arrows (red, green, orange, grey, blue) connect them in both outer-ring and inner-star patterns.\n- Elemental Hand Combo themes: Fire is destructive, aggressive, immediate (Discard). Water is fluid, revealing, adaptive (Intel). Wood is growth, accumulation, patience (Growth). Earth is defence, immovability, stubbornness (Block). Metal is precision, control, cunning (Deck manipulation).\n\nThe element names are color-coded in the text. Small emoji faces appear in the attack flow diagram."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.014289
+}

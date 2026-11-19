@@ -1,0 +1,236 @@
+{
+  "id": "1p8zisv",
+  "title": "After several posts on both front/back designs, I'm happy with the current iteration. (:",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1p8zisv/after_several_posts_on_both_frontback_designs_im/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-11-28",
+  "upvotes": 155,
+  "comments": 18,
+  "engagement_score": 9.4665,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "iterative feedback",
+    "card back design",
+    "playtesting"
+  ],
+  "summary": "A designer shared the finished front and back of their TAG Trading Card Game after several rounds of feedback and asked no specific question. The thread was friendly and mostly short praise, with total community points very low (24). Commenters called the layout clean, and a few offered small critiques of the stat box area and the card back alignment. There was no real disagreement.",
+  "consensus": [
+    {
+      "point": "Commenters found the current card layout clean and well organized, with elements well placed and nothing overpowering the rest.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C10",
+        "C6",
+        "C8",
+        "C14",
+        "C15"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 12,
+        "share": 0.5
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters wanted to try the game, asking about rules or a digital tabletop option such as TTS or Untap.",
+      "evidence": [
+        "C2",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.208
+      }
+    },
+    {
+      "point": "One commenter said the theme and look set the game apart from other dueling card games.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "One commenter said the black stat box for range and close combat is the weakest part visually, and since the rules make players look at it constantly, it deserves more visual interest. They suggested a subtle kanji watermark behind the numbers.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter noticed the lower triangle on the card back does not line up with the stripe running from the upper triangle.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter appreciated that the rules text box is now opaque, which helps readability over the art.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Judge each card zone by how often players look at it in actual play. A stat area that seemed fine at first glance can read as dull once rules show it is checked constantly, so give high-attention zones extra polish such as a subtle watermark.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    },
+    {
+      "lesson": "Put rules text on an opaque or semi-opaque panel over full-bleed art so it stays legible without shrinking the art.",
+      "evidence": [
+        "C15",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.125
+      }
+    },
+    {
+      "lesson": "Check alignment of geometric elements on the card back, since small mismatches between shapes and stripes are noticed even when the rest is praised.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    },
+    {
+      "lesson": "A distinct visual identity, such as retro-anime art with a cyan, magenta and black palette, helps a game stand apart from familiar dueling card games.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.083
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Publishing a rules draft on a website and posting design iterations builds interest; viewers asked for rules, playtests and digital tabletop access. Have a playtest path (TTS, Untap or a Discord) ready for the people who ask.",
+      "evidence": [
+        "C2",
+        "C4",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.292
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Which part of your card do players stare at most, and have you polished it?",
+      "why_it_lands": "A commenter noted that the stat box was the least appealing area despite being what players look at most, which is an overlooked design check.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.042
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your opaque rules text box hurt the art, or save the card?",
+      "why_it_lands": "A commenter specifically thanked the designer for the opaque text box, pointing to a common readability-versus-art tradeoff.",
+      "evidence": [
+        "C15",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.125
+      }
+    }
+  ],
+  "comment_points_total": 24,
+  "comment_ids": {
+    "C1": "nr8o46d",
+    "C2": "nr8spbt",
+    "C3": "nr8tgrt",
+    "C4": "nr92n61",
+    "C5": "nr8qexd",
+    "C6": "nr8ofyz",
+    "C7": "nr8rbk5",
+    "C8": "nr8sm4s",
+    "C9": "nr97i8l",
+    "C10": "nra6hx8",
+    "C11": "nr9x8q8",
+    "C12": "nraoa7m",
+    "C13": "nrb1uls",
+    "C14": "nrbcp3q",
+    "C15": "nrblpuj",
+    "C16": "nrf4mfp",
+    "C17": "nrf4sjn",
+    "C18": "nr93lyz"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their finished card front and back design after several rounds of feedback, with no specific question asked.",
+    "images": [
+      {
+        "file": "data/images/1p8zisv/1.jpg",
+        "description": "Promo mockup on a black background with a magenta diagonal band and bullet-hole graphics, showing a card front (left, tilted) and card back (right) of the 'TAG Trading Card Game' (Japanese subtitle ガンガールズ). FRONT: purple rounded frame. Top-left corner has a dark purple tab with the number 2 (cost). Top-right has a dark purple heart icon with 2 (health). Large full-bleed art box in lime green: 80s/90s retro-anime style digital illustration of a black-haired girl with a pink bow, earrings, off-shoulder pink top and jeans, holding a submachine gun with a serious expression. Over the lower art, a semi-transparent dark green text overlay holds two keyword pills: orange 'On Arrival' with 'Deal 1 DMG to a target unit.' and pink 'Stealth' with '(This cannot be targeted for 1 turn.)', then small gray italic flavor text: 'Shoot first, then shoot again, then one more time...' (small and low contrast). Below the art on the purple strip: type line 'TAG UNIT' with a blue 'R' rarity badge; name 'MIKU 未来'; subtype 'ASSAULT' with a bullet icon; tiny collector line 'BSGG001b' with artist credit 'Brandon Lopez'. Bottom right has two black stat boxes: a bullet icon 'RG 2' (range) and a fist icon 'CC 2' (close combat). BACK: black card with a cyan rounded border and a cyan targeting-reticle/crosshair circle behind the magenta 'TAG' logo in angular italic type with the Japanese katakana below and 'TRADING CARD GAME' in white."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.00745
+}

@@ -1,0 +1,297 @@
+{
+  "id": "1wymki3",
+  "title": "My new TCG PolterGuys I’m workin on!!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wymki3/my_new_tcg_polterguys_im_workin_on/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-05",
+  "upvotes": 115,
+  "comments": 23,
+  "engagement_score": 9.5207,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "logo legibility",
+    "indie tcg showcase",
+    "naming and trademark"
+  ],
+  "summary": "A designer shared unfinished cards and a promo image for their indie TCG PolterGuys, asked for feedback on layout and colors, and pushed their Kickstarter. The community was friendly and mostly praised the art and vibe, with a few layout and logo critiques. Comment scores are small (40 points total), with the largest going to simple praise and a remark about the subreddit's reaction to AI art. The only dissent was one low-score comment disliking the art.",
+  "consensus": [
+    {
+      "point": "Commenters enjoyed the art style, vibrant colors and theme, and most liked the overall card frame.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C6",
+        "C14",
+        "C16",
+        "C18",
+        "C21"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 27,
+        "share": 0.675
+      }
+    },
+    {
+      "point": "The logo is hard to read and needs rework.",
+      "evidence": [
+        "C3",
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.2
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter says the subreddit rewards AI art posts with more engagement than hand-made work like this.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.175
+      }
+    },
+    {
+      "point": "One commenter finds the effect text too small, and the sideways cards are hard to read; another commenter bothered by inconsistent bold on card names.",
+      "evidence": [
+        "C14",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.1
+      }
+    },
+    {
+      "point": "One commenter says the teeth framing the art look like stat or level icons and make the template busier.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter flagged that the name PolterGuys is already used by a comic and a video game, which is a trademark risk.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter suggests the first image is promo art and that the card back should be more abstract and iconographic.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "Commenters asked for a rulebook or how-to-play video to understand the mechanics.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.05
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep decorative frame elements clearly distinct from functional ones. Teeth-like shapes around the art can read as stats or level pips, so either make them obviously ornamental or give them a function.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "lesson": "Test the logo for legibility at small sizes, since ornate spiky lettering was called hard to read by several commenters.",
+      "evidence": [
+        "C3",
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.2
+      }
+    },
+    {
+      "lesson": "Keep typography consistent across cards (e.g., name bolding) and check that rules text is readable at print size, especially on rotated cards, to avoid a messy look.",
+      "evidence": [
+        "C10",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.1
+      }
+    },
+    {
+      "lesson": "Use a distinct, iconographic card back rather than reusing promotional illustration.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Search for existing titles (comics, video games, music) before committing to a name, since overlap can create trademark trouble.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "lesson": "Provide a rulebook and a how-to-play video early; interested viewers asked how the game works before they would commit.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.05
+      }
+    },
+    {
+      "lesson": "Distinctive hand-made art draws warm engagement and offers of support, so lead with it.",
+      "evidence": [
+        "C12",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.275
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer's TCG name already exists twice. How do you check yours?",
+      "why_it_lands": "Naming conflicts are a real risk for indie creators, and one commenter found two prior uses.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Is your card game logo readable, or just cool-looking?",
+      "why_it_lands": "Three commenters independently flagged the logo as hard to read despite praising the rest.",
+      "evidence": [
+        "C3",
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.2
+      }
+    }
+  ],
+  "comment_points_total": 40,
+  "comment_ids": {
+    "C1": "pe4lykr",
+    "C2": "pejyx4w",
+    "C3": "pe4pxj2",
+    "C4": "pe4snjm",
+    "C5": "pejyzew",
+    "C6": "pe5r3fe",
+    "C7": "pejz352",
+    "C8": "pe7dplj",
+    "C9": "pe8ujih",
+    "C10": "peb5b9e",
+    "C11": "pehkdyi",
+    "C12": "pejyp8v",
+    "C13": "pejyvp7",
+    "C14": "pentmsz",
+    "C15": "pentthl",
+    "C16": "pe4oxzq",
+    "C17": "pe50y7a",
+    "C18": "pe5xkql",
+    "C19": "pecd4nd",
+    "C20": "pe9ufuq",
+    "C21": "pea5a71",
+    "C22": "peb3vmi"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is promoting their indie TCG PolterGuys and wants feedback on card layout and colors, plus follows, support, and playtesters.",
+    "images": [
+      {
+        "file": "data/images/1wymki3/1.jpg",
+        "description": "Black-and-white/grey cartoon cover or poster for 'PolterGuys TCG'. Spiky gothic title lettering at top. A grinning character with flame-like spiky hair, a headband with a small ghost pin, and a hoodie reaches out to slam a card face-up (a ghostly creature art on its back) while three face-down cards sit on the table. Speech bubble: 'check mate.' Cobweb corners in the frame, sparkle stars around the border. Credit text: 'Illustrated and created by Nicky Tannenbaum'. Tagline: 'It's time to play with dead things'. Hand-drawn digital ink style on a textured paper background."
+      },
+      {
+        "file": "data/images/1wymki3/2.jpg",
+        "description": "Sheet of 8 unfinished PolterGuys cards with bright lime-green borders and a green-yellow glowing art area with cobweb corners and teeth-like shapes framing the name banner and type banner. Layout (portrait cards): big number top-left (cost/level), purple name banner with a lowercase subtype beneath the name, a purple 'RIP' tombstone icon top-right, central art, a purple bottom banner with a large card type word (Spirit or Demon, Monster), rules text beneath in small caps, an attack/defense-style stat like '3/10' bottom-right with a larger number above it, and 3 small stars bottom-left (some filled, some hollow) as a rarity or level indicator, plus a tiny copyright line. Cards: SCRITCH (critter, 15, Spirit, 5, 3/10; text 'Cat Scratch Fever: each turn following an attack by this card take away 1 karma from your opponent. Mouse Trap: draw 3 cards, take one at random and place the rest in the grave.'); ZAPPY TABBY (critter, 8, Spirit, 3, 2/10; 'Ruined Holiday: pick a card from your opponent's hand and set it at the bottom of their deck. Then your opponent chooses one of yours. If there are no cards in your hand destroy this card.'); SOX (critter, 16, Demon, 6, 4/10; 'Loose Stuffing: pick an entity from your field with the doll attribute, possess it and add this card's attack to it during the battle phase. Imaginary Friend: summon an entity from your deck with no cost but its attack becomes 2 and its effects are negated.'); HELLAPHONE (appliance, 5, Spirit, 5, 1/3; 'Crank Call: if your opponent attacks a face down card of yours reveal a card in their hand. If that card is a curse send it to the grave.'); CRYBABY (doll, 15, Spirit, 7, 4/6; 'Spit Up: flip the next card up from your deck. If its an entity send it to the grave, if its a curse add it to your hand, if its a tarot send it to the bottom of the deck. Diaper Rash: flip an opponent's entity face down until your next turn.'); SARDON'T (critter, 5, Spirit, 10, 5/1; 'Filet O' Fish: if your opponent summons an entity this turn slice its attack in half for as long as this card remains on the field.'); GEMMA (ghoul, 15, Monster, 10, 5/11, rotated sideways; text about sending the top 3 cards of the deck to the grave and a reaction when a card is sent to the grave); SCRUB (critter, 8, Spirit, 10, 3/5, rotated sideways; 'Salt Shaker: send a salt card from your deck to the grave...' gains offense while on the board). Art is colorful, bold-outlined cartoon digital illustration (cat-bat creature, skull burst, green lizard-like demon, phone/chocolate bar appliance, cluster of baby doll heads, bloody knife with fish and entrails, green slimy ghoul, creature with salt shaker). The last two cards are rotated 90 degrees, with sideways text that is tiny and hard to read. Rules text on all cards is very small and dense."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.00962
+}

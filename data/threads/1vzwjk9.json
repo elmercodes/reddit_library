@@ -1,0 +1,227 @@
+{
+  "id": "1vzwjk9",
+  "title": "My crochet card game, Battle Goomis, is almost out!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vzwjk9/my_crochet_card_game_battle_goomis_is_almost_out/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-27",
+  "upvotes": 124,
+  "comments": 20,
+  "engagement_score": 9.3951,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "crochet art",
+    "card layout",
+    "backerkit launch",
+    "game promotion"
+  ],
+  "summary": "A designer shared promo cards for Battle Goomis, a crochet dice-rolling card game launching on Backerkit on Sept 1st, with no feedback requested. The response was friendly and almost entirely praise for the crochet art style and the effort behind it. There were a few practical questions about a public rulebook and print-and-play files. One commenter offered a design critique about the background clashing with the photos. Overall the thread was warm with low total engagement (33 community points).",
+  "consensus": [
+    {
+      "point": "Commenters broadly praised the handmade crochet art and the overall concept as gorgeous, cute and unique.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C12",
+        "C14",
+        "C15",
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 23,
+        "share": 0.697
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter wanted to see the rules and asked whether a public rulebook exists, showing that interest in the art quickly turns into interest in the mechanics.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "One commenter felt the frame and background elements are more saturated than the crochet photos and suggested a pastel palette or a crocheted-fabric texture in place of the yellow background on the first card.",
+      "evidence": [
+        "C12",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "One commenter asked for print-and-play files so they could try the game and possibly review it on their own channel.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.061
+      }
+    },
+    {
+      "point": "One commenter said they were sad to have missed the backing window and wanted the cards, which suggests demand for a pre-launch or late-pledge option.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.03
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "When the art is a distinctive physical photo (like crochet), keep the frame colors and patterns from overpowering it. Consider pastel tones or textures that echo the medium, such as a crochet texture in the frame, so the card reads as one cohesive piece.",
+      "evidence": [
+        "C12",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "lesson": "A strong handmade art style can carry a card game on its own, but each card should still have a clear stat and ability layout, like the three stat boxes and keyword ability line shown here, so people can tell it is a real game.",
+      "evidence": [
+        "C1",
+        "C14",
+        "C15"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 12,
+        "share": 0.364
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Have the rulebook and print-and-play files ready to share before launch. Interested people ask for them right away, and reviewers or creators may promote the game if they can try it.",
+      "evidence": [
+        "C6",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.152
+      }
+    },
+    {
+      "lesson": "Cheap entry tiers and a clear launch date help convert enthusiasm into backers, since some fans said they were short on money or worried about missing the campaign.",
+      "evidence": [
+        "C3",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.182
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer's crochet cards got praised for art. Does art alone sell a card game?",
+      "why_it_lands": "Nearly all the thread's points went to praise of the art, yet the only follow-up questions were about rules and playable files.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C8",
+        "C14"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 15,
+        "share": 0.455
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer suggested a crochet texture for the card background. Would that tie it together?",
+      "why_it_lands": "A concrete layout critique on photo-based cards gives designers a visual before-and-after to film, and the question is easy to engage with.",
+      "evidence": [
+        "C12",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    }
+  ],
+  "comment_points_total": 33,
+  "comment_ids": {
+    "C1": "p68hnii",
+    "C2": "p68jr6k",
+    "C3": "p68mvhu",
+    "C4": "p68ns0k",
+    "C5": "p68uigq",
+    "C6": "p68kgi2",
+    "C7": "p68l4oc",
+    "C8": "p68m5e2",
+    "C9": "p6npz38",
+    "C10": "p6q4psq",
+    "C11": "p68kl7g",
+    "C12": "p68wxvw",
+    "C13": "p68x0sm",
+    "C14": "p69giy9",
+    "C15": "p69neck",
+    "C16": "pbfb09c",
+    "C17": "pe41i4b",
+    "C18": "p68ne2a",
+    "C19": "p68o918"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing and promoting their crochet-themed card game Battle Goomis ahead of its Sept 1st Backerkit launch, with no specific feedback requested.",
+    "images": [
+      {
+        "file": "data/images/1vzwjk9/1.jpg",
+        "description": "Promo card image on a blue background, titled 'Battle Goomis' at top, with 'Launching Sept 1st on BACKERKIT' at bottom. Card: 'Chester the Mimic', yellow/gold frame with button pattern. Top-left gold badge '15 GP'; name in a brown dashed banner; top-right star badge '11'. Art box is a photo of a crocheted brown treasure chest mimic with eyes and teeth, filled with gold buttons, and a pink tongue. Below art: pink pill with 2 red hearts (left), teal pill with 2 green shields (right). Three stat boxes: orange '3' with burst/attack icon, blue '1' with spiral/yarn icon, green '1' with shield outline. Text box: orange attack-burst + checkmark icon, 'Jackpot: Earn / steal 2 x GP until the end of the round.' An empty rounded square sits at the right of the text box. Bottom row: red gem-like faction icon, 2 trophy icons, '© ClubCrochet 2026', code 'G-VSV6MF' with serial '0011A', star and 'P' icon, 'Louie's Loops' credit."
+      },
+      {
+        "file": "data/images/1vzwjk9/2.jpg",
+        "description": "Same Battle Goomis promo layout. Card: 'Amanita the Fungaloid', dark red frame with pink polka dots. '15 GP' badge, star badge '19'. Art is a photo of a crocheted amigurumi mushroom character with a red-and-white spotted cap, tan body, and small mustache smile, with mushrooms and a big red button in the background. Health pill shows 3 hearts; armor pill shows 1 green shield. Stats: orange 1 attack, blue 3 yarn/spiral, green 2 shield. Text: blue spiral + checkmark icon, 'Germinate: At the start of Amanita's next turn, heal your team +1 heart.' Empty square at the right of the text box. Footer: green sprout faction icon, 3 trophies, code 'G-LMMUL9' / '0019A', ClubCrochet 2026, Louie's Loops."
+      },
+      {
+        "file": "data/images/1vzwjk9/3.jpg",
+        "description": "Same Battle Goomis promo layout. Card: 'Casey the T-Rex', purple frame with darker blob pattern and yellow art border. '15 GP' badge, star badge '38'. Art is a photo of a purple crocheted T-Rex with cream spikes and belly, one black eye, and a small white tooth, set against an orange backdrop with pom-poms. Health pill shows 2 hearts; armor pill shows 1 green shield. Stats: orange 3 attack, blue 1 yarn/spiral, green 2 shield. Text: orange attack icon + checkmark, 'Chomp: Target Goomi loses -1 heart. The Goomi cannot attack on their next turn.' Footer: orange character faction icon, 2 trophies, code 'G-5VMVJV' / '0038A', ClubCrochet 2026, Louie's Loops."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008074
+}

@@ -1,0 +1,252 @@
+{
+  "id": "1vnqm2t",
+  "title": "Improved card frames. What does everyone think?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vnqm2t/improved_card_frames_what_does_everyone_think/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-13",
+  "upvotes": 92,
+  "comments": 21,
+  "engagement_score": 9.1692,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card frames",
+    "card layout",
+    "card critique",
+    "art direction"
+  ],
+  "summary": "A designer team shared revised frames for their card game Fractals ECG and asked for critique. The 21 comments are friendly and mostly praise, calling the frames thematic, professional and a big improvement. Critique was light: one commenter noted an icon resembling a Riftbound rune, one spotted an off-center stat, and one objected to first-person card text. Overall temperature is warm, with no real split.",
+  "consensus": [
+    {
+      "point": "The frames read as polished and professional, and they suit the artwork.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C14",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 28,
+        "share": 0.651
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said the frame borders signal theme: stained-glass style for the fairy and dragon cards suggests a magic feel, while the linear border on the Egg suggests nature or earth.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 16,
+        "share": 0.372
+      }
+    },
+    {
+      "point": "One commenter said the faction icons in the top-right corner look much like the Riftbound all-color rune icon. The team replied that theirs are used only for deckbuilding.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.14
+      }
+    },
+    {
+      "point": "One commenter spotted that the '4' in the stat shield looks off-center.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    },
+    {
+      "point": "One commenter said first-person card text (\"I can only be played...\") is a mistake because readers must swap 'I' for the card name when reading aloud. They also asked for full stops.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    },
+    {
+      "point": "One commenter thought keeping art quality consistent across a 100-120 card set would be an achievement in itself.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    },
+    {
+      "point": "One commenter said the frame reminded them of a Flesh and Blood card.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make the frame suggest a theme through its border style. Ornate stained-glass filigree and angular linear borders let players guess a card's flavor before they read it.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 16,
+        "share": 0.372
+      }
+    },
+    {
+      "lesson": "Check your faction and set icons against well-known games. A symbol that resembles another game's mechanic icon can cause confusion, even when its function differs.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.14
+      }
+    },
+    {
+      "lesson": "Check stat numbers for centering inside their shapes. Players notice small alignment flaws on polished frames.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    },
+    {
+      "lesson": "Write card text in third person or use the card name. First-person phrasing forces readers to translate when reading effects aloud. Consistent punctuation also helps.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Keeping art quality consistent across a large set is hard. One approach is to recruit strong artists and give them room to express themselves.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Should card effects be written in first person? One designer said it's a no-no.",
+      "why_it_lands": "One commenter raised it (2 pts), so it's a modest idea. But the rule is concrete and gives designers an easy way to weigh in on their own card text.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.047
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Could your card's icons be mistaken for another game's mechanic symbols?",
+      "why_it_lands": "A commenter noticed a resemblance to Riftbound's rune icon on a frame most others praised. Icon overlap is a pitfall for designers.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.14
+      }
+    }
+  ],
+  "comment_points_total": 43,
+  "comment_ids": {
+    "C1": "p3k8bp2",
+    "C2": "p3kch2w",
+    "C3": "p3kfqgf",
+    "C4": "p3kklsn",
+    "C5": "p3kx3j1",
+    "C6": "p3mroo6",
+    "C7": "p3lq1d4",
+    "C8": "p3mjn2n",
+    "C9": "p3m7zqd",
+    "C10": "p3mi0if",
+    "C11": "p3ml0e0",
+    "C12": "p3mlfpd",
+    "C13": "p3q4r9r",
+    "C14": "p3qelns",
+    "C15": "p3r6im4",
+    "C16": "p3m9pvr",
+    "C17": "p3mhv96",
+    "C18": "p3um43b",
+    "C19": "p3urpr9",
+    "C20": "p3n7q3z",
+    "C21": "p3mmo0o"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general critique of their revised card frames and suggestions for where the frame design could improve.",
+    "images": [
+      {
+        "file": "data/images/1vnqm2t/1.jpg",
+        "description": "Card 'Ethereal Fae' from Fractals ECG, purple-framed. Layout: cost gem (diamond) with '3' top-left; name centered in a cream banner at top; faction/element emblem (white flame-like swirl on purple circle) top-right with two small pip icons beneath it. Large full-bleed art box: a purple-skinned fairy woman with crescent wings and gold armor casting a glowing white-blue energy blast, in a dark moody forest. Type line: 'Celestial Combatant - Fairy'. Text box (large, mostly empty, pale pink): 'I can only be played using' followed by a dark circular energy icon. Bottom-left shield-like stat '4', bottom-right shield stat '4'. Flavor text in italics: 'From stardust to stardust'. Footer: 'Fractals ECG © 2026 Time Loss Studios LLC' and 'Artist: Amar Sekarwangi'. Ornate gold filigree border with scroll corners, black outer border. Art looks like polished digital painting."
+      },
+      {
+        "file": "data/images/1vnqm2t/2.jpg",
+        "description": "Token card 'Egg' from Fractals ECG, green/olive frame. Top-left has an empty green circle (no cost); name 'Egg' centered in cream banner; top-right green emblem with white horned/shield-like symbol. Art: a large glowing yellow-green slimy egg with mechanical/runic patterns in a cluster of other eggs, grey misty alien setting. Type line: 'Huskborne Crew Token - Insect'. Text box: '(Tokens do not count towards the 1 Crew per region limit)' in parentheses, with most of the box empty. Flavor: 'Power in numbers'. Only bottom-right shield stat '1' (no bottom-left stat). Footer shows copyright 'Fractals ECG © 2026 Time Loss Studios LLC' and 'Artist : Amar Sekarwangi'. Angular, tech-styled green-gold border; digital painted art."
+      },
+      {
+        "file": "data/images/1vnqm2t/3.jpg",
+        "description": "Card 'Empyrean Sniper' from Fractals ECG, purple frame, same layout as Ethereal Fae. Cost gem '6' top-left; faction emblem top-right with three pips below. Art: red dragon humanoid in pants and gold bracers flying in space, firing a yellow beam from its mouth at a ringed structure, with nebula sky and small ships. Type line: 'Celestial Combatant - Dragon'. Text box: 'Evasive' and 'Attack → +1 [dark circle energy icon]', then reminder text '(Evasive: My Attacks can only be defend by Combatants with Evasive or Perceptive)' (sic). Stats '6' bottom-left and '6' bottom-right in shield shapes. Flavor: 'Energy provides myriad outputs'. Footer: 'Fractals ECG © 2026 Time Loss Studios LLC', 'Artist : Amar Sekarwangi'. Ornate gold filigree border; digital painted art."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008417
+}

@@ -1,0 +1,245 @@
+{
+  "id": "1slrnm2",
+  "title": "Have I broke this mechanic already?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1slrnm2/have_i_broke_this_mechanic_already/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-15",
+  "upvotes": 95,
+  "comments": 71,
+  "engagement_score": 10.9793,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "legendary cards",
+    "tutor effects",
+    "card balance",
+    "card art"
+  ],
+  "summary": "A designer asked whether their free colorless searcher, Blessed Horn, is overpowered compared with seven newer one-per-deck Legendaries that players ignore. The community mostly praised the art, while the substantive replies leaned toward saying the generic tutor is too strong and crowds out the rest. One 5-point commenter pushed back that a one-of searcher adds limited consistency. Overall the tone is friendly and supportive, with a mild split on how much the tutor matters.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "A free, cost 0 tutor is rarely beaten by a Legendary unless the deck specifically needs that Legendary to function.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 23,
+        "share": 0.299
+      }
+    },
+    {
+      "point": "One commenter says a tutor is effectively every card in the deck, which is why most games limit or restrict searching. Read in isolation, only Blessed Horn looks worthy of Legendary status, and the new cards should be compared against normal cards.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.104
+      }
+    },
+    {
+      "point": "One commenter warns that a single dominant Legendary makes the whole game revolve around it and layers a Queen's problem (everyone picks the strongest card) on top. They suggest nerfing the tutor and making Legendaries only slightly more functional than regular cards.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "One commenter suggests Yugioh Rush Duel's fix: allow one Legendary per card type, plus support cards that make a weaker Legendary better in a specific deck.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.039
+      }
+    },
+    {
+      "point": "One commenter jokes about a ghost card that cancels searches by discarding itself once per turn, as a way to balance the tutor.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.039
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is the free generic searcher a problem that needs fixing?",
+      "side_a": "Blessed Horn is too strong: tutors are inherently powerful, and a free generic one will always beat situational Legendaries.",
+      "side_a_evidence": [
+        "C1",
+        "C4",
+        "C22"
+      ],
+      "side_b": "Because it is a one-of in the deck, it does not boost consistency that much.",
+      "side_b_evidence": [
+        "C25"
+      ],
+      "side_a_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 38,
+        "share": 0.494
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.065
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "A free, colorless, generic tutor sets the power ceiling for every one-per-deck slot. Any new Legendary has to beat a guaranteed pick of your best creature, so cost or restrict the tutor, or make new Legendaries clearly stronger.",
+      "evidence": [
+        "C1",
+        "C22",
+        "C4"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 38,
+        "share": 0.494
+      }
+    },
+    {
+      "lesson": "If only one Legendary is allowed per deck, give each one support cards or deck-specific synergies so its value comes from the deck's strategy rather than raw power.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.039
+      }
+    },
+    {
+      "lesson": "Show new rare cards alongside normal cards and stats baselines. Without that context, readers cannot judge whether a Legendary is actually stronger than regular cards.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.104
+      }
+    },
+    {
+      "lesson": "Make Legendary a tier of slightly more functional cards rather than strictly more powerful ones, so one pick does not warp the whole format.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.091
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should a free tutor card be allowed in a one-legendary-per-deck game?",
+      "why_it_lands": "The thread's most substantive replies say a free generic tutor outshines every other Legendary, and one 5-point comment says a one-of barely adds consistency. Designers hit this problem often.",
+      "evidence": [
+        "C22",
+        "C1",
+        "C4",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 43,
+        "share": 0.558
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Yugioh Rush Duel changed its one-Legendary rule. Would that fix this problem?",
+      "why_it_lands": "It gives a concrete real-game example of loosening the limit to one per card type and adding Legendary support cards, which designers can copy.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.039
+      }
+    }
+  ],
+  "comment_points_total": 77,
+  "comment_ids": {
+    "C1": "og8vgzn",
+    "C2": "og8z5lq",
+    "C3": "og90g59",
+    "C4": "og8zp8r",
+    "C5": "og91vrs",
+    "C6": "og9jy1f",
+    "C7": "ogaabvt",
+    "C8": "ogb5jre",
+    "C9": "ogayk2c",
+    "C10": "ogb4o3l",
+    "C11": "ogcvate",
+    "C12": "ogd1omo",
+    "C13": "ogdl8zb",
+    "C14": "ogfhdyj",
+    "C15": "ogfr7qq",
+    "C16": "ogbd16s",
+    "C17": "oghv3rc",
+    "C18": "oghzb23",
+    "C19": "ogo98lp",
+    "C20": "oh4bll0",
+    "C21": "oisq0yb",
+    "C22": "og8tn7q",
+    "C23": "og9pz74",
+    "C24": "og9q91f",
+    "C25": "ogbug0j"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants to know whether the generic Legendary searcher (Blessed Horn) is overpowered relative to the new Legendaries, and whether to buff future Legendaries or whether players simply value consistency.",
+    "images": [
+      {
+        "file": "data/images/1slrnm2/1.jpg",
+        "description": "Card 'Blessed Horn', colorless Spell, cost 0 (circle top right), set number S1-100, LEGENDARY badge at bottom center, 'COLORLESS' bottom right. Grey-blue frame, name top left, large cream art box with a hand-drawn marker-style golden ornate horn with gems. Type line 'Spell' below art. Rules text: 'Add a creature from your deck to your hand.' No stats."
+      },
+      {
+        "file": "data/images/1slrnm2/2.jpg",
+        "description": "Card 'Bombasaurus', Fire Legendary Reptile creature, cost 3 (top right circle), stats 7 (bottom left) and 3 (bottom right) in orange corner tabs. Red frame, cream art box with marker-style red dinosaur with grey round belly and a fuse-like tail ending in a spark. Rules text: 'Anytime during either players turn, you can destroy this card to destroy a card on the field.' Footer: 'LP-001: Grayson', LEGENDARY badge, 'FIRE'."
+      },
+      {
+        "file": "data/images/1slrnm2/3.jpg",
+        "description": "Card 'Aromasaurus', Earth Legendary Reptile creature, cost 3, stats 8 (bottom left) and 6 (bottom right) in brown corner tabs. Tan/brown frame, cream art box with marker-style orange-brown long-necked dinosaur with a green bush with pink flowers on its back and leaves on its neck. Rules text: 'When this creature destroys a creature in battle, you can put an energy card into play.' Footer: 'LP-003: MathewGX', LEGENDARY badge, 'EARTH'."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009299
+}

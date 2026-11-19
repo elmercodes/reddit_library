@@ -1,0 +1,197 @@
+{
+  "id": "1uzrt59",
+  "title": "Really proud of how this card came out",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1uzrt59/really_proud_of_how_this_card_came_out/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-18",
+  "upvotes": 109,
+  "comments": 16,
+  "engagement_score": 8.9503,
+  "flair": "Homemade TCGs",
+  "post_type": "link",
+  "topics": [
+    "alternate media card art",
+    "crochet cards",
+    "showing process",
+    "theme variety"
+  ],
+  "summary": "A designer shared a card whose art was made in a handmade, non-illustrated medium (the thread points to crochet and a process showcase). The community response was uniformly friendly and complimentary, with no criticism or pushback. Commenters praised the novelty of the art approach, the process documentation, and the non-fantasy theme. Total community points were low (26), so this is a polite showcase rather than a deep discussion.",
+  "consensus": [
+    {
+      "point": "Commenters liked the handmade, alternate-media card art and found it fresh and striking; several said it looked great or would make them buy for the art.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C11",
+        "C13",
+        "C14",
+        "C16"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 6,
+        "points": 20,
+        "share": 0.769
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said the approach is a way for people who can't draw to make distinctive card art, and that they hadn't seen anything like it.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.269
+      }
+    },
+    {
+      "point": "One commenter appreciated that the post showed the making process, not just the finished card.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.115
+      }
+    },
+    {
+      "point": "One commenter pointed to another crafter doing similar fiber-art work for a MetaZoo fan art contest as inspiration, which led to OP wanting to find crochet collaborators.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.115
+      }
+    },
+    {
+      "point": "One commenter was glad to see a theme that isn't fantasy or cyberpunk, and compared the art medium to old plasticine Pokemon cards.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.077
+      }
+    },
+    {
+      "point": "One commenter said they would buy the game for the art alone.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.077
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Use a distinctive physical art medium (crochet, clay-style) to set the game apart visually and to lower the barrier if you can't illustrate; the novelty itself becomes the hook.",
+      "evidence": [
+        "C1",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.346
+      }
+    },
+    {
+      "lesson": "Pick a theme outside fantasy and sci-fi to stand out; commenters called it refreshing.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.077
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Show the making process in public posts; it earned explicit praise and gives people more reason to engage than a finished card alone.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.115
+      }
+    },
+    {
+      "lesson": "Art-forward presentation can generate purchase intent by itself, even before gameplay is discussed.",
+      "evidence": [
+        "C13",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.154
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Can't draw? A designer made card art from crochet and people loved it.",
+      "why_it_lands": "Commenters highlighted that alternate media is an option for non-illustrators and that nothing like it was seen before, a relatable pain point for solo designers.",
+      "evidence": [
+        "C1",
+        "C9",
+        "C3"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 12,
+        "share": 0.462
+      }
+    }
+  ],
+  "comment_points_total": 26,
+  "comment_ids": {
+    "C1": "oy9j91q",
+    "C2": "oy9ub97",
+    "C3": "oydjh8p",
+    "C4": "oydltgq",
+    "C5": "oyajuat",
+    "C6": "oycn1jn",
+    "C7": "oyje71k",
+    "C8": "oyll1rw",
+    "C9": "oyb1rtc",
+    "C10": "oycnmvi",
+    "C11": "oybagve",
+    "C12": "oycnp0l",
+    "C13": "oyco4du",
+    "C14": "oybj3jt",
+    "C15": "oycnqbi",
+    "C16": "oybcc09"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005568
+}

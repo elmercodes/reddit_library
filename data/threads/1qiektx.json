@@ -1,0 +1,210 @@
+{
+  "id": "1qiektx",
+  "title": "I'm 13 and making a TCG for my younger siblings! Thoughts?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qiektx/im_13_and_making_a_tcg_for_my_younger_siblings/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-20",
+  "upvotes": 96,
+  "comments": 16,
+  "engagement_score": 8.8245,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "homemade tcg",
+    "card layout",
+    "flavor text",
+    "beginner designers"
+  ],
+  "summary": "A 13-year-old posted three hand-drawn water-element cards (Fishron, Jellno, Stath) from a TCG made for younger siblings and asked for thoughts. The thread was warm and encouraging, with no pushback. Practical feedback centered on using a ruler or Canva for cleaner text, while praise went to the flavor text and to Jellno's mechanic matching its theme. Overall temperature: friendly and supportive.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters suggested cleaner production: a ruler to align handwritten text (which allows more words and reduces smudging) and Canva plus a printer for a cleaner look.",
+      "evidence": [
+        "C1",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.325
+      }
+    },
+    {
+      "point": "The flavor text got specific praise, and one commenter said Jellno's text made them laugh.",
+      "evidence": [
+        "C8",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.175
+      }
+    },
+    {
+      "point": "A commenter said handwriting is legible and that practicing art and penmanship alongside the game will improve both quickly.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.15
+      }
+    },
+    {
+      "point": "One commenter reassured that early stats and abilities will probably need tuning, with some cards overpowered and others underpowered, and framed that as part of the process.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.1
+      }
+    },
+    {
+      "point": "Jellno's rule (can't be returned to hand, paralyzes when attacked) was praised because the mechanic expresses the jellyfish theme of 'don't touch me'.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make a card's rules text express its theme. A jellyfish that can't be picked back up and punishes attackers with paralysis reads as the creature itself, which makes the card memorable and easy to understand.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "lesson": "Cramped, smudged rules boxes limit how much a card can say. Ruled guidelines or a digital template give cleaner, more legible text and room for more rules, which matters on cards with long effects like Jellno's.",
+      "evidence": [
+        "C1",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.325
+      }
+    },
+    {
+      "lesson": "Flavor text with humor and personality can be a card's biggest hook, so use it to give each creature a distinct voice.",
+      "evidence": [
+        "C8",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.175
+      }
+    },
+    {
+      "lesson": "Expect early stat lines and abilities to be off. Treat balance passes as a normal phase and adjust the outliers rather than being discouraged.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.1
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should your card's rules text act out its creature? A jellyfish card nailed it.",
+      "why_it_lands": "Commenters singled out a mechanic that matched its theme, which is a concrete, filmable design principle you can demonstrate with your own cards.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Hand-drawn or Canva: what actually makes prototype cards readable?",
+      "why_it_lands": "Two commenters independently suggested cleaner methods (ruler, Canva) for cramped, smudged text, a pain point many prototypers share.",
+      "evidence": [
+        "C1",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.325
+      }
+    }
+  ],
+  "comment_points_total": 40,
+  "comment_ids": {
+    "C1": "o0r3qf3",
+    "C2": "o0r75zb",
+    "C3": "o0r8bfq",
+    "C4": "o0rab4f",
+    "C5": "o0rcelc",
+    "C6": "o0rhrwo",
+    "C7": "o12j4q4",
+    "C8": "o0sev8i",
+    "C9": "o0vwmc8",
+    "C10": "o0uqn19",
+    "C11": "o0ra2d1",
+    "C12": "o0rg564",
+    "C13": "o0s3ly0",
+    "C14": "o0wllln",
+    "C15": "o0yjyq4",
+    "C16": "ozr7ixu"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster, a 13-year-old making a TCG for younger siblings, wants general thoughts and feedback on their hand-drawn water-element cards.",
+    "images": [
+      {
+        "file": "data/images/1qiektx/1.jpg",
+        "description": "Hand-drawn, marker/colored-pencil card on white paper: 'Fishron'. Blue rounded name bar at top with a circular wave icon (water element) at right. Large empty art area with a small blue fish with brown fangs/tusks near its mouth. Blue-bordered flavor text band: 'Although fishron has impressive fangs, they are so large that it can barely open its mouth. This makes the fangs pretty much useless.' Bottom section split: left stat column with heart 6 (health), sword 3 (attack), shield 1 (defense); right rules box: 'Fishron can only attack once every 2 turns.' No cost shown. Handwriting is small but legible."
+      },
+      {
+        "file": "data/images/1qiektx/2.jpg",
+        "description": "Hand-drawn card: 'Jellno', same layout (name bar, water wave icon in circle, big art area, flavor band, stat column left, rules right). Art is a blue jellyfish with long tentacles. Flavor text: 'Jellno float peacefully through the sea until touched, when they electrocute the toucher with a large amount of electricity.' Stats: heart 2, sword 2, shield 0. Rules: 'Jellno cannot be taken back into hand after being played. When attacked, Jellno inflicts paralysis 1.' Some text is a bit smudged and cramped; no cost shown."
+      },
+      {
+        "file": "data/images/1qiektx/3.jpg",
+        "description": "Hand-drawn card: 'Stath', same blue water frame and layout. Art is a blue five-point starfish with a dark circular mouth in the center. Flavor text: 'The stath live in shallow waters, pretending to be starfish until they stick on to their food, and eat them alive.' Stats: heart 2, sword 3, shield 1. Rules: 'After attacking, stath moves to the opponent's active card and gains Latch.' (last word is handwritten, appears to be 'Latch'). No cost shown."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.006957
+}

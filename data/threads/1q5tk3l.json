@@ -1,0 +1,293 @@
+{
+  "id": "1q5tk3l",
+  "title": "I’ve been working on my TCG and am ready to print! Rate my creature card layout",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1q5tk3l/ive_been_working_on_my_tcg_and_am_ready_to_print/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-06",
+  "upvotes": 65,
+  "comments": 40,
+  "engagement_score": 9.76,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "pokemon similarity",
+    "card readability",
+    "keywords and iconography"
+  ],
+  "summary": "A designer shared two near-final creature cards (Roserian Whelp and Roserian) and asked for layout feedback before printing. The response was friendly and mostly positive about the art, with critiques focused on resemblance to Pokemon, the hard-to-read level bar, and dense or unexplained keywords. The top comment about Pokemon similarity carried the most points, and the thread stayed polite throughout. Much of the discussion was the OP explaining rules in replies, which signals that the cards don't explain themselves.",
+  "consensus": [
+    {
+      "point": "The art is strong and the frame is clean and legible, though several commenters flagged the level bar as hard to read at a glance.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C9",
+        "C13",
+        "C20"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 34,
+        "share": 0.642
+      }
+    },
+    {
+      "point": "The level bar of 12 tiny ticks is hard to read at a glance, and a number plus an icon would be easier.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C8",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 15,
+        "share": 0.283
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter noted that the HP number sits at a slightly different position between the two cards, a small consistency issue worth fixing before print.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter asked whether borderless cards will make cutting and printing misalignment obvious, a practical risk of full-bleed layouts.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "Keyword modifiers like Vampirism 20 and Exploit God 6 confused a reader with no rules context. It was unclear what the number measures, and the Skill versus Skill+ tags weren't self-explanatory.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter suggested doing a test print of one of each card type before committing to a run.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.019
+      }
+    },
+    {
+      "point": "One commenter pointed out that the Whelp and Roserian aren't obviously linked as an evolution line from the cards alone.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.019
+      }
+    },
+    {
+      "point": "Another commenter asked what the number beside the weakness icon and the 3x icon mean, so some footer icons also need explaining.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.019
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If your layout closely resembles a famous game, change distinctive shapes and structure. For example, swap round colored cost circles for hexagons or diamonds, give each element its own icon shape, and rework the bottom text section. This keeps new players from dismissing it as a clone.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 24,
+        "share": 0.453
+      }
+    },
+    {
+      "lesson": "Replace long tick-mark bars for level or rank with a number plus a color-coded icon. Players dislike counting tiny segments, and a Yu-Gi-Oh-style reading problem gets worse when levels matter.",
+      "evidence": [
+        "C6",
+        "C8",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.208
+      }
+    },
+    {
+      "lesson": "Keyword modifiers with bracketed numbers need a clear signal of what the number means, since players will guess it is a die size or a different stat. Distinguishing tags like Skill and Skill+ should be visually or verbally obvious.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.075
+      }
+    },
+    {
+      "lesson": "With borderless full-bleed cards, expect cutting and print misalignment to be more visible, so test print and check consistency between cards, including stat position, before a full run.",
+      "evidence": [
+        "C13",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.094
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Before asking for pre-print feedback, give reviewers a way to learn the rules, such as a rulebook link or a card anatomy video. Commenters spent their effort asking what things meant, and they also wanted a place to follow the game.",
+      "evidence": [
+        "C4",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.094
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Top comment on a TCG card post: it looks too much like Pokemon.",
+      "why_it_lands": "The Pokemon-resemblance critique got the most points in the thread (20) and drew follow-ups suggesting shape changes. Every designer worries about looking like a clone.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 24,
+        "share": 0.453
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should card levels be tiny ticks or just a number and icon?",
+      "why_it_lands": "Several commenters said a 12-segment level bar is hard to read quickly and suggested a number with an icon, with one comparing it to Yu-Gi-Oh. It's a concrete layout choice any designer can answer.",
+      "evidence": [
+        "C6",
+        "C8",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.208
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer's cards needed a long reply thread to explain keywords. Can your cards explain themselves?",
+      "why_it_lands": "A reader with no rules context couldn't decode Vampirism 20 or the Skill versus Skill+ tags, and the OP needed long replies to explain them.",
+      "evidence": [
+        "C4",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.094
+      }
+    }
+  ],
+  "comment_points_total": 53,
+  "comment_ids": {
+    "C1": "ny328ne",
+    "C2": "ny3wteh",
+    "C3": "ny4hvez",
+    "C4": "ny2q006",
+    "C5": "ny2vu8g",
+    "C6": "ny35pk4",
+    "C7": "ny389kt",
+    "C8": "ny38nj3",
+    "C9": "nzj3ak2",
+    "C10": "o1s09pj",
+    "C11": "ny2vigj",
+    "C12": "ny2wv7x",
+    "C13": "ny3xtie",
+    "C14": "ny2yqdv",
+    "C15": "ny37k4m",
+    "C16": "ny3dyp7",
+    "C17": "ny3i479",
+    "C18": "ny3wx45",
+    "C19": "ny49fdl",
+    "C20": "ny406ry",
+    "C21": "o1s0ciq",
+    "C22": "o3sc6os",
+    "C23": "ny3u64e",
+    "C24": "ny2kdik",
+    "C25": "ny2npvd"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the layout and design of their near-final creature cards before printing.",
+    "images": [
+      {
+        "file": "data/images/1q5tk3l/1.jpg",
+        "description": "Creature card 'Roserian Whelp', a small green wyvern asleep on a grassy meadow (digital cartoon art with outlines on a soft painted background). Frame: full-bleed art with the name in a tan/orange banner at top center. Pink octagon 'HP 120' sits top-left and blue octagon 'DEF 20' top-right. Under the name is a segmented bar (12 segments, 2 pink filled, rest dark gray) with '[WYVERN]' right-aligned. Bottom ~40% is a pale icy-blue text box. Ability 1: cost icons (blue, blue, yellow sun-like circles), name 'Transcend', a 'SKILL' tag in a blue box. Text: 'Send this creature to your GY; Blitz a Roserian from your hand or Deck. Transfer Power Cards.' Ability 2: 'Peck Peck' with a red burst attack icon and damage 20. Footer strip: green globe icon 'ELEMENT', red flame icon 'WEAKNESS: 20', card-stack icon '3x' (copies). Cyan bottom bar: 'Origins 10 / 60', 'COMMON', 'Art by Hikoku'. Text is small but legible."
+      },
+      {
+        "file": "data/images/1q5tk3l/2.jpg",
+        "description": "Creature card 'Roserian', the evolved form: a large green rose-covered wyvern with spikes, red roses, and big wings, in an energetic pose against an AI-looking fiery orange/yellow lightning forest background with glowing bubbles. Same layout as image 1. HP 150, DEF 60, [WYVERN]. The bar has 8 pink, 2 orange, and 2 gray segments. Text box is a purple/blue crystalline pattern. Ability 1: yellow+orange cost icons, 'Noxious Thorns', 'SKILL+' tag in purple: '[Vampirism: 20] When this creature Counterattacks: Poison the attacker.' Ability 2: yellow, yellow, orange icons, 'Crippling Fireball', attack 50: '[Exploit God: 6] Roll a D6 and apply a status ailment accordingly: (1): Poison the target (2): Enflame the target (3): Paralyze the target (6): Poison, Enflame, and Paralyze the target. Burn 2 PCs or release 1 Soul.' Footer: red flame 'ELEMENT', cyan snowflake 'WEAKNESS: 20', pink broken-heart 'Souls: 2', '3x' copies icon. Bottom bar: 'Origins 12 / 60', 'MYTHICAL', 'Art by Hikoku'. Ability text is dense and small."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.012673
+}

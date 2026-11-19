@@ -1,0 +1,290 @@
+{
+  "id": "1sx9e28",
+  "title": "Update to my beginner-friendly astrology TCG",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sx9e28/update_to_my_beginnerfriendly_astrology_tcg/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-27",
+  "upvotes": 45,
+  "comments": 43,
+  "engagement_score": 9.5049,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "beginner tcg",
+    "hp tracking",
+    "mana cost display"
+  ],
+  "summary": "A designer shared two mockups of an astrology-themed beginner TCG with a navy and gold frame, galaxy D12 HP dice and diamond mana tokens, and asked whether the layout reads at a glance and whether the tokens work as a hook. The thread was friendly and mostly praise for the frame, with the useful feedback concentrated in a few longer comments about the mana display, the HP numbers and unlabeled icons. Total community points were low (28), so no single point carries heavy weight. The temperature was supportive with no real conflict.",
+  "consensus": [
+    {
+      "point": "The frame is clean, simple and attractive, and the dice and tokens suit the astrology theme.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C11",
+        "C13",
+        "C20",
+        "C22"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 18,
+        "share": 0.643
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters were unsure what the top-left and top-right symbols mean at a glance.",
+      "evidence": [
+        "C3",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "The bottom mana display of the Level 3 card is confusing, mainly the gap in the middle of the four diamonds.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.107
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "Two commenters were unsure about the +4 HP on Level 2. One suggested resetting HP on evolution, or at least covering it in the rulebook, because HP clarity matters for first-time players.",
+      "evidence": [
+        "C5",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.107
+      }
+    },
+    {
+      "point": "One commenter suggested labeling HP and level with tiny text or icons, and using symbols instead of written words in ability text, citing Clank Catacombs and Dune: Imperium.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    },
+    {
+      "point": "One commenter warned the blue accent diamonds on the text box look like mana shapes. The same commenter said color should not be the only way to show element, for colorblind players.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    },
+    {
+      "point": "One commenter noted that beginner products need to include enough D12s, since new players will not own them.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    },
+    {
+      "point": "One commenter suggested swapping the zodiac sign and card name positions, treating the sign as gameplay info and the name as fluff.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Show large mana costs as one diamond icon plus a number rather than a long row of icons, and avoid gaps used to show split costs. Players read a gap as an error, and long rows force counting.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.107
+      }
+    },
+    {
+      "lesson": "Label key stats like HP and level with a small word or icon so a newcomer can identify them without the rulebook. Use symbols inside ability text so it scans faster.",
+      "evidence": [
+        "C3",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "Do not reuse a shape or color for decoration if it matches a functional icon. Accent diamonds that resemble mana diamonds can be misread. Pair color-coded elements like water with a distinct shape for accessibility.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    },
+    {
+      "lesson": "Additive stats like +4 HP on evolution confuse beginners. Showing the actual total HP of the new stage, with HP reset on evolution, makes the card readable alone.",
+      "evidence": [
+        "C5",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.107
+      }
+    },
+    {
+      "lesson": "Keep cost information away from the bottom edge if cards are held in a fanned hand, since it gets covered by neighboring cards.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "If a game is aimed at newcomers, each starter product should include the special components it needs, such as the specific dice, because beginners will not own them.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.036
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Mana cost: eight diamond icons or one diamond with an 8?",
+      "why_it_lands": "Several commenters found the diamond row and gap confusing, and the designer weighed a number alternative. Every card designer faces this tradeoff.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.107
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should a card show total HP on evolution, or just the bonus?",
+      "why_it_lands": "The +4 vs 3 HP display confused commenters, and the comparison with Pokemon-style damage carryover shows a clear rules and layout tradeoff for beginner games.",
+      "evidence": [
+        "C5",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.107
+      }
+    }
+  ],
+  "comment_points_total": 28,
+  "comment_ids": {
+    "C1": "oilg1sa",
+    "C2": "oilinls",
+    "C3": "oipglu3",
+    "C4": "oist8ev",
+    "C5": "oiqlrbg",
+    "C6": "oisv7cy",
+    "C7": "oim1nym",
+    "C8": "oim415d",
+    "C9": "oinx9ye",
+    "C10": "oio0r7l",
+    "C11": "oio1yp1",
+    "C12": "oio9e8d",
+    "C13": "oipemxh",
+    "C14": "oist23x",
+    "C15": "oipl52u",
+    "C16": "oisubcq",
+    "C17": "oirn5do",
+    "C18": "oiswcvz",
+    "C19": "oiswgha",
+    "C20": "oiuw2ym",
+    "C21": "oixcvf6",
+    "C22": "oiljwi7",
+    "C23": "oila2ph",
+    "C24": "oilirsu",
+    "C25": "oilp07g"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the card layout is intuitive at a glance for newcomers and kids, and whether the galaxy D12 HP dice and diamond mana tokens work as an attractive gimmick.",
+    "images": [
+      {
+        "file": "data/images/1sx9e28/1.jpg",
+        "description": "Annotated mockup of a single card (a stack of 3 copies) on a blurred wooden table background with tokens beside it. Card: navy blue frame with cream/gold border and ornate corners. Top-left: blue circular water-themed badge with '3' (labeled 'Level 3' and 'Water'). Top-center: small gold banner reading 'Pisces' (labeled 'Pisces'). Top-right: a purple/blue galaxy-style D12 die showing 8 sits over the corner, labeled 'HP'. Large empty navy art area in the middle (no art yet). Lower part: gold name banner 'The Ocean' (labeled 'Name'), cream text box with ability 'Whenever this cards is attacked, the attacker takes +1 damage.' (note typo 'cards'; '+1 damage' bold; labeled 'Ability'). Small blue diamonds flank the name banner. At the bottom is a decorative wave flourish with four gold diamond icons (the middle gap has a small brown dot, suggesting a 1+3 split), labeled 'Mana requirement'. Left of the card are four tan/beige faceted flat diamond tokens representing the mana. Label tags are color-coded to match the elements."
+      },
+      {
+        "file": "data/images/1sx9e28/2.jpg",
+        "description": "Three fanned/overlapping Pisces cards, one per evolution stage, over the same blurred table background. Same navy and cream-gold frame with empty art area. Left card: Level 1 (blue water badge '1'), 'Pisces', pentagon icon at top-right showing '3' (HP), name 'The Fish', text 'Pathetic and scared, this card cannot hold equipment or use actions.' (partly cut off by the overlap), a single flat gold bar at the bottom instead of mana diamonds. Middle card: Level 2, 'Pisces', pentagon icon at top-right showing '+4', name 'The Darkness', text 'Whenever this card takes damage, it gains +1 stardust.' (bold '+1 stardust'), one gold diamond at the bottom for mana cost. Right card: Level 3, 'Pisces', galaxy D12 die covering the top-right pentagon, name 'The Ocean', text 'Whenever this cards is attacked, the attacker takes +1 damage.', four gold diamonds (1+3 split with a dot) at the bottom. Below the cards are five tan faceted diamond tokens (mana). Shows the progression of HP slot, mana cost and abilities across levels."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.011998
+}

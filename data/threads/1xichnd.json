@@ -1,0 +1,206 @@
+{
+  "id": "1xichnd",
+  "title": "Playtesting Doodlz TCG Beta. Starter Decks test",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xichnd/playtesting_doodlz_tcg_beta_starter_decks_test/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-29",
+  "upvotes": 119,
+  "comments": 17,
+  "engagement_score": 9.123,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "notebook theme",
+    "playtesting",
+    "card layout",
+    "print and play"
+  ],
+  "summary": "A designer shared photos of a beta starter-deck playtest for Doodlz TCG, a notebook-sketch themed game. The response was small and friendly, with community comments totaling only 23 points, mostly praising the art and theme. One commenter asked about playtest findings, which prompted the OP to share a stat-balance lesson. There was no disagreement and no critique of the design.",
+  "consensus": [
+    {
+      "point": "Commenters liked the hand-drawn notebook and sketchbook look and the art, with the art praised most.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C7",
+        "C15",
+        "C14"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 15,
+        "share": 0.652
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter compared the game to Sketch Book Chronicles TCG but called Doodlz more professional looking, so the sketch theme is not unique and execution sets it apart.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter said they had a similar idea and felt discouraged from pursuing it, a sign the theme resonates with other designers.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter said they would be happy with a print-and-play release, showing interest in a low-cost way to try the game.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Check that a cheap creature cannot easily kill a much more expensive one, so a card's cost reflects how long it stays valuable. The OP found this in playtesting, and it is worth testing in your own game.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "lesson": "A cap of five creatures on the board and attacks with one creature at a time (the defender chooses whether to block) keeps boards readable. The OP says this made the game feel light and gave chess-like decisions.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "lesson": "A strong visual identity, such as torn-notebook cards with ruled lines, stands out and earns praise before anyone reads the rules.",
+      "evidence": [
+        "C7",
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.478
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Releasing print-and-play decks with a how-to-play video lowers the barrier to trying an unreleased game and builds early interest.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "What did your playtest teach you about cheap creatures beating expensive ones?",
+      "why_it_lands": "The thread's one substantive insight was a designer finding that small creatures beat costly ones too easily, a common balance problem.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer put a notebook theme on every card. Does a strong theme sell a game?",
+      "why_it_lands": "Several commenters praised the sketchbook look and theme, so it invites a discussion on visual identity in a crowded field.",
+      "evidence": [
+        "C7",
+        "C3",
+        "C1",
+        "C15"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 13,
+        "share": 0.565
+      }
+    }
+  ],
+  "comment_points_total": 23,
+  "comment_ids": {
+    "C1": "19rtwpot642ps",
+    "C2": "19rub2ykxnm4j",
+    "C3": "19ru0hr9z1t4z",
+    "C4": "19rub3nswhww3",
+    "C5": "19rubphz4122s",
+    "C6": "19rucyaeb70e8",
+    "C7": "19rucad07zirn",
+    "C8": "19rucz7tqrxkw",
+    "C9": "19rucwv81txoh",
+    "C10": "19ruezcd4t0p1",
+    "C11": "19rujg06a5fpe",
+    "C12": "19rxh63k0vlxg",
+    "C13": "19rxitxb6mais",
+    "C14": "19ru325klo4aq",
+    "C15": "19rz8wdonve83",
+    "C16": "19s23i53wxww0",
+    "C17": "19ru7gsnxxdqd",
+    "C18": "19rubb3ezmldv"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing photos of a Doodlz TCG beta starter-deck playtest and is not asking a specific question.",
+    "images": [
+      {
+        "file": "data/images/1xichnd/1.jpg",
+        "description": "Playtest photo of a table with a hand of sleeved prototype cards in the foreground and an opponent's cards behind. Cards use a notebook-paper look: ruled lines, a title at top, a cost bubble at top left (e.g. '2 Blue Pg'), a watercolor/cartoon art box, and a text box below with a card code at bottom right (PMO | 031, 034, 026, 044, 049). Visible cards in hand: Eraser Tip (PMO 031, art of a pencil eraser over a screaming stick figure, text partly hidden: '...Canvas with'), Wooden Ruler (PMO 034, ruler held by two small yellow/blue creatures), Blizzard (2 Blue Pg, icy monster art), Star Gazer (blue, art of a moon and stars with a blue blob creature; partly legible text 'Astronomer... you may return a hand... side of the Canvas... Study 1'). A fanned row at the lower left shows blue-bordered cards with 'Acrylic Paint' and 'Crayon' titles in a different style (resource or pigment cards). On the right is a column of blue cards: Show Star (1 Blue Pg, x2), Turn the Page (2 Any), Auditions! (2 Blue Pg), HammerTime Shark (2 Blue Pg), DJ Freddy Fin (3 Blue Pg). DJ Freddy Fin is a creature with a red Attack triangle showing 2, a Health circle showing 3, and a cyan shark DJ with a mohawk and sunglasses. Its type line reads 'Unique Doodlz | Sea Krill DJ' with text: 'When you Sketch this Doodlz, look at the top 2 cards of your Sketchpad, put them in any order. When this Doodlz leaves your canvas, remove 1 damage point from a Performer or Sea Doodlz you control.' Footer reads 'Breezy Studioz · 2026'. HydroTron is on the table with 5 cost, Attack 2 and a blue robot art. The opponent's side shows red-bordered cards including TortCano and Cactu Cadet, plus a red-bordered facedown deck. Cards are in black sleeves; print is slightly small."
+      },
+      {
+        "file": "data/images/1xichnd/2.jpg",
+        "description": "Close-up of the opponent's side of the table, seen upside down. In a row are three red-themed cards: TortCano (cost 5, Attack 4, Health 3, art of a red volcanic turtle), Cactu Cadet (cost 2, Attack 1, Health 2, type 'Doodlz | Cactu Soldier', text about Cadets always arriving and traded, with art of a red cactus-creature), and The Initiation (Event | Action, cost 3, red/purple art with a character group). Above are red-bordered backs labeled 'Acrylic Paint' and 'Crayon' stacks, with a reversed card. Hands holding a hand of cards are at the top. Text on the cards is mostly too small or blurry to read in this photo."
+      },
+      {
+        "file": "data/images/1xichnd/3.jpg",
+        "description": "Another playtest photo, with blue-deck cards in the foreground. Visible cards: Twista! (2 Blue Pg, Event | Action, art of a blue tornado with a screaming stick figure; text 'Return the Doodlz with the highest Pigment cost on the entire Canvas to its Artist's hand'), HydroTron (PMO 015, Elemental Construct, blue robot art, text about returning up to a Sketched 4pg or less Doodlz from the canvas to its Artist's hand, Study 1), DJ Freddy Fin (PMO 049, 2 Blue, DJ art), HammerTime Shark, Auditions!, Turn the Page, and two Show Star cards stacked in a fan. Blue 'Crayon' cards sit at the far left. The opponent's side shows a small deck in black sleeves, a few cards, and red-bordered backs. Layout is consistent: notebook-line background, cost bubble top left, art box center, text box lower, with the card number at the bottom right."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007084
+}

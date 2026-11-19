@@ -1,0 +1,261 @@
+{
+  "id": "1vibcpr",
+  "title": "Which card art for Cotty do you like best?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vibcpr/which_card_art_for_cotty_do_you_like_best/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-07",
+  "upvotes": 89,
+  "comments": 41,
+  "engagement_score": 10.1063,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card art",
+    "art voting",
+    "full-art photography",
+    "crowdfunding playtest"
+  ],
+  "summary": "A designer asked the subreddit to vote between two full-art photos of a crocheted plesiosaur for the card Cotty the Plesiosaur in Battle Goomis. The response was friendly and lopsided, with Option A winning almost every vote by score. A few commenters raised readability concerns, saying the blue creature blends into the blue yarn in A and that B isolates the subject better. Many also praised the crochet-pattern-code concept.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Option A's blue-on-blue colors blend together at small size, so it is less distinct, while B separates the subject better. This was raised by two commenters, one of whom wishes the creature were a different color from the waves.",
+      "evidence": [
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter liked the setup of using handmade crochet figures as card art. They noted the figures could be sold as merchandise if the game takes off.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter chose A only because the plesiosaur looks too small in B's wider diorama shot.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter was surprised the subreddit had no native voting function for this kind of art poll.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.025
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which full-art photo works better for Cotty",
+      "side_a": "Option A, the close, cinematic crop in dark blue yarn waves, is the better choice.",
+      "side_a_evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C13"
+      ],
+      "side_b": "Option B separates the subject from the background better and reads more clearly at small size.",
+      "side_b_evidence": [
+        "C7",
+        "C11"
+      ],
+      "side_a_support": {
+        "comments": 13,
+        "commenters": 13,
+        "points": 72,
+        "share": 0.889
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.062
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Test card art at thumbnail size. A subject that matches its background in color, like a blue creature on blue yarn, can look great large but blur together on a card viewed from a distance. Check contrast, or recolor the subject or background.",
+      "evidence": [
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.062
+      }
+    },
+    {
+      "lesson": "With full-bleed photo art, a tight crop gives drama and mood, but make sure the subject still looks big enough. A wide diorama shot can shrink the creature and weaken its presence on the card.",
+      "evidence": [
+        "C19",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 22,
+        "share": 0.272
+      }
+    },
+    {
+      "lesson": "A clean, simple background was a deciding factor in A's favor, so keep backgrounds uncluttered behind the subject.",
+      "evidence": [
+        "C21",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.074
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Physical craft art can double as a product line. Each card carries a code to the crochet pattern, which commenters liked, and the figures could be sold too. This adds value beyond the cards.",
+      "evidence": [
+        "C5",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.086
+      }
+    },
+    {
+      "lesson": "Run art polls where voters can actually vote, such as a poll on the crowdfunding page, rather than relying on comments. This also drives people to the campaign.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.025
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Designers voted overwhelmingly for the moody crop, but two flagged it blends into the background.",
+      "why_it_lands": "Most points went to A for its mood, while two commenters raised a real readability problem. That tension between popular and functional is useful for any designer.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 36,
+        "share": 0.444
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card art still read when the card is tiny?",
+      "why_it_lands": "Commenters pointed to a squint test showing blue-on-blue art losing its subject, a practical check designers can run today.",
+      "evidence": [
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.062
+      }
+    }
+  ],
+  "comment_points_total": 81,
+  "comment_ids": {
+    "C1": "p2c09kk",
+    "C2": "p2c0ohk",
+    "C3": "p2c0y2u",
+    "C4": "p2c1qq8",
+    "C5": "p2cvaml",
+    "C6": "p2dj2zq",
+    "C7": "p2de64h",
+    "C8": "p2dj635",
+    "C9": "p2drlek",
+    "C10": "p2f2dnb",
+    "C11": "p2g91nn",
+    "C12": "p2i67fv",
+    "C13": "p2mcx4e",
+    "C14": "p2opso5",
+    "C15": "p3c78tc",
+    "C16": "p3effo5",
+    "C17": "p2cpqm0",
+    "C18": "p2cuk6u",
+    "C19": "p2d0o6b",
+    "C20": "p2d2ejn",
+    "C21": "p2d5ckk",
+    "C22": "p2d6l7l",
+    "C23": "p2dn483",
+    "C24": "p2e28g0",
+    "C25": "p2gncr6"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants commenters to vote on which full-art photo, Option A or Option B, should be used for the Cotty the Plesiosaur card.",
+    "images": [
+      {
+        "file": "data/images/1vibcpr/1.jpg",
+        "description": "Side-by-side comparison graphic titled \"Vote of the week!\" showing two versions of the Battle Goomis card \"Cotty the Plesiosaur\", labeled Option A (blue pill, left) and Option B (orange pill, right), with the caption \"Help choose which full art we should use for Cotty the Plesiosaur!\". Both cards share the same layout and full-bleed photo art. Top-left: yellow cost badge \"20 GP\". Top-center: purple stitched-style name banner \"Cotty the Plesiosaur\". Top-right: small star icon with the number 31. Below the art: a pink row of 3 red hearts, and a mint row of 2 green shields at right. Beneath those are three stat boxes: orange \"3\" with a burst/attack icon, blue \"1\" with a yarn/spiral icon, green \"2\" with a shield icon. Bottom white text box with a purple border reads \"Gentle Genius: Cotty gains +2 [yarn icon] if it hasn't attacked this game.\" The ability has a small crossed-out icon at left. The footer has a black counter pill showing 00000000 and a small card code. Option A's footer has stars, a \"P\" and the credit \"Louie's Loops\". Option B's footer has small circle icons, trophy icons and a copyright line. The cards use a soft, rounded, cartoonish style with stitched-look panels. In both, the stats and text box overlap the lower part of the photo. In Option A the dark blue yarn background makes the lower art busy behind the stat boxes. Option B's pale tan background is lighter and more cluttered at the edges. Small footer text is hard to read."
+      },
+      {
+        "file": "data/images/1vibcpr/2.jpg",
+        "description": "Option A full art: a photo of a light-blue crocheted amigurumi plesiosaur with pink stripes and a black bead eye. It is shown side-on with its neck raised, nestled in tangled dark-blue yarn strands that look like water. Brown crocheted rock shapes sit behind it against a plain royal-blue backdrop. Promo text at top reads \"Battle Goomis, Launching Sept 1st\" with a logo featuring a yarn ball. A blue \"Option A\" pill sits at bottom left. The creature is centered and the framing is close, with a tight crop of the body."
+      },
+      {
+        "file": "data/images/1vibcpr/3.jpg",
+        "description": "Option B full art: a photo of the same light-blue crocheted plesiosaur with pink stripes and a black bead eye, seen from a higher three-quarter angle. It sits on a tan felt surface, showing all four flippers and the whole body. The scene is a diorama with brown crocheted rocks, green crocheted seaweed, red coral cup, pom-poms, and a wooden disc, plus scattered yellow/green/blue beads, against a blue backdrop. Promo text at top reads \"Battle Goomis, Launching Sept 1st\" with a logo. An orange \"Option B\" pill sits at bottom right. The scene is wider and busier, with the creature to the left of center and more depth."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008361
+}

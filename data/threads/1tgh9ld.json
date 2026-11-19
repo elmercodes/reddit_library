@@ -1,0 +1,271 @@
+{
+  "id": "1tgh9ld",
+  "title": "A tcg about cars and racing. Niche or not quite?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1tgh9ld/a_tcg_about_cars_and_racing_niche_or_not_quite/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-18",
+  "upvotes": 49,
+  "comments": 33,
+  "engagement_score": 9.2016,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "racing theme",
+    "licensing",
+    "ai art",
+    "niche themes"
+  ],
+  "summary": "A designer shared Quarter Mile, a car and racing TCG where players boost acceleration and handling stats and win prize cars over 7 to 14 rounds, and asked whether the theme is niche. The thread was friendly and low-scoring (about 36 community points), with most commenters calling the theme fresh and unusual. The top comment raised car licensing, and a few others warned about legal risk and about AI art and randomness. There was no real split, only concerns layered on general encouragement.",
+  "consensus": [
+    {
+      "point": "The racing theme is seen as fresh and unusual in a TCG space dominated by fantasy-style fighting games, even if niche.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C20",
+        "C22",
+        "C23",
+        "C24"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 16,
+        "share": 0.444
+      }
+    },
+    {
+      "point": "Using real cars, brands or locations raises serious licensing questions, so the game needs original or renamed content.",
+      "evidence": [
+        "C1",
+        "C12",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.278
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Several existing racing card games were named as research targets for mechanics: Hot Wheels AcceleRacers, Initial D, World Auto Racing, Railgrind and Pocket Drifterz.",
+      "evidence": [
+        "C4",
+        "C8",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.194
+      }
+    },
+    {
+      "point": "One commenter said they avoid AI art games, though they liked the vibe, and joked about ghostly shadow figures behind characters.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.139
+      }
+    },
+    {
+      "point": "One commenter noted that car companies may own the silhouette of their cars, so even renamed real cars can draw legal trouble, and real tracks and Tokyo landmarks are risky too.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    },
+    {
+      "point": "One commenter wants unique mechanics that separate this from other racing-themed TCGs.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    },
+    {
+      "point": "One commenter worried the stat-adding win condition leans too much on the shuffle, so results come down to draw luck.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.028
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If the win condition is just adding two stats, show how swingy or close matches are, for example with gameplay footage, so players see that draw luck does not decide everything.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.028
+      }
+    },
+    {
+      "lesson": "Study earlier games in your niche for mechanics to borrow or avoid. Others already use stat totals in racing games, so a distinct hook is needed to stand out.",
+      "evidence": [
+        "C8",
+        "C24",
+        "C4"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.194
+      }
+    },
+    {
+      "lesson": "Design cars, tracks and locations as original concepts from the start. Avoiding real names and silhouettes saves a later redraw and legal exposure.",
+      "evidence": [
+        "C12",
+        "C16",
+        "C1"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.278
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Treat licensing as a first-order question for any car-themed game: real cars, tracks and landmarks can bring legal risk, so budget for original content or permissions before going public.",
+      "evidence": [
+        "C1",
+        "C12",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.278
+      }
+    },
+    {
+      "lesson": "A rare theme can be a marketing hook, because a game can be positioned as a standout in an uncrowded genre.",
+      "evidence": [
+        "C4",
+        "C23",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.167
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Can you legally put real cars in a card game?",
+      "why_it_lands": "Licensing was the top-scoring question and two more commenters warned about lawsuits, a pain point for any theme built on real brands.",
+      "evidence": [
+        "C1",
+        "C12",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.278
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Is a pure stat-adding win condition too dependent on the shuffle?",
+      "why_it_lands": "One commenter flagged luck dependence in a stat-sum racing game, which is a tension every designer of simple comparison mechanics faces.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.028
+      }
+    }
+  ],
+  "comment_points_total": 36,
+  "comment_ids": {
+    "C1": "omgbmr1",
+    "C2": "omgbzu2",
+    "C3": "omgp0qj",
+    "C4": "omh0p5p",
+    "C5": "omh6llg",
+    "C6": "omgoemz",
+    "C7": "omhdm1w",
+    "C8": "omirec5",
+    "C9": "omix7zy",
+    "C10": "omoeskm",
+    "C11": "omoopj1",
+    "C12": "omppcia",
+    "C13": "ompqlum",
+    "C14": "omggkab",
+    "C15": "omhdhiu",
+    "C16": "omk6hrx",
+    "C17": "omk8b7r",
+    "C18": "oml8v0i",
+    "C19": "omljpqu",
+    "C20": "omlokfi",
+    "C21": "omlr1pe",
+    "C22": "omiy1ez",
+    "C23": "omgirjp",
+    "C24": "omh9ns7",
+    "C25": "omhz441"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether their car/racing TCG, Quarter Mile, is interesting and whether the theme is niche or has market appeal.",
+    "images": [
+      {
+        "file": "data/images/1tgh9ld/1.jpg",
+        "description": "Car card, landscape art on a portrait-sized file with the text rotated 90 degrees. Card is QM-02 (top right, with a car silhouette icon). Type tab 'CAR' sits on a black tab at the left edge. Name box reads '1996 TOYOTA SUPRA' with 'RWD' at the end, in a dark translucent panel with a light outline. Stats are in white boxes at the top right: ACCELERATION 80 and HANDLING 50. Art is a stylized, cel-shaded digital illustration (appears to be AI-generated) of a white Supra drifting at sunset, with palm trees, an orange sky, a city skyline, motion blur and tire smoke/debris. Art fills the full card with a thin dark frame. No rules text."
+      },
+      {
+        "file": "data/images/1tgh9ld/2.jpg",
+        "description": "Driver card QM-49, portrait orientation, with a person icon at top right. A black side tab reads 'DRIVER'. Name 'Ana Nas' sits in a translucent white text panel over the lower part of the card. 'Specialty: +40 CP(after calculations) if you lost the last round.' 'Advantage: If you have 4 or more AWD and/or FWD cars in your Garage, boost all base stats to all your cars by +30. If Berlin Drift Track Location is in play, give your RWD cars +50 Handling.' Art is anime-style (appears to be AI-generated): a full-body woman with long black and blonde hair in a ponytail, wearing a leather jacket with red samurai-style shoulder armor and a dragon embroidery, arms crossed, in front of a dark car. A large faded, enlarged close-up of the same character is overlaid behind her on a pineapple-pattern background. The frame is a pastel purple-yellow gradient. Text is black on a semi-transparent panel and sits over busy art, so legibility is reduced. The rules text is small relative to the name and headers."
+      },
+      {
+        "file": "data/images/1tgh9ld/3.jpg",
+        "description": "Location card QM-13, landscape art with text rotated 90 degrees. A location pin icon sits at top right and a black 'LOCATION' tab at the left. Name reads 'COSTAL HIGHWAY: I-32' (spelled 'Costal'). The rules text box is a tall translucent dark panel on the right: 'All cars gain x2 multiplier to Acceleration and +10 to Handling.' (spelled 'multiplier' as 'multiplier' with a typo, 'mutlipier'). Art is an anime-style digital landscape (appears to be AI-generated) of a coastal cliff road at sunset over the ocean, with teal sky, orange clouds and a large sun. Full-bleed art with a thin frame."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009939
+}

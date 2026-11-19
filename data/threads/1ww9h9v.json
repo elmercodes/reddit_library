@@ -1,0 +1,185 @@
+{
+  "id": "1ww9h9v",
+  "title": "PLACEHOLDER PIGEON! No AI Art Allowed. This Includes Placeholder Art. Use the Pigeon Instead.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1ww9h9v/placeholder_pigeon_no_ai_art_allowed_this/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-03",
+  "upvotes": 235,
+  "comments": 62,
+  "engagement_score": 11.6785,
+  "flair": "IMPORTANT",
+  "post_type": "image",
+  "topics": [
+    "ai art",
+    "placeholder art",
+    "community rules",
+    "playtesting"
+  ],
+  "summary": "A subreddit member posted a hand-drawn muscular pigeon as free placeholder art and asked people to use it instead of AI art in shared prototypes. The response was friendly and jokey, with commenters riffing on the pigeon and volunteering to make more variants. The main pushback was practical: one placeholder is not enough for playtesting, and a couple of commenters questioned why AI placeholders are banned. Overall temperature is warm and playful, with only one dismissive comment.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "The pigeon's look drew a comparison to early Yu-Gi-Oh art, and one commenter joked that it looks like a failed Polymerization fusion.",
+      "evidence": [
+        "C1",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 45,
+        "share": 0.243
+      }
+    },
+    {
+      "point": "For a game with 151 unique units, two commenters suggested palette swaps and different hats to differentiate one placeholder.",
+      "evidence": [
+        "C20",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.086
+      }
+    },
+    {
+      "point": "One commenter asked why AI placeholders are banned, since placeholder use seems like AI's best use case. Another said that if you wouldn't ship the art, you shouldn't bother with it as a placeholder.",
+      "evidence": [
+        "C13",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 10,
+        "share": 0.054
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A single placeholder image is poor for playtesting because testers need art that hints at each card's role to tell cards apart fast. Use distinct variants (palette swaps, accessories, rough sketches) so cards stay readable.",
+      "evidence": [
+        "C3",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 64,
+        "share": 0.346
+      }
+    },
+    {
+      "lesson": "Make a placeholder library with many variants so a prototype doesn't read as one repeated image. Shared, community-built sets can fill that gap.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C8"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 74,
+        "share": 0.4
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A mascot with a fun hook plus an open invitation to remix it can pull a community into co-creating content. Commenters offered to draw more pigeon art and even joked about a TCG around it.",
+      "evidence": [
+        "C5",
+        "C7",
+        "C8"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 58,
+        "share": 0.314
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A subreddit banned AI placeholder art. Is a single pigeon a real replacement?",
+      "why_it_lands": "The top-scoring comment pushed back that one placeholder makes testing harder, and the topic touches AI art, which is a live issue for designers.",
+      "evidence": [
+        "C3",
+        "C13",
+        "C15"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 46,
+        "share": 0.249
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you make 151 unique units readable with placeholder art?",
+      "why_it_lands": "A 12-point comment raised this exact pain point, and replies offered palette swaps and hats, so it invites sharing practical workflows.",
+      "evidence": [
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 28,
+        "share": 0.151
+      }
+    }
+  ],
+  "comment_points_total": 185,
+  "comment_ids": {
+    "C1": "pdisy18",
+    "C2": "pdix977",
+    "C3": "pdisfor",
+    "C4": "pditsy7",
+    "C5": "pditpl9",
+    "C6": "pdiupmm",
+    "C7": "pdiv3fx",
+    "C8": "pditem9",
+    "C9": "pdizrax",
+    "C10": "pdqytys",
+    "C11": "pdr0dp9",
+    "C12": "pdisssg",
+    "C13": "pdirtfo",
+    "C14": "pdisnex",
+    "C15": "pdisdg7",
+    "C16": "pditbfy",
+    "C17": "pdis23n",
+    "C18": "pdisxug",
+    "C19": "pdisfc0",
+    "C20": "pdjfn6n",
+    "C21": "pdoc0hn",
+    "C22": "pdir9bu",
+    "C23": "pdirlq4",
+    "C24": "pdiu1bv",
+    "C25": "pdjlrec"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is announcing a free, hand-drawn placeholder art piece (a muscular pigeon) for the community to use instead of AI art in shared card prototypes, and invites people to customize it and submit their versions.",
+    "images": [
+      {
+        "file": "data/images/1ww9h9v/1.jpg",
+        "description": "Portrait-orientation digital illustration of an anthropomorphic muscular pigeon, shown from the chest up. The head is a realistic pigeon head with a pale gray crown, an orange eye, a heart-shaped pink cere on the beak, and an iridescent green-to-purple neck and chest. The pigeon has human-like arms with raw, meat-like red muscle texture and white striations. Claw-like fingers grip the opposite arm, and a small anchor tattoo sits on the upper left arm. The gray wing and body feathers are at the lower left. The background is a blurred, glowing orange and yellow fire that fades to dark brown at the edges. A semi-transparent black banner crosses the middle with white serif all-caps text reading 'PLACEHOLDER PIGEON'. The art appears hand-drawn and digitally painted. It has no card frame, stats, or rules text; it is art only, sized roughly like a card art box or full-bleed card."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007068
+}

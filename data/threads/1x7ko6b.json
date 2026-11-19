@@ -1,0 +1,295 @@
+{
+  "id": "1x7ko6b",
+  "title": "First hand painted card. Not as good as I hoped, but far better than I expected.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1x7ko6b/first_hand_painted_card_not_as_good_as_i_hoped/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-16",
+  "upvotes": 131,
+  "comments": 39,
+  "engagement_score": 10.4161,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "hand painted art",
+    "card frame design",
+    "art box layout",
+    "card critique"
+  ],
+  "summary": "A designer shared their first hand-painted card art for Relicon TCG, plus the finished 'Forward Observer' card, and asked for critique. The response was friendly and mostly encouraging, with many short praise comments. The main constructive thread was that the clean sci-fi frame clashes with the painterly art and that the art box crops too much. Thread points were low overall (64 total), and the top-scoring comment also suggested digital painting, which the poster said they weren't ready for.",
+  "consensus": [
+    {
+      "point": "The painted art has a strong, appealing look, and the main weakness is the mismatch with the clean digital card frame, which commenters want to fix by making the frame painterly or by giving the art more presence.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C16",
+        "C19",
+        "C22",
+        "C23"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 23,
+        "share": 0.359
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter gave detailed layout advice: shrink the text box by a line each for keywords and flavor text to enlarge the art box, let the hood overlap the name bar, and vertically center the small label text.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter suggested a full-art variant like newer Yu-Gi-Oh cards, perhaps as a special version alongside a matched frame; another commenter also said a full-art version would look better.",
+      "evidence": [
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter suggested making the text box background semi-transparent so the swirling red background shows through, calling it the strongest part of the design.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.047
+      }
+    },
+    {
+      "point": "One commenter advised painting at a large size and shrinking it down, which is how traditional illustration captured fine detail on small prints.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.031
+      }
+    },
+    {
+      "point": "One commenter recommended adding extra detail to a single focal area such as the hood, and having borders overlap other elements.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.031
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should the art be painted digitally or kept hand-painted?",
+      "side_a": "Painting digitally would keep the line definition that the hand-painted version loses.",
+      "side_a_evidence": [
+        "C6"
+      ],
+      "side_b": "The lower-definition hand-painted look is a strength worth keeping.",
+      "side_b_evidence": [
+        "C16",
+        "C22",
+        "C17"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.203
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.094
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When using traditional painted art, make the frame match it, for example by painting or hand-drawing a frame template and scanning it, so the art and frame feel like one piece.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C16"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 19,
+        "share": 0.297
+      }
+    },
+    {
+      "lesson": "Protect the art box. Trim text box lines, expand the art area, and let parts of the character, such as the hood, overlap into the name bar so that important parts of the art are not cropped out.",
+      "evidence": [
+        "C4",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.094
+      }
+    },
+    {
+      "lesson": "Plan the composition for the final crop. Painting the background first and leaving room above the head avoids a cramped top edge in a landscape art box.",
+      "evidence": [
+        "C10",
+        "C11",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.109
+      }
+    },
+    {
+      "lesson": "Paint large when working traditionally, since downscaling to card size recovers fine detail and offsets lost definition.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.031
+      }
+    },
+    {
+      "lesson": "Consider a full-art variant with minimal title and text boxes to show off painted art without a heavy frame.",
+      "evidence": [
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.062
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Distinctive hand-painted art can serve as a selling point and brand identity, and offering a full-art special version could add collectible appeal.",
+      "evidence": [
+        "C16",
+        "C22",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.094
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Hand-painted card art or digital: one designer's first painting got both opinions.",
+      "why_it_lands": "The top-scoring comment pushed digital for sharper lines, while several others liked the rough painted vibe, giving a clear craft debate.",
+      "evidence": [
+        "C6",
+        "C16",
+        "C22",
+        "C17"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 19,
+        "share": 0.297
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card frame match your art style? A painted card showed the mismatch.",
+      "why_it_lands": "Several commenters flagged the clean sci-fi frame clashing with the painted art and offered fixes like a hand-painted frame template or a full-art layout.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 19,
+        "share": 0.297
+      }
+    }
+  ],
+  "comment_points_total": 64,
+  "comment_ids": {
+    "C1": "ph4xhw7",
+    "C2": "ph4yjdx",
+    "C3": "ph56lxi",
+    "C4": "ph57a1b",
+    "C5": "ph5oyzp",
+    "C6": "ph4xr6i",
+    "C7": "ph4z41l",
+    "C8": "ph4y8kx",
+    "C9": "ph4yex2",
+    "C10": "ph52hxi",
+    "C11": "ph52wgj",
+    "C12": "ph7og3f",
+    "C13": "ph7w88u",
+    "C14": "ph4xdt4",
+    "C15": "ph5nqbc",
+    "C16": "ph58zq3",
+    "C17": "ph5hzbd",
+    "C18": "ph5kdlk",
+    "C19": "ph5xdnt",
+    "C20": "ph64mgk",
+    "C21": "ph76ph3",
+    "C22": "ph7y5oo",
+    "C23": "ph85kry",
+    "C24": "ph97bqr",
+    "C25": "19s6xgn4ydpsx"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster shares their first hand-painted card art for Relicon TCG and seems to want critique of the art and the finished card.",
+    "images": [
+      {
+        "file": "data/images/1x7ko6b/1.jpg",
+        "description": "Full painting of the card art, acrylic or gouache on paper in a rough, blocky brushstroke style. A hooded, cloaked armored figure with a black void face opening stands hunched and leans forward, holding a long rifle or staff diagonally across the body. The palette is gray cloak, brown and cream armor plates, and black outlines. The background is streaky, textured red and black with a dark, ominous mood. Hand-painted, with visible brush texture. Small illegible marks near the lower foot."
+      },
+      {
+        "file": "data/images/1x7ko6b/2.jpg",
+        "description": "Finished card 'Forward Observer' in a black frame, portrait orientation. Top: white name bar with the name in bold black text on the left. At top right, a cost of '1' in a silver circle next to a black circle with a white radiation/nuclear trefoil symbol. Below is a wide, landscape-cropped art box using the painting from image 1, cropped to the torso and cloak. A gray tech-style divider banner holds a hexagonal type label reading 'Infantry'. The white rounded text box has a faint circular tech/HUD watermark. Bold centered keywords read 'Overwatch, Initiative, Intel'. Italic flavor text reads: \"They do not fear the dark. They were trained to disappear within it.\" Bottom left: hexagonal label 'Universal'. Bottom right: two silver circles with stats '1' and '1'. The layout is clean and high-contrast, with a sci-fi/military look. The red-gray painting contrasts with the black, white and silver frame."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009372
+}

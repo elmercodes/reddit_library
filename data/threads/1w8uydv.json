@@ -1,0 +1,200 @@
+{
+  "id": "1w8uydv",
+  "title": "Watching Others Play My TCG Was Surreal",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1w8uydv/watching_others_play_my_tcg_was_surreal/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-06",
+  "upvotes": 123,
+  "comments": 13,
+  "engagement_score": 8.7789,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "art style",
+    "playtesting",
+    "community feedback"
+  ],
+  "summary": "A designer showed 40 new expansion cards for their indie TCG, including the winner of an August online tournament, and said watching others play it was rewarding. The thread is small and friendly, with congratulations and praise for the art and the clean, readable layout. One commenter asked for gameplay video, and OP said no gameplay or explainer videos exist yet. No disagreement appeared.",
+  "consensus": [
+    {
+      "point": "Commenters praised the art style and the clean, easy-to-read card layout.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C6",
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 15,
+        "share": 0.5
+      }
+    },
+    {
+      "point": "Commenters congratulated the designer and agreed that watching others play your game is a special milestone.",
+      "evidence": [
+        "C4",
+        "C7",
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 11,
+        "share": 0.367
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "A viewer asked for gameplay video before anything else, and the designer had no gameplay or explainer videos. One commenter then read the rules and planned a Tabletop Simulator playtest with a friend, so readable rules are enough to turn interest into plays.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.167
+      }
+    },
+    {
+      "point": "One commenter shared a similar experience of watching friends play their own game, showing this moment is common among designers.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.067
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep the card layout clean and easy to read. Several commenters singled out the layout as elegant and readable, which helps new viewers understand cards at a glance.",
+      "evidence": [
+        "C1",
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.233
+      }
+    },
+    {
+      "lesson": "A distinct, consistent art style is memorable and draws praise independent of the rules. Use it as an identity anchor across expansions.",
+      "evidence": [
+        "C5",
+        "C6",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.333
+      }
+    },
+    {
+      "lesson": "Publish clear rules so interested players can try the game themselves. One reader went from the rules to planning a Tabletop Simulator game with a friend.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.067
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Run an online tournament and feature the winning card in the expansion. It gives players a stake in the game and a story to share.",
+      "evidence": [],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "Have gameplay or explainer video ready when you show cards. Viewers who like the look immediately ask how the game plays, and without a video that interest can go nowhere.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.1
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer posted 40 cards, and the first question was: where's the gameplay video?",
+      "why_it_lands": "It shows how a polished card showcase still leaves viewers wanting to see the game played. The top comment asked for video and OP had none.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.1
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Five commenters praised one TCG's layout and art. What makes cards feel clean?",
+      "why_it_lands": "Layout and art drew the most repeated praise in the thread, so breaking down what makes cards readable gives designers something concrete to copy.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C6",
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 15,
+        "share": 0.5
+      }
+    }
+  ],
+  "comment_points_total": 30,
+  "comment_ids": {
+    "C1": "p86pkp7",
+    "C2": "p89865w",
+    "C3": "pa2gkg1",
+    "C4": "p85ukhm",
+    "C5": "p85vsnc",
+    "C6": "p86a2se",
+    "C7": "p85kdwk",
+    "C8": "p8k37xj",
+    "C9": "p8k3u7u",
+    "C10": "p85khpd",
+    "C11": "p8987sz",
+    "C12": "p8gj3cm",
+    "C13": "p8kpka3"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005808
+}

@@ -1,0 +1,255 @@
+{
+  "id": "1r8q2t4",
+  "title": "Update on my card game: I made proxies for the first time! CRUCIBLE is finally ready for physical and TTS playtesting. :)",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1r8q2t4/update_on_my_card_game_i_made_proxies_for_the/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-19",
+  "upvotes": 84,
+  "comments": 75,
+  "engagement_score": 10.9388,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "proxies",
+    "card layout",
+    "ai art",
+    "playtesting"
+  ],
+  "summary": "A designer shared photos of their first printed and sleeved CRUCIBLE proxies, ready for physical and Tabletop Simulator playtesting. The community response was friendly and mostly short praise, with a few practical questions about how the game plays, what the cost number means, and how the frames were made. One comment noted the Hearthstone resemblance and another rejected AI art outright, but neither started a real debate. Overall temperature is friendly and low-conflict, with only 39 community points spread across many small comments.",
+  "consensus": [
+    {
+      "point": "Commenters were supportive of the milestone and said the proxies look good, with several cheering the progress and asking to see more.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C15",
+        "C17",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 17,
+        "share": 0.436
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said the layout looks very similar to Hearthstone cards. The poster confirmed borrowing heavily from Hearthstone's practical template approach.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.154
+      }
+    },
+    {
+      "point": "Several readers could not tell how the game plays from the photos and asked for an explanation. Two asked directly for rules, and one asked what the corner number meant. That suggests the card images alone do not teach the game.",
+      "evidence": [
+        "C11",
+        "C13",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.154
+      }
+    },
+    {
+      "point": "Two commenters were interested in the frame and template creation and in open playtesting. This shows an appetite for behind-the-scenes process content and for joining tests.",
+      "evidence": [
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.154
+      }
+    },
+    {
+      "point": "One commenter said they would never play a TCG that uses AI art and would switch games instead. It was the highest-scored comment on a specific issue, though nobody replied to it.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.103
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Use a recognizable, proven template structure for readability, but expect comparisons. A familiar frame (cost gem, name banner, art, type line, text box, stats) makes cards easy to read, but one commenter immediately noted the resemblance to Hearthstone. Decide which parts of the layout are yours to differentiate.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.154
+      }
+    },
+    {
+      "lesson": "Make the cost stat self-explanatory. A viewer asked whether the top-left number is the cost, and it is actually called Weight. If a term differs from the usual 'cost' or 'mana', add an icon or label so it reads without explanation.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.051
+      }
+    },
+    {
+      "lesson": "Plan a short how-to-play explainer alongside card photos. Multiple viewers asked how the game works after seeing only card images, so a posted match walkthrough answers the most common follow-up.",
+      "evidence": [
+        "C11",
+        "C21",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.154
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Open playtest invitations in public posts. Posting a physical-and-TTS playtest milestone drew an interested tester who offered to help, and the designer converted that into a Discord TTS session.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.077
+      }
+    },
+    {
+      "lesson": "AI-looking art can cost you potential players. One commenter stated they would not play a game with AI art, so art sourcing is a marketing risk when showing your game in public.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.103
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer posted first proxies and readers asked: what's the number in the corner?",
+      "why_it_lands": "Several viewers asked basic questions about cost, rules and how to play, so a video on making a card teach itself addresses a real pain point.",
+      "evidence": [
+        "C11",
+        "C13",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.154
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "One commenter says they'd never play a TCG with AI art. Would you?",
+      "why_it_lands": "It was the top-scoring critical comment, at 4 points, and AI art is a charged topic for indie card designers. It is a single voice, so frame it as a question rather than a pile-on.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.103
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card frame look too much like Hearthstone? A designer got that comment.",
+      "why_it_lands": "The top comment in the thread was the Hearthstone comparison, and borrowing from a successful template is a common worry for solo designers.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.154
+      }
+    }
+  ],
+  "comment_points_total": 39,
+  "comment_ids": {
+    "C1": "o6aso0y",
+    "C2": "o6awdbp",
+    "C3": "o68xfne",
+    "C4": "o69d64f",
+    "C5": "o69aq36",
+    "C6": "o69d3rz",
+    "C7": "o6a6kgw",
+    "C8": "o6a7p6t",
+    "C9": "o6atywq",
+    "C10": "o6aw7t7",
+    "C11": "o694wux",
+    "C12": "o69eyk0",
+    "C13": "o6985v7",
+    "C14": "o69cziz",
+    "C15": "o6a9yaj",
+    "C16": "o6aa6rb",
+    "C17": "o6co2ym",
+    "C18": "o6cocea",
+    "C19": "o68w4hh",
+    "C20": "o69d7td",
+    "C21": "o68zcau",
+    "C22": "o69evfd",
+    "C23": "o6fn10b",
+    "C24": "o6ht4dw",
+    "C25": "o6b4srx"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their first printed proxies of the CRUCIBLE TCG as a progress update, with no specific feedback request.",
+    "images": [
+      {
+        "file": "data/images/1r8q2t4/1.jpg",
+        "description": "Photo of printed, sleeved proxy cards on a patterned rug. Three Undead cards are laid out on top, with a large fanned stack of identical blue-bordered cards below. Cards share one layout: blue frame, round blue cost gem top-left, purple name banner at the top, art box, purple type banner (Undead / Fabled - Undead) below the art, parchment text box, gold attack-style icon bottom-left, red shield stat bottom-right, footer '©2026 Adrian | CRUCIBLE TCG'. Cards: 'Graveking Ausar' (cost 3, stats 3 and 4): 'When this enters the battlefield, return all friendly Undead creatures that died during the last Combat Phase to your hand. Reduce their Weights by 2, down to 1.' 'Lichten, Battle Prophet' (cost 1, stats 1 and 3): 'During the Combat Phase, the first Undead creature you attack with gains +3 Attack, Executor, and Ambidextrous until the end of combat.' 'Nilios, Death Given Form' (cost 5, Fabled - Undead, stats 0 and 0): 'Ambidextrous, Executor, Lifesteal, Veiled. Whenever a creature dies, this gains +1/+1 permanently. (Wherever it is.)' The front of the stack shows 'Reanimated Guardian' (cost 4, Undead, stats 3 and 5). Art is dark-fantasy digital painting, possibly AI-generated. Cards have black sleeves or edges."
+      },
+      {
+        "file": "data/images/1r8q2t4/2.jpg",
+        "description": "Close-up of a hand holding the proxy 'Reanimated Guardian' (cost 4, Undead, stats 3 and 5). Text: 'Provoke. While in your graveyard, this has +1 Weight. You may summon this from your graveyard as if it were in your hand. (Creatures with Provoke must be attacked first.)' The art shows a green-skinned armored undead brute with horns and orange bat-like wings. The text is readable at this size. A dark sleeve or border is visible around the card edge, and other cards are blurred in the background."
+      },
+      {
+        "file": "data/images/1r8q2t4/3.jpg",
+        "description": "A hand fans four proxy Undead cards, partly covered. 'Viral Harbinger' (cost 4, green-toned art, text cut off: 'Before com... to remo... you...', stat 4). 'Speaker of the Damned' (cost 1, hooded skeletal figure, text cut off: 'At the... Unde... start', stat 2). 'Marrow Fiend' (cost 1, grey ghoul, text partly visible: 'Executor. This... (Creatu...', stat 2). 'Wastefury' (cost 5, Undead, stats 7 and 7): 'Ambidextrous. Executor. The Weight of this card is reduced by 1 for every 2 creatures in your graveyard. (Ambidextrous creatures can choose to ignore enemies with Provoke.)' Same frame and layout throughout, with dark moody digital art in blue, green and orange tones. Cables and other cards appear in the background."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009458
+}

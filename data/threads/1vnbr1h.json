@@ -1,0 +1,165 @@
+{
+  "id": "1vnbr1h",
+  "title": "Kickstarter Products Arrived!!! It’s a real game… and we’re shippin’ it!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vnbr1h/kickstarter_products_arrived_its_a_real_game_and/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-13",
+  "upvotes": 124,
+  "comments": 13,
+  "engagement_score": 8.7869,
+  "flair": "Homemade TCGs",
+  "post_type": "link",
+  "topics": [
+    "kickstarter fulfillment",
+    "small print runs",
+    "sealed booster packs",
+    "manufacturer sourcing"
+  ],
+  "summary": "A designer shared that their Kickstarter-funded TCG, Escape Land, had arrived and was ready to ship. The thread was small and friendly, with congratulations, praise for the art and card format, and one commenter who bought a bundle and a booster box. The most practical thread was a question about which manufacturer handles small sealed-pack print runs affordably, which went unanswered in the shown comments. Overall temperature was warm and supportive, with no disagreement.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter praised the art and the card format, the only specific design feedback in the thread.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter converted straight from the post to a purchase of a bundle and a booster box, showing a link in a showcase thread can drive sales.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter with a contact in China said they hadn't figured out shipping costs to the US, showing that logistics is a barrier for small creators.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A distinctive card format gets noticed even in a short reaction thread, so make layout a visible selling point in your showcase photos of finished product.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Small-run makers want to know who prints sealed booster packs without high costs. Naming your manufacturer or sharing your process draws engagement and builds goodwill.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.217
+      }
+    },
+    {
+      "lesson": "Put a store link in your reply when someone asks where to buy. A launch-arrival post can turn directly into orders.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.261
+      }
+    },
+    {
+      "lesson": "Shipping costs from overseas manufacturers to your main market are an easily overlooked issue. Work out the logistics before committing to a supplier.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Designers keep asking who prints small-run sealed booster packs affordably. Here's what I'm looking at.",
+      "why_it_lands": "Three commenters asked or echoed the manufacturer question, making it the clearest pain point in the thread, and it went unanswered.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.217
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Printing overseas for a US card game? Nobody mentions the shipping charges.",
+      "why_it_lands": "One commenter has a China contact but hasn't priced shipping to the US, a concrete worry indie designers share.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "comment_points_total": 23,
+  "comment_ids": {
+    "C1": "p3iwcg9",
+    "C2": "p3j2doh",
+    "C3": "p3ga3mq",
+    "C4": "p3gac52",
+    "C5": "p3gaz9e",
+    "C6": "p3g6h09",
+    "C7": "p3gepx7",
+    "C8": "p3gisx4",
+    "C9": "p4motyd",
+    "C10": "p4t0kdc",
+    "C11": "p3gmnou",
+    "C12": "p3gsa3s"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005048
+}

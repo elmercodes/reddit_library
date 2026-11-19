@@ -1,0 +1,233 @@
+{
+  "id": "1x7a612",
+  "title": "Got some test prints in for Duel Eterna",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1x7a612/got_some_test_prints_in_for_duel_eterna/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-16",
+  "upvotes": 92,
+  "comments": 18,
+  "engagement_score": 8.9493,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "test prints",
+    "foil printing",
+    "card layout",
+    "homemade tcg tools"
+  ],
+  "summary": "A designer shared first test prints of their homemade TCG Duel Eterna, including a card back, a non-foil front and a Surge foil version, along with a list of planned layout fixes. The response was friendly and mostly praise, with a handful of practical questions about Canva, printing, art and holo foil. One commenter, backed by a second, warned that the fist and skull emblems resemble Pokemon fighting energy and Magic swamp mana. There was no real split; the thread totals only 36 points, so everything is low-volume.",
+  "consensus": [
+    {
+      "point": "Commenters broadly praised the prints, the look of the cards and the foiling, with several calling them impressive or amazing.",
+      "evidence": [
+        "C1",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 22,
+        "share": 0.611
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Several commenters asked how to make templates, with some saying they are lost at the frame design stage. This suggests demand for a Canva card-template walkthrough.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C4",
+        "C17",
+        "C18"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.306
+      }
+    },
+    {
+      "point": "Two commenters said the fist and skull emblems instantly read as Pokemon's fighting energy and Magic's Swamp mana, even though the symbols are generic. They advised caution about the resemblance.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.167
+      }
+    },
+    {
+      "point": "One commenter agreed that giving the emblem more room from the borders would help and praised the color palette and distribution.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "One commenter said the card back is a big creative opportunity and liked the back design here.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Check that generic icons such as a fist for fighting or a skull for a dark color don't recall another game's established symbols. Test them on people who play other TCGs, since they may read as Pokemon or Magic imagery even if you did not intend it.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.167
+      }
+    },
+    {
+      "lesson": "Treat the card back as a place for creative identity. A full-art back with a distinctive image can get attention on its own.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    },
+    {
+      "lesson": "Give the corner emblem more breathing room from the borders and keep the palette distributed evenly. A test print can reveal spacing problems that screens hide.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.083
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Many people are stuck on tooling and production questions such as which software to use, where to print, how to source art and how to get holo. Sharing your process in tutorials or build-in-public posts can attract an audience of other hobbyist designers.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C4",
+        "C13",
+        "C14",
+        "C15",
+        "C17",
+        "C18"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 6,
+        "points": 14,
+        "share": 0.389
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Designers keep asking how to build card frames in Canva. Here's my workflow.",
+      "why_it_lands": "The thread's top comment and several follow-ups asked about Canva, and two more said they're lost designing frames or templates.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C4",
+        "C17",
+        "C18"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.306
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Does your card icon look like Pokemon or Magic's symbols by accident?",
+      "why_it_lands": "Two commenters said the fist and skull emblems instantly recalled fighting energy and Swamp mana, which every designer worries about with icons.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.167
+      }
+    }
+  ],
+  "comment_points_total": 36,
+  "comment_ids": {
+    "C1": "ph2wtcg",
+    "C2": "ph4nfi6",
+    "C3": "ph51jxd",
+    "C4": "ph433ia",
+    "C5": "ph42xhs",
+    "C6": "ph677ch",
+    "C7": "ph2uuei",
+    "C8": "ph3kd6d",
+    "C9": "ph3od1p",
+    "C10": "ph5ffmx",
+    "C11": "ph437lo",
+    "C12": "phwryho",
+    "C13": "phc0y5t",
+    "C14": "phpz77e",
+    "C15": "19sonlualbpk5",
+    "C16": "ph5i6ao",
+    "C17": "ph63izj",
+    "C18": "phamzc1"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is mainly sharing first test prints of their homemade TCG Duel Eterna and its foil, listing planned layout fixes, and implicitly welcoming reactions.",
+    "images": [
+      {
+        "file": "data/images/1x7a612/1.jpg",
+        "description": "Card back held in a hand: black card with a thin blue inner border and rounded corners. The center art is a purple, blue and pink nebula swirl around a solid black circle, like an eclipse or black hole. There is no text. The finish is matte and the print looks clean. The background is colorful posters."
+      },
+      {
+        "file": "data/images/1x7a612/2.jpg",
+        "description": "Card front, non-foil test print, held in a hand. The card is black with blue-bordered boxes. Name: \"Psychedelic Pterafractal\", with a round emblem (a dark animal-face/paw-like icon) at the top right. Flavor text: \"When faced with danger, the pterafractal is known to split apart in a surreal mitosis.\" - Cosmic Bestiary. The art box shows an orange and cream stylized pterosaur-like creature against a pale blue cloudy sky. Type line: \"Super Creature - Cosmic Dinosaur\". Rules text: \"Play Cost - Sacrifice a creature you control\"; \"Flight (This creature can't be defended by creatures without flight.)\"; \"If this creature is defended against or targeted by an effect, sacrifice it. Create two \"Pteron\" tokens. (They're dinosaur creatures with base stats 1/0/1 and flight.)\". Bottom left credit text, small and dim: \"ART - Bhenzon John Fajardo / BASE SET 000/999 / TM & © eTerna Gameworks 2026\". A small yellow rarity or set dot sits at the bottom center. At the bottom right are three stat boxes: ATK 3 (red), DEF 0 (pink), HP 1 (blue). The text boxes have dark, almost invisible gradients and the borders are thick and black, as the poster notes."
+      },
+      {
+        "file": "data/images/1x7a612/3.jpg",
+        "description": "The same Psychedelic Pterafractal card, now a foil version, tilted in the light. A rainbow holographic \"Surge\" pattern with diagonal bands of purple, blue, green, yellow and orange runs across the whole card, including the art, text and frame. The layout and text are identical to image 2: name, flavor text, Super Creature - Cosmic Dinosaur type line, rules text, stats ATK 3 / DEF 0 / HP 1, and bottom-left credits. Foil glare makes some text and the art slightly harder to read."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007604
+}

@@ -34,6 +34,7 @@ A disagreement is two groups of comments taking opposite positions on the same q
 - `hook` is the first line the creator says on camera, in their voice as a designer building a card game in public, reacting to what this community said. Under 15 words, specific, built on the thread's actual tension or numbers.
 - Never claim the poster's game, cards, art or post as the creator's own, and never call the subreddit "my community" or "my followers". Refer to them as "this subreddit", "card game designers", "a designer posted...", and so on.
 - Never misstate proportions. If a clear majority took one side, do not call it "half".
+- Keep hooks neutral. Frame the tension or the question, but never take a side or state the creator's opinion (no "here's why I'm not sure that's right", "I think they're wrong", "I agree"). The creator adds their own take when filming.
 - Match the hook's intensity to the support behind it. Words like "called out", "destroyed", "roasted", "slammed", "everyone hates" or "can't agree" need strong, broad support (many commenters, a large share of points). One polite comment is "one designer suggested..." or a straight question, never drama.
 - `why_it_lands` says what makes it work for that audience (the split, the stakes, the surprise), citing the thread's evidence.
 - Only include ideas a creator would actually film. A showcase with polite praise gets one modest idea at most.

@@ -1,0 +1,172 @@
+{
+  "id": "1qfp7ur",
+  "title": "Got to playtest my homemadetcg with my kids today!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qfp7ur/got_to_playtest_my_homemadetcg_with_my_kids_today/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-17",
+  "upvotes": 114,
+  "comments": 14,
+  "engagement_score": 8.807,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "family playtesting",
+    "ai placeholder art",
+    "combat triangle",
+    "watercolor art"
+  ],
+  "summary": "A designer shared photos of playtesting their homemade TCG with their kids, including a six-year-old who followed the game with some reading help. The thread was friendly and low-volume, with only 14 community points in total. Commenters asked for the rules and the art source, and the OP explained a lane-based combat triangle system and said the AI art is placeholder while the designer's wife paints watercolor final art. Reaction to the placeholder art and the painted plan was positive.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter approved of the OP having a plan to replace AI placeholder art, contrasting it with people who ship low-effort AI art as final.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter praised watercolor as an underused art medium for card games.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter said the AI placeholder art looked decent and was acceptable for playtesting.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter asked whether the combat triangle looks at card stats, which showed that the advantage mechanic needed clarification.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.071
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Test your game with a young child to check whether the core rules are clear. If a six-year-old can play with only reading help, the rules are probably readable and not overly complex.",
+      "evidence": [],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "When a combat triangle gives bonuses, state plainly whether advantage is a flat bonus or overrides stats. A reader asked whether card numbers matter, and the answer was that advantage is a significant boost but a disadvantaged card can still deal heavy damage, especially if fully equipped.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.071
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Label AI art as placeholder from the start and show a plan for real art. Commenters responded warmly to the stated plan and to the progress posts on the painted art.",
+      "evidence": [
+        "C8",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.286
+      }
+    },
+    {
+      "lesson": "A distinctive art medium like watercolor can set a game apart and attract attention.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.143
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Can a six-year-old learn your card game? A designer just tested exactly that.",
+      "why_it_lands": "The post pulled 114 upvotes on a simple kid-playtest story, and it gives designers a concrete clarity test they can try themselves.",
+      "evidence": [],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer's AI placeholder art got a warm reception. What makes placeholders acceptable?",
+      "why_it_lands": "Commenters accepted AI art for playtesting because the OP showed a plan and progress toward painted final art. That makes a useful lens for anyone using placeholders.",
+      "evidence": [
+        "C8",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.286
+      }
+    }
+  ],
+  "comment_points_total": 14,
+  "comment_ids": {
+    "C1": "o079gqp",
+    "C2": "o08o2dz",
+    "C3": "o0c443r",
+    "C4": "o08uu0x",
+    "C5": "o07p5u0",
+    "C6": "o06i2vm",
+    "C7": "o0707pu",
+    "C8": "o0711eq",
+    "C9": "o072998",
+    "C10": "o06p79h",
+    "C11": "o0efo97",
+    "C12": "o0a8dec",
+    "C13": "o0a8jjp",
+    "C14": "o0758st"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.006223
+}

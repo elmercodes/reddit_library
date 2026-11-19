@@ -1,0 +1,410 @@
+{
+  "id": "1rolfe6",
+  "title": "Thoughts on the new frame designs? + example",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rolfe6/thoughts_on_the_new_frame_designs_example/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-09",
+  "upvotes": 40,
+  "comments": 87,
+  "engagement_score": 10.4296,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "information density",
+    "visual hierarchy",
+    "rpg card games"
+  ],
+  "summary": "A hobbyist posted new Hero and Spell frame designs plus a finished example Hero card for an RPG-style card game, asking what to improve or remove. The community was friendly toward the visual craft but overwhelmingly said the Hero card carries far too much information and text. Higher-scoring comments were blunt reactions to density, while the more detailed replies praised the individual elements and the spell frame but asked for clearer hierarchy and grouping. The OP pushed back mildly, arguing the density is intentional and that the rules are the real issue.",
+  "consensus": [
+    {
+      "point": "The Hero card has far too much information and text for one card, and it is hard to parse at a glance.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C7",
+        "C19",
+        "C21",
+        "C22",
+        "C24",
+        "C25",
+        "C14",
+        "C5"
+      ],
+      "support": {
+        "comments": 10,
+        "commenters": 9,
+        "points": 146,
+        "share": 0.749
+      }
+    },
+    {
+      "point": "Many commenters like the individual design elements (borders, symbols, colours) and see the new frames as an improvement; the problem is the overall composition and legibility.",
+      "evidence": [
+        "C5",
+        "C8",
+        "C11",
+        "C14",
+        "C16",
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 31,
+        "share": 0.159
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter noted that the card is hard to read aloud to another player, and another said it resembles a D&D sheet or videogame UI more than a card.",
+      "evidence": [
+        "C21",
+        "C2"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 18,
+        "share": 0.092
+      }
+    },
+    {
+      "point": "Two commenters urged a print test at real size and playing in person, suspecting the card was only evaluated digitally.",
+      "evidence": [
+        "C5",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.077
+      }
+    },
+    {
+      "point": "One commenter pointed out that the text colours seem to be half meaningful and half decoration to match the theme, which weakens colour as a signal.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.031
+      }
+    },
+    {
+      "point": "One commenter suggested a larger border so misprints or cutting variance don't clip game info, and floated putting some data on the card back.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.026
+      }
+    },
+    {
+      "point": "One commenter said the stats are scattered (top left, middle, bottom), so finding a hero's stats means looking in several places; grouping them would help.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.021
+      }
+    },
+    {
+      "point": "Several first-time readers had questions about the icons (stat names, TN, the cyan number, the cost drop), showing the iconography is not self-explanatory.",
+      "evidence": [
+        "C17",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.021
+      }
+    },
+    {
+      "point": "One commenter explained visual hierarchy and gestalt principles: with no differentiation of weight, shape, colour or proximity, everything reads as equal. They suggested simplifying other elements when text is heavy, or splitting info across mix-and-match cards like class and subclass.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.01
+      }
+    },
+    {
+      "point": "One commenter found the basic attack in the bottom corner confusing and mistook the Talent box for it. They suggested merging talents into the basic attack box as passives and cutting some of the four stat badges, which take up art space.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.01
+      }
+    },
+    {
+      "point": "One commenter advised rewriting card text in the compact style of simplified MTG reprints, with a shortened version of the Flamelord Reborn reaction as an example.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.01
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is the density a card design problem or a rules/context problem?",
+      "side_a": "The card itself is overloaded and needs cutting, regrouping or a clearer hierarchy regardless of the rules.",
+      "side_a_evidence": [
+        "C1",
+        "C14",
+        "C19",
+        "C22",
+        "C24"
+      ],
+      "side_b": "Judging the card without knowing the rules is unfair; complexity is a rules matter and the design fits an RPG-sheet style.",
+      "side_b_evidence": [
+        "C11",
+        "C8"
+      ],
+      "side_a_support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 87,
+        "share": 0.446
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.041
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When a card must carry lots of information, simplify decoration and give every block a distinct visual weight so the eye has an order to follow. Equal emphasis everywhere reads as overwhelming even when each element is nicely drawn.",
+      "evidence": [
+        "C14",
+        "C22",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 18,
+        "share": 0.092
+      }
+    },
+    {
+      "lesson": "Group related stats in one place instead of scattering them around the frame, so players find a number in one glance.",
+      "evidence": [
+        "C10",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.031
+      }
+    },
+    {
+      "lesson": "Use colour only for meaning. Mixing functional colours with purely thematic ones makes players doubt what any colour signals.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.031
+      }
+    },
+    {
+      "lesson": "Print the card at real size and try to play with it. Digital mockups hide tiny text and crowded layouts, and cards also need to be easy to read aloud to opponents.",
+      "evidence": [
+        "C5",
+        "C24",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 19,
+        "share": 0.097
+      }
+    },
+    {
+      "lesson": "Make core actions like the basic attack prominent and clearly separated from talents, and consider merging passives into one box. Players should not mistake one section for another.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.01
+      }
+    },
+    {
+      "lesson": "Rewrite rules text in compact, structured shorthand, similar to simplified reprint wording, to cut word count without losing meaning.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.01
+      }
+    },
+    {
+      "lesson": "Leave a generous safe margin, and consider moving reference data to the card back, to survive misprints and trimming variance.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.026
+      }
+    },
+    {
+      "lesson": "If a card needs this much data, consider splitting it into modular cards (class and subclass) rather than one super-card.",
+      "evidence": [
+        "C14",
+        "C2"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.082
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A designer posted an RPG hero card, and the verdict was 'way too much'.",
+      "why_it_lands": "The thread agrees on overload by a wide margin, while the OP argues the density is the point. Designers love the tension between depth and readability.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C19",
+        "C21",
+        "C25",
+        "C12"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 108,
+        "share": 0.554
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Can a card look great and still be unreadable? Visual hierarchy explained.",
+      "why_it_lands": "Commenters praised the individual elements but said the composition failed, and one gave a clear explanation of hierarchy that creators can demonstrate.",
+      "evidence": [
+        "C14",
+        "C22",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 18,
+        "share": 0.092
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Have you ever print-tested your cards at actual size?",
+      "why_it_lands": "Two commenters suspected digital-only design, and a print test is an easy, visual thing to film and show.",
+      "evidence": [
+        "C5",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.077
+      }
+    }
+  ],
+  "comment_points_total": 195,
+  "comment_ids": {
+    "C1": "o9evgx2",
+    "C2": "o9fqgcd",
+    "C3": "o9g5wqp",
+    "C4": "o9f1uk4",
+    "C5": "o9esah9",
+    "C6": "o9errx7",
+    "C7": "o9eruvc",
+    "C8": "o9eyi3n",
+    "C9": "o9f06fd",
+    "C10": "o9ezx2v",
+    "C11": "o9g03ao",
+    "C12": "o9g51tk",
+    "C13": "o9h4yjt",
+    "C14": "o9habfa",
+    "C15": "o9klhxh",
+    "C16": "o9rit75",
+    "C17": "o9s50va",
+    "C18": "o9s8zci",
+    "C19": "o9ex9zf",
+    "C20": "o9exuyv",
+    "C21": "o9fbc3s",
+    "C22": "o9xhkg5",
+    "C23": "o9jli6v",
+    "C24": "o9fgjko",
+    "C25": "o9fz6yz"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the new card frame designs (Hero and Spell) and the example card, specifically what can be improved or removed.",
+    "images": [
+      {
+        "file": "data/images/1rolfe6/1.jpg",
+        "description": "Finished example Hero card with a dark charcoal frame and orange/red trim, in portrait layout. Title banner: \"FLAMMESLANGE, SUNDER LORD OF SKIES\" with a pink \"HERO\" subtype line beneath it. A white tower/flame emblem sits top right, with a fire-element circle icon below it. Left column of four hexagonal stat badges: fist (yellow) 18 with +4, boot/speed (yellow) 8 with -1, book (purple) 3 with -4, leaf/green icon 12 with +1. The art box is a large painting of a fiery phoenix/dragon wing in orange and red, overlaid with a semi-transparent \"PLACEHOLDER\" watermark and the credit \"ART BY: CHRIS RAHN - MTG\". A blue water-drop cost badge shows 7, flanked by hexagon pips. Below the art are two text boxes. Left: talent \"Flamelord Reborn\": when an attack is declared on Flammeslange it can use its Reaction; the attacker must do a check 15 (fist icon). If it fails, it receives 3D6 Fire Damage and 15 Toughness reduction. Once, when Flammeslange's HP drops to 0, it Revives with half its original HP. Right: skill \"Eruption of the Skylord\" with a row of icons (cost 9, 5D8 fire, target icon, -20 toughness badge): deals 5D8 Fire Damage to all enemies and 30 Burn Damage to the Enemy Quartz. Bottom row: green heart HP 220, cyan shield TN 90, a shield-shaped \"13 AC\", resistance icon (fire) and weakness icon (blue/arcane), and a basic attack box \"Claw of Magma\": deals 3D4 Fire Damage to one enemy target, skip your next Draw Phase, 1D4 fire, -15 badge. Text is small but readable, and the layout is dense with many inline icons."
+      },
+      {
+        "file": "data/images/1rolfe6/2.jpg",
+        "description": "Side-by-side comparison of Hero card templates, labeled OLD (left) and NEW (right), with blank art boxes and Lorem Ipsum filler text. OLD: purple/grey rounded frame with a name bar at top, a purple water-drop cost (3) at top right, a faction emblem and class icon at top left, and a white art box with a vertical column of five stat icons marked \"x\". Below that are a \"Talent\" header with a long block of Lorem Ipsum text on the left, and on the right an \"Ability Exemple\" header (cost icons, 1D10 damage, 15 badge) and an \"Ultimate Exemple\" header (pink), each with Lorem Ipsum text. The bottom has pill-shaped stat bars: 60 PV (green) and 30 TN (cyan), a central 10 AC shield, RES and WEK icons, and 1D6 and 1D4 attack pills. Text is very small and dense. NEW: black frame with violet trim and the same layout as the finished example card: \"CARD NAME HERE\" with a pink HERO line, large white art area, four stat hexagons (18 +4, 8 -1, 3 -4, 12 +1), a cost drop of 3, a \"Talent\" box and a \"Skill\" box with Description placeholders, 220 HP, 90 TN, 10 AC, resistance and weakness icons, and a \"Basic attack\" description box. It is more modular, with cleaner separation and larger text areas."
+      },
+      {
+        "file": "data/images/1rolfe6/3.jpg",
+        "description": "Side-by-side comparison of Spell card frames, labeled OLD (left) and NEW (right), with blank white art areas. OLD: a light grey/lavender/beige angular, crystalline frame with a \"✦ SPELL ✦\" black header, a large white art area, three diamond icons overlapping the art/text boundary (left blue spellcasting swirl icon with 3, center lightning-bolt icon, right flame icon with 3), and a large dark grey text area split by a thin vertical line into two halves. NEW: black card base with a beige and lavender angular frame, a \"SPELL\" header in stylized lettering, and a soft vignette-edged art window with decorative diamonds and crescent moons. Below the art are a left swirl icon with value 6 and a label \"Arcousia Spellcasting\", a central shield emblem, a right label \"Pneumand Spellcasting\" with a value 6, and a right flame icon. A \"Spell name\" banner sits below, then two effect headers (\"EFFECT 1\" with a blue swirl icon and \"EFFECT 2\" with a blue flame icon), and a dark text area split into two columns by a vertical line. The new frame is more ornate and has a dedicated name field."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.015322
+}

@@ -1,0 +1,260 @@
+{
+  "id": "1pfe8a9",
+  "title": "How an LGS near me(4GS Games) got Elemental Creatures in their display case right by the entrance🤘 Feels a little surreal.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pfe8a9/how_an_lgs_near_me4gs_games_got_elemental/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-12-06",
+  "upvotes": 103,
+  "comments": 63,
+  "engagement_score": 10.8827,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "local game stores",
+    "self-published tcg",
+    "community support",
+    "launch strategy"
+  ],
+  "summary": "The creator of Elemental Creatures shared a photo of their TCG in a local game store's display case, with no feedback requested. The community response was warm and mostly congratulatory, with commenters praising the cards and holo look and asking practical questions about rarities, starter decks, a Tabletop Simulator mod, availability and who printed them. The OP replied that earlier kind comments had been downvoted and vented about it, and a few commenters offered encouragement. Overall the thread is friendly and supportive, with no real splits.",
+  "consensus": [
+    {
+      "point": "Commenters liked the look of the cards and the display, praising the art, the holo finish and the specific card Cheearctic.",
+      "evidence": [
+        "C5",
+        "C7",
+        "C9",
+        "C14",
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 33,
+        "share": 0.485
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Several buyers asked practical questions (rarity and guaranteed holo, starter decks, Tabletop Simulator mod, who prints the cards). Those are likely gaps in the game's public info.",
+      "evidence": [
+        "C14",
+        "C17",
+        "C18",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 12,
+        "share": 0.176
+      }
+    },
+    {
+      "point": "One commenter taught the game to players aged 7 to 69, including people who had bounced off other TCGs, and said everyone picked it up quickly and asked for rematches. This suggests broad accessibility.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.059
+      }
+    },
+    {
+      "point": "One commenter in the thread said negativity on Reddit is making their own game projects stall, showing how discouraging public feedback can be for solo designers.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.059
+      }
+    },
+    {
+      "point": "A parent said the kids had moved on from Pokemon to Minecraft, so a kid-friendly TCG pitch can miss on timing.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.059
+      }
+    },
+    {
+      "point": "A commenter said they prefer buying through a local game store over ordering online, and wanted the game in shops in their region (Ohio and Michigan).",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Design so a single booster pack supports a full game. It lowers the barrier to trying the game and removes the need for a starter deck, which is how the OP answered the starter-deck question.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    },
+    {
+      "lesson": "Put the standout cards at the front of a display. Cheearctic drew a comment and holo cards in acrylic stands showed off the foil quality, so pick showcase cards for art and finish.",
+      "evidence": [
+        "C9",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.118
+      }
+    },
+    {
+      "lesson": "Simple rules help a game reach all ages. One commenter taught it from a 7-year-old to a 69-year-old, which suggests a low-complexity design can bring in lapsed or non-TCG players.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.059
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Launching locally first and building an in-person community around game stores can be a lower-risk self-funded route. Stores that like the game then give display space, events and learn-to-play nights.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    },
+    {
+      "lesson": "Publish the basics of your product in an easy place: prices, rarity structure, who prints it, and whether a digital version exists. Buyers asked these questions directly under the post.",
+      "evidence": [
+        "C14",
+        "C17",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.132
+      }
+    },
+    {
+      "lesson": "Stores that offer online shipping let interested people outside the local area buy, and one commenter ordered packs from a store before the OP's reply.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should your first TCG release be local game stores only, or online?",
+      "why_it_lands": "The thread shows a self-funded creator choosing a local-first launch, with commenters asking about shipping, region availability and ordering online.",
+      "evidence": [
+        "C13",
+        "C20",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.088
+      }
+    },
+    {
+      "type": "question",
+      "hook": "What do players want to know before buying a new indie TCG?",
+      "why_it_lands": "Several commenters asked about rarities, starter decks, a Tabletop Simulator mod and who prints the cards, so the pain point is concrete.",
+      "evidence": [
+        "C14",
+        "C17",
+        "C18",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 12,
+        "share": 0.176
+      }
+    }
+  ],
+  "comment_points_total": 68,
+  "comment_ids": {
+    "C1": "nskdd4m",
+    "C2": "nskvxqm",
+    "C3": "nsl1jp2",
+    "C4": "ntp1tpu",
+    "C5": "nskse0d",
+    "C6": "nsnv4ek",
+    "C7": "nskyunq",
+    "C8": "nsl2ku6",
+    "C9": "nsl1x3r",
+    "C10": "nsl34f1",
+    "C11": "nsl35nl",
+    "C12": "nsl45cm",
+    "C13": "nsl414i",
+    "C14": "nt7gqhg",
+    "C15": "ntx1xz8",
+    "C16": "nsjlko5",
+    "C17": "nsm9u5l",
+    "C18": "nsmd91c",
+    "C19": "nsntyqc",
+    "C20": "nsmlmhf",
+    "C21": "nsnowfz",
+    "C22": "nu18uhr",
+    "C23": "ny1b9az",
+    "C24": "nsjoyq6",
+    "C25": "nskbn2k"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": false,
+    "what_is_asked": "The poster is just sharing that a local game store is displaying their trading card game, with no feedback requested.",
+    "images": [
+      {
+        "file": "data/images/1pfe8a9/1.jpg",
+        "description": "Photo of a glass display case at a game store with stacked Elemental Creatures Trading Card Game booster display boxes (purple/yellow dragon-scale art, logo, fanned cards) in back, and several holo cards in acrylic stands in front, including Cheearctic, Frightmear, Montigo, Arrowkin and two Volgairo cards. A large dragon playmat lies underneath."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009884
+}

@@ -1,0 +1,254 @@
+{
+  "id": "1v5oizl",
+  "title": "NEW RULE: NO AI",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1v5oizl/new_rule_no_ai/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-24",
+  "upvotes": 417,
+  "comments": 220,
+  "engagement_score": 14.1327,
+  "flair": "IMPORTANT",
+  "post_type": "text",
+  "topics": [
+    "ai art",
+    "subreddit moderation",
+    "homemade tcg",
+    "community rules"
+  ],
+  "summary": "The moderator of r/homemadeTCGs announced a ban on using or promoting AI, enforced mostly through user reports. The response was overwhelmingly supportive, with praise for the mod team and for keeping the sub focused on handmade work. A few dissenting comments (a block, a sarcastic jab, a pro-AI remark, a witchhunt worry) were low scoring. Overall the thread was friendly and celebratory, with supporters clearly outweighing critics by score.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters said they are drawing their own cards despite budget or skill limits, treating handmade effort as worth it even if the cards look rough.",
+      "evidence": [
+        "C17",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 20,
+        "share": 0.04
+      }
+    },
+    {
+      "point": "One commenter said they value seeing games made under the creator's own power even with stock images or stick-figure art, and fear AI-art games with no real ruleset were flooding the feed as low-effort collectibles.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.026
+      }
+    },
+    {
+      "point": "One commenter noted the mod's trigger was a poster using AI placeholder art just to get feedback on a card frame, which shows even placeholder use falls under the ban.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter worried that user-driven enforcement could turn the sub into a witchhunt, a concern about false accusations of AI use.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.012
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Whether banning AI on the sub is the right call",
+      "side_a": "The ban protects handmade identity, respects artists, and keeps out low-effort AI slop.",
+      "side_a_evidence": [
+        "C3",
+        "C7",
+        "C9",
+        "C15",
+        "C19",
+        "C20",
+        "C21",
+        "C22"
+      ],
+      "side_b": "The ban is unwelcome: one commenter blocked the sub, one sarcastically pitched AI as the answer to Pokemon prices, and one feared a witchhunt.",
+      "side_b_evidence": [
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "side_a_support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 343,
+        "share": 0.686
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 17,
+        "share": 0.034
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Don't lean on polished generated art to carry a game. Show the ruleset and mechanics first, because audiences read a pretty-but-hollow game as low effort. Stock images or simple sketches are accepted as placeholders when the game itself is real.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.026
+      }
+    },
+    {
+      "lesson": "Placeholder art is a risk when you share work publicly for feedback, since it gets read as your final art direction. Use hand-drawn, stock or clearly labeled rough art when testing a card frame.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.024
+      }
+    },
+    {
+      "lesson": "Hand-drawn art is a viable path for solo designers on a budget. Passion and effort were respected even when the result looked rough.",
+      "evidence": [
+        "C17",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 20,
+        "share": 0.04
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Communities that value craft can punish AI use: a clear no-AI stance may earn goodwill and attention, and using AI risks losing the audience in hobby spaces. Decide your art policy early and state it openly.",
+      "evidence": [
+        "C3",
+        "C7",
+        "C21",
+        "C22"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 183,
+        "share": 0.366
+      }
+    },
+    {
+      "lesson": "Low-effort collectible cash grabs with AI art erode trust in new games. Showing a real ruleset and real reputation helps you stand apart from them.",
+      "evidence": [
+        "C15",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 95,
+        "share": 0.19
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A card game subreddit just banned AI art completely. Should designers use it?",
+      "why_it_lands": "Supporters dominated by score, but a few dissenters pushed back, so there is tension to weigh in on.",
+      "evidence": [
+        "C9",
+        "C21",
+        "C22",
+        "C13",
+        "C14"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 154,
+        "share": 0.308
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Is placeholder art okay when you're testing a card frame?",
+      "why_it_lands": "The mod said an AI placeholder post was the last straw, and designers constantly face this choice when sharing early prototypes.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.024
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer worries AI bans become witchhunts. How do you prove your art is yours?",
+      "why_it_lands": "Reports-based enforcement raises a real worry for artists who might get falsely accused.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.012
+      }
+    }
+  ],
+  "comment_points_total": 500,
+  "comment_ids": {
+    "C1": "ozkgvek",
+    "C2": "ozkhd1y",
+    "C3": "ozko78p",
+    "C4": "ozkq369",
+    "C5": "ozlu0j7",
+    "C6": "ozmapoi",
+    "C7": "ozluab3",
+    "C8": "ozm9mqo",
+    "C9": "ozkkun3",
+    "C10": "ozl2khx",
+    "C11": "ozlcm9t",
+    "C12": "ozs9e86",
+    "C13": "ozp1eke",
+    "C14": "ozqr35h",
+    "C15": "ozkxz59",
+    "C16": "ozluip1",
+    "C17": "ozomusm",
+    "C18": "ozqvg7o",
+    "C19": "ozkg9q3",
+    "C20": "ozkhul0",
+    "C21": "ozkgraa",
+    "C22": "ozkl447",
+    "C23": "ozlbtia",
+    "C24": "ozkpaky",
+    "C25": "ozn4vp6"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008684
+}

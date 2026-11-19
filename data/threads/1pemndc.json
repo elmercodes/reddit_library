@@ -1,0 +1,305 @@
+{
+  "id": "1pemndc",
+  "title": "SpellpatchTCG - Looking for Feedback on new card frame design",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pemndc/spellpatchtcg_looking_for_feedback_on_new_card/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-12-05",
+  "upvotes": 50,
+  "comments": 28,
+  "engagement_score": 8.9828,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card frame design",
+    "icon legibility",
+    "card critique",
+    "rarity indicators"
+  ],
+  "summary": "A designer posted an old and new card frame for Bloomling (wax seal faction marker, bookmark level indicator, recolored power/guard shapes) and asked for feedback. The thread was friendly and mostly encouraging, with 25 comments shown and about 37 community points in total. Commenters liked the ribbon/bookmark but were lukewarm on the white/black stat color switch. Opinion was split on whether the wax seal works better at the top or bottom, with the top-placement side carrying slightly more points.",
+  "consensus": [
+    {
+      "point": "Commenters broadly liked the overall frame and its ornate look, and the ribbon/bookmark change drew praise.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C11",
+        "C15",
+        "C17"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 22,
+        "share": 0.595
+      }
+    },
+    {
+      "point": "Several commenters were not sold on the new power/guard color change, and wanted stat icons to stay simple and easy to read.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.432
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter noted that different text colors raise the question of whether color carries hidden meaning, and that shield shapes already distinguish the stats.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "point": "One commenter said the metallic border looks flatter in the second image and preferred the 3D feel of the first (the poster said it was an export desaturation).",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "point": "One commenter said a ribbon over the art competes with it, and another said the charms and ribbons around the art draw more attention than the art itself.",
+      "evidence": [
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "point": "One commenter felt the art had an unintended adult-toy resemblance.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "point": "One commenter said the frame style recalled Flesh and Blood cards.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "One commenter wanted the bottom center gap filled or redesigned, and suggested reshaping the scroll top so the wax flower reads as a real wax seal on a letter.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.027
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Wax seal placement: top-left (new) or bottom center (old)?",
+      "side_a": "The new top-left wax seal and ribbon works well and is an improvement.",
+      "side_a_evidence": [
+        "C3",
+        "C5",
+        "C11",
+        "C25"
+      ],
+      "side_b": "The original frame's bottom seal feels more natural, like opening a sealed scroll, while a top seal feels like a tacked-on icon.",
+      "side_b_evidence": [
+        "C9",
+        "C15"
+      ],
+      "side_a_support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 14,
+        "share": 0.378
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.135
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Keep gameplay icons simple and high-contrast (for example uniform dark fill with white numerals) even when the surrounding frame is ornate, so stats scan quickly.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.432
+      }
+    },
+    {
+      "lesson": "Avoid color-coding stats unless the colors carry a system; extra colors make players wonder whether other colors have meaning, especially when shield shapes already differentiate stats.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "lesson": "Check exports for lost saturation or bevel depth before posting a comparison, since a flatter border can skew feedback on the new version.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "lesson": "Decorative elements near the art, like ribbons and charms, can pull attention from the illustration, so watch how much art space they take.",
+      "evidence": [
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "lesson": "If a seal moves, make sure the vacated spot is not left as an obvious blank; fill it with a meaningful element like rarity or set symbol.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.027
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Wax seal at the top or bottom of a card frame?",
+      "why_it_lands": "Commenters split on whether a top seal feels integrated or tacked on, with both sides getting real support.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C11",
+        "C25",
+        "C9",
+        "C15"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 19,
+        "share": 0.514
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should card stat icons stay simple while the frame gets ornate?",
+      "why_it_lands": "The top comment argued icons must be simplest to read, and others doubted the stat recolor, giving a concrete layout problem.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.432
+      }
+    }
+  ],
+  "comment_points_total": 37,
+  "comment_ids": {
+    "C1": "nsdqon7",
+    "C2": "nsds7uh",
+    "C3": "nsdp40c",
+    "C4": "nsdpesr",
+    "C5": "nsdziez",
+    "C6": "nsefc54",
+    "C7": "nsh1lqa",
+    "C8": "nsj3413",
+    "C9": "nsl5dx0",
+    "C10": "nsl5yk8",
+    "C11": "nse0nv8",
+    "C12": "nsef2hi",
+    "C13": "nsfvx80",
+    "C14": "nsj3mlo",
+    "C15": "nsh531t",
+    "C16": "nsj3i0b",
+    "C17": "nvcw2ht",
+    "C18": "nviejrb",
+    "C19": "nseinfm",
+    "C20": "nsek0aa",
+    "C21": "nseklme",
+    "C22": "nsdmfxg",
+    "C23": "nsdmpe0",
+    "C24": "nseqvdm",
+    "C25": "oo16z1j"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the new card frame (wax seal faction icon, bookmark level indicator, recolored power/guard shapes) is more cohesive than the old frame.",
+    "images": [
+      {
+        "file": "data/images/1pemndc/1.jpg",
+        "description": "OLD frame, portrait card with black border and ornate silver vine/filigree frame, pink/red tint at top edge. Top-left: an 8-point silver starburst containing the level number \"1\". Name \"Bloomling\" in bold dark serif on a white parchment scroll banner at top; below it the type line \"Familiar - Flowerfolk\" (Flowerfolk italic). Art box: glossy 3D-rendered pink bulb-shaped flower creature with raised arms and orange-red petals, sparkles, light rays, lavender sky, grassy flowers at bottom (appears digital/CGI or AI-like). Bottom-left of art: two stat shapes overlapping the text box, both white/silver-rimmed with dark numerals: \"1\" in a rounded blob/angled shape (power) and \"2\" in a shield shape (guard). Text box is white/cream parchment with only italic flavor text: \"It rises with the morning light, drifitng whichever way the wind calls.\" (typo \"drifitng\" as printed). Bottom scroll strip: \"C X/145\" at left (collector number), \"Alpha\" 1st Edition at right, centered red floral wax seal emblem, four gold stars beneath it, credit bar \"Daniel Tinning | Eng.\" at left and \"TM & © 2026 Spellpatch Game\" at right."
+      },
+      {
+        "file": "data/images/1pemndc/2.jpg",
+        "description": "NEW frame, same card (Bloomling, Familiar - Flowerfolk, same art, same flavor text with the same \"drifitng\" typo, same C X/145 and Alpha 1st Edition, same credits). Black border with more rounded corners, pink-to-purple gradient tint at the top edge, silver vine frame. Changes: top-left now has a large pink/magenta floral wax seal (faction marker) overlapping the title scroll, with a red-and-white striped ribbon/bookmark hanging beneath it showing the level \"1\" in red. Stat shapes recolored: power \"1\" is a white shape with red numeral; guard \"2\" is a dark black/charcoal shield with white numeral. Art colors are slightly more saturated pink. The bottom center, where the old red seal was, now has a blank white oval placeholder above the four gold stars (intended for set symbol or rarity indicator)."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010096
+}

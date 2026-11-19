@@ -1,0 +1,225 @@
+{
+  "id": "1q7f1um",
+  "title": "I've finally finished at least one of each card type in my game.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1q7f1um/ive_finally_finished_at_least_one_of_each_card/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-08",
+  "upvotes": 73,
+  "comments": 20,
+  "engagement_score": 8.8708,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "anime art style",
+    "playtest prep",
+    "card frames"
+  ],
+  "summary": "A designer shared finished example cards for each card type in their anime-style homemade TCG and promoted an upcoming Tabletop Simulator playtest. The response was friendly and supportive, mostly praise for the art and the classic anime feel. Only one commenter criticized the frames, and the poster agreed. A couple of commenters asked how many cards are planned and where to learn the rules. Overall temperature is warm and low-stakes, with small engagement (32 community points).",
+  "consensus": [
+    {
+      "point": "Commenters liked the overall look: the art, the classic anime aesthetic and the clarity of the card text.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C14",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 23,
+        "share": 0.719
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter liked that the art breaks slightly out of the frame, and found the card text clear about how cards work.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.281
+      }
+    },
+    {
+      "point": "Two commenters asked for ways to learn the game (a tutorial, more info), showing interest in onboarding before the playtest.",
+      "evidence": [
+        "C3",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter asked about total card count and another followed up on how many are finished, showing curiosity about the scope and progress of the first set.",
+      "evidence": [
+        "C9",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.094
+      }
+    },
+    {
+      "point": "One commenter said the frames need more polish even though the art is strong. The poster wants to balance legibility with more flair.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.062
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Let art slightly break the frame and keep card text short and structured so that effects read quickly. Colored keyword labels help readers parse the rules.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.281
+      }
+    },
+    {
+      "lesson": "Strong art can mask a plain frame. Treat the frame as its own polish pass, balancing legibility with visual flair rather than leaving it at the simple version.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.062
+      }
+    },
+    {
+      "lesson": "Using a consistent, recognizable aesthetic (here classic anime) gives a game an identity that viewers pick up on immediately.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.188
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Provide a how-to-play video or rulebook before opening a public playtest, since interested viewers ask for onboarding right away.",
+      "evidence": [
+        "C3",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    },
+    {
+      "lesson": "Share the scope of the set (for example the target card count and how many are done) to answer predictable questions and show progress.",
+      "evidence": [
+        "C9",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.094
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Your card art can be great while the frames hold it back. How do you fix that?",
+      "why_it_lands": "One commenter praised the art but said the frames need work, and the poster agreed. Many designers face the same legibility versus flair tradeoff.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.062
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Before a public playtest, what do people need first: a rulebook or a how-to-play video?",
+      "why_it_lands": "Commenters immediately asked for a tutorial and more info about the game, which points to a common pain point for playtest prep.",
+      "evidence": [
+        "C3",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    }
+  ],
+  "comment_points_total": 32,
+  "comment_ids": {
+    "C1": "nyf1h4n",
+    "C2": "nym9vl9",
+    "C3": "nyojyj4",
+    "C4": "nyfbp04",
+    "C5": "nym9ktk",
+    "C6": "nyfxi1n",
+    "C7": "nyma749",
+    "C8": "nymaxay",
+    "C9": "nyh0ehh",
+    "C10": "nyma202",
+    "C11": "nyo55zc",
+    "C12": "nyhibg1",
+    "C13": "nyma3dc",
+    "C14": "nyiw3l2",
+    "C15": "nym9xub",
+    "C16": "nyl34te",
+    "C17": "nymapfm",
+    "C18": "ottndis",
+    "C19": "ouqbyh2",
+    "C20": "nyokygs"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing finished example cards of each card type for their homemade TCG and promoting an upcoming Tabletop Simulator playtest, with no specific feedback question.",
+    "images": [
+      {
+        "file": "data/images/1q7f1um/1.jpg",
+        "description": "A 2x3 grid of six anime-style TCG cards on a black background with a magenta diagonal stripe. Each card has a dark rounded frame, a cost in the top-left corner (angled tab), the card type in the top-right, a full-bleed art box, the name in italic caps below the art, a text box, and a footer with artist credit 'Brandon Lopez' and set code 'BSGG001b'.\n\nTop row:\n1) WEAPON 'MA741 RIFLE', cost 3. Art: grey assault rifle with scattered brass casings on a flat bright green (placeholder-looking) background. Text box has a yellow 'Pair' keyword with a bullet icon: 'Draw 1 card.' Two black boxes at bottom right each show '+2'.\n2) TAG UNIT 'NATSUKI 夏希', subtype ASSAULT, cost 5, purple frame, heart/health icon showing 5. Art: red-haired woman holding a rifle, green background. Overlaid text strip: purple 'All-Out' keyword, 'Deal 2 DMG to a random enemy'. Flavor quote: 'Shoot first, then shoot again, then one more time...'. Stat boxes bottom right: RG (range icon) 4, CC (fist icon) 2. A blue 'R' icon next to TAG UNIT.\n3) GENERAL 'RIKA 理香' with four stars, red frame, no cost (star icon in the corner), health 25 in a heart. Art: orange-haired woman with a cigar, trench coat, and a large blue mechanical arm with a green gauge. Green 'Passive' keyword: 'Enters play with 4 Charge counters. Whenever you play a card with cost 6 or more, remove a Charge counter. If you can't, draw a card instead.' Stats: RG 2, CC 2. The text overlays the art, and the name has a stray 't' after the kanji.\n\nBottom row:\n4) ACTION 'BEHIND ME!', cost 2, with a lightning bolt icon. Art: dark-haired woman in a tank top and shorts holding a shield, with a yellow/white sunburst background. Text: 'After an enemy unit has declared an attack, switch the attack target to another T.A.G unit you control.'\n5) CONSTRUCT 'BULLET FARM', cost 2, brown frame. Art: isometric green crates filled with bullets on a conveyor. Text box in orange-brown: green 'Passive' - 'At the start of your turn place a scrap counter on this card.' Blue 'Active Main' - 'Remove 2 scrap counters from this card, and add 1 ammo to your supply. If there are no scrap counters left, destroy it.'\n6) GEAR 'FRAG - Grenade', cost 3. Art: hand holding a green grenade against a pale blue background. Text: 'Choose one: • Deal 2 DMG to 2 adjacent spaces. • Deal 1 DMG to 3 adjacent spaces.'\n\nThe cards use colored keyword pills (Pair, All-Out, Passive, Active Main), and the frame color varies by card type. The art style is consistent anime/cel-shaded digital."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007414
+}

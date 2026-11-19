@@ -1,0 +1,276 @@
+{
+  "id": "1sqv27p",
+  "title": "TCG FORGE - A TCG card database made for TCG creators by a TCG creator (Feedback appreciated)",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sqv27p/tcg_forge_a_tcg_card_database_made_for_tcg/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-20",
+  "upvotes": 71,
+  "comments": 35,
+  "engagement_score": 9.6519,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "card database tools",
+    "design workflow",
+    "one-time pricing",
+    "tabletop simulator export"
+  ],
+  "summary": "A designer shared TCG Forge, a desktop card database app for TCG creators, with a free core tier and a $9.99 one-time Pro tier, and asked for feedback. The thread was friendly and low-scoring (19 community points across 25 comments). Commenters showed interest but kept asking for the same missing features: a built-in card renderer using their own art and frames, Tabletop Simulator export, Mac builds, and real-time collaboration. There was no real split; one commenter asked about AI use and another flagged a name clash.",
+  "consensus": [
+    {
+      "point": "Commenters liked the approach and the one-time pricing, but several said they would not switch until the tool could place their own art and frames onto cards or export to Tabletop Simulator.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C21",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 6,
+        "share": 0.316
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter on a team uses Google Sheets for real-time collaboration and wanted shared databases. The OP said live sync is not planned and suggested Git or ZIP sharing.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.158
+      }
+    },
+    {
+      "point": "One commenter said subscriptions put them off and that a one-time cost made them willing to pay. They found other tools too steep to learn, while the screenshots made this one look approachable.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.105
+      }
+    },
+    {
+      "point": "Two commenters asked for Mac or Linux support, and one said they avoid Windows unless absolutely necessary.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.105
+      }
+    },
+    {
+      "point": "One commenter asked whether AI is involved. The OP said the app has no AI features but admitted AI helped write parts of the code.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter warned that the name TCG Forge already belongs to an online storefront and a physical shop, which would make the tool hard to find in search.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter with minimal computer skills said that building card templates is the hardest base-level task for their group and wants an easier tool.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep card data separate from card visuals and make the CSV export clean. Designers can then data-merge into Affinity Publisher, InDesign, nanDECK or Squib. Colour-coded type and rarity in the table view make a set's balance readable at a glance.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "If your workflow needs a quick way to playtest, plan an export path to Tabletop Simulator. Commenters named it as the feature that would make them try or choose a tool.",
+      "evidence": [
+        "C15",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.105
+      }
+    },
+    {
+      "lesson": "Making your template tooling approachable matters to non-technical creators. A tool that lets non-technical designers set up templates without learning heavy software lowers the barrier to starting a game.",
+      "evidence": [
+        "C3",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.158
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A pay-once, own-forever tier next to a genuinely free core earns goodwill from hobbyists, who dislike subscriptions. Money-tight testers also want to know up front that the core stays free.",
+      "evidence": [
+        "C3",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.158
+      }
+    },
+    {
+      "lesson": "Check name collisions before launch. Existing TCG Forge businesses could hurt search discoverability for a new tool with the same name.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Mac and Linux users will skip a Windows-only release, so announcing Mac builds early widens the audience.",
+      "evidence": [
+        "C7",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.158
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Card game designers: would you pay for a tool that stores data but can't render your cards?",
+      "why_it_lands": "Several commenters said they would hold off without a built-in renderer or their own frames, though the whole thread is low-scoring.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.263
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you playtest your TCG: Tabletop Simulator export or something else?",
+      "why_it_lands": "Tabletop Simulator export came up as a deciding feature for two commenters, and the OP said it has come up repeatedly.",
+      "evidence": [
+        "C15",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.105
+      }
+    }
+  ],
+  "comment_points_total": 19,
+  "comment_ids": {
+    "C1": "ohan8kk",
+    "C2": "ohaob8i",
+    "C3": "ohbcvzl",
+    "C4": "ohes98x",
+    "C5": "ohai7b9",
+    "C6": "ohaizjz",
+    "C7": "ohakyxp",
+    "C8": "ohalfcf",
+    "C9": "ohat93x",
+    "C10": "ohesd20",
+    "C11": "ohbysqy",
+    "C12": "oheshxe",
+    "C13": "ohc9u0f",
+    "C14": "ohesnjv",
+    "C15": "ohds36i",
+    "C16": "ohesu9w",
+    "C17": "ohdt9gh",
+    "C18": "oheswif",
+    "C19": "ohdzhrw",
+    "C20": "ohet3ct",
+    "C21": "ohajsuj",
+    "C22": "ohakfn8",
+    "C23": "ohak9qn",
+    "C24": "ohbi9g2",
+    "C25": "ohcg979"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their TCG card database desktop app (TCG Forge) and asking for feedback from other TCG creators.",
+    "images": [
+      {
+        "file": "data/images/1sqv27p/1.jpg",
+        "description": "Screenshot of the TCG Forge Pro vBETA 0.9.9 home screen in a dark UI. Left sidebar has New/Open/Save/undo/redo buttons and a Settings button. Center shows the app logo (hammer icon), the title 'TCG Forge PRO', the tagline 'The card database manager built for indie TCG designers. Organise your cards, templates, sets, and game data — all in one place.', and '+ New project' and 'Open project...' buttons. Below, under 'ALL PRO FEATURES UNLOCKED', is a 3x2 grid of feature tiles: Card management (sets, templates, fields & full type support), Deckbuilder (build & test decks with rules & export), Dictionary (game terms with ? tooltips throughout), Goals & stats (full targets including per-type & field goals), Find & Replace (bulk-edit field values across any set), Export (CSV, ZIP backup, deck PNG & more). Beneath is a green 'TCG Forge Pro — Active / Master license' bar with a Manage button, then a 'Recent projects' list: Starfront, test, Starfront (paths under C:\\Users\\Seaof\\Downloads\\*.tcgforge)."
+      },
+      {
+        "file": "data/images/1sqv27p/2.jpg",
+        "description": "Screenshot of the TCG Forge card gallery for the set 'A Realm Awakened' (project 'Souls TCG', 20 cards), showing rendered cards in a 4-column grid. Top toolbar buttons: Duplicate (Pro), Goals, Edit set, Export combined, Export by type, Import CSV, Reorder IDs (Pro), Find & Replace, Blank cards, + Add card. Sidebar lists Overview, All cards (20), Deckbuilder, Dictionary, and the set list. Cards are dark-framed fantasy cards with a cost gem top-left (blue diamond number), name banner at top, a red/colored vertical strip at top-right with class/faction icons, painterly fantasy art, a semi-transparent gray text box over the lower art, a type line bar at the bottom, and a footer 'A Realm Awakened 0XX/260 • C' with '™ & © 2025 Vesuvius Games'. Row 1: Goblin Blademaster (cost 3, Soul - Goblin, stat column 1/3/1, text 'Souls you control with a base power of 1 have Piercing. (Damage from a source with Piercing ignores Armor)', goblin with sword art); Goblin Horde (cost 3, Skill, 'Summon 3 1/1/0 Goblin Grunt Soul Tokens.', goblin crowd art); Unruly Ordinance (cost 2, red backlash 1, Skill - Strike, 'Deal damage equal to the number of Souls you control to target Soul or Warlord.', goblin on cannon); Riotous Command (cost 1, Skill, 'Give your Souls with a base Power of 1 +2/+0/+0 until end of turn.', shouting soldier with red banners). Row 2 partially visible: Blessed Mace (2), Crude Signal Horn (3), Soul-Flame Conduit (5, backlash 1), Oathbreaker Thane (4, backlash 1). Below each card is a label with type, ID chip (e.g. ARW-008/020) and name; the Riotous Command card is labeled just 'ARW-013'. Card frames have colored top borders (red for Soul, teal for Skill)."
+      },
+      {
+        "file": "data/images/1sqv27p/3.jpg",
+        "description": "Screenshot of the TCG Forge set view in list/table mode for 'A Realm Awakened' (Cards (20) tab; other tabs Stats & analysis, Set templates). Filter chips for type: All, Reliquary, Soul, Equipment, Skill; dropdowns All Rarity, All Class, All Role; search box; view toggle icons; 'Sort: Rarity', 'Asc', 'No focus field'. Table columns: #, Type, Name, Cost, Backlash, Subtype, Rarity, Class, Effect, Role, Attack, Health, Armor, plus a tiny art thumbnail. Rows are color-coded on the left by type (yellow Reliquary, red Soul, teal Skill, dark Equipment). Example rows: ARW-002 Reliquary Goblin Camp cost 6, backlash 1, Common, Warrior; ARW-003 Altar of Nymri 3/2 Paladin; ARW-006 Soul Charging Axemaster cost 1, backlash 2, Human, Warrior, Damage, 4/1/0, 'Swift (This soul c...'; ARW-008 Soul Goblin Blademaster 3, Goblin, 1/3/1; ARW-011 Skill Goblin Horde; ARW-012 Unruly Ordinance; ARW-013 Skill with blank name '—'; ARW-016 Equipment Blessed Mace (Weapon, Paladin, Tank); ARW-018 Crude Signal Horn (Accessory); ARW-020 Soul Flame Conduit (Enchantment, Mage); ARW-007 Oathbreaker Thane Legendary Paladin 4/1, 3/3/1; Rare: Academy Library, Broken Blade Rec..., Scrabble for Scraps; Uncommon: Festival of Culture (Bard), Broken Blade Prie..., Cull the Mighty, Warn-Out Breast... (Armor), Aether Converge... (Enchantment). Effect text is truncated in the column; rarity shown with colored dots (gray common, blue rare, orange legendary, green uncommon); roles shown with colored dots (Damage, Support, Tank)."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.014465
+}

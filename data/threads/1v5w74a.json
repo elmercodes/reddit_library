@@ -1,0 +1,221 @@
+{
+  "id": "1v5w74a",
+  "title": "All of my game's art uses AI (Actual Integrity)",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1v5w74a/all_of_my_games_art_uses_ai_actual_integrity/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-25",
+  "upvotes": 320,
+  "comments": 69,
+  "engagement_score": 12.1442,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "hand-drawn art",
+    "ai art ban",
+    "art style",
+    "card readability"
+  ],
+  "summary": "A designer posted a gallery of hand-drawn art for their game Forebode, made after dropping AI placeholders, and asked if the style works or hurts the eyes. The community response was overwhelmingly warm, with nearly every comment praising the style as unique. Commenters repeatedly said it would help the game stand out, and several asked about tools, background and where to follow. There was no real disagreement; the temperature was friendly and supportive.",
+  "consensus": [
+    {
+      "point": "The distinctive hand-drawn style is praised as unique and likely to make the game stand out from others.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C7",
+        "C10",
+        "C20",
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 94,
+        "share": 0.817
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter lamented that AI is causing people to lose appreciation for the awkward early stage of developing their own style, and argued that learning to draw takes less time than people assume and often beats AI output.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "One commenter saw a resemblance to the original art of the board game Ascension and meant it as a compliment.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "One commenter read the rough style as fitting a brutal game world, so the art conveys the setting.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.017
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Borrow the strengths of an influence (negative space, odd proportions, huge scale) instead of copying the style. This gives you a recognizable look without imitation.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.017
+      }
+    },
+    {
+      "lesson": "Drawing the lineart on a black canvas and sketching in only highlights and edges lets unlit areas fall into black. This is a cheap shortcut to depth that also gives a cohesive look across many cards.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.017
+      }
+    },
+    {
+      "lesson": "A distinct, rough style can set a game apart, and when it matches the tone of the world (here, brutal) it adds character. Commenters expected it to stand out among similar-looking card games.",
+      "evidence": [
+        "C5",
+        "C20",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 20,
+        "share": 0.174
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Sharing a batch of in-progress art with a clear question and a personal story drew strong engagement and follow requests. Showing the art early builds an audience for the game.",
+      "evidence": [
+        "C7",
+        "C18",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.096
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer ditched AI placeholders and drew 70 pieces. Could you?",
+      "why_it_lands": "The thread shows a hand-drawn style earning heavy praise and follows from the new AI ban, so it speaks to designers weighing their own art options.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C8",
+        "C24"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 79,
+        "share": 0.687
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does a unique art style help your card game stand out?",
+      "why_it_lands": "Multiple commenters said the rough style would set the game apart from similar-looking ones, which invites designers to share their own experience.",
+      "evidence": [
+        "C5",
+        "C24",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 20,
+        "share": 0.174
+      }
+    }
+  ],
+  "comment_points_total": 115,
+  "comment_ids": {
+    "C1": "ozm3mql",
+    "C2": "ozm3tjm",
+    "C3": "ozm50um",
+    "C4": "oznv725",
+    "C5": "ozm4ng4",
+    "C6": "ozm5a84",
+    "C7": "ozmjx8h",
+    "C8": "oznl8ck",
+    "C9": "ozodd1a",
+    "C10": "ozn3x8a",
+    "C11": "ozn9rbh",
+    "C12": "ozokv6e",
+    "C13": "ozon97f",
+    "C14": "ozosqvj",
+    "C15": "ozowiwa",
+    "C16": "ozpf7d8",
+    "C17": "ozr1f4j",
+    "C18": "ozvk9jn",
+    "C19": "p00dffn",
+    "C20": "p042449",
+    "C21": "p06vap3",
+    "C22": "p0dm1ki",
+    "C23": "p0e2wji",
+    "C24": "p2yd34w",
+    "C25": "ozm6qrh"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster shares their hand-drawn artwork for the game Forebode and asks whether commenters like the style or find it hard on the eyes, while encouraging others to make their own art.",
+    "images": [
+      {
+        "file": "data/images/1v5w74a/1.jpg",
+        "description": "Hand-drawn digital sketch on a black background: a tall, hooded or long-haired armored humanoid figure with spiked shoulder pads, drawn in loose magenta/pink line work with a few red accents. It holds a large angular greatsword on the right, with a bright magenta tip. Faint brownish swirling smoke or wind streaks curve around it. No card frame, text, or UI; raw illustration only."
+      },
+      {
+        "file": "data/images/1v5w74a/2.jpg",
+        "description": "Hand-drawn digital sketch in pale teal/gray lines on black: a dark industrial or crypt interior with a pale cream-colored skeleton of a horned or crested creature standing upright at center right. Jointed mechanical or robotic arms and pipes extend from the right and center, with pillars, a bone-filled crate at the bottom left, and bone piles at the lower right. The scribbly line work is loose, and the left side is fainter. Raw illustration, no card frame or text."
+      },
+      {
+        "file": "data/images/1v5w74a/3.jpg",
+        "description": "Hand-drawn digital landscape on black: dense horizontal scribbled streaks in purple, magenta, hot pink, and white form a sunset or sky gradient. Black silhouetted tall poles or stalks with blocky tops, like antennas or totems, stand across a black hill in the foreground. Abstract and stylized, with no text, card frame, or UI."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.00776
+}

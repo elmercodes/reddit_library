@@ -1,0 +1,204 @@
+{
+  "id": "1rfgz9u",
+  "title": "There’s no feeling quite like it!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rfgz9u/theres_no_feeling_quite_like_it/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-26",
+  "upvotes": 160,
+  "comments": 44,
+  "engagement_score": 10.7914,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "first print run",
+    "trade show marketing",
+    "printing",
+    "milestone showcase"
+  ],
+  "summary": "A designer shared a photo of a small 64-copy shipment of their first TCG set, expedited as marketing copies for the GAMA trade show after three years of development. The community responded with warm congratulations, plus practical questions about the printer and how to see the cards. There were no disagreements and the tone was friendly and supportive. Engagement was modest in points, spread across many low-score comments.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters asked which printer made the boxes and cards. The poster named Panda for all printing, said it was flexible on their goals and is making updates for their future needs. One commenter said they currently use MakePlayingCards for physical support of a digital TCG.",
+      "evidence": [
+        "C15",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "A showcase post worked as a funnel. One commenter read the rulebook after checking the site, and another said they would pre-order a box after seeing the game for the first time.",
+      "evidence": [
+        "C14",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "Several viewers wanted to see the cards themselves and the poster could not add photos to comments, so previews went by DM. One commenter asked how to get a copy.",
+      "evidence": [
+        "C7",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "A commenter on year 2 of their own project said receiving playtest cards from MakePlayingCards and holding them was a special feeling, showing the physical-in-hand moment resonates across stages of development.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Treat printed copies as a design checkpoint: seeing and feeling real cards makes the project tangible, and people at different stages (playtest prints versus final print) describe it as a distinct milestone worth doing early.",
+      "evidence": [
+        "C5",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.104
+      }
+    },
+    {
+      "lesson": "Have a card gallery or visible card images ready when you post packaging. Interested viewers immediately asked to see the actual cards and a box photo alone left them asking for more.",
+      "evidence": [
+        "C7",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Order a small expedited batch as marketing copies before the bulk run, and use them for trade shows, demo copies, and getting product to content creators and store owners rather than opening them all yourself.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.188
+      }
+    },
+    {
+      "lesson": "Having a website with a rulebook available turns curious strangers into potential buyers, as seen with a commenter reading the rules and another planning a pre-order.",
+      "evidence": [
+        "C14",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    },
+    {
+      "lesson": "Choose a printer partly on flexibility and willingness to adapt to your goals. The poster's pick reportedly accommodated their requests and is adjusting for their future plans, while others are weighing printers like MakePlayingCards.",
+      "evidence": [
+        "C15",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.083
+      }
+    },
+    {
+      "lesson": "Trade show posts attract fellow exhibitors. One commenter asked for the booth number and said they would be at GAMA with their own homemade TCG, which creates networking opportunities.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Which printer should an indie TCG use? A designer just picked Panda.",
+      "why_it_lands": "Two separate commenters asked about the printer, and another named MakePlayingCards as their current choice, so printer choice is a live question for small designers.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.125
+      }
+    }
+  ],
+  "comment_points_total": 48,
+  "comment_ids": {
+    "C1": "o7jxjx9",
+    "C2": "o7jzax9",
+    "C3": "o7jzktz",
+    "C4": "o7k2447",
+    "C5": "o7m47ju",
+    "C6": "o7m93i5",
+    "C7": "o7jzpyn",
+    "C8": "o7k4asw",
+    "C9": "o7k00a2",
+    "C10": "o7k6728",
+    "C11": "o7k99ou",
+    "C12": "o7kjwf1",
+    "C13": "o7kllhe",
+    "C14": "o7l0ia1",
+    "C15": "o7l3zky",
+    "C16": "o7l5o46",
+    "C17": "o7lg55w",
+    "C18": "o7li10v",
+    "C19": "o7loqyy",
+    "C20": "o7s1q4t",
+    "C21": "o7tz1ux",
+    "C22": "o7x5h4z",
+    "C23": "o8a1bzs",
+    "C24": "o7ralog",
+    "C25": "o7jxbg1"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.006936
+}

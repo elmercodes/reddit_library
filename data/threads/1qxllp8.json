@@ -1,0 +1,350 @@
+{
+  "id": "1qxllp8",
+  "title": "Designing a digital TCG with player-created cards: occult archive vs bureaucratic record?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qxllp8/designing_a_digital_tcg_with_playercreated_cards/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-06",
+  "upvotes": 74,
+  "comments": 33,
+  "engagement_score": 9.607,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "visual identity",
+    "ai art",
+    "digital tcg"
+  ],
+  "summary": "A designer posted a side-by-side of a bureaucratic/archival card template versus a traditional fantasy parchment template for a digital TCG with player-made cards, asking which is more appealing and what to improve. The community was friendly and constructive, and by score the left bureaucratic version clearly carried more support for its character and originality. The right version drew praise for cleaner layout, contrast and readability. Common critiques were low contrast, the font on the left, and the hourglass icon; one top comment also pushed back on AI art.",
+  "consensus": [
+    {
+      "point": "The left archival card has stronger identity and originality, but needs better legibility: sharper contrast, a clearer hourglass icon and a better font. Commenters who prefer either side agree on readability fixes.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C6",
+        "C14",
+        "C18",
+        "C24",
+        "C10",
+        "C20",
+        "C23"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 34,
+        "share": 0.708
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters liked in-game drawing tools as an alternative to AI art, since they reinforce the documenting theme.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 20,
+        "share": 0.417
+      }
+    },
+    {
+      "point": "One commenter said the right card felt familiar, close to an MTG template, while the left felt original. Another found the left more interesting but a bit empty and suggested longer effect text.",
+      "evidence": [
+        "C6",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter suggested tying card templates to factions, with different borders and slight mechanical differences. The poster liked the idea.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter noted the dark border on the right card frames the art and makes the blacks pop, and suggested a uniform design language if the whole game matches.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter suggested using saturated accent colors on the parchment look to help contrast and players with poor eyesight.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter felt neither card looks interesting enough and suggested more unusual layouts, like art as the background, unless gameplay is the focus.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which template is better: archival left or traditional right",
+      "side_a": "The left archival card is preferred for its character, field-journal feel and originality.",
+      "side_a_evidence": [
+        "C1",
+        "C5",
+        "C6",
+        "C14",
+        "C24",
+        "C23"
+      ],
+      "side_b": "The right card is preferred or valued for cleaner layout, contrast, readability and framing of the art.",
+      "side_b_evidence": [
+        "C10",
+        "C20",
+        "C22",
+        "C25",
+        "C8"
+      ],
+      "side_a_support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 28,
+        "share": 0.583
+      },
+      "side_b_support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 11,
+        "share": 0.229
+      }
+    },
+    {
+      "issue": "Whether AI-generated art suits a player-created card game",
+      "side_a": "AI art cheapens the feel; let players upload their own images or link a free image library.",
+      "side_a_evidence": [
+        "C1"
+      ],
+      "side_b": "In-game drawing tools are a better fit for the documenting theme than AI generation or raw uploads.",
+      "side_b_evidence": [
+        "C4"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 17,
+        "share": 0.354
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.062
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Test card templates at max and zero rules text. A layout with a big text box can look empty on vanilla or short-text cards, so design for both extremes.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.062
+      }
+    },
+    {
+      "lesson": "Check contrast on stylized paper templates. Low-contrast text and pale paper hurt legibility even when the theme is liked. Use darker text, a whiter text area, or saturated accents.",
+      "evidence": [
+        "C10",
+        "C23",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.104
+      }
+    },
+    {
+      "lesson": "Keep icon clusters simple. A combined hourglass icon and number at the top corner read poorly, so use a solid symbol and make the icon set coherent.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "lesson": "Pick fonts by role. Pair a typewriter-style font for preprinted template parts with a distinct handwritten one for player content, and avoid weak handwriting fonts.",
+      "evidence": [
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.062
+      }
+    },
+    {
+      "lesson": "A familiar layout can read as generic. Distinct structure and theme-specific elements like category labels and stamps help a card stand out.",
+      "evidence": [
+        "C6",
+        "C24",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.146
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Share mockups with a specific question and offer a way to follow along, such as a dev-update channel or a playtest date, so interested commenters can follow your progress.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Archival journal card or clean fantasy frame: which would you playtest?",
+      "why_it_lands": "The thread leaned toward the quirky archival card, yet several commenters valued the clean card's contrast and readability. Designers can weigh character against clarity.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C14",
+        "C24",
+        "C10",
+        "C25"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 29,
+        "share": 0.604
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Your card template looks great, but can people actually read it?",
+      "why_it_lands": "Contrast, font and icon legibility came up repeatedly, even from commenters who preferred the stylized card.",
+      "evidence": [
+        "C10",
+        "C18",
+        "C20",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 8,
+        "share": 0.167
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "A card game with player-made cards: AI art or in-game drawing tools?",
+      "why_it_lands": "The top comment criticized AI art, while the poster weighed consistency and moderation against it. One commenter liked drawing tools.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 20,
+        "share": 0.417
+      }
+    }
+  ],
+  "comment_points_total": 48,
+  "comment_ids": {
+    "C1": "o3xbrtm",
+    "C2": "o3xemjj",
+    "C3": "o3xfadi",
+    "C4": "o3xfi60",
+    "C5": "o3y83fb",
+    "C6": "o3x9tt7",
+    "C7": "o3xbuwh",
+    "C8": "o3xr97i",
+    "C9": "o3xw4bj",
+    "C10": "o3xyzsu",
+    "C11": "o3y0dl4",
+    "C12": "o3yfjt8",
+    "C13": "o3yqgph",
+    "C14": "o3ygt2d",
+    "C15": "o3yy0aw",
+    "C16": "o3yl1kb",
+    "C17": "o3yyi8i",
+    "C18": "o3yldpl",
+    "C19": "o3yr6xu",
+    "C20": "o3xjvrn",
+    "C21": "o3xoc3w",
+    "C22": "o408bzv",
+    "C23": "o40fhpz",
+    "C24": "o426hr5",
+    "C25": "o4a2j7a"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants first impressions on which visual setting (occult archive vs bureaucratic record) is more appealing to playtest, plus any quick improvement suggestions for either card layout.",
+    "images": [
+      {
+        "file": "data/images/1qxllp8/1.jpg",
+        "description": "Side-by-side mockup of the same card, 'Normal Frog', on a checkerboard transparent background. Both use the same AI-generated art: a green toad with orange spots, sitting beside leaves, in a woodcut/ink-and-color style with a dark band at top.\n\nLeft card (bureaucratic/archival version, per the poster): beige aged-paper card with rounded corners and thin ruled lines. Top-left has a grey diamond with '2' (cost). Name 'NORMAL FROG' in handwritten-style caps, with a handwritten black '2' beside it. Top-right has an hourglass icon (timer-like, no clearly readable number). Below the title is a row with a 'CATEGORY' label and 'ENTITY' value. Large art box in the middle. Text box reads 'WHEN THIS CARD IS SUMMONED: DRAW A CARD' in all-caps handwritten-style font. Bottom-left has an orange starburst with '2' (attack), bottom-right has a heart with '4' (health). Stamp/label/note feel, a bit busy at the top.\n\nRight card (fantasy/occult version, per the poster): off-white textured parchment inside a thick dark charcoal border with square corners. Top-left blue-grey diamond '2', centered serif name 'Normal Frog', top-right hourglass icon with '0'. Art box below the name, then a framed type line 'Entity', then a large text box with centered serif text: 'When this card is Summoned: Move opposing entity'. Bottom-left brown starburst '2', bottom-right dark red heart '2'. Cleaner and more traditional layout with lots of empty space in the text box.\n\nThe two cards differ in stats and rules text (left: 2 cost/2 attack/4 health, draw a card; right: 2 cost/0 timer/2 attack/2 health, move opposing entity), so they are layout mockups with placeholder values."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.01272
+}

@@ -1,0 +1,218 @@
+{
+  "id": "1rk4lm0",
+  "title": "First version of my TCG (Scaredy Kat)",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rk4lm0/first_version_of_my_tcg_scaredy_kat/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-03",
+  "upvotes": 83,
+  "comments": 21,
+  "engagement_score": 9.0674,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "readability",
+    "card frame design",
+    "art direction"
+  ],
+  "summary": "A designer shared the first version of their haunted-house TCG based on the webcomic Scaredy Kat, featuring a monster-mouth card frame with fang-shaped stat holders, and asked for feedback on the card design. The community response was friendly and enthusiastic, with most comments praising the frame concept and art. The main critique, backed by a few commenters, was that fonts and text colors are hard to read against detailed backgrounds, and one commenter wanted clearer icons for the different teeth stats. There was no real split; praise dominated by score, with readability as the shared caveat.",
+  "consensus": [
+    {
+      "point": "The monster-mouth frame and the art are the standout strengths, praised as creative and distinctive.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C6",
+        "C11",
+        "C16",
+        "C17",
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 40,
+        "share": 0.714
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter liked the costume concept even though they are not a horror fan, which suggests the theme has wider appeal.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.089
+      }
+    },
+    {
+      "point": "One commenter said the stat fangs need distinct icons or names so players can tell them apart, and the creator planned to carve numbers into the teeth and add blue to the bottom-left.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.036
+      }
+    },
+    {
+      "point": "One commenter enjoyed the references on the Demon Demi card.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.036
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Check text legibility against busy art and textured containers. Stylized frames lose readability when fonts sit on detailed or colorful areas, so choose higher-contrast colors or add backing shapes behind rules text and corner numbers.",
+      "evidence": [
+        "C8",
+        "C10",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "When a frame holds several stats in similar shapes, give each stat a distinct icon, color or label so players can parse them at a glance. Frame-themed shapes can look identical otherwise.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.036
+      }
+    },
+    {
+      "lesson": "A strong thematic frame, like a monster mouth with fangs as stat holders, makes a game memorable and draws praise, but it must still serve function.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 24,
+        "share": 0.429
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A distinctive visual hook on the card frame generates warm engagement and demand to play, which suits building in public. Several people asked to try the game, so a playtest signup or DM route can capture interest.",
+      "evidence": [
+        "C1",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 18,
+        "share": 0.321
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Your card frame looks amazing, but can anyone actually read the text?",
+      "why_it_lands": "Readability was the one critique repeated by several commenters amid heavy praise, a common pain point for designers with stylized frames.",
+      "evidence": [
+        "C8",
+        "C10",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.143
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "A themed card frame: genius branding or a readability risk?",
+      "why_it_lands": "The monster-mouth frame earned the thread's top praise while commenters also flagged hard-to-read text and confusing stat teeth, so the tension is real.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C17",
+        "C8",
+        "C13"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 30,
+        "share": 0.536
+      }
+    }
+  ],
+  "comment_points_total": 56,
+  "comment_ids": {
+    "C1": "o8iu385",
+    "C2": "o8jggp1",
+    "C3": "o8i0gk0",
+    "C4": "o8jgrxh",
+    "C5": "o8jlaw0",
+    "C6": "o8jiz4w",
+    "C7": "o8q2e9y",
+    "C8": "o8juk9f",
+    "C9": "o8q1ll3",
+    "C10": "o8n6p14",
+    "C11": "o8i2alq",
+    "C12": "o8jguzc",
+    "C13": "o8meqf6",
+    "C14": "o8q23wp",
+    "C15": "o9eyu80",
+    "C16": "o8iizef",
+    "C17": "o8k7a7k",
+    "C18": "o8mn68x",
+    "C19": "o8n536l",
+    "C20": "o8wabam",
+    "C21": "oaadqm1"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general feedback and thoughts on the first version of the card design for their haunted-house TCG based on the webcomic Scaredy Kat.",
+    "images": [
+      {
+        "file": "data/images/1rk4lm0/1.jpg",
+        "description": "Card 'Demon Demi' (N:009). Portrait card with a purple border styled as a monster mouth: a gold tooth/fang at top-left holds the cost '6' in white (with a small cartoon face/coin icon above it), a gray fang with dark pitted texture at top-right holds '12' in black, and the name sits in a gray jagged banner at top center. Bottom-left white fang holds '10' in blue with 'N:009' beneath; bottom-right fang holds '1' in yellow with the vertical label 'Resist'. Text box is a pink fleshy tongue shape reading: 'This Character's Horror Can't be increased.' Art: comic/ink style in blue-violet tones, a silhouetted black winged and horned demon woman with tail standing on a staircase in front of a barred window. No type line or subtype banner at bottom (unlike the other two cards). Art box is oval and overlaps the frame."
+      },
+      {
+        "file": "data/images/1rk4lm0/2.jpg",
+        "description": "Card 'Zed' (N:008). Same monster-mouth frame: gold fang top-left with '0' (white), gray fang top-right with '3' (black), 'N:008' small at top right, bottom-left blue '6', bottom-right yellow '1' with 'Resist'. Text box reads: 'If this is played on a Purple Location, Summon a Purple character from your hand which has 3 or less Horror to this Location.' Red banner at the bottom with type line: '(Haunted House Worker/ Manager)'. Art: comic-style illustration of a man with glasses, red tie, suspenders and a blood-splattered shirt sitting at a cluttered office desk with files, and a meat cleaver embedded in his head. Colors are blue-gray with red accents."
+      },
+      {
+        "file": "data/images/1rk4lm0/3.jpg",
+        "description": "Card 'Vampire Kat' (N:015). Same frame: gold fang top-left '2' (white), gray fang top-right '2' (black), 'N:015' small at top right, bottom-left blue '6', bottom-right yellow '1' with 'Resist'. Text box: 'Vampire: When this Character inflicts Horror on a Leader or Character, Restore the amount of Horror dealt by this Character on your Leader's health.' The keyword 'Vampire:' is highlighted with an orange background. Red bottom banner type line: '(Haunted House Worker/Vampire/Adorable)'. Art: bright pink-haired cartoon girl with gold ring-shaped horns, a startled/angry expression, hands raised like claws, pink and teal outfit, on a white background with pink radiating lines. Text overlaps a busy art area slightly at the bottom of the art box."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007415
+}

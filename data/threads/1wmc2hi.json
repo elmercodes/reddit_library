@@ -1,0 +1,294 @@
+{
+  "id": "1wmc2hi",
+  "title": "Any advice / best practices on designing full art cards?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wmc2hi/any_advice_best_practices_on_designing_full_art/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-21",
+  "upvotes": 75,
+  "comments": 21,
+  "engagement_score": 8.9673,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "full art cards",
+    "text legibility",
+    "kickstarter stretch goals",
+    "card layout"
+  ],
+  "summary": "A designer running a Kickstarter for Cyclemental asked how to design full art variants of their cards, covering text legibility over art, how much text to keep, and general inspiration. The community response was friendly and supportive, with several backers chiming in, though the thread was small (33 community points). Commenters offered concrete layout tweaks and references (Riftbound Legends, Pokemon ex, OPTCG, MTG Secret Lair), and one off-topic joke thread about the standard pose was low-scored or removed.",
+  "consensus": [
+    {
+      "point": "Several commenters liked the current full art direction and treated frame-breaking, borderless or layered art as the way to make full art feel special. The dark gradient under the text was seen as a workable base.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 16,
+        "share": 0.485
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested thinner text outlines, or outlines in the card's main color (red here), so the text blends with the art instead of fighting it.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.273
+      }
+    },
+    {
+      "point": "One commenter said the effect box background should be more opaque with white text, warning that text matching its background color is a legibility problem. A follow-up suggested white text with a black outline on a black background.",
+      "evidence": [
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.121
+      }
+    },
+    {
+      "point": "One commenter proposed tying the layout to rarity: standard for low rarity, full art for higher rarity or chase versions, and a minimal full art as top chase. They suggested swapping flavor text for ability symbols on the minimal version so it stays playable, and asked about foil or cold stamping.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "One commenter noted that frame-popping art, as on Pokemon ex cards, could be its own rarity tier between standard and full art.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "A backer wished for more time to hit the stretch goals for the other alt arts.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.061
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should a full art card keep its gameplay text?",
+      "side_a": "Keep the text, or at least the key info or symbols, so the card stays playable and consistent with the game.",
+      "side_a_evidence": [
+        "C3",
+        "C5"
+      ],
+      "side_b": "Treat it as a show-off art card and strip or minimize text, as MTG Secret Lairs do.",
+      "side_b_evidence": [
+        "C13",
+        "C15"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.182
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.121
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When text sits over busy art, use a soft dark gradient behind it instead of a hard text box. It protects legibility while showing more of the illustration. Make the gradient or box opaque enough that white text clearly contrasts.",
+      "evidence": [
+        "C5",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.152
+      }
+    },
+    {
+      "lesson": "Tune text outlines to the art. A thinner outline or one using the card's main color can look more integrated than a heavy black or white stroke, and a high contrast pairing like white text with a dark outline keeps it readable.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.333
+      }
+    },
+    {
+      "lesson": "Give full art a distinct look beyond removing the text box. Options include a borderless edge-to-edge print, or art that breaks the frame so the character seems to step out of it.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 16,
+        "share": 0.485
+      }
+    },
+    {
+      "lesson": "Decide up front whether full art is a playable variant or a collector piece. If it must stay playable, replace long text with ability symbols so key info remains.",
+      "evidence": [
+        "C3",
+        "C13",
+        "C15"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.212
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Tie art treatments to rarity tiers (standard, full art, minimal chase) and add finishes like foil or cold stamping. This gives collectors reasons to chase variants and gives stretch goals a clear structure.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.091
+      }
+    },
+    {
+      "lesson": "Backers are engaged enough to give design feedback and ask for longer stretch goal windows. Asking for input mid-campaign builds goodwill, and a short window can frustrate supporters.",
+      "evidence": [
+        "C1",
+        "C12",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.394
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Should full art cards keep their gameplay text, or become pure art prints?",
+      "why_it_lands": "The thread split on it: some wanted symbols kept for playability, while others pointed to MTG Secret Lairs with barely legible or no text. Designers building their own variants face this exact choice.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C13",
+        "C15"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.303
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you keep white text readable on busy full art?",
+      "why_it_lands": "Legibility was the original poster's main worry, and commenters offered concrete fixes: darker gradients, more opaque boxes, and thinner or color-matched outlines.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.485
+      }
+    }
+  ],
+  "comment_points_total": 33,
+  "comment_ids": {
+    "C1": "pb5m5we",
+    "C2": "pb5o2eh",
+    "C3": "pb5vvzf",
+    "C4": "pb8v9c1",
+    "C5": "pb5yx0k",
+    "C6": "pb8vr3c",
+    "C7": "pb6dy0s",
+    "C8": "pb8vw4k",
+    "C9": "pb7rd42",
+    "C10": "pb6rx77",
+    "C11": "pb8w6tl",
+    "C12": "pb8xw8r",
+    "C13": "pb7m5ij",
+    "C14": "pb8uwba",
+    "C15": "pb9r02i",
+    "C16": "pcbixbl",
+    "C17": "pcbrb1z",
+    "C18": "pb5rmhe",
+    "C19": "pb5ztk2",
+    "C20": "pb603v8",
+    "C21": "pb8zyp4"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants advice and best practices for designing full art card variants, including text legibility over art, how much text/stats to keep, and general inspiration.",
+    "images": [
+      {
+        "file": "data/images/1wmc2hi/1.jpg",
+        "description": "Side-by-side comparison titled 'STANDARD VS FULL ART' of the card 'Singara, the Sun's Envy' (Fire Elemental), v1.0, Cyclémental © 2026, on a cream swirled background with @cyclementalgame watermark. Left (standard): red brushstroke-style border, round red fire-element icon top left, name in a white banner with a scroll end at right, red 'Fire Elemental' subtype tag, art on a white background of a fiery armored lion-like humanoid with a yellow mane and a sun disc on its chest. Text box in lower third with white background: '2x Ignite. Force target to give you 2 cards of their choice' and '3x Inferno. Force target to give you half their hand (rounded down), their choice', each with a red icon showing the multiplier. Bottom bar: WEAK (earth and water icons), center flavor text 'That sunburst on his chest is not armour. It's a second heart.', STRONG (metal and wood icons); the right side is partly cropped by the overlapping card. Right (full art): black border, art fills the whole card in a dynamic red/orange/yellow painterly style with the creature closer and bigger, flames at the right. Name and type tag sit directly on the art at the top. An extra keyword line appears: 'Ember. If attack is successful, target discards an additional 1 card' with a sword icon. Ignite and Inferno text is white over a darkened gradient at the bottom, with the same weak/strong bar and flavor text. Text is white with a dark shadow over busy art."
+      },
+      {
+        "file": "data/images/1wmc2hi/2.jpg",
+        "description": "Standalone standard art version of Singara, the Sun's Envy: red brush-edged border, fire icon, name banner with scroll, 'Fire Elemental' tag, watercolor-style fire lion warrior on a white/cream art area, a boxed white text panel with '2x Ignite. Force target to give you 2 cards of their choice' and '3x Inferno. Force target to give you half their hand (rounded down), their choice'. The bottom bar shows WEAK (earth, water), flavor text 'That sunburst on his chest is not armour. It's a second heart.', and STRONG (metal, wood). Footer 'Cyclémental © 2026 v1.0'. There is no Ember keyword on this version."
+      },
+      {
+        "file": "data/images/1wmc2hi/3.jpg",
+        "description": "Standalone full art version of Singara, the Sun's Envy: black thin border, hand-painted style art covering the whole card with the red/orange/yellow creature in dynamic pose, flames at right and a glowing orb at the lower left. The fire icon, name and 'Fire Elemental' tag overlay the top of the art. At the bottom, a dark gradient supports the white text with shadow: 'Ember. If attack is successful, target discards an additional 1 card' (Ember in red with sword icon), 'Ignite. Force target to give you 2 cards of their choice' (2x icon), 'Inferno. Force target to give you half their hand (rounded down), their choice' (3x icon). Below that, a translucent red-edged bar holds WEAK (earth, water), flavor text, and STRONG (metal, wood). Footer 'Cyclémental © 2026 v1.0'. Text is small and sits over busy art, with a legibility risk in the name area at the top."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.011041
+}

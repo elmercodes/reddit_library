@@ -1,0 +1,285 @@
+{
+  "id": "1uy1ngw",
+  "title": "Which Element Icons set are better: Chinese Hanzi / Japanese Kanji or Custom icons? Need advice for Cyclémental card game",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1uy1ngw/which_element_icons_set_are_better_chinese_hanzi/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-16",
+  "upvotes": 63,
+  "comments": 37,
+  "engagement_score": 9.6153,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "element icons",
+    "accessibility",
+    "card layout",
+    "theme and flavor"
+  ],
+  "summary": "A designer asked whether Hanzi/Kanji or custom icons work better for the five elements in their Wuxing-based card game, showing sample cards with both versions. Custom icons clearly drew more support by score, led by the 44-point top comment and a 23-point reply about colorblind accessibility. A smaller group defended the kanji for flavor and theme, and many commenters suggested combining the two. The tone was friendly and constructive, with praise for the art.",
+  "consensus": [
+    {
+      "point": "Both sides acknowledge the kanji carry more flavor and theme, while custom icons are easier to read for a general audience; many commenters frame it as flavor versus function, and several of those who prefer the custom set still admit liking the kanji style.",
+      "evidence": [
+        "C3",
+        "C10",
+        "C11",
+        "C18",
+        "C8",
+        "C19"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 63,
+        "share": 0.516
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter noted that colorblind players need icons distinguishable by shape, not just color, so clear distinct symbols matter for accessibility.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 23,
+        "share": 0.189
+      }
+    },
+    {
+      "point": "Several commenters suggested a hybrid, such as kanji inside or behind a custom shape, a faded kanji background, or a watermark, to keep both flavor and clarity.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C22",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 17,
+        "share": 0.139
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter who reads Chinese found the custom Wood, Metal and Earth icons unclear, so they would have to learn them anyway and might as well learn the hanzi; fire and water were seen as clear.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.025
+      }
+    },
+    {
+      "point": "One commenter noted that kanji printed inline in rules text would need color to keep the element association, while shapes can stand alone, but felt that was a small downside; they also saw the kanji giving knowledgeable players something to teach others.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.016
+      }
+    },
+    {
+      "point": "One commenter suggested a Yu-Gi-Oh style tiny text label above or below the icon to solve readability.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.008
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which icon set should the game use for its elements?",
+      "side_a": "Custom icons are better because they communicate meaning quickly to a broad audience and are accessible.",
+      "side_a_evidence": [
+        "C3",
+        "C4",
+        "C10",
+        "C12",
+        "C14",
+        "C15",
+        "C16",
+        "C24",
+        "C20"
+      ],
+      "side_b": "Hanzi/Kanji are better because they carry the theme, personality and roots of the game, and color plus labels already cover clarity.",
+      "side_b_evidence": [
+        "C8",
+        "C13",
+        "C17",
+        "C19",
+        "C21",
+        "C23"
+      ],
+      "side_a_support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 86,
+        "share": 0.705
+      },
+      "side_b_support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 11,
+        "share": 0.09
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Don't rely on color alone to tell elements apart; give each element a distinct shape or glyph plus a text label, so colorblind players can tell them apart.",
+      "evidence": [
+        "C4",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 30,
+        "share": 0.246
+      }
+    },
+    {
+      "lesson": "Test icons at their smallest size on the card, such as weak/strong and combo badges, since complex glyphs like kanji get harder to read there.",
+      "evidence": [
+        "C16",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 46,
+        "share": 0.377
+      }
+    },
+    {
+      "lesson": "If thematic glyphs are important, use them as secondary decoration (watermark, faded background, inside a shape) while a simple shape carries the information.",
+      "evidence": [
+        "C1",
+        "C22",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 14,
+        "share": 0.115
+      }
+    },
+    {
+      "lesson": "Check whether icons need to appear inside rules text; glyphs that depend on color to be identified are harder to use inline than standalone shapes.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.016
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Kanji for flavor or custom icons for clarity? A subreddit voted.",
+      "why_it_lands": "The thread leaned custom by score (the 44-point and 23-point top comments) but a vocal minority defended flavor, so viewers can pick a side.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C8",
+        "C17",
+        "C19",
+        "C21"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 74,
+        "share": 0.607
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Can you combine a thematic glyph with a clear icon without clutter?",
+      "why_it_lands": "Several commenters proposed hybrids like watermarks and shapes with kanji inside, and the poster is iterating on one, so it invites a design walkthrough.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C22",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 17,
+        "share": 0.139
+      }
+    }
+  ],
+  "comment_points_total": 122,
+  "comment_ids": {
+    "C1": "oxvxody",
+    "C2": "oxw1l6k",
+    "C3": "oxvludn",
+    "C4": "oxvn1lx",
+    "C5": "oxvnan1",
+    "C6": "oy0b2dn",
+    "C7": "oy0b86o",
+    "C8": "oybgk2q",
+    "C9": "oydxvs3",
+    "C10": "oxw9u6m",
+    "C11": "oxwdzv6",
+    "C12": "oxvxy1m",
+    "C13": "oxw6yjt",
+    "C14": "oxw8bpk",
+    "C15": "oxvw4r8",
+    "C16": "oxwmvu6",
+    "C17": "oxy443a",
+    "C18": "oypjqrs",
+    "C19": "oxw1tiq",
+    "C20": "oxweslb",
+    "C21": "oxxesi7",
+    "C22": "oxxmsmw",
+    "C23": "oxyhg3a",
+    "C24": "oxymtae",
+    "C25": "oxz86vh"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants advice on whether Chinese Hanzi/Japanese Kanji or custom icons work better for the five element symbols in Cyclémental, considering flavor, accessibility, and legibility at small sizes.",
+    "images": [
+      {
+        "file": "data/images/1uy1ngw/1.jpg",
+        "description": "Comparison sheet on a cream ink-wash background. Top half is labeled \"With Chinese Hanzi / Japanese Kanji\", bottom half \"With custom icons\", with a bold brush-style \"VS\" between them. Each half has two rows of five elements. Row 1 shows single round tokens with a brush-stroke black/cream ring. Row 2 shows double-element tokens, two smaller circles overlapping on a black brushed disc. Colors: Fire is red, Water blue, Wood green, Earth orange/gold, Metal purple. Kanji set: 火, 水, 木, 土, 金 in white. Custom set: Fire is a white flame, Water a white droplet, Wood a four-pointed star/leaf shape, Earth a stacked-bars pyramid, Metal a white hexagon with a downward triangle. Icons are flat and bold. In the double tokens the glyphs are noticeably smaller."
+      },
+      {
+        "file": "data/images/1uy1ngw/2.jpg",
+        "description": "Two versions of the same sample card side by side, labeled \"Special Elemental\"; the left uses Hanzi/Kanji icons, the right uses custom icons. Both have a red \"SAMPLE\" watermark. The card is \"Pasiris, the Sand Clasher\", an Earth Elemental, with a black border plus a gold brush-stroke inner frame. Top-left has a round element icon (土 or pyramid icon), then the name on a white banner with a scroll end at right, and an orange \"Earth Elemental\" type tag below the name. The art is a watercolor/ink-style blue-gray mechanical spider with glowing orange orbs. A dark ability bar reads \"Waterproof. When attacking, this creature cannot be countered by Water.\" and has a blue Water icon with a crossed-out badge. The cream text box lists combos: 2x \"Petrify. Cancel an attack, combo, or spell targeting you\" and 3x \"Gravity. Every player with more cards than you discards down to match you after using this combo.\" The bottom bar has WEAK (Wood icon) at left, a flavor-text scroll \"Time's up, I'll send you back to the deserted island\", and STRONG (Metal and Fire icons) at right. Footer: \"Cyclémental © 2026 James Rotanson v1.0\". The weak/strong icons and combo cost badges are very small; the kanji versions are slightly harder to read at that size."
+      },
+      {
+        "file": "data/images/1uy1ngw/3.jpg",
+        "description": "Two versions of the same sample card side by side, labeled \"Striker Elemental\"; left uses Hanzi/Kanji, right uses custom icons. Both have a red \"SAMPLE\" watermark. The card is \"Tsunaja, the Wave King\", a Water Elemental, with a blue frame and the same layout as the Pasiris card. The art is a watercolor-style blue and teal dragon-like humanoid with multiple arms, golden antlers, and orange accents. The ability bar reads \"Swirl. If attack is successful, target gives you 1 additional card of their choice\". The text box has 2x \"Ripple. Reveal target's full hand to everyone, take 1 card of your choice excluding Qi\" and 3x \"Vortex. All players pool their hands (excluding Qi), then shuffle, and redeal evenly. Leftover cards go to you.\" The bottom bar has WEAK (Metal and Wood icons) at left, flavor text \"It wears the robes of every court it waved goodbye to\" in the center, and STRONG (Fire and Earth icons) at right. Footer: \"Cyclémental © 2026 James Rotanson v1.0\". The small icons in the weak/strong areas are tiny in both versions."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010715
+}

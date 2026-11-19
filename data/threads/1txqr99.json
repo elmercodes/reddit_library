@@ -1,0 +1,302 @@
+{
+  "id": "1txqr99",
+  "title": "How can I improve the colors and look of these cards?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1txqr99/how_can_i_improve_the_colors_and_look_of_these/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-05",
+  "upvotes": 47,
+  "comments": 39,
+  "engagement_score": 9.4045,
+  "flair": "Card Critique",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "tarot style",
+    "accessibility",
+    "card critique"
+  ],
+  "summary": "A designer posted a tarot-styled card called The Fish and asked for feedback on colors, border, layout and UI elements. The response was friendly and mostly positive, though scores were tiny (the community comments total only 19 points, with the top comment at 6). Commenters praised the clean, airy look and then offered many small refinements: sun and moon balance, header contrast, the HP label, and colorblind accessibility. There was no real split.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters felt the sun and moon are unbalanced in size and should match. One also wanted both in a subtle yellow, a more crescent-shaped moon, and no blue spot on the sun.",
+      "evidence": [
+        "C20",
+        "C21",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.158
+      }
+    },
+    {
+      "point": "Two commenters said the header needs more contrast: the title banner outline is much stronger than the top section, and the header could use bolder lines or a touch of color in the corners.",
+      "evidence": [
+        "C11",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.105
+      }
+    },
+    {
+      "point": "One colorblind player said games lacking a non-color way to tell colors apart are a major problem. Suggested a symbol or small text box marking the color.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter said the HP label may be clutter in the upper right if nothing else goes there.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter suggested making the sun's spikes irregular in length and thickness, since a perfectly even sunburst looks mechanical.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter noted the small trimmed arc at the bottom center looks accidental and should be cut deeper or aligned with the art edge.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter wanted to see the template on other cards because the ripple-like flourishes and palette are tied to a water theme. They also suggested testing the longest zodiac name, Sagittarius, in the sign box.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter suggested Roman numerals for the level, since tarot cards use them.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter suggested a thin gold outer edge plus a thick line matching the rules box between the white border and the art.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter suggested a black border with white details so the sun and other elements pop more.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Do not rely on color alone to identify card type or element. Put a symbol or icon in the key corner slot, such as a water shape in the cost circle, so colorblind players read it as fast as everyone else.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Keep ornament weight consistent across the frame. When the title banner outline is much heavier than the header lines, the eye splits. Match outline colors and strengths, or boost header contrast with bolder lines or corner color.",
+      "evidence": [
+        "C11",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.105
+      }
+    },
+    {
+      "lesson": "Pair paired symbols like sun and moon at matching sizes, and avoid labels (HP) on only one side. Mismatches read as unintentional and clutter minimalist layouts.",
+      "evidence": [
+        "C20",
+        "C21",
+        "C23",
+        "C3"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 4,
+        "share": 0.211
+      }
+    },
+    {
+      "lesson": "Test a template on cards beyond the first one. Flourishes tied to one theme and long labels like Sagittarius can break the layout on other cards.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Avoid perfectly uniform decorative shapes. Varying spike length and thickness on a sun makes it feel hand-drawn and natural, and tiny trims like a shallow notch look accidental unless made decisive.",
+      "evidence": [
+        "C9",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.105
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A colorblind player says color-only card types are a massive problem. How do you fix it?",
+      "why_it_lands": "The accessibility point drew real engagement from the designer, who debated icon placement in the cost circle; it is a concrete, filmable design problem.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should a minimalist card keep its HP label, or is it clutter?",
+      "why_it_lands": "A simple layout question that creators can show side by side; one commenter raised it and the poster was open to cutting it.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.053
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Tarot-style cards: do ornaments like sun and moon need to match in size?",
+      "why_it_lands": "Several commenters independently picked at the sun and moon balance, making it a visual before-and-after demo.",
+      "evidence": [
+        "C20",
+        "C21",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.158
+      }
+    }
+  ],
+  "comment_points_total": 19,
+  "comment_ids": {
+    "C1": "opxu3ur",
+    "C2": "opxwx05",
+    "C3": "opxwcw7",
+    "C4": "opxx97d",
+    "C5": "opy1ncj",
+    "C6": "opy9la2",
+    "C7": "opym82i",
+    "C8": "opynuga",
+    "C9": "opzssnz",
+    "C10": "opztkn9",
+    "C11": "oq1bjls",
+    "C12": "oq3s8gl",
+    "C13": "oq8lua2",
+    "C14": "oq9ue1a",
+    "C15": "oq9akzm",
+    "C16": "oq9v0bf",
+    "C17": "oq9wnb2",
+    "C18": "oqc9ihf",
+    "C19": "oqcipie",
+    "C20": "oq05o5j",
+    "C21": "oq05t48",
+    "C22": "oq0l0um",
+    "C23": "opzthxs",
+    "C24": "oq0u7qm",
+    "C25": "oqjwwp1"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the card's colors, border, layout and UI elements, and how to make it look more like a tarot card, plus general first impressions.",
+    "images": [
+      {
+        "file": "data/images/1txqr99/1.jpg",
+        "description": "Single portrait card on a dark navy background, titled \"The Fish\". White rounded-corner frame with thin silver-blue filigree and star/sunburst ornaments. Art window has an arched top and fills most of the card. Top-left: a blue circle with \"0\" (cost or energy) set inside a white sunburst/spiky ring. Directly below it: a small dark circle with \"Lv 1\". Top center: a white semicircle tab reading \"PISCES\" in spaced small caps with the Gemini symbol (II-like glyph) beneath it. Top-right: a pale gray-blue circle with \"HP 8\" in dark blue. Art: a painterly digital illustration of a blue fish with pink-red fins swimming downward in teal water with a dark blue shadow shape, described by the poster as a placeholder. Over the bottom of the art is a white ribbon banner with the name \"The Fish\" in dark blue serif text. The lower text area is a dark charcoal/navy panel with a gold keyword \"[INHERIT]\", then white sans-serif rules text: \"When an ally takes damage from an attack, you may move up to 2 DMG from it to this card.\" \"2 DMG\" is bold pink-red. At the bottom is a small blue four-point star in a white semicircular notch, with faint concentric arc decorations in the corners. Text is readable, and the palette is teal, navy, white, and pink accents."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010364
+}

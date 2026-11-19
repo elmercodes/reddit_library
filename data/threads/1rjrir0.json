@@ -1,0 +1,378 @@
+{
+  "id": "1rjrir0",
+  "title": "Minimalist stick-figure TCG. Does this style work?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rjrir0/minimalist_stickfigure_tcg_does_this_style_work/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-03",
+  "upvotes": 133,
+  "comments": 80,
+  "engagement_score": 11.4895,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card art style",
+    "outer glow contrast",
+    "print color",
+    "stick figure art"
+  ],
+  "summary": "A designer posted three cards from a minimalist stick-figure TCG and asked whether the style appeals, whether an outer glow behind the characters helps, and how to keep dark clans legible in print. The community was friendly and encouraging, and the glow won by a wide margin: most commenters picked it, including the three highest-scoring comments. A few commenters suggested fills, outlines, or readability fixes, and one found the style more board game than TCG. Overall temperature is warm and supportive.",
+  "consensus": [
+    {
+      "point": "Commenters like the stick-figure style, finding it charming, expressive, and distinctive, and several say the layout makes it feel deliberate rather than a limitation of the artist's skill.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C6",
+        "C8",
+        "C9",
+        "C11",
+        "C12",
+        "C14",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "support": {
+        "comments": 11,
+        "commenters": 11,
+        "points": 65,
+        "share": 0.474
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters say the rules text is hard to read and should be made more prominent.",
+      "evidence": [
+        "C17",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.029
+      }
+    },
+    {
+      "point": "One commenter worries that a minimalist style could look samey and be hard to tell apart once a set reaches around 100 cards.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.022
+      }
+    },
+    {
+      "point": "One commenter says the characters are expressive enough to be drawn larger on the card, while noting negative space is also useful.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "point": "To preview print darkness, one commenter suggests checking CMYK color settings in design software and ordering cheap test prints from a traditional CMYK printer, then lightening backgrounds if needed.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "point": "One commenter says the white stats on the light card are low contrast and suggests aligning them and making them black.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "point": "One commenter feels the style reads as a board game rather than a collectible TCG.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "point": "One commenter suggests lowering the opacity of the background circle or using only an outline so it does not steal focus from the character.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.007
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should the characters be filled with a solid color or outlined in white rather than only using an outer glow?",
+      "side_a": "The glow alone is enough and keeps the minimal look.",
+      "side_a_evidence": [
+        "C21",
+        "C22",
+        "C23",
+        "C11",
+        "C19"
+      ],
+      "side_b": "Add a fill or a solid white outline to the figures to separate them from the background.",
+      "side_b_evidence": [
+        "C24",
+        "C25",
+        "C1",
+        "C18"
+      ],
+      "side_a_support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 91,
+        "share": 0.664
+      },
+      "side_b_support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 14,
+        "share": 0.102
+      }
+    },
+    {
+      "issue": "Does the outer glow improve the cards?",
+      "side_a": "Use the glow because it separates the figure from the background and adds dimension.",
+      "side_a_evidence": [
+        "C2",
+        "C3",
+        "C4",
+        "C7",
+        "C13",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "side_b": "The clean version looks better because the glow draws too much attention.",
+      "side_b_evidence": [
+        "C6"
+      ],
+      "side_a_support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 99,
+        "share": 0.723
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Separate thin black linework from a dark colored background with a halo, outline, or fill. A glow was the most favored fix, and it also helps on future dark clan colors.",
+      "evidence": [
+        "C21",
+        "C22",
+        "C23",
+        "C13",
+        "C18",
+        "C24"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 99,
+        "share": 0.723
+      }
+    },
+    {
+      "lesson": "Check text and stat contrast, not only the art. Light stat numbers on a light card and small gray rules text were called hard to read.",
+      "evidence": [
+        "C5",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.029
+      }
+    },
+    {
+      "lesson": "Make a deliberately simple style feel intentional by pairing it with a considered layout. Commenters said the template stopped the stick figures from reading as a limitation.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "lesson": "Plan for variety across a large set. Minimal characters can blur together over 100 cards, so vary poses, framing, and scale.",
+      "evidence": [
+        "C1",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.036
+      }
+    },
+    {
+      "lesson": "Test print darkness before committing. Use CMYK soft-proofing and cheap test prints, then lighten background colors if they print too dark.",
+      "evidence": [
+        "C14",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.036
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A cheap test print at a retail print shop with a traditional CMYK press is a low-cost way to check color before a full print order.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Does an outer glow fix thin black linework on dark card colors?",
+      "why_it_lands": "The poster asked this directly, and glow was picked by most commenters, including the three top-scoring comments, while a few suggested fills or outlines instead.",
+      "evidence": [
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C18"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 97,
+        "share": 0.708
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Will your card art still be readable once it's printed darker?",
+      "why_it_lands": "Print darkness is a worry for any designer, and the thread offers a concrete low-cost fix: CMYK soft-proofing and test prints.",
+      "evidence": [
+        "C14",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.036
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Minimalist stick figures: charming, or too much like a board game?",
+      "why_it_lands": "The style drew broad praise, but one commenter said it did not feel like a TCG worth collecting and another worried about sameness across a big set.",
+      "evidence": [
+        "C15",
+        "C1",
+        "C8",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 50,
+        "share": 0.365
+      }
+    }
+  ],
+  "comment_points_total": 137,
+  "comment_ids": {
+    "C1": "o8fokwv",
+    "C2": "o8g1gin",
+    "C3": "o8gu3s7",
+    "C4": "o8fsnvy",
+    "C5": "o8fu9gp",
+    "C6": "o8hel17",
+    "C7": "o8hmclx",
+    "C8": "o8hnfvj",
+    "C9": "o8iagw0",
+    "C10": "o8jzq6x",
+    "C11": "o8iyaa1",
+    "C12": "o8j032u",
+    "C13": "o8j1psj",
+    "C14": "o8jjzo8",
+    "C15": "o8jzm90",
+    "C16": "o8kamxr",
+    "C17": "o8m3ysx",
+    "C18": "o96g8xd",
+    "C19": "o96v80c",
+    "C20": "o9bkm0l",
+    "C21": "o8f5x0g",
+    "C22": "o8f8ya3",
+    "C23": "o8ffajy",
+    "C24": "o8f6ynl",
+    "C25": "o8l8glg"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the minimalist stick-figure art and template style is appealing, whether the outer glow behind characters improves contrast versus the clean version, and how to keep art legible in print on darker clan colors.",
+    "images": [
+      {
+        "file": "data/images/1rjrir0/1.jpg",
+        "description": "Side-by-side comparison of the same red-clan card 'Saboteur' (SDVR-004), left 'Without outer glow', right 'With outer glow' (large black caption overlays on translucent boxes cover the lower text box). Layout: light gray textured card on dark background; red angled banner at top with centered serif small-caps name; hexagon clan/type icon (hooded figure) top-left; large red gradient circle as art frame with black line-art stick-figure fox holding a pistol, winking, jointed stick limbs, scribbled ground shadow; left vertical stats on dark shield icons: star icon 1, heart 5, claw-slash 2; right vertical red strip 'ART: JOSHUA M.'; red-outlined sci-fi text box at bottom reading 'WHEN SUMMONED: TARGET AN ENEMY ENTITY AND PLACE 2 BURN COUNTERS ON IT.' in small gray sans-serif caps (low contrast, partly hidden by caption); bottom red banner '© 2026 CØREBREAK TCG'. Glow version adds a soft light halo around the black linework so the figure separates from the dark red circle; the clean version has thin black lines that blend into the red, especially on the dark lower part of the gradient. Hand-drawn digital line art."
+      },
+      {
+        "file": "data/images/1rjrir0/2.jpg",
+        "description": "Same comparison for blue-clan card 'Sovereign' (SDAD-012), left without outer glow, right with. Same template in light blue: blue name banner, blue gradient circle, black line-art octopus-headed king with crown, cape and trident, stick-figure jointed legs with flippers. Stats: 5 (star), 10 (heart), 6 (claw). Text box: 'WHEN SUMMONED: PLACE 3 ABYSS COUNTERS ON ALL ENEMY ENTITIES. THEN, IF AN ENEMY ENTITY DROWNS BY THIS EFFECT, YOU MAY DESTROY AN OPPONENT'S SHIELD.' (partly covered by caption). Art credit 'ART: JOSHUA M', footer '© 2026 CØREBREAK TCG'. Black lines read clearly on the lighter blue in both versions; glow effect is subtle here."
+      },
+      {
+        "file": "data/images/1rjrir0/3.jpg",
+        "description": "Same comparison for yellow/gold-clan card 'Sniper' (SDVS-009), left without outer glow, right with. Gold/orange banners and gradient circle; black line-art stick figure archer with headband drawing a bow, small lightning/spark scribbles near the arrow hand. Stats: 3 (star), 8 (heart), 4 (claw). Text box: 'AT THE END OF YOUR TURN: TARGET A RANDOM ENEMY ENTITY ON THE FIELD AND MAKE IT STATIC. IF IT IS ALREADY STATIC, DEAL 2 DAMAGE TO IT INSTEAD.' (partly covered by caption). Art credit and footer same as others. Black linework has strong contrast on the gold in both versions; glow is barely noticeable."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.011981
+}

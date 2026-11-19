@@ -1,0 +1,234 @@
+{
+  "id": "1qb6zrp",
+  "title": "Accused, by a local game store owner, of being so OCD that I *intentionally* designed the EC booster boxes to fit that well in their display case drawers.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qb6zrp/accused_by_a_local_game_store_owner_of_being_so/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-12",
+  "upvotes": 89,
+  "comments": 30,
+  "engagement_score": 9.6508,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "local game store distribution",
+    "booster box packaging",
+    "indie tcg marketing",
+    "community building"
+  ],
+  "summary": "A designer shared photos of their Elemental Creatures TCG booster boxes fitting tightly in a local game store display drawer, along with a joke about being accused of obsessive design. The thread was friendly and mostly supportive, with praise for the display and several questions about how the game got into stores and where to buy it. The most upvoted replies were compliments and a question on store pickup, while a few commenters politely asked the poster to stop using OCD as a casual adjective, and the poster accepted that. No real split emerged.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter singled out the second image, the front view with cards in acrylic stands on a playmat, as a very nice presentation. It was the top-scored comment.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.265
+      }
+    },
+    {
+      "point": "Two commenters asked where to buy or see more cards, and one reported buying boxes after the poster shared a store link. The thread shows interest converting to a sale.",
+      "evidence": [
+        "C15",
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.122
+      }
+    },
+    {
+      "point": "Two commenters, one of them with OCD, asked the poster to stop using OCD as a casual stand-in for neatness. They said it trivializes a serious condition.",
+      "evidence": [
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.102
+      }
+    },
+    {
+      "point": "One commenter said they had already seen the game advertised at their local card shop, and another had watched videos about it. This suggests the content and in-store presence reinforce each other.",
+      "evidence": [
+        "C13",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.102
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make box dimensions work for real retail fixtures, such as drawers and shelves, where boxes pack edge to edge. Tidy, uniform packing gets noticed and praised, and makes the product look professional in store.",
+      "evidence": [
+        "C5",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 17,
+        "share": 0.347
+      }
+    },
+    {
+      "lesson": "Photograph the product in a staged display with cards on stands and a playmat. The front-facing view with card art visible drew the top praise, because it shows the game, not only the box.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.265
+      }
+    },
+    {
+      "lesson": "Avoid casual medical terms like OCD in post copy and captions. Readers with the condition object, and it distracts from the product.",
+      "evidence": [
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.102
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Local presence can get a homemade TCG into stores. Being a known regular in the local scene, following up after the owner showed interest, and selling at a consistent wholesale price helped. Selling by the case then saved the designer delivery trips.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.184
+      }
+    },
+    {
+      "lesson": "Give interested buyers a direct path: a card gallery link, a list of stores, and a shipping option. Commenters asked where to buy and see cards, and one bought right after receiving links.",
+      "evidence": [
+        "C15",
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.122
+      }
+    },
+    {
+      "lesson": "Online video and social content can seed local interest, since people mentioned seeing the game in videos or ads. Still, the designer admitted that being a familiar local face may make it hard to convince nearby players to try the game.",
+      "evidence": [
+        "C7",
+        "C13",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.163
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer asked how to get a local game store to stock a homemade TCG.",
+      "why_it_lands": "The second-highest comment asked exactly this, and the poster's answer was concrete: community ties, steady wholesale pricing, and selling by the case.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.184
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your box fit the store's display drawer? A designer posted one that does.",
+      "why_it_lands": "The tight 3x4 drawer fit drew praise, and packaging for real retail fixtures is a practical concern for self-published designers.",
+      "evidence": [
+        "C5",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 17,
+        "share": 0.347
+      }
+    }
+  ],
+  "comment_points_total": 49,
+  "comment_ids": {
+    "C1": "nz8dkam",
+    "C2": "nzbbrw2",
+    "C3": "nz8hu7p",
+    "C4": "nzbd4f0",
+    "C5": "nz8fx11",
+    "C6": "nzbdf1d",
+    "C7": "nz8utfu",
+    "C8": "nzyv0ve",
+    "C9": "nza5jnf",
+    "C10": "nzbev1g",
+    "C11": "nzahqhp",
+    "C12": "nzbivac",
+    "C13": "nzb1a70",
+    "C14": "nzbj163",
+    "C15": "nzi5mo9",
+    "C16": "nzi5oas",
+    "C17": "nzjlukp",
+    "C18": "nzjl9g3",
+    "C19": "nzn057d",
+    "C20": "nzu1adq",
+    "C21": "nzyoslm",
+    "C22": "nz9mf6e",
+    "C23": "nzbi6m7",
+    "C24": "nzdpxy5",
+    "C25": "nzjk26q"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "Just sharing a humorous anecdote and showing off the Elemental Creatures TCG booster boxes in a local game store display; no specific feedback requested.",
+    "images": [
+      {
+        "file": "data/images/1qb6zrp/1.jpg",
+        "description": "Photo of a game store display case. The top shelf (behind glass) holds shrink-wrapped Elemental Creatures Trading Card Game booster boxes stacked in rows of 4 (two layers), with small acrylic stands holding cards behind them. Below, an open wooden drawer holds 12 boxes in a 3x4 grid, tightly fitted edge to edge with almost no gaps. Box front art is a glossy purple/orange/yellow holographic-looking gradient with a white-outlined 'ELEMENTAL CREATURES' logo, red 'Trading Card Game' banner, a creature illustration (white/red dragon-like figure), and a row of colored element gems/dots across the top. A small label on the drawer reads roughly 'watch boxes'. Strong glare on the glass."
+      },
+      {
+        "file": "data/images/1qb6zrp/2.jpg",
+        "description": "Front-side view of the display case. Stacked shrink-wrapped Elemental Creatures TCG boxes in the back (purple/gold-green scaly textured background, white logo, red 'Trading Card Game' banner, a fan of card backs along the bottom, small round icon at right). In front, single cards stand in acrylic stands on a large playmat showing a red/white dragon in a starry blue-yellow sky ('1st Edition Event Prize' text at the edge). Visible cards have gold borders, holofoil star-pattern art, top-left cost number with element icons at top right, name and creature type under the art, effect text (e.g. 'Play Effect', 'Trigger Effect', 'Ongoing Effect') in a text box, and a number at bottom-left. Readable ones: Cheearctic (Leonaught, cost 3, blue frame, power 4, Trigger Effect: 'When this creature is exerted, it gains 5(+1) Power counters.', 168/195, designed and illustrated by Justin Hartsock 2024), Volgairo (red frame, Kyrokin, cost 3, power 9; a second holo Volgairo at right), Frightmear (green frame, Umapex, cost 3, power 5), Montigo (Reptiel, cost 1, power 2, Ongoing Effect about gaining +X power equal to number of an opponent's control points), Arrowkin (white/silver frame, Nesavian, cost 2, power 4, Play Effect), plus Wettpod and others partly hidden."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009517
+}

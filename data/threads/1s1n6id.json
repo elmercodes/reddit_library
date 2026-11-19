@@ -1,0 +1,275 @@
+{
+  "id": "1s1n6id",
+  "title": "First test print - feedback would be appreciated",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1s1n6id/first_test_print_feedback_would_be_appreciated/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-23",
+  "upvotes": 85,
+  "comments": 19,
+  "engagement_score": 8.9479,
+  "flair": "Advice Needed",
+  "post_type": "link",
+  "topics": [
+    "test print",
+    "card layout",
+    "card art",
+    "foil printing"
+  ],
+  "summary": "A designer posted their first test print of a homemade TCG and asked for feedback. The thread is small and friendly, with most comments praising the neon colors, original creature art and holographic foil. One commenter gave detailed layout advice about the Turn column and icons, and another warned against printing before the mechanics are tested. A typo (\"Couter\") was caught. No real disagreement; the overall temperature is warm and supportive.",
+  "consensus": [
+    {
+      "point": "The visual look of the cards (neon palette, original creature art, foil accents) was widely praised and seen as fitting the sci-fi theme.",
+      "evidence": [
+        "C1",
+        "C9",
+        "C11",
+        "C14",
+        "C17",
+        "C18"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 22,
+        "share": 0.595
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested the dedicated Turn column wastes space because attack is always infinite and other values are just 1 or 2; moving it could make damage and hit type easier to read. They also wondered whether icons would beat the words attack, block and counter.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "point": "One commenter liked the asterisk system for effect explanations since it saves layout space, but noted it makes multiple effects on one card hard.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "point": "Two commenters were impressed by the holographic foil on the border and detail, and one did not realize at first it was foil.",
+      "evidence": [
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.108
+      }
+    },
+    {
+      "point": "One commenter caught a typo on the card (\"Couter\" instead of Counter), showing test prints are useful for proofreading.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "One commenter said the art and colors would make them look into the game, but they could not judge the rules without knowing how it plays.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "One commenter advised holding off on printing until the game is more tested, since money would be wasted on cards that will likely change.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.027
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Audit every stat column for information value. If a value is nearly constant (like an always-infinite attack or a 1-2 turn count), fold it elsewhere so the numbers players actually compare stand out.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "lesson": "Consider icons instead of words for repeated action types like attack, block and counter, but test both versions in play, since cleaner looks do not always mean faster reading.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "lesson": "Footnote-style effect text with an asterisk saves card space, but plan for how cards with multiple effects will fit before committing to it.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "lesson": "Proofread all card text before printing, since even a polished design can carry an obvious typo that others spot instantly.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "lesson": "Foil used on borders and details can reinforce a frame and color scheme and gives a premium feel.",
+      "evidence": [
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Distinctive art and color are what hook viewers before they know the rules, so lead marketing with visuals.",
+      "evidence": [
+        "C14",
+        "C1",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.432
+      }
+    },
+    {
+      "lesson": "Hold off on printing larger runs until mechanics are tested, because rule changes make printed cards waste.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.027
+      }
+    },
+    {
+      "lesson": "Small-run custom print services can be used for test prints. The creator used aura-print for custom trading cards with holographic foil.",
+      "evidence": [
+        "C1",
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.324
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should a card show a stat that is almost always 1 or 2?",
+      "why_it_lands": "One detailed comment questioned a dedicated Turn column and the OP agreed, which gives a concrete layout puzzle designers can relate to.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.135
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Test print your cards early, or wait until the rules are locked?",
+      "why_it_lands": "Commenters loved the look of the print, yet one warned that printing before mechanics are tested wastes money, which sets up a real tradeoff for indie designers.",
+      "evidence": [
+        "C15",
+        "C14",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    }
+  ],
+  "comment_points_total": 37,
+  "comment_ids": {
+    "C1": "oc24mqq",
+    "C2": "oc2847v",
+    "C3": "oc28kak",
+    "C4": "oc1zhm1",
+    "C5": "oc27rov",
+    "C6": "oc57taf",
+    "C7": "oc658b8",
+    "C8": "oc6r9ie",
+    "C9": "occ16b0",
+    "C10": "ocki622",
+    "C11": "oc6l1f1",
+    "C12": "oc6l48z",
+    "C13": "oc6lqoo",
+    "C14": "ocaldml",
+    "C15": "ocalm7z",
+    "C16": "occt91c",
+    "C17": "oc5ocnz",
+    "C18": "oderjn7"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007938
+}

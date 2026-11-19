@@ -1,0 +1,358 @@
+{
+  "id": "1tkrdeg",
+  "title": "I'm trying to contribute in TCG projects but what am I lacking in my art or I'm just lacking proper marketing strategy?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1tkrdeg/im_trying_to_contribute_in_tcg_projects_but_what/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-22",
+  "upvotes": 50,
+  "comments": 25,
+  "engagement_score": 8.819,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "commissioning card art",
+    "indie tcg budgets",
+    "artist portfolios",
+    "freelance pricing"
+  ],
+  "summary": "An illustrator posted three pieces of TCG-style art and asked whether weak fundamentals, style, portfolio or marketing is holding back their card-art work. Commenters mostly praised the art and put the problem on budgets: indie and hobbyist TCG makers cannot afford commissions, especially at $150 or more per piece. The tone was friendly and constructive, with a few critiques of composition and genericness. Budget explanations carried the most points, while the one harsh style critique was low-scoring.",
+  "consensus": [
+    {
+      "point": "The main obstacle is indie and hobbyist TCG budgets, not the quality of the art. Many card projects have little or no money, and a game needs so many pieces that even modest rates add up to thousands.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C8",
+        "C9",
+        "C11",
+        "C18",
+        "C21"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 6,
+        "points": 28,
+        "share": 0.596
+      }
+    },
+    {
+      "point": "Alternative routes would be larger publishers, or board games and other projects with real budgets, rather than small hobby TCGs.",
+      "evidence": [
+        "C6",
+        "C8",
+        "C18",
+        "C19",
+        "C21"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 4,
+        "points": 8,
+        "share": 0.17
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Some indie creators collaborate with artists on a revenue-share basis instead of upfront pay.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.085
+      }
+    },
+    {
+      "point": "One commenter, a prospective buyer, said a single visual style leaves them unsure whether the artist can deliver a full set. They also suggested the artist pitch themselves as a storyteller who can match the fantasy and tone of each card.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.064
+      }
+    },
+    {
+      "point": "One commenter advised showing how the art solves the client's problem, such as helping pitch the game, secure funding or present a solid prototype.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.064
+      }
+    },
+    {
+      "point": "One commenter who pays for TCG art prefers Fiverr for its dispute handling and says a large portfolio is a differentiator there.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "Two commenters gave specific composition notes: a flat, horizontal layout on the elf crown, a robot that looks small and stuck, and an odd sitting-leg anatomy that could put off clients.",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "Rate expectations vary by client region, and one commenter suggested a floor of about $100.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is the art distinctive enough to stand out in TCGs?",
+      "side_a": "The art is excellent and professional enough to hire, with only minor composition or anatomy notes.",
+      "side_a_evidence": [
+        "C1",
+        "C4",
+        "C12",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20"
+      ],
+      "side_b": "The art is generic, glossy digital work like many current TCGs, with nothing that stands out.",
+      "side_b_evidence": [
+        "C14"
+      ],
+      "side_a_support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 26,
+        "share": 0.553
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Give each piece a strong, readable composition. Avoid flat horizontal layouts and undersized focal subjects, and check anatomy, because small flaws can read as red flags to buyers.",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "lesson": "Build cards around a clear player fantasy and match the art's tone to the card's power level. A mundane item can be playful while a legendary one should feel epic. A consistent archetype look helps a set feel coherent.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.064
+      }
+    },
+    {
+      "lesson": "A TCG needs huge numbers of art assets, so plan the card count and art scope early. Per-card costs scale fast and can sink a small project.",
+      "evidence": [
+        "C8",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.085
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Match your offer to buyers who have money. Hobby TCGs rarely have art budgets, while board games, LCGs, TTRPGs and bigger publishers are likelier to pay.",
+      "evidence": [
+        "C1",
+        "C18",
+        "C19",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 18,
+        "share": 0.383
+      }
+    },
+    {
+      "lesson": "Price and perceived cost both matter. Rates around $150 or more can rule an artist out for indie buyers before any conversation, so consider lower entry tiers, revenue-share deals or bundles.",
+      "evidence": [
+        "C1",
+        "C6",
+        "C8",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 21,
+        "share": 0.447
+      }
+    },
+    {
+      "lesson": "Freelance platforms give both sides dispute protection, and a large, varied portfolio helps artists win work there.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "lesson": "Frame the service as solving the client's problem, such as pitching, funding or prototyping, to justify spending.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.064
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Would you pay $150 for one card illustration in your indie TCG?",
+      "why_it_lands": "Commenters argued that per-piece rates collide with tiny budgets: a 100-card game runs into the thousands. Several said $150 was a hard no.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C21",
+        "C1"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 20,
+        "share": 0.426
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Indie TCG designers: how do you actually budget art for a whole set?",
+      "why_it_lands": "The thread's central pain point is that TCGs need huge numbers of pieces and little money exists. Options raised were revenue share, AI, DIY art and Fiverr.",
+      "evidence": [
+        "C6",
+        "C9",
+        "C12",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 10,
+        "share": 0.213
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer asked why their art isn't landing TCG jobs. What do buyers look for?",
+      "why_it_lands": "Commenters gave concrete buyer-side criteria: a full style toolbox, storytelling, composition, and portfolio depth.",
+      "evidence": [
+        "C9",
+        "C12",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.128
+      }
+    }
+  ],
+  "comment_points_total": 47,
+  "comment_ids": {
+    "C1": "onaltnl",
+    "C2": "ondiy7d",
+    "C3": "onjgw47",
+    "C4": "onakskl",
+    "C5": "ondidt3",
+    "C6": "oncdyqp",
+    "C7": "ondhu0u",
+    "C8": "ooh9170",
+    "C9": "onanzbm",
+    "C10": "onjgzg2",
+    "C11": "ondl6gh",
+    "C12": "oneb614",
+    "C13": "ooj8kvc",
+    "C14": "onokhj3",
+    "C15": "onbuztg",
+    "C16": "oniic1p",
+    "C17": "onkr8qy",
+    "C18": "onnjlgm",
+    "C19": "onutnh3",
+    "C20": "onzcj3u",
+    "C21": "ooh8d1z",
+    "C22": "onk98ni",
+    "C23": "onpmv5j"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster, an illustrator seeking TCG art work, wants honest feedback on whether their art fundamentals, style, portfolio presentation, or marketing/networking is holding them back.",
+    "images": [
+      {
+        "file": "data/images/1tkrdeg/1.jpg",
+        "description": "Two oval-cropped digital paintings on a black background, apparently TCG art boxes. Left: bright, warm yellow-green top-down scene of a giant gray metal wrench set into a brown wooden frame on sandy ground, with two knurled gray knobs with brass screws. Small cute plant creatures (purple and teal cabbage-like) sit in the upper left, with leaves and vines around. Right: dark teal and hot pink scene of a muscular shirtless lumberjack in suspenders and jeans leaping with an axe in each hand toward a gnarled tree stump monster with a glowing pink-white core. Dead branches hang overhead, red X marks appear on the stumps, and the style is painterly and stylized."
+      },
+      {
+        "file": "data/images/1tkrdeg/2.jpg",
+        "description": "Landscape digital painting, close-up of a green-skinned, pointy-eared elf's upper face (forehead, eyes, ears) in saturated lime green. A golden circlet in a flower and leaf design with a glowing pearl-like center floats above the brow, with extra bronze and maroon leaf-shaped loops forming a wreath. The background is a blue-teal gradient with radiating light rays and green sparkle crosses. The brushwork is loose and painterly, and the focus is the crown as an item or artifact."
+      },
+      {
+        "file": "data/images/1tkrdeg/3.jpg",
+        "description": "Square digital painting in a dark purple, magenta, and teal palette. A frightened young pointy-eared boy sits on the ground under a collapsed, overgrown metal structure, clutching a dagger with a bloody, torn knee. A robotic claw at the top emits a red-pink scanning beam that forms a triangle around him, with a glowing pink line along the ground. Dark foliage frames the bottom corners and there are drops of blood on the grass. The mood is tense and cinematic, with dramatic lighting."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.013489
+}

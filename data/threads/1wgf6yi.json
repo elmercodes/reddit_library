@@ -1,0 +1,201 @@
+{
+  "id": "1wgf6yi",
+  "title": "POV you’ve just made your own card game and you get to see it as a whole for the first time",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wgf6yi/pov_youve_just_made_your_own_card_game_and_you/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-14",
+  "upvotes": 171,
+  "comments": 32,
+  "engagement_score": 10.3923,
+  "flair": "Advice Needed",
+  "post_type": "video",
+  "topics": [
+    "print and play",
+    "dark card art",
+    "self-publishing",
+    "finishing a set"
+  ],
+  "summary": "A designer shared a POV video of their finished card game set, Kravestorm, laid out in binders for the first time. The community response was warm and congratulatory, with almost no pushback. The thread has very low engagement in points (27 community points total), so the strongest signals are small. The practical advice was about print cost, ink use and physical publishing options, and the OP explained why they were keeping the game print and play.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter warned that very dark, saturated cards will drain home printer ink. They suggested adjusting colors for the intended audience, and noted that a print shop with flat color pricing avoids the ink problem but still costs money.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    },
+    {
+      "point": "One commenter respected the print-and-play choice and said self-publishing a card game involves far more work and stress than people expect, so it should only be pursued if you truly want to.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    },
+    {
+      "point": "One commenter said doing all the art yourself and watching the style improve over the project is impressive. They hoped the game finds an easy way to reach players, because getting people to actually print and play is hard.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    },
+    {
+      "point": "One commenter said collecting packs and decks is part of the fun for them, which a non-randomized, fully accessible card pool does not offer.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.037
+      }
+    },
+    {
+      "point": "One commenter suggested thegamecrafter.com for physical releases.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If your card art is very dark, test how it prints at home before locking the look. Heavy saturation eats ink and adds friction for print-and-play players, so consider a lighter or ink-friendly variant to offer alongside the premium version.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    },
+    {
+      "lesson": "Use a consistent, self-made art style across the whole set. Commenters noticed the cohesive theme and the style improving over the project.",
+      "evidence": [
+        "C9",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.111
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Print-and-play lowers cost and risk for a solo designer, letting you put all your energy into new cards. The tradeoff is that fewer people will bother to print, so you need a way to make printing easy, such as a website, card search and ready PDFs.",
+      "evidence": [
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.148
+      }
+    },
+    {
+      "lesson": "Print-on-demand services can get expensive for a full core set when you want the whole card pool available at once. The OP found a single box would cost about $100, so it did not fit an expandable (non-random) card game.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Dark card art looks great, but what does it do to a player's printer ink?",
+      "why_it_lands": "A commenter flagged ink cost on dark cards for print and play, and the OP admitted the same problem from experience. It's a practical tradeoff every PnP designer faces.",
+      "evidence": [
+        "C7",
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer is skipping physical release entirely. Is print and play enough?",
+      "why_it_lands": "The OP chose PnP-only to focus on expansions, while a commenter worried few people actually print. That tension between focus and reach is relatable for solo designers.",
+      "evidence": [
+        "C4",
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.074
+      }
+    }
+  ],
+  "comment_points_total": 27,
+  "comment_ids": {
+    "C1": "p9trebc",
+    "C2": "p9tubhn",
+    "C3": "p9tupv2",
+    "C4": "p9tvkug",
+    "C5": "p9unuga",
+    "C6": "p9wtcgk",
+    "C7": "p9vq6ws",
+    "C8": "p9w9yat",
+    "C9": "p9w0yrm",
+    "C10": "p9wb7ir",
+    "C11": "p9unsas",
+    "C12": "p9wp88r",
+    "C13": "p9vbk6u",
+    "C14": "p9wp8uy",
+    "C15": "p9wgbz1",
+    "C16": "p9whsfp",
+    "C17": "p9wse1o",
+    "C18": "p9wtl3l",
+    "C19": "p9x5vgo",
+    "C20": "p9x7251",
+    "C21": "p9zklei",
+    "C22": "pa0gd49",
+    "C23": "pakf9f7",
+    "C24": "p9vuu0a",
+    "C25": "p9wag5c"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007689
+}

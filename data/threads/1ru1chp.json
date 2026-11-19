@@ -1,0 +1,189 @@
+{
+  "id": "1ru1chp",
+  "title": "Designing a digital TCG with player-created cards: exploring three faction styles for card design",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1ru1chp/designing_a_digital_tcg_with_playercreated_cards/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-15",
+  "upvotes": 121,
+  "comments": 13,
+  "engagement_score": 8.7626,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card frame design",
+    "readability",
+    "faction theming",
+    "digital tcg"
+  ],
+  "summary": "A designer showed three era-themed card frames (Handwritten Manuscript, Printing Press, Computer Printout) for a digital TCG with player-made cards and asked which style people like best. The thread was friendly and low-stakes, with only 24 community points across 13 comments. Reactions were mostly praise for the concept, with small, polite readability notes on the cursive font and the low-contrast computer frame. No real split emerged, and preferences were scattered across all three styles.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter suggested the Computer Printout frame could be modernized (terminal or futuristic look), while another liked it for being unfamiliar and a third found it nostalgic.",
+      "evidence": [
+        "C1",
+        "C12",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 11,
+        "share": 0.458
+      }
+    },
+    {
+      "point": "Two commenters flagged the handwritten cursive font as harder to read. One said it was slightly harder; another warned that younger players often can't read cursive.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.375
+      }
+    },
+    {
+      "point": "The Printing Press frame was singled out as easiest to read and as the most appealing by different commenters.",
+      "evidence": [
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.167
+      }
+    },
+    {
+      "point": "One commenter felt the three themes were expressed well and balanced in how different they are, and advised waiting for playtesting before tweaking visuals.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter said the Computer Printout era should be made more distinct so it reads at a glance when scanning quickly.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.083
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Check themed fonts for legibility with the whole audience. Cursive and handwriting styles can fail for players who never learned to read cursive, so use a handwritten-looking non-cursive font.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.375
+      }
+    },
+    {
+      "lesson": "When frames share one layout and differ only in texture, font and color, make sure each frame stays distinct at a glance. Low-contrast palettes, like the gray-green Computer Printout, risk blending in and being harder to scan.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.083
+      }
+    },
+    {
+      "lesson": "Defer fine aesthetic polish until real playtests show what matters; the faction frames already communicated their themes well.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.125
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Can players actually read cursive on a card? A designer was warned they can't.",
+      "why_it_lands": "Two commenters flagged the handwritten font's legibility, including the point that younger players may not read cursive, which is a practical question for any themed typography.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.375
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you make three card frames distinct when only the texture changes?",
+      "why_it_lands": "A commenter said the computer frame should stand out more for quick scanning, while another praised the balance of differences, giving a concrete design problem to answer.",
+      "evidence": [
+        "C13",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.208
+      }
+    }
+  ],
+  "comment_points_total": 24,
+  "comment_ids": {
+    "C1": "oai4630",
+    "C2": "oai4ssb",
+    "C3": "oai5lee",
+    "C4": "oailhw2",
+    "C5": "oaioyw8",
+    "C6": "oaiq3tj",
+    "C7": "oaki4h3",
+    "C8": "oakja9b",
+    "C9": "oaidyar",
+    "C10": "oaiw1rf",
+    "C11": "oak92hf",
+    "C12": "oalbmbc",
+    "C13": "oaoz986"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants opinions on which of the three era-themed card frame styles (Handwritten Manuscript, Printing Press, Computer Printout) people like best.",
+    "images": [
+      {
+        "file": "data/images/1ru1chp/1.jpg",
+        "description": "Comparison graphic on white background showing three blank card templates side by side, each with a heading: 'Handwritten Manuscript Era', 'Printing Press Era', 'Computer Printout Era'. All three share the same layout. Top bar: a diamond icon with '0' at top-left (cost-like), centered 'Card Name', and a round pie-segment icon with '0' at top-right. Below is a row with '#00000' on the left and 'Card Type' on the right. A large central art box has a faint diagonal 'Illustration' watermark. Under it is a text box with 'Ability 1' and 'Ability 2' centered. A bottom stat row has a starburst (attack-like) with '0' at left, a shield with '0' in center, and a heart with '0' at right. Icons look like distressed stamped textures.\n\nLeft (Manuscript): aged tan parchment with a double-line ornate border, a cursive/handwritten script font, and muted gray, olive-green and red icons. Middle (Printing Press): lighter cream paper, thin dark single-line borders, typewriter-style font, and more saturated icons in blue diamond, orange/green pie, tan starburst, gray shield, and red heart. Right (Computer Printout): green-bar striped continuous-feed paper with perforated tractor-feed holes along both sides, dashed lines marking the sections, a monospace font, and desaturated, grayish-green icons with a lower-contrast look. Below the cards is a row of the five icons in color: blue diamond, green/orange pie, tan starburst, gray shield, pink-red heart. Layouts are consistent between the styles; only the frame texture, fonts, and colors change. The Computer Printout text is lighter gray with lower contrast."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007012
+}

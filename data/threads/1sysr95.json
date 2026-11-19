@@ -1,0 +1,230 @@
+{
+  "id": "1sysr95",
+  "title": "\"Starterpack\" from my observations... No hate, love this community!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sysr95/starterpack_from_my_observations_no_hate_love/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-29",
+  "upvotes": 155,
+  "comments": 21,
+  "engagement_score": 9.6864,
+  "flair": "Discussion",
+  "post_type": "image",
+  "topics": [
+    "homemade tcg tropes",
+    "ai art",
+    "community humor",
+    "playtesting"
+  ],
+  "summary": "A designer posted a joke 'starterpack' meme listing common homemade TCG stereotypes (elemental creature games, crude parody cards, a Battle Women card, a drug-themed mythology game) and asked what was missed. The community responded warmly, mostly adding their own tropes such as AI placeholder art, Pokemon clones, untested templates and idea-protection posts. Nobody pushed back, and the tone was friendly and playful throughout. A few commenters also admitted to making games just for themselves or defended specific parody cards.",
+  "consensus": [
+    {
+      "point": "Commenters enjoyed the meme and piled on with more recurring tropes of the sub, especially AI art and Pokemon-style clones.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C7",
+        "C11",
+        "C13",
+        "C14"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 152,
+        "share": 0.7
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter listed a dozen tropes, including posts about rarities with nothing else, 3x7 grid playmats, Kickstarter updates and AI-ethics posts that are really about not affording an artist.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 77,
+        "share": 0.355
+      }
+    },
+    {
+      "point": "Two commenters noted that templates get shown off for games that have never been playtested.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 18,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "One commenter said they make TCGs only to play alone and learn design, and another said they focus on single-player games and share little.",
+      "evidence": [
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.074
+      }
+    },
+    {
+      "point": "Two commenters mocked posts that ask how to protect an idea or hand an idea off to someone else, with vague pitches like swords as playable characters.",
+      "evidence": [
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.065
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Do not show a polished template or layout as proof of progress before the game has been playtested. Readers notice the gap between presentation and tested rules.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 18,
+        "share": 0.083
+      }
+    },
+    {
+      "lesson": "Make a first physical playtest with simple stand-in materials, and show the actual rules and mat setup. Vague pitches or oversized mats with no explanation read as tropes.",
+      "evidence": [
+        "C4",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 84,
+        "share": 0.387
+      }
+    },
+    {
+      "lesson": "Solo-play designs are a legitimate way to learn design without needing an audience or a group of playtesters.",
+      "evidence": [
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.074
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Posts that lead with an idea alone, with no mechanics, get ignored. Share concrete rules or a playable prototype to earn engagement.",
+      "evidence": [
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.065
+      }
+    },
+    {
+      "lesson": "AI placeholder art is a heavily recognized trope in this community, so audiences read it as a red flag. Label it clearly as temporary or avoid it when sharing publicly.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 105,
+        "share": 0.484
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Card game designers joked about homemade TCG clichés. Which ones is my game guilty of?",
+      "why_it_lands": "The meme got 155 upvotes and many commenters added tropes like AI placeholder art, untested templates and Pokemon clones, so viewers will recognize themselves.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C7",
+        "C6"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 128,
+        "share": 0.59
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do you need to protect your TCG idea, or does nobody care?",
+      "why_it_lands": "Two commenters joked that idea-protection and idea-giveaway posts get ignored, which touches a real anxiety for new designers.",
+      "evidence": [
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.065
+      }
+    }
+  ],
+  "comment_points_total": 217,
+  "comment_ids": {
+    "C1": "oiwk54x",
+    "C2": "oiwl2b8",
+    "C3": "oixacq2",
+    "C4": "oiwlnfu",
+    "C5": "oiy8w3q",
+    "C6": "oj045wr",
+    "C7": "oixqxmv",
+    "C8": "oiwlbdz",
+    "C9": "oixvn2p",
+    "C10": "oiyb01h",
+    "C11": "oizczy0",
+    "C12": "oizr0wo",
+    "C13": "oixevfa",
+    "C14": "oiwj5wv",
+    "C15": "oizqnpf",
+    "C16": "oizrlri",
+    "C17": "oj2aov3",
+    "C18": "ojki62q",
+    "C19": "oo2s00o"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": false,
+    "what_is_asked": "The poster shares a joke 'starterpack' meme about homemade TCG tropes and asks what stereotypes they missed.",
+    "images": [
+      {
+        "file": "data/images/1sysr95/1.jpg",
+        "description": "Meme titled 'Homemade TCG Starterpack' showing four crudely drawn parody cards: a 'Creatures! of the four Aristotelian Elements' card with a red rat and fire icon captioned 'nft.com'; 'Arthur's Magic of the Realm' with a cost of two lightning icons and 1, a knight with axe, text 'move the card, strategically'; 'Battle Women' with a green-haired woman, sword, shield, text 'hee hee showering is for normies!! drive effect: playmat' (with a struck-out word); and 'Zeus vs Odin' with two figures and text 'also somehow about weed'."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007162
+}

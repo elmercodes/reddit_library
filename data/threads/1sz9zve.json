@@ -1,0 +1,215 @@
+{
+  "id": "1sz9zve",
+  "title": "Finally done with art for set 1!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sz9zve/finally_done_with_art_for_set_1/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-29",
+  "upvotes": 126,
+  "comments": 30,
+  "engagement_score": 9.9952,
+  "flair": "Homemade TCGs",
+  "post_type": "link",
+  "topics": [
+    "card art",
+    "homemade tcg",
+    "print and sell plans",
+    "showcase"
+  ],
+  "summary": "A designer shared that art for their 150-card (165 with alt arts and promos) classic-cartoon-style TCG set is finished after almost 2 years. The community response was uniformly friendly and congratulatory, with praise for the art style and flavor. Community comments carried few points each (38 total), and nothing was disputed. Questions focused on future plans, set size, and how it will be sold, and one commenter wanted to see the art on actual cards.",
+  "consensus": [
+    {
+      "point": "Commenters broadly praised the vintage-cartoon art style and its flavor and energy, with no criticism raised.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C11",
+        "C13",
+        "C15",
+        "C17",
+        "C19",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 10,
+        "commenters": 10,
+        "points": 28,
+        "share": 0.737
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters asked about the sales plan and product format, showing interest in how a homemade TCG would actually reach players (packs, precons, expandable).",
+      "evidence": [
+        "C5",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.132
+      }
+    },
+    {
+      "point": "One commenter compared the style to Cuphead, giving the art a clear familiar reference point.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "point": "One commenter said they could feel the game's flavor and style from the art alone, before knowing how it plays, which shows the art is communicating the game's tone.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter wanted to see the finished assets laid out on actual cards, since the post showed art rather than finished card layouts.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Anchor your art in a recognizable style reference. A nostalgic cartoon look made commenters feel the tone of the game before learning any rules, and one drew an instant Cuphead comparison.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.184
+      }
+    },
+    {
+      "lesson": "Show finished art in the real card frame, not only as raw assets. A commenter explicitly wanted to see how the art looks on actual cards, which is the real test of layout and readability.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Make your sales format clear early. Multiple people asked what the plan was, and whether it would be packs, precons or an expandable game, so state it up front in your posts.",
+      "evidence": [
+        "C5",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.132
+      }
+    },
+    {
+      "lesson": "A playable digital version (such as a Tabletop Simulator workshop) can keep interest alive before physical printing, and long gaps between posts make followers worry the project is dead, so regular updates help.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.026
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer spent two years on art for one set. What does that cost?",
+      "why_it_lands": "Art time is a pain point for solo designers, and the post drew 126 upvotes and friendly engagement around a 150-card set.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C7",
+        "C15"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 15,
+        "share": 0.395
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Packs, precons, or an expandable game: how should a small TCG sell?",
+      "why_it_lands": "Two commenters asked about the sales format, and the answer (precons and packs) shows the real choices facing homemade games.",
+      "evidence": [
+        "C5",
+        "C23"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.132
+      }
+    }
+  ],
+  "comment_points_total": 38,
+  "comment_ids": {
+    "C1": "oj08ofn",
+    "C2": "oj0jx09",
+    "C3": "oj0okco",
+    "C4": "oj0pefr",
+    "C5": "oj0o020",
+    "C6": "oj0p4az",
+    "C7": "oj0yayi",
+    "C8": "oj0ymyx",
+    "C9": "oj1b857",
+    "C10": "oj20yqj",
+    "C11": "oj1l5h3",
+    "C12": "oj1yubf",
+    "C13": "oj1oahx",
+    "C14": "oj1ywmb",
+    "C15": "oj2n5wg",
+    "C16": "oj4fkjl",
+    "C17": "oj4enlm",
+    "C18": "oj4q1b7",
+    "C19": "oj511nb",
+    "C20": "oj519ml",
+    "C21": "oj5uvfd",
+    "C22": "ojb5oov",
+    "C23": "ojs8ixm",
+    "C24": "ojsjrkg",
+    "C25": "oj356h3"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.00679
+}

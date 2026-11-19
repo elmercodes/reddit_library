@@ -1,0 +1,213 @@
+{
+  "id": "1sm0b6x",
+  "title": "My simulator is taking shape! [Sidus Proxyma]",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sm0b6x/my_simulator_is_taking_shape_sidus_proxyma/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-15",
+  "upvotes": 81,
+  "comments": 31,
+  "engagement_score": 9.6053,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "digital simulator",
+    "homemade tcg",
+    "playtesting",
+    "print and play"
+  ],
+  "summary": "A designer shared progress on a Unity simulator for their homemade TCG Sidus Proxyma, with combat and movement done and card effects next. The thread was friendly and low-engagement (community comments total only 16 points), mostly praise plus questions about the UI numbers, tech stack and playtesting. One commenter pushed back on building a simulator before the rules are locked, but the OP said the ruleset is already settled after thousands of printed cards. No real split emerged.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters admired the willingness to program a digital version, noting most designers avoid it or find video game programming daunting.",
+      "evidence": [
+        "C1",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.25
+      }
+    },
+    {
+      "point": "One commenter liked the black and white prototype look, and another felt color would make the game easier to read; the UI was still praised as clean.",
+      "evidence": [
+        "C9",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter caught a typo ('aquatic') on a card in the screenshot, a reminder that screenshots get proofread by viewers.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter said card effects are the trickiest part of a simulator still ahead.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "One commenter warned that a simulator must be updated every time mechanics or card values change, which slows prototyping and makes designers reluctant to change things; paper playtesting is better until balance is settled.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A resource system where actions give resources to the opponent (instead of spending them) confused newcomers; the cost numbers on cards and the header stats need labels or onboarding, since viewers could not tell what they meant from the screenshot.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.062
+      }
+    },
+    {
+      "lesson": "Lock the ruleset with paper playtesting before investing in a simulator, since every rule or value change must otherwise be mirrored in code. Build the digital version once the rules are stable.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "Readability of the card layout and UI in a prototype invites immediate feedback; proofread card text in any shared screenshot.",
+      "evidence": [
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.125
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Public build posts bring in playtesters: viewers asked how to test and whether feedback was wanted, so include a clear call to action and a link (such as Discord) for playtesting.",
+      "evidence": [
+        "C11",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 2,
+        "share": 0.125
+      }
+    },
+    {
+      "lesson": "A free simulator that automates the rules removes friction for new players compared with a generic tabletop simulator, and a possible browser version would widen access further.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.062
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should you build a digital simulator before or after your rules are locked?",
+      "why_it_lands": "One commenter warned a simulator slows rule changes, while the poster had already printed thousands of cards before coding. It is a real tradeoff for designers.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A card game where your actions give your opponent resources. How do you explain that?",
+      "why_it_lands": "A viewer needed several replies to decode the numbers and the resource system from a single screenshot, showing the onboarding challenge for unusual mechanics.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.062
+      }
+    }
+  ],
+  "comment_points_total": 16,
+  "comment_ids": {
+    "C1": "ogavm7k",
+    "C2": "ogb0g45",
+    "C3": "oggsk06",
+    "C4": "oggsugs",
+    "C5": "ogaog8q",
+    "C6": "ogb04tn",
+    "C7": "ogb7l4t",
+    "C8": "ogbhurb",
+    "C9": "ogdhtdp",
+    "C10": "ogdk9sr",
+    "C11": "ogejnnp",
+    "C12": "oggqm0d",
+    "C13": "oggqsgz",
+    "C14": "ogohzyb",
+    "C15": "ogonzz6",
+    "C16": "ojiydwh",
+    "C17": "ojjderh",
+    "C18": "ojjedsv",
+    "C19": "ogaluwx",
+    "C20": "oi4728a",
+    "C21": "ogg17qu",
+    "C22": "ogb9h7f",
+    "C23": "ogbi323",
+    "C24": "ogaq3j5",
+    "C25": "ogb08jl"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007703
+}

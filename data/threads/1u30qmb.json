@@ -1,0 +1,245 @@
+{
+  "id": "1u30qmb",
+  "title": "Kickstarter Print Run is Done!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1u30qmb/kickstarter_print_run_is_done/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-11",
+  "upvotes": 82,
+  "comments": 20,
+  "engagement_score": 8.9856,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "kickstarter print run",
+    "creature art style",
+    "tcg website",
+    "booster packaging"
+  ],
+  "summary": "A designer shared photos of a finished Kickstarter print run for Escape Land TCG, showing a booster display box, marbled foil packs and a spread of cards. The community response was friendly and mostly congratulatory, with praise for the creature art and a few questions about rarities and where to learn more. One light pushback compared the look to another creature game, and a reply joked about Pokemon. Overall temperature is warm and supportive with no real conflict.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter felt the cards looked very similar to Elemental Creatures, and a reply joked that the Pokemon resemblance is even stronger.",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.316
+      }
+    },
+    {
+      "point": "Commenters liked the cute creature designs and compared the art to Ken Sugimori's Pokemon style, which fits the monster-rescue theme.",
+      "evidence": [
+        "C3",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.184
+      }
+    },
+    {
+      "point": "One commenter praised the game's companion website for its score keeper, deck builder, interactive tutorial and card shop, noting the tutorial was briefly confusing until they remembered boosting a critter's EP.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "Collectors asked about chase rarities; the game offers a holo full-art box topper and a chance at 2 Fabled Rares per box.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "A fellow aspiring TCG creator found the release milestone inspiring and enjoyed supporting other indie designers.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A clear card layout helps new viewers read cards at a glance: name banner on top, rarity badge in the corner, big art box, and a species/length/weight line under the art. This reinforces the collector fantasy and makes cards feel part of a world.",
+      "evidence": [
+        "C3",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.184
+      }
+    },
+    {
+      "lesson": "Match art style to the core fantasy. Rescuing monsters as the win condition led to a creature-collector look that viewers immediately read as appealing, though it invites comparison to existing franchises, so make sure your own details stand out.",
+      "evidence": [
+        "C6",
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 15,
+        "share": 0.395
+      }
+    },
+    {
+      "lesson": "A companion site with a tutorial, score keeper and deck builder lowers the barrier for new players. Test the tutorial carefully, since a viewer got stuck on a mechanic like boosting EP.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Planned chase items like a full-art box topper and a couple of holo Fabled Rares per box answer the first question collectors ask. Put them in your marketing early.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Show finished print run photos and share milestones like final payment and early delivery. This builds goodwill with backers and with other indie creators.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C15"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.237
+      }
+    },
+    {
+      "lesson": "Viewers who like the visuals will ask where to learn more, so put a hub link with all cards in every post so interest doesn't get lost.",
+      "evidence": [
+        "C5",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.105
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer showed a finished Kickstarter print run. What do collectors ask first?",
+      "why_it_lands": "Commenters immediately asked about rare cards and foil packaging, showing what viewers want to see in print run reveals.",
+      "evidence": [
+        "C9",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Cute creature art got praise, but one commenter said it looks like another game.",
+      "why_it_lands": "The thread praised the Sugimori-like style while a comparison to Elemental Creatures and Pokemon surfaced, a tension every creature-game designer faces.",
+      "evidence": [
+        "C6",
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 15,
+        "share": 0.395
+      }
+    }
+  ],
+  "comment_points_total": 38,
+  "comment_ids": {
+    "C1": "or2frqm",
+    "C2": "or2l4dq",
+    "C3": "or3p6fo",
+    "C4": "or3pchp",
+    "C5": "or3ufqj",
+    "C6": "or6njbs",
+    "C7": "or7hetn",
+    "C8": "or7hs0r",
+    "C9": "or7snaj",
+    "C10": "or7wqoa",
+    "C11": "oresrds",
+    "C12": "orev5uw",
+    "C13": "orfi9xi",
+    "C14": "orgq29x",
+    "C15": "oriexjy",
+    "C16": "or2idb1",
+    "C17": "or3hrsw",
+    "C18": "or6cc4a",
+    "C19": "or3v5tz",
+    "C20": "or3vyum"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing that their Kickstarter print run of the Escape Land TCG is finished, with no specific feedback requested.",
+    "images": [
+      {
+        "file": "data/images/1u30qmb/1.jpg",
+        "description": "Angled close-up of a shrink-wrapped pink booster display box for 'Escape Land: Free the Monsters'. The top shows the Escape Land logo, a purple 'FREE THE MONSTERS' banner with a key/door icon, a yellow winged dragon and a pale silver-blue creature, and the text '24 BOOSTER PACKS / 10 CARDS PER PACK' next to a green Kickstarter 'K' logo. The side panel shows a clawed gray-brown monster, the logo, the banner, and the publisher line (partially legible, '...GAMES, LLC'). Loose cards are visible beneath: Snuggler (length 3'7\", weight 64lbs), Ghoulie (4'6\", 121lbs), Fishpal (Dino), and a Necrofowl-style card, all with Pokémon-like monster art on colorful frames."
+      },
+      {
+        "file": "data/images/1u30qmb/2.jpg",
+        "description": "Overhead view of about ten purple marbled booster packs with the Escape Land logo, a pink/magenta dragon, a 'FREE THE MONSTERS' banner, '10 TRADING CARDS' text, and a green K logo. Below them is a spread of cards. Names include Necroninja (Legend), Blazewing (Basic), Scorptide (Legend), Bogstalker (Basic, 2AP), Necrofowl (Basic), Neffarat (Legend), Wraithclaw, Finodon (Legend), Necrorex (Monster, 20EP), and Emberheart (Legend, holofoil, 9EP). Card layout: the name is in a top banner, with a rarity badge (BASIC or LEGEND) at the top right. A large art box sits in the middle with a species/length/weight line beneath it. The text box has rules like '[Link 3] Critters to summon' and 'Constant Effect', and EP cost or AP values sit in corner circles. Frames are black with a colored border, and the art is bright, saturated, creature-collector style."
+      },
+      {
+        "file": "data/images/1u30qmb/3.jpg",
+        "description": "Straight-on top view of the pink marbled booster box lid. The Escape Land logo and a pink-green dragon are at top, with a purple 'FREE THE MONSTERS' banner with a red key/door icon below. A yellow winged dragon with blue accents is at lower left and a pale silver/blue cloud-like creature at lower right. Text reads '24 BOOSTER PACKS / 10 CARDS PER PACK' with a green Kickstarter 'K' badge. The perforated tear-out display flap is visible at the top. Booster packs and cards are scattered around the box."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008642
+}

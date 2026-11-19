@@ -1,0 +1,254 @@
+{
+  "id": "1q81b1f",
+  "title": "What better alternative term to indicate \"creature\" cards?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1q81b1f/what_better_alternative_term_to_indicate_creature/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-09",
+  "upvotes": 42,
+  "comments": 39,
+  "engagement_score": 9.2945,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card terminology",
+    "card types",
+    "mtg differentiation",
+    "naming"
+  ],
+  "summary": "A designer asked what to call field-and-fight cards instead of \"creature\", offering Entity and Character and noting the wish to move away from MtG wording. The community replied with a long list of alternatives (Unit, Minion, Champion, Monster, Fighter, invented words) and a friendly, helpful tone. No term won clearly: Unit got the top score (12 pts) and Minion got 4, but the thread's total points are small. Several commenters also nudged the designer to ground the name in the game's lore or to coin an original word.",
+  "consensus": [
+    {
+      "point": "Several commenters said the right term should come from the game's world or be a custom word, and the poster themselves said they were leaning toward inventing one.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C7",
+        "C13",
+        "C19"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 15,
+        "share": 0.333
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter spent three years trying alternatives (units, entities, souls) and concluded \"creature\" works best, and that accepting it unblocked their design work.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.156
+      }
+    },
+    {
+      "point": "Thematic suggestions for a tarot-flavored game: Arcana, Soul, Spirit, and swapping \"summon\" for phrases like \"Call Upon\".",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.156
+      }
+    },
+    {
+      "point": "One commenter favors \"Monster\" but notes it sounds odd where humanoid characters are common.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.067
+      }
+    },
+    {
+      "point": "One commenter said the keywords on the cards (Scry, Indestructible, Lifesteal) look more like MtG copies than the type word does.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.022
+      }
+    },
+    {
+      "point": "Candidate terms were ruled out by the poster because a \"warrior\" subtype already exists, which would clash with Fighter, Warrior and similar words. Unit was also questioned for sounding military in Italian.",
+      "evidence": [
+        "C12",
+        "C18",
+        "C2"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Before renaming a card type, check the new word against your existing subtypes. A term like Warrior or Fighter collides with a \"warrior\" subtype and makes the type line confusing.",
+      "evidence": [
+        "C12",
+        "C18"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "Choose a type name that is short and universal, since it saves space on a crowded card. A one-word generic like Unit fits easily in the type line, though its tone (military) may matter.",
+      "evidence": [
+        "C1",
+        "C2"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.267
+      }
+    },
+    {
+      "lesson": "Tie terminology to your lore. Knowing what the beings are and why they fight tells you what to call them, so settle the world first.",
+      "evidence": [
+        "C19",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.089
+      }
+    },
+    {
+      "lesson": "Distancing from a big game means more than one word. Keywords like Scry, Lifesteal and Indestructible can make a game read as derivative, so audit them too.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.022
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "What do you call a card that stays on the field and fights?",
+      "why_it_lands": "The thread produced a long list (Unit, Minion, Champion, Monster) with no clear winner, so viewers will want to share their own pick.",
+      "evidence": [
+        "C1",
+        "C21",
+        "C13",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 20,
+        "share": 0.444
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "One designer spent three years avoiding \"creature\", then gave up. Was that right?",
+      "why_it_lands": "A commenter said fighting the word blocked their progress, while the poster wants distance from MtG, which sets up a clear tension.",
+      "evidence": [
+        "C3",
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.156
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Could your keywords make your game look like an MtG clone?",
+      "why_it_lands": "One commenter said Scry, Lifesteal and Indestructible look like copied keywords, a pain point for many homemade TCG designers.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.022
+      }
+    }
+  ],
+  "comment_points_total": 45,
+  "comment_ids": {
+    "C1": "nykd1t0",
+    "C2": "nykgwqz",
+    "C3": "nykqowl",
+    "C4": "nylgy54",
+    "C5": "nyk0l3f",
+    "C6": "nykgjoj",
+    "C7": "nykbsdf",
+    "C8": "nykggbq",
+    "C9": "nykfvpo",
+    "C10": "nykgdmi",
+    "C11": "nyknjlu",
+    "C12": "nylfiid",
+    "C13": "nyl7yyf",
+    "C14": "nylii9q",
+    "C15": "nyo1lcf",
+    "C16": "nyo4fyj",
+    "C17": "nyp2lie",
+    "C18": "nyqwyro",
+    "C19": "nyqecje",
+    "C20": "nyqxbqo",
+    "C21": "nylp0m3",
+    "C22": "o1y8mn1",
+    "C23": "o1z8csr",
+    "C24": "nyl9490",
+    "C25": "nymb0a4"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants opinions on which term (Entity, Character, or another suggestion) should replace \"creature\" for cards that stay on the field and fight, in their homemade card game.",
+    "images": [
+      {
+        "file": "data/images/1q81b1f/1.jpg",
+        "description": "Black-and-white line-art card \"Flamegora\", FIRE - LV. 3. Top-left circle cost 3; below it in a left tab: sword icon 1 and a four-arrow move icon 0. Name in bold small caps at top, with a small type/level line above it. Large art box shows a leafy, plant-like clawed creature crouched with a flame rising from one hand. Divider with a diamond ornament, \"Rev 3\" at right. Text box: \"Quick attack.\" plus italic flavor: \"A magical plant creature that thrives in the flames. It evolved by surviving in volcanic environments.\" Bottom: attack 2 with sword icon at left, shield icon with 2 at right, \"ART: MATTEO TALLEVI\" credit, type line \"Creature - Plant\". Ornate black border, art uncolored line art."
+      },
+      {
+        "file": "data/images/1q81b1f/2.jpg",
+        "description": "Same layout, card \"Arcane Dancer\", LIGHT/DARK - LV. 2, cost 2, sword stat 0, move stat 0. Art: line drawing of a dancing woman with short wavy hair, earrings, flowing scarves and sparkles, one arm raised; art extends across the whole art box. Text: \"Lifesteal 1.\" \"[Alternative summon] - Exile a Light and a Dark creature from your graveyard.\" \"[Skill] - Once per turn, reveal a creature in your hand: - Light creature: scry 2. - Dark creature: scry 1 from the opponent's deck. You cannot apply the same effect for two consecutive turns.\" Keywords bolded, Light/Dark underlined. Stats 1 attack, 1 defense. \"Rev 5\", art credit Matteo Tallevi, type \"Creature - Spellcaster\". No flavor text; text box is full."
+      },
+      {
+        "file": "data/images/1q81b1f/3.jpg",
+        "description": "Same layout, card \"Mimic Shoe\", DARK - LV. 2, cost 2, sword stat 2, move stat 2. Art: line drawing of a sneaker transformed into a monster with a huge toothy mouth, tongue, and eye. Text: \"Counterattack, Indestructible.\" Italic flavor: \"Apparently, Mimics are made of a special substance that not only can recompose after taking damage, but can also take the shape of any object they want. Why they choose such unusual objects, however, remains a mystery.\" Stats 2 attack, 0 defense. \"Rev 1\", art by Matteo Tallevi, type line \"Creature - Monster Shapeshifter\". Shown as an example of a non-humanoid creature card."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009594
+}

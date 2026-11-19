@@ -1,0 +1,288 @@
+{
+  "id": "1rdjj2s",
+  "title": "AI art isn't the only affordable option",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rdjj2s/ai_art_isnt_the_only_affordable_option/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-02-24",
+  "upvotes": 187,
+  "comments": 40,
+  "engagement_score": 10.8068,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "ai art",
+    "placeholder art",
+    "card art alternatives",
+    "diy art"
+  ],
+  "summary": "A designer posted a pro-human-art guide suggesting posed action figures or game-engine screenshots as card or placeholder art instead of AI, with a strongly worded stance against AI. The community responded mostly supportively, piling on with other DIY art ideas like found-object photos, playdough and collage. The one real pushback was a thread questioning the Unreal Engine recommendation given Epic's pro-AI stance, which drew few points. Overall temperature is friendly with a mild argument, and supporters outweighed critics by score.",
+  "consensus": [
+    {
+      "point": "Several commenters backed non-AI ways to make card or placeholder art, such as photographing arranged objects, clay models, stick-figure doodles, collage and sketching.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C10",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 91,
+        "share": 0.655
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter, who used AI placeholders earlier and switched to stick-figure doodles, said playtesters enjoy the handmade look more.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.065
+      }
+    },
+    {
+      "point": "One commenter argued placeholder art is unnecessary: just write a short description of the image in the art box, like 'green guy' for a goblin.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.036
+      }
+    },
+    {
+      "point": "One commenter said reusing the same 3D models across a set creates cohesion and implied storytelling, citing Epic TCG's Unreal-made art.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.022
+      }
+    },
+    {
+      "point": "One commenter held that art restrictions push designers into distinctive territory, leaving a market gap for human-made games as AI fantasy art floods the space.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.014
+      }
+    },
+    {
+      "point": "Commenters pointed to posable-figure tools for artists: built-in 3D models in Clip Studio Paint and the browser tool justsketch.me.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.014
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is recommending Unreal Engine hypocritical for an anti-AI post?",
+      "side_a": "Epic Games is openly pro-AI and uses it in Fortnite, so recommending Unreal undermines the message.",
+      "side_a_evidence": [
+        "C1",
+        "C7"
+      ],
+      "side_b": "Running Unreal locally is not the same as feeding AI data centers, and Fortnite barely uses AI.",
+      "side_b_evidence": [
+        "C3",
+        "C4",
+        "C6"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 10,
+        "share": 0.072
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.043
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Use a consistent set of posed figures or 3D models for a set's art; the repetition gives visual cohesion and can tell a story without unique character illustrations.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.022
+      }
+    },
+    {
+      "lesson": "For placeholders, a text description in the art box can be enough and saves production time; simple sketches or stick figures also work and playtesters enjoy them.",
+      "evidence": [
+        "C22",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.101
+      }
+    },
+    {
+      "lesson": "Handmade mediums like clay, collage or photographed objects can give a game a distinct look without drawing skill, helping it stand apart from generic fantasy art.",
+      "evidence": [
+        "C9",
+        "C10",
+        "C14",
+        "C25",
+        "C8"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 79,
+        "share": 0.568
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A clearly human-made art identity can differentiate a game in a market full of AI fantasy art, and this audience responds well to that positioning.",
+      "evidence": [
+        "C25",
+        "C13",
+        "C8"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 46,
+        "share": 0.331
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "No art budget and no drawing skill? Here's what card designers suggested instead of AI.",
+      "why_it_lands": "The top comments are practical alternatives (found objects, playdough, collage) and many readers upvoted them, so it answers a common pain point.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C14",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 75,
+        "share": 0.54
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Is placeholder art even necessary, or can 'green guy' in the art box do?",
+      "why_it_lands": "One commenter pushed a contrarian shortcut that challenges a habit many designers share, inviting opinions.",
+      "evidence": [
+        "C22",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.101
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Can you tell people not to use AI while recommending Unreal Engine?",
+      "why_it_lands": "A top-level thread questioned the consistency of the anti-AI argument and drew replies on both sides, though with modest points.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C7"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 14,
+        "share": 0.101
+      }
+    }
+  ],
+  "comment_points_total": 139,
+  "comment_ids": {
+    "C1": "o75pgn5",
+    "C2": "o78ns9t",
+    "C3": "o7agp6h",
+    "C4": "o75wafk",
+    "C5": "o771zpp",
+    "C6": "o78h7jx",
+    "C7": "o7aghqe",
+    "C8": "o75no7u",
+    "C9": "o75ossr",
+    "C10": "o765or4",
+    "C11": "o786s4k",
+    "C12": "o76nkvz",
+    "C13": "o78zn8f",
+    "C14": "o76ob24",
+    "C15": "o76sd75",
+    "C16": "o765ayy",
+    "C17": "o78o540",
+    "C18": "o7747rt",
+    "C19": "o7cltwb",
+    "C20": "o7fcrgx",
+    "C21": "o765l3o",
+    "C22": "o776lac",
+    "C23": "o75x1kr",
+    "C24": "o77mkrd",
+    "C25": "o77bvlq"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing an opinion piece and a how-to suggestion, encouraging TCG creators to photograph posed figures or use game-engine screenshots as card or placeholder art instead of AI art.",
+    "images": [
+      {
+        "file": "data/images/1rdjj2s/1.jpg",
+        "description": "Photo of a white and black articulated action figure (mannequin-style, faceless) in a low lunge/crouch ninja pose with a black sword held across its body. It stands on a light wood surface in front of a blue backdrop with a blue and white snowflake pattern. Sharp focus, side angle, soft shadow; usable as example art for a warrior/ninja character."
+      },
+      {
+        "file": "data/images/1rdjj2s/2.jpg",
+        "description": "Photo of a yellow and black articulated action figure in a bent-knee, leaning stance with arms drawn across the torso, seen from a slightly low front-side angle. Same snowflake backdrop and wood surface, with a small shadow beneath it. Shows a different color and pose from the same figure type."
+      },
+      {
+        "file": "data/images/1rdjj2s/3.jpg",
+        "description": "Close-up photo of a red and black articulated figure mounted on a red ring-base stand, posed mid-air in a split-leg jump or kick while gripping a long thin black sword/staff extended to the right. Magnets are visible on the soles of the feet. Same snowflake backdrop, shallow depth of field with a blurred background, and a dark object at the right edge. Dynamic action pose."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009518
+}

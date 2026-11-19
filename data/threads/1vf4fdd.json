@@ -1,0 +1,318 @@
+{
+  "id": "1vf4fdd",
+  "title": "Looking for some advice. First playtest went miserably! I got bored of my own game.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/looking_for_some_advice_first_playtest_went/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-04",
+  "upvotes": 69,
+  "comments": 28,
+  "engagement_score": 9.2994,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "first playtest",
+    "prototype simplification",
+    "resource systems",
+    "solo playtesting"
+  ],
+  "summary": "A designer posted a handwritten paper prototype after a first playtest left them bored, citing 50-step stats up to 2000 and a hybrid shared-resource system. The thread was friendly and supportive, with most replies offering advice rather than disagreement. Top-scoring advice was to use small whole-number stats, strip the game to its core loop, and rethink the resource system. The thread is low in total points, so most individual suggestions were single-commenter points.",
+  "consensus": [
+    {
+      "point": "The design needs to be stripped back to a simpler base, with complexity added only after the core works. Commenters pointed to over-layered mechanics, too many ambitious elements and a resource system that feels overbuilt.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C18",
+        "C20",
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 28,
+        "share": 0.259
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter listed many reasons solo playtesting distorts how fun a game feels, such as no hidden information, constant stopping to fix rules, placeholder art and no opponent.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.12
+      }
+    },
+    {
+      "point": "One commenter said the design may have been built from studied theory rather than a fantasy the designer cares about, and a second commenter agreed this was the problem.",
+      "evidence": [
+        "C8",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.12
+      }
+    },
+    {
+      "point": "Boredom in a first prototype test is normal and not a verdict on the game. It is a signal to iterate, rework, or step away for a bit.",
+      "evidence": [
+        "C11",
+        "C12",
+        "C17",
+        "C19",
+        "C23"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 9,
+        "share": 0.083
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter suggested checking where the tension is in the game and what choices push against the player's ideal line of play, rather than polishing systems.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter argued that text-only cards are tiring to test with others, and that cards should be readable at a glance before balance testing.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter recommended testing with vanilla units in two strength tiers to find the core game, then layering effects and resources on top and scrapping anything that does not improve the decisions.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter warned that starting with generic abilities risks boredom because generic cards give the game no hook.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter suggested decide the desired feel of play first (tense and strategic, quick game-night sessions, casual or competitive) and let mechanics serve it.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Use small whole-number stats such as 1s, or at least drop a zero (5, 10, 15), so players spend their thinking on strategy instead of arithmetic. Large inflated numbers add computation and make the game harder to follow.",
+      "evidence": [
+        "C3",
+        "C13",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.213
+      }
+    },
+    {
+      "lesson": "Playtest the core loop with vanilla units in a couple of strength tiers before adding abilities or resources, then add each layer one at a time and keep it only if it makes decisions more interesting.",
+      "evidence": [
+        "C24",
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.028
+      }
+    },
+    {
+      "lesson": "Define what you want your resource system to do before building it. A resource system that feels clunky in testing may need replacing, and a familiar model like MTG lands can be enough. Making every card a resource effectively creates two resources, which one commenter saw as a problem.",
+      "evidence": [
+        "C5",
+        "C4",
+        "C13"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 17,
+        "share": 0.157
+      }
+    },
+    {
+      "lesson": "Swap out mechanics while testing instead of treating the written rules as fixed. For example, try optional resourcing or a pitching system, or run stats only with abilities ignored.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.046
+      }
+    },
+    {
+      "lesson": "Solo playtests can mislead, because you know all hidden information and are busy fixing rules. Get other players to test, and check whether they have fun and how much teaching they need.",
+      "evidence": [
+        "C6",
+        "C22",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 15,
+        "share": 0.139
+      }
+    },
+    {
+      "lesson": "Check for tension in the game: what choices players make and what pushes against their ideal line of play. Systems without tension become a list of things to do.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer's first playtest bored them. Should you scrap the prototype or strip it down?",
+      "why_it_lands": "Many designers have been here, and the thread's advice (strip to core loop, iterate, take a break) gives concrete answers.",
+      "evidence": [
+        "C10",
+        "C11",
+        "C24",
+        "C19"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 11,
+        "share": 0.102
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Why do your card stats go up in 50s? This subreddit suggests counting in ones.",
+      "why_it_lands": "The advice to use small numbers was the top-scoring reply to the post, and it is a quick design fix to show on screen.",
+      "evidence": [
+        "C3",
+        "C13",
+        "C16"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.213
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Solo playtesting your own card game: why can it feel so boring?",
+      "why_it_lands": "One detailed comment listed the reasons, such as no hidden information and constant rule fixing, which most solo testers will recognize.",
+      "evidence": [
+        "C6",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.13
+      }
+    }
+  ],
+  "comment_points_total": 108,
+  "comment_ids": {
+    "C1": "p1m3odh",
+    "C2": "p1m5vo7",
+    "C3": "p1nrry3",
+    "C4": "p1mjtp1",
+    "C5": "p1nxgjh",
+    "C6": "p1n7okk",
+    "C7": "p21mceg",
+    "C8": "p1obg4c",
+    "C9": "p1q7ddp",
+    "C10": "p1ngm5c",
+    "C11": "p1o7iz6",
+    "C12": "p1rw7xv",
+    "C13": "p1re67b",
+    "C14": "p30p72m",
+    "C15": "p31bfec",
+    "C16": "p1pni7k",
+    "C17": "p1miiyc",
+    "C18": "p1oc9oy",
+    "C19": "p1p9rk8",
+    "C20": "p1q00kj",
+    "C21": "p1rb7id",
+    "C22": "p1rv8cx",
+    "C23": "p1s01d7",
+    "C24": "p1shzyu",
+    "C25": "p2r7xby"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general advice on simplifying and grounding their TCG design after a boring first playtest of a prototype with overly large stats and a shared-resource system.",
+    "images": [
+      {
+        "file": "data/images/1vf4fdd/1.jpg",
+        "description": "Photo of a handmade paper prototype laid out on a curved wooden desk or windowsill beside a round porthole-style window. Cards are handwritten on lined white index cards, in landscape and portrait orientations, with blue pen. A stack at left and a column of five cards in the center show only a circle with a line drawn in it on the back, apparently resource or deck-back cards. Other cards are laid out in rows and look like Monster cards, with a cost number in a top corner, a type label such as 'Monster', 'Mystery' or 'Part', a slot count (e.g. '2 Slots'), small text boxes, and a bottom stat row labeled A / D / HP with values like 200, 200 and 2000 (stats in multiples of 50 or 100). The closest card at lower left reads 'Minion', cost 4, with effect text roughly 'Heal 100 HP on a Monster' and stats of about 100 / 50 / 250. A card at lower right reads 'Effect', cost 5, with text roughly 'Deal 250 HP damage to target Monster. Defence'. Several cards are wide, with long text at center right. Handwriting is small and mostly illegible at this distance. There is no art, only plain text layouts. Some cards at the right edge overlap in a pile."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.013533
+}

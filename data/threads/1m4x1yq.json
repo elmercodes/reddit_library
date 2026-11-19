@@ -1,0 +1,232 @@
+{
+  "id": "1m4x1yq",
+  "title": "I made a TCG and hosted a tournament at our LGS. 16 people showed up to play!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1m4x1yq/i_made_a_tcg_and_hosted_a_tournament_at_our_lgs/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-07-20",
+  "upvotes": 593,
+  "comments": 98,
+  "engagement_score": 13.2796,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "local tournaments",
+    "precon printing",
+    "ai art",
+    "effect layout"
+  ],
+  "summary": "A designer shared photos from a tournament for their homemade TCG at a local game store, where 16 players showed up to play free precons. The community was overwhelmingly warm and congratulatory, with several people praising the card layout and asking about MPC printing. A small side thread on AI card art split between a call to commission real art and a defense of AI as the affordable option; the defense carried slightly fewer points than the call for commissions but the exchange was short. Overall temperature is friendly with one mild debate.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter worried that showing AI art on a template would make people dismiss the whole game before trying it, and asked whether the OP got pushback.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.057
+      }
+    },
+    {
+      "point": "Two commenters asked about practical follow-ups: print-and-play versions of the decks, and what made MPC a good printer. The OP's answer was fast turnaround, easy setup, many options, and a free reprint after a mistake.",
+      "evidence": [
+        "C18",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.033
+      }
+    },
+    {
+      "point": "One commenter praised the card layout, singling out clearly labeled effect timing, and said layout is where many games go wrong.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.025
+      }
+    },
+    {
+      "point": "One commenter called the effect divisions and symbols the best effect layout solution they had seen and wants to adapt it for their own game.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.025
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should a solo designer commission card art instead of using AI?",
+      "side_a": "Commissioning real card art is the expected next step.",
+      "side_a_evidence": [
+        "C7"
+      ],
+      "side_b": "Commissioning art costs hundreds of dollars, so AI is a reasonable option for self-funded creators.",
+      "side_b_evidence": [
+        "C8"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 16,
+        "share": 0.131
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.107
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Label the timing of each effect clearly and separate effect sections with dividers and symbols. Readers noticed this and said it makes cards easy to parse and the layout professional.",
+      "evidence": [
+        "C14",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Premade precon decks work well for early tournaments. They lower the barrier to entry because players don't need to build or own a collection first.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Free entry, free precons and a modest prize (cash plus a custom playmat) posted in local TCG Discords drew 16 players to a first event, far above the OP's expectation. Local community channels plus a no-cost barrier can fill a first tournament.",
+      "evidence": [
+        "C2",
+        "C5",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 57,
+        "share": 0.467
+      }
+    },
+    {
+      "lesson": "Print-on-demand through MPC can handle small precon runs. Fast turnaround, easy ordering and a free replacement when an order was botched made it a dependable choice.",
+      "evidence": [
+        "C19",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.033
+      }
+    },
+    {
+      "lesson": "Commissioned card art is a real cost for solo creators, and some will turn to AI. Disclosing or using AI risks players dismissing the game before trying it.",
+      "evidence": [
+        "C4",
+        "C7",
+        "C8"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 36,
+        "share": 0.295
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Commission card art or use AI? One thread had two designers clash.",
+      "why_it_lands": "A short exchange pits ethics against budget, with similar points on each side, and many solo designers face the cost problem.",
+      "evidence": [
+        "C7",
+        "C8",
+        "C4"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 36,
+        "share": 0.295
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer got 16 players with free decks and a $50 prize. Would that work for you?",
+      "why_it_lands": "The post scored 593 upvotes and the turnout beat expectations, with commenters wanting to replicate it and asking about printing and print-and-play.",
+      "evidence": [
+        "C12",
+        "C18",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.057
+      }
+    }
+  ],
+  "comment_points_total": 122,
+  "comment_ids": {
+    "C1": "n47r894",
+    "C2": "n47qau8",
+    "C3": "n47qwjl",
+    "C4": "n48xw5o",
+    "C5": "n47nxdu",
+    "C6": "n47qryr",
+    "C7": "n481b06",
+    "C8": "n48fc1y",
+    "C9": "n47tdrj",
+    "C10": "n47txhs",
+    "C11": "n48p9l7",
+    "C12": "n48empx",
+    "C13": "n48hod7",
+    "C14": "n4b70a2",
+    "C15": "n4dmrpw",
+    "C16": "n485ht0",
+    "C17": "n485p0n",
+    "C18": "n48a77t",
+    "C19": "n48vpbh",
+    "C20": "n48w53g",
+    "C21": "n49702j",
+    "C22": "n499vha",
+    "C23": "n49a5b0",
+    "C24": "n4euhof",
+    "C25": "n47pcd9"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.011237
+}

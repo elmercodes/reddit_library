@@ -1,0 +1,273 @@
+{
+  "id": "1xurdr1",
+  "title": "VaelStrike: an expandable card game (ECG) for people who are tired of the chase, with every piece of art painted by real human artists",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xurdr1/vaelstrike_an_expandable_card_game_ecg_for_people/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-11-12",
+  "upvotes": 134,
+  "comments": 44,
+  "engagement_score": 10.6153,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "expandable card game",
+    "hand-painted art",
+    "shared nemesis",
+    "kickstarter planning"
+  ],
+  "summary": "A designer introduced VaelStrike, a self-described expandable card game with a shared Nemesis boss, a separate resource pile and hand-commissioned art, and asked whether people would pick the full set or boosters. The thread (31 community points in total) was friendly and low-key, mostly short praise, art compliments and artists offering their portfolios. Those who answered the question leaned toward a full set, and a few probing questions covered the Magic comparison, the ECG label, the Stumble mechanic and art consistency. There was no real conflict.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters who picked a format chose the full set, one of them adding boosters of alt arts and foils on top. This hints that a full-set-plus-cosmetic-boosters model appeals to this audience.",
+      "evidence": [
+        "C4",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.226
+      }
+    },
+    {
+      "point": "Two commenters questioned the Stumble mechanic on Illusionary Duelist. One asked whether it is a coin flip and the other whether it is a weakness. This suggests probabilistic reminder text invites confusion.",
+      "evidence": [
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.129
+      }
+    },
+    {
+      "point": "Two freelance illustrators used the thread to pitch for work, and one commenter praised the shared common enemy concept while saying boosters have their own thrill and enable trading.",
+      "evidence": [
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.129
+      }
+    },
+    {
+      "point": "One commenter said the art styles caught their eye but they were unsure it was in a positive way. The poster admitted styles vary and expects more consistency as artists settle in. This is a risk of commissioning many artists.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    },
+    {
+      "point": "One commenter asked whether the game is Magic, prompting the poster to list differences: interleaved priority, a resource ritual instead of lands in the deck, auto-battler style combat and face-down Lure cards.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    },
+    {
+      "point": "Another commenter questioned the ECG label, and the poster explained that it means buying one box for the whole set, while still offering boosters with foils for collectors.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Wording a chance-based effect as '50% increased chance' leaves players unsure how to resolve it. Say exactly how it is resolved (coin flip, die, or a fixed rule) in the card text, or make the effect deterministic.",
+      "evidence": [
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.129
+      }
+    },
+    {
+      "lesson": "When commissioning many artists, provide a style guide or reference brief early. A viewer noticed varied art styles across the cards and was unsure about them. Consistency can drift when the set is only partly finished.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    },
+    {
+      "lesson": "If your game resembles an established one, have a short list of concrete differences ready, such as turn structure, resource handling and combat. A direct Magic comparison came up immediately and needed a crisp answer.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A full-set purchase with an optional booster line for foils and alt arts fits what the respondents wanted. It separates players from collectors without forcing the chase on everyone.",
+      "evidence": [
+        "C4",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.226
+      }
+    },
+    {
+      "lesson": "Clarify unfamiliar format labels like ECG up front. Commenters asked why it was not simply called a CCG or TCG, and the label needs a one-line explanation of how you buy it.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    },
+    {
+      "lesson": "A public art-credit and commission story attracts working artists. Two illustrators pitched in a single thread, so have a clear process for artist submissions.",
+      "evidence": [
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.129
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Full set or boosters? Two designers here picked the full set.",
+      "why_it_lands": "It lets the creator ask their own audience the same buying question the poster asked, with the small but real lean toward the full set.",
+      "evidence": [
+        "C4",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.226
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer asked if a 50% Stumble effect means a coin flip. How do you word chance?",
+      "why_it_lands": "Confusing probabilistic reminder text is a concrete card-writing pain point designers can relate to and answer.",
+      "evidence": [
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.129
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A commenter wondered if commissioned art from many artists looks consistent. How do you keep a style?",
+      "why_it_lands": "Art consistency across commissioned artists is a recurring concern for indie designers building a set in public.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.065
+      }
+    }
+  ],
+  "comment_points_total": 31,
+  "comment_ids": {
+    "C1": "19sjnvzl1jzi9",
+    "C2": "19sjo94q662dd",
+    "C3": "19smggpm1fedh",
+    "C4": "19sju7qi4xgud",
+    "C5": "19skbujexgmmc",
+    "C6": "19sjpz8pqkjur",
+    "C7": "19skcixoa8ghv",
+    "C8": "19sjtddai7o1w",
+    "C9": "19skcpykg5m6d",
+    "C10": "19sjz67mv10g4",
+    "C11": "19skdrdrkp0n5",
+    "C12": "19sm9afk7zybp",
+    "C13": "19sk0fndmtcoy",
+    "C14": "19skdiqwwu744",
+    "C15": "19sk34m4wiiro",
+    "C16": "19skdsf47abgi",
+    "C17": "19skb8xabnon8",
+    "C18": "19skdvtsqr8ub",
+    "C19": "19skde8n024jo",
+    "C20": "19skt8fxduw75",
+    "C21": "19sllarqtcvid",
+    "C22": "19slny7bft9c4",
+    "C23": "19smcl7sozuyq",
+    "C24": "19sm1erl1qnph",
+    "C25": "19smb163w50uc"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is introducing and promoting their expandable card game VaelStrike (the text cuts off), apparently sharing it for interest and feedback from fellow homemade TCG makers.",
+    "images": [
+      {
+        "file": "data/images/1xurdr1/1.jpg",
+        "description": "Card 'Ethereal Bloom (Relic)'. Cost 0 in a gold-ringed grey coin in a shield-shaped banner at top left, no element icons. Blue/navy frame. Art box fills the upper two-thirds: painterly, glowing pink-blue lotus on a thorny vine dripping blood, next to a skull, in cold blue tones. Below the art: name with type in parentheses, then a grey text box. Text: 'Immediate / Deploy: An enemy player of your choice chooses one: • 1 player of your choice draws 1 card. • 1 player of your choice discards 1 card at random. • Rotate Ethereal Bloom. R, Banish Ethereal Bloom: Gain 1.' (R is a rotate icon, 1 is a resource icon). Flavor text: 'One bloom ... three thorns.' Bottom black bar: Relic type in a hexagon, rarity R, set code RSH 0217, an element-style symbol, a gold '2x' hex (copies in playset), art credit Maria Holzleitner, ©2023-2026 VaelStrike. Photographed on a wood table."
+      },
+      {
+        "file": "data/images/1xurdr1/2.jpg",
+        "description": "Card 'Illusionary Duelist'. Cost 3 in a grey coin plus two orange spiral icons, in a banner at top left. Orange/teal frame. Art: a hooded blue-glowing ninja-like figure leaping with curved glowing blades, a ghostly duplicate behind it, crescent moon at top right, digital painterly style. Type line: blue 'Airy' pill, then 'Champion: Spiritblade, Illusion, Trickster'. Text: 'Phantom Strike – When this is blocked, its blocker borrows Stumble +50%. (They have a 50% increased chance to deal no combat damage this turn.)' Flavor: 'Striking from the shadows, the Illusionary Duelist dances between reality and illusion.' Bottom bar: stats 4/3 in a hexagon, rarity U, RSH 0142, symbol, grey '3x' hex, art by Albert Chauw (Raito), ©2023-2026 VaelStrike."
+      },
+      {
+        "file": "data/images/1xurdr1/3.jpg",
+        "description": "Playmat design for two players, mirrored top and bottom, with a dragon illustration background in orange/pink sunset tones. Center grid per side: blue Airy slots A1-A3 and an orange Celestial slot C1, plus four green Grounded slots G1-G4 per side meeting at a middle line with numerals I-IV. Left side: 'The Vael' zone, Nemesis Deck draw/discard piles (slot #1 and #2), quest card spots, a Nemesis HP red box, and a turn track 1-9 and a numbered 10-20 track. Right column: discard pile, essence pile, draw pile for each player. Corners: 'Essences' and 'Permanents' zones, and VP boxes at top and bottom center. Grey placeholder boxes mark piles."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.012973
+}

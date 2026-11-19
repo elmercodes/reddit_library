@@ -1,0 +1,192 @@
+{
+  "id": "1rnjk30",
+  "title": "“Print and play” deck download is now available in our discord!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1rnjk30/print_and_play_deck_download_is_now_available_in/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-03-07",
+  "upvotes": 68,
+  "comments": 22,
+  "engagement_score": 8.9373,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "print and play",
+    "playtesting",
+    "card layout",
+    "community building"
+  ],
+  "summary": "A designer posted a selfie holding printed cards from Everdawn, a print-and-play deck, and asked for harsh playtest feedback via Discord. The community response was friendly and low-key: commenters praised the card look and mostly volunteered to try it. Nobody gave actual critique of mechanics or the card, and the thread totals only 25 community points. One commenter said they had left Discord and the poster offered a direct link instead.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters called the card frame clean and attractive, saying the style grabbed their attention right away.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.24
+      }
+    },
+    {
+      "point": "One commenter had quit Discord over its recent direction, showing that a Discord-only playtest funnel can lose interested people. The poster's workaround was a direct file link plus feedback by DM.",
+      "evidence": [
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.12
+      }
+    },
+    {
+      "point": "One commenter reported joining and starting the how-to-play video, suggesting a short video can serve as the onboarding for playtesters.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.08
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A clean card frame with a clear name banner, corner icons, and stat boxes can win praise before anyone has played. Use a strong, readable layout as a first impression when you show playtest cards.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.24
+      }
+    },
+    {
+      "lesson": "Give new playtesters a short how-to-play video so they can start quickly and give feedback on the game instead of getting stuck on the rules.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.08
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Don't make one platform the only way in. Offer a direct download and a DM feedback route so people who avoid Discord can still playtest.",
+      "evidence": [
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.12
+      }
+    },
+    {
+      "lesson": "A photo of real printed cards in hand plus an open invitation to playtest brings plenty of volunteers, but feedback may need specific prompts to turn interest into critique.",
+      "evidence": [
+        "C5",
+        "C11",
+        "C13",
+        "C15",
+        "C21"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 11,
+        "share": 0.44
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer asked for harsh playtest feedback and got compliments. How do you get real critique?",
+      "why_it_lands": "Every designer who runs open playtests faces polite praise with little actual critique. This thread shows it: many offers to try the game, no criticism.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C11",
+        "C15"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 13,
+        "share": 0.52
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One commenter quit Discord. Should playtesting only live there?",
+      "why_it_lands": "It raises a practical question about where to run playtests, based on a commenter who avoids Discord and took a direct link instead.",
+      "evidence": [
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.12
+      }
+    }
+  ],
+  "comment_points_total": 25,
+  "comment_ids": {
+    "C1": "o97odw9",
+    "C2": "o97t7pk",
+    "C3": "o984a91",
+    "C4": "o985smk",
+    "C5": "o985vik",
+    "C6": "o986jak",
+    "C7": "o97lqqg",
+    "C8": "o97tiwf",
+    "C9": "o9ahflv",
+    "C10": "o9axby1",
+    "C11": "o9mglig",
+    "C12": "o9mgsz7",
+    "C13": "ok0ro87",
+    "C14": "okc9dip",
+    "C15": "okqxolm",
+    "C16": "okr8k5z",
+    "C17": "o98d41n",
+    "C18": "o98f2q4",
+    "C19": "o98f6sn",
+    "C20": "ojuwcbu",
+    "C21": "ojyhwm0"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants play-testers to download the print-and-play Everdawn deck via their Discord, critique it harshly, and help improve the game.",
+    "images": [
+      {
+        "file": "data/images/1rnjk30/1.jpg",
+        "description": "Selfie of a bearded man in a tan cap and maroon sweater making a wide-eyed face while holding a fanned stack of printed cards in front of his lower face. Only the front card is clearly visible: 'Ole Fenwick'. It has a dark blue/navy frame with a white-ish inner border, a name banner at the top center, and crescent moon icons in the top left and top right corners. The art box shows a watercolor/ink-style illustration of a small gnome with a pointed gray-blue hat and white beard sitting at the base of a gnarled tree, with sparse plants around. Stat boxes sit along the bottom: '15' at bottom left, '12' in a box at bottom right, and '+2' in a box beneath it. Some partially cut-off rules text sits at bottom center, with only '...rants' and '...k' legible. The edges of other cards in the fan show colored borders (purple, green, red, blue), suggesting multiple color or faction types. The cards appear to be printed on white stock with rounded corners. Background is a living room with a lamp, framed leaf picture, window, and couch."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.006076
+}

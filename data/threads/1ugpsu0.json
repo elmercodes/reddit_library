@@ -11,38 +11,203 @@
   "post_type": "gallery",
   "topics": [
     "card layout",
-    "art direction",
-    "card frame design",
+    "card frame",
+    "watercolor art",
     "print bleed"
   ],
-  "summary": "The poster shared an updated card layout for Cyclemental, swapping a flat digital frame for a hand-brushed blue border, a scroll-style title bar, and a more portrait ratio with larger text, and asked whether the brush-stroke frame is too much. Replies were overwhelmingly positive, with most praising the art and the new frame's painted feel and legibility. The few critical points were about wordy ability text, a flavor line that doesn't fit the creature, and text sitting too close to the card edge for print. The overall temperature is friendly and warm, with little real pushback.",
+  "summary": "A designer shared a before/after update of their Cyclemental card frame, moving from a flat digital layout to a brush-stroke, rice-paper style with larger text, and asked whether the brush strokes are too much. The thread was friendly and overwhelmingly positive, with commenters preferring the new version and saying the brushwork suits the painted art. Only a few critiques appeared: too many words, text close to the edge, and generic flavor text. Engagement was modest in points, so critique is thin.",
   "consensus": [
-    "The brush-stroke frame suits the watercolor artwork and gives the game a distinct physical, hand-painted character.",
-    "The new layout reads as a clear improvement over the flat before version, with cleaner, more legible text.",
-    "The creature art is the strongest part of the card and drew the most praise."
+    {
+      "point": "The new brush-stroke frame is an improvement over the old flat layout, and the brushwork does not feel excessive.",
+      "evidence": [
+        "C8",
+        "C16",
+        "C18",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 9,
+        "share": 0.22
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said the card text has too many unnecessary words and that trimming it would polish the look further.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "point": "One commenter warned that info placed near the card edge risks being cut off in printing, so safe margins and bleed matter.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter found the flavor text generic and said the creature art does not convey something that swallows fleets.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter said they could infer many mechanics from the card design alone, suggesting the layout communicates function.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
   ],
   "disagreements": [],
   "design_lessons": [
-    "Keep critical text (title, stats, and key info) well inside the safe zone. Commenters flagged that info placed close to the trim edge risks getting cut off in print, so set a safe margin inside the bleed before finalizing the frame.",
-    "Trim ability text to the minimum wording the rules need. One commenter noted the abilities carry unnecessary words, and tighter rules text would make the bottom box cleaner and easier to read at a glance.",
-    "Make flavor text specific to the creature. A commenter pointed out that a generic line about swallowing fleets doesn't match the Kodo artwork, which weakens the tie between art and text.",
-    "Use a decorative frame that carries the art style, but test it at print size. Commenters liked the brush border, yet the poster's own question about whether it is too much suggests checking how much ornament the card can take before it competes with the art."
+    {
+      "lesson": "A digital brush frame can carry a painted aesthetic while staying editable, so you avoid re-scanning and cleaning hand-made boxes for every card. Match the frame texture to the art style.",
+      "evidence": [
+        "C8",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.122
+      }
+    },
+    {
+      "lesson": "Keep important text and icons inside safe margins from the cut line, and set up bleed early, since printing shifts can trim edge content.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Cut rules text and flavor to the minimum that keeps meaning; wordiness undermines an otherwise polished card.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "lesson": "Make flavor text match what the art shows, since a mismatch between the creature's look and its described deeds is noticeable.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Clear iconography and structure can let new viewers guess mechanics at a glance, which is worth testing with people who have no context.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
   ],
-  "business_lessons": [
-    "Asking the community for layout feedback and then showing visible responses to it built goodwill; the poster credited earlier suggestions for the rice-paper and brush direction."
-  ],
+  "business_lessons": [],
   "content_ideas": [
     {
-      "type": "debate",
-      "hook": "Is my brush-stroke card frame too much, or is it the best thing on the card?",
-      "why_it_lands": "The poster explicitly asked this, and the thread mostly loved it, which sets up a fun tension if you show the before and after and let viewers weigh in on how far ornament should go."
+      "type": "question",
+      "hook": "A designer asked if brush-stroke card frames are too much. Here's what people said.",
+      "why_it_lands": "Several commenters with solid points said the brushwork fits and the new version beats the old one, giving a clear before/after story about frame style.",
+      "evidence": [
+        "C8",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.171
+      }
     },
     {
       "type": "question",
-      "hook": "Why does my card text look fine on screen but might get cut off when printed?",
-      "why_it_lands": "A commenter raised bleed and trim risk directly, and the poster admitted printing usually goes wrong. Creators who print their own cards will recognize this pain point and want the safe-zone checklist."
+      "hook": "Is your card text this close to the edge? One commenter warned about cut-off.",
+      "why_it_lands": "Printing bleed and safe margins are a practical pain point that many designers hit late in the process.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
     }
   ],
+  "comment_points_total": 41,
+  "comment_ids": {
+    "C1": "ou1x3dk",
+    "C2": "ou1ykys",
+    "C3": "ou3jh2a",
+    "C4": "ou3kiyn",
+    "C5": "ou2b5uf",
+    "C6": "ou2b9ep",
+    "C7": "ou3d4jh",
+    "C8": "ou5bvde",
+    "C9": "ou6ngyf",
+    "C10": "ou3o81i",
+    "C11": "ou3s97c",
+    "C12": "ou4iwfn",
+    "C13": "ou6oh4f",
+    "C14": "ou6190t",
+    "C15": "ou6n7nr",
+    "C16": "ou7gozt",
+    "C17": "ou7j5sw",
+    "C18": "oub9qsm",
+    "C19": "oueno6a",
+    "C20": "oukdxkr",
+    "C21": "oum1xcp",
+    "C22": "oulpq5c",
+    "C23": "oxffrxw",
+    "C24": "oxfiihz",
+    "C25": "ou2fulj"
+  },
   "image_notes": {
     "model": "claude-sonnet-5-5",
     "design_relevant": true,
@@ -62,7 +227,7 @@
       }
     ]
   },
-  "extracted_at": "2026-11-19T04:44:07+00:00",
-  "extract_model": "claude-haiku-5-5",
-  "extract_cost_usd": 0.000699
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007658
 }

@@ -1,0 +1,303 @@
+{
+  "id": "1sej6k2",
+  "title": "When stacking cards (to level up) does it look like the player can choose from 3 attacks?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-07",
+  "upvotes": 58,
+  "comments": 32,
+  "engagement_score": 9.3223,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card stacking",
+    "level up mechanics",
+    "card templating",
+    "one-time abilities"
+  ],
+  "summary": "A designer showed a mockup of stacked, offset cards (Elvin Witch with Healing Potion and Phoenix Feather underneath) and asked whether it reads as a choice among three attacks. The community responded in a friendly, supportive way, with most commenters saying the layout is intuitive and pointing to Digimon, One Deck Dungeon, Pokémon and MapleStory as similar systems. The most useful feedback was about terminology (\"actions\" rather than \"attacks\") and how to track one-time abilities. One small split over \"any 1 hero\" versus \"any hero\" wording was low-stakes; the thread stayed warm overall.",
+  "consensus": [
+    {
+      "point": "The stacked layout communicates that the player can choose among several abilities, and it feels intuitive.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C11",
+        "C13",
+        "C20",
+        "C21",
+        "C22",
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 52,
+        "share": 0.693
+      }
+    },
+    {
+      "point": "\"Actions\" fits these abilities better than \"attacks\", since some are heals, items or utility effects.",
+      "evidence": [
+        "C6",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 34,
+        "share": 0.453
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Existing games with similar stacking were suggested as references: Digimon, One Deck Dungeon, Pokémon evolutions with Relicanth, and the old MapleStory TCG. One commenter liked that this design offers selectable actions, where Digimon's lower levels give only passive effects.",
+      "evidence": [
+        "C4",
+        "C11",
+        "C13",
+        "C19",
+        "C22"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 41,
+        "share": 0.547
+      }
+    },
+    {
+      "point": "One commenter thought the stack looked like an inventory rather than level progression, which suggests the visual metaphor can be read differently.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.16
+      }
+    },
+    {
+      "point": "One commenter suggested a used one-shot ability should fold under the card above so it is easy to track.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.04
+      }
+    },
+    {
+      "point": "One-time abilities like Phoenix Feather are better enforced by making the player discard or banish the card than by relying on players remembering they used it. A once-per-turn ability with a heavier cost is another option.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.027
+      }
+    },
+    {
+      "point": "One commenter was unsure when the Elvin Witch damage ability can be used, which points to a timing/turn-structure clarity gap on the card.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.013
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should card text say \"any hero\" or \"any 1 hero\"?",
+      "side_a": "Use the simpler \"any hero\" and keep wording consistent across cards.",
+      "side_a_evidence": [
+        "C1"
+      ],
+      "side_b": "Use \"any 1 hero\" because it scales to future cards that name other numbers of heroes, and avoids awkward workarounds later.",
+      "side_b_evidence": [
+        "C2"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.107
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.04
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Offset stacked cards with each lower ability panel visible work as a way to show that earlier abilities are still available. Keep each ability panel readable on its own.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 43,
+        "share": 0.573
+      }
+    },
+    {
+      "lesson": "Name the ability type by what the cards actually do. If abilities include heals, draws and items, call them \"actions\" instead of \"attacks\".",
+      "evidence": [
+        "C6",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 34,
+        "share": 0.453
+      }
+    },
+    {
+      "lesson": "Enforce once-per-game abilities with a physical consequence like discarding or banishing the card, not memory. This is simpler to teach and removes tracking.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.027
+      }
+    },
+    {
+      "lesson": "Set templating rules early and apply them consistently across cards, such as the wording for targeting heroes. Consider whether the phrasing will extend to future numbers of targets.",
+      "evidence": [
+        "C1",
+        "C2"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.147
+      }
+    },
+    {
+      "lesson": "Make the timing of abilities clear on the card or in the rules, such as one action per turn, so new players know when an effect can be used.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.013
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Does a stack of offset cards read as a menu of choices?",
+      "why_it_lands": "The thread's top comments say the stack is intuitive, but one commenter read it as an inventory. That gives a quick visual test designers can try on their own layouts.",
+      "evidence": [
+        "C11",
+        "C12",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 47,
+        "share": 0.627
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One-time abilities: should players remember them, or discard the card?",
+      "why_it_lands": "A detailed comment argued against honor-system tracking, and the poster changed their approach to discarding. It is a concrete problem with a practical fix.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.027
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "\"Any hero\" or \"any 1 hero\" on your card text?",
+      "why_it_lands": "A small templating argument with two reasoned sides: simple wording versus future-proofing. Designers will recognize the problem from their own card text.",
+      "evidence": [
+        "C1",
+        "C2"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.147
+      }
+    }
+  ],
+  "comment_points_total": 75,
+  "comment_ids": {
+    "C1": "oeqiv4z",
+    "C2": "oes3ali",
+    "C3": "oesblgc",
+    "C4": "oesbs99",
+    "C5": "oet72js",
+    "C6": "oes1n2i",
+    "C7": "oet5hsz",
+    "C8": "oet5r06",
+    "C9": "oet5wmh",
+    "C10": "oet6rew",
+    "C11": "oeqdpic",
+    "C12": "oeqbgsd",
+    "C13": "oerxnmu",
+    "C14": "oet4dkb",
+    "C15": "oesrp8v",
+    "C16": "oet75pz",
+    "C17": "oetuz4w",
+    "C18": "oeu9hdw",
+    "C19": "oeqzy1z",
+    "C20": "oer946n",
+    "C21": "oes99vy",
+    "C22": "of66tcd",
+    "C23": "oesltjt",
+    "C24": "of8b1q3",
+    "C25": "ofws7ks"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the stacked-card layout clearly communicates that a leveled-up card offers a choice among three attacks (the current one plus older ones).",
+    "images": [
+      {
+        "file": "data/images/1sej6k2/1.jpg",
+        "description": "Digital mockup of three vertically stacked, offset cards on a dark teal gradient background, with the top card fully visible and the lower two showing only their bottom ability panels. Top card: 'Elvin Witch'. A green leaf-shaped cost icon with '3' sits top-left, the name is centered in cream text with thin line flourishes, and '200' (HP) is in bold white top-right. Art is full-bleed anime/fantasy digital illustration of a blonde long-haired elf woman in a green sleeveless dress, smiling, holding out her hand to a glowing cyan spirit/fairy figure in a dark forest. Text over the art near the bottom: 'When Elvin Witch comes into play, heal 20HP from any 1 hero.' Below it is an ability panel with a purple bow-and-arrow icon on the left: 'Long Shot - Deal 20 damage to any opponent hero'. A white pointing-hand cursor points at this top ability. The second card, peeking out below, shows a teal potion icon with 'Healing Potion - Heal 20 HP to any hero.' The third card shows an orange feather icon with 'Phoenix Feather - Revive a hero. You can only do this once. asdf.' (placeholder text 'asdf'). Each card has a dark navy rounded frame, with ability panels at the bottom that have gold corner accents and a square icon at left. The stacked cards are offset so each lower card's ability panel is visible, suggesting selectable attacks. The art is partly covered by the text and ability panel, and the lower cards' art is mostly hidden. Text is small but legible."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010753
+}

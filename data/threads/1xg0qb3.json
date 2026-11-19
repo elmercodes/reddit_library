@@ -1,0 +1,192 @@
+{
+  "id": "1xg0qb3",
+  "title": "I work on an incremental game that mimic old school TCG artstyle codes",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xg0qb3/i_work_on_an_incremental_game_that_mimic_old/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-26",
+  "upvotes": 98,
+  "comments": 18,
+  "engagement_score": 9.0118,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "retro tcg aesthetic",
+    "pixel art",
+    "digital card game"
+  ],
+  "summary": "A developer shared screenshots and reference photos of an incremental game that parodies old-school Pokemon card design and asked for feedback on the style and meme-flavored illustration ideas. The thread was small and friendly, with community comments totaling only 18 points. Commenters praised the art, the clean layout and the throwback feel, and one gave a layout tip on rarity placement. Others asked about tools and mechanics, and no real disagreement appeared.",
+  "consensus": [
+    {
+      "point": "Commenters liked the throwback art style and clean card layout, and were curious how the game plays.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C10",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 11,
+        "share": 0.611
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested moving the rarity icon out of the prominent top-right spot unless rarity matters to gameplay. The poster replied that rarity is a humor gimmick in the game, and a second commenter welcomed rarity being more than scarcity.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.444
+      }
+    },
+    {
+      "point": "One commenter asked how to build card templates, since Procreate and Canva left them stuck. This is a common pain point for hobbyist designers.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.111
+      }
+    },
+    {
+      "point": "One commenter offered a meme-based illustration idea (the Scorpion 'lmao' meme) matching the poster's request for a contemporary twist.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.111
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Put information in the most prominent card slots only if it matters to play. A secondary element like rarity can move to a quieter spot such as the bottom unless it is mechanically or thematically important.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.444
+      }
+    },
+    {
+      "lesson": "A simple, clear layout with a name, framed art, and stat lines in the old-school Pokemon style reads as clean and nostalgic. Borrowing that structure gets praise for clarity.",
+      "evidence": [
+        "C4",
+        "C13",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.278
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "When showing a project, have a short pitch ready for mechanics questions, since viewers who like the look immediately ask how it plays. Point them to a store page without overselling.",
+      "evidence": [
+        "C4",
+        "C13"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.167
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Designers ask how to build card templates in Procreate or Canva. Here's my workflow.",
+      "why_it_lands": "A commenter said they were stuck on card templates despite having the tools, which is a pain point for many hobbyists.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.111
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Should rarity icons sit top-right on a card, or somewhere quieter?",
+      "why_it_lands": "One commenter said rarity should move unless it matters to gameplay, while the poster defended its prominence for humor. It gives a simple layout question to weigh in on.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.444
+      }
+    }
+  ],
+  "comment_points_total": 18,
+  "comment_ids": {
+    "C1": "19row3slz3a1x",
+    "C2": "19rowy7zpms2r",
+    "C3": "19rpe9yma96sl",
+    "C4": "19rou08kqj5i8",
+    "C5": "19roxboqo0f4w",
+    "C6": "19row4d89f15x",
+    "C7": "19roxraolocyr",
+    "C8": "19rp0rhu33cf6",
+    "C9": "19rp1w4fq04h1",
+    "C10": "19roz8fco7u79",
+    "C11": "19rp1pykxwt5v",
+    "C12": "19rqiyk2fp1uq",
+    "C13": "19rouqz1wta5h",
+    "C14": "19rox3v2g7ee9",
+    "C15": "19rr2pt3xkgbl",
+    "C16": "19rs8bybt306b"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the old-school Pokemon-parody card style for their incremental game is appealing, plus ideas for illustrations with a contemporary meme-culture twist.",
+    "images": [
+      {
+        "file": "data/images/1xg0qb3/1.jpg",
+        "description": "Screenshot from the incremental game showing five yellow-bordered cards on a purple wood-grain background, three in the top row and two below. Layout: name top-left, rarity icon top-right (C or UN), framed art box, a level bar (Lv.1 0/10), then stat lines, and three stars under each card. Cards: FAIRY (C, orange/red swirl art of a fly with a magic wand, brown card, Lv.1 0/10, keyword 'Magnet' in red, clock 10, green up arrow with coin 4, overlaid number 5). FAKE HAMMER (C, hammer labeled '10 t', Lv.1 0/10, clock 30, green up arrow with card-icon 3, overlaid number 11). WISE FROG (UN, blue card, green dithered art of a pink frog with a propeller cap, Lv.5 with green bar 86/244, clock 20, red down arrow with coin 120, green up arrow with card-icon 180). COOL MASCOT (C, black-and-white spiky-haired character with a boombox, Lv.1 0/10, green up arrow with coin 1,5). BEEFY DEER (C, muscular deer on green art, Lv.1 0/10, green up arrow with green gem 1,5). Small card-shaped icons float between the rows. Art is a goofy, simple, pixel/dithered cartoon style."
+      },
+      {
+        "file": "data/images/1xg0qb3/2.jpg",
+        "description": "Photo of a computer screen with a physical French first-edition Pokemon card (Evoli/Eevee, 50 PV, Jungle set 51/64) laid on it next to the game's DOG card. DOG card: yellow border, name top-left, 'C' rarity icon top-right, large art box with a pixel-art raccoon-like dog with a mask-like face, red keyword 'CATALYST', clock icon 3, green up arrow with card-icon 6, separated by thin black lines. The Pokemon card has art box, an attack list with energy costs, weakness/resistance/retreat row, and flavor text. In the background is another card with a pixel-art creature riding a bicycle. The comparison shows the game cards mimic the Pokemon frame: yellow border, framed art, and a simple text area."
+      },
+      {
+        "file": "data/images/1xg0qb3/3.jpg",
+        "description": "Photo of a drawing tablet or monitor showing the game's WISE FROG card (UN rarity, blue sky-gradient card, yellow border, green dithered art of a pink frog with a propeller hat, Lv.2 with green bar 14/20, clock 20, red down arrow with coin 5, green up arrow with card-icon 10). A stylus is pointing at it. Art software brush panels and rulers are visible on the left, with a 'MOMENTUM' keyword tag at the top and a teapot doodle at right. Two physical French Pokemon cards lie in front for reference: Natu (purple, 30 PV) and Ptitard (Poliwag, blue, 40 PV, 59/102). They show the style being referenced, with color-coded frames, framed art, and a type-line banner."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007504
+}

@@ -1,0 +1,264 @@
+{
+  "id": "1uvo0d1",
+  "title": "Getting ready to finally produce my self made TCG!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1uvo0d1/getting_ready_to_finally_produce_my_self_made_tcg/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-13",
+  "upvotes": 224,
+  "comments": 56,
+  "engagement_score": 11.4807,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "grassroots selling",
+    "indie tcg launch",
+    "card art direction",
+    "kickstarter prep"
+  ],
+  "summary": "A designer showed prototype cards for MeleeMon, a martial-arts monster TCG, and asked how to sell grassroots if their Kickstarter fails. The thread was friendly and mostly praise for the art and theme, with few replies to the actual question. A handful of commenters gave practical advice: link the game's name in posts, set up a Discord, get the game into players' hands before launch, and check legal requirements for the 6+ age rating. No real disagreement appeared.",
+  "consensus": [
+    {
+      "point": "Commenters broadly praised the art style, charm and theme as polished and standing out among indie card games.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C7",
+        "C9",
+        "C10",
+        "C17",
+        "C21",
+        "C22",
+        "C25"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 38,
+        "share": 0.667
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said Discord is the best way to connect with players and advised including the game name and links in posts.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 19,
+        "share": 0.333
+      }
+    },
+    {
+      "point": "One commenter advised getting the game into many players' hands before Kickstarter so it reads as a game people have actually played, which also protects the fallback grassroots plan.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter wanted gameplay video or a trailer to judge the game.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter warned that marketing a game to under-12s (the cards say 6+) may require legal safety inspections.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    },
+    {
+      "point": "One commenter liked the art but would prefer a living card game over a random-booster TCG model.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A consistent visual system (thick outlines, colour-coded styles per type, clear header, attack bar and trait box) makes cards read as a cohesive world; commenters called the look clean and comic-like.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C17",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 27,
+        "share": 0.474
+      }
+    },
+    {
+      "lesson": "Rarity-heavy collectible models can put off some players; offering low rarity plus few alternate arts or focused booster types is one way to address that.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Build a Discord early and put the game name and links in every post; do not worry about seeming too promotional when asking for advice.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 19,
+        "share": 0.333
+      }
+    },
+    {
+      "lesson": "Get physical prototypes played by many people before launching Kickstarter. Proof of real play makes the campaign more credible and helps a grassroots fallback.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Show gameplay footage or a trailer, since interested viewers ask for it to judge the game.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.053
+      }
+    },
+    {
+      "lesson": "Check legal and safety compliance before marketing to children under 12, such as a 6+ age rating.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Planning a Kickstarter? One designer suggested getting cards into players' hands first.",
+      "why_it_lands": "The top practical advice was to prove the game is real before crowdfunding, which every indie designer faces.",
+      "evidence": [
+        "C7",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 22,
+        "share": 0.386
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Putting a 6+ age on your card game? A commenter flagged legal inspections.",
+      "why_it_lands": "A little-known compliance pitfall that designers rarely consider before printing.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    }
+  ],
+  "comment_points_total": 57,
+  "comment_ids": {
+    "C1": "oxcuna1",
+    "C2": "oxcxff7",
+    "C3": "oxcsgu3",
+    "C4": "oxctt2w",
+    "C5": "oxcrhjr",
+    "C6": "oxcs1vr",
+    "C7": "oxd1bno",
+    "C8": "oxcvwcb",
+    "C9": "oxcz5bh",
+    "C10": "oxd1xm3",
+    "C11": "oxd9ly9",
+    "C12": "oxdbwjp",
+    "C13": "oxdf5fk",
+    "C14": "oxjqfni",
+    "C15": "oxkz590",
+    "C16": "oxkafyq",
+    "C17": "oxl62xc",
+    "C18": "oxljmuc",
+    "C19": "oxlau4p",
+    "C20": "oxp7i31",
+    "C21": "oxsoqy1",
+    "C22": "oxvzcb8",
+    "C23": "oxw2xrw",
+    "C24": "oydjq7j",
+    "C25": "p3c7o3k"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants advice on selling their self-made martial-arts monster TCG grassroots-style (card shows, markets, etc.) if their Kickstarter fails, plus general opinions.",
+    "images": [
+      {
+        "file": "data/images/1uvo0d1/1.jpg",
+        "description": "MeleeMon card 'KINGRAB' (Grapple Style - MeleeMon, Champion Rank - Rank Up! from GRAPAHOLD), blue-themed, number R 003, HP 85. Layout: black header with a small style-label tab on the upper left, a fist icon at left of a white name box, HP at right, rank line beneath in italics. Small 'M' logo and rarity/number tag top right. Large central art of a chunky blue crab-like creature with brown claws and a gold crown mark, in a thick black outline, cartoon digital style, on a blue brushed diagonal background with white bubbles. Attack bar below the art: action/running icon with cost 6, 'Double Suplex', damage '15x'. Bottom left: red RANGE panel with 3 bars (all red) and TARGET 2. Right: black 'MELEEMON TRAIT' box with keyword tags GRAB (blue) and SLIP (green), text: 'Double Suplex deals +15 damage to each Grappled target.' Bottom: gold crown icon, italic flavor text 'Kingrab are master grapplers, using hardened mud on their hands to solidify their already powerful grip.', and a circled 6 with action icon at bottom right (retreat/movement cost). Footer: ©2026 AlexMonfra/BuffaloKimchiWorks."
+      },
+      {
+        "file": "data/images/1uvo0d1/2.jpg",
+        "description": "MeleeMon card 'LUCHEE' (Agility Style - MeleeMon, Base Rank), yellow-themed, C 060, HP 35. Same layout as Kingrab with a yellow lightning-pattern background. Left side has a 'STARTER' badge with an 'S' style icon. Art: small cartoon leopard/cat with a pink luchador-style mask and purple spots, white sparkles. Attack: cost 2, 'Dropkick', damage 10. RANGE panel with 3 bars (only the middle one red) and TARGET 1. MELEEMON TRAIT box with QUICK (yellow) and SNEAK (dark blue) tags: 'LUCHEE has no movement cost while it's your only MeleeMon in play.' Bottom left: circled 5 with crown 'RANK UP!' badge (rank-up cost); bottom right circled 1 with action icon (movement cost). Flavor text: 'Luchee are very friendly towards humans and love attention. They enjoy grappling and acrobatics.' Same copyright footer."
+      },
+      {
+        "file": "data/images/1uvo0d1/3.jpg",
+        "description": "MeleeMon Coach card 'DANNY DOU' (Coach, Champion Rank), C 170, orange/gold themed. Header has a black bar with a crown-shield icon on both sides of the white name box, no HP. Art: muscular shirtless pro-wrestler with a dark mullet, orange headband and glove, holding a championship belt, and a hulking orange-and-dark armored creature behind him; cartoon style with thick black outlines and white bubbles. Large white text box titled 'COACH TRAIT': 'Your MeleeMon have -1 Attack cost for each MeleeMon Style you have in play.' with much empty space beneath. Bottom left gold crown icon; black footer box: 'This card must start the game on its Rookie Rank side.' Same copyright footer."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008591
+}

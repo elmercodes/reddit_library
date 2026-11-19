@@ -1,0 +1,280 @@
+{
+  "id": "1uscm37",
+  "title": "Finally bit the bullet and printed out the Cyclémental prototype! Advice on print settings?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1uscm37/finally_bit_the_bullet_and_printed_out_the/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-10",
+  "upvotes": 176,
+  "comments": 35,
+  "engagement_score": 10.5514,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "prototype printing",
+    "card stock",
+    "playtesting",
+    "box design"
+  ],
+  "summary": "A designer showed a hand-cut, print-shop prototype of Cyclémental and asked about print settings, card stock, boxes, holographic cards and whether AUD30 for 10 sheets was fair. The response was friendly and mostly praise for the art, with a few practical tips on cheap prototyping, cutting tools and a layout fix. The one real tension was that commenters pushed cheap, low-fidelity prototyping while the poster had spent more for a presentation-quality set. Nobody answered the holographic or price questions directly.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter prints at a print shop on plain photo paper, because the shop's printers are better, and sleeves each card over a throwaway Pokémon energy card. They got about 2000 of those for free. This makes cheap playtest cards feel sturdy.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 15,
+        "share": 0.333
+      }
+    },
+    {
+      "point": "One commenter runs a home setup of a printer, laminated photo paper and a Silhouette Cameo cutter. It produces a 60-card deck in 5-10 minutes with exact cuts, but is overkill unless used for other projects.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.111
+      }
+    },
+    {
+      "point": "One commenter recommended a dedicated corner punch (Sunstar Kadomaru Pro) instead of hand-cutting rounded corners.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.089
+      }
+    },
+    {
+      "point": "One commenter suggested rotating the logos on the two large box side panels by 180 degrees so they read upright when the box sits on a table.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "point": "One commenter noted a typo in the flavor text of the yellow Muthu card.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "point": "One commenter said a finished physical print attracts more playtesters, and the poster agreed that the earlier low-fidelity version got no print-and-play takers.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "point": "One commenter had good results printing on M29 Linen stock and recommended it.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "point": "One commenter skips card backs for test prints and gets cost down to about 3.5 cents per card. The poster's was about 30 cents.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.022
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "For playtesting, put cheap prints in sleeves with a filler card behind them. Paying a print shop for better printing is enough. Save premium stock for the final product.",
+      "evidence": [
+        "C1",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.356
+      }
+    },
+    {
+      "lesson": "Check box panels for orientation. Large side panels with logos should read upright when the box sits on a shelf or table, so rotate the art accordingly.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "lesson": "Proofread flavor text on the physical print. A typo on one card showed up only after it was printed.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    },
+    {
+      "lesson": "Hand-cut corners look uneven. A corner punch or a cutting machine gives consistent rounding, which matters when judging how a prototype feels.",
+      "evidence": [
+        "C5",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.2
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A high-fidelity prototype costs far more per card than a face-only test print (about 30 cents against about 3.5 cents here). Decide whether the polish is worth it, for example for showcase videos, and expect manufacturer pricing to be lower.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.022
+      }
+    },
+    {
+      "lesson": "A polished physical prototype can draw more playtesters than a print-and-play file, which helps community building before a Kickstarter.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should a prototype be 3.5 cents a card, or 30 cents?",
+      "why_it_lands": "The thread contrasts a face-only test print at about 3.5 cents per card with a polished set at about 30 cents, and designers weigh cost against feel.",
+      "evidence": [
+        "C22",
+        "C23",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.356
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer says a printed prototype gets you more playtesters. Does it?",
+      "why_it_lands": "A commenter claimed physical prints draw playtesters, and the poster said the low-fidelity version got none. It's a concrete claim designers can test.",
+      "evidence": [
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.044
+      }
+    }
+  ],
+  "comment_points_total": 45,
+  "comment_ids": {
+    "C1": "owmrjnb",
+    "C2": "owmrqnn",
+    "C3": "owp00nc",
+    "C4": "owscr2q",
+    "C5": "ownwlv4",
+    "C6": "ownxp5q",
+    "C7": "owobj0d",
+    "C8": "owphyjs",
+    "C9": "owpl924",
+    "C10": "owsdj72",
+    "C11": "owukemm",
+    "C12": "owunjtc",
+    "C13": "owxthnr",
+    "C14": "owyvshg",
+    "C15": "owywctj",
+    "C16": "ox44m4t",
+    "C17": "ox649up",
+    "C18": "ox8zwef",
+    "C19": "oxdj2mt",
+    "C20": "p1sjc2j",
+    "C21": "p1t3p4l",
+    "C22": "owtwdk5",
+    "C23": "owtxtpf",
+    "C24": "owmxcse",
+    "C25": "own6d1p"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants advice on print settings, card stock, box types, and whether holographic cards are worth the cost, plus a check on whether AUD30 for 10 sheets of 300gsm is a fair price.",
+    "images": [
+      {
+        "file": "data/images/1uscm37/1.jpg",
+        "description": "Photo of the hand-cut Cyclémental prototype on a wooden table, with a cutting mat and yellow scissors at the top right. A small black box printed with the 'Cyclémental - Casual Party Strategy Game' logo, '2-5 Players' and '20-40 Est. Min' tabs, and a five-element cycle diagram (fire, wood, earth, metal, water) in colored circles with Chinese characters. Left: a stack of card backs showing the same swirling dark vortex with the five-element wheel and logo. Below it, a fanned stack of Qi cards with a yin-yang icon in the corners, a rainbow-colored watercolor creature, and an 'EFFECT' text box ('Gather 3 Qi Cards to win the game'). Under that, a card back with a large yin-yang. Right: five fanned creature cards, each with a colored border matching its element. Orange/yellow earth: 'Muthu, the Deep Bury', with abilities Petrify and Fissure. Green wood: 'Ulassha, the Patient Coil', with Harvest and Overgrowth. Red fire: 'Apirak, the Unbroken', with Ignite and Inferno. Blue water: 'Kodo, the Tidal Surfer', with Ripple and Vortex. Purple metal: 'Logamir, the Howling', with Calibrate and Transmute. Layout: name at the top left over a colored banner, a large watercolor/ink creature illustration on the left, and a white text box on the right with bold ability names, cost icons, and WEAK/STRONG element icons at the bottom. Corners are visibly rounded unevenly from hand-cutting, and some text is cut off by overlap."
+      },
+      {
+        "file": "data/images/1uscm37/2.jpg",
+        "description": "Photo of the unfolded, hand-cut box template lying flat on a wooden table with a ruler, scissors, and a craft knife on a cutting mat. The top panel shows the Cyclémental logo, '2-5 Players', and '20-40 Est. Min', with the five-element wheel on a dark vortex background. The side panel has upside-down logo art flanked by creature illustrations (a sun-headed figure and a golden beast). The left panel has the tagline 'Five elements. One cycle. Endless rivalry.' and a blurb: 'Sixty creatures, hand-painted in ink and watercolour, brought to life through philosophy. Attack, defend, and outwit your rivals to collect 3 Qi cards and claim victory. Every card hand-painted. No two the same.', with small element icons and a copyright line. Other panels show colorful creature art, and some flaps are plain black. Edges are cut roughly and the paper is glossy."
+      },
+      {
+        "file": "data/images/1uscm37/3.jpg",
+        "description": "Selfie of the poster, half hidden behind fanned printed A4 sheets of card fronts. Each sheet holds a 3x3 grid of cards, grouped by element color: red fire cards on the front sheet, then blue, green, orange/brown, and purple/dark sheets behind. Each card has a thick colored border, creature art on top, a text box with small text, and two small icons at the bottom right. The cards are uncut, with white margins, and the text is too small to read at this resolution."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010253
+}

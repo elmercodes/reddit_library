@@ -1,0 +1,296 @@
+{
+  "id": "1waha80",
+  "title": "After a year of making my own TCG, I’m finally printing the first real cards",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1waha80/after_a_year_of_making_my_own_tcg_im_finally/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-08",
+  "upvotes": 84,
+  "comments": 24,
+  "engagement_score": 9.271,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "mtg clone look",
+    "card templates",
+    "printable proxies"
+  ],
+  "summary": "A designer shared the near-final card layout for VALLEY, a grid-based TCG, along with a dithered home-print version, and asked for feedback on the grid gameplay and the printable-proxy idea. Responses were friendly and small in points, but the loudest feedback was that the layout looks too much like an old-border MTG card. A couple of commenters praised the art and the look, and the rest of the thread was workflow questions about templates and tools. Nobody commented on the printable-proxy plan or the grid mechanics in any depth.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters said the card looks like a clone of old-border MTG, citing palette, layout and texture, and one warned that a commercial release would need a significant redesign.",
+      "evidence": [
+        "C11",
+        "C12",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.281
+      }
+    },
+    {
+      "point": "Free tools were recommended for template building: Magic Set Editor for early proxies and prototypes, and Dextrous for treating cards as data.",
+      "evidence": [
+        "C6",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter wanted more gameplay and rules information before judging the game.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.125
+      }
+    },
+    {
+      "point": "One commenter compared the gameplay to Sorcery: Contested Realm and offered to playtest if the game gets a digital tool or a peer-to-peer client.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.062
+      }
+    },
+    {
+      "point": "A commenter said another user's reply in the thread was a self-promotional pitch for a competing game and told them not to piggyback on others' threads.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.031
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Whether the MTG-like look is a problem",
+      "side_a": "The layout, palette and texture are too close to MTG and need visual distinction.",
+      "side_a_evidence": [
+        "C11",
+        "C12",
+        "C17"
+      ],
+      "side_b": "The retro style is appealing, including to someone who has never played MTG.",
+      "side_b_evidence": [
+        "C14",
+        "C19"
+      ],
+      "side_a_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.281
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Test layout changes for in-hand usability, not just originality. Stats moved to the left edge get covered by the thumb and other cards when holding a hand, and unusual layouts slow down finding basic info. Aim for a layout that is actually better to play with, not just different.",
+      "evidence": [
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "Differentiate through palette, texture and frame treatment while keeping familiar information placement. This addresses clone criticism without hurting readability.",
+      "evidence": [
+        "C11",
+        "C12",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.281
+      }
+    },
+    {
+      "lesson": "Build the template once and treat cards as data in a tool like Dextrous or Magic Set Editor. Then change costs and text across a 40-card deck quickly, and polish only locked cards in Photoshop.",
+      "evidence": [
+        "C6",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.125
+      }
+    },
+    {
+      "lesson": "Give new viewers a short rules explanation alongside card images, since a card layout alone does not convey how a grid game plays.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.125
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "If you hope for a commercial release, visual similarity to a dominant game is a risk. Fix it in the production template before printing the first real run.",
+      "evidence": [
+        "C17",
+        "C11",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.281
+      }
+    },
+    {
+      "lesson": "When promoting in other creators' threads, share your project without pitching it as better than theirs; self-promotion in someone else's thread was called out.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.031
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Designers told a new TCG its cards look like old Magic. Is that fatal?",
+      "why_it_lands": "The thread's top-scored feedback was the MTG-clone concern, while others liked the retro look, so creators can weigh in on familiarity versus originality.",
+      "evidence": [
+        "C11",
+        "C12",
+        "C17",
+        "C14",
+        "C19"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 13,
+        "share": 0.406
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you redesign a card layout without making it worse to hold?",
+      "why_it_lands": "The poster described a concrete tradeoff: moving stats left puts them under the thumb in hand. That is a practical problem other designers face.",
+      "evidence": [
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "type": "question",
+      "hook": "What's your card template workflow: Photoshop, Dextrous, or Magic Set Editor?",
+      "why_it_lands": "A commenter asked how to get a professional look, and the replies offered a multi-tool workflow and a free alternative.",
+      "evidence": [
+        "C3",
+        "C6",
+        "C5"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.219
+      }
+    }
+  ],
+  "comment_points_total": 32,
+  "comment_ids": {
+    "C1": "p8iw62y",
+    "C2": "p8n2hbo",
+    "C3": "p8js4ij",
+    "C4": "p8n1d1o",
+    "C5": "p8r2w40",
+    "C6": "p8kp9ds",
+    "C7": "p8kqnxh",
+    "C8": "p8wqs50",
+    "C9": "p91vb6d",
+    "C10": "p94bds9",
+    "C11": "p8iuunu",
+    "C12": "p8jdlrf",
+    "C13": "p8n1wtp",
+    "C14": "p8jhj2d",
+    "C15": "p8n1z8v",
+    "C16": "p8n1k4t",
+    "C17": "p8l9vbg",
+    "C18": "p8n24hm",
+    "C19": "p96o6aa",
+    "C20": "p9saabv",
+    "C21": "p8ixp19",
+    "C22": "p8l926h",
+    "C23": "p8n22c5",
+    "C24": "p8tvnuh",
+    "C25": "p8tw5qi"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their nearly finished TCG card design (VALLEY) and its dithered home-print version, and seems to want general feedback or advice before printing the first real cards.",
+    "images": [
+      {
+        "file": "data/images/1waha80/1.jpg",
+        "description": "Near-final card 'Brambletrail Marauder', a black-bordered card scanned flat with slight wear/speckling. Top left: small gold bearded-face icon; name in white serif at top; top right two round icons: blue circle with a sword and green circle with a leaf. Large framed art box with a bright, painterly illustration of a purple monkey with cream chest leaping rightward-to-left through a green berry bush under a starry night sky and blue mountains. Type line below art: 'Creature / Ape Scout / Monkey', with a gold set/rarity symbol at right. Text box is a pink/salmon parchment with red border: 'Main Phase: Brambletrail Marauder can move one additional space if it has received any damage this turn.' (Main Phase bolded). Bottom left: orange/gold circle with '2' and a four-way arrow move icon; small credit 'Illus. Trey Servant'. Bottom right: blue hexagonal stat plate '4 / 5'. Text is large and readable."
+      },
+      {
+        "file": "data/images/1waha80/2.jpg",
+        "description": "Black-and-white dithered (halftone/stipple) version of the same Brambletrail Marauder card, for home or label printers, on a white square with black margin. Layout identical: name, two icons top right, art, type line, text box, move cost circle '2' with arrows, illustrator credit, '4 / 5' stat plate. The art is heavily reduced and hard to read as a monkey; rules text remains legible, though icons and small text are less clear due to the dither."
+      },
+      {
+        "file": "data/images/1waha80/3.jpg",
+        "description": "Older test card 'Two & Urthos, King-Rider' with a brown wood-style frame and a tan/yellow parchment text box. Top right: small round green tree icon. Art: a large maroon bear charging through splashing blue water with a small crowned human rider on its back, rocky cliffs and a branch around, purple sky. Type line: 'Hero / Guardian / Human, Bear'. Text: 'Diagonal / Dismount / Remount'; 'Remount: Pay 1 Essence. If Two and Urthos are adjacent and untapped, merge into Mounted on either space; remove the other token.'; 'Mounted Ability: \"Unstoppable Charge\" Once per turn: Move up to 2 spaces forward. Each enemy entered or crossed by this movement is pushed back 1 and takes 1 damage.' Bottom left: white boxes '3 / 22' and '2' with a move-arrows icon, and 'art by servant' in small text. Bottom right: a small dark box with a warrior/class icon. Layout is simpler, with the name in small white text at top left."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.011763
+}

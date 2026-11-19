@@ -1,0 +1,367 @@
+{
+  "id": "1xb5mjy",
+  "title": "First look at our TCG in development! What's your first impressions and thoughts about the card layout?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xb5mjy/first_look_at_our_tcg_in_development_whats_your/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-20",
+  "upvotes": 70,
+  "comments": 36,
+  "engagement_score": 9.6791,
+  "flair": "Card Critique",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "full art cards",
+    "rules text clarity",
+    "status tracking"
+  ],
+  "summary": "A designer shared the full-art hero card Hikari from STARS ALIGNED TCG and asked for first impressions of the layout. The community was friendly and constructive: the art got broad praise, while feedback focused on text readability over the art, rules wording, and how to track statuses and stacking damage. The OP engaged with nearly every critique and called several elements placeholders. Temperature is warm with no real split, though a couple of commenters questioned whether the card is overwhelming and others disagreed.",
+  "consensus": [
+    {
+      "point": "The artwork is excellent and the card looks professional, but the rules text is hard to read directly over the busy art and wants an opaque or semi-transparent backing, or better font treatment.",
+      "evidence": [
+        "C1",
+        "C18",
+        "C21",
+        "C22",
+        "C23",
+        "C20",
+        "C25",
+        "C13",
+        "C11"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 38,
+        "share": 0.559
+      }
+    },
+    {
+      "point": "The rules wording needs tightening and clearer phrasing, and keywords should stand out visually.",
+      "evidence": [
+        "C3",
+        "C19",
+        "C20",
+        "C21",
+        "C24"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 21,
+        "share": 0.309
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter noted that a stacking effect like The Blade of Light has no obvious way to be tracked on the card, and suggested counters, as in MTG.",
+      "evidence": [
+        "C3",
+        "C19",
+        "C4"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 18,
+        "share": 0.265
+      }
+    },
+    {
+      "point": "One commenter suggested dividing the large damage and HP numbers by 10 for easier math.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.176
+      }
+    },
+    {
+      "point": "One commenter suggested heroes named by a single common word need epithets or surnames to stand apart from the many other characters with the same name.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.059
+      }
+    },
+    {
+      "point": "One commenter pointed out a mismatch in polish between the flat top-left icon and the more detailed, glossy 200 HP badge.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    },
+    {
+      "point": "One commenter proposed a card type/subtype line under the name, and described testing frames by guessing what each icon means.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.029
+      }
+    },
+    {
+      "point": "One commenter noted the footer font appears not to support both Japanese and Latin characters.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.029
+      }
+    },
+    {
+      "point": "One commenter said the card name sits too close to the top edge.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.029
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is the card too complex and overwhelming?",
+      "side_a": "The card has too much going on and would feel overwhelming in a multi-card starting hand.",
+      "side_a_evidence": [
+        "C1"
+      ],
+      "side_b": "The card is not too complicated; it reads fine or is playable as is.",
+      "side_b_evidence": [
+        "C20",
+        "C9",
+        "C25"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 19,
+        "share": 0.279
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.088
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When using full-art frames, put a low-opacity or blurred panel behind rules text so it stays readable while the art silhouettes show through. Text outlines alone fight with busy backgrounds.",
+      "evidence": [
+        "C18",
+        "C22",
+        "C23",
+        "C21"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 11,
+        "share": 0.162
+      }
+    },
+    {
+      "lesson": "Make keywords such as Parry visually distinct with bold or keyword bubbles, and bold other card names referenced in text, so players can scan quickly.",
+      "evidence": [
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.221
+      }
+    },
+    {
+      "lesson": "Effects that change over time, like stacking damage or multi-turn statuses, need a physical tracking method designed up front, such as counters, and the card text should state the rule plainly.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 18,
+        "share": 0.265
+      }
+    },
+    {
+      "lesson": "Write complete, grammatical rules text and have a native speaker review it; dropped words and awkward phrasing cause rules confusion even when brevity is the goal.",
+      "evidence": [
+        "C19",
+        "C20",
+        "C21",
+        "C24"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 9,
+        "share": 0.132
+      }
+    },
+    {
+      "lesson": "Keep ornamental details consistent across badges so placeholders do not read as unfinished: match shading and border detail between icons.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.044
+      }
+    },
+    {
+      "lesson": "Include a type/subtype line and check that every font supports all scripts used in the footer.",
+      "evidence": [
+        "C21",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.059
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Sharing early frames for critique in public draws detailed free feedback and some direct contact from interested people, so replying to each critique and being open about placeholders builds goodwill.",
+      "evidence": [
+        "C15",
+        "C25",
+        "C9",
+        "C13"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 8,
+        "share": 0.118
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Full-art card frames look great, but can players actually read the rules text?",
+      "why_it_lands": "Several top-scoring comments flagged text fighting with the art and suggested semi-transparent text boxes, a fix designers can show on camera.",
+      "evidence": [
+        "C18",
+        "C22",
+        "C23",
+        "C21",
+        "C1"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 30,
+        "share": 0.441
+      }
+    },
+    {
+      "type": "question",
+      "hook": "How do you track a card ability that gets stronger every time it's used?",
+      "why_it_lands": "Stacking damage on one card sparked multiple tracking questions and counter suggestions, a common pain point in card game design.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 18,
+        "share": 0.265
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "One commenter found this hero card overwhelming; others said it reads fine. Where's the line?",
+      "why_it_lands": "The top comment felt it was overwhelming, while other commenters called it easy to read, which invites a complexity discussion.",
+      "evidence": [
+        "C1",
+        "C20",
+        "C9"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.338
+      }
+    }
+  ],
+  "comment_points_total": 68,
+  "comment_ids": {
+    "C1": "phy8nup",
+    "C2": "phy9f6e",
+    "C3": "phy9eal",
+    "C4": "phyjcwr",
+    "C5": "phyr9ku",
+    "C6": "phyb6is",
+    "C7": "phyin8t",
+    "C8": "phyojua",
+    "C9": "19rfs11665y1t",
+    "C10": "19ri6tutec5np",
+    "C11": "19rfvaz15m1ep",
+    "C12": "19ri7a5ixico1",
+    "C13": "19rhhnrb4sbl1",
+    "C14": "19ri6u5qe423o",
+    "C15": "phyc1a9",
+    "C16": "phyd9y9",
+    "C17": "phye9w4",
+    "C18": "phzhqez",
+    "C19": "phzomx7",
+    "C20": "19rgb66e8vb1c",
+    "C21": "19rh9fxsyjpgk",
+    "C22": "19rlzv52k1qqp",
+    "C23": "19rftmgpekujo",
+    "C24": "phz5ohk",
+    "C25": "pi0ciky"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants first impressions and feedback on the hero card layout for their TCG, STARS ALIGNED.",
+    "images": [
+      {
+        "file": "data/images/1xb5mjy/1.jpg",
+        "description": "Full-art hero card 'Hikari' from STARS ALIGNED TCG, portrait orientation with a thin gold rounded frame over the illustration. Name 'Hikari' is centered at top. Top-left: a purple orb with a wave/water-like symbol in an ornate gold diamond-shaped badge (element/faction icon). Top-right: a purple diamond badge showing '200' (HP). Art: polished digital anime style of a fox-eared woman with long purple hair holding a katana overhead, wearing a white kimono with armor pieces and a red sash. A teal ghost spirit floats beside her. Background has cherry blossoms, red/orange swirling flames and a Japanese pagoda. A faint semi-transparent white watermark/placeholder pattern is across the center. Text sits directly over the lower art with no solid text box, white text with dark outline: [PASSIVE tag, blue] 'While Hikari is in your Frontline, your Heroes in Frontline gain Parry (When attacked, roll a die, if 6 take no damage).' [BOUND BY FATE tag, red] 'While Kage is on the field, 5 and 6 on die roll parry the attack when using Hikari's passive.' Ability 1: cost 2 (gold diamond), 'Blossoming Strike', damage 50 right-aligned: 'Apply Bleed for 2 turns to opponent Hero who possess an ability that deals more damage than this one.' Ability 2: cost 3, 'The Blade of Light', damage '20+': 'This ability deals +20 DMG every time you use it.' Footer: 'TFS-EN XXX/XXX  ARTIST: サキ' at left and '© 2025 STARS ALIGNED TCG' at right, with a small purple star icon at bottom center. Small gold ornaments sit on the left and right edges. Text over busy art may be hard to read in places."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.013286
+}

@@ -1,0 +1,341 @@
+{
+  "id": "1qn3g25",
+  "title": "Card Layout First Draft Feedback - SumMons",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qn3g25/card_layout_first_draft_feedback_summons/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-26",
+  "upvotes": 45,
+  "comments": 62,
+  "engagement_score": 10.0433,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "ai art placeholders",
+    "pokemon-style design",
+    "stat icons"
+  ],
+  "summary": "A designer shared first-draft Summon creature card layouts for SumMons (Fire, Earth, Dark examples) and asked for general feedback. The thread was mostly friendly and constructive on layout, but the AI-generated placeholder art and heavy Pokémon resemblance drew repeated pushback. Layout critiques centred on the sunken DEF/HP icons and the small damage number. The art and Pokémon-look complaints carried more points than the praise for the art, though much of that weight sits in one joking reply.",
+  "consensus": [
+    {
+      "point": "The basic layout and attack/passive structure are a solid starting point, but the DEF/HP icons and damage number need polish for readability.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C12",
+        "C14",
+        "C16",
+        "C19"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 30,
+        "share": 0.361
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested tightening the text area by enlarging the art box and pointing to an MTG card with separate number sets as a formatting model for damage.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.048
+      }
+    },
+    {
+      "point": "One commenter noted the art breaking over the card name's frame creates distracting cognitive dissonance, even though they accepted the stat placement.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter warned that identical frame textures across all elements could hurt colorblind players, suggesting element-specific textures like MTG, though the element icons partly help.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter suggested putting passives in their own inset box, like Pokémon Powers, to separate them from attacks.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter proposed grouping HP and DEF on one side of the card with damage where HP currently sits, since looking left and right for life values feels awkward.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.012
+      }
+    },
+    {
+      "point": "One commenter asked what concretely differentiates the game from Pokémon beyond visuals.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.012
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Whether the Pokémon-style, AI-generated look is a problem or a strength",
+      "side_a": "The look is too Pokémon-like, generic, and AI art is unwelcome, especially if not disclosed upfront.",
+      "side_a_evidence": [
+        "C3",
+        "C6",
+        "C9",
+        "C22",
+        "C24"
+      ],
+      "side_b": "The style is charming, consistent, nostalgic and well-directed, with the pop-out art adding depth.",
+      "side_b_evidence": [
+        "C11",
+        "C14",
+        "C17"
+      ],
+      "side_a_support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 35,
+        "share": 0.422
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.072
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Make combat numbers (damage, DEF, HP) large and high-contrast enough to read upside down across a table; avoid sunken bevelled icons whose shapes get lost in their outlines.",
+      "evidence": [
+        "C4",
+        "C12",
+        "C14",
+        "C19"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 10,
+        "share": 0.12
+      }
+    },
+    {
+      "lesson": "Keep art from crossing the name text; pop-out art adds depth but overlapping the title creates visual conflict.",
+      "evidence": [
+        "C16",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.048
+      }
+    },
+    {
+      "lesson": "Give attacks and passives distinct visual containers, and align damage with its attack text, so readers can tell always-on abilities from attacks at a glance.",
+      "evidence": [
+        "C14",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.072
+      }
+    },
+    {
+      "lesson": "Do not rely on identical frame textures for color identity; vary textures and keep element icons to support colorblind players.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.024
+      }
+    },
+    {
+      "lesson": "Tint the stat icons subtly (for example a hint of red for HP) so stats are recognisable subconsciously and free up attention for strategy.",
+      "evidence": [
+        "C19",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.048
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Label AI placeholder art clearly when posting drafts, or audiences will assume it is final and react negatively to it instead of the layout.",
+      "evidence": [
+        "C6",
+        "C9",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 26,
+        "share": 0.313
+      }
+    },
+    {
+      "lesson": "Pokémon-adjacent visuals and element-plus-animal naming make a new game blend into a crowded field; be ready to state what sets yours apart beyond looks.",
+      "evidence": [
+        "C3",
+        "C22",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.12
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A designer posted AI placeholder art for feedback. Here's how this subreddit reacted.",
+      "why_it_lands": "AI art is polarizing: the heavily upvoted skeptical replies outweighed the few who praised the style, so it invites viewers to take a side.",
+      "evidence": [
+        "C6",
+        "C9",
+        "C24",
+        "C17"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 28,
+        "share": 0.337
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Can you read your card's damage number from across the table, upside down?",
+      "why_it_lands": "Several commenters flagged small damage and stat icons, a concrete, easily demonstrated layout test.",
+      "evidence": [
+        "C4",
+        "C14",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.096
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should creature art cross the card name? One commenter said it creates dissonance.",
+      "why_it_lands": "Pop-out art is a common stylistic choice with a clear tradeoff between depth and legibility.",
+      "evidence": [
+        "C16",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.048
+      }
+    }
+  ],
+  "comment_points_total": 83,
+  "comment_ids": {
+    "C1": "o1r6ech",
+    "C2": "o1rbsk4",
+    "C3": "o1r6sz3",
+    "C4": "o1s9pup",
+    "C5": "o1uyod8",
+    "C6": "o1ui38l",
+    "C7": "o1ukzj7",
+    "C8": "o1r2jin",
+    "C9": "o1r85q3",
+    "C10": "o1r8m5c",
+    "C11": "o1so0uj",
+    "C12": "o1tjcj0",
+    "C13": "o1tm67e",
+    "C14": "o1tzdtf",
+    "C15": "o1uqf5s",
+    "C16": "o1vasny",
+    "C17": "o1x1ozw",
+    "C18": "o1y4vtx",
+    "C19": "o1y3of6",
+    "C20": "o1varjm",
+    "C21": "o1vdwec",
+    "C22": "o1y4edj",
+    "C23": "o1y7jdh",
+    "C24": "o20oq63",
+    "C25": "o20sn1h"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general feedback on the first-draft card layout for the Summon creature cards in their game SumMons.",
+    "images": [
+      {
+        "file": "data/images/1qn3g25/1.jpg",
+        "description": "Fire Summon card 'Charyudon' (subtitle 'Fire-breathing Dragon' in small italic above the name). Orange frame with a mottled, flame-like parchment texture and a dark gray outer border. Cost 6 in a pink lotus-shaped gem at top left, overlapping the border. Large art box with an orange border shows a red cartoony dragon with white belly and cream horns/crest, wings spread, on a yellow-orange background with holographic-style sparkles. The art looks like a Pokémon-style (Charizard-like) digital or AI-generated illustration. The name overlaps the top of the art frame, so the descender of the 'y' crosses into the art. Under the art is a type bar: 'Summon' at left, 'Reptile' at right, with a center cluster of a gray DEF shield (1), an orange circular fire element icon, and a gray HP shield (7). The text area has an attack icon 'DMG 4' (starburst) next to the attack name 'Burning Breath'. Rules: 'Deal half the damage dealt to defending Summon to each of its adjacent Summons rounded up.' A divider line follows, then a passive: 'As long as this Summon is Active, enemy Summons cannot be played onto Sealed Totems in this Leyline.' Text is dark on a light orange background and readable."
+      },
+      {
+        "file": "data/images/1qn3g25/2.jpg",
+        "description": "Earth Summon card 'Hominape' (subtitle 'Sasquatch'). Red/pink frame with a cloudy texture and the same layout as the other cards. Cost 4 in a pink lotus gem at top left. The art shows a brown and green shaggy ape/sasquatch with a white face, standing in a forest with holographic sparkles. It is a watercolor-like, Pokémon-style creature and the art overlaps the top of the art frame, with the head extending over the border. The type bar reads 'Summon' on the left and 'Mammal' on the right, with DEF 3, a red circular earth icon (stacked stones), and HP 6. Attack 'Reclusive Roar' with DMG 2: 'This attack deals +1 DMG for each adjacent enemy Summon next to the defending Summon.' A divider line follows, then the passive: 'Enemy Summons in adjacent Leylines cannot attack unless they have an adjacent friendly Summon.' Text is dark on a pale pink background."
+      },
+      {
+        "file": "data/images/1qn3g25/3.jpg",
+        "description": "Dark Summon card 'Fanguine' (subtitle 'Vampire'). Purple frame with a misty texture and the same layout as the other cards. Cost 4 in a pink lotus gem at top left. The art shows a black and purple bat-like creature with large ears, outstretched wings, and a white fluffy collar, against a red and dark purple cloudy background with holographic sparkles. It is a Pokémon-style (Noivern/Crobat-like) illustration, and the ears and wing tips overlap the art frame's top edge. The type bar reads 'Summon' on the left and 'Mammal' on the right, with DEF 1, a purple dark-element swirl icon, and HP 5. Attack 'Consuming Crunch' with DMG 3: 'Heal this Summon for half of the life lost by defending Summon (rounded down).' A divider line follows, then the passive: 'At the end of your turn, if this Summon is Dormant, you may put a card from your discard pile on top of your deck, if you do heal 1 health.' Text is dark on a light lavender background."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.013661
+}

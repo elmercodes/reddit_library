@@ -1,0 +1,211 @@
+{
+  "id": "1pezeic",
+  "title": "MakePlayingCards has really upped their game!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pezeic/makeplayingcards_has_really_upped_their_game/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-12-05",
+  "upvotes": 43,
+  "comments": 28,
+  "engagement_score": 8.8351,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "print on demand",
+    "foil cards",
+    "makeplayingcards",
+    "promo cards"
+  ],
+  "summary": "A designer shared photos of a foil promo card printed by MakePlayingCards and recommended the service, plus a Discord invite for free foil cards via Tabletop Simulator missions. The response was friendly and supportive, with the top thread centered on wishing foil could be applied selectively rather than across the whole card. Commenters also asked about price and card size. One commenter said MPC prices are high, but the thread stayed mild with no real heated dispute.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Selective foil (foil only on chosen areas) is seen as the marker of professional-looking holo cards; full-card foil reads as amateur. Another commenter noted it is a hot topic in r/customtradingcard.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.271
+      }
+    },
+    {
+      "point": "One commenter finds MPC's prices high, though the poster's quoted cost was $37 for 55 foil cards plus $10 shipping.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "One commenter uses GameCrafter bridge-size decks for prototypes and finds them narrow; MPC offers 2.5x3.5 cards.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.042
+      }
+    },
+    {
+      "point": "Selective foil needs white ink printing, which is specialized, rarely found in in-house printers, and not guaranteed on a manufacturer's mass-production lines.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.021
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Full-card foil can compete with small rules text and make it harder to read in glare. If you want foil on a card with dense text, consider keeping foil to the art or frame so the rules stay clear, which requires a printer that supports selective foil.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.271
+      }
+    },
+    {
+      "lesson": "Check up front whether a print-on-demand service can mask foil selectively. Often it cannot, so plan the design with full-card foil in mind or reserve selective foil for the final manufacturer.",
+      "evidence": [
+        "C1",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.229
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Print-on-demand is a cheap way to produce foil promos: about $37 for 55 foil cards plus $10 shipping. Use it for promos and rewards while the final run goes to a manufacturer with finer foil control.",
+      "evidence": [
+        "C10",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.104
+      }
+    },
+    {
+      "lesson": "Rewarding players with free foil promos for completing in-game missions on Tabletop Simulator and routing them into a Discord is a low-cost community-building tactic.",
+      "evidence": [
+        "C14",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.104
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Full-card foil or selective foil: what separates amateur from professional holo cards?",
+      "why_it_lands": "The top comment wished for selective foil and another called it the amateur versus professional difference, while another explained the white-ink limitation.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C7"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 14,
+        "share": 0.292
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Print-on-demand foil promos: 55 cards for $37. Is that actually cheap?",
+      "why_it_lands": "Commenters asked about the price, and one called MPC expensive, while the poster gave real numbers, creating a concrete cost discussion for indie designers.",
+      "evidence": [
+        "C10",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.104
+      }
+    }
+  ],
+  "comment_points_total": 48,
+  "comment_ids": {
+    "C1": "nsg9wo2",
+    "C2": "nsga4vh",
+    "C3": "nsgp6ij",
+    "C4": "nsgdjsk",
+    "C5": "nsgg91j",
+    "C6": "nsh0fai",
+    "C7": "o2x1gtb",
+    "C8": "nsg4axt",
+    "C9": "nsg4idw",
+    "C10": "nsgadbg",
+    "C11": "nsgaoqu",
+    "C12": "nsgdb5t",
+    "C13": "nsgdm4j",
+    "C14": "nsgfruz",
+    "C15": "nsggkay",
+    "C16": "nsgiqxi",
+    "C17": "nsidgkx",
+    "C18": "nsieqgy",
+    "C19": "nsil7y3",
+    "C20": "nsiw79m",
+    "C21": "nsxf4xc",
+    "C22": "nsxfde8",
+    "C23": "nsgp8ut",
+    "C24": "nsgqlxs",
+    "C25": "nsgizte"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing a positive experience with MakePlayingCards' new foil patterns for promo cards and inviting players to try their game on Tabletop Simulator for free foil cards; no specific feedback is requested.",
+    "images": [
+      {
+        "file": "data/images/1pezeic/1.jpg",
+        "description": "Angled close-up photo of a printed foil promo card, 'CRYPTAG', lying on a purple/white graveyard-and-rose playmat. Card has a black border, a 'MONSTER' type label in a rounded box at top left, the name 'CRYPTAG' at top center, and a blue circle with '20 EP' at top right. A large art box shows a pale outlined antlered stag/deer creature with dark purple patches on a dark red streaked background. Flavor text in white italic on a dark strip below the art: 'The legend says that a single glance at Cryptag can drive a person mad. But oh how beautiful she is. Wait...'. Text box has 'When Rescued: Draw a card. OR When Rescued: Look at a rival player's hand and place any card from it on the bottom of their deck.' A skull icon sits bottom right with '12/92'; a star/key icon sits bottom left. The shattered-glass/crystal-shard holographic foil covers the whole card and catches the light in rainbow colors, making some text hard to read at this angle and glare."
+      },
+      {
+        "file": "data/images/1pezeic/2.jpg",
+        "description": "Top-down, slightly angled photo of the same Cryptag card on the same playmat. Layout is clearer: 'MONSTER' label top left, 'CRYPTAG' title top center, '20 EP' blue circle top right, stag art in the upper half, italic flavor text over the bottom of the art, two rules boxes ('When Rescued: Draw a card.' / 'OR' / 'When Rescued: Look at a rival player's hand and place any card from it on the bottom of their deck.'). Bottom shows a star/wand icon left, the copyright line '© 2025 Git Gud Games LLC, illus. by Jeff Yates', '12/92' and a skull icon at right. Cracked-ice/shard holo foil pattern covers the entire card, including text areas, with some glare but text is mostly legible."
+      },
+      {
+        "file": "data/images/1pezeic/3.jpg",
+        "description": "Straight-on, top-down photo of the same Cryptag card on the playmat, showing the foil most evenly. Same layout and text: MONSTER label, CRYPTAG name, 20 EP cost, stag art with dark red streaks, flavor text, two 'When Rescued' abilities separated by OR, copyright '© 2025 Git Gud Games LLC, illus. by Jeff Yates', '12/92', star icon bottom left, skull icon bottom right. Multicolor shard-pattern foil covers the whole card; the small rules text is legible but slightly busy over the foil. Card has a black border with rounded corners."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007845
+}

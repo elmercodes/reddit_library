@@ -1,0 +1,176 @@
+{
+  "id": "1qapqvw",
+  "title": "Found my old custom-made TCG!!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qapqvw/found_my_old_custommade_tcg/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-12",
+  "upvotes": 205,
+  "comments": 15,
+  "engagement_score": 9.4868,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "handmade cards",
+    "foil technique",
+    "card crafting",
+    "nostalgia"
+  ],
+  "summary": "A poster shared handmade TCG cards, a four-stage evolution line (Ania to Onarius) made from dollar-store blanks, markers and sticker foils. The community response was uniformly friendly and admiring, with praise for the foil effect, the art and the craftsmanship. The main practical interest was in how the foils were made. There was no disagreement and the tone was warm throughout.",
+  "consensus": [
+    {
+      "point": "Commenters broadly praised the handmade look, the art and the craftsmanship of the cards.",
+      "evidence": [
+        "C3",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 28,
+        "share": 0.596
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters asked how the foils were made, and one asked what the game was about. The answer was that the cards were not designed to be playable.",
+      "evidence": [
+        "C1",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 16,
+        "share": 0.34
+      }
+    },
+    {
+      "point": "One commenter liked how short and clear the information on each card is.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "One commenter wanted to reuse the cut-up glitter or foil sticker technique to imitate holographic cards in their own work.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.021
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Cutting shiny or glitter stickers to shape and placing them only on key areas gives a cheap holographic effect without printing. It also guides the eye to the focal points of the art.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 14,
+        "share": 0.298
+      }
+    },
+    {
+      "lesson": "Keep card text short and clear. Giving each card a small fixed set of abilities (one passive and two active) keeps cards readable at a glance, and a reader noticed and liked this.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Process questions about how something was made drew the most engagement. Showing your handmade or prototype technique gives people something to ask about and share.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.255
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer faked holo cards with cut-up dollar-store stickers. Could you?",
+      "why_it_lands": "The foil technique was the one practical question in the thread, and a commenter wanted to copy it. A prototype-foil tutorial is easy to film.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.255
+      }
+    },
+    {
+      "type": "question",
+      "hook": "One designer gave each card one passive and two active abilities. Is that enough?",
+      "why_it_lands": "A reader praised the short, clear card text, which opens a discussion on minimal card design.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "comment_points_total": 47,
+  "comment_ids": {
+    "C1": "nz4rhzg",
+    "C2": "nz4so3o",
+    "C3": "nz4wuik",
+    "C4": "nztpjsm",
+    "C5": "nz5l7sx",
+    "C6": "nz8mo5e",
+    "C7": "nz51s1v",
+    "C8": "nz4stgk",
+    "C9": "nz5si2l",
+    "C10": "nzb06w5",
+    "C11": "nzcoz9v",
+    "C12": "nzh9jio",
+    "C13": "nzrrzqg",
+    "C14": "o1genux",
+    "C15": "nz4x8xg"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005339
+}

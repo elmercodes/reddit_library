@@ -1,0 +1,273 @@
+{
+  "id": "1qns58a",
+  "title": "NETHERWEB card faces, thoughts and opinions requested.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1qns58a/netherweb_card_faces_thoughts_and_opinions/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-01-26",
+  "upvotes": 76,
+  "comments": 26,
+  "engagement_score": 9.2876,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "retro aesthetic",
+    "card templates",
+    "art direction"
+  ],
+  "summary": "A designer shared three blank card templates (Proxy, Prompt, Virus) for NETHERWEB, styled as retro OS windows, and asked whether the look works. The thread was friendly and mostly positive, with most commenters praising the nostalgic early-computer style. A few gave concrete critiques: stat readability, art box size, similarity to Yu-Gi-Oh layouts, and redundancy between card types. The poster also admitted that actual card art is the current bottleneck.",
+  "consensus": [
+    {
+      "point": "Commenters liked the retro early-computer aesthetic and found it charming and thematic, and several wanted to see finished cards.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C7",
+        "C9",
+        "C11",
+        "C17",
+        "C20",
+        "C21"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 32,
+        "share": 0.561
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters flagged that the card art direction is unclear or tricky for this aesthetic, compared to something like a Windows XP look that could use Frutiger Aero art.",
+      "evidence": [
+        "C16",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.123
+      }
+    },
+    {
+      "point": "Two commenters suggested enlarging the art box, either by expanding everything outward or by trimming the grey border around the boxes above the art.",
+      "evidence": [
+        "C19",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.088
+      }
+    },
+    {
+      "point": "One commenter said the top half looks too much like Yu-Gi-Oh and suggested adding geometric shapes for a more distinctive style.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter said the templates are redundant across card types and the retro computer style could go further. The type is distinguished mainly by title bar color and label.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.035
+      }
+    },
+    {
+      "point": "One commenter said the Offense and Defense numbers should be bigger for readability.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.018
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Are the templates complete and distinctive enough, or too simple and redundant?",
+      "side_a": "The frames are clean, charming and a good middle ground with no need for more.",
+      "side_a_evidence": [
+        "C1",
+        "C9",
+        "C11",
+        "C21"
+      ],
+      "side_b": "The frames are too simplistic and repetitive across card types, and resemble Yu-Gi-Oh.",
+      "side_b_evidence": [
+        "C18",
+        "C15"
+      ],
+      "side_a_support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 22,
+        "share": 0.386
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.088
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Give the art box as much space as possible. Thick frames and extra bordered boxes shrink the area where the art carries the theme, so consider trimming borders.",
+      "evidence": [
+        "C19",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.088
+      }
+    },
+    {
+      "lesson": "Make key stats like Offense and Defense large enough to read at card size, even in a clean minimal layout.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.018
+      }
+    },
+    {
+      "lesson": "When card types share one layout and differ only by title bar color and label, add a distinguishing structural element, such as shapes or layout changes, to avoid redundancy.",
+      "evidence": [
+        "C18",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.088
+      }
+    },
+    {
+      "lesson": "A strong frame theme still needs an art plan. A stylized frame like a retro OS window makes the art direction harder, so decide early how art will fit, for example by applying a CRT filter to simple art.",
+      "evidence": [
+        "C16",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.123
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Does a nostalgic card frame matter if the art isn't finished yet?",
+      "why_it_lands": "The thread loved the blank retro templates, yet the poster admitted art is the hard part. Praise came from several commenters without any art on show.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C7",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 24,
+        "share": 0.421
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "One designer's retro card template: too simple, or just clean?",
+      "why_it_lands": "Most commenters praised the minimal look, but a couple called it redundant and too close to Yu-Gi-Oh. That gives a clean split to weigh in on.",
+      "evidence": [
+        "C18",
+        "C15",
+        "C9",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 9,
+        "share": 0.158
+      }
+    }
+  ],
+  "comment_points_total": 57,
+  "comment_ids": {
+    "C1": "o1w1mdf",
+    "C2": "o1w39au",
+    "C3": "o1w52mb",
+    "C4": "o1wgc6p",
+    "C5": "o1w1uvn",
+    "C6": "o1w3cj3",
+    "C7": "o1wj7iq",
+    "C8": "o1wjlid",
+    "C9": "o1w8kyc",
+    "C10": "o1w90fg",
+    "C11": "o1ztzs5",
+    "C12": "o21t2bm",
+    "C13": "o20m2sg",
+    "C14": "o21tbzq",
+    "C15": "o1wjzcs",
+    "C16": "o1wr5xy",
+    "C17": "o1wriuo",
+    "C18": "o1x8c93",
+    "C19": "o1xggr8",
+    "C20": "o1xw46t",
+    "C21": "o1yebh1",
+    "C22": "o276w4h",
+    "C23": "o1w5esd",
+    "C24": "o1w66nn",
+    "C25": "o1w6mju"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general feedback and opinions on the NETHERWEB card face templates, especially whether the streamlined retro abandoned-OS look works.",
+    "images": [
+      {
+        "file": "data/images/1qns58a/1.jpg",
+        "description": "Blank Proxy card template, portrait, on a dark grainy noise background. It mimics a retro OS window with a lavender-gray beveled frame. Top: a wide title bar with a cyan-to-blue gradient and a small empty square box at the right (likely cost or icon). Below is a large black rectangular art box. Under the art, a bottom strip reads 'Offense: 000' at left and 'Defense: 000' at right in black pixel/monospace font. Beneath the card is a separate beveled rules-text window with a cyan-to-blue title bar reading 'Proxy - [FACTION NAME]' and a pale pink-lavender empty text area. The gradient bars look slightly glitchy/noisy. The only stats are Offense and Defense."
+      },
+      {
+        "file": "data/images/1qns58a/2.jpg",
+        "description": "Blank Prompt card template with the same layout as the Proxy: lavender beveled frame, top title bar with a green-to-teal gradient, small empty square at upper right, large black art box. The bottom strip under the art is empty, with no stats. The lower text window has a green-to-teal title bar reading 'Prompt - [FACTION NAME]' and an empty pale lavender text area. The background is dark noise."
+      },
+      {
+        "file": "data/images/1qns58a/3.jpg",
+        "description": "Blank Virus card template with the same layout: lavender beveled frame, title bar with a purple/magenta-to-red/pink gradient, small empty square at upper right, black art box, and an empty bottom strip with no stats. The lower text window has a magenta-to-red title bar reading 'Virus - [FACTION NAME]' and an empty pale lavender text area. The background is dark noise. Card type is distinguished only by title bar color and the type label."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008789
+}

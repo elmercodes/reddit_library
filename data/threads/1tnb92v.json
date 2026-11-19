@@ -1,0 +1,292 @@
+{
+  "id": "1tnb92v",
+  "title": "What do you think of my Card Design?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1tnb92v/what_do_you_think_of_my_card_design/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-25",
+  "upvotes": 41,
+  "comments": 28,
+  "engagement_score": 8.7886,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "card frame design",
+    "card back art",
+    "print bleed"
+  ],
+  "summary": "A designer shared a blank sci-fi card frame template and a black hole card back and asked for general feedback. Responses were friendly and constructive: the card back was widely praised, while the front drew repeated complaints that it feels bulky or boxy and doesn't match the back. The top-scoring comment was a casual retro video game menu comparison, and the most useful tip was about print bleed. The poster said a redesigned front is coming.",
+  "consensus": [
+    {
+      "point": "The card back art is a strong point, with praise from multiple commenters.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C7",
+        "C15",
+        "C19"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 12,
+        "share": 0.293
+      }
+    },
+    {
+      "point": "The front frame feels bulky or boxy, with corner elements and the name banner taking up too much space and crowding the card.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C11"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.195
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter says the card needs bleed, with 2.5 mm as the industry standard, so cutting misalignment doesn't make cards look lopsided.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.195
+      }
+    },
+    {
+      "point": "The front and back feel like different styles and don't look like they belong to the same game.",
+      "evidence": [
+        "C13",
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.146
+      },
+      "demoted_from_consensus": true
+    },
+    {
+      "point": "One commenter says a frame is hard to judge without final art and effect text, and another wanted to see art before deciding on the front.",
+      "evidence": [
+        "C9",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "point": "One commenter thinks cost shouldn't sit top right, while another doesn't mind it there and likes stepping outside modern card game conventions.",
+      "evidence": [
+        "C24",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.073
+      }
+    },
+    {
+      "point": "One commenter says the font color and contrast should be softened so values and text stay easy to read.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "point": "One commenter says the cyber feel of the front works well.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep corner badges (stats, cost) smaller so they don't cut into the art window and text box. Oversized info elements make a frame feel bulky and crowded.",
+      "evidence": [
+        "C3",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.146
+      }
+    },
+    {
+      "lesson": "Make the front and back share a visual language (palette, texture, shape style) so they read as one product. A clean painted back paired with a hard angular tech front feels disconnected.",
+      "evidence": [
+        "C13",
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.146
+      }
+    },
+    {
+      "lesson": "Show a frame with sample art and real effect text when asking for feedback. Blank templates are hard to judge, and a text box without a panel leaves layout problems hidden.",
+      "evidence": [
+        "C9",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "lesson": "Check text and value contrast on the gradient background so numbers stay readable.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Add print bleed (about 2.5 mm) to card files before sending to a printer. Cut misalignment is common, and bleed keeps borders from looking lopsided.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.195
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "What is bleed on a card, and why does a printer want 2.5 mm?",
+      "why_it_lands": "It was the top practical tip in the thread at 8 points, and many first-time designers don't know about it before printing.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.195
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card front actually match your card back?",
+      "why_it_lands": "Three commenters said the front and back felt like different vibes, even while praising the back, a common blind spot for solo designers.",
+      "evidence": [
+        "C13",
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.146
+      }
+    },
+    {
+      "type": "debate",
+      "hook": "Cost in the top right corner: convention or a design flaw?",
+      "why_it_lands": "One commenter called it a flaw while another welcomed breaking from convention, which invites viewers to weigh in on layout norms.",
+      "evidence": [
+        "C24",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.073
+      }
+    }
+  ],
+  "comment_points_total": 41,
+  "comment_ids": {
+    "C1": "onspeg7",
+    "C2": "onsq27q",
+    "C3": "onsxh0j",
+    "C4": "ontj24u",
+    "C5": "ontmwv0",
+    "C6": "ony284z",
+    "C7": "ontr5e5",
+    "C8": "ony2cyu",
+    "C9": "onu4jk3",
+    "C10": "ony2lk2",
+    "C11": "onujyfo",
+    "C12": "ony2u6s",
+    "C13": "onuxehr",
+    "C14": "ony3iq8",
+    "C15": "onvk6jg",
+    "C16": "ony3l7p",
+    "C17": "onxl88y",
+    "C18": "ony3oza",
+    "C19": "oo4rqr0",
+    "C20": "oo5vbrw",
+    "C21": "ontld9m",
+    "C22": "oo55wnw",
+    "C23": "oo5vf2q",
+    "C24": "onsoz7g",
+    "C25": "onsptnc"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants general feedback on their trading card frame template and card back design.",
+    "images": [
+      {
+        "file": "data/images/1tnb92v/1.jpg",
+        "description": "Blank card template, portrait, sci-fi/tech frame in cyan and dark navy with angular hexagonal borders over a blue gradient art area. Top-left: two stacked tabs labeled 'ATK' and 'HP'. Top-right: a circle labeled 'COST'. Large central art window spans the upper two-thirds. A wide cyan-bordered banner across the middle reads 'CARD NAME'. Below it is the text area with the placeholder 'CARD EFFECT' centered over the same blue gradient. Bottom-left: a hex badge reading 'TERRA XYZ' (likely a faction/set name). Bottom-center: a tab labeled 'CARD TYPE'. Bottom-right: a circle with the number 3 above the Portuguese word 'Raridade' (rarity). White rounded sans-serif futuristic font. The text box has no distinct panel, so effect text would sit directly on the gradient background, and the art area overlaps the text area visually."
+      },
+      {
+        "file": "data/images/1tnb92v/2.jpg",
+        "description": "Card back design, portrait, with rounded corners and a pale lavender border. Digitally painted black hole with a glowing white-pink accretion disk tilted diagonally across the center, a black circular void, and swirling streaks of violet and magenta radiating outward over a dark purple starfield with small white specks. Painterly, hand-drawn digital style. No text, logo, or other frame elements."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008713
+}

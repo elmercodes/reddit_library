@@ -1,0 +1,381 @@
+{
+  "id": "1x8qb52",
+  "title": "New layout for Relicon with full art...thoughts? First is old, second is the new.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1x8qb52/new_layout_for_relicon_with_full_artthoughts/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-18",
+  "upvotes": 71,
+  "comments": 31,
+  "engagement_score": 9.4753,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "full art",
+    "card critique",
+    "hand-painted art"
+  ],
+  "summary": "A designer posted an old bordered layout and a new full-art layout for their TCG card 'Forward Observer' and asked for feedback. The community was friendly and strongly favored the new full-art version, with only two small comments preferring the old one. Most feedback was constructive polish: center the text, restyle the white UI elements, and consider a thin black border.",
+  "consensus": [
+    {
+      "point": "The new full-art layout is a clear improvement over the bordered one, and the art suits full-bleed treatment.",
+      "evidence": [
+        "C1",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C7",
+        "C15",
+        "C13"
+      ],
+      "support": {
+        "comments": 12,
+        "commenters": 12,
+        "points": 48,
+        "share": 0.814
+      }
+    },
+    {
+      "point": "Several commenters said the remaining stark white elements (name plate, cost circle, stat badges, type labels) clash with the weathered painted style and should be restyled to match.",
+      "evidence": [
+        "C19",
+        "C23",
+        "C24",
+        "C7"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 11,
+        "share": 0.186
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter likes full art only when the text box is kept for readability, and said this semi-opaque box approach would make them pick the game up over over-designed TCGs.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 13,
+        "share": 0.22
+      }
+    },
+    {
+      "point": "Two commenters suggested more flair on the name plate (different shape or font), and one suggested a more fitting font overall.",
+      "evidence": [
+        "C7",
+        "C13",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.102
+      }
+    },
+    {
+      "point": "Commenters praised the loose, natural brushwork of the acrylic art as a distinctive style.",
+      "evidence": [
+        "C1",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.102
+      }
+    },
+    {
+      "point": "Text and numbers sit too high in their boxes and circles; vertical centering was suggested by two commenters.",
+      "evidence": [
+        "C3",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.085
+      }
+    },
+    {
+      "point": "One commenter felt the beige text box clashes with the otherwise gray card and suggested a gray version matching the title box.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.068
+      }
+    },
+    {
+      "point": "One commenter recommended reminder text on keywords wherever there is room, to keep the game friendly to new players.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.051
+      }
+    },
+    {
+      "point": "Because the text box is see-through, one commenter said the flavor text may need to be slightly thicker, and the art could be scaled down 2-5% so the head has breathing room.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.034
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Should the full-art card keep a black border around the edges?",
+      "side_a": "Add a thin black border back to the full-art card because it feels like a lot without it.",
+      "side_a_evidence": [
+        "C5",
+        "C15"
+      ],
+      "side_b": "The borderless full-art version works as is and is praised for letting the art shine.",
+      "side_b_evidence": [
+        "C17",
+        "C18",
+        "C25"
+      ],
+      "side_a_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.068
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.39
+      }
+    },
+    {
+      "issue": "Old bordered layout versus new full-art layout",
+      "side_a": "The new full-art layout is better.",
+      "side_a_evidence": [
+        "C17",
+        "C18",
+        "C19",
+        "C25",
+        "C15",
+        "C11"
+      ],
+      "side_b": "The old layout was preferred.",
+      "side_b_evidence": [
+        "C9"
+      ],
+      "side_a_support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 32,
+        "share": 0.542
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.034
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "When going full art, keep a semi-opaque textured text box so rules stay readable while the art still shows; readers specifically value this over fully removing the box.",
+      "evidence": [
+        "C17",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.254
+      }
+    },
+    {
+      "lesson": "Once part of a frame gets a painted, weathered treatment, restyle every UI element (cost circle, stat badges, type labels) to match; leftover pure-white pieces now look pasted on.",
+      "evidence": [
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.153
+      }
+    },
+    {
+      "lesson": "Check vertical centering of text inside boxes and badges; text hugging the top reads as unfinished.",
+      "evidence": [
+        "C3",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.085
+      }
+    },
+    {
+      "lesson": "Keep the palette consistent: a beige text box on an otherwise gray card feels out of place, so test a tinted version.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.068
+      }
+    },
+    {
+      "lesson": "Add reminder text on keywords where space allows, as it makes the game approachable for newcomers.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.051
+      }
+    },
+    {
+      "lesson": "When transparency is used for text boxes, thicken small text like flavor text and leave margin around key art features such as the head.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.034
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Full art or bordered cards? A designer's before-and-after got a clear verdict.",
+      "why_it_lands": "The thread shows a clear preference for full art, with a small dissent and a split over whether to keep a thin border.",
+      "evidence": [
+        "C17",
+        "C18",
+        "C9",
+        "C5",
+        "C15"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 27,
+        "share": 0.458
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Your card art is gorgeous, but is the white UI clashing with it?",
+      "why_it_lands": "Several commenters flagged the stark white labels and badges as the main remaining flaw, a fixable problem many designers overlook.",
+      "evidence": [
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.153
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Can you go full art and still keep text readable?",
+      "why_it_lands": "The top comment praised the semi-opaque text box as the reason full art works, which is a concrete technique to demonstrate.",
+      "evidence": [
+        "C17",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 15,
+        "share": 0.254
+      }
+    }
+  ],
+  "comment_points_total": 59,
+  "comment_ids": {
+    "C1": "phwon90",
+    "C2": "phwp6sv",
+    "C3": "phfgpsd",
+    "C4": "phfh24j",
+    "C5": "phg7bjf",
+    "C6": "phgwr0d",
+    "C7": "phimell",
+    "C8": "phimymh",
+    "C9": "phmaok6",
+    "C10": "phnq0uw",
+    "C11": "phmyzf1",
+    "C12": "phnpoew",
+    "C13": "phxqbwh",
+    "C14": "phxqu7l",
+    "C15": "phzrs0k",
+    "C16": "pi0470e",
+    "C17": "phez5h6",
+    "C18": "phey8nz",
+    "C19": "phmblma",
+    "C20": "phf1l44",
+    "C21": "phflwel",
+    "C22": "phfoyj8",
+    "C23": "phjiia8",
+    "C24": "phli5yg",
+    "C25": "phxlnuf"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback comparing the old bordered card layout (first image) with the new full-art layout (second image) for their TCG Relicon.",
+    "images": [
+      {
+        "file": "data/images/1x8qb52/1.jpg",
+        "description": "Old layout of the card 'Forward Observer'. Black card frame. Top: white name bar at left with the name in bold black sans-serif; at top right a white round cost badge showing '1' next to a black-and-white radiation/nuclear symbol icon. Below is a boxed art window with a hand-painted oil/acrylic-style image of a hooded, cloaked figure in gray and brown armor against a red and dark smeared background. Beneath the art is a gray bar with a hexagonal white type label reading 'Infantry'. Text box is a white rounded rectangle with a faint circular tech/HUD watermark. Bold keywords: 'Overwatch, Initiative, Intel'. Italic flavor text: \"They do not fear the dark. They were trained to disappear within it.\" Bottom left: hexagonal white label 'Universal'. Bottom right: two white round stat badges reading '1' and '1'. Text is legible with strong contrast."
+      },
+      {
+        "file": "data/images/1x8qb52/2.jpg",
+        "description": "New full-art layout of the same 'Forward Observer' card. The painted hooded figure art (gray cloak, brown/tan armor, red background) now fills the entire card, enlarged and cropped closer. Name sits in a small off-white grungy textured label at top left, with bold black text. Top right has the cost '1' in a white circle plus the radiation symbol icon, now directly over the art. Hexagonal 'Infantry' type label with gray line sits across the art at about 60% down. Text box is a semi-opaque parchment/tan weathered texture rectangle containing the same text: bold 'Overwatch, Initiative, Intel' and italic flavor quote \"They do not fear the dark. They were trained to disappear within it.\" Bottom left hex label 'Universal'; bottom right two white round stat badges '1' and '1'. Black text on tan box is readable; the art is more visible and the black frame is removed."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010681
+}

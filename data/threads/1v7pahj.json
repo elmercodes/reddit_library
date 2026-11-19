@@ -1,0 +1,244 @@
+{
+  "id": "1v7pahj",
+  "title": "The first 4 cards for my upcoming game Battle Goomis!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1v7pahj/the_first_4_cards_for_my_upcoming_game_battle/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-27",
+  "upvotes": 166,
+  "comments": 35,
+  "engagement_score": 10.4933,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "handmade art",
+    "card critique",
+    "card layout",
+    "crochet"
+  ],
+  "summary": "A designer shared the first cards of Battle Goomis, a card game illustrated with photos of crocheted characters, under a Card Critique flair. The community response was overwhelmingly friendly and mostly praise for the cuteness and the handmade art. Only two commenters gave actual critique: one on a typographic spacing issue and a question about a card's wording, and one suggesting a crocheted card background. There was no split in the thread.",
+  "consensus": [
+    {
+      "point": "Commenters found the crocheted-art concept adorable, original and impressive, and praised the handmade medium.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C5",
+        "C7",
+        "C11",
+        "C13",
+        "C15",
+        "C17",
+        "C19",
+        "C21",
+        "C23",
+        "C25"
+      ],
+      "support": {
+        "comments": 12,
+        "commenters": 12,
+        "points": 36,
+        "share": 0.947
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters named specific favorite characters (Walter the Frog and Hootini), showing that distinct characters drive attachment.",
+      "evidence": [
+        "C15",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.105
+      }
+    },
+    {
+      "point": "One commenter spotted a typographic inconsistency: ability names such as 'Hug' are followed by a space before the colon, which they flagged as an error.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "point": "One commenter was confused by a card describing a character as an 'owl' in quotation marks, showing that flavor wording on a card can raise questions without the lore.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "point": "One commenter suggested building card backgrounds from crochet patterns or loose yarn to reinforce the handmade theme.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    },
+    {
+      "point": "One commenter asked whether the creator really made the pieces by hand, suggesting the handmade process is a draw in itself.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep punctuation conventions consistent on cards: put the colon directly after ability names. Small typographic quirks get noticed by readers and can look like errors even when intentional.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "lesson": "Quoted or ambiguous flavor words on a card can confuse players who lack the lore. Either clarify them on the card or make sure the confusion invites curiosity rather than a feeling of being lost.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "lesson": "A unique physical art medium, like photographed crochet, makes a card set instantly distinctive. Consider a themed background that supports it, while weighing the risk of visual clutter hiding the main subject.",
+      "evidence": [
+        "C9",
+        "C13",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.158
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A distinctive handmade process is strong marketing. Commenters responded to the effort and originality behind the art, so showing how the pieces are made can draw attention.",
+      "evidence": [
+        "C13",
+        "C21",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.158
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should ability names have a space before the colon? A designer got flagged.",
+      "why_it_lands": "Small typography choices are relatable to designers, and one commenter pointed out the issue directly.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.079
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Would you build card backgrounds from the same handmade material as the art?",
+      "why_it_lands": "A commenter suggested a full crochet background, while the poster noted clutter and workload tradeoffs, a real design question.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.053
+      }
+    }
+  ],
+  "comment_points_total": 38,
+  "comment_ids": {
+    "C1": "ozzxtlx",
+    "C2": "p00bome",
+    "C3": "p006wcy",
+    "C4": "p00bo1h",
+    "C5": "p004hj8",
+    "C6": "p00bp2j",
+    "C7": "p01bw8w",
+    "C8": "p01dtfd",
+    "C9": "p020ycz",
+    "C10": "p03j2ro",
+    "C11": "p024419",
+    "C12": "p03j4kj",
+    "C13": "p0353hj",
+    "C14": "p03j5z1",
+    "C15": "p038x8j",
+    "C16": "p03jfxs",
+    "C17": "p04hmuq",
+    "C18": "p04hxg9",
+    "C19": "p08gt2f",
+    "C20": "p0b1sjq",
+    "C21": "p0dih0h",
+    "C22": "p0drkz9",
+    "C23": "p17g7p0",
+    "C24": "p194f3v",
+    "C25": "p0bib1q"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing the first cards of their game Battle Goomis (flair Card Critique), implicitly asking for feedback on card design and layout.",
+    "images": [
+      {
+        "file": "data/images/1v7pahj/1.jpg",
+        "description": "Card 'Bigfoot Bobby', 20 GP (gold badge top-left), card number 01 in a star badge top-right. Brown fur-pattern frame with a dark brown name banner. Art is a photo of a crocheted brown Bigfoot amigurumi with a red nose, holding a yellow crochet butterfly, on green felt with crochet pine trees. Below the art: pink bar with 4 red hearts (health) and a mint bar with 2 green shields. Three stat boxes: orange '2' with burst icon (attack), blue '2' with spiral/yarn icon, green '1' with shield icon. White text box: blue spiral+check icon, 'Hug: Heal both Bobby and one other Goomi +1 [heart].' Footer: purple star-circle icon, two trophy icons, '© ClubCrochet 2026', black pill with yarn icon and '00000000', code '0001A', star and 'P' circle, 'Louie's Loops'. Text is clear."
+      },
+      {
+        "file": "data/images/1v7pahj/2.jpg",
+        "description": "Card 'Walter the Frog', 10 GP, number 02. Dark teal frame with faint lily pad pattern. Art: photo of a small crocheted green frog wearing a red mushroom hat with white spots, next to a black crochet cauldron with a gold crochet hook, on green felt. Pink bar with 2 hearts, mint bar with 1 shield. Stats: 1 attack (orange burst), 2 (blue spiral), 2 (green shield). Text box: green shield+check icon, 'Ribbit: Inspire + [yellow star die icon] all other friendly Goomis.' Footer: paw icon, one trophy, same copyright, serial bar, code '0002A', 'P', 'Louie's Loops'."
+      },
+      {
+        "file": "data/images/1v7pahj/3.jpg",
+        "description": "Card 'Perry the Pinecone', 10 GP, number 03. Green pine-needle pattern frame with brown name banner. Art: photo of a round crocheted brown pinecone creature with two googly eyes on green felt, crochet trees behind. Pink bar with 2 hearts, mint bar with 2 shields. Stats: 2 attack, 1 (blue spiral), 1 (green shield). Text box: green shield+check icon, 'Seed: +10 GP at the start of Perry's next turn.' plus an empty rounded square placeholder at right of the text box. Footer: sprout icon, one trophy, copyright, serial bar, code '0003A', 'P', 'Louie's Loops'."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007734
+}

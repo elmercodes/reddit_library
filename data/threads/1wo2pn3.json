@@ -1,0 +1,190 @@
+{
+  "id": "1wo2pn3",
+  "title": "It took 27 years, but I’m finally finishing what 8-year-old me started in 1999 (PART 2)",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wo2pn3/it_took_27_years_but_im_finally_finishing_what/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-23",
+  "upvotes": 279,
+  "comments": 30,
+  "engagement_score": 10.7858,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "print-and-play",
+    "solo designer story",
+    "card game release",
+    "card frame art direction"
+  ],
+  "summary": "A designer shared the release of Kravestorm, a finished print-and-play card game, with a 1999 vs 2026 comparison image of his childhood Pokémon-style cards and the new cards. The thread was small and uniformly friendly, with congratulations, praise for the art, and one commenter interested in printing the demo. There was no disagreement, no critical feedback, and no answer to the Advice Needed flair. Total community engagement was low (23 points).",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters praised the art style and final designs specifically, and one said the first set looks solid.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.13
+      }
+    },
+    {
+      "point": "One commenter said they would print the demo and playtest it with friends, so the print-and-play route lowers the barrier to trying the game.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One builder-in-public designer said many people DM them about childhood card games that were never kept, which suggests the childhood-origin story resonates with audiences.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter joked about justice for the old Thunderzac card, which shows people engage with named characters from the old cards.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Faction-colored frames with a consistent layout (name banner, cost icons, type line, rules box, stat line) read as a coherent set at a glance. Commenters responded to the final designs and art style, so keep frame structure consistent across the whole set.",
+      "evidence": [
+        "C15",
+        "C17",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 3,
+        "share": 0.13
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Releasing a free print-and-play demo lets people try the game without any purchase, and it can convert interest into actual playtests with friends. It also avoids crowdfunding logistics.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "lesson": "A personal origin story, such as childhood cards shown beside the finished ones, gives a build-in-public project an emotional hook. A fellow designer said the childhood-game theme draws many DMs.",
+      "evidence": [
+        "C7",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.348
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Would you print a free demo of a card game before buying it?",
+      "why_it_lands": "One commenter said they would print the demo for friends, and print-and-play is a real choice for solo designers skipping crowdfunding.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer put his 1999 childhood cards next to his 2026 cards. Does the origin story help?",
+      "why_it_lands": "The before-and-after post drew warm replies, and a fellow builder-in-public said people often DM about childhood card games.",
+      "evidence": [
+        "C1",
+        "C7",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.391
+      }
+    }
+  ],
+  "comment_points_total": 23,
+  "comment_ids": {
+    "C1": "pbkklpn",
+    "C2": "pbkl996",
+    "C3": "pbjq3e6",
+    "C4": "pbjq6ii",
+    "C5": "pbksvc2",
+    "C6": "pbku2h5",
+    "C7": "pbkum42",
+    "C8": "pbkw8v6",
+    "C9": "pbltpbl",
+    "C10": "pblz7j2",
+    "C11": "pbk1nh2",
+    "C12": "pbk1ybt",
+    "C13": "pbk492b",
+    "C14": "pbk4hom",
+    "C15": "pbkkyhg",
+    "C16": "pbkmqhj",
+    "C17": "pbkrky8",
+    "C18": "pbkslzn",
+    "C19": "pbmez1k",
+    "C20": "pbmp70v",
+    "C21": "pbnt6az",
+    "C22": "pbpumen",
+    "C23": "pcerwgw",
+    "C24": "pcezn7z",
+    "C25": "pbjsh0t"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing the release of his finished print-and-play card game Kravestorm and the story behind it; the flair suggests he wants advice or feedback, but no specific question is visible.",
+    "images": [
+      {
+        "file": "data/images/1wo2pn3/1.jpg",
+        "description": "Side-by-side comparison on a black background. Left is labeled \"1999\", right is labeled \"2026\". LEFT (1999): photo of handmade Pokémon-style cards on tan cardboard, laid on a white cloth. Each card has a hand-drawn colored-pencil/marker creature in a framed art box. The text is in Portuguese. Top: \"NN Pontos (1-100)\" (85, 20, 30, 100, 80, 40, 90, 40, 75, 100 points). Under the art: creature name, type in parentheses, and \"Ataques:\" with two attack names. Names and types include Thunderzac (Elétrico), Manke (Luta), Sharker (Água), Liomaster (Fogo), Corujante (Psíquico), Miauth (Incolor), Mankestar (Luta), Corujex (Psíquico), Lionoking (Fogo), Thunderzock (Raio). Attacks include Bomba Elétrica, Bombardeamento, Ataque Rápido, Chuva de Chamas, Hipnose, Pesadelos, Arranhadela, Mordida, Espancamento, Salto Karaté. Bottom: Fraqueza and Resistência fields, card number (N.º 003, 004, 022, 024, 026, 028, 032), and some \"Estágio 1\" boxes. Several cards are cropped at the edges. RIGHT (2026): photo of 12 printed cards of the game Kravestorm on a black-and-white patterned rug. Frames are dark with colored borders (purple, red, blue, green) by faction. Each card has the name banner at top, a cost or stat icon in the top corners, a large illustration with a detailed digital or inked style, a type line (e.g. \"KRAVER • VERMIN\", \"KRAVER • HOMINID\", \"KRAVER • MYCELIAN\", \"ACTION\", \"UPGRADE • RITUAL\"), a rules text box with keyword icons, and stats and a recoil damage value at the bottom (e.g. \"2 RECOIL DMG\"). Card names visible: Ogrysek, Hokuscokus, Elmivre Recopal, Ecko, Treadoshell, Lysawi Rhoneers, Kormoros, Gonoria, Special Delivery, Chest Eruption, Ferginia, Fhoxa. Keywords and rules text visible include Slender, Doppelganger, Steady, Mobile, Robust, Precision, Kinswap, Hijack 5, Forecast 3, Overwhelm, Exhausted, Wasted. The rules text is very small and partly hard to read in the photo. Example text: \"Choose target Kraver card in your discard pile...\" and \"As an additional cost to play this card, bury 2 Kravers from your discard pile. Attach to your Capital.\""
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007432
+}

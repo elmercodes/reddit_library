@@ -1,0 +1,305 @@
+{
+  "id": "1vhft8r",
+  "title": "Hacker/cyber style hTCG Update 2. Made some adjustments and looking for feeback.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vhft8r/hackercyber_style_htcg_update_2_made_some/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-06",
+  "upvotes": 42,
+  "comments": 39,
+  "engagement_score": 9.2945,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "thematic design",
+    "ascii art",
+    "readability"
+  ],
+  "summary": "A designer posted an update to their hacker/cyber homemade TCG, showing ASCII-art cards with code-style rules text and asking for feedback on color and syntax-colored text. The community was friendly and encouraging, praising the concept, the coding terminology and the RAM upkeep cost. Feedback focused on color ASCII art being hard to see, and on readability of stats and effect text. A mild split appeared over whether code-style text is too hard to read, with the readable-enough side carrying slightly fewer points than the hard-to-read side.",
+  "consensus": [
+    {
+      "point": "The concept is original and the code-themed language (RAM as an upkeep cost, real keywords) is a draw, even though the audience is niche.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C7",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C21"
+      ],
+      "support": {
+        "comments": 8,
+        "commenters": 8,
+        "points": 19,
+        "share": 0.413
+      }
+    },
+    {
+      "point": "Colored ASCII art doesn't work well; black and white (or a very restrained palette) is preferred.",
+      "evidence": [
+        "C3",
+        "C7",
+        "C14"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.174
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested putting reminder text in the form of code comments to explain keywords like systemEFFECT, and dropping it on cards that need room.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "One commenter noted that operators like -= aren't common knowledge and suggested plain -1 instead.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "One commenter asked how the resource and combat systems work, noting the effects are the most confusing part of the card.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "One commenter suggested adding margin between the card text and the bottom of the art.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    },
+    {
+      "point": "Two commenters suggested a divider line between effect and flavor text rather than changing the flavor font, which one felt would hurt the theme.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is the code-style card text readable enough?",
+      "side_a": "It is hard to read, especially for people who don't code, and needs clearer structure or reminder text.",
+      "side_a_evidence": [
+        "C1",
+        "C10",
+        "C14",
+        "C16",
+        "C17",
+        "C20"
+      ],
+      "side_b": "It reads as basic, intuitive programming syntax for the target audience, needing only keyword explanations.",
+      "side_b_evidence": [
+        "C2",
+        "C18"
+      ],
+      "side_a_support": {
+        "comments": 6,
+        "commenters": 5,
+        "points": 19,
+        "share": 0.413
+      },
+      "side_b_support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.13
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Give cost, stats, effect text and flavor text their own boxed sections or dividers so key info reads at a glance, and keep the same effect box on every card.",
+      "evidence": [
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.087
+      }
+    },
+    {
+      "lesson": "With a themed language like code, add in-theme reminder text (such as code comments) to explain keywords, and remove it on crowded cards once players know the terms.",
+      "evidence": [
+        "C14",
+        "C16",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.13
+      }
+    },
+    {
+      "lesson": "Low-contrast colored art on a near-black background gets lost; stick with monochrome or a tiny palette that mimics old computer displays.",
+      "evidence": [
+        "C3",
+        "C7",
+        "C14"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 8,
+        "share": 0.174
+      }
+    },
+    {
+      "lesson": "Avoid programmer shorthand like -= where plain numbers work; jargon should add flavor without blocking comprehension.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.043
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Posting regular updates builds a following; people said they would follow along and offered to playtest, so keep a rulebook and keyword list ready for those interested.",
+      "evidence": [
+        "C3",
+        "C8",
+        "C18"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.152
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Code-style card text: instantly readable or locking out non-coders? This subreddit was mixed.",
+      "why_it_lands": "Commenters disagreed on whether programming syntax is readable, with more points on the hard-to-read side.",
+      "evidence": [
+        "C1",
+        "C2",
+        "C14",
+        "C16",
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 21,
+        "share": 0.457
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should your card's keywords explain themselves with in-theme reminder text?",
+      "why_it_lands": "One idea of code-comment reminder text solved the readability vs theme tension and the OP liked it.",
+      "evidence": [
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.087
+      }
+    }
+  ],
+  "comment_points_total": 46,
+  "comment_ids": {
+    "C1": "p24xh9s",
+    "C2": "p280gtf",
+    "C3": "p24up8i",
+    "C4": "p250rzh",
+    "C5": "p27dg9j",
+    "C6": "p27d8c6",
+    "C7": "p261klt",
+    "C8": "p258ju9",
+    "C9": "p27dnar",
+    "C10": "p25c65f",
+    "C11": "p27fs29",
+    "C12": "p25i1cd",
+    "C13": "p27fvgy",
+    "C14": "p25hgev",
+    "C15": "p28qh6g",
+    "C16": "p26lo2x",
+    "C17": "p2anzbr",
+    "C18": "p2jmc54",
+    "C19": "p2l88ya",
+    "C20": "p2qyhq6",
+    "C21": "p280lrm",
+    "C22": "p280qo9",
+    "C23": "p2i8b5b",
+    "C24": "p3m91hn",
+    "C25": "p3okvvt"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on the improved hacker/cyber card design (ASCII art, color scheme, layout) and opinions on turning the card text into colored syntax highlighting.",
+    "images": [
+      {
+        "file": "data/images/1vhft8r/1.jpg",
+        "description": "Card 'worm.spread' (name shown as '< > worm.spread') with a dark charcoal frame and magenta/pink border and rounded corners. Top bar: name at left in monospace font, a large magenta asterisk icon at top right (card type indicator). Below is a wide art box with colored ASCII art of a worm/dragon-like creature on a near-black background; the colors are faint and hard to see. Stats block under the art: left 'CPU = 1' and 'RAM = 1'; right 'Strength = 1' and 'Stability = 1'. Rules text in code style: 'on_attack:' then indented 'enemy.integrity -= 1', then 'systemEFFECT; { duplicate }'. Flavor text at the bottom: 'LOG: //Duplicating, duplicating ...' (cut off at the edge). Tiny footer line: 'Set x - xxx/xxx - rarity'. All text is white monospace, plain with no syntax coloring."
+      },
+      {
+        "file": "data/images/1vhft8r/2.jpg",
+        "description": "The same 'worm.spread' card on a black background with red hand-drawn ellipses and arrows labeling each element: Name; 'Icon and color to indicate cardtype' (asterisk); Art; 'Cost to play the card' (CPU = 1); 'The cost to keep the card in play' (RAM = 1); 'The power of the card' (Strength); 'The health of the card' (Stability); 'Ability's and effects' (the on_attack/systemEFFECT text); 'Flavor text' (the LOG line); 'Set/card number/rarity' (footer). It works as a layout legend. Card text is the same as in image 1."
+      },
+      {
+        "file": "data/images/1vhft8r/3.jpg",
+        "description": "A second card with a yellow border and dark charcoal body. The art banner at top is a black strip with ASCII-art text, very small and unreadable, which seems to be the card's title in big ASCII letters, so the name is not legible. Stats in monospace, right-aligned values: 'CPU = 0', 'RAM = 5', 'Integrity = 24', 'Script.size = 30 - 40'. Rules text: 'static: self.damage_taken -= 1' and 'restriction: no script.type(virus)'. Flavor: '[LOG] // \"defence.protocol active\"'. Footer: 'Set 1 - 001/100 - OS'. It appears to be a defensive OS/base-type card with a yellow frame as its type color. All text is white and uncolored."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009984
+}

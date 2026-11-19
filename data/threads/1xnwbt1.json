@@ -1,0 +1,211 @@
+{
+  "id": "1xnwbt1",
+  "title": "I created a Combat Box that features 2 starter decks to learn how to play",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xnwbt1/i_created_a_combat_box_that_features_2_starter/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-11-04",
+  "upvotes": 126,
+  "comments": 15,
+  "engagement_score": 9.0031,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "starter decks",
+    "product packaging",
+    "homemade tcg",
+    "hand-drawn art"
+  ],
+  "summary": "A designer showed off a finished Dragon Bound TCG Combat Box with two ready-to-play starter decks (Fire/Dark vs Water/Light) and no specific question. The thread was small and friendly, with only 22 community points across 15 comments. Reactions were mostly praise for the hand-drawn art and the nostalgic look, and the top comment praised the starter-box concept itself. There was no disagreement.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter liked the starter-box format and named official examples (Pokémon beginner box, an MTG equivalent, Weiss Play Boxes and Trial Decks) as proof it helps new players learn.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 6,
+        "share": 0.273
+      }
+    },
+    {
+      "point": "Two commenters cared whether the art is human-made, and the nostalgic feel of the look was a draw. The OP confirmed the art is hand-drawn.",
+      "evidence": [
+        "C1",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "point": "One commenter wants more TCGs to ship this way and suggested a rulebook and two playmats as extras in the box.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.045
+      }
+    },
+    {
+      "point": "One commenter asked about the box material. The answer was that it was produced through The Game Crafter, which is a small-run print-on-demand option.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.045
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Ship a ready-to-play two-deck box with pre-balanced opposing decks (here Fire/Dark vs Water/Light). It lowers the barrier for new players, and it matches formats people already know from bigger TCGs.",
+      "evidence": [
+        "C4",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.318
+      }
+    },
+    {
+      "lesson": "Consider adding a rulebook and two playmats to a starter box. One commenter named them as bonus value, which makes the box feel like a complete first-session kit.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.045
+      }
+    },
+    {
+      "lesson": "Make the art identity clear and human-made. A commenter's first question was whether the art was human, and the hand-drawn style drew a nostalgic reaction.",
+      "evidence": [
+        "C1",
+        "C11"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.136
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A print-on-demand service like The Game Crafter can produce a custom retail-style box for a homemade TCG without a big print run. Showing the finished box is itself good marketing.",
+      "evidence": [
+        "C8",
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.045
+      }
+    },
+    {
+      "lesson": "Being open about hand-drawn art helps win followers. One commenter followed right after the OP confirmed it.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should every card game ship a starter box with two ready-to-play decks?",
+      "why_it_lands": "The top community comment praised the starter-box concept and cited several big TCGs that do it, and another asked for more games to follow. That makes it a clear question for designers weighing a small first product.",
+      "evidence": [
+        "C4",
+        "C14"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.318
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Rulebook and two playmats in the starter box: worth the cost?",
+      "why_it_lands": "A commenter singled out these extras as bonus value, which speaks to a real budget-versus-value decision for indie designers.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.045
+      }
+    }
+  ],
+  "comment_points_total": 22,
+  "comment_ids": {
+    "C1": "19s5f3d9ssakh",
+    "C2": "19s5f7ljz6sg1",
+    "C3": "19s5f8jmjkux1",
+    "C4": "19s53fy9w391d",
+    "C5": "19s5cetsbqkch",
+    "C6": "19s5gicy002h1",
+    "C7": "19s6mr3vphn5u",
+    "C8": "19s6rqxl0icn6",
+    "C9": "19s56oo2n9lky",
+    "C10": "19s56zeqiojur",
+    "C11": "19s5kck7rsltt",
+    "C12": "19s5mxfyuv8u9",
+    "C13": "19s60ivfzwc5g",
+    "C14": "19s721ln9l8qp",
+    "C15": "19sbw6eus2mwy"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing their finished Dragon Bound TCG Combat Box (a 2-player set with two starter decks), with no specific question asked.",
+    "images": [
+      {
+        "file": "data/images/1xnwbt1/1.jpg",
+        "description": "Front of the Dragon Bound Trading Card Game 'Combat Box – 2 Player Set' lying on a dragon-art playmat. The box is glossy, split diagonally: red/fire side with a spiky red-black dragon on the left, blue/yellow/teal water-light dragon on the right, lightning bolts down the middle. A gold dragon-head logo reads 'Dragon Bound Trading Card Game'. 'COMBAT BOX' is in large orange-yellow block letters with a red outline, and '2 PLAYER SET' is in white below it. The art is a digital/marker-style illustration."
+      },
+      {
+        "file": "data/images/1xnwbt1/2.jpg",
+        "description": "Back of the box, with a blue left half and a red right half. The header reads 'THE BATTLE BEGINS HERE'. Two deck lists are printed. Blue deck: Kailahnai x1, Darya x1, Vodahn x1, Tasseth x1, Sigil x2, Siedrex x2, Stratomari x2, Oberon x2, Taylum x3, Sirena x3, Sola x3, Alakan x3, Kalux x1, Aqua Medallion x3, Merge Core x1. Red deck: Magmorath x1, Sovek x1, Daigar x1, Brutahk x1, Tharabane x2, Ryuuga x2, Spara x3, Noir x3, Balox x3, Alakan x3, Flambian x3, Ignis x1, Nova Medallion x3, Merge Core x1. The center blurb describes the 2-player set with the Dark Flames Rising deck (Fire and Dark) and the Torrent of Light deck (Water and Light). A YouTube QR code sits at the bottom right. Dragon illustrations appear in the corners and bottom. The small white deck-list text on the dark background is dense."
+      },
+      {
+        "file": "data/images/1xnwbt1/3.jpg",
+        "description": "The open box shows two card stacks in a cardboard-divided tray, with the lid art behind. Top cards: 'Magmorath, The Dreaded Flame' (Dragon/Elemental, 2800 power, fire dragon art) and 'Kallahnai, Spirit of The Ocean' (Sea Serpent/Leviathan, 2800 power, teal water dragon art). Both have a gold frame, a full-art box, a type line, a text box with underlined keywords, a power value at the bottom left in a gold banner, element icons beside a central rainbow orb, and a row of green dots (soul/tier pips). Magmorath's text: gains 200 attack for every Fire and Dark dragon in the burial zone, opponent loses 1 soul counter for every Water and Light dragon on the field, negates its abilities, and more. Kallahnai's text: negates all of the opponent's Fire dragon abilities on the field, gains 200 attack for every Water and Light dragon in the burial zone, gains 2 soul counters, flips a card face down, and destroys a card in the opponent's arsenal zone. The rules text is small."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007009
+}

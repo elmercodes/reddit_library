@@ -1,0 +1,307 @@
+{
+  "id": "1t3q6md",
+  "title": "Do I continue doing art myself, or should I outsource?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1t3q6md/do_i_continue_doing_art_myself_or_should_i/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-04",
+  "upvotes": 61,
+  "comments": 22,
+  "engagement_score": 8.8304,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card art",
+    "outsourcing art",
+    "solo development",
+    "card frame design"
+  ],
+  "summary": "A designer shared three digital Avatar cards and asked whether to keep making their own art or hire an artist. The community was friendly and mostly praised the art, with the top comment (11 pts) saying the only reason to hire is speed. A few commenters raised workload, burnout and timeline concerns, and several asked how the holo effect was built. The thread is warm and low-stakes, with no real conflict.",
+  "consensus": [
+    {
+      "point": "The art quality is strong enough that there is no quality reason to hire an artist; the main reason to outsource would be speed or workload.",
+      "evidence": [
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C21",
+        "C3"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 23,
+        "share": 0.548
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "The holo effect drew more interest than the art question, and it was built with plain CSS. Commenters appreciated it as a presentation tool.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C7",
+        "C8",
+        "C10"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 4,
+        "points": 10,
+        "share": 0.238
+      }
+    },
+    {
+      "point": "Solo art, design and logistics usually mean a much longer release timeline than contracting art out.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.095
+      }
+    },
+    {
+      "point": "One commenter suggested acting as art director: illustrate the key characters and a few samples, sketch the rest, and have another artist copy the style.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.048
+      }
+    },
+    {
+      "point": "Release incrementally: finish about 30 cards at a time and print unfinished cards on cardstock to playtest while art is still in progress.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.048
+      }
+    },
+    {
+      "point": "Do the math on time per illustration times set size before deciding, and treat money versus time as the trade-off.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.048
+      }
+    },
+    {
+      "point": "Hiring artists for a 60-100 piece set in this style would likely cost tens of thousands. One commenter suggested a cheaper compromise: a newer artist with a similar style, a guaranteed batch of 30-75 cards at a few hundred dollars each.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "Burnout is the real risk, not art quality.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Estimate art time per card times total unique cards before choosing to self-illustrate. Include duplicates, and let the total set a realistic launch scope.",
+      "evidence": [
+        "C8",
+        "C1"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "Release in batches and playtest with unfinished cards printed on cardstock, so art production does not block testing.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.048
+      }
+    },
+    {
+      "lesson": "A distinct, cohesive frame, font and art style makes cards read as professional. Commenters praised the mood and template consistency.",
+      "evidence": [
+        "C15",
+        "C16"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.095
+      }
+    },
+    {
+      "lesson": "Strong presentation effects such as CSS holo make cards more shareable and get attention even when the question is about something else.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C7"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.143
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Outsourcing a full set in a unique style can run to five figures for a self-published game. If you hire, a smaller guaranteed batch with an emerging artist is a cheaper route.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    },
+    {
+      "lesson": "Self-publishing with solo art trades money for a longer timeline, so plan your schedule around that.",
+      "evidence": [
+        "C1",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.143
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer asked: do your own card art or hire out? Let's do the math.",
+      "why_it_lands": "Cost and time numbers from the thread (tens of thousands for 60-100 pieces versus 12+ weeks solo) give viewers a concrete trade-off.",
+      "evidence": [
+        "C3",
+        "C8",
+        "C2"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.071
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Art director or full illustrator: could you sketch the set and hand off the rest?",
+      "why_it_lands": "One commenter's hybrid approach is a practical middle path that solo designers wonder about.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.048
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer's card holo effect is plain CSS. Here's why that matters for showing off cards.",
+      "why_it_lands": "Several commenters ignored the art question to ask how the holo effect was done, which shows demand for presentation tips.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C7",
+        "C8",
+        "C10"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 4,
+        "points": 10,
+        "share": 0.238
+      }
+    }
+  ],
+  "comment_points_total": 42,
+  "comment_ids": {
+    "C1": "ojx6end",
+    "C2": "ojxfw16",
+    "C3": "ojypi1d",
+    "C4": "ojz8hty",
+    "C5": "ok18m69",
+    "C6": "ok73n66",
+    "C7": "okc9a0z",
+    "C8": "ok2flym",
+    "C9": "ok6quo3",
+    "C10": "ok5y5sv",
+    "C11": "ok6r82j",
+    "C12": "ojwzyoa",
+    "C13": "ojx42zo",
+    "C14": "ojxhvxh",
+    "C15": "ok118xq",
+    "C16": "ok9cij9",
+    "C17": "ok3r6uc",
+    "C18": "ojydlt4",
+    "C19": "ojypbwo",
+    "C20": "ok1absn",
+    "C21": "ok2ju5o"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether their self-made card art is good enough to keep doing themselves or whether they should hire an artist.",
+    "images": [
+      {
+        "file": "data/images/1t3q6md/1.jpg",
+        "description": "Digital card, 'Avatar — Engineer' with a blue circuit-board frame and a sci-fi terminal look (green monospace text on dark green CRT-style panels). Name box at top-left reads 'ECHNICIAN SZAREN' with a small gear/sun icon (first letter 'T' appears cut off, so likely 'Technician'). Four round green screen slots sit in the corners and each shows only a dash: top-right, bottom-left and bottom-right, so the stats are placeholders. Type line at the bottom center reads 'AVATAR — ENGINEER'. Full-bleed art shows a purple, orange and teal robot or spacesuit character with a round gold-visor helmet, long tentacle-like cables and a raised open hand, surrounded by white lightning on a purple background. The style is painterly digital with rough brush strokes and white outlines. The text box is a semi-transparent dark box over the lower art: 'Once per game, you may pay 1★. Search your deck for a Tech card and put it in your hand. Then shuffle your deck. You may play this ability' The last line fades and is cut off, and the text overflows the box. The mouse cursor is visible at the bottom right."
+      },
+      {
+        "file": "data/images/1t3q6md/2.jpg",
+        "description": "Digital card, 'Avatar — Scoundrel' with a red/copper circuit-board frame and the same green terminal-screen UI. Name box reads 'KATSIA,' with a gear icon, right-aligned, and a blurry smudge on the left suggests a text-rendering glitch. The four corner screens show dashes (placeholder stats). Type line reads 'AVATAR — SCOUNDREL' and sits tight in its box. Art is a painterly digital portrait of a hooded figure in a bright magenta/pink hood with swirled dark hair, a mask or goggles, and one eye visible, against a dark starry blue and green background with white and pink electric or crackle textures at the bottom left. The text box is dark and translucent and reads: 'Once per game, you may gain Camoflauge.' (Camouflage is misspelled.)"
+      },
+      {
+        "file": "data/images/1t3q6md/3.jpg",
+        "description": "Digital card, 'Avatar — Soldier' with a brown/bronze circuit-board frame and the same green terminal UI. The name box is a bright green glowing blur with no legible name, apparently a rendering glitch or placeholder. The corner screens show dashes. Type line reads 'AVATAR — SOLDIER'. Art shows an astronaut or soldier in a cream and purple suit with a dark visor helmet, holding a pistol up in one hand and a large gold weapon in the other, with a jetpack on the side. A white-cyan energy burst and lightning cover the center, and the background is mottled red, green and yellow. The style is digital, with halftone dot shading and bold outlines. The text box is dark blue-gray and reads: 'Once per game, pay 2★. You gain 3 shields.' There are some dark smudges over the box."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009986
+}

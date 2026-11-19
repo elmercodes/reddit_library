@@ -1,0 +1,238 @@
+{
+  "id": "1tfbry5",
+  "title": "Thanks! Updated card design based on your feedback.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1tfbry5/thanks_updated_card_design_based_on_your_feedback/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-17",
+  "upvotes": 57,
+  "comments": 25,
+  "engagement_score": 8.9476,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "card layout",
+    "placeholder art",
+    "text legibility",
+    "card critique"
+  ],
+  "summary": "A designer posted a revised minimalist, board-game-style card layout (The Fish and Bubble) after earlier critique and asked for more feedback. The community response was friendly and mostly positive, with several people saying it looks better and liking the painted style. Higher-scoring comments were about the art being a recognizable Pokemon (Finneon) placeholder, plus small layout notes on text size and the flat edge of the text box. Overall temperature is friendly, with low engagement in points.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Several commenters spotted the fish as a Pokemon (Finneon), and the top-scoring reply on that point called it literally a Pokemon. They flagged legal risk if it were ever sold; the poster says it is a placeholder.",
+      "evidence": [
+        "C3",
+        "C19",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.31
+      }
+    },
+    {
+      "point": "One commenter suggests replacing the flat top edge of the text box with a wave shape that fits the fish theme.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.167
+      }
+    },
+    {
+      "point": "Two commenters want the rules text bigger; the small text is the main readability complaint about an otherwise liked layout.",
+      "evidence": [
+        "C4",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.119
+      }
+    },
+    {
+      "point": "One commenter suggests italicising or bolding the keyword 'Consume' so it reads as a mechanic.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    },
+    {
+      "point": "One commenter advises adding copyright, artist credit, set name and collector number if the game leaves the family circle.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make rules text larger than feels necessary. In a minimalist layout, small effect text becomes the first thing reviewers notice, since the clean design leaves room for it.",
+      "evidence": [
+        "C4",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.119
+      }
+    },
+    {
+      "lesson": "Use the card's theme to shape the frame. A wavy edge on the text box for a fish card adds personality while keeping the design minimal.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.167
+      }
+    },
+    {
+      "lesson": "Format keywords such as Consume (bold or italic) so players can tell mechanics from ordinary words.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.024
+      }
+    },
+    {
+      "lesson": "Label test art clearly as placeholder, or reviewers will critique it as final art and spend feedback on legal and originality concerns instead of layout.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C19",
+        "C20"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 20,
+        "share": 0.476
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Using recognizable IP, even as placeholder art, draws immediate legal warnings. Before selling or showing publicly, swap in original art and add credit, copyright, set and collector-number fields.",
+      "evidence": [
+        "C8",
+        "C19",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 2,
+        "share": 0.048
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Your minimalist card got praise, but reviewers keep saying the text is too small.",
+      "why_it_lands": "Two commenters independently flagged text size even while praising the style, a common trap for clean layouts.",
+      "evidence": [
+        "C4",
+        "C18"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.119
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Is placeholder art worth it if everyone critiques the art instead of your layout?",
+      "why_it_lands": "A Pokemon-lookalike placeholder drew the top-scoring comment and legal warnings, pulling attention from layout feedback.",
+      "evidence": [
+        "C3",
+        "C19",
+        "C20"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.31
+      }
+    }
+  ],
+  "comment_points_total": 42,
+  "comment_ids": {
+    "C1": "om8yzer",
+    "C2": "oma5qp9",
+    "C3": "omaaq0c",
+    "C4": "om8ww14",
+    "C5": "om8myed",
+    "C6": "omb27w6",
+    "C7": "ombl8cq",
+    "C8": "omba4rz",
+    "C9": "ombmyz7",
+    "C10": "omdmxm0",
+    "C11": "omdw10b",
+    "C12": "omfrl79",
+    "C13": "omdw5sw",
+    "C14": "omezybr",
+    "C15": "omi9g1s",
+    "C16": "omn2akd",
+    "C17": "omwvlfc",
+    "C18": "ormnkfq",
+    "C19": "om9oc2b",
+    "C20": "omaeeku",
+    "C21": "omaql0w",
+    "C22": "om9vm1t",
+    "C23": "omar8bh",
+    "C24": "omaqct7"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants further feedback on the updated minimalist, board-game-style card layout, which was revised from earlier critique.",
+    "images": [
+      {
+        "file": "data/images/1tfbry5/1.jpg",
+        "description": "Updated design, two cards tilted over a blurred teal/beige background. Left card 'The Fish': blue hexagonal crystal with cost '1' at top left, white banner with name 'The Fish' and the right-aligned label 'PICES 1' (sic, with a small circled 1) ending in a pointed tip. Full-bleed art of a dark teal/purple chubby fish with large pink-purple fin, among clouds, in a pixelated/blocky digital painting style. Dark blue bottom text box: 'Daydream - This card cannot hold equipment or use actions.' with 'HP 30' at the bottom right. Right card 'Bubble': crystal cost '2', banner 'Bubble' with the type 'EQUIP' in teal at right. Art is a soft, chalky iridescent bubble against a blue sky with clouds. Dark blue text box with a blue helmet/shield icon beside 'Protect - Prevent all damage, then consume this card.'"
+      },
+      {
+        "file": "data/images/1tfbry5/2.jpg",
+        "description": "The updated Fish card shown straight on, with the Bubble card tucked beneath it so only its bottom text strip peeks out. The visible strip has the blue helmet icon and 'Protect - Prevent all damage, then consume this card.' This shows how the equipment type icon stays visible when the equipment is attached under a creature. The Fish card layout is the same as in image 1 (cost crystal 1, banner 'The Fish' / 'PICES 1', 'Daydream' ability, HP 30)."
+      },
+      {
+        "file": "data/images/1tfbry5/3.jpg",
+        "description": "'Before' version, labeled in the top right. Left card 'I - The Fish' has a tarot-style look: a cream-and-gold ornate label with the name at the bottom and a cream text box reading 'Alone & Afraid - This card cannot perform actions.' A gold diamond resource icon with '2' sits top left, a blue circle with the Pisces symbol top center, and a dark blue hexagon with '3' top right. Same fish art. Right card is the Bubble: a gold diamond '2' on the top left, 'EQUIP' with a helmet icon top right, and a bottom strip with a bubble thumbnail and 'Bubble - Prevent all damage and consume this card.' The bubble card is partially tucked under the Fish card. The old frame has more decoration and mixed color schemes, with cream/gold elements against the blue."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007951
+}

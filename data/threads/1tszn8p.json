@@ -1,0 +1,122 @@
+{
+  "id": "1tszn8p",
+  "title": "First test run (against myself) went really well.",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1tszn8p/first_test_run_against_myself_went_really_well/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-05-31",
+  "upvotes": 53,
+  "comments": 25,
+  "engagement_score": 8.8761,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "paper prototyping",
+    "hand replenish",
+    "solo playtest",
+    "tcg theme"
+  ],
+  "summary": "A designer shared photos and notes from a first solo playtest of a hand-drawn TCG, covering replenish-to-five hands, energy, evolution and a D12 for HP. The thread is small and friendly, with only about 9 community points. Most replies were a promotional app link, a manufacturer pitch, and a long exchange where the poster critiqued another creator's family-photo card game. Only a couple of comments engaged with the prototype itself, mainly on paper editing.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter noted that paper prototypes make it easy to edit rules text mid-playtest, which designers skip when going straight to printed digital designs.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.111
+      }
+    },
+    {
+      "point": "One commenter suggested covering old text with store price-tag stickers instead of whiteout, but warned not to put them on sleeves because the glue is hard to remove.",
+      "evidence": [
+        "C8"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.111
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep prototype cards editable (pencil, scratch-outs, stickers) so you can revise ability text during play; the crossed-out abilities on the Virgo and Queen strips show how this helped polish mechanics. Plan for running out of room by using cover-up stickers.",
+      "evidence": [
+        "C6",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.222
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Paper prototypes let you scratch out rules mid-game. Do digital-first designers miss that?",
+      "why_it_lands": "The thread's top-engaged design comment points out that hand-edited cards speed up mechanic polish, and the poster's crossed-out ability strips show it in action.",
+      "evidence": [
+        "C6",
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.111
+      }
+    }
+  ],
+  "comment_points_total": 9,
+  "comment_ids": {
+    "C1": "op0u8dr",
+    "C2": "op0wydb",
+    "C3": "op0xqmy",
+    "C4": "op1g3g7",
+    "C5": "op45ii7",
+    "C6": "op2bese",
+    "C7": "op46z3p",
+    "C8": "opkcgqf",
+    "C9": "op2e9gu",
+    "C10": "op472el",
+    "C11": "oozvrjx",
+    "C12": "opu77xy",
+    "C13": "op11qol",
+    "C14": "op0y8bq",
+    "C15": "op6fbrd",
+    "C16": "op110av",
+    "C17": "oplcr1l"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing results of a solo playtest of their hand-drawn prototype TCG (hand replenish, energy, evolution, D12 HP) and the lessons learned, with no explicit question.",
+    "images": [
+      {
+        "file": "data/images/1tszn8p/1.jpg",
+        "description": "A hand fans five hand-drawn paper prototype cards in front of a desk. Pen-and-ink sketches on white cardstock, with a colored-pencil circle for cost at the top left (green or yellow). Visible cards: a hooded figure (cost 2); a bird, with text partly hidden that reads 'Animal: L...' and '1 DM...' (cost 2, yellow); 'Virgo' with a crowned queen and a '5' cost with a small '3' (80 at the top right); and 'Virgo' The Hermit with a lantern (cost 3, small '2', +40). The Hermit's text reads 'As long as other allies, cannot be active, and cannot be targeted', partly covered by the thumb. A cloud/animal sketch (cost 3) is at the far left. In the background is a loose sheet reading 'Triton +1 DMG' and 'STINGER 1 DMG per turn'. Fingers cover some text."
+      },
+      {
+        "file": "data/images/1tszn8p/2.jpg",
+        "description": "A close-up of a stack of hand-drawn prototype cards on a wood table, with a d6 at the bottom left and a blue/purple D12 at the top right (the HP marker). The top card is a Hero card: green cost circle '3' top left, 'VIRGO' at the top center, '+40' top right, and a small '2' with a level mark under the cost. The art shows a hooded hermit holding a lantern under clouds, a moon, and stars. Name: 'The Hermit'. Text: 'As long as other allies, cannot be active, and cannot be targeted'. Under it are smaller evolution/attachment strips partially tucked beneath the card. One reads 'can use all Animals ~~hit twice (if you can pay for it)~~' with the 'hit twice' part crossed out, and another reads 'DMG -1', with rounded-corner frames."
+      },
+      {
+        "file": "data/images/1tszn8p/3.jpg",
+        "description": "A tabletop playtest layout of hand-drawn cards, dice, and coins. Top left: a stack with the Virgo hero 'The Queen' (cost 5, small 3, +80; art of a crowned woman with large earrings). Text: 'When played 1 ♡ to each opponent'. Under it are strips: 'can use all Animals ~~hit twice (if you can pay for it)~~' and 'Queen's Staff: Revenge deals +1 DMG'. A D12 and a d6 sit nearby. Top right: a Pisces hero 'The Ocean' (blue cost 5, small 3, +80) with a trident-wielding sea figure, and a partly hidden strip reading 'STINGER ... per turn'. A blue D12, a d6, and 100 pesos coins are nearby. Bottom row: three action cards, each with a green cost circle top left, a star icon top right, central art, and name/text at the bottom. 'Lantern' (cost 1): 'Draw 2 cards'. 'Charmed' (cost 2, two hearts): 'Place 2 charm ...' (text cut off). 'Revenge' (cost 3, broken heart): '1 DMG per ♡ token'."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.0063
+}

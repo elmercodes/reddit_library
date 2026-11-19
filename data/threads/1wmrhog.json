@@ -1,0 +1,253 @@
+{
+  "id": "1wmrhog",
+  "title": "Runes & Rivals First Physical Prototype",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wmrhog/runes_rivals_first_physical_prototype/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-21",
+  "upvotes": 172,
+  "comments": 29,
+  "engagement_score": 10.2551,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "first prototype",
+    "lineless art style",
+    "print quality",
+    "card back design"
+  ],
+  "summary": "A designer shared photos of their first manufactured prototype of Runes & Rivals, noting the visuals were already outdated. The community response was warm and supportive, with praise for the art, print and packaging, and a few practical comments about flavor text, outlines and the logo. Overall the thread was friendly with no real disagreement, and low scores overall (41 community points across all comments).",
+  "consensus": [
+    {
+      "point": "Commenters were broadly positive about the art, graphic design and print quality of the prototype, and several found it inspiring.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C8",
+        "C10",
+        "C19",
+        "C20",
+        "C22",
+        "C23",
+        "C25"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 24,
+        "share": 0.585
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters endorsed adding some outlines for clarity, one from their own experience with lineless art and one who had planned to suggest it.",
+      "evidence": [
+        "C12",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "point": "One commenter said the lineless cartoon style has a strong identity that is underexplored in TCGs, comparing its color and shape language to a cartoon show.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.073
+      }
+    },
+    {
+      "point": "One commenter missed flavor text, which they had earlier suggested for specific cards, though they still liked the cards.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.073
+      }
+    },
+    {
+      "point": "One commenter found the card back's plus sign would not read as an 'and' in the logo, a small legibility issue on the title.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "If your art is lineless, expect print to flatten it. CMYK conversion can dull color separation, so test physical proofs and consider adding some line work so shapes pop, as commenters who work lineless also found.",
+      "evidence": [
+        "C12",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "lesson": "Check that logo symbols read the way you intend on the card back. A plus sign between words may not be read as 'and', so test the title with people who haven't seen it.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "A distinctive, consistent art style by one artist can become a recognizable identity in a crowded genre, and commenters noticed the consistency across cards.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.073
+      }
+    },
+    {
+      "lesson": "Treat a first print run as a proof: ordering a prototype reveals how art prints before you commit to final visuals, and it can make a rough run feel like a collectible alpha.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Showing a prototype milestone, and being open about what's outdated, invites supportive engagement, and people want to follow the updated versions.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C1"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 10,
+        "share": 0.244
+      }
+    },
+    {
+      "lesson": "Sharing the timeline openly (about a year from concept to a physical prototype as a solo developer) draws curiosity and relatability from other designers.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.073
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Lineless card art looks great on screen. Does it survive printing?",
+      "why_it_lands": "The poster said CMYK printing made them add outlines, and two commenters backed adding some lines. It's a practical pain point for artists.",
+      "evidence": [
+        "C12",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.098
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card back logo actually read the way you meant?",
+      "why_it_lands": "One commenter flagged that the plus sign wouldn't read as 'and', a small but filmable test for any designer.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "comment_points_total": 41,
+  "comment_ids": {
+    "C1": "pba0olw",
+    "C2": "pba2vuz",
+    "C3": "pb9skpd",
+    "C4": "pb9stl0",
+    "C5": "pb9zlns",
+    "C6": "pb9t3uu",
+    "C7": "pb9u930",
+    "C8": "pbf9g5p",
+    "C9": "pbg9au9",
+    "C10": "pbkuei8",
+    "C11": "pblinry",
+    "C12": "pbltr9c",
+    "C13": "pbnk7ii",
+    "C14": "pbnmy14",
+    "C15": "pcar76s",
+    "C16": "pcd9blw",
+    "C17": "pbbahgk",
+    "C18": "pbcn57k",
+    "C19": "pb98pca",
+    "C20": "pb9jac3",
+    "C21": "pb9jqoa",
+    "C22": "pb9nrsk",
+    "C23": "pbarxur",
+    "C24": "pbdog5b",
+    "C25": "pbm1he6"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing a milestone, their first manufactured prototype of Runes & Rivals, and not asking for specific feedback.",
+    "images": [
+      {
+        "file": "data/images/1wmrhog/1.jpg",
+        "description": "Three fanned card backs on a dark gray table, with a purple rulebook partly visible at the top reading 'Designed and developed by Anuby Games 2026'. Each back has a dark blue field with a red-purple radial glow in the center and a teal/blue wizard hat with yellow stars on top. The yellow hand-drawn rune-style logo 'RUNES + RIVALS' sits under the hat, with the vertical stroke of a cross between the words. Small faint rune glyphs are scattered around. The border is thin, with a light blue edge on top and right and a pale yellow-green edge on left and bottom. A rune icon sits in a dark circle in each corner. The cards have a white outer margin and rounded corners. The print looks clean and saturated, and the stock appears to have a slight leather-like texture."
+      },
+      {
+        "file": "data/images/1wmrhog/2.jpg",
+        "description": "A shrink-wrapped hanging-tab deck box standing on a dark surface; the photo is slightly blurry. The box is purple-blue with the same wizard hat, red-purple glow, and yellow 'RUNES + RIVALS' logo. Top corners read '2 PLAYERS' and 'AGES 12+'. The bottom reads 'EXPANDABLE CARD GAME'. A dark blue hang tab with a hole is at the top."
+      },
+      {
+        "file": "data/images/1wmrhog/3.jpg",
+        "description": "Flat lay of the full prototype contents on a dark gray table. At the top is the open purple box, with 'Earn the crown.' and a trophy icon on the lid and 'RUNES + RIVALS', '2 PLAYERS', 'AGES 12+' and 'EXPANDABLE CARD GAME' on the front. At left is a stack of Caster cards (top card 'Shady Swims', Caster - Former Champion, with a red creature in a hat on a forest background) and a purple Rulebook booklet. Rune cards: Water Rune (blue, 'This counts as 1 Water Rune'), Fire Rune (red/orange, 'This counts as 1 Fire Rune'), Mythic Rune (dark purple with crystal, 'This counts as 1 Rune of your choice'). Battlegear cards: Crystal Ball (draw-related text about looking at the top 5 cards of the Spell Deck, drawing 1 and placing the other on the bottom), Sacred Torch ('Equipped Caster has +1 ... when performing Basic Attacks'), Rune Pendant (Affinity text about choosing an Affinity, Equipped Caster gains that Affinity while equipped). Spell cards: Fireball (orange; 'Deal 2 damage to opposing Caster', Fire Bonus 'Deal +2 damage'), Ground Shatter (green; 'Deal 2 damage to opposing Caster', Earth Bonus 'If opposing Caster is equipped, destroy opposing Battlegear'), Super Cyclone (dark/gray with a tornado over Earth; 'Deal 4 damage to opposing Caster', Air Bonus 'Once this resolves, put it on the bottom of the Spell Deck then draw 1 card'). Partly cut off at right are Caster cards 'Chilly, Ghostflame Sorcerer' (Caster - Former Champion; cost 3; 'If this Caster casts a Spell, that Spell deals +1 damage') and 'Sir Reginald' (Caster - Former Champion; cost 3; text about healing this Caster). Card layout: name at top center, type below it, a large central art box, a parchment-scroll text box in the lower part, and rune-slot circles down the right side of Spells and Casters. The text is too small to read fully. The poster says these visuals are already outdated."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008485
+}

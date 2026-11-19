@@ -1,0 +1,272 @@
+{
+  "id": "1p5nj47",
+  "title": "Feedback on new logo/card back",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-11-24",
+  "upvotes": 72,
+  "comments": 24,
+  "engagement_score": 9.1188,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "logo design",
+    "card back",
+    "readability",
+    "logo feedback"
+  ],
+  "summary": "A designer shared a side-by-side of an old and new logo and card back for a card game called TAG (katakana ガンガールズ) and asked which readers prefer. Responses were split between old and new, with the old logo carrying more points because commenters found it more readable. Many on both sides agreed the katakana overlapping the TAG letters hurts legibility and suggested moving or separating it. The tone was friendly and constructive.",
+  "consensus": [
+    {
+      "point": "The katakana text placement hurts legibility of the English TAG, especially in the new logo, and should be moved, separated or integrated differently. Both old and new supporters made this point.",
+      "evidence": [
+        "C4",
+        "C6",
+        "C7",
+        "C10",
+        "C12",
+        "C15",
+        "C22"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 23,
+        "share": 0.489
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "A card back is a discovery tool: someone who sees an interesting back needs to be able to read the name and search for it.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 10,
+        "share": 0.213
+      }
+    },
+    {
+      "point": "One commenter distinguished between truly integrating the katakana into the letterforms (harder, maybe cooler) and making it a separate tagline (easier).",
+      "evidence": [
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.064
+      }
+    },
+    {
+      "point": "One commenter noted the new logo resembles an existing Bemani artist's logo, a reminder to check for unintended resemblance.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.021
+      }
+    },
+    {
+      "point": "One commenter suggested extending the top of the G to balance the T.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.021
+      }
+    },
+    {
+      "point": "One commenter who did not read Japanese liked the new design but could not tell what the katakana meant.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which logo is better: old or new?",
+      "side_a": "The old logo is preferred because it is more readable at a glance.",
+      "side_a_evidence": [
+        "C1",
+        "C3",
+        "C4",
+        "C11",
+        "C12",
+        "C17",
+        "C23"
+      ],
+      "side_b": "The new logo is preferred because it looks cooler, cleaner and more dynamic.",
+      "side_b_evidence": [
+        "C10",
+        "C13",
+        "C14",
+        "C16",
+        "C18",
+        "C23"
+      ],
+      "side_a_support": {
+        "comments": 7,
+        "commenters": 7,
+        "points": 28,
+        "share": 0.596
+      },
+      "side_b_support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 9,
+        "share": 0.191
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Test a logo with fresh eyes for legibility at a glance; a more dynamic version can lose the name. One commenter did not notice English letters in the new logo at first.",
+      "evidence": [
+        "C12",
+        "C4",
+        "C1"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.489
+      }
+    },
+    {
+      "lesson": "Do not overlap a second script on top of the main title. Put it as a filled tagline in a separate band, or properly merge it into the letter shapes, so neither is obscured.",
+      "evidence": [
+        "C7",
+        "C15",
+        "C6"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.128
+      }
+    },
+    {
+      "lesson": "Fix small details that change letter recognition, such as the A reading as a triangle when covered, by lowering overlapping text.",
+      "evidence": [
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.149
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Make the card back logo readable enough that a curious player who sees it can search for the game by name.",
+      "evidence": [
+        "C4"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 10,
+        "share": 0.213
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Old logo or new logo? Designers here split on readability versus excitement.",
+      "why_it_lands": "Old-logo comments carried more points, but new-logo fans were vocal, and one commenter wanted both readable and dynamic.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C14",
+        "C16",
+        "C23"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 24,
+        "share": 0.511
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Can you read your card back logo at a glance? A designer's redesign was tested.",
+      "why_it_lands": "The thread's main lesson is that cool styling can hurt legibility and searchability, which any designer can check.",
+      "evidence": [
+        "C4",
+        "C12",
+        "C15"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 13,
+        "share": 0.277
+      }
+    }
+  ],
+  "comment_points_total": 47,
+  "comment_ids": {
+    "C1": "nqkk0sh",
+    "C2": "nqkxvg8",
+    "C3": "nqo7va1",
+    "C4": "nqkhbyo",
+    "C5": "nqkxmhd",
+    "C6": "nqkt4qc",
+    "C7": "nqn47ue",
+    "C8": "nqn8vow",
+    "C9": "nqnd57h",
+    "C10": "nqkky8z",
+    "C11": "nqkoyrr",
+    "C12": "nqkr3dg",
+    "C13": "nqk94cj",
+    "C14": "nqkcsys",
+    "C15": "nqlx64o",
+    "C16": "nqmu7xk",
+    "C17": "nqngvu9",
+    "C18": "nqnibwl",
+    "C19": "nqr29fy",
+    "C20": "nqwy2rv",
+    "C21": "nr43gic",
+    "C22": "nr6891e",
+    "C23": "nt67ls3",
+    "C24": "nqmos7k"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants to know whether commenters prefer the old or new logo and card back design.",
+    "images": [
+      {
+        "file": "data/images/1p5nj47/1.jpg",
+        "description": "Side-by-side mockup of two card backs on a dark gray background, labeled 'old' (left) and 'new' (right) in white bold text below. Both backs are portrait, rounded-corner, black cards with a thin cyan inner border line. Centered on each is a cyan targeting-reticle motif: concentric circles, crosshair lines, small arrow/triangle markers at the top, bottom and diagonals, and a faint dark vinyl-record-like texture in the middle, with a light cyan rounded rectangle tab peeking out behind the circle at left and right. OLD: logo reads 'TAG' in flat magenta/pink block letters with white outlines, the A slanted and overlapping, with white outlined Japanese katakana (ガンガールズ) behind it. The katakana is outlined only and partly hidden behind the letters, so it is hard to read. NEW: logo is a wide, angular, 3D-extruded magenta 'TAG' with a beveled perspective look, with the white katakana 'ガンガールズ' in a bold filled font set in a dark-outlined white-edged band across the middle, and small magenta accent lines at the bottom corners. The new logo is larger, spans nearly the full width of the reticle, and has more dimension. The rest of the card back design is identical in both."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007971
+}

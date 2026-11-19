@@ -1,0 +1,239 @@
+{
+  "id": "1wrrlck",
+  "title": "Finally sharing my first (6th) game on here!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wrrlck/finally_sharing_my_first_6th_game_on_here/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-27",
+  "upvotes": 94,
+  "comments": 24,
+  "engagement_score": 9.3822,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "showcase",
+    "digital playtesting",
+    "art workflow",
+    "community building"
+  ],
+  "summary": "A designer introduced HEX, a combat-themed TCG that has finished demo playtesting and is now mid-art, shown through a playingcards.io mockup with mostly placeholder frames. The thread is small (about 23 community points) and uniformly friendly: commenters complimented the look and asked how to play it and how the art is being made. There was no disagreement, and the main practical interest was in trying the game and in the art workflow.",
+  "consensus": [
+    {
+      "point": "Commenters were positive about the look of the game and wanted to see more or try it, with several asking where to play or sign up for the demo.",
+      "evidence": [
+        "C3",
+        "C5",
+        "C7",
+        "C9",
+        "C11",
+        "C12",
+        "C14",
+        "C16",
+        "C21"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 8,
+        "points": 17,
+        "share": 0.739
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter asked how the game plays and whether you pick heroes and weapons, showing that the mockup alone did not explain the core loop.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.13
+      }
+    },
+    {
+      "point": "One commenter, an illustrator, asked how an indie team handles art given the time and money it takes, and said they would not judge an AI answer. This is a live concern for solo designers.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter praised the cards as slick and asked what software runs the game, indicating curiosity about the playtest tooling.",
+      "evidence": [
+        "C16"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter said that having a friend share the illustration workload would make a large personal project feel doable.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.043
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Show a playable-looking mockup, even with placeholder frames. A tabletop-simulator screenshot with a consistent frame, keyword colors and a clear board layout earned 'slick' reactions before most art existed, so lock layout and UI first and art later.",
+      "evidence": [
+        "C16",
+        "C14",
+        "C7"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.261
+      }
+    },
+    {
+      "lesson": "Include a one-line description of the core loop with the first reveal. A mockup of heroes and weapons left a viewer guessing how it works, so a short line such as 'play a card, pay cost, opponent responds' prevents that.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.13
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Set up a sign-up list and a clear demo plan before the reveal. Several viewers immediately asked where to try it or join a waitlist, and the creator had to answer in replies, so put the link and the timeline in the original post.",
+      "evidence": [
+        "C9",
+        "C11",
+        "C21",
+        "C12"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.304
+      }
+    },
+    {
+      "lesson": "A free playable demo on playingcards.io or a print-and-play lowers the barrier for interested viewers to try the game with no print cost.",
+      "evidence": [
+        "C9",
+        "C16",
+        "C21"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 5,
+        "share": 0.217
+      }
+    },
+    {
+      "lesson": "Being open about how the art gets made builds trust with creative audiences, and an illustrator asking about it shows the question will come up. Having a ready answer, such as a limited art style or a co-creator splitting the work, is worth preparing.",
+      "evidence": [
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.13
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer asked how indie card games get their art made. How do you do it?",
+      "why_it_lands": "An illustrator asked how indie devs handle art cost and time, and said they would not judge AI use. That is a question designers get often, and the thread gives a concrete answer to react to.",
+      "evidence": [
+        "C18",
+        "C20"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.13
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do you need finished art to show your card game, or is a mockup enough?",
+      "why_it_lands": "Most cards in the post still used placeholder frames, yet commenters called them slick and asked to try the game. That makes a useful prompt for builders posting in public.",
+      "evidence": [
+        "C16",
+        "C14",
+        "C7",
+        "C9"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 8,
+        "share": 0.348
+      }
+    }
+  ],
+  "comment_points_total": 23,
+  "comment_ids": {
+    "C1": "pcfbgj6",
+    "C2": "pchdoe7",
+    "C3": "pcgxttf",
+    "C4": "pch8w8k",
+    "C5": "pch7xn6",
+    "C6": "pchdpzc",
+    "C7": "pci105d",
+    "C8": "pclgt1l",
+    "C9": "pci1rlg",
+    "C10": "pclgqmp",
+    "C11": "pcli2aw",
+    "C12": "pclz1wj",
+    "C13": "pcrnasa",
+    "C14": "pcrwyb2",
+    "C15": "pcrykrg",
+    "C16": "pcsbgba",
+    "C17": "pcsdnzq",
+    "C18": "pctinhy",
+    "C19": "pctpi3t",
+    "C20": "pcts0yk",
+    "C21": "pcfk682",
+    "C22": "pcfkutq",
+    "C23": "pcrxxn0",
+    "C24": "pctv3h9"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is introducing their homemade TCG, HEX, which is mid-art and has finished demo playtesting, and is mainly sharing it and building interest rather than asking for specific feedback.",
+    "images": [
+      {
+        "file": "data/images/1wrrlck/1.jpg",
+        "description": "Angled photo of a monitor showing a digital tabletop playmat for 'HEX' on a dark background with a faint scribble pattern and a central orange/white HEX hexagon logo. Opponent side (top): a face-down deck of 30 (HEX back: gray hexagon logo with radiating burst), an empty 'GRAVE' slot, and two rows of cards. Top row has 5 cards: 'Rage', 'Crimson Blade of the Slayline' (or similar), 'Ninja' (character with full-color art of a red/white ninja and a stat row of small colored icons along the bottom), 'Dodge', 'Parry'. Middle row has 'Crimson Kodachi' (red-glowing sword art), 'Ninefold Shroud' (marked with a count of 6 and an orange badge), and another card, 'Crimson Reach' (illegible). Player side (bottom, labeled 'Player 1', counters 0 and 1): a face-down deck, a 'GRAVE' slot, and cards: 'Stormcaller', 'Gloomiron Armour' (count 5), 'Arcane Gold' (blue crystal art), and a bottom row of 'Mana Ward', 'Aetherbank', 'Spellsnipe' (character with blue-themed art and a colored stat icon row), 'Storm Mod', 'Shield Set'. Most cards use a gray placeholder frame with the HEX hexagon logo in the art box. Only Ninja, Crimson Kodachi, Arcane Gold, and Spellsnipe have finished art. Card layout: small cost/color icon at the top left, name and stat line on a black bar below the art, a white text box with rules text, and a small circle in the bottom corners. Keywords in the text are highlighted in colored boxes (red, blue, yellow, purple). Card text is too small and blurry to read. UI includes an orange 'RULES' button at the bottom left and a partial instruction panel reading '...s to flip. Drag cards to move... ...ed here are only visible to you.'"
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.008863
+}

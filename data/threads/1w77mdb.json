@@ -1,0 +1,175 @@
+{
+  "id": "1w77mdb",
+  "title": "October 30th Can't Get Here Soon Enough",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1w77mdb/october_30th_cant_get_here_soon_enough/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-09-04",
+  "upvotes": 64,
+  "comments": 22,
+  "engagement_score": 8.8776,
+  "flair": "Advice Needed",
+  "post_type": "video",
+  "topics": [
+    "manufacturer choice",
+    "solo development",
+    "ama",
+    "print production"
+  ],
+  "summary": "A designer shared a video of uncut print sheets for the second expansion of their card game Elemental Creatures and invited questions as an AMA. The community responded warmly and politely, mostly with praise for how the cards look, plus a few practical questions about the manufacturer and how long the project took. Community comments total only 28 points, so engagement was small, and the temperature was friendly with no disagreement.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Two commenters asked practical production questions: which manufacturer is used, and how many years the project took.",
+      "evidence": [
+        "C1",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.286
+      }
+    },
+    {
+      "point": "One commenter said they also print with Bayaya and called them great to work with, which backs up the OP's manufacturer choice with a second independent user.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.071
+      }
+    },
+    {
+      "point": "One commenter praised the coloring of the art, saying it gives the cards a vintage charm, so a distinctive color treatment drew specific notice.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.071
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "A distinctive, consistent color treatment in the art is what viewers single out and remember. Build a recognizable palette or style into your cards instead of relying on generic polish.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.071
+      }
+    },
+    {
+      "lesson": "Showing uncut print sheets in a video draws praise and curiosity about production. Behind-the-scenes shots of real physical output can make the game feel real before it is in hands.",
+      "evidence": [
+        "C15",
+        "C6",
+        "C10"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 7,
+        "share": 0.25
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Naming your manufacturer openly invites interest and peer validation. Asking around within the community can turn up lesser-known printers, and a second creator confirmed Bayaya as a good partner.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.286
+      }
+    },
+    {
+      "lesson": "Solo creators should expect a long runway: the commenters showed interest in the timeline, which was about 4 years for the first set and under a year for the next expansion. Sharing realistic timelines builds credibility.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.071
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "How long does it really take to make a card game alone?",
+      "why_it_lands": "A commenter asked exactly this, and the answer of four years for the first set versus months for the second is a concrete, relatable contrast.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.071
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Which printer should an indie card game designer actually use?",
+      "why_it_lands": "The manufacturer question was the top comment, and a second designer confirmed the same printer, showing how much people want real recommendations.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.286
+      }
+    }
+  ],
+  "comment_points_total": 28,
+  "comment_ids": {
+    "C1": "p7tdv1s",
+    "C2": "p7u06wa",
+    "C3": "p7wq1kp",
+    "C4": "p7spew3",
+    "C5": "p7spqtu",
+    "C6": "p7svaom",
+    "C7": "p7tbacc",
+    "C8": "p7td2o0",
+    "C9": "p7u0we3",
+    "C10": "p7v173p",
+    "C11": "p7v1xfk",
+    "C12": "p7xrhcm",
+    "C13": "p7zgmgx",
+    "C14": "p80orzo",
+    "C15": "p81iru8",
+    "C16": "p824qem",
+    "C17": "p8gl5zp",
+    "C18": "p8gotfe",
+    "C19": "p7sp57k",
+    "C20": "p7txpy4",
+    "C21": "p7u093v",
+    "C22": "p7zh7ow"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005799
+}

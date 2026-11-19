@@ -1,0 +1,256 @@
+{
+  "id": "1w0y1es",
+  "title": "ELEMENTAL CREATURES TCG Website Updated With Set 2!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1w0y1es/elemental_creatures_tcg_website_updated_with_set_2/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-28",
+  "upvotes": 76,
+  "comments": 37,
+  "engagement_score": 9.8002,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "card art",
+    "online card database",
+    "homemade tcg launch",
+    "international shipping"
+  ],
+  "summary": "A designer announced the website update and Set 2 (Alpha Evolved, releasing October 30) for their homemade TCG, Elemental Creatures. The community response was friendly and supportive, with praise for the large, consistent art and comparisons to Pokemon, Digimon and Yu-Gi-Oh. A few commenters asked practical questions about how the website and card database were built, a score tracker, and buying from outside the U.S. There was no real disagreement, and the thread stayed warm throughout.",
+  "consensus": [
+    {
+      "point": "Commenters liked the art style: big, clean, consistent and readable, with echoes of familiar TCGs like Pokemon, Digimon and Yu-Gi-Oh.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C9",
+        "C19"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 13,
+        "share": 0.351
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters were curious how the website and card database were built.",
+      "evidence": [
+        "C15",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.108
+      }
+    },
+    {
+      "point": "An early playtester said the first set was easy to pick up because two booster packs could be opened and made into a playable deck right away, and wondered if Set 2 keeps the same card ratios.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "point": "Having the full card list visible on the website made one commenter more interested in the game.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "A customer asked whether an official score tracker would be sold, which hints at demand for physical game accessories.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "One commenter was confused about how to buy outside the U.S., since the only purchase link goes to a store that seems to ship only in the U.S. Meanwhile the creator listed many countries they have shipped to.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "point": "A commenter bought two booster boxes after stumbling upon the cards, which shows the art can convert strangers into buyers.",
+      "evidence": [
+        "C19"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Keep art style and card layout standardized and readable. Commenters tied the consistent look and big art to a clear identity and easy reading.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 10,
+        "share": 0.27
+      }
+    },
+    {
+      "lesson": "Design starter packs so a new player can open a couple of packs and build a playable deck immediately. This lowers the barrier to a first game, and playtesters noticed it.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.081
+      }
+    },
+    {
+      "lesson": "Blending influences from several well-known TCGs can give players familiar visual cues while still reading as its own aesthetic.",
+      "evidence": [
+        "C9",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.135
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A public card database on your website builds interest because people can browse the whole set before buying.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "lesson": "Make purchase and shipping paths clear for international buyers. A listed set of shipping countries did not help a commenter who found a U.S.-only store link.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    },
+    {
+      "lesson": "Free tools on your site, like a live score tracker, can serve a real need and show demand for physical accessories later.",
+      "evidence": [
+        "C22"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A card game site got asked: how do you build a card database?",
+      "why_it_lands": "Two commenters asked how the website and database were made, and the creator said a friend did the web work while they handled illustration and card files. Many solo designers are stuck on this problem.",
+      "evidence": [
+        "C15",
+        "C16",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.108
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Your card game ships worldwide, but can a buyer outside the U.S. actually order?",
+      "why_it_lands": "A commenter could not find a way to buy abroad even though shipping countries were listed. Designers can relate to checkout friction.",
+      "evidence": [
+        "C24",
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.054
+      }
+    }
+  ],
+  "comment_points_total": 37,
+  "comment_ids": {
+    "C1": "p6gr7o4",
+    "C2": "p6gsyue",
+    "C3": "p6hrr3d",
+    "C4": "p6hyr9f",
+    "C5": "p6gvm5s",
+    "C6": "p6gxcil",
+    "C7": "p6h8rky",
+    "C8": "p6ieenq",
+    "C9": "p6hpphc",
+    "C10": "p6hqm9n",
+    "C11": "p6h3klh",
+    "C12": "p6heibl",
+    "C13": "p6hgu27",
+    "C14": "p6hiaqp",
+    "C15": "p6hgxgh",
+    "C16": "p6hjaar",
+    "C17": "p6hqlwl",
+    "C18": "p6huc5d",
+    "C19": "p6ohlou",
+    "C20": "p6ojmf4",
+    "C21": "p6zfgmr",
+    "C22": "p7d2lt8",
+    "C23": "p7daa5i",
+    "C24": "p6owtlt",
+    "C25": "p6sio5f"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007707
+}

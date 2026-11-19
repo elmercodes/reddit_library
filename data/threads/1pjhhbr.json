@@ -1,0 +1,158 @@
+{
+  "id": "1pjhhbr",
+  "title": "First play-test session of my homemade tcg. I love this!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pjhhbr/first_playtest_session_of_my_homemade_tcg_i_love/",
+  "subreddit": "homemadeTCGs",
+  "date": "2025-12-10",
+  "upvotes": 125,
+  "comments": 26,
+  "engagement_score": 9.78,
+  "flair": "Discussion",
+  "post_type": "gallery",
+  "topics": [
+    "playtesting",
+    "card game rules",
+    "card art style",
+    "homemade tcg"
+  ],
+  "summary": "A designer shared photos from the first playtest of their homemade TCG and said it was the most fun they'd had in a long time. The community response was warm and supportive, with congratulations and praise for the watercolor-over-sketch art and card backs. The one substantive exchange was a request to explain which rules changed, and the OP described simplifying combat after the playtest. The thread is friendly with no disagreement.",
+  "consensus": [
+    {
+      "point": "Commenters responded with encouragement and praise for the game's visual style, congratulating the milestone and calling the cards beautiful, clean and well designed.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C6",
+        "C10",
+        "C14",
+        "C16",
+        "C17",
+        "C21",
+        "C23",
+        "C8",
+        "C19"
+      ],
+      "support": {
+        "comments": 11,
+        "commenters": 10,
+        "points": 35,
+        "share": 0.854
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Two commenters asked about the card format and art technique. The card size is bridge style (Yu-Gi-Oh dimensions) and the art is watercolor over sketch, with the shown art being AI placeholders.",
+      "evidence": [
+        "C8",
+        "C19"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.122
+      }
+    },
+    {
+      "point": "One commenter, early in their own design journey, found it encouraging that players were excited about the game despite the fixes it needed.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.073
+      }
+    },
+    {
+      "point": "One commenter asked what rules had to change after real play, and saw the answer as educational for other designers. It drew the thread's only in-depth design discussion.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Rules that look good on paper can overload players in real play. Tracking per-turn damage that decrements defense was too much to remember while planning, so combat was simplified to resolve all lanes at once after both set phases, with a creature defeated only if damage exceeds base defense. Playtest early to catch these bookkeeping problems, which show up in the first game.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    },
+    {
+      "lesson": "Keep card stats and effects easy to read and track as rounds progress. Even a clean layout benefits from making numbers more intuitive.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer's first playtest forced a combat rewrite in minutes. What does your first playtest break?",
+      "why_it_lands": "The only substantive exchange was a question about what rules changed. It got a concrete answer about simplifying combat and tracking, which is practical for designers.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.049
+      }
+    }
+  ],
+  "comment_points_total": 41,
+  "comment_ids": {
+    "C1": "ntdlo3b",
+    "C2": "ntdmhit",
+    "C3": "ntdk0wf",
+    "C4": "ntdkju5",
+    "C5": "nteohxz",
+    "C6": "ntdpvvi",
+    "C7": "nte6vy3",
+    "C8": "nteb31p",
+    "C9": "nteck42",
+    "C10": "nte9m08",
+    "C11": "nte9uwz",
+    "C12": "nteg33l",
+    "C13": "nteyii7",
+    "C14": "ntfecu2",
+    "C15": "ntgly1d",
+    "C16": "ntgmmaw",
+    "C17": "nth89sd",
+    "C18": "nth9213",
+    "C19": "ntjjjsz",
+    "C20": "ntjvu4l",
+    "C21": "ntkj4w9",
+    "C22": "ntkjrvt",
+    "C23": "ntrw6tm",
+    "C24": "ntfsp22",
+    "C25": "ntgm1ep"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.005725
+}

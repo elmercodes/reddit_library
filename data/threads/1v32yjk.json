@@ -1,0 +1,189 @@
+{
+  "id": "1v32yjk",
+  "title": "Warning: Long, Rambling Dev Diary About Making 32 Cards",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1v32yjk/warning_long_rambling_dev_diary_about_making_32/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-22",
+  "upvotes": 93,
+  "comments": 17,
+  "engagement_score": 8.8789,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "dev diary",
+    "small card pool",
+    "art workload",
+    "prototyping"
+  ],
+  "summary": "A designer shared a long dev diary about building a 32-card, short-playtime card game called K.O. INC., including a Post-it-on-Pokémon-cards prototyping trick and the struggle of doing all the art solo. The community response was friendly and supportive, with praise for the artwork, questions about the game name, a Tabletop Simulator version and set size, and one commenter noting a similar speed mechanic. There were no disagreements. Only a handful of commenters engaged, so there is little design debate.",
+  "consensus": [
+    {
+      "point": "Commenters liked the artwork and the overall look of the project and encouraged the creator to keep going.",
+      "evidence": [
+        "C3",
+        "C4",
+        "C7",
+        "C11",
+        "C13"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 18,
+        "share": 0.5
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Commenters asked for a playtestable Tabletop Simulator version, showing interest in trying the game digitally.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.111
+      }
+    },
+    {
+      "point": "One commenter independently uses a similar mechanic where the fastest card plays, activates or attacks first, suggesting speed-based turn order is a familiar idea.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "One commenter said the art style would stop them playing it in public, a possible audience-fit concern.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.083
+      }
+    },
+    {
+      "point": "One commenter asked how many cards the first set would have, signaling curiosity about set scope.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Prototype fast by writing card ideas on Post-it notes stuck over spare cards in sleeves. You can test a core loop in one sitting before committing to art or frames. The post credits this method for a smooth first playtest, though commenters did not discuss it.",
+      "evidence": [],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "Consider a speed stat that decides who acts first, and use card effects to manipulate it. Commenters noticed the same idea in their own games, and the pictured cards (Roxie, Dodo) build effects around it, which shows it can anchor turn order and card text.",
+      "evidence": [
+        "C9"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.083
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Make the game playable on Tabletop Simulator and post the workshop link early. Viewers asked for a playtestable version right away, and sharing it turns interest into testers.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.111
+      }
+    },
+    {
+      "lesson": "Have a clear first-set size and expansion plan ready when showing a project. Commenters asked about card counts, and a small starter set with booster expansions gave a concrete answer.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.056
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Could you prototype a whole card game with Post-its on spare Pokémon cards?",
+      "why_it_lands": "The thread shows interest in a quick, cheap prototyping method; a designer's story of a smooth first playtest gives a concrete, filmable demo. Comment support is light, so frame it as a how-to.",
+      "evidence": [
+        "C4",
+        "C7"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.222
+      }
+    }
+  ],
+  "comment_points_total": 36,
+  "comment_ids": {
+    "C1": "oz09qok",
+    "C2": "oz0a5c0",
+    "C3": "oz0a84e",
+    "C4": "oz03x6f",
+    "C5": "oz044s7",
+    "C6": "oz0a37l",
+    "C7": "oz0pqgf",
+    "C8": "oz32bew",
+    "C9": "oz2fbae",
+    "C10": "oz32dfc",
+    "C11": "oz2zlvo",
+    "C12": "oz32f24",
+    "C13": "ozn8dlb",
+    "C14": "oznctiu",
+    "C15": "oz0jj85",
+    "C16": "oz32g8h",
+    "C17": "oz0b5qw"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing a long dev diary about designing a 32-card game and is not asking a specific question, just sharing progress and the story behind the project.",
+    "images": [
+      {
+        "file": "data/images/1v32yjk/1.jpg",
+        "description": "Angled screenshot of a digital tabletop simulator (appears to be Tabletop Simulator) with a black playmat showing large numbered zones. About 32 cards are laid out in rows. Front row cards are numbered 1-9 in the top-left corner, with names at the top right: Vera, Lyn, Kiva, Tilli, Roxie, Momoko, Moka, Lilith/Endbringer, Dodo (5, lower row). Cards use a clean white geometric frame with anime-style, colorful digital character art filling the top ~60% of the card. Under the art sits a text box with a colored keyword tag (red \"Active\", blue \"Passive\"), then rules text, with a sword/ATK icon and a number at left and three small stat values at the bottom (e.g. 7/6/4, 6/5/3; appear to be HP/defense stages). Readable text includes: Kiva (Active, Full HP: Return this card to your hand, then place another card from your hand); Tilli (Passive: All cards cannot be attacked on the turn they are played); Roxie (Passive: If only one card has the highest SPD, it can attack twice); Momoko (Active, Once per game: This round, this card's HP can't be reduced below 1, and it gains +2 ATK); Moka (Passive: No card can recover HP or be revived); Lilith/Endbringer (Active, Once per game: Revive all KO'd allied cards. They each attack the enemy directly in front of them, then are KO'd again); Dodo (Active, Going first: The player who played the slower card goes first next round. This effect can't be used again next round). Lyn and Vera have Active, Once per game effects involving reviving a KO'd card. Rows behind show many more cards at smaller size, mostly unreadable. Card collector numbers like BP01 are printed at the bottom in tiny text. Part of a rules panel (\"1. Choose a... Draft Mode... Deckbuilding\") is cut off at the right edge. Small card text is hard to read due to the perspective angle."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007444
+}

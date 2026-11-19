@@ -1,0 +1,240 @@
+{
+  "id": "1v2t8uc",
+  "title": "Advice on Starting A Discord for My TCG",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1v2t8uc/advice_on_starting_a_discord_for_my_tcg/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-07-21",
+  "upvotes": 84,
+  "comments": 17,
+  "engagement_score": 8.7782,
+  "flair": "Advice Needed",
+  "post_type": "gallery",
+  "topics": [
+    "discord community",
+    "playtesting",
+    "kickstarter prelaunch",
+    "card layout"
+  ],
+  "summary": "A designer asked what people want from a Discord for an upcoming TCG ahead of a Kickstarter, and shared a card, a Tabletopia screenshot and a promo banner. The thread is small and friendly (community comments total only 22 points), with practical advice on community building, tournaments and moderation. Several commenters praised the art and card layout and asked for an invite link. There was no real disagreement.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Several commenters praised the art style and card layout and wanted to join the playtest. They asked for an invite link, and one asked whether feedback could happen through Tabletopia.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C12",
+        "C14",
+        "C6"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 11,
+        "share": 0.5
+      }
+    },
+    {
+      "point": "One commenter suggested alpha playtest competitions with small cash prize pools, arguing that competitive players give the best feedback. This answers the creator's worry about holding tournaments before balancing is done.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.182
+      }
+    },
+    {
+      "point": "One commenter said a Discord grows slowly and takes consistent effort plus luck. Theirs stayed under 50 people through testing and only grew after full publication, so the creator should expect a small, quiet start with a core group.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "point": "One commenter warned that this subreddit is a poor place to advertise, since its members are mostly busy with their own projects. They suggested engaging with other designers' games to build reciprocal relationships and cross-promotion.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "point": "One commenter said the core of a good Discord is a mod team of 3-7 emotionally mature people. They also recommended bot and anti-spam knowledge, forums and rooms for game discussion, and a general space for memes and off-topic chat.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.091
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Putting the prototype on a digital tabletop like Tabletopia lowers the barrier for remote playtesters. Interested people asked directly whether they could test and give feedback there, so link the playtest to the Discord.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "lesson": "A consistent card layout with colored frames per style and a clear art style draws playtester interest. Commenters reacted to the art and layout before they had even played.",
+      "evidence": [
+        "C7",
+        "C9",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.273
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Expect a slow, small Discord start and build around a committed core group of testers. Growth may only come after full publication.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "lesson": "Don't rely on designer subreddits for audience growth, since members are promoting their own games. Engage with other creators for cross-promotion, and use social content to attract players.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.136
+      }
+    },
+    {
+      "lesson": "Run pre-launch alpha tournaments with small prize pools to motivate testers and get sharper balance feedback, instead of waiting until after the Kickstarter.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.273
+      }
+    },
+    {
+      "lesson": "Build a moderation team of 3-7 people with anti-spam bots, and separate game-discussion channels from casual social ones, before the server grows.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.091
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should you run prize tournaments while your card game is still being balanced?",
+      "why_it_lands": "One commenter proposed small alpha prize pools to get feedback from competitive players, while the poster worried about balance. Playtesting-versus-launch timing is a common pain point for designers.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 6,
+        "share": 0.273
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer asked what a pre-Kickstarter Discord needs. Here's what commenters said.",
+      "why_it_lands": "The thread gives a concrete checklist: a 3-7 person mod team, anti-spam, game and general channels, and expectations of slow growth. That is useful to anyone building in public.",
+      "evidence": [
+        "C1",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.227
+      }
+    }
+  ],
+  "comment_points_total": 22,
+  "comment_ids": {
+    "C1": "oyzt088",
+    "C2": "oz5x9sc",
+    "C3": "oyy58if",
+    "C4": "oyy5rtz",
+    "C5": "oyyllwg",
+    "C6": "oyy64wu",
+    "C7": "oz0nl6c",
+    "C8": "oz5wwwu",
+    "C9": "ozfaeim",
+    "C10": "oz5eqy1",
+    "C11": "oz5x43p",
+    "C12": "ozn9061",
+    "C13": "ozovx28",
+    "C14": "ozpq9n1",
+    "C15": "oyzk0t3",
+    "C16": "oyy69lr",
+    "C17": "ozlta3a"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants advice on how to set up and run a Discord server for playtest feedback and community building ahead of their TCG's Kickstarter, and what features people want in a game's Discord.",
+    "images": [
+      {
+        "file": "data/images/1v2t8uc/1.jpg",
+        "description": "Single card, portrait, red-themed frame with diagonal white/red art background. Top bar (black): small red label 'ARTILLERY STYLE - MELEEMON', a rocket-icon box at left, name 'T-ROCKET' in a white box, 'HP 75' at right, 'M' logo and 'R 015' code top right. Subtitle: 'Champion Rank - Rank Up! from HITHEAD'. Art: a cartoon red armored dinosaur/dragon creature wearing a helmet and boxing gloves with yellow motion streaks, thick white outline sticker style, digital, in flat colors. Attack bar: fist icon with cost 6, 'Rocket Flurry', damage '15x'. Bottom left: 'RANGE' with three red boxes and 'TARGET 3'. Text box titled 'MELEEMON TRAIT' with keyword tags SNEAK and SOLID: 'When this card is dealt damage from an attack, place 1 Hit counter on it. Hit Counters on T-Rocket deal 10 damage.' Flavor text: 'T-Rocket's glove-like propulsion fists are controlled telekinetically.' Gold crown rarity/set icon bottom left, a running-figure icon with circled 7 (retreat/movement cost) bottom right. Copyright '©2026 AlexMonfra/BuffaloKimchiWorks'. All text readable."
+      },
+      {
+        "file": "data/images/1v2t8uc/2.jpg",
+        "description": "Screenshot of the TableTopia digital prototype: a 3D green play mat for two players (opponent 'PotatoHydra' at top, 'BuffaloKimchi' at bottom). Mat labeled with Meleemon Zones, Equipment Zones, Lanes, and Counter Stack areas, 'MeleeMon Trading Card Game' logo. Cards on the field: player has blue Loopey and two red Punchy cards with yellow damage dice on them; opponent has three cards (yellow, green, orange) with dice. Red/yellow tokens show point totals (6, 4 STA with 'reset to 20 at refresh', 15). Player's hand at the bottom shows six cards: Reposition, Roster Call, Gauroog, Gauromemon, Patch Up Crate, Icepack. Chat box in the lower right has banter. Card text is too small to read in most spots."
+      },
+      {
+        "file": "data/images/1v2t8uc/3.jpg",
+        "description": "Promo banner with orange/yellow halftone background and large block text 'CARDS' behind a fan of six cards: Danny Dou (coach, Champion Rank, trait 'COACH TRAIT'), Kickaround (green Strike, Second Rank), T-Rocket (red Artillery, center), Kingrab (blue Grapple, HP 85, Double Suplex 15x), Luchee (yellow Agility, HP 35, Dropkick 10, Base Rank starter), and Shiello (grey Shield, HP 75, Buckler Whip 15). Button text at bottom: 'CLICK HERE TO VIEW GALLERY' with arrows, and a Buffalo Kimchi Works logo at lower right. Cards share a consistent layout with colored frames per style."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009062
+}

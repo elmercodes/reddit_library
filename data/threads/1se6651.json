@@ -1,0 +1,280 @@
+{
+  "id": "1se6651",
+  "title": "Which layout do you prefer, aesthetics-wise",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1se6651/which_layout_do_you_prefer_aestheticswise/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-04-06",
+  "upvotes": 92,
+  "comments": 59,
+  "engagement_score": 10.6741,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "full art vs framed",
+    "rarity tiers",
+    "new player onboarding"
+  ],
+  "summary": "A designer posted two layouts of the same placeholder card, framed art versus full-bleed art, asking which looks better for a beginner-friendly homemade TCG. The thread was friendly and constructive. Full art led on pure looks, mostly through one 40-point comment and its replies. A smaller but real group argued the framed layout serves clarity and new players better. Many commenters landed on a hybrid: framed for common cards and full art as a reward tier.",
+  "consensus": [
+    {
+      "point": "Both layouts have a role: framed is the clearer, standard look, while full art feels special and suits a reward, higher-level or rarity tier. This is shared ground for both camps.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C17",
+        "C19",
+        "C22",
+        "C25",
+        "C20"
+      ],
+      "support": {
+        "comments": 7,
+        "commenters": 6,
+        "points": 28,
+        "share": 0.246
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "Full-art cards need art composed for the vertical format, and the rule of thirds was suggested. Here the art could shift left so the fairy shows.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 54,
+        "share": 0.474
+      }
+    },
+    {
+      "point": "One commenter said full art is overrated and that the framed layout feels more like a card game.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.018
+      }
+    },
+    {
+      "point": "One commenter said the right layout's text transparency is uneven: the title and rules text sit on a different band opacity than the ability description. They also said the left layout needs wider side margins and brighter text against the green.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter laid out how Pokémon TCG Pocket separates power from prettiness: boxed art on the basic, highest-power cards, with full art starting at a higher rarity tier. They also noted full art costs more in ink.",
+      "evidence": [
+        "C17"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which layout should win for a beginner-friendly card game",
+      "side_a": "Full art is the better choice, being more aesthetically appealing and the industry standard for premium cards.",
+      "side_a_evidence": [
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C17",
+        "C24",
+        "C23"
+      ],
+      "side_b": "The framed layout is better because information must be clear for new players and the art shouldn't compete with the mechanics.",
+      "side_b_evidence": [
+        "C4",
+        "C20",
+        "C21"
+      ],
+      "side_a_support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 67,
+        "share": 0.588
+      },
+      "side_b_support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 17,
+        "share": 0.149
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "For a game meant to teach newcomers, treat layout as an information problem first: give mechanics their own space so they don't compete with the art.",
+      "evidence": [
+        "C4",
+        "C20",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.14
+      }
+    },
+    {
+      "lesson": "Use framed vs full art to signal progression. Boxed art for early levels, fancier borders for mid, and full art for the top level makes evolving a hero feel like a payoff.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C19",
+        "C17"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.202
+      }
+    },
+    {
+      "lesson": "Make the layout before commissioning art, and compose illustrations for the vertical crop with the focal subjects placed using the rule of thirds so key elements aren't cut off.",
+      "evidence": [
+        "C8",
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 54,
+        "share": 0.474
+      }
+    },
+    {
+      "lesson": "Keep text overlays legible: use even band opacity behind all text on full art, and add margins and brighter text on textured frames.",
+      "evidence": [
+        "C13"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.009
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Established TCGs use full art as a rarity or chase tier, which can add value, though it costs more to print because of ink.",
+      "evidence": [
+        "C17",
+        "C22"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 3,
+        "share": 0.026
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "Full art or framed art: which one should a beginner card game use?",
+      "why_it_lands": "Full art led on looks with a 40-point top comment, but framed got a strong clarity argument, so viewers will have opinions.",
+      "evidence": [
+        "C8",
+        "C4",
+        "C20",
+        "C21",
+        "C25"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 58,
+        "share": 0.509
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Should full art be a reward tier instead of the default layout?",
+      "why_it_lands": "Several commenters proposed framed for basics and full art for rares or level three, giving a practical design choice to discuss.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C17",
+        "C19",
+        "C22"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 4,
+        "points": 25,
+        "share": 0.219
+      }
+    }
+  ],
+  "comment_points_total": 114,
+  "comment_ids": {
+    "C1": "oenmk6f",
+    "C2": "oenmzuk",
+    "C3": "oepdeyv",
+    "C4": "oennz43",
+    "C5": "oenqvat",
+    "C6": "oenlr80",
+    "C7": "oenmuhm",
+    "C8": "oennvxp",
+    "C9": "oenufu2",
+    "C10": "oeqjc9p",
+    "C11": "oenmn24",
+    "C12": "oenn373",
+    "C13": "of81sia",
+    "C14": "of9gfyu",
+    "C15": "oenku0x",
+    "C16": "oenlhuk",
+    "C17": "oeo02bv",
+    "C18": "oeo3xu2",
+    "C19": "oeo7jmu",
+    "C20": "oeo1y6c",
+    "C21": "oeq349c",
+    "C22": "oeno504",
+    "C23": "oeo3fkn",
+    "C24": "oeo3i0m",
+    "C25": "oeo9yds"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants to know which of the two card layouts looks better aesthetically, to make the cards appealing to new TCG players.",
+    "images": [
+      {
+        "file": "data/images/1se6651/1.jpg",
+        "description": "Side-by-side comparison of the same card, \"Elvin Witch\", in two layouts on a gray-blue background. Both show a green hexagonal cost gem with \"3\" at top left, the name \"Elvin Witch\" in cream text centered at top flanked by thin lines, and \"200\" in bold white at top right (likely HP). Rules text: \"When Elvin Witch comes into play, heal 20HP from any 1 hero.\" At the bottom of both is a dark navy ability box with a potion-flask icon in a diamond badge and a green-gradient tab reading \"Phoenix Feather\" (italic), with text \"Revive a hero. You can only do this once.\"\n\nLeft layout (framed): black outer border with rounded corners and a textured teal/dark-green frame. The art sits in a smaller inset box with notched corners in the upper half and shows a blonde elf woman in a green sleeveless outfit on a forest background, with a glowing cyan spirit above her hand. The rules text is left-aligned in plain white on the teal textured panel below the art, with empty space beneath it before the ability box. Small diamond ornaments sit at the corners.\n\nRight layout (full-bleed): dark slate-blue thin border with rounded corners. The art fills the whole card, so the elf is larger and more cropped (the spirit is cut off at the right edge), and a sword and armor are visible at the bottom. The name, cost and 200 are overlaid directly on the art. The rules text is centered in white with a dark outline/shadow over a semi-transparent dark band across the art. The ability box overlays the lower art.\n\nThe art is anime-style digital illustration (Lodoss War, a placeholder, not the poster's own)."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.009244
+}

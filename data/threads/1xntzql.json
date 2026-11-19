@@ -1,0 +1,349 @@
+{
+  "id": "1xntzql",
+  "title": "Is this to much on a single card?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1xntzql/is_this_to_much_on_a_single_card/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-11-04",
+  "upvotes": 121,
+  "comments": 74,
+  "engagement_score": 11.2803,
+  "flair": "Advice Needed",
+  "post_type": "image",
+  "topics": [
+    "card layout",
+    "information density",
+    "card frame design",
+    "template feedback"
+  ],
+  "summary": "A designer posted a blank card template with about 12 information zones and asked if it was too crowded. The thread leaned toward yes, with the top comment (82 pts) comparing it to an RPG character sheet, and most replies suggesting consolidating or cutting zones. The mood was friendly and constructive, with one small side debate about which card corner is most visible when fanned. A few commenters said it is a disorganization problem rather than a count problem, and one pushed back on using AI for templates.",
+  "consensus": [
+    {
+      "point": "The layout is crowded and should be simplified, by merging or cutting overlapping zones and grouping related stats.",
+      "evidence": [
+        "C1",
+        "C5",
+        "C6",
+        "C9",
+        "C10",
+        "C16",
+        "C19",
+        "C20",
+        "C25"
+      ],
+      "support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 133,
+        "share": 0.568
+      }
+    },
+    {
+      "point": "Related stats and labels should be grouped or combined, such as ATK/DEF and type/family, rather than scattered around the art.",
+      "evidence": [
+        "C2",
+        "C16",
+        "C18",
+        "C14",
+        "C20"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 46,
+        "share": 0.197
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter framed the problem as disorganization rather than too much info, and said the left margin, especially the top left, is the most valuable space because it stays visible in a fanned hand.",
+      "evidence": [
+        "C2"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 30,
+        "share": 0.128
+      }
+    },
+    {
+      "point": "One commenter compared the card with Magic and Yu-Gi-Oh and said fewer data points make onboarding easier, while short descriptors like a Level 4 DARK Warrior can still generate deep synergies.",
+      "evidence": [
+        "C9",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 14,
+        "share": 0.06
+      }
+    },
+    {
+      "point": "Two commenters asked for a filled example card or whether every element is essential to gameplay before judging.",
+      "evidence": [
+        "C7",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 13,
+        "share": 0.056
+      }
+    },
+    {
+      "point": "Two commenters suggested giving the art more room by stretching it across the frame and letting it run under other boxes, with icons layered on top.",
+      "evidence": [
+        "C22",
+        "C24"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 4,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "One commenter said less core info like family could move into border design elements to reduce icon clutter.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "One commenter laid out the single attribute versus multiple attribute tradeoff and suggested split circles for dual attributes.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "One commenter noted a black and white template looks simpler than it will once color and art are added, so test whether elements fight the art.",
+      "evidence": [
+        "C23"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.009
+      }
+    },
+    {
+      "point": "One commenter warned that with more than 2-3 cards per player on the table the board state would become too complicated.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.009
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Which corner of a card is most visible when fanned in hand",
+      "side_a": "The top left is the most visible corner, so key info belongs there.",
+      "side_a_evidence": [
+        "C2"
+      ],
+      "side_b": "Fanning varies, and for some players the top right is always visible.",
+      "side_b_evidence": [
+        "C3"
+      ],
+      "side_a_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 30,
+        "share": 0.128
+      },
+      "side_b_support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 10,
+        "share": 0.043
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Audit for duplicate zones: if attribute and attribute icons, or family/archetype and type, carry overlapping information, merge them. Decide whether a card has one attribute or several, then keep only the zone that supports that choice.",
+      "evidence": [
+        "C5",
+        "C6",
+        "C20",
+        "C14"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 3,
+        "points": 29,
+        "share": 0.124
+      }
+    },
+    {
+      "lesson": "Place the most-used info where it is readable in a fanned hand, usually the top left, and group stats that players read together, such as ATK/DEF and exhaustion/momentum.",
+      "evidence": [
+        "C2",
+        "C14",
+        "C18",
+        "C16"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 44,
+        "share": 0.188
+      }
+    },
+    {
+      "lesson": "Compare your data points against established games. More stats mean more confusion for new players, so every zone should earn its place for gameplay.",
+      "evidence": [
+        "C9",
+        "C10",
+        "C8",
+        "C19"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 23,
+        "share": 0.098
+      }
+    },
+    {
+      "lesson": "Protect the art area by shrinking bulky stat bars and letting art extend beneath frame elements, and test with real color art since overlays can fight the illustration.",
+      "evidence": [
+        "C16",
+        "C22",
+        "C24",
+        "C23"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 13,
+        "share": 0.056
+      }
+    },
+    {
+      "lesson": "Test the template with a filled example card and consider how many cards will be in play at once, since density compounds across the board.",
+      "evidence": [
+        "C7",
+        "C25"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 9,
+        "share": 0.038
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Using AI-generated template or art assets draws pushback from some community members, so be ready to explain your process when showing work publicly.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 12,
+        "share": 0.051
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "A designer posted a card with 12 info zones. Is that too many?",
+      "why_it_lands": "The top comment compared it to an RPG character sheet at 82 pts and most replies suggested cutting zones. It invites viewers to count their own card's zones.",
+      "evidence": [
+        "C1",
+        "C9",
+        "C19",
+        "C5"
+      ],
+      "support": {
+        "comments": 4,
+        "commenters": 4,
+        "points": 115,
+        "share": 0.491
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Which corner of your card do players actually see when fanned?",
+      "why_it_lands": "Commenters disagreed on whether top left or top right is most visible in a fanned hand, which is a concrete, testable layout question.",
+      "evidence": [
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 48,
+        "share": 0.205
+      }
+    }
+  ],
+  "comment_points_total": 234,
+  "comment_ids": {
+    "C1": "19s4zba6o8d28",
+    "C2": "19s50pvb38mqr",
+    "C3": "19s5w83qj6a77",
+    "C4": "19s5wy9l059nm",
+    "C5": "19s50fya9y61s",
+    "C6": "19s6q3t0ko204",
+    "C7": "19s5148txenms",
+    "C8": "19s4z3u7h4v8j",
+    "C9": "19s54o9npy23o",
+    "C10": "19s58opu6m2ht",
+    "C11": "19s50h0cbr9k0",
+    "C12": "19s54h5xb6iw4",
+    "C13": "19s65p31zzd44",
+    "C14": "19s6qghwy1usi",
+    "C15": "19s5codp4z09u",
+    "C16": "19s4zdc3st4io",
+    "C17": "19s5632te719h",
+    "C18": "19s5c84xf7n6p",
+    "C19": "19s7mncuk6za8",
+    "C20": "19s51q3umg6qr",
+    "C21": "19s55i1f1223o",
+    "C22": "19s6yhhkqaxwg",
+    "C23": "19s7ki391h44j",
+    "C24": "19s4zz4woufxc",
+    "C25": "19s5a3hxlo10j"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether this card layout has too much information and feels too crowded for a single card.",
+    "images": [
+      {
+        "file": "data/images/1xntzql/1.jpg",
+        "description": "Blank black-line-on-white card template, portrait orientation with rounded outer corners and a double-line border, with labeled placeholder zones. Top row: circle at top left labeled 'ATTRIBUTE', wide banner in the center labeled 'NAME', circle at top right labeled 'FAMILY / ARCHETYPE'. Directly under the name banner, a small hexagonal tab overlapping the top of the art box labeled 'LUX COST'. Large square art box in the center labeled 'ARTWORK'. Left of the art: a small boxed circle labeled 'EXHAUSTION' and below it a tall narrow vertical bar labeled 'ATK'. Right of the art: a small boxed circle labeled 'MOMENTUM' and below it a tall narrow vertical bar labeled 'DEF'. Below the art, a large wide rectangle with beveled corners labeled 'EFFECT TEXT' takes up roughly the lower third of the card. Bottom strip has three beveled boxes: 'TYPE' (small, left), 'ATTRIBUTE ICONS' (wide, center), 'SERIES / ID' (small, right). Frame is ornate, with beveled/chamfered corners on the boxes. The labels are small, but readable. In total there are about 12 separate information zones: attribute, name, family/archetype, cost, exhaustion, momentum, ATK, DEF, effect text, type, attribute icons, and series/ID."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010808
+}

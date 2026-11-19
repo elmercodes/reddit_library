@@ -1,0 +1,221 @@
+{
+  "id": "1vlf5tj",
+  "title": "Decided to try out Kickstarter with my homemade card game Cyclemental. Couldn't have done it without this sub!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vlf5tj/decided_to_try_out_kickstarter_with_my_homemade/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-11",
+  "upvotes": 83,
+  "comments": 17,
+  "engagement_score": 8.7664,
+  "flair": "Advice Needed",
+  "post_type": "link",
+  "topics": [
+    "kickstarter tiers",
+    "homemade tcg",
+    "card art",
+    "player count"
+  ],
+  "summary": "A designer thanked the subreddit for feedback on their homemade card game Cyclemental and announced a Kickstarter in pre-launch, asking for reward tier suggestions. The response was warm and supportive, mostly congratulations and praise for the art and class dynamics. Only one commenter gave substantive tier advice, and one asked whether the game works at 2 players. No disagreement; the temperature was friendly.",
+  "consensus": [
+    {
+      "point": "Commenters were broadly positive about the project, praising its look and art and wishing the creator luck.",
+      "evidence": [
+        "C3",
+        "C6",
+        "C8",
+        "C10",
+        "C14"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 17,
+        "share": 0.607
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said exclusive Kickstarter rewards that are cheap to make, like promo cards with special art, should sit in low tiers rather than being locked behind the biggest pledges.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter dislikes tier structures that make it hard to buy exactly what you want, such as a starter deck tier followed by a box plus accessories tier with no easy booster box option except add-ons.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter proposed a TCG tier ladder: a $1 pledge tier, then a getting-started tier with a single starter deck holding everything needed for a full game, not a half-deck demo.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "point": "One commenter asked whether the game holds up with only 2 players, since party-style games often fall flat below 3 or 4 players.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.107
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Check and state how your game performs at 2 players, since many players mostly play one-on-one and party-style games often suffer there. Tell people how combos shift with player count.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.107
+      }
+    },
+    {
+      "lesson": "Distinctive class dynamics and strong art are what drew people in, so lead with them when showing the game to new audiences.",
+      "evidence": [
+        "C10",
+        "C14",
+        "C8"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 9,
+        "share": 0.321
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Put cheap-to-make exclusive promo cards in low reward tiers; locking them behind big tiers can annoy backers.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "Design tiers so backers can get exactly what they want, such as a full starter deck at a low tier and a clear route to a booster box, instead of forcing bundles or add-ons.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "A starter tier should include everything needed to play a full game, not a half-deck demo.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "lesson": "Building in public pays off: long-time followers showed up to support the pre-launch.",
+      "evidence": [
+        "C6",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 8,
+        "share": 0.286
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "One designer says Kickstarter promo cards belong in low tiers. Where do yours go?",
+      "why_it_lands": "Reward tier structure is a live pain point for creators; the thread's only substantive advice was about tier layout.",
+      "evidence": [
+        "C1"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.143
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Does your card game still work with just two players?",
+      "why_it_lands": "A commenter raised a common worry that party-style games fall flat at low player counts, and many people play one-on-one.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.107
+      }
+    }
+  ],
+  "comment_points_total": 28,
+  "comment_ids": {
+    "C1": "p311xju",
+    "C2": "p31467c",
+    "C3": "p31qffi",
+    "C4": "p32zdhg",
+    "C5": "p34wuto",
+    "C6": "p327p5l",
+    "C7": "p32zn6p",
+    "C8": "p31b085",
+    "C9": "p32zwhj",
+    "C10": "p31kp65",
+    "C11": "p32zz0q",
+    "C12": "p3237ny",
+    "C13": "p330unl",
+    "C14": "p335vcq",
+    "C15": "p337o2m",
+    "C16": "p3fqrje",
+    "C17": "p3fqw34"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007442
+}

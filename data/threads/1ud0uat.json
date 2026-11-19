@@ -1,0 +1,239 @@
+{
+  "id": "1ud0uat",
+  "title": "Testing out ink and watercolor for Cyclemental artwork. What do you think?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1ud0uat/testing_out_ink_and_watercolor_for_cyclemental/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-06-22",
+  "upvotes": 195,
+  "comments": 27,
+  "engagement_score": 10.2764,
+  "flair": "Card Critique",
+  "post_type": "gallery",
+  "topics": [
+    "watercolor art",
+    "card layout",
+    "art style",
+    "wu xing theme"
+  ],
+  "summary": "A designer shared ink-and-watercolor creature art for their elemental game Cyclemental, plus a digital card mockup, and asked whether the style and layout work. The response was friendly and almost entirely positive about the art, with several commenters saying they would buy the game. The constructive feedback was that the sharp, flat digital layout clashes with the loose painted art, and that card text may be too small. Nobody answered the poster's question about the 2x/3x effect rows.",
+  "consensus": [
+    {
+      "point": "The hand-painted watercolor style is a strong fit and sells the game; commenters praised it and some said they would buy it.",
+      "evidence": [
+        "C1",
+        "C4",
+        "C6",
+        "C8",
+        "C12",
+        "C14",
+        "C16",
+        "C18",
+        "C21",
+        "C24"
+      ],
+      "support": {
+        "comments": 10,
+        "commenters": 10,
+        "points": 30,
+        "share": 0.75
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter suggested adding contact shadows under the cut-out creatures so they sit in the white space instead of floating.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.1
+      }
+    },
+    {
+      "point": "One commenter asked whether every card would be green; the poster said each of the five elements gets its own primary color (Water blue, Fire red, Earth yellow, Metal purplish neutral).",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "point": "One commenter suggested touching up problem areas of the paint digitally before placing the art on the card, which is the poster's current process.",
+      "evidence": [
+        "C14"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.05
+      }
+    },
+    {
+      "point": "One commenter liked the use of the Wu Xing concept as the theme.",
+      "evidence": [
+        "C20"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.05
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Make the frame match the art medium. Sharp, flat vector borders clash with loose watercolor illustrations, so try roughened or watercolor-textured frames and text holders to unify the card.",
+      "evidence": [
+        "C6",
+        "C22",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.15
+      }
+    },
+    {
+      "lesson": "Check text size early. Small card text can be hard for some players to read, so give text more room and test legibility with a physical printout.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    },
+    {
+      "lesson": "When cutting out illustrations onto white space, add contact shadows to ground the creature and tie it to the card body.",
+      "evidence": [
+        "C6"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.1
+      }
+    },
+    {
+      "lesson": "A cultural framework like Wu Xing gives a game a coherent identity, and a color per element makes the set easy to understand.",
+      "evidence": [
+        "C20",
+        "C10"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.125
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Early art posts can build excitement: several viewers said they would buy if the game existed, a useful sign for a work-in-progress series.",
+      "evidence": [
+        "C1",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.3
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Should a watercolor card have a watercolor frame, or a clean layout?",
+      "why_it_lands": "Three commenters said the flat vector layout clashes with the painted art, while the art itself got broad praise.",
+      "evidence": [
+        "C6",
+        "C22",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 6,
+        "share": 0.15
+      }
+    },
+    {
+      "type": "question",
+      "hook": "What font size is too small on a printed card?",
+      "why_it_lands": "A commenter worried about text size and the poster uses 18px and 16px but has not yet tested a print, a common pain point.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.075
+      }
+    }
+  ],
+  "comment_points_total": 40,
+  "comment_ids": {
+    "C1": "ot89peh",
+    "C2": "ot8arfs",
+    "C3": "ot8azsa",
+    "C4": "ot8cjv4",
+    "C5": "ot8d2i9",
+    "C6": "ota1b78",
+    "C7": "ota20ae",
+    "C8": "ot8n8tk",
+    "C9": "ot8qo3w",
+    "C10": "ot97kmw",
+    "C11": "ot98a5a",
+    "C12": "ot9xqbw",
+    "C13": "ot9ys5l",
+    "C14": "otj5elz",
+    "C15": "otlr6y2",
+    "C16": "otw8w50",
+    "C17": "otwb90d",
+    "C18": "ovberfn",
+    "C19": "ovc4ply",
+    "C20": "ote5u51",
+    "C21": "othm3sq",
+    "C22": "otbgtk5",
+    "C23": "otbrycs",
+    "C24": "otbwxq6",
+    "C25": "ot8cifd"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster wants feedback on whether the ink-and-watercolor art style suits the game and whether the card layout (including the 2x/3x effect rows and weakness/destroys icons) makes sense.",
+    "images": [
+      {
+        "file": "data/images/1ud0uat/1.jpg",
+        "description": "Photo of an open spiral-bound sketchbook on a wooden table with a watercolor palette, a cup of black ink, an ink bottle and a bamboo brush nearby. The page holds four ink-and-watercolor creature sketches with loose black linework and green-dominant washes. Top center: a tree-like creature with a leafy canopy, stump limbs and a pale face, labeled 'OMORI'. Top right: a peacock-like figure with teal feathers bearing yellow eye spots and a deep blue flowing robe, labeled 'MIRABI' (partly legible). Left: a green cobra-like serpent with several snake arms, holding a spear/staff with a pink tip. Bottom: a lime-green and yellow maned horse-like beast bent forward, labeled 'ROEN'. Style is loose and gestural, with visible ink splatter and uneven washes."
+      },
+      {
+        "file": "data/images/1ud0uat/2.jpg",
+        "description": "Digital card mockup, portrait, with a black outer border and a thick green inner frame on a white body. Top left: a green circle with the wood kanji 木. Title: 'Lassha, the Patient Coil', with a green pill label under it reading 'Wood Elemental'. The large art box has a cleaned-up, cut-out version of the watercolor cobra from image 1 (green serpent with multiple snake arms, yellow hood, pink accents, holding a pink-tipped staff) over a pale green giant 木 watermark on a white background. Flavor text in a light green box in italics: 'She has been around the century long enough that her offsprings grew around her in return. Neither of them minds'. Bottom panel has three columns. Left: 'Weakness' with red fire 火 and gray metal 金 icons. Center: two ability rows, each with a card-stack icon and a multiplier. '2x Harvest. Draw the top 3 cards from the deck to your hand' and '3x Overgrowth. Draw the top 5 cards from the deck to your hand'. Right: 'Destroys' with blue water 水 and gold earth 土 icons. Footer text in small print: 'Cyclémental 2026'. There are no cost or stat numbers; the effect rows carry the 2x/3x multipliers."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007844
+}

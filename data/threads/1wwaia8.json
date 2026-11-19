@@ -1,0 +1,209 @@
+{
+  "id": "1wwaia8",
+  "title": "More Placeholder Pigeons for Placeholder Art!",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1wwaia8/more_placeholder_pigeons_for_placeholder_art/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-03",
+  "upvotes": 56,
+  "comments": 42,
+  "engagement_score": 9.6849,
+  "flair": "IMPORTANT",
+  "post_type": "text",
+  "topics": [
+    "placeholder art",
+    "community events",
+    "playtesting",
+    "homemade tcg"
+  ],
+  "summary": "The poster invited the subreddit to draw a \"Placeholder Pigeon\" for a shared album of placeholder art that designers can use in playtesting, with a Discord for a pigeon TCG promised if the flock reaches 100. The response was warm and playful: commenters posted their own pigeons (watercolour, pixel art, a kid's drawing, a wizard pigeon) and the OP rated each one. There was no disagreement or critique, and the mood was entirely friendly. The only practical takeaway is that one commenter plans to use the pigeon as their placeholder on all their cards.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "Commenters who said they are not artists still joined in with rough or simple pigeons, so the low-skill barrier encouraged participation.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C12"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 50,
+        "share": 0.379
+      }
+    },
+    {
+      "point": "One commenter said they got carried away and drew a non-pigeon creature, and another posted a Wizard Pigeon with other classes planned, so the theme invites variation that could become class or archetype art.",
+      "evidence": [
+        "C14",
+        "C21"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.091
+      }
+    },
+    {
+      "point": "One commenter reused art they had drawn for their own game and added it to the flock, showing that contributing can double as game art practice.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.068
+      }
+    },
+    {
+      "point": "One commenter says they will use the pigeon as the placeholder on all their cards, showing the shared album has real playtesting use.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Use a shared, deliberately silly placeholder theme in playtest builds. A single recognisable mascot makes unfinished cards easy to tell apart from final art, and testers don't get attached to temporary art.",
+      "evidence": [
+        "C25"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.015
+      }
+    },
+    {
+      "lesson": "Mixed art styles (watercolour, pixel art, a child's drawing) in a placeholder set can be fine for testing. Placeholders only need to be readable and distinct, not polished.",
+      "evidence": [
+        "C3",
+        "C12",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 39,
+        "share": 0.295
+      }
+    },
+    {
+      "lesson": "Turn a placeholder theme into variants such as a Wizard Pigeon with other bird classes. Variants hint at roles and archetypes during playtests before final art exists.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.03
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Gamified community participation works. Rating every submission and offering a milestone reward (a Discord and a pigeon TCG at 100 pigeons) kept people posting and gave contributors a reason to return.",
+      "evidence": [
+        "C2",
+        "C4",
+        "C11",
+        "C23"
+      ],
+      "support": {
+        "comments": 0,
+        "commenters": 0,
+        "points": 0,
+        "share": 0.0
+      }
+    },
+    {
+      "lesson": "A low-barrier creative prompt draws in people who don't consider themselves artists, including parents posting a child's work, which widens who engages with your project.",
+      "evidence": [
+        "C1",
+        "C17"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 25,
+        "share": 0.189
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "question",
+      "hook": "Do your playtest cards use placeholder art, or just plain text boxes?",
+      "why_it_lands": "The thread shows designers happily sharing a mascot for placeholder art, and one commenter says they will use it on all their cards, so the question is relevant to how designers actually playtest.",
+      "evidence": [
+        "C25",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 11,
+        "share": 0.083
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer asked a subreddit to draw pigeons for placeholder art. Would you try it?",
+      "why_it_lands": "A silly, low-stakes community challenge gets participation from non-artists and kids, so the question invites viewers to share their own drawings.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C17"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 2,
+        "points": 48,
+        "share": 0.364
+      }
+    }
+  ],
+  "comment_points_total": 132,
+  "comment_ids": {
+    "C1": "pdj7rmu",
+    "C2": "pdj8c2q",
+    "C3": "pdjkog3",
+    "C4": "pdjl8yq",
+    "C5": "pdjsvnf",
+    "C6": "pdjtnoj",
+    "C7": "pdwlhse",
+    "C8": "pdjbspx",
+    "C9": "pdjdbwk",
+    "C10": "pdpl442",
+    "C11": "pdprm6l",
+    "C12": "pe141eg",
+    "C13": "pebfndf",
+    "C14": "pdrljg0",
+    "C15": "pdu4ws3",
+    "C16": "pedwcb7",
+    "C17": "pf5xagu",
+    "C18": "pf6ms2i",
+    "C19": "pe18n6d",
+    "C20": "pebfvjk",
+    "C21": "19rjlwyohwmjk",
+    "C22": "pgwwxaa",
+    "C23": "pgzd1vq",
+    "C24": "phxyyop",
+    "C25": "pgt5h0p"
+  },
+  "image_notes": null,
+  "extracted_at": "2026-11-19T05:04:57+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.007372
+}

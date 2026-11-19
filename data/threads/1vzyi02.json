@@ -1,0 +1,237 @@
+{
+  "id": "1vzyi02",
+  "title": "Encouragement that you don’t need AI or art skills to make functional prototypes",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vzyi02/encouragement_that_you_dont_need_ai_or_art_skills/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-08-27",
+  "upvotes": 137,
+  "comments": 41,
+  "engagement_score": 10.5338,
+  "flair": "Homemade TCGs",
+  "post_type": "image",
+  "topics": [
+    "ai art",
+    "prototyping",
+    "playtesting tools",
+    "stock art"
+  ],
+  "summary": "A designer shared a plain black-and-white print-and-play prototype built from stock vector silhouettes and encouraged others that neither AI nor art skills are needed to prototype. The thread quickly turned into an AI-in-design argument, with anti-AI comments outscoring pro-AI ones by a clear margin. A few practical comments suggested free playtesting tools and non-AI ways to automate card printing. Tone started friendly but became heated and personal in the long reply chains.",
+  "consensus": [],
+  "notable_points": [
+    {
+      "point": "One commenter argues that skipping the awkward, imperfect prototype stage by using AI removes a necessary part of the designer's growth.",
+      "evidence": [
+        "C3"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 14,
+        "share": 0.14
+      }
+    },
+    {
+      "point": "One commenter says free playtest platforms like Cockatrice, Playtest Parlor, Screentop.gg and Tabletopia lower friction, because requiring testers to buy Tabletop Simulator made onboarding harder.",
+      "evidence": [
+        "C2"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.08
+      }
+    },
+    {
+      "point": "Two commenters note that card-sheet generation from a spreadsheet to printable PDF is possible without AI, since existing programs already do it.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 7,
+        "share": 0.07
+      }
+    },
+    {
+      "point": "One commenter says they began unable to draw and improved by pushing themselves, and argues that the result beats AI.",
+      "evidence": [
+        "C21"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 4,
+        "share": 0.04
+      }
+    },
+    {
+      "point": "One commenter used AI to restyle art after playtests showed the setting did not fit, saving weeks, because their testers dislike mismatches between art and text.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "disagreements": [
+    {
+      "issue": "Is using AI acceptable in game design and prototyping?",
+      "side_a": "AI undermines creation and process; even partial use blurs into receiving outputs, and prototypes don't need it.",
+      "side_a_evidence": [
+        "C3",
+        "C13",
+        "C15",
+        "C9",
+        "C25",
+        "C19",
+        "C23"
+      ],
+      "side_b": "AI is a legitimate supplementary tool, especially for prototyping or for people who struggle with focus, and objecting to it is gatekeeping.",
+      "side_b_evidence": [
+        "C8",
+        "C14",
+        "C17",
+        "C18",
+        "C22",
+        "C24",
+        "C11"
+      ],
+      "side_a_support": {
+        "comments": 7,
+        "commenters": 3,
+        "points": 66,
+        "share": 0.66
+      },
+      "side_b_support": {
+        "comments": 7,
+        "commenters": 3,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Use simple stock or silhouette art with a consistent style so each prototype card is recognizable at a glance during playtests; polished art isn't needed.",
+      "evidence": [
+        "C1",
+        "C3"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 26,
+        "share": 0.26
+      }
+    },
+    {
+      "lesson": "Make testing frictionless: offer free digital playtest options so new testers don't have to buy software.",
+      "evidence": [
+        "C2"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.08
+      }
+    },
+    {
+      "lesson": "Keep prototype art and text consistent, since some playtesters get distracted by mismatches like a bow in the text and a crossbow in the art.",
+      "evidence": [
+        "C11"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 0,
+        "share": 0.0
+      }
+    }
+  ],
+  "business_lessons": [],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A designer posted a no-AI prototype, and the thread became an AI fight.",
+      "why_it_lands": "Anti-AI comments outscored pro-AI ones, but the replies grew heated, with accessibility and process arguments on both sides.",
+      "evidence": [
+        "C3",
+        "C13",
+        "C15",
+        "C14",
+        "C17",
+        "C25"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 3,
+        "points": 50,
+        "share": 0.5
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do you need to pay for Tabletop Simulator to playtest your card game?",
+      "why_it_lands": "One commenter said paid tools made onboarding testers harder and listed free alternatives, a practical pain point for solo designers.",
+      "evidence": [
+        "C2"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 8,
+        "share": 0.08
+      }
+    }
+  ],
+  "comment_points_total": 100,
+  "comment_ids": {
+    "C1": "p69e7qf",
+    "C2": "p68s7im",
+    "C3": "p692ikv",
+    "C4": "p6p4mk4",
+    "C5": "p6902r2",
+    "C6": "p6as0mu",
+    "C7": "p69yl7a",
+    "C8": "p68tnp7",
+    "C9": "p6a2wk5",
+    "C10": "p6hxlr3",
+    "C11": "p6e4met",
+    "C12": "p68rp7e",
+    "C13": "p696huw",
+    "C14": "p69r48h",
+    "C15": "p6929ki",
+    "C16": "p6azpl5",
+    "C17": "p69sgbd",
+    "C18": "p696dab",
+    "C19": "p69z2or",
+    "C20": "p6arafu",
+    "C21": "p6a3j6p",
+    "C22": "p6arno9",
+    "C23": "p69x6f8",
+    "C24": "p6aqu6a",
+    "C25": "p69abfn"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is sharing encouragement and their prototype approach (stock vector art, simple frames) rather than asking for specific feedback.",
+    "images": [
+      {
+        "file": "data/images/1vzyi02/1.jpg",
+        "description": "Photo of a playtest setup on a gray fabric couch/ottoman surface. Two card styles: blue-bordered cards (one player's deck) and black-bordered cards (the other's). Cards are plain white with thin frames, black silhouette vector art in the center (towers, robed mages, knights, a hooded figure), a name at top, a type line like 'Champion - Human Spellcaster' or 'Location - Fortification', a blank-ish rules text box below the art, and small icons with numbers in the bottom corners (e.g. 0/4, 2/8, sword/heart-style stats). Layout across the table: left column has a tower and champions (e.g. Kyra, Umbra of Ice; Azura, Shadow and Dawn; Rokkar of Akkanai) plus a Tower; center column has a location card at top, a Tower, 'Tzel, Aberrant Illusionist' (Shrouded keyword), another Tower, and a location 'Haaltan' (Haven) with a once-per-turn heal ally +1HP effect; right column has Tower, 'Broderick, Sacred Guard' (Retinue/Refuel keyword), 'Battlemage Warden', and a Tower. Many tower and fortification cards have empty text boxes. Right side shows a blue card back deck with a red d20 on top, a black card back deck with a green d20, and fanned hands of ability cards with a numeric cost in the top-left corner, line-art style illustrations, and text like 'Deal 2 AP damage to target foe', 'Deal 1MP...', 'Gain 3 Light', plus a card 'The Mage's Shroud' and 'Arcane Word'. Colored dice (purple, red, green) are used as counters/trackers, and a black box of dice sits at the left. The art is clearly stock vector silhouettes and simple line drawings, with black-and-white printed paper cards, likely cut and put in sleeves or on card stock. Some text is too small to read in the photo."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.010142
+}

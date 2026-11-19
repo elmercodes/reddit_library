@@ -1,0 +1,218 @@
+{
+  "id": "1x1obd2",
+  "title": "I've decided to stop using AI and draw myself the placeholder arts for my cards, how am I doing ?",
+  "url": "https://www.reddit.com/r/homemadeTCGs/comments/1x1obd2/ive_decided_to_stop_using_ai_and_draw_myself_the/",
+  "subreddit": "homemadeTCGs",
+  "date": "2026-10-09",
+  "upvotes": 155,
+  "comments": 50,
+  "engagement_score": 10.9476,
+  "flair": "Homemade TCGs",
+  "post_type": "gallery",
+  "topics": [
+    "ai art",
+    "placeholder art",
+    "hand-drawn art",
+    "indie tcg"
+  ],
+  "summary": "A designer posted three crude MS Paint-style placeholder card illustrations, saying they quit AI art and now draw their own, and asked how they were doing. The thread was friendly and supportive, with nearly every commenter praising the charm and personality of the drawings. Nobody pushed back on the post. The top comment (18 pts) praised the personality and the designer's own vision, and a few commenters offered drawing resources or compared the style to early Flash animation.",
+  "consensus": [
+    {
+      "point": "Commenters liked the rough hand-drawn art for its personality and charm, and preferred it to AI art because it reflects the designer's own vision.",
+      "evidence": [
+        "C1",
+        "C8",
+        "C10",
+        "C16",
+        "C19",
+        "C24"
+      ],
+      "support": {
+        "comments": 6,
+        "commenters": 6,
+        "points": 32,
+        "share": 0.615
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One developer says their game still uses MS Paint art, and they have almost 100 Steam wishlists and favorable reviews ahead of an early access launch, because players find the rough art charming.",
+      "evidence": [
+        "C10"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 9,
+        "share": 0.173
+      }
+    },
+    {
+      "point": "One commenter offered YouTube art channels for learning perspective, simplified shapes and general artist skills, to be watched while working and practiced at your own pace.",
+      "evidence": [
+        "C3",
+        "C5"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 1,
+        "points": 7,
+        "share": 0.135
+      }
+    },
+    {
+      "point": "One commenter pointed out the irony that a developer who argues against AI art has a generic AI-looking website.",
+      "evidence": [
+        "C12"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 3,
+        "share": 0.058
+      }
+    },
+    {
+      "point": "One commenter said the drawings have an early Flash animation feel that could become a deliberate aesthetic for the game.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 1,
+        "share": 0.019
+      }
+    }
+  ],
+  "disagreements": [],
+  "design_lessons": [
+    {
+      "lesson": "Rough placeholder art can work as a deliberate style. Lean into its quirks, such as an early Flash look, instead of hiding them, since a consistent charming look reads as intentional.",
+      "evidence": [
+        "C24",
+        "C19",
+        "C1"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 19,
+        "share": 0.365
+      }
+    },
+    {
+      "lesson": "Making your own art, even crude, keeps the game's identity tied to your vision. Several readers valued that more than polish.",
+      "evidence": [
+        "C1",
+        "C8"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 21,
+        "share": 0.404
+      }
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Avoiding AI art can be a selling point. One developer reports wishlists and favorable reviews despite MS Paint art, because players read it as charming and human. Keep the rest of your presence consistent, since a generic AI-looking website drew a jab.",
+      "evidence": [
+        "C10",
+        "C12"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 12,
+        "share": 0.231
+      }
+    }
+  ],
+  "content_ideas": [
+    {
+      "type": "debate",
+      "hook": "A dev with MS Paint cards claims almost 100 Steam wishlists. Can crude art sell?",
+      "why_it_lands": "It tests the idea that charm beats polish with a concrete wishlist number, and one commenter says players like the rough art, while the broader thread praised the personality of crude drawings.",
+      "evidence": [
+        "C10",
+        "C1",
+        "C19"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 27,
+        "share": 0.519
+      }
+    },
+    {
+      "type": "question",
+      "hook": "A designer ditched AI for MS Paint placeholders. How rough is too rough?",
+      "why_it_lands": "The thread's warm response to crude art invites creators to share where they draw the line between charming and unfinished, and one commenter offered learning resources for improving.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C24"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 23,
+        "share": 0.442
+      }
+    }
+  ],
+  "comment_points_total": 52,
+  "comment_ids": {
+    "C1": "pevm4kp",
+    "C2": "pewovoh",
+    "C3": "pew45sa",
+    "C4": "pewopme",
+    "C5": "pf1wxzc",
+    "C6": "pf1p6o5",
+    "C7": "pf1pj61",
+    "C8": "pf1oy83",
+    "C9": "pf2jpax",
+    "C10": "pevc8v6",
+    "C11": "pewptql",
+    "C12": "pezwjtc",
+    "C13": "pew5uom",
+    "C14": "pew82hv",
+    "C15": "pewpfe7",
+    "C16": "pf158xq",
+    "C17": "pf2j0ut",
+    "C18": "pf3w20n",
+    "C19": "pevyz13",
+    "C20": "pewoyq6",
+    "C21": "pevzie8",
+    "C22": "pewp35z",
+    "C23": "19s1mreki57yd",
+    "C24": "pevsdob",
+    "C25": "pexn363"
+  },
+  "image_notes": {
+    "model": "claude-sonnet-5-5",
+    "design_relevant": true,
+    "what_is_asked": "The poster is asking for feedback on their hand-drawn placeholder card art, which they now make themselves instead of using AI.",
+    "images": [
+      {
+        "file": "data/images/1x1obd2/1.jpg",
+        "description": "Crude MS Paint-style digital drawing of two gray oval space stations or ships with blue stripes, one above the other and mirrored, joined by an orange beam or tether. Each has a spike at one end. The background is black with scattered yellow-orange stars and a few tiny white specks. No card frame, text, or stats."
+      },
+      {
+        "file": "data/images/1x1obd2/2.jpg",
+        "description": "Crude MS Paint-style drawing of a green fish- or plane-shaped aircraft with brown diagonal stripes and yellow-orange fins and wings. A stick figure pilot sits in a white cockpit bubble at the front, and a small brown bandage-like patch sits on top. The sky is blue with white clouds. No card frame or text."
+      },
+      {
+        "file": "data/images/1x1obd2/3.jpg",
+        "description": "Crude MS Paint-style drawing of a white ghost or mushroom-like creature with a flat hat-shaped top, two red round eyes, and tentacle-like lines on its face, on a blue background. A red flame with yellow marks floats on each side. No card frame or text."
+      }
+    ]
+  },
+  "extracted_at": "2026-11-19T05:04:56+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.006955
+}
