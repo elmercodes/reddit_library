@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from lib import config as C
 from lib.store import read_json, write_text
 
-from . import chat
+from . import bookdata, chat
 
 STATIC = C.ROOT / "app" / "static"
 SAFE = re.compile(r"^[A-Za-z0-9_-]+$")
@@ -69,19 +69,18 @@ def models() -> dict:
 @app.get("/api/book/{book}")
 def book(book: str) -> dict:
     _safe(book)
-    path = C.BOOKS / book / "index.md"
-    if not path.exists():
+    if not (C.BOOKS / book / "index.md").exists():
         raise HTTPException(404, "Book not built yet")
-    return {"markdown": _strip_front_matter(path.read_text(encoding="utf-8"))}
+    return bookdata.book_overview(book)
 
 
 @app.get("/api/book/{book}/{chapter}")
 def chapter(book: str, chapter: str) -> dict:
     _safe(book, chapter)
-    path = C.BOOKS / book / "chapters" / f"{chapter}.md"
-    if not path.exists():
+    data = bookdata.chapter_detail(book, chapter)
+    if not data:
         raise HTTPException(404, "No such chapter")
-    return {"markdown": path.read_text(encoding="utf-8")}
+    return data
 
 
 @app.get("/api/thread/{thread_id}")

@@ -17,3 +17,5 @@ timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,ac
 2026-11-19T05:06:58+00:00,phase4-extract-20261119T050525-2355c6,phase4,anthropic,claude-sonnet-5-5,"r/homemadeTCGs extraction (1 threads, batch)","1 calls, 7,352 in / 1,638 out tokens",0.014489,0.012809,msgbatch_01NAM7AgFnmX6JsY2xKY3WNQ
 2026-11-19T05:12:03+00:00,phase5-cluster-20261119T051038-43216a,phase5,anthropic,claude-opus-5-5,r/homemadeTCGs chapter proposal,"1 calls, 39,451 in / 9,166 out tokens",0.442224,0.341124,
 2026-11-19T05:25:42+00:00,phase5-write-20261119T052337-73411e,phase5,anthropic,claude-opus-5-5,"r/homemadeTCGs chapters (16, batch)","16 calls, 244,334 in / 64,347 out tokens",2.008668,1.068186,msgbatch_01UmRosqVdoYqMW4TSutkT5p
+2026-11-19T05:40:53+00:00,chat-20261119T054053-2673c5,chat,anthropic,claude-opus-5-5,chat book:homemadeTCGs,"53,055 tokens, 7 reads",0.277860,0.277860,
+2026-11-19T06:01:55+00:00,uitest-unlogged,chat,anthropic,claude-sonnet-5-5,UI test message reached the real chat endpoint before the browser closed; actual charge unknown (estimate),"~6K input tokens, little or no output",0.020000,,

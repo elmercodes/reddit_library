@@ -23,7 +23,7 @@ IDEAS = ROOT / "ideas"
 BOARD = IDEAS / "board.json"
 GAMES = ROOT / "games"
 INBOX = ROOT / "inbox"
-CHATS = ROOT / "chats"
+CHATS = Path(os.environ["RL_CHATS_DIR"]) if os.environ.get("RL_CHATS_DIR") else ROOT / "chats"
 PROMPTS = ROOT / "lib" / "prompts"
 
 SECRET_NAMES = ("APIFY_TOKEN", "ANTHROPIC_API_KEY")

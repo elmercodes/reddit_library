@@ -4,61 +4,93 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reddit Library</title>
+  <link rel="icon" href="data:,">
+  <script>
+    // Apply theme before first paint to avoid a flash.
+    (function () {
+      var q = new URLSearchParams(location.search).get("theme");
+      var t = q || (function () { try { return localStorage.getItem("rl.theme"); } catch (e) { return null; } })() || "system";
+      if (t !== "system") document.documentElement.dataset.theme = t;
+    })();
+  </script>
   <link rel="stylesheet" href="/static/style.css">
   <script src="/static/vendor/marked.min.js"></script>
   <script src="/static/vendor/purify.min.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <button id="menu-btn" class="icon-btn" aria-label="Show sidebar">☰</button>
-    <span class="brand">Reddit Library</span>
-    <div class="view-toggle" role="tablist" aria-label="View">
-      <button data-view="read" class="active" role="tab">Read</button>
-      <button data-view="chat" role="tab">Chat</button>
+    <button id="sidebar-toggle" class="icon-btn" aria-label="Toggle sidebar" title="Toggle sidebar">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+    </button>
+    <a class="brand" href="#/">Reddit Library</a>
+    <div class="topbar-spacer"></div>
+    <div class="segmented" id="view-switch" role="radiogroup" aria-label="View mode">
+      <button role="radio" data-view="read">Read</button>
+      <button role="radio" data-view="split" class="split-option">Split</button>
+      <button role="radio" data-view="chat">Chat</button>
     </div>
+    <button id="theme-toggle" class="icon-btn" aria-label="Theme" title="Theme">
+      <svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <svg class="i-auto" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3.8a8.2 8.2 0 0 1 0 16.4Z" fill="currentColor"/></svg>
+    </button>
   </header>
 
-  <div class="layout">
-    <nav id="sidebar" class="sidebar" aria-label="Library">
-      <section>
-        <h2>My Games</h2>
+  <div class="shell" id="shell">
+    <nav class="sidebar" id="sidebar" aria-label="Library">
+      <div class="nav-group">
+        <div class="nav-label">My Games</div>
         <ul id="games"></ul>
-        <button id="add-game" class="link-btn">+ Add game</button>
-      </section>
-      <section>
-        <h2>Library</h2>
+        <button id="add-game" class="nav-add">+ Add game</button>
+      </div>
+      <div class="nav-group">
+        <div class="nav-label">Library</div>
         <ul id="library"></ul>
-      </section>
-      <section>
-        <ul><li><a href="#/ideas" data-tab="ideas" class="soon">Ideas Board <span class="badge">soon</span></a></li></ul>
-      </section>
+      </div>
+      <div class="nav-group">
+        <ul><li><a href="#/ideas" data-tab="ideas" class="nav-item muted">Ideas Board <span class="pill">soon</span></a></li></ul>
+      </div>
     </nav>
+    <div class="scrim" id="scrim"></div>
 
-    <main class="panes" data-view="read">
-      <section class="pane read-pane" aria-label="Read">
-        <div class="pane-head">
-          <div class="crumbs" id="crumbs"></div>
-          <div class="pane-actions" id="read-actions"></div>
+    <main class="workspace" id="workspace" data-view="split">
+      <section class="read-pane" aria-label="Read">
+        <div class="read-scroll" id="read-scroll">
+          <div id="reader"></div>
         </div>
-        <article id="reader" class="markdown"></article>
       </section>
 
-      <section class="pane chat-pane" aria-label="Chat">
-        <div class="pane-head">
-          <div class="chat-title" id="chat-title">Chat</div>
-          <div class="chat-meta">
-            <span id="session-cost" class="cost" title="Cost of this conversation"></span>
-            <button id="clear-chat" class="link-btn">Clear</button>
+      <div class="divider" id="divider" role="separator" aria-orientation="vertical" aria-label="Resize panes" tabindex="0"></div>
+
+      <section class="chat-pane" id="chat-pane" aria-label="Chat">
+        <div class="chat-head">
+          <div class="chat-head-inner">
+            <div class="chat-title" id="chat-title">Chat</div>
+            <div class="chat-meta">
+              <span id="session-cost" class="cost" title="What this conversation has cost so far"></span>
+              <button id="clear-chat" class="text-btn">Clear</button>
+            </div>
           </div>
         </div>
-        <div id="messages" class="messages"></div>
-        <form id="chat-form" class="chat-form">
-          <textarea id="chat-input" rows="2" placeholder="Ask this book…"></textarea>
-          <div class="chat-controls">
-            <select id="model-select" aria-label="Model"></select>
-            <button type="submit" id="send-btn">Send</button>
-          </div>
-        </form>
+        <div class="messages" id="messages-scroll">
+          <div class="column" id="messages"></div>
+        </div>
+        <div class="composer-wrap">
+          <form class="composer column" id="chat-form">
+            <textarea id="chat-input" rows="1" placeholder="Ask this book…" aria-label="Message"></textarea>
+            <div class="composer-row">
+              <label class="model-pill">
+                <span class="sr-only">Model</span>
+                <select id="model-select"></select>
+                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </label>
+              <span class="hint">Enter to send · Shift+Enter for a new line</span>
+              <button type="submit" id="send-btn" class="send-btn" aria-label="Send">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
   </div>

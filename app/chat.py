@@ -160,6 +160,49 @@ def run_tool(name: str, args: dict) -> tuple[str, bool]:
         return f"Invalid tool input: {e}", True
 
 
+def tool_label(name: str, args: dict) -> str:
+    """Human label for a tool call, e.g. the chapter title being read."""
+    from .bookdata import chapter_title
+    try:
+        if name == "read_chapter" and SAFE.match(str(args.get("book", ""))) and SAFE.match(str(args.get("chapter", ""))):
+            return chapter_title(args["book"], args["chapter"])
+        if name == "read_thread" and SAFE.match(str(args.get("id", ""))):
+            d = read_json(C.THREADS / f"{args['id']}.json")
+            return d["title"] if d else f"thread {args['id']}"
+    except Exception:  # noqa: BLE001
+        pass
+    return name
+
+
+_CH_LINK = re.compile(r"\(#/book/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)\)")
+_RD_LINK = re.compile(r"\[([^\]]+)\]\((https://(?:www\.|old\.)?reddit\.com/[^)\s]+)\)")
+
+
+def sources_for(answer: str, tools_used: list[dict]) -> list[dict]:
+    """Chapters and threads the answer read or linked, for the source chips under it."""
+    from .bookdata import chapter_title
+    out, seen = [], set()
+
+    def add(key, item):
+        if key not in seen:
+            seen.add(key)
+            out.append(item)
+
+    chapters = [(t["input"].get("book"), t["input"].get("chapter")) for t in tools_used if t["name"] == "read_chapter"]
+    chapters += _CH_LINK.findall(answer)
+    for book, slug in chapters:
+        if book and slug and SAFE.match(book) and SAFE.match(slug) and (C.BOOKS / book / "chapters" / f"{slug}.md").exists():
+            add(("ch", book, slug), {"type": "chapter", "book": book, "slug": slug, "title": chapter_title(book, slug)})
+    for t in tools_used:
+        if t["name"] == "read_thread" and SAFE.match(str(t["input"].get("id", ""))):
+            d = read_json(C.THREADS / f"{t['input']['id']}.json")
+            if d:
+                add(("th", d["url"]), {"type": "thread", "title": d["title"], "url": d["url"]})
+    for title, url in _RD_LINK.findall(answer):
+        add(("th", url), {"type": "thread", "title": title, "url": url})
+    return out
+
+
 # --- tabs ----------------------------------------------------------------------
 
 def tab_kind(tab: str) -> tuple[str, str]:
@@ -264,6 +307,7 @@ def send(tab: str, text: str, model_id: str | None = None):
                    "cache_read_input_tokens": 0}
     cost_total, answer_parts, tools_used = 0.0, [], []
     served_by = model_id
+    partial = {"usage": None}       # usage of the round in progress, for client disconnects
     try:
         for _ in range(C.config()["chat"].get("max_tool_rounds", 8)):
             if model_id in claude.FALLBACK_MODELS:
@@ -273,10 +317,12 @@ def send(tab: str, text: str, model_id: str | None = None):
                 stream_cm = claude.client().messages.stream(**params)
             with stream_cm as stream:
                 for event in stream:
+                    partial["usage"] = getattr(stream.current_message_snapshot, "usage", None)
                     if event.type == "content_block_delta" and getattr(event.delta, "type", "") == "text_delta":
                         answer_parts.append(event.delta.text)
                         yield {"type": "text", "delta": event.delta.text}
                 final = stream.get_final_message()
+            partial["usage"] = None
             usage = claude.usage_dict(final.usage)
             served_by = final.model if final.model in C.config()["prices"] else model_id
             cost_total += costs.cost_from_usage(served_by, usage)
@@ -296,8 +342,9 @@ def send(tab: str, text: str, model_id: str | None = None):
                 if block.type != "tool_use":
                     continue
                 args = block.input if isinstance(block.input, dict) else {}
-                tools_used.append({"name": block.name, "input": args})
-                yield {"type": "tool", "name": block.name, "input": args}
+                label = tool_label(block.name, args)
+                tools_used.append({"name": block.name, "input": args, "label": label})
+                yield {"type": "tool", "name": block.name, "input": args, "label": label}
                 output, is_error = run_tool(block.name, args)
                 results.append({"type": "tool_result", "tool_use_id": block.id, "content": output,
                                 **({"is_error": True} if is_error else {})})
@@ -307,6 +354,21 @@ def send(tab: str, text: str, model_id: str | None = None):
                 yield {"type": "text", "delta": "\n\n"}
         else:
             answer_parts.append("\n\n*(Stopped after the maximum number of library reads.)*")
+    except GeneratorExit:
+        # The browser went away mid-answer (closed tab, reload). Anthropic still billed what ran:
+        # log finished rounds plus the round in progress, and keep the partial text.
+        if partial["usage"] is not None:
+            cost_total += costs.cost_from_usage(model_id, claude.usage_dict(partial["usage"]))
+        data["messages"].append({"role": "assistant", "text": "".join(answer_parts).strip() + "\n\n*(Interrupted.)*",
+                                 "ts": now(), "model": model_id, "model_label": entry["label"],
+                                 "cost_usd": round(cost_total, 6), "usage": usage_total, "tools_used": tools_used,
+                                 "sources": []})
+        data["session_cost_usd"] = round(data["session_cost_usd"] + cost_total, 6)
+        save(tab, data)
+        if cost_total:
+            costs.log(costs.new_run_id("chat"), "chat", "anthropic", model_id,
+                      f"chat {tab} (interrupted: client disconnected)", "partial", cost_total, cost_total)
+        raise
     except Exception as e:  # noqa: BLE001 - surface API errors in the chat instead of crashing
         if cost_total:
             costs.log(costs.new_run_id("chat"), "chat", "anthropic", model_id, f"chat {tab} (error)",
@@ -317,8 +379,10 @@ def send(tab: str, text: str, model_id: str | None = None):
         return
 
     label = next((m["label"] for m in chat_models() if m["id"] == served_by), served_by)
-    msg = {"role": "assistant", "text": "".join(answer_parts).strip(), "ts": now(), "model": served_by,
-           "model_label": label, "cost_usd": round(cost_total, 6), "usage": usage_total, "tools_used": tools_used}
+    answer = "".join(answer_parts).strip()
+    msg = {"role": "assistant", "text": answer, "ts": now(), "model": served_by,
+           "model_label": label, "cost_usd": round(cost_total, 6), "usage": usage_total, "tools_used": tools_used,
+           "sources": sources_for(answer, tools_used)}
     data["messages"].append(msg)
     data["session_cost_usd"] = round(data["session_cost_usd"] + cost_total, 6)
     data["session_tokens"] += _total_tokens(usage_total)
