@@ -1,8 +1,8 @@
 {
   "slug": "design-tools-and-digital",
-  "written_at": "2026-11-19T05:25:42+00:00",
+  "written_at": "2026-11-19T06:05:50+00:00",
   "model": "claude-opus-5-5",
-  "cost_usd": 0.039818,
+  "cost_usd": 0.04209,
   "refs": {
     "T1": "1sqv27p",
     "T2": "1sm0b6x",
@@ -10,54 +10,81 @@
     "S2": "1xg0qb3",
     "S3": "1x7a612"
   },
-  "tldr": "Both main threads are friendly, low-scoring showcases: a desktop card database app and a custom Unity simulator. Neither drew real disagreement. The clearest signal is what designers say they need before they would adopt a tool: rendering cards with their own art and frames, Tabletop Simulator export, Mac or Linux builds, and templates simple enough for non-technical creators. Questions about which tools people used to make cards and websites also kept appearing in threads filed elsewhere. The most useful takeaway is that a tool only gets adopted when it closes the gap between card data and a playable or printable card.",
-  "one_line": "Card database tools and custom simulators: what designers need before adopting, and when to build digital.",
+  "tldr": "Two low-scoring but friendly threads anchor this chapter: a desktop card database app (TCG Forge) and a Unity simulator for a homemade TCG. Commenters keep asking what tools others use and say building digital tooling feels daunting. For a card database, the features most often requested before anyone would switch were a built-in renderer that uses the designer's own art and frames, and Tabletop Simulator export. Support counts are small throughout, so treat these as directional signals rather than strong verdicts.",
+  "one_line": "Card databases, renderers, Tabletop Simulator export and custom simulators: what designers want from their tools.",
   "consensus": [
     {
-      "point": "How a creator built their cards, templates or card database site is a recurring curiosity, even in threads that are mainly about something else.",
+      "point": "Designers are curious about the tooling behind other people's projects. Questions about tech stacks, how a website or card database was built, and which design software was used come up even in threads that are mainly about something else.",
       "threads": [
-        "T1",
+        "T2",
         "S1",
         "S2",
         "S3"
+      ]
+    },
+    {
+      "point": "Building digital tools feels like a barrier for many hobby designers. Commenters described template setup as hard for non-technical groups and called programming a digital version daunting.",
+      "threads": [
+        "T1",
+        "T2"
+      ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Commenters liked TCG Forge's approach and its one-time price. Several said they would not switch until it could place their own art and frames onto cards or export to Tabletop Simulator.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "point": "A couple of commenters admired the designer's willingness to code a full digital version, noting that most designers avoid it.",
+      "threads": [
+        "T2"
       ]
     }
   ],
   "splits": [],
   "design_lessons": [
     {
-      "lesson": "If you build or pick a design tool, make sure it can get cards onto a table quickly. Tabletop Simulator export came up as the feature that would make commenters try or choose a tool, and the tool's creator said it had been requested repeatedly.",
+      "lesson": "If you build or choose a card database, pair data management with rendering, or at least a clean export path. Commenters said they would hold off on a data-only tool that cannot put their own art and frames onto cards.",
       "threads": [
         "T1"
       ]
     },
     {
-      "lesson": "Make template creation approachable for non-technical creators. One commenter said building card templates was the hardest basic task for their group, and another chose a tool because the screenshots looked easier to learn than alternatives. Questions about Canva elsewhere point the same way.",
+      "lesson": "Keep card data separate from card visuals and export clean CSV. You can then data-merge into tools like nanDECK, Squib, InDesign or Affinity Publisher and swap layouts without retyping cards.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Plan a Tabletop Simulator export or another quick playtest path early. It was named as the feature that would make people try a tool.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Make template setup approachable for non-technical collaborators. Template building was described as the hardest base-level task for less technical groups.",
       "threads": [
         "T1",
-        "S3"
+        "T2"
       ]
     },
     {
-      "lesson": "Keep card data separate from card visuals and offer a clean CSV export. That lets designers data-merge into layout tools such as Affinity Publisher, InDesign, nanDECK or Squib. Colour-coding type and rarity in a table view also makes a set's balance readable at a glance.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "lesson": "Give unusual resource systems labels or onboarding. In one game, actions hand resources to the opponent, and a viewer needed several replies to decode the cost numbers and header stats from a single screenshot.",
+      "lesson": "Consider locking the ruleset with paper playtests before coding a simulator, because every rule or value change has to be mirrored in code. One commenter raised this, and the simulator's designer said their rules were already settled after extensive printed play.",
       "threads": [
         "T2"
       ]
     },
     {
-      "lesson": "Proofread card text before posting screenshots. Viewers catch typos immediately, and a readable UI invites more useful feedback.",
+      "lesson": "Label the numbers on cards and in the UI, and give onboarding for unusual mechanics. Viewers could not decode a resource system where actions feed the opponent from a screenshot alone.",
       "threads": [
         "T2"
       ]
     },
     {
-      "lesson": "When planning a simulator, budget the most time for card effects. One commenter flagged effects as the trickiest part still ahead, after movement and combat.",
+      "lesson": "Proofread any card text in shared screenshots. Viewers will spot typos, and a readable layout invites more useful feedback.",
       "threads": [
         "T2"
       ]
@@ -65,120 +92,99 @@
   ],
   "business_lessons": [
     {
-      "lesson": "A genuinely free core plus a pay-once Pro tier earned goodwill from hobbyists who dislike subscriptions. Money-tight testers also wanted to know up front that the core would stay free.",
+      "lesson": "A genuinely free core tier plus a pay-once Pro tier won goodwill from hobbyists who dislike subscriptions. Say up front that the core stays free.",
       "threads": [
         "T1"
       ]
     },
     {
-      "lesson": "Windows-only releases lose Mac and Linux users. Announcing other platforms early widens the audience.",
+      "lesson": "Ship or announce Mac and Linux builds early. Some users skip Windows-only tools.",
       "threads": [
         "T1"
       ]
     },
     {
-      "lesson": "Check name collisions before launch. One commenter pointed out that an existing storefront and a physical shop already use the same name, which would hurt search discoverability.",
+      "lesson": "Check name collisions before launch. An existing storefront and shop with the same name can bury a new tool in search results.",
       "threads": [
         "T1"
       ]
     },
     {
-      "lesson": "Expect questions about AI involvement. When asked, the tool's creator said the app has no AI features but admitted AI helped write parts of the code.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "lesson": "Public build-progress posts attract would-be playtesters, so include a clear call to action and a link, such as a Discord, for people who want to test.",
+      "lesson": "Build-in-public posts attract playtesters, so include a clear call to action and a link such as a Discord for anyone who wants to test.",
       "threads": [
         "T2"
       ]
     },
     {
-      "lesson": "A free simulator that automates the rules removes friction compared with a generic tabletop simulator. One commenter suggested a browser version would widen access further.",
+      "lesson": "A free, rules-automating simulator, possibly browser-based, can lower the barrier for new players compared with a generic tabletop sandbox.",
       "threads": [
         "T2"
+      ]
+    },
+    {
+      "lesson": "Expect transparency questions about AI. One commenter asked directly, and the developer disclosed that AI helped write parts of the code.",
+      "threads": [
+        "T1"
       ]
     }
   ],
   "debates": [
     {
-      "hook": "Build a digital simulator before your rules are locked, or only after?",
-      "why": "One commenter warned that every rule change must be mirrored in code, which discourages iteration. The simulator's creator countered that the ruleset was already settled after printing thousands of cards. Support is thin, but the tradeoff applies to every designer.",
+      "hook": "Should you code a simulator before your rules are locked, or after?",
+      "why": "One commenter argued a simulator slows iteration and discourages rule changes. The designer countered that thousands of printed cards had already settled the rules. It's a real workflow tradeoff, though support is thin.",
       "threads": [
         "T2"
       ]
     },
     {
-      "hook": "Should a card database tool also render your cards, or just manage data?",
-      "why": "Several commenters said they would not switch without rendering using their own art and frames. Others valued a clean data export for merging into existing layout software.",
+      "hook": "Custom digital simulator or Tabletop Simulator: which is worth a hobby designer's time?",
+      "why": "One thread shows a full Unity build that automates the rules, while the other treats TTS export as the deciding feature for playtesting. Both are valid paths.",
       "threads": [
-        "T1"
-      ]
-    },
-    {
-      "hook": "Spreadsheet with live collaboration, or a dedicated tool without it?",
-      "why": "A team designer relies on Google Sheets for real-time collaboration. The tool's creator said live sync isn't planned and suggested Git or ZIP sharing instead, a practical tension for team projects.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "hook": "Black-and-white prototype UI or color: which reads better for playtesters?",
-      "why": "One commenter liked the monochrome prototype look and another felt color would make the game easier to read. It's a small but concrete presentation question.",
-      "threads": [
+        "T1",
         "T2"
+      ]
+    },
+    {
+      "hook": "Subscription or one-time price: what should indie TCG tools charge?",
+      "why": "Commenters praised pay-once pricing and said subscriptions put them off. Pricing is a live question for anyone selling tools to hobbyists.",
+      "threads": [
+        "T1"
       ]
     }
   ],
   "questions": [
     {
+      "hook": "Would you use a card database that can't render your cards?",
+      "why": "This was the most repeated request in the database thread: several commenters tied switching to a renderer that uses their own frames and art.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
       "hook": "How are you actually playtesting your card game digitally?",
-      "why": "Tabletop Simulator export was a deciding feature for commenters in one thread, while another designer is building a custom Unity simulator. Both point to a choice many designers face.",
+      "why": "TTS export was a deciding feature for some commenters, and others asked how to playtest a custom simulator. This is a common workflow pain point.",
       "threads": [
         "T1",
         "T2"
       ]
     },
     {
-      "hook": "What do people use to make card templates when they aren't technical?",
-      "why": "Template building was named as the hardest basic task for one group. Tool questions about Canva and about how layouts were made also come up in several showcase threads.",
+      "hook": "What tools are you using to build card templates and databases?",
+      "why": "Tool questions come up across many threads, from simulator tech stacks to website databases and Canva layouts, and template setup was called the hardest base-level task.",
       "threads": [
         "T1",
+        "T2",
+        "S1",
         "S2",
         "S3"
       ]
     },
     {
-      "hook": "How do you build a website and card database for a homemade TCG?",
-      "why": "Commenters asked how a creator's site and online card database were built, alongside the database tool thread in this chapter.",
-      "threads": [
-        "S1",
-        "T1"
-      ]
-    },
-    {
-      "hook": "What if your actions give your opponent resources? How do you explain that?",
-      "why": "A viewer needed several replies to understand the numbers and resource system from one screenshot, which illustrates the onboarding challenge for unusual mechanics.",
-      "threads": [
-        "T2"
-      ]
-    }
-  ],
-  "single_thread_agreement": [
-    {
-      "point": "Commenters liked the idea of a dedicated card database tool with one-time pricing. Several said they would hold off until it could put their own art and frames onto cards or export to Tabletop Simulator.",
+      "hook": "How do you make card templates if you're not technical?",
+      "why": "A commenter with minimal computer skills said templates were their group's biggest hurdle, and another said other tools were too steep to learn.",
       "threads": [
         "T1"
-      ],
-      "moved_from_consensus": true
-    },
-    {
-      "point": "Building a custom digital version of a homemade TCG drew admiration. Commenters noted that most designers avoid it or find game programming daunting.",
-      "threads": [
-        "T2"
-      ],
-      "moved_from_consensus": true
+      ]
     }
   ]
 }

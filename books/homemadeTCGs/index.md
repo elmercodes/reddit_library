@@ -1,6 +1,6 @@
 ---
 subreddit: homemadeTCGs
-updated_at: '2026-11-19T05:29:22+00:00'
+updated_at: '2026-11-19T06:05:50+00:00'
 chapters:
 - slug: card-frames-and-templates
   title: Card frames and template style
@@ -407,14 +407,14 @@ chapters:
 | [Art style and art direction](chapters/art-style-and-direction.md) | 148.0 | 42 | 8 +13 | Handmade art styles win praise; the real work is matching frames and keeping cards readable. |
 | [Showcases and milestones](chapters/showcases-and-milestones.md) | 146.5 | 27 | 13 +4 | Milestone showcases: art wins praise, but viewers immediately ask how to play, buy and make it. |
 | [Placeholder art and DIY alternatives](chapters/placeholder-and-diy-art.md) | 98.9 | 45 | 6 +6 | Non-AI placeholder options, from pigeons to stick figures, and why readable beats polished. |
-| [Playtesting and prototypes](chapters/playtesting-and-prototypes.md) | 98.3 | 27 | 9 +3 | First playtests expose overload; strip to the core, prototype cheap, and make games easy to try. |
+| [Playtesting and prototypes](chapters/playtesting-and-prototypes.md) | 98.3 | 27 | 9 +3 | First playtests expose overload; strip to the core, test with others, and ship rules with photos. |
 | [Printing, test prints and manufacturing](chapters/printing-and-production.md) | 86.0 | 28 | 7 +4 | Test prints, printer picks, foil choices and what physical cards reveal that screens hide. |
 | [Kickstarter, launch and product formats](chapters/kickstarter-and-launch.md) | 80.7 | 26 | 7 +3 | Launch showcases: starter boxes, full sets vs boosters, reward tiers, and what to have ready before crowdfunding. |
-| [AI art debate and community rules](chapters/ai-art-debate.md) | 73.4 | 213 | 3 +6 | How r/homemadeTCGs came to ban AI art, placeholders included, and what designers use instead. |
-| [Mechanics, rules and balance](chapters/mechanics-and-balance.md) | 61.0 | 61 | 5 +2 | Dominant defaults, resource variance, attack risk-reward, readable stacks, and loved or hated mechanics from other TCGs. |
-| [Theme, identity and originality](chapters/theme-identity-originality.md) | 60.7 | 29 | 4 +5 | Escaping clone looks and homemade TCG tropes through original themes, terminology, factions and visuals. |
-| [Card backs, logos and branding](chapters/card-backs-and-logos.md) | 55.8 | 29 | 4 +4 | Card backs as recognition and discovery tools: readable names, fanned-hand testing, colour over icons. |
+| [AI art debate and community rules](chapters/ai-art-debate.md) | 73.4 | 213 | 3 +6 | The sub bans AI art, even placeholders; sketches, stock art and strong templates are the accepted path. |
+| [Mechanics, rules and balance](chapters/mechanics-and-balance.md) | 61.0 | 61 | 5 +2 | Dominant options, resource variance, memory load and level-up stacking in homemade TCG rules design. |
+| [Theme, identity and originality](chapters/theme-identity-originality.md) | 60.7 | 29 | 4 +5 | Escaping clone looks and community tropes: theme, faction identity, terminology and originality in homemade TCGs. |
+| [Card backs, logos and branding](chapters/card-backs-and-logos.md) | 55.8 | 29 | 4 +4 | Card backs as discovery tools: full names, at-a-glance logo legibility, and testing backs in fanned hands. |
 | [Local stores, events and community building](chapters/stores-events-community.md) | 51.5 | 52 | 4 +2 | Filling first tournaments, getting stocked locally, and growing a Discord around a homemade TCG. |
 | [Full art vs framed cards](chapters/full-art-cards.md) | 47.7 | 32 | 5 | Full art wins on looks, framed on clarity; back text over art and use full art as a reward tier. |
-| [Design tools and digital simulators](chapters/design-tools-and-digital.md) | 33.1 | 33 | 2 +3 | Card database tools and custom simulators: what designers need before adopting, and when to build digital. |
-| [Commissioning art and art budgets](chapters/commissioning-and-art-budgets.md) | 27.9 | 24 | 2 +2 | Card art: quality is rarely the blocker; per-piece cost and hours times set size decide everything. |
+| [Design tools and digital simulators](chapters/design-tools-and-digital.md) | 33.1 | 33 | 2 +3 | Card databases, renderers, Tabletop Simulator export and custom simulators: what designers want from their tools. |
+| [Commissioning art and art budgets](chapters/commissioning-and-art-budgets.md) | 27.9 | 24 | 2 +2 | Card art is a volume problem: solo costs time, commissions cost thousands, so scope first. |

@@ -1,8 +1,8 @@
 {
   "slug": "card-backs-and-logos",
-  "written_at": "2026-11-19T05:25:42+00:00",
+  "written_at": "2026-11-19T06:05:50+00:00",
   "model": "claude-opus-5-5",
-  "cost_usd": 0.055402,
+  "cost_usd": 0.063816,
   "refs": {
     "T1": "1ukcxhg",
     "T2": "1stnuxh",
@@ -13,51 +13,101 @@
     "S3": "1p8zisv",
     "S4": "1tnb92v"
   },
-  "tldr": "These threads keep asking one question: can someone who glimpses a card back read the game's name and recognise the product? The most-supported answers favour readability and the full title over cleaner or more stylised marks. The Everdawn vote strongly favoured the full name, and the TAG redesign lost points for legibility. A second thread of advice: judge backs the way they are seen in play, as a fanned hand where only slivers show, so colour and border shapes matter more than central icons.",
-  "one_line": "Card backs as recognition and discovery tools: readable names, fanned-hand testing, colour over icons.",
+  "tldr": "These threads keep testing one thing: whether a card back still says what game it is at a glance, in a fanned hand, to a stranger. Commenters mostly favored the readable option over the stylish one. They backed full titles over lone emblems and the more legible logo over the more dynamic redesign. The most useful takeaway is to treat the back as a discovery and marketing surface: put the name on it, keep it readable, and mock it up as a fanned hand before deciding.",
+  "one_line": "Card backs as discovery tools: full names, at-a-glance logo legibility, and testing backs in fanned hands.",
   "consensus": [
     {
-      "point": "The artwork and custom lettering in these card back threads were broadly praised. Critique focused on readability and recognition rather than taste.",
+      "point": "A card back should let someone who has never heard of the game identify it and look it up. Even commenters who preferred a minimal emblem conceded that a nameless back is risky for a new game.",
+      "threads": [
+        "T2",
+        "T4"
+      ]
+    },
+    {
+      "point": "Logo legibility at a glance matters more than stylistic flair. Commenters flagged overlapping text, stylized letterforms and small subtitles that make the name hard to read.",
+      "threads": [
+        "T4",
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "point": "Judge a card back the way it is seen in play, as a fanned hand where only a slice of each card shows. Large color areas and border shapes carry recognition there; centered icons and logos do not.",
       "threads": [
         "T1",
-        "T2",
         "T3"
+      ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Placing katakana on top of the English TAG letters hurt legibility. Supporters of both the old and new logo said it should be moved, separated or properly merged into the letterforms.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "point": "In the final round of TAG card backs, the community clearly preferred Option 2 over Option 1. Many commenters voted with one word, and only one picked Option 1.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "point": "Commenters broadly praised the Everdawn artwork and custom font regardless of which back they preferred.",
+      "threads": [
+        "T2"
       ]
     }
   ],
   "splits": [
     {
       "issue": "Full game title or a single-letter emblem on the card back",
-      "side_a": "Use the full name: it markets the game, identifies a loose card instantly and matches established TCGs.",
-      "side_b": "Use the lone 'E' emblem: it is cleaner, more elegant and feels more like a tarot card.",
-      "weight": "Side A clearly heavier: 16 commenters, 101 points vs 6 commenters, 31 points",
+      "side_a": "Use the full title: it markets the game, identifies it instantly and matches what other TCGs do.",
+      "side_b": "Use the lone 'E' emblem: it is cleaner, more elegant and feels like a tarot card.",
+      "weight": "Side A clearly heavier: 16 commenters, 101 points vs 6 and 31.",
+      "side_a_commenters": 16,
+      "side_a_points": 101,
+      "side_b_commenters": 6,
+      "side_b_points": 31,
       "threads": [
         "T2"
       ]
     },
     {
-      "issue": "Readable older logo vs more dynamic redesign",
-      "side_a": "Keep the old logo because the name reads at a glance.",
-      "side_b": "The new logo looks cooler, cleaner and more energetic.",
-      "weight": "Side A heavier by points: 7 commenters, 28 points vs 6 commenters, 9 points",
+      "issue": "Old readable logo or new more dynamic logo",
+      "side_a": "Keep the old logo because it reads at a glance.",
+      "side_b": "Go with the new logo because it looks cooler, cleaner and more dynamic.",
+      "weight": "Side A heavier on points: 7 commenters, 28 points vs 6 and 9. The commenter counts are close, so the new-logo camp was vocal but drew less support.",
+      "side_a_commenters": 7,
+      "side_a_points": 28,
+      "side_b_commenters": 6,
+      "side_b_points": 9,
       "threads": [
         "T4"
       ]
     },
     {
-      "issue": "Whether the back should carry a 'TRADING CARD GAME' subtitle",
-      "side_a": "Keep it, because otherwise viewers may not know what the product is.",
+      "issue": "Should the card back include a 'TRADING CARD GAME' subtitle",
+      "side_a": "Keep it, because it tells new viewers what kind of product they are looking at.",
       "side_b": "Keep the layout but drop the English subtitle line.",
-      "weight": "Small sample; dropping it leaned slightly ahead, 2 commenters and 6 points vs 2 and 2",
+      "weight": "Small sample, slightly toward dropping it: 2 commenters, 6 points vs 2 and 2.",
+      "side_a_commenters": 2,
+      "side_a_points": 2,
+      "side_b_commenters": 2,
+      "side_b_points": 6,
       "threads": [
         "T3"
       ]
     },
     {
-      "issue": "White logo outline vs an outline in the background's accent colour",
-      "side_a": "Recolour the outline to aqua so the logo feels integrated rather than stuck on.",
-      "side_b": "Keep the white, because a palette of only black, magenta and aqua would blend together and hurt readability.",
-      "weight": "Tiny side discussion: 2 commenters, 3 points vs 1 commenter, 1 point",
+      "issue": "White logo outline or outline matched to the accent color",
+      "side_a": "Recolor the outline to aqua so the logo feels integrated rather than stuck on.",
+      "side_b": "Keep white, because black, magenta and aqua alone would blend together and hurt readability.",
+      "weight": "Tiny side debate, slight lean toward recoloring: 2 commenters, 3 points vs 1 and 1.",
+      "side_a_commenters": 2,
+      "side_a_points": 3,
+      "side_b_commenters": 1,
+      "side_b_points": 1,
       "threads": [
         "T3"
       ]
@@ -65,70 +115,70 @@
   ],
   "design_lessons": [
     {
-      "lesson": "Test the logo on the back with fresh eyes for legibility at a glance. A more dynamic redesign can bury the name: one viewer did not notice the English letters at first.",
+      "lesson": "Put the full game name on the back while the game is unknown. Commenters noted that simplified marks like a single letter work for brands people already recognize, which a new game does not have yet. Consider keeping an emblem dominant with the name smaller below or behind it.",
       "threads": [
-        "T4",
-        "T2"
+        "T2",
+        "T4"
       ]
     },
     {
-      "lesson": "Mock backs up as a fanned hand, not just flat. Only a slice of each card shows in hand, so border shapes and large colour areas carry recognition while the logo is mostly covered.",
-      "threads": [
-        "T3",
-        "T1"
-      ]
-    },
-    {
-      "lesson": "If a special card needs its own back (like Cyclemental's Qi), give it a different base colour rather than a small centre icon, which disappears in a held hand.",
-      "threads": [
-        "T1"
-      ]
-    },
-    {
-      "lesson": "Do not stack a second script on top of the main title. Give it a separate tagline band or properly merge it into the letter shapes. Watch small fixes too, such as a covered 'A' starting to read as a triangle.",
+      "lesson": "Test logo legibility with fresh eyes before committing to a stylized redesign. A more dynamic version can bury the name; in one case a viewer did not notice the English letters at first, and a partly covered A read as a triangle.",
       "threads": [
         "T4"
       ]
     },
     {
-      "lesson": "Colour drives recognisability from a distance. Two commenters suggested a mostly dark, monochrome back risks looking bland, so let some signature colour carry onto it, even as a tint.",
+      "lesson": "Do not lay a second script over the main title. Either put it in a separate tagline band or truly merge it into the letterforms so neither text is obscured.",
       "threads": [
-        "T1"
+        "T4"
       ]
     },
     {
-      "lesson": "When a title overlaps a central emblem, check the balance. A smaller name tucked below or faded behind the emblem can keep both clean elegance and identification.",
-      "threads": [
-        "T2"
-      ]
-    },
-    {
-      "lesson": "Decide whether the back should say what the product is (e.g. 'trading card game'), and test versions with and without it, since it informs newcomers but can crowd the logo.",
-      "threads": [
-        "T3"
-      ]
-    },
-    {
-      "lesson": "Integrate the logo with the art: textured or painted edges for hand-painted backs, and consistent letter widths and a single vanishing point for 3D lettering.",
+      "lesson": "Mock backs up as a fanned hand. If a special card must be recognizable from the back, use a large area of different base color rather than a small center icon, because only a thin slice of each card shows.",
       "threads": [
         "T1",
         "T3"
       ]
     },
     {
-      "lesson": "Don't count on a subtle graphic on the back, like arrow direction, to teach a rule. If players only understand it once told, treat it as a reminder and keep the rule written elsewhere.",
+      "lesson": "Color is a big part of what makes a back recognizable from a distance. A dark monochrome back can read as bland, so let some signature color carry over, even as a tint.",
       "threads": [
         "T1"
       ]
     },
     {
-      "lesson": "Check a new logo for accidental resemblance to existing marks. One commenter linked the TAG redesign to an existing artist's logo.",
+      "lesson": "Check whether the back says what the product is, not just its name. A descriptor like 'trading card game' helps newcomers but can crowd the logo, so compare versions with and without it.",
       "threads": [
-        "T4"
+        "T3"
       ]
     },
     {
-      "lesson": "Verify legibility with a home printout read by friends or family before a print run, and pair a characterful title font with a plain body font.",
+      "lesson": "Make the logo treatment belong to the art: add texture to the edges of a hand-painted logo or paint it, and weigh outline color carefully. A contrasting outline aids readability but can look pasted on; a matched accent color integrates the logo but can blend in.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Emblem-versus-title choices signal genre. One commenter said the lone emblem read as tarot while the titled version read as a TCG.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Do not rely on a subtle graphic, such as the direction of brush-stroke arrows, to teach a rule. If players only get it after being told, treat it as a reminder and keep the rule explicit elsewhere.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "For 3D or extruded lettering, unify letter widths and use one vanishing point, so the effect looks deliberate rather than messy.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Pair a characterful display font with a plain body font, and verify legibility with a home printout read by friends rather than measurements alone.",
       "threads": [
         "T1"
       ]
@@ -136,28 +186,33 @@
   ],
   "business_lessons": [
     {
-      "lesson": "For a game nobody knows yet, treat every card back as a free ad. Put the full, searchable name on it. Simplified marks work for famous brands, so save monograms for places where the full name already appears.",
+      "lesson": "Every loose card seen in public is a free marketing impression. A readable full name on the back lets a curious person search for the game. Save abbreviated marks for places where the full name already appears.",
       "threads": [
         "T2",
         "T4"
       ]
     },
     {
-      "lesson": "Test a short-form monogram before using it for social media or watermarks. One commenter pushed back on the proposed 'ED' short form.",
+      "lesson": "Iterating on the card back in public over several posts built goodwill. Commenters offered to follow the game, playtest and join the email list, so have a signup ready to capture that interest. The finished version later drew the highest upvotes of the TAG series.",
+      "threads": [
+        "T3",
+        "S3"
+      ]
+    },
+    {
+      "lesson": "Test a short-form monogram before using it for social media and watermarks; one suggested monogram drew immediate pushback.",
       "threads": [
         "T2"
       ]
     },
     {
-      "lesson": "Posting design iterations in rounds built a following for the TAG designer, with commenters offering to playtest and join an email list. An email signup captures that interest.",
+      "lesson": "Check a new logo for unintended resemblance to existing marks. One redesign was compared to an existing music artist's logo.",
       "threads": [
-        "T3",
-        "T4",
-        "S3"
+        "T4"
       ]
     },
     {
-      "lesson": "Check commercial font licences early. Display fonts from free libraries may need an expensive licence for a sold game.",
+      "lesson": "Check font licensing before committing to a display font for a commercial release, because commercial licenses can be expensive.",
       "threads": [
         "T1"
       ]
@@ -165,29 +220,30 @@
   ],
   "debates": [
     {
-      "hook": "Full game name or just a logo on the card back?",
-      "why": "The biggest vote in the chapter: 16 commenters and 101 points backed the full name against 6 and 31 for the emblem. The minority had a real aesthetic argument, so there is something to weigh in on.",
+      "hook": "Full game title or a clean single emblem on the card back?",
+      "why": "The most-discussed thread here split 16 commenters and 101 points for the full name against 6 and 31 for the emblem. Both sides gave reasons, from marketing to tarot-like elegance.",
       "threads": [
         "T2"
       ]
     },
     {
-      "hook": "Readable logo or exciting logo: which matters more on a card back?",
-      "why": "The old TAG logo outscored the new one on readability (28 vs 9 points), yet new-logo fans were nearly as numerous, so the trade-off is live.",
+      "hook": "Readable logo or cooler logo: which matters more on a card back?",
+      "why": "In the TAG redesign, the old logo won on points for readability while new-logo fans were nearly as numerous, so there is a clear trade-off to weigh.",
       "threads": [
-        "T4"
+        "T4",
+        "T3"
       ]
     },
     {
-      "hook": "Should a card back spell out 'trading card game'?",
-      "why": "Option 2 won the TAG vote, but commenters split on its English subtitle: some said it clarifies the product, others wanted it gone.",
+      "hook": "Should a card back spell out 'trading card game', or is the logo enough?",
+      "why": "Commenters on the winning option split on the subtitle. One said they would not know it was a TCG without it; others wanted it gone.",
       "threads": [
         "T3"
       ]
     },
     {
-      "hook": "Dark, moody card backs versus bright, colourful ones: which reads better?",
-      "why": "Commenters on Cyclemental said colour is what makes famous backs recognisable from afar, while the poster noted lighter backs show dirt. Support is thin but the practical tension is relatable.",
+      "hook": "Dark, moody card backs versus bright colorful ones: which reads as iconic?",
+      "why": "Commenters argued color is what makes famous backs recognizable from afar, while the poster weighed practical concerns like lighter backs showing dirt.",
       "threads": [
         "T1"
       ]
@@ -195,50 +251,34 @@
   ],
   "questions": [
     {
-      "hook": "If a stranger finds one of your cards, can they search for it?",
-      "why": "The 10-point comment in the TAG logo thread called the back a discovery tool, and the Everdawn thread's top business argument made the same case for the full name.",
+      "hook": "Can you spot your special card from the back in a fanned hand?",
+      "why": "Critique of a distinct back noted that a center icon disappears when only a slice shows, and another designer mocked up fanned hands to judge options.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "hook": "If a stranger finds one of your cards, can they search for the game?",
+      "why": "Framing the back as a discovery tool drew one of the highest-scoring comments in its thread, and the full-name camp leaned on the same marketing logic.",
       "threads": [
         "T4",
         "T2"
       ]
     },
     {
-      "hook": "What does your card back look like in a fanned hand?",
-      "why": "The TAG designer posted fanned-hand mockups that drove the feedback, and a Cyclemental critique noted that only slivers show, so centre icons fail.",
-      "threads": [
-        "T3",
-        "T1"
-      ]
-    },
-    {
-      "hook": "What actually makes a card back iconic: colour, symbol, or texture?",
-      "why": "The Cyclemental poster asked this directly, and answers ranged from colour like MTG and Pokemon to bolder swirl art, giving room for an explainer.",
+      "hook": "What actually makes a card back iconic: color, symbol or texture?",
+      "why": "The poster asked this directly, and answers ranged from bold color to a bigger swirl to logo texture. That leaves room to compare examples.",
       "threads": [
         "T1"
       ]
     },
     {
-      "hook": "How do you add a second language to a logo without breaking it?",
-      "why": "Seven commenters, nearly half the TAG thread's points, flagged the overlapping katakana. Suggestions ranged from a separate tagline to true letterform integration.",
+      "hook": "White outline or matching accent color: how should a logo sit on the back?",
+      "why": "A small side debate pitted integration against readability, a concrete choice most designers face when placing a logo.",
       "threads": [
-        "T4"
+        "T3"
       ]
-    }
-  ],
-  "single_thread_agreement": [
-    {
-      "point": "Across camps, commenters treated a card back with no readable game name as a risk for a new, unknown game. Even some who preferred the cleaner single-letter Everdawn back conceded it.",
-      "threads": [
-        "T2"
-      ],
-      "moved_from_consensus": true
-    },
-    {
-      "point": "Secondary text laid over the main title hurts legibility and should be moved into its own band or truly merged into the letterforms. In the TAG thread, people who preferred the old logo and people who preferred the new one both said this.",
-      "threads": [
-        "T4"
-      ],
-      "moved_from_consensus": true
     }
   ]
 }

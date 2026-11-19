@@ -1,8 +1,8 @@
 {
   "slug": "playtesting-and-prototypes",
-  "written_at": "2026-11-19T05:25:42+00:00",
+  "written_at": "2026-11-19T06:05:50+00:00",
   "model": "claude-opus-5-5",
-  "cost_usd": 0.072136,
+  "cost_usd": 0.07616,
   "refs": {
     "T1": "1r8q2t4",
     "T2": "1pjhhbr",
@@ -17,13 +17,38 @@
     "S2": "1sm0b6x",
     "S3": "1wrrlck"
   },
-  "tldr": "These threads are mostly friendly milestone posts: first proxies, first playtests, kid and family sessions, and print-and-play drops. The substantive advice clusters around what first tests expose. Rules that overload players' memory or arithmetic should be stripped back to a core loop with small numbers. Card photos alone don't teach a game, and open playtest invites draw volunteers more readily than critique. The most useful takeaway is to prototype cheaply, test the bare core with other people early, and pair every public card reveal with a short how-to-play explainer and an easy way to try it.",
-  "one_line": "First playtests expose overload; strip to the core, prototype cheap, and make games easy to try.",
+  "tldr": "These threads are mostly showcase posts: first proxies, family playtests and print-and-play invites. They draw warm praise for the art but little hard critique. The most useful material comes from the few threads where testing went badly or rules changed. First tests tend to expose rules overload and bookkeeping, so the advice is to strip the game to a vanilla core loop, use small numbers and get other people at the table. Across threads, readers who see card photos keep asking how the game plays, so pair every showcase with rules, a how-to video or a playable file.",
+  "one_line": "First playtests expose overload; strip to the core, test with others, and ship rules with photos.",
   "consensus": [
     {
-      "point": "Public playtest milestones get warm encouragement, and a strong, readable visual identity earns praise before anyone has read the rules.",
+      "point": "Card photos alone do not teach a game. Readers repeatedly asked how it plays, what a corner number means, or how resources work, so showcase posts should come with rules or a walkthrough.",
       "threads": [
         "T1",
+        "T6",
+        "T9",
+        "S3"
+      ]
+    },
+    {
+      "point": "First real playtests commonly reveal too much complexity or bookkeeping. The fix is to simplify: one designer rewrote combat after the first session, and in another thread commenters urged stripping the game back to a simple base.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "point": "Interested readers want a low-barrier way to try an unreleased game, such as a print-and-play file, a Tabletop Simulator build or a digital mockup, and ask for one when it is missing.",
+      "threads": [
+        "T4",
+        "T6",
+        "T7",
+        "S3",
+        "T1"
+      ]
+    },
+    {
+      "point": "Strong visual identity wins praise before anyone reads the rules. Examples include a notebook theme, watercolor art, clean frames and characters with personality. In these threads that praise rarely turned into mechanical critique.",
+      "threads": [
         "T2",
         "T4",
         "T5",
@@ -32,154 +57,178 @@
       ]
     },
     {
-      "point": "Card images alone do not explain how a game plays. Readers repeatedly ask for rules, what a corner number means, or how resources work.",
+      "point": "Cheap, editable, low-fidelity prototypes are useful for iterating mid-test: handwritten or hand-drawn cards, Post-its over sleeved cards, stickers over old text.",
       "threads": [
-        "T1",
-        "T6",
-        "T9",
-        "S3"
+        "T8",
+        "S1",
+        "T7"
+      ]
+    }
+  ],
+  "single_thread_agreement": [
+    {
+      "point": "Inflated stats (steps of 50, up to 2000) make players do arithmetic instead of strategy. Commenters said to use small whole numbers or at least drop a zero. This was the top-scoring advice in the thread.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "point": "A boring first prototype test is normal and not a verdict on the game. It is a signal to iterate, rework or step away for a while.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "point": "Cards with a readable personality become favorites and potential mascots. Several commenters named the same characters and read emotion into their art.",
+      "threads": [
+        "T6"
       ]
     }
   ],
   "splits": [
     {
-      "issue": "Is AI art acceptable on cards shown publicly during playtesting?",
-      "side_a": "It is fine as clearly labeled placeholder art, especially if there is a visible plan and progress toward real art.",
-      "side_b": "AI art is a dealbreaker; one commenter said they would switch games rather than play a TCG that uses it.",
-      "weight": "Both sides are thin. Side A is slightly heavier: about 3 commenters with roughly 8 points across one thread, vs 1 commenter with 4 points in another, and nobody replied to that comment.",
+      "issue": "Is AI art acceptable on cards shown in public?",
+      "side_a": "AI art is a dealbreaker. One commenter said they would switch games rather than play a TCG with AI art.",
+      "side_b": "AI art is fine as clearly labeled placeholder during playtesting, especially with a visible plan for hand-made final art.",
+      "weight": "Roughly even and thin: 1 commenter, 4 points vs 2 commenters, 4 points. Neither side sparked an extended debate.",
+      "side_a_commenters": 1,
+      "side_a_points": 4,
+      "side_b_commenters": 2,
+      "side_b_points": 4,
       "threads": [
-        "T9",
         "T1",
-        "T2"
+        "T9"
       ]
     },
     {
-      "issue": "How polished should an early printed prototype be?",
-      "side_a": "Keep it cheap and low-fidelity so it is easy to change. Commenters pushed this, and Post-it and hand-edited prototypes were shown working.",
-      "side_b": "A presentation-quality print-shop set is worth the spend for showing the game and testing with others.",
-      "weight": "No support counts are available. The summary says commenters favored cheap prototyping while the poster had chosen the costlier route, and the other threads only show the cheap side in practice.",
+      "issue": "How polished should an early prototype be?",
+      "side_a": "Commenters pushed cheap, low-fidelity prototyping for fast iteration.",
+      "side_b": "The poster had paid for a presentation-quality print-shop set.",
+      "weight": "Support counts unavailable. The tension was noted in one supporting thread only.",
+      "side_a_commenters": 0,
+      "side_a_points": 0,
+      "side_b_commenters": 0,
+      "side_b_points": 0,
       "threads": [
-        "S1",
-        "T7",
-        "T8"
+        "S1"
       ]
     }
   ],
   "design_lessons": [
     {
-      "lesson": "Strip a struggling prototype to its core loop. Test with vanilla units in a couple of strength tiers, then add abilities and resources one layer at a time, keeping each only if it makes decisions more interesting. This was the most-supported advice on a first playtest that felt boring.",
+      "lesson": "Strip the game to its core before adding layers. Test vanilla units in a couple of strength tiers, then add abilities and resources one at a time, keeping each only if it makes decisions more interesting. Over-layered systems were the main diagnosis for a boring first test.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Use small whole-number stats. Big inflated numbers shift effort from strategy to arithmetic, and this was the most-upvoted fix offered.",
       "threads": [
         "T3"
       ]
     },
     {
-      "lesson": "Use small whole-number stats, or at least drop the trailing zero, so players spend their thinking on strategy rather than arithmetic. Stats stepping in 50s up to 2000 drew this as the top-scoring fix.",
-      "threads": [
-        "T3"
-      ]
-    },
-    {
-      "lesson": "Watch for bookkeeping overload in the first real game. Tracking per-turn damage against defense proved too much to hold in memory, so combat was simplified to resolve all lanes at once.",
-      "threads": [
-        "T2",
-        "T3"
-      ]
-    },
-    {
-      "lesson": "Don't judge fun from solo tests alone. Playing yourself means no hidden information, no real opponent and constant rule-fixing, which can make a game feel flat. Get other players and note how much teaching they need.",
+      "lesson": "Don't trust solo tests alone. Playing yourself removes hidden information and stretches the game with constant rule fixes. Get other players and watch whether they have fun and how much teaching they need.",
       "threads": [
         "T3",
         "T8"
       ]
     },
     {
-      "lesson": "Keep early prototypes cheap and editable: Post-its over spare sleeved cards, pencil and scratch-outs, or price-tag stickers over old text (kept off sleeves, since the glue is hard to remove). That lets you revise card text mid-game.",
+      "lesson": "Watch for bookkeeping overload in the first game. Per-turn damage tracking that decremented defense was too much to remember, and resolving all lanes at once against base defense fixed it.",
       "threads": [
-        "T7",
-        "T8",
-        "S1"
+        "T2"
       ]
     },
     {
-      "lesson": "Decide what the resource system should do before building it. A hybrid where every card is also a resource effectively creates two resources and felt overbuilt, and a familiar model can be enough.",
+      "lesson": "Decide what your resource system is for before building it. A familiar model can be enough, and making every card a resource can quietly create two resources.",
       "threads": [
         "T3"
       ]
     },
     {
-      "lesson": "Make cards as self-explanatory as possible and add a short how-to-play explainer. Label unusual stats such as a cost called Weight, and state plainly whether bonuses like a combat triangle override stats or add to them.",
+      "lesson": "Make cards teach themselves. Label or iconize non-standard terms (a cost called Weight confused readers), and state plainly whether a combat-triangle advantage is a flat bonus or overrides stats.",
       "threads": [
         "T1",
-        "T9",
-        "T5",
-        "T6"
+        "T9"
       ]
     },
     {
-      "lesson": "A young child can serve as a clarity check. Two designers reported kids aged six and seven following their games, with only reading help in one case.",
+      "lesson": "Keep prototypes editable mid-session with pencil, scratch-outs, Post-its or cover-up stickers, so rules text can change during play. Avoid sticky labels on sleeves.",
+      "threads": [
+        "T8",
+        "T7",
+        "S1"
+      ]
+    },
+    {
+      "lesson": "Test cost against value. Check that a cheap creature can't easily kill a far more expensive one, so a card's cost reflects how long it stays relevant.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Playtesting with young kids is a quick clarity check. In two threads, children aged 6–7 followed the game, one with reading help.",
       "threads": [
         "T6",
         "T9"
       ]
     },
     {
-      "lesson": "Test whether cheap units can too easily kill expensive ones. One designer found this in playtesting and also credited a five-creature board cap with one-at-a-time attacks for keeping play light and readable.",
+      "lesson": "Have a short answer ready for resource-flow worries like mana screw, because new viewers ask about it.",
       "threads": [
-        "T4"
+        "T6"
       ]
     }
   ],
   "business_lessons": [
     {
-      "lesson": "Give people several ways to try the game: print-and-play files, a Tabletop Simulator build or a direct download, not just a Discord server. One interested commenter had quit Discord and needed a direct link.",
+      "lesson": "Pair playtest posts with a free print-and-play file and a short how-to-play video. Readers asked for rules after seeing art, and a video served as onboarding for testers.",
       "threads": [
+        "T4",
         "T5",
-        "T7",
-        "T1",
-        "T6",
-        "T4"
+        "T6"
       ]
     },
     {
-      "lesson": "An open playtest invite with real printed cards brings volunteers, but a request for harsh feedback still got only compliments. Give testers specific prompts if you want critique.",
+      "lesson": "Post a Tabletop Simulator or other digital build early. Viewers asked for one right away, and one designer turned an interested commenter into a TTS session.",
+      "threads": [
+        "T7",
+        "T1",
+        "S3"
+      ]
+    },
+    {
+      "lesson": "Open playtest invitations bring plenty of volunteers but mostly compliments. Give testers specific prompts to turn interest into critique.",
       "threads": [
         "T5"
       ]
     },
     {
-      "lesson": "A short how-to-play video works as onboarding for remote playtesters and pairs well with a print-and-play release.",
+      "lesson": "Don't make Discord the only way in. Offer a direct download and a DM feedback route for people who avoid the platform.",
       "threads": [
-        "T5",
-        "T4"
+        "T5"
       ]
     },
     {
-      "lesson": "If you show AI placeholder art, say so up front and show your plan for final art. Expect some players to reject AI art outright regardless.",
+      "lesson": "If you use AI art, label it as placeholder and show progress toward real art. That framing was received warmly, while unlabeled AI art risks losing some players outright.",
       "threads": [
         "T9",
         "T1"
       ]
     },
     {
-      "lesson": "Look beyond family for testers. One commenter pointed to BoardGameGeek's playtester and DIY forums, and public posts turned interest into a Discord TTS session.",
+      "lesson": "Look beyond family for testers. BoardGameGeek's forums were suggested for finding playtesters and DIY feedback.",
       "threads": [
-        "T6",
-        "T1"
-      ]
-    },
-    {
-      "lesson": "Have quick answers ready for the questions that follow a reveal: rules, set size and how resource problems like mana screw are handled.",
-      "threads": [
-        "T7",
-        "T6",
-        "T1"
+        "T6"
       ]
     }
   ],
   "debates": [
     {
-      "hook": "AI placeholder art on playtest cards: harmless stopgap or a turn-off for players?",
-      "why": "It surfaced across three threads. One commenter said AI art would make them switch games, while others accepted it as placeholder when a painted-art plan was shown. The tension is real but thinly supported on both sides.",
+      "hook": "AI art on playtest cards: dealbreaker or fine as a placeholder?",
+      "why": "One commenter said they'd never play a TCG with AI art, while another thread warmly accepted AI placeholders backed by a painted-art plan. Support is thin and evenly split, so frame it as an open question.",
       "threads": [
         "T1",
         "T9",
@@ -187,8 +236,16 @@
       ]
     },
     {
-      "hook": "Post-its on old cards or a print-shop prototype: which should come first?",
-      "why": "Commenters pushed cheap low-fidelity prototyping on a poster who paid for a polished print. Other designers credited Post-its and hand-edited cards for smooth iteration.",
+      "hook": "Solo playtesting: real signal, or does it lie to you?",
+      "why": "One designer's solo test 'went really well' while another's bored them. A detailed comment listed why solo tests distort fun, giving two contrasting experiences to weigh.",
+      "threads": [
+        "T3",
+        "T8"
+      ]
+    },
+    {
+      "hook": "Should your first prototype be scribbles or print-shop quality?",
+      "why": "Commenters pushed cheap, editable prototypes, while one designer spent on a presentation set, and Post-it and hand-drawn methods show the low-cost side.",
       "threads": [
         "S1",
         "T7",
@@ -196,32 +253,42 @@
       ]
     },
     {
-      "hook": "Solo playtesting your card game: useful signal or misleading?",
-      "why": "One designer's solo test went well, while a detailed, well-scored comment elsewhere explained why solo play distorts how fun a game feels.",
+      "hook": "Build a digital simulator before the rules are locked?",
+      "why": "One commenter challenged building a simulator early, and the designer defended it with a settled ruleset. Meanwhile readers across threads keep asking for digital versions.",
       "threads": [
-        "T3",
-        "T8"
+        "S2",
+        "T7"
       ]
     }
   ],
   "questions": [
     {
-      "hook": "A designer got bored playing their own game. Scrap it or strip it down?",
-      "why": "This was the most-advised problem in the chapter, with six commenters backing simplification and several saying first-test boredom is normal.",
+      "hook": "A designer asked for harsh feedback and got compliments. How do you get critique?",
+      "why": "Open playtest posts drew many volunteers and art praise but almost no mechanical critique, a pattern across most showcase threads here.",
+      "threads": [
+        "T5",
+        "T4",
+        "T2"
+      ]
+    },
+    {
+      "hook": "What does your very first playtest usually break?",
+      "why": "One first session forced a combat rewrite, and another left the designer bored. The fixes are concrete: simplify tracking, strip to vanilla, rethink resources.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "hook": "Why do card stats go up in 50s? Commenters said count in ones.",
+      "why": "This was the top-scoring advice on the boring-playtest thread and is an easy before/after to show on screen.",
       "threads": [
         "T3"
       ]
     },
     {
-      "hook": "Why do these card stats go up in 50s instead of ones?",
-      "why": "Small numbers were the top-scoring advice in the thread, and it is a fix that is easy to show on screen.",
-      "threads": [
-        "T3"
-      ]
-    },
-    {
-      "hook": "Designers post their cards, and the first reply is always: how does this play?",
-      "why": "Readers asked for rules or stat meanings across several showcase threads, which shows card photos don't teach the game.",
+      "hook": "People see your cards and ask how it plays. What's missing?",
+      "why": "Readers in several threads couldn't learn the game from photos and asked about rules, cost numbers and mana screw.",
       "threads": [
         "T1",
         "T6",
@@ -230,30 +297,12 @@
       ]
     },
     {
-      "hook": "A designer asked for harsh playtest feedback and got compliments. How do you get critique?",
-      "why": "Many people volunteered to test, but none gave mechanical criticism. Anyone running open playtests faces this gap.",
+      "hook": "Can a six-year-old learn your card game?",
+      "why": "Two kid-playtest posts drew strong upvotes and offer a simple clarity test any designer can try.",
       "threads": [
-        "T5",
-        "T1"
+        "T9",
+        "T6"
       ]
-    },
-    {
-      "hook": "What broke in a designer's very first playtest?",
-      "why": "Concrete first-test failures, such as combat bookkeeping and stat arithmetic, drew the most practical discussion in otherwise quiet threads.",
-      "threads": [
-        "T2",
-        "T3",
-        "T4"
-      ]
-    }
-  ],
-  "single_thread_agreement": [
-    {
-      "point": "A boring or rough first playtest is normal and is a signal to iterate, not a verdict on the game. The common fix is to strip the design back to a simpler core before adding complexity.",
-      "threads": [
-        "T3"
-      ],
-      "moved_from_consensus": true
     }
   ]
 }

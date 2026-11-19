@@ -4,7 +4,7 @@
 
 ## TL;DR
 
-These threads keep asking one question: can someone who glimpses a card back read the game's name and recognise the product? The most-supported answers favour readability and the full title over cleaner or more stylised marks. The Everdawn vote strongly favoured the full name, and the TAG redesign lost points for legibility. A second thread of advice: judge backs the way they are seen in play, as a fanned hand where only slivers show, so colour and border shapes matter more than central icons.
+These threads keep testing one thing: whether a card back still says what game it is at a glance, in a fanned hand, to a stranger. Commenters mostly favored the readable option over the stylish one. They backed full titles over lone emblems and the more legible logo over the more dynamic redesign. The most useful takeaway is to treat the back as a discovery and marketing surface: put the name on it, keep it readable, and mock it up as a fanned hand before deciding.
 
 ## How hot it is
 
@@ -15,75 +15,79 @@ These threads keep asking one question: can someone who glimpses a card back rea
 
 ## Consensus
 
-- The artwork and custom lettering in these card back threads were broadly praised. Critique focused on readability and recognition rather than taste. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- A card back should let someone who has never heard of the game identify it and look it up. Even commenters who preferred a minimal emblem conceded that a nameless back is risky for a new game. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Logo legibility at a glance matters more than stylistic flair. Commenters flagged overlapping text, stylized letterforms and small subtitles that make the name hard to read. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- Judge a card back the way it is seen in play, as a fanned hand where only a slice of each card shows. Large color areas and border shapes carry recognition there; centered icons and logos do not. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
 
 **Agreed within a single thread:**
 
-- Across camps, commenters treated a card back with no readable game name as a risk for a new, unknown game. Even some who preferred the cleaner single-letter Everdawn back conceded it. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- Secondary text laid over the main title hurts legibility and should be moved into its own band or truly merged into the letterforms. In the TAG thread, people who preferred the old logo and people who preferred the new one both said this. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Placing katakana on top of the English TAG letters hurt legibility. Supporters of both the old and new logo said it should be moved, separated or properly merged into the letterforms. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- In the final round of TAG card backs, the community clearly preferred Option 2 over Option 1. Many commenters voted with one word, and only one picked Option 1. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- Commenters broadly praised the Everdawn artwork and custom font regardless of which back they preferred. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
 
 ## Hot takes and splits
 
 ### Full game title or a single-letter emblem on the card back
 
-- **One side:** Use the full name: it markets the game, identifies a loose card instantly and matches established TCGs.
-- **Other side:** Use the lone 'E' emblem: it is cleaner, more elegant and feels more like a tarot card.
-- **Weight:** Side A clearly heavier: 16 commenters, 101 points vs 6 commenters, 31 points ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- **One side:** Use the full title: it markets the game, identifies it instantly and matches what other TCGs do.
+- **Other side:** Use the lone 'E' emblem: it is cleaner, more elegant and feels like a tarot card.
+- **Weight:** Side A clearly heavier: 16 commenters, 101 points vs 6 and 31. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
 
-### Readable older logo vs more dynamic redesign
+### Old readable logo or new more dynamic logo
 
-- **One side:** Keep the old logo because the name reads at a glance.
-- **Other side:** The new logo looks cooler, cleaner and more energetic.
-- **Weight:** Side A heavier by points: 7 commenters, 28 points vs 6 commenters, 9 points ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- **One side:** Keep the old logo because it reads at a glance.
+- **Other side:** Go with the new logo because it looks cooler, cleaner and more dynamic.
+- **Weight:** Side A heavier on points: 7 commenters, 28 points vs 6 and 9. The commenter counts are close, so the new-logo camp was vocal but drew less support. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
 
-### Whether the back should carry a 'TRADING CARD GAME' subtitle
+### Should the card back include a 'TRADING CARD GAME' subtitle
 
-- **One side:** Keep it, because otherwise viewers may not know what the product is.
+- **One side:** Keep it, because it tells new viewers what kind of product they are looking at.
 - **Other side:** Keep the layout but drop the English subtitle line.
-- **Weight:** Small sample; dropping it leaned slightly ahead, 2 commenters and 6 points vs 2 and 2 ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- **Weight:** Small sample, slightly toward dropping it: 2 commenters, 6 points vs 2 and 2. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
 
-### White logo outline vs an outline in the background's accent colour
+### White logo outline or outline matched to the accent color
 
-- **One side:** Recolour the outline to aqua so the logo feels integrated rather than stuck on.
-- **Other side:** Keep the white, because a palette of only black, magenta and aqua would blend together and hurt readability.
-- **Weight:** Tiny side discussion: 2 commenters, 3 points vs 1 commenter, 1 point ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- **One side:** Recolor the outline to aqua so the logo feels integrated rather than stuck on.
+- **Other side:** Keep white, because black, magenta and aqua alone would blend together and hurt readability.
+- **Weight:** Tiny side debate, slight lean toward recoloring: 2 commenters, 3 points vs 1 and 1. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
 
 ## Design lessons
 
-- Test the logo on the back with fresh eyes for legibility at a glance. A more dynamic redesign can bury the name: one viewer did not notice the English letters at first. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- Mock backs up as a fanned hand, not just flat. Only a slice of each card shows in hand, so border shapes and large colour areas carry recognition while the logo is mostly covered. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/), [T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- If a special card needs its own back (like Cyclemental's Qi), give it a different base colour rather than a small centre icon, which disappears in a held hand. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- Do not stack a second script on top of the main title. Give it a separate tagline band or properly merge it into the letter shapes. Watch small fixes too, such as a covered 'A' starting to read as a triangle. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
-- Colour drives recognisability from a distance. Two commenters suggested a mostly dark, monochrome back risks looking bland, so let some signature colour carry onto it, even as a tint. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- When a title overlaps a central emblem, check the balance. A smaller name tucked below or faded behind the emblem can keep both clean elegance and identification. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- Decide whether the back should say what the product is (e.g. 'trading card game'), and test versions with and without it, since it informs newcomers but can crowd the logo. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
-- Integrate the logo with the art: textured or painted edges for hand-painted backs, and consistent letter widths and a single vanishing point for 3D lettering. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
-- Don't count on a subtle graphic on the back, like arrow direction, to teach a rule. If players only understand it once told, treat it as a reminder and keep the rule written elsewhere. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- Check a new logo for accidental resemblance to existing marks. One commenter linked the TAG redesign to an existing artist's logo. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
-- Verify legibility with a home printout read by friends or family before a print run, and pair a characterful title font with a plain body font. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- Put the full game name on the back while the game is unknown. Commenters noted that simplified marks like a single letter work for brands people already recognize, which a new game does not have yet. Consider keeping an emblem dominant with the name smaller below or behind it. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Test logo legibility with fresh eyes before committing to a stylized redesign. A more dynamic version can bury the name; in one case a viewer did not notice the English letters at first, and a partly covered A read as a triangle. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Do not lay a second script over the main title. Either put it in a separate tagline band or truly merge it into the letterforms so neither text is obscured. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Mock backs up as a fanned hand. If a special card must be recognizable from the back, use a large area of different base color rather than a small center icon, because only a thin slice of each card shows. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- Color is a big part of what makes a back recognizable from a distance. A dark monochrome back can read as bland, so let some signature color carry over, even as a tint. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- Check whether the back says what the product is, not just its name. A descriptor like 'trading card game' helps newcomers but can crowd the logo, so compare versions with and without it. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- Make the logo treatment belong to the art: add texture to the edges of a hand-painted logo or paint it, and weigh outline color carefully. A contrasting outline aids readability but can look pasted on; a matched accent color integrates the logo but can blend in. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- Emblem-versus-title choices signal genre. One commenter said the lone emblem read as tarot while the titled version read as a TCG. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- Do not rely on a subtle graphic, such as the direction of brush-stroke arrows, to teach a rule. If players only get it after being told, treat it as a reminder and keep the rule explicit elsewhere. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- For 3D or extruded lettering, unify letter widths and use one vanishing point, so the effect looks deliberate rather than messy. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- Pair a characterful display font with a plain body font, and verify legibility with a home printout read by friends rather than measurements alone. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
 
 ## Business and Kickstarter lessons
 
-- For a game nobody knows yet, treat every card back as a free ad. Put the full, searchable name on it. Simplified marks work for famous brands, so save monograms for places where the full name already appears. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
-- Test a short-form monogram before using it for social media or watermarks. One commenter pushed back on the proposed 'ED' short form. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- Posting design iterations in rounds built a following for the TAG designer, with commenters offering to playtest and join an email list. An email signup captures that interest. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [S3](https://www.reddit.com/r/homemadeTCGs/comments/1p8zisv/after_several_posts_on_both_frontback_designs_im/))
-- Check commercial font licences early. Display fonts from free libraries may need an expensive licence for a sold game. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- Every loose card seen in public is a free marketing impression. A readable full name on the back lets a curious person search for the game. Save abbreviated marks for places where the full name already appears. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/), [T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Iterating on the card back in public over several posts built goodwill. Commenters offered to follow the game, playtest and join the email list, so have a signup ready to capture that interest. The finished version later drew the highest upvotes of the TAG series. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/), [S3](https://www.reddit.com/r/homemadeTCGs/comments/1p8zisv/after_several_posts_on_both_frontback_designs_im/))
+- Test a short-form monogram before using it for social media and watermarks; one suggested monogram drew immediate pushback. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- Check a new logo for unintended resemblance to existing marks. One redesign was compared to an existing music artist's logo. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- Check font licensing before committing to a display font for a commercial release, because commercial licenses can be expensive. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
 
 ## Content ideas
 
 ### Debates to weigh in on
 
-- **"Full game name or just a logo on the card back?"** The biggest vote in the chapter: 16 commenters and 101 points backed the full name against 6 and 31 for the emblem. The minority had a real aesthetic argument, so there is something to weigh in on. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- **"Readable logo or exciting logo: which matters more on a card back?"** The old TAG logo outscored the new one on readability (28 vs 9 points), yet new-logo fans were nearly as numerous, so the trade-off is live. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
-- **"Should a card back spell out 'trading card game'?"** Option 2 won the TAG vote, but commenters split on its English subtitle: some said it clarifies the product, others wanted it gone. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
-- **"Dark, moody card backs versus bright, colourful ones: which reads better?"** Commenters on Cyclemental said colour is what makes famous backs recognisable from afar, while the poster noted lighter backs show dirt. Support is thin but the practical tension is relatable. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- **"Full game title or a clean single emblem on the card back?"** The most-discussed thread here split 16 commenters and 101 points for the full name against 6 and 31 for the emblem. Both sides gave reasons, from marketing to tarot-like elegance. ([T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- **"Readable logo or cooler logo: which matters more on a card back?"** In the TAG redesign, the old logo won on points for readability while new-logo fans were nearly as numerous, so there is a clear trade-off to weigh. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- **"Should a card back spell out 'trading card game', or is the logo enough?"** Commenters on the winning option split on the subtitle. One said they would not know it was a TCG without it; others wanted it gone. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- **"Dark, moody card backs versus bright colorful ones: which reads as iconic?"** Commenters argued color is what makes famous backs recognizable from afar, while the poster weighed practical concerns like lighter backs showing dirt. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
 
 ### Recurring questions to answer
 
-- **"If a stranger finds one of your cards, can they search for it?"** The 10-point comment in the TAG logo thread called the back a discovery tool, and the Everdawn thread's top business argument made the same case for the full name. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
-- **"What does your card back look like in a fanned hand?"** The TAG designer posted fanned-hand mockups that drove the feedback, and a Cyclemental critique noted that only slivers show, so centre icons fail. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/), [T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- **"What actually makes a card back iconic: colour, symbol, or texture?"** The Cyclemental poster asked this directly, and answers ranged from colour like MTG and Pokemon to bolder swirl art, giving room for an explainer. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
-- **"How do you add a second language to a logo without breaking it?"** Seven commenters, nearly half the TAG thread's points, flagged the overlapping katakana. Suggestions ranged from a separate tagline to true letterform integration. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/))
+- **"Can you spot your special card from the back in a fanned hand?"** Critique of a distinct back noted that a center icon disappears when only a slice shows, and another designer mocked up fanned hands to judge options. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/), [T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
+- **"If a stranger finds one of your cards, can they search for the game?"** Framing the back as a discovery tool drew one of the highest-scoring comments in its thread, and the full-name camp leaned on the same marketing logic. ([T4](https://www.reddit.com/r/homemadeTCGs/comments/1p5nj47/feedback_on_new_logocard_back/), [T2](https://www.reddit.com/r/homemadeTCGs/comments/1stnuxh/i_need_your_help_in_deciding_on_our_card_design/))
+- **"What actually makes a card back iconic: color, symbol or texture?"** The poster asked this directly, and answers ranged from bold color to a bigger swirl to logo texture. That leaves room to compare examples. ([T1](https://www.reddit.com/r/homemadeTCGs/comments/1ukcxhg/card_back_design_for_cyclemental_need_feedback/))
+- **"White outline or matching accent color: how should a logo sit on the back?"** A small side debate pitted integration against readability, a concrete choice most designers face when placing a logo. ([T3](https://www.reddit.com/r/homemadeTCGs/comments/1p6g6ye/ok_last_time_then_ill_leave_you_guys_alone/))
 
 ## Threads
 
