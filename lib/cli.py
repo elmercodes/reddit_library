@@ -278,6 +278,38 @@ def image_notes(
                 print(f"    {line}")
 
 
+@app.command("extract")
+def extract(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    ids: str = typer.Option(None, help="Comma-separated post IDs (direct calls, for examples/reruns)"),
+    batch: bool = typer.Option(None, "--batch/--no-batch", help="Override config `batch` for this run"),
+) -> None:
+    """Phase 4: per-thread structured summaries -> data/threads/<id>.json (y/N)."""
+    from pipeline.extract import run
+    run(sub, ids=[i.strip() for i in ids.split(",") if i.strip()] if ids else None, use_batch=batch)
+
+
+@app.command("extract-collect")
+def extract_collect() -> None:
+    """Finish any submitted extraction batches (if a run was interrupted)."""
+    from lib.store import read_json
+    from pipeline.extract import collect_batch
+    jobs = read_json(C.DATA / "pending_batches.json", default={})
+    if not jobs:
+        print("No pending batches.")
+    for batch_id in list(jobs):
+        collect_batch(batch_id)
+
+
+@app.command("show-thread")
+def show_thread(post_id: str = typer.Argument(...)) -> None:
+    """Print a thread's structured summary JSON (free)."""
+    import json as _json
+    from lib.store import read_json
+    data = read_json(C.THREADS / f"{post_id}.json")
+    print(_json.dumps(data, indent=2, ensure_ascii=False) if data else f"No summary for {post_id} yet.")
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""
