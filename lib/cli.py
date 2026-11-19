@@ -331,6 +331,37 @@ def chapters(
     show(sub) if show_only else propose(sub)
 
 
+@app.command("write-book")
+def write_book(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    slugs: str = typer.Option(None, help="Comma-separated chapter slugs to (re)write"),
+    batch: bool = typer.Option(True, "--batch/--no-batch", help="Use the Batch API (50% off)"),
+) -> None:
+    """Phase 5 Steps B+C: write chapters (Opus, y/N) and the book index."""
+    from pipeline.write import run
+    run(sub, slugs=[x.strip() for x in slugs.split(",") if x.strip()] if slugs else None, use_batch=batch)
+
+
+@app.command("write-collect")
+def write_collect() -> None:
+    """Finish any submitted chapter-writing batches."""
+    from lib.store import read_json
+    from pipeline.write import PENDING, collect
+    jobs = read_json(PENDING, default={})
+    if not jobs:
+        print("No pending chapter batches.")
+    for batch_id in list(jobs):
+        collect(batch_id)
+
+
+@app.command("book-index")
+def book_index(sub: str = typer.Option(..., help="Subreddit name")) -> None:
+    """Rebuild books/<sub>/index.md from the plan and written chapters (free)."""
+    from pipeline.write import write_index
+    write_index(sub)
+    print(f"Wrote books/{sub}/index.md")
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""
