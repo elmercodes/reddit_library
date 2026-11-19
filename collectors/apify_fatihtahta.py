@@ -116,6 +116,7 @@ class FatihtahtaCollector(Collector):
             image_urls=images,
             link_url=None if i.get("is_self") else dest,
             nsfw=bool(i.get("over_18")),
+            author=i.get("author"),
         )
 
     @staticmethod
@@ -128,4 +129,5 @@ class FatihtahtaCollector(Collector):
             score=int(i.get("score") or 0),
             body=i.get("body") or "",
             created_utc=i.get("created_utc"),
+            author=i.get("author"),
         )

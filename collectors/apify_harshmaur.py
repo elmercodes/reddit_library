@@ -119,6 +119,7 @@ class HarshmaurCollector(Collector):
             image_urls=images,
             link_url=link,
             nsfw=bool(i.get("over18") or i.get("isNsfw")),
+            author=i.get("username") or i.get("authorName") or i.get("author"),
         )
 
     @staticmethod
@@ -131,4 +132,5 @@ class HarshmaurCollector(Collector):
             score=int(i.get("commentUpVotes") or i.get("score") or i.get("upVotes") or 0),
             body=i.get("body") or "",
             created_utc=i.get("commentCreatedAt") or i.get("createdAt"),
+            author=i.get("username") or i.get("authorName") or i.get("author"),
         )

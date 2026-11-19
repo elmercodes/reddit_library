@@ -21,30 +21,40 @@ from .describe_images import notes_path
 
 MAX_POST_CHARS = 6000
 MAX_COMMENT_CHARS = 1500
-EST_OUTPUT_TOKENS = 1100
+EST_OUTPUT_TOKENS = 1800   # measured ~1,400 before evidence lists; +evidence
 CHARS_PER_TOKEN = 3.8
+
+EVIDENCE = {"type": "array", "items": {"type": "string"}}
+
+
+def _item(text_key: str) -> dict:
+    return {"type": "object",
+            "properties": {text_key: {"type": "string"}, "evidence": EVIDENCE},
+            "required": [text_key, "evidence"], "additionalProperties": False}
+
 
 SCHEMA = {
     "type": "object",
     "properties": {
         "topics": {"type": "array", "items": {"type": "string"}},
         "summary": {"type": "string"},
-        "consensus": {"type": "array", "items": {"type": "string"}},
+        "consensus": {"type": "array", "items": _item("point")},
+        "notable_points": {"type": "array", "items": _item("point")},
         "disagreements": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
                     "issue": {"type": "string"},
-                    "side_a": {"type": "string"},
-                    "side_b": {"type": "string"},
+                    "side_a": {"type": "string"}, "side_a_evidence": EVIDENCE,
+                    "side_b": {"type": "string"}, "side_b_evidence": EVIDENCE,
                 },
-                "required": ["issue", "side_a", "side_b"],
+                "required": ["issue", "side_a", "side_a_evidence", "side_b", "side_b_evidence"],
                 "additionalProperties": False,
             },
         },
-        "design_lessons": {"type": "array", "items": {"type": "string"}},
-        "business_lessons": {"type": "array", "items": {"type": "string"}},
+        "design_lessons": {"type": "array", "items": _item("lesson")},
+        "business_lessons": {"type": "array", "items": _item("lesson")},
         "content_ideas": {
             "type": "array",
             "items": {
@@ -53,14 +63,15 @@ SCHEMA = {
                     "type": {"type": "string", "enum": ["debate", "question"]},
                     "hook": {"type": "string"},
                     "why_it_lands": {"type": "string"},
+                    "evidence": EVIDENCE,
                 },
-                "required": ["type", "hook", "why_it_lands"],
+                "required": ["type", "hook", "why_it_lands", "evidence"],
                 "additionalProperties": False,
             },
         },
     },
-    "required": ["topics", "summary", "consensus", "disagreements", "design_lessons",
-                 "business_lessons", "content_ideas"],
+    "required": ["topics", "summary", "consensus", "notable_points", "disagreements",
+                 "design_lessons", "business_lessons", "content_ideas"],
     "additionalProperties": False,
 }
 
@@ -79,9 +90,41 @@ def _image_notes(post_id: str) -> dict | None:
                        for i in notes["images"]]}
 
 
+_AUTHORS: dict | None = None
+
+
+def _author_index() -> dict:
+    """comment/post id -> author, from saved raw Apify runs (threads fetched before authors
+    were stored in data/raw/<sub>/<id>.json)."""
+    global _AUTHORS
+    if _AUTHORS is None:
+        _AUTHORS = {}
+        for f in (C.RAW / "_runs").glob("*.json"):
+            for i in (read_json(f) or {}).get("items", []):
+                rid = str(i.get("id") or "").split("_")[-1]
+                author = i.get("author") or i.get("username") or i.get("authorName")
+                if rid and author:
+                    _AUTHORS[rid] = author
+    return _AUTHORS
+
+
+def numbered_comments(raw: dict) -> list[dict]:
+    """Comments with stable IDs C1..Cn, author, and whether the author is the original poster."""
+    post = raw["post"]
+    op = post.get("author") or _author_index().get(post["id"])
+    out = []
+    for n, c in enumerate(raw["comments"], start=1):
+        author = c.get("author") or _author_index().get(c["id"])
+        out.append({**c, "cid": f"C{n}", "author": author,
+                    "is_op": bool(op and author and author == op)})
+    return out
+
+
 def render_thread(raw: dict, image_notes: dict | None) -> str:
-    """The thread as plain text for the model: post, numbers, image notes, comment tree."""
+    """The thread as plain text for the model: post, numbers, image notes, numbered comment tree."""
     p = raw["post"]
+    comments = numbered_comments(raw)
+    community = [c for c in comments if not c["is_op"]]
     lines = [
         f"Subreddit: r/{p['subreddit']}",
         f"Title: {p['title']}",
@@ -97,12 +140,62 @@ def render_thread(raw: dict, image_notes: dict | None) -> str:
                       f"what the poster asks: {image_notes['what_is_asked']}"]
         for n, img in enumerate(image_notes["images"], start=1):
             lines.append(f"[Image {n}] {img['description']}")
-    lines += ["", f"Top comments (Best order, {len(raw['comments'])} shown):"]
-    for c in raw["comments"]:
+    total = sum(max(c["score"], 0) for c in community)
+    lines += ["", f"Top comments (Best order, {len(comments)} shown; community comments total {total} points):"]
+    for c in comments:
         indent = "    " * min(c["depth"], 4)
         body = " ".join(c["body"].split())[:MAX_COMMENT_CHARS]
-        lines.append(f"{indent}- ({c['score']} pts) {body}")
+        tag = " [OP]" if c["is_op"] else ""
+        lines.append(f"{indent}- {c['cid']} ({c['score']} pts){tag} {body}")
     return "\n".join(lines)
+
+
+def support(evidence: list[str], by_cid: dict, total_points: int) -> dict:
+    """Points, comments and distinct commenters behind a claim. OP replies never count."""
+    cited = [by_cid[e] for e in dict.fromkeys(evidence) if e in by_cid and not by_cid[e]["is_op"]]
+    points = sum(max(c["score"], 0) for c in cited)
+    authors = {c["author"] or c["cid"] for c in cited}
+    return {"comments": len(cited), "commenters": len(authors), "points": points,
+            "share": round(points / total_points, 3) if total_points else 0.0}
+
+
+def apply_support(raw: dict, fields: dict) -> dict:
+    """Attach support counts to every claim and enforce the consensus bar in code."""
+    cfg = C.config().get("extraction", {})
+    min_commenters = cfg.get("consensus_min_commenters", 2)
+    min_share = cfg.get("consensus_min_share", 0.15)
+    comments = numbered_comments(raw)
+    by_cid = {c["cid"]: c for c in comments}
+    total = sum(max(c["score"], 0) for c in comments if not c["is_op"])
+
+    consensus, notable = [], []
+    for item in fields["consensus"]:
+        item["support"] = support(item["evidence"], by_cid, total)
+        s_ = item["support"]
+        if s_["commenters"] >= min_commenters and s_["share"] >= min_share:
+            consensus.append(item)
+        else:
+            item["demoted_from_consensus"] = True
+            notable.append(item)
+    for item in fields["notable_points"]:
+        item["support"] = support(item["evidence"], by_cid, total)
+        notable.append(item)
+    fields["consensus"] = sorted(consensus, key=lambda x: -x["support"]["points"])
+    fields["notable_points"] = sorted(notable, key=lambda x: -x["support"]["points"])
+
+    splits = []
+    for d in fields["disagreements"]:
+        d["side_a_support"] = support(d["side_a_evidence"], by_cid, total)
+        d["side_b_support"] = support(d["side_b_evidence"], by_cid, total)
+        if d["side_a_support"]["comments"] and d["side_b_support"]["comments"]:
+            splits.append(d)  # a "split" with no cited comments on one side is dropped
+    fields["disagreements"] = splits
+    for key in ("design_lessons", "business_lessons", "content_ideas"):
+        for item in fields[key]:
+            item["support"] = support(item["evidence"], by_cid, total)
+    fields["comment_points_total"] = total
+    fields["comment_ids"] = {c["cid"]: c["id"] for c in comments}
+    return fields
 
 
 def build_messages(raw: dict, image_notes: dict | None) -> list:
@@ -128,6 +221,7 @@ def estimate(raws: dict[str, dict], batch: bool) -> tuple[float, int, int]:
 
 
 def assemble(raw: dict, fields: dict, model: str, cost: float) -> dict:
+    fields = apply_support(raw, fields)
     p = raw["post"]
     pid = p["id"]
     return {
@@ -272,3 +366,42 @@ def collect_batch(batch_id: str) -> None:
     write_json(pending, jobs)
     print(f"\nBatch done: {spend.calls} threads extracted for ${spend.usd:.5f} "
           f"(estimate ${job['est_usd']:.5f}). Failed: {len(failed)} {failed or ''}")
+
+
+def compare(sub: str, ids: list[str], models: list[str]) -> None:
+    """Run the same threads on several models (direct calls) into data/threads/_compare/<model>/.
+
+    Does not touch data/threads/<id>.json or the ledger. One estimate, one y/N for all models.
+    """
+    models = [claude.resolve_model(m) for m in models]
+    raws = {pid: read_json(C.RAW / sub / f"{pid}.json") for pid in ids}
+    raws = {k: v for k, v in raws.items() if v}
+    est = costs.Estimate(f"Phase 4 model comparison on {len(raws)} r/{sub} threads")
+    sys_tokens = int(len((C.PROMPTS / "extract_thread.md").read_text()) / CHARS_PER_TOKEN) + 600
+    for m in models:
+        tin = sum(sys_tokens + int(len(render_thread(r, _image_notes(p))) / CHARS_PER_TOKEN) for p, r in raws.items())
+        tout = EST_OUTPUT_TOKENS * len(raws)
+        est.add(f"{len(raws)} threads on {m}", f"~{tin:,} in / {tout:,} out", costs.claude_cost(m, tin, tout))
+    if not costs.confirm(est):
+        print("Cancelled. Nothing was sent to Claude.")
+        return
+    for m in models:
+        spend = claude.Spend()
+        run_id = costs.new_run_id("phase4-compare")
+        try:
+            for pid, raw in raws.items():
+                try:
+                    fields, cost, usage = claude.call("extract", build_messages(raw, _image_notes(pid)),
+                                                      system=system_prompt(), schema=SCHEMA,
+                                                      max_tokens=16000, model=m)
+                except claude.ClaudeError as e:
+                    print(f"  {m} {pid}: {e}")
+                    continue
+                spend.add(cost, usage)
+                write_json(C.THREADS / "_compare" / m / f"{pid}.json", assemble(raw, fields, m, cost))
+                print(f"  {m:<18} {pid} {raw['post']['title'][:50]}  ${cost:.5f}")
+        finally:
+            if spend.calls:
+                costs.log(run_id, "phase4", "anthropic", m, f"r/{sub} extraction comparison ({spend.calls} threads)",
+                          spend.units(), est.items[models.index(m)].usd, spend.usd)
+        print(f"{m}: ${spend.usd:.5f} for {spend.calls} threads")

@@ -90,6 +90,17 @@ images:
   skip_keywords: [meme, haul, collection, pulled, unboxing, shitpost]
 
 # ---------------------------------------------------------------------------
+# Extraction (Phase 4)
+# ---------------------------------------------------------------------------
+extraction:
+  # A "consensus" point must be backed by at least this many distinct commenters
+  # (original-poster replies never count)...
+  consensus_min_commenters: 2
+  # ...whose comments carry at least this share of the thread's comment points.
+  # Points below the bar are moved to notable_points by code.
+  consensus_min_share: 0.15
+
+# ---------------------------------------------------------------------------
 # Claude models (pipeline). VERIFY IDs and prices before Phase 3.
 # ---------------------------------------------------------------------------
 models:

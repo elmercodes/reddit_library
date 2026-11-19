@@ -289,6 +289,17 @@ def extract(
     run(sub, ids=[i.strip() for i in ids.split(",") if i.strip()] if ids else None, use_batch=batch)
 
 
+@app.command("extract-compare")
+def extract_compare(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    ids: str = typer.Option(..., help="Comma-separated post IDs"),
+    models: str = typer.Option("haiku,sonnet", help="Comma-separated models to compare"),
+) -> None:
+    """Run the same threads on several models into data/threads/_compare/ (one y/N)."""
+    from pipeline.extract import compare
+    compare(sub, [i.strip() for i in ids.split(",") if i.strip()], [m.strip() for m in models.split(",")])
+
+
 @app.command("extract-collect")
 def extract_collect() -> None:
     """Finish any submitted extraction batches (if a run was interrupted)."""

@@ -15,6 +15,7 @@ class Comment:
     score: int
     body: str
     created_utc: str | None = None
+    author: str | None = None
 
 
 @dataclass
@@ -33,6 +34,7 @@ class Post:
     image_urls: list[str] = field(default_factory=list)
     link_url: str | None = None
     nsfw: bool = False
+    author: str | None = None
 
 
 @dataclass
