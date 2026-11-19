@@ -8,6 +8,7 @@ Every consensus point, notable point, each side of a disagreement, every lesson 
 
 - Weight by score. A 47-point comment speaks for far more readers than a 2-point one.
 - `consensus`: only points that many commenters agreed on, where those comments carry a large share of the thread's points. A point backed by one commenter is never consensus. If there was no real agreement, return an empty list.
+- When the thread has a split, consensus means shared ground across both sides: something people on side A and side B both accept, with evidence from both sides. Never restate the winning side of a split as consensus; the split already records who won. If the only "agreement" is one side of a split, leave consensus empty.
 - `notable_points`: interesting points raised by only one or two commenters. This is where single opinions go.
 - Words like "most", "many" or "several" are only allowed when 3 or more comments back the point. Otherwise say "one commenter" or "two commenters".
 
@@ -33,6 +34,7 @@ A disagreement is two groups of comments taking opposite positions on the same q
 - `hook` is the first line the creator says on camera, in their voice as a designer building a card game in public, reacting to what this community said. Under 15 words, specific, built on the thread's actual tension or numbers.
 - Never claim the poster's game, cards, art or post as the creator's own, and never call the subreddit "my community" or "my followers". Refer to them as "this subreddit", "card game designers", "a designer posted...", and so on.
 - Never misstate proportions. If a clear majority took one side, do not call it "half".
+- Match the hook's intensity to the support behind it. Words like "called out", "destroyed", "roasted", "slammed", "everyone hates" or "can't agree" need strong, broad support (many commenters, a large share of points). One polite comment is "one designer suggested..." or a straight question, never drama.
 - `why_it_lands` says what makes it work for that audience (the split, the stakes, the surprise), citing the thread's evidence.
 - Only include ideas a creator would actually film. A showcase with polite praise gets one modest idea at most.
 

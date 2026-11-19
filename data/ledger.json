@@ -17,8 +17,8 @@
       "images_done": "described",
       "images_described": 1,
       "images_model": "claude-sonnet-5-5",
-      "extracted_at": "2026-11-19T04:43:50+00:00",
-      "extract_model": "claude-haiku-5-5"
+      "extracted_at": "2026-11-19T04:55:21+00:00",
+      "extract_model": "claude-sonnet-5-5"
     },
     "1m4x1yq": {
       "fetched_at": "2026-11-19T04:05:17+00:00",

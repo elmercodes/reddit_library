@@ -12,47 +12,298 @@
   "topics": [
     "ai art",
     "placeholder art",
-    "subreddit rules",
-    "card art"
+    "subreddit moderation",
+    "art commissions"
   ],
-  "summary": "The poster asks whether AI art, even as placeholder, should be banned from r/homemadeTCGs, and offers a placeholder-art card (ATLAS BUSTER, with a gray question-mark art box) as an example of a non-AI alternative. The thread drew a lot of pushback on the idea of a ban, though most commenters who replied were personally against AI art. The most upvoted comments opposed AI for final products and called for at least labeling, while a strong contingent defended AI for playtesting, arguing placeholder art helps communicate card function and that commissioning art is unaffordable for many. The temperature is heated and split, with many commenters expecting a ban wouldn't pass even if they supported one.",
+  "summary": "A poster asked whether AI art, even as placeholder art, should be banned from r/homemadeTCGs, using a gray question-mark placeholder card (Atlas Buster) as the alternative. The thread split. Ban supporters clearly outweighed opponents by score, but several top commenters noted a ban was unlikely given how common AI art is. Opponents argued that placeholders are a workflow tool and that commissions are unaffordable for many. Tone was mostly blunt and somewhat heated, with a shared middle ground on labeling AI art.",
   "consensus": [
-    "Using AI art in a final, released product is widely criticized and seen as misleading if undisclosed.",
-    "At minimum, AI-generated art should be clearly tagged or disclosed on posts and cards.",
-    "Commenters broadly agree that hand-drawn sketches or simple stock placeholders are a respectable alternative to AI art."
+    {
+      "point": "Both sides accept that AI art used in a final commercial product is the worse case, and that AI use should at least be disclosed or tagged. Several commenters on each side asked for labeling as a minimum.",
+      "evidence": [
+        "C10",
+        "C12",
+        "C22",
+        "C23",
+        "C8"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 51,
+        "share": 0.171
+      }
+    }
+  ],
+  "notable_points": [
+    {
+      "point": "One commenter said the better the placeholder looks, the more ideas they get for the game, and noted that many posted games are just concepts that never ship.",
+      "evidence": [
+        "C15"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 29,
+        "share": 0.097
+      }
+    },
+    {
+      "point": "One commenter said art is not central to TCG design discussion, so the sub works better as a design space when art isn't the focus. The same comment pointed to the HTCG Discord's rule of no AI on main channels, only in personal threads.",
+      "evidence": [
+        "C7"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 26,
+        "share": 0.087
+      }
+    },
+    {
+      "point": "One commenter argued that placeholder art does real design work: flavor and visuals communicate mechanics (e.g. flying in Magic, fire = damage), and distinct art makes cards readable across the table.",
+      "evidence": [
+        "C24"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "Commenters compared hand-drawn sketch placeholders favorably to both nothing and AI, ranking sketches above blanks above AI. One also said sketches were their favorite posts here.",
+      "evidence": [
+        "C18"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 5,
+        "share": 0.017
+      }
+    },
+    {
+      "point": "Two commenters disputed the cost narrative. One said commissioning around 300 art pieces for an RPG costs about 15k. Another said their TCG alpha set cost only 3-4k for roughly 180 commissioned pieces after doing about 120 pieces themselves.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.017
+      }
+    }
   ],
   "disagreements": [
     {
-      "issue": "Whether AI art should be banned from the subreddit, even for placeholders",
-      "side_a": "Supporters of a ban, including the highest-upvoted comment (47 pts) and several others (26, 37, 22 pts), argue AI has no place in a creative hobby and that a ban or dedicated rule is needed; the HTCG Discord's no-AI-on-main policy was cited as a model.",
-      "side_b": "Opponents (6 and 29 pts, plus a few others) argue placeholder use is a workflow choice, that bans would be a purity test, and that cost barriers make commissions unrealistic; they favor labeling or leaving it to individuals. Several commenters doubted a ban would pass anyway."
-    },
-    {
-      "issue": "Whether placeholder art is a meaningful design tool",
-      "side_a": "Commenters (about 12 and 29 pts) say strong placeholder art, including AI-generated, helps test structure, communicate mechanics and generate ideas, and that art direction teaches rules visually.",
-      "side_b": "Critics (2 and 5 pts) say that art doesn't matter to mechanics testing, that the sub should be a game-design space rather than an art showcase, and that sketches are better than AI."
+      "issue": "Should AI art, even as placeholder, be banned from the subreddit?",
+      "side_a": "Yes or in favor: AI art is unnecessary for prototyping, signals disregard for artists and the environment, floods the sub, and cheap alternatives like sketches exist.",
+      "side_a_evidence": [
+        "C1",
+        "C3",
+        "C7",
+        "C8",
+        "C10",
+        "C11",
+        "C13",
+        "C14",
+        "C16",
+        "C18",
+        "C19",
+        "C25"
+      ],
+      "side_b": "No: placeholders are a workflow tool, many creators can't afford artists, and the choice is private. A ban would be petty or divide the community, and disclosure is enough.",
+      "side_b_evidence": [
+        "C4",
+        "C5",
+        "C12",
+        "C15",
+        "C17",
+        "C20",
+        "C21",
+        "C23",
+        "C24"
+      ],
+      "side_a_support": {
+        "comments": 12,
+        "commenters": 12,
+        "points": 205,
+        "share": 0.688
+      },
+      "side_b_support": {
+        "comments": 9,
+        "commenters": 9,
+        "points": 68,
+        "share": 0.228
+      }
     }
   ],
   "design_lessons": [
-    "Placeholder art does real design work: a card's art and frame color signal what it does, so a consistent visual language (like fire meaning damage) helps players read the board quickly. A blank gray box tests text but not legibility across the table.",
-    "Expect many art revisions per card while you find the right look for a card's role, so using rough placeholders to test art direction before paying for finals can save money, but keep placeholders visually distinct from finals to avoid confusion during testing."
+    {
+      "lesson": "Use placeholder art that communicates the card's function, since visuals teach mechanics and make boards legible. Test that the placeholder conveys the effect at a glance, whatever its source.",
+      "evidence": [
+        "C24",
+        "C15"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 34,
+        "share": 0.114
+      }
+    },
+    {
+      "lesson": "If you avoid AI, hand-drawn sketch placeholders are well received. They show effort and keep the focus on structure and function while you playtest.",
+      "evidence": [
+        "C18",
+        "C4"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 17,
+        "share": 0.057
+      }
+    },
+    {
+      "lesson": "Plan for many art revisions. Frame and art fit affect how cards feel, and a mismatched image can hurt a card, so budget iteration time before final commissions.",
+      "evidence": [
+        "C5"
+      ],
+      "support": {
+        "comments": 1,
+        "commenters": 1,
+        "points": 2,
+        "share": 0.007
+      }
+    }
   ],
   "business_lessons": [
-    "Art is a major production cost: one commenter estimated roughly 15k for a TTRPG's art, while a TCG alpha of about 300 pieces with about 180 commissioned came in around 3-4k, showing budgets vary widely by commission rate and scope.",
-    "Undisclosed AI art in a product can damage trust with a community that values artists, so disclosure is widely seen as the minimum expectation for anything sold."
+    {
+      "lesson": "Be transparent about how art was made and label it if AI was used. Audiences react more negatively to undisclosed AI, and tagging was the most common compromise.",
+      "evidence": [
+        "C10",
+        "C12",
+        "C22"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 34,
+        "share": 0.114
+      }
+    },
+    {
+      "lesson": "Treat art cost estimates cautiously. Reported budgets varied widely (about 3-4k for roughly 180 pieces vs about 15k for an RPG), so get several quotes before planning a commission budget.",
+      "evidence": [
+        "C5",
+        "C6"
+      ],
+      "support": {
+        "comments": 2,
+        "commenters": 2,
+        "points": 5,
+        "share": 0.017
+      }
+    },
+    {
+      "lesson": "Expect a backlash risk: many commenters said they judge a project's seriousness by AI use, even in prototypes, which can affect public-building reception.",
+      "evidence": [
+        "C1",
+        "C3",
+        "C25"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 56,
+        "share": 0.188
+      }
+    }
   ],
   "content_ideas": [
     {
       "type": "debate",
-      "hook": "Is AI placeholder art a shortcut or a smart prototyping tool? Half of my community says ban it.",
-      "why_it_lands": "The thread splits clearly: the top comment wants a ban while a 29-point reply defends placeholders as idea generators. The tension between ethics and workflow is one designers actually face when prototyping."
+      "hook": "This subreddit leaned toward banning AI placeholder art. Here's why I'm not sure that's right.",
+      "why_it_lands": "Ban supporters outweighed opponents by score, but opponents raised real cost and workflow points, so viewers will pick sides.",
+      "evidence": [
+        "C1",
+        "C11",
+        "C7",
+        "C4",
+        "C15"
+      ],
+      "support": {
+        "comments": 5,
+        "commenters": 5,
+        "points": 151,
+        "share": 0.507
+      }
     },
     {
       "type": "question",
-      "hook": "What placeholder art should I use before I can afford real illustrations?",
-      "why_it_lands": "Several commenters raised cost barriers and the value of readable placeholders, so a practical guide to free, ethical, or cheap options answers a recurring pain point for budget-limited creators."
+      "hook": "Sketch, question mark, or AI: what should a prototype card show?",
+      "why_it_lands": "Commenters ranked sketches over blanks over AI, and another argued art communicates mechanics, so it invites a concrete answer.",
+      "evidence": [
+        "C18",
+        "C24",
+        "C23"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 16,
+        "share": 0.054
+      }
+    },
+    {
+      "type": "question",
+      "hook": "Do you need to tag AI art in your card game posts?",
+      "why_it_lands": "Labeling was the shared ground across both sides of the split, so it's a practical question people can answer.",
+      "evidence": [
+        "C10",
+        "C12",
+        "C22"
+      ],
+      "support": {
+        "comments": 3,
+        "commenters": 3,
+        "points": 34,
+        "share": 0.114
+      }
     }
   ],
+  "comment_points_total": 298,
+  "comment_ids": {
+    "C1": "o3hpb9t",
+    "C2": "o3qi2xk",
+    "C3": "o3hqiv6",
+    "C4": "o3hzxd7",
+    "C5": "o3hmmlr",
+    "C6": "o3ixo0l",
+    "C7": "o3ikqr2",
+    "C8": "o3ip1xc",
+    "C9": "o3n3gmz",
+    "C10": "o3hwtg7",
+    "C11": "o3hiukf",
+    "C12": "o3jxgsm",
+    "C13": "o3jtgoi",
+    "C14": "o3hjmxn",
+    "C15": "o3hste3",
+    "C16": "o3hmmgy",
+    "C17": "o3p2qjh",
+    "C18": "o3is1k5",
+    "C19": "o3hwpg6",
+    "C20": "o3sg74f",
+    "C21": "o3wbdst",
+    "C22": "o3hqckz",
+    "C23": "o3ij9n7",
+    "C24": "o3jc41w",
+    "C25": "o3hyo3g"
+  },
   "image_notes": {
     "model": "claude-sonnet-5-5",
     "design_relevant": true,
@@ -64,7 +315,7 @@
       }
     ]
   },
-  "extracted_at": "2026-11-19T04:43:50+00:00",
-  "extract_model": "claude-haiku-5-5",
-  "extract_cost_usd": 0.001289
+  "extracted_at": "2026-11-19T04:55:21+00:00",
+  "extract_model": "claude-sonnet-5-5",
+  "extract_cost_usd": 0.033505
 }

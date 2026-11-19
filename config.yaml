@@ -104,7 +104,7 @@ extraction:
 # Claude models (pipeline). VERIFY IDs and prices before Phase 3.
 # ---------------------------------------------------------------------------
 models:
-  extract: claude-haiku-5-5      # per-thread extraction (Phase 4)
+  extract: claude-sonnet-5-5     # per-thread extraction (Phase 4); chosen over Haiku after a 3-thread comparison
   route: claude-haiku-5-5        # chapter routing for new threads (Phase 8)
   dedupe: claude-haiku-5-5       # ideas board de-duplication (Phase 6)
   summarize_chat: claude-haiku-5-5  # summarizing old chat turns (Phase 7)

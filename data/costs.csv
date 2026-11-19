@@ -12,3 +12,4 @@ timestamp,run_id,phase,service,model_or_actor,description,units,estimated_usd,ac
 2026-11-19T04:44:07+00:00,phase4-extract-20261119T044340-bede47,phase4,anthropic,claude-haiku-5-5,"r/homemadeTCGs extraction (3 threads, direct)","3 calls, 14,895 in / 3,940 out tokens",0.002773,0.003212,
 2026-11-19T04:51:39+00:00,phase4-compare-20261119T045058-2a80d7,phase4,anthropic,claude-haiku-5-5,r/homemadeTCGs extraction comparison (3 threads),"3 calls, 18,246 in / 7,391 out tokens",0.004017,0.005116,
 2026-11-19T04:52:14+00:00,phase4-compare-20261119T045139-8a759d,phase4,anthropic,claude-sonnet-5-5,r/homemadeTCGs extraction comparison (3 threads),"3 calls, 18,246 in / 4,221 out tokens",0.080348,0.070092,
+2026-11-19T04:55:21+00:00,phase4-extract-20261119T045506-a6691b,phase4,anthropic,claude-sonnet-5-5,"r/homemadeTCGs extraction (1 threads, direct)","1 calls, 7,273 in / 1,756 out tokens",0.028852,0.033505,
