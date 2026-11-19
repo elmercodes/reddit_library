@@ -1,0 +1,206 @@
+{
+  "slug": "stores-events-community",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.043554,
+  "refs": {
+    "T1": "1m4x1yq",
+    "T2": "1pfe8a9",
+    "T3": "1qb6zrp",
+    "T4": "1v2t8uc",
+    "S1": "1rnjk30",
+    "S2": "1w8uydv"
+  },
+  "tldr": "These threads mostly celebrate homemade TCGs showing up in physical stores and events. The most useful takeaways are practical. A free-entry tournament with free precons and a modest prize, advertised in local TCG Discords, drew 16 players. One store deal came from being a known regular, following up, and holding a consistent wholesale price. Buyers who see the game keep asking the same basic questions about where to buy, rarities, starter decks, printers and digital versions. On Discord, expect slow growth around a small core of testers, and set up moderation early.",
+  "one_line": "Filling first tournaments, getting stocked locally, and growing a Discord around a homemade TCG.",
+  "consensus": [
+    {
+      "point": "In-store and event milestones for homemade TCGs get a warm, congratulatory reception. Pushback in these threads was mild and limited to side topics.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "S2"
+      ]
+    },
+    {
+      "point": "Clear, readable card layout and a distinctive art style get noticed and praised. They also draw playtest interest before anyone has played.",
+      "threads": [
+        "T1",
+        "T2",
+        "T4",
+        "S2"
+      ]
+    },
+    {
+      "point": "Once people see the game, they quickly ask practical follow-ups: where to buy, rarities, starter decks, who prints the cards, and print-and-play or digital versions.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Should a self-funded designer commission card art instead of using AI?",
+      "side_a": "Commissioning real art is the expected next step for a game that is reaching players.",
+      "side_b": "Commissions cost hundreds of dollars, so AI is a reasonable choice for solo, self-funded creators.",
+      "weight": "Roughly even and thin: one commenter each, 16 points vs 13. One other commenter worried that visible AI art makes players dismiss the game before trying it.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Size booster boxes for real retail fixtures such as display drawers and shelves. Boxes that pack edge to edge look professional and got praised.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Stage product photos and in-store displays with standout cards in acrylic stands on a playmat. The front view showing card art drew the top praise, and holo cards up front showed off the finish.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Use free premade precons for early tournaments. Players don't need to own or build a collection, which lowers the barrier to showing up.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Label effect timing clearly and separate effect sections with dividers and symbols. Readers called it easy to parse, and one wanted to adapt it.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Put the prototype on a digital tabletop or offer a print-and-play download through Discord. Remote players asked directly how they could test.",
+      "threads": [
+        "T4",
+        "S1",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "If a single booster can support a full game, you may not need a starter deck to get people trying it. One creator used this to answer the starter-deck question.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Free entry, free precons and a modest prize (cash plus a custom playmat), posted in local TCG Discords, filled a first tournament with 16 players. That was far above what the organizer expected.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "One designer got stocked by being a known regular in the local scene, following up when the owner showed interest, and keeping a consistent wholesale price. Selling by the case then cut down on delivery trips.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Publish the basics where buyers can find them: where to buy, store list, shipping, rarity structure, starter options, printer and digital versions. Commenters asked these directly, and one bought right after getting links.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Online video and ads can reinforce in-store presence. Commenters said they had seen the game in their shop and in videos, though the creator noted being a familiar local face can make nearby players harder to convince.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Expect a Discord to grow slowly around a small core of testers, possibly only taking off after full publication. Before it grows, set up a mod team of 3-7 people, anti-spam bots, and channels that separate game discussion from off-topic chat.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Designer subreddits are a weak place to find players, since members are busy with their own games. One commenter suggested engaging with other creators for cross-promotion instead.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Small-prize alpha tournaments can motivate competitive testers, whom one commenter considered the best source of balance feedback.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Print-on-demand through MPC handled a small precon run well: fast turnaround, easy ordering, and a free reprint after a mistake.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Commission card art or use AI when you're self-funding a TCG?",
+      "why": "The highest-engagement thread had a short, near-even clash (16 vs 13 points), plus a separate worry that AI art gets games dismissed unseen. Budget versus perception is a problem many solo designers face.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "Should prize tournaments happen before your card game is fully balanced?",
+      "why": "One commenter argued small alpha prize pools bring sharper feedback from competitive players. The poster worried about running events before balancing was done, which is a common timing tension.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Local game stores first, or sell online from day one?",
+      "why": "One creator chose a local-first launch. Commenters elsewhere asked about shipping and availability in their region, and one said they prefer buying through a store.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Sixteen players showed up to a homemade TCG's first tournament. How?",
+      "why": "The top thread (593 upvotes) shows a repeatable recipe: free entry, free precons, a modest prize, and posts in local Discords. Commenters wanted to copy it and asked about printing.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "How does a homemade TCG actually get into a local game store?",
+      "why": "A top comment asked exactly this, and the creator gave a concrete answer: local ties, follow-up, consistent wholesale pricing and selling by the case. A related thread shows the result in a display case.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "hook": "What do players want to know before buying a new indie TCG?",
+      "why": "Across three threads, people asked about rarities, starter decks, digital versions, printers and where to buy. Each is a gap a creator can fill in advance.",
+      "threads": [
+        "T2",
+        "T3",
+        "T1"
+      ]
+    },
+    {
+      "hook": "What does a card game Discord need before a Kickstarter?",
+      "why": "One thread offered a concrete checklist: a mod team, anti-spam, separate channels, and realistic slow-growth expectations. Other designers use Discord to distribute print-and-play files and gather playtest feedback.",
+      "threads": [
+        "T4",
+        "S1"
+      ]
+    }
+  ]
+}

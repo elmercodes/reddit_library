@@ -1,0 +1,363 @@
+{
+  "slug": "card-layout-readability",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.113212,
+  "refs": {
+    "T1": "1xntzql",
+    "T2": "1rolfe6",
+    "T3": "1qn3g25",
+    "T4": "1q5tk3l",
+    "T5": "1uy1ngw",
+    "T6": "1sx9e28",
+    "T7": "1txqr99",
+    "T8": "1vhft8r",
+    "T9": "1tfbry5",
+    "S1": "1rjrir0",
+    "S2": "1se6651",
+    "S3": "1v7pahj",
+    "S4": "1vibcpr",
+    "S5": "1xb5mjy",
+    "S6": "1qxllp8",
+    "S7": "1sej6k2",
+    "S8": "1rk4lm0",
+    "S9": "1pemndc",
+    "S10": "1s1n6id",
+    "S11": "1qlztqk",
+    "S12": "1qiektx",
+    "S13": "1ru1chp"
+  },
+  "tldr": "The most engaged threads here keep landing on one diagnosis: homemade cards fail on composition, not craft. Commenters often praise the individual elements, then say the card has too many zones, scattered stats, unlabeled icons or text too small to parse at a glance. The most useful takeaways are to cut and merge zones, group the stats players read together, and stop relying on color alone. Then print at real size and check that a stranger can decode the card without a rules explanation.",
+  "one_line": "Crowded zones, scattered stats, color-only signals and tiny text: how layout makes or breaks readability.",
+  "consensus": [
+    {
+      "point": "Cards with many separate information zones read as cluttered. The busiest threads compared such cards to RPG character sheets or video game UI rather than playing cards, and most replies called for merging or cutting zones.",
+      "threads": [
+        "T1",
+        "T2"
+      ]
+    },
+    {
+      "point": "Well-drawn borders, symbols and colors do not rescue a card whose overall composition is hard to parse. Commenters liked the elements and still faulted legibility.",
+      "threads": [
+        "T2",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "point": "Stats that players read together, such as ATK/DEF or HP/DEF, should sit together instead of being scattered around the art.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "point": "Color should not be the only way to tell elements or card types apart. A distinct shape or label is needed for colorblind players. This came up independently in several threads, and even defenders of thematic glyphs accepted the flavor-versus-function tradeoff.",
+      "threads": [
+        "T5",
+        "T3",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "point": "If reviewers have to ask what icons, numbers or keywords mean, the card is not explaining itself. Unlabeled stat icons, unexplained keyword numbers and footer symbols drew repeated questions.",
+      "threads": [
+        "T2",
+        "T4",
+        "T6",
+        "T8"
+      ]
+    },
+    {
+      "point": "Thematic presentation, such as kanji glyphs or programming syntax, is valued as flavor. Both camps agree it costs some readability for a general audience.",
+      "threads": [
+        "T5",
+        "T8"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Is an overloaded card a layout problem or a rules/context problem?",
+      "side_a": "The card itself is overloaded and needs cutting, regrouping or a clearer hierarchy, whatever the rules are.",
+      "side_b": "Judging density without knowing the rules is unfair. The complexity is intentional and fits an RPG-sheet style.",
+      "weight": "Side A clearly heavier: 5 commenters and 87 points vs 2 commenters and 8 points.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "issue": "Custom icons or Hanzi/Kanji for element symbols",
+      "side_a": "Custom icons communicate faster to a broad audience and are more accessible.",
+      "side_b": "Kanji carry the game's theme and roots, and color plus labels already cover clarity.",
+      "weight": "Side A much heavier: 9 commenters and 86 points vs 6 commenters and 11 points. Several commenters proposed hybrids.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "issue": "Is code-style rules text readable enough?",
+      "side_a": "It is hard to read, especially for non-coders, and needs structure or reminder text.",
+      "side_b": "It is basic, intuitive syntax for the target audience and only needs keyword explanations.",
+      "weight": "Side A heavier but on a small sample: 5 commenters and 19 points vs 2 commenters and 6 points.",
+      "threads": [
+        "T8"
+      ]
+    },
+    {
+      "issue": "Is a Pokemon-like, AI-generated look a problem or a strength?",
+      "side_a": "It looks too Pokemon-like and generic, and AI art is unwelcome, especially when undisclosed.",
+      "side_b": "The style is charming, consistent and nostalgic, and the pop-out art adds depth.",
+      "weight": "Side A clearly heavier: 5 commenters and 35 points vs 3 commenters and 6 points. Much of side A's weight sits in one joking reply.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "issue": "Which corner stays visible in a fanned hand",
+      "side_a": "The top left is most visible, so key info belongs there.",
+      "side_b": "Fanning varies, and for some players the top right is always visible.",
+      "weight": "One commenter each. Side A had 30 points vs 10, so it is suggestive rather than settled.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Audit every zone for gameplay value and overlap. Merge duplicates such as attribute plus attribute icon, or family plus type, and compare your data-point count against established games, because each extra stat adds onboarding cost. If a card truly needs that much data, consider splitting it into modular cards such as class plus subclass.",
+      "threads": [
+        "T1",
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Group stats that are read together in one cluster, for example ATK/DEF, or HP and DEF on one side. Players should not have to look in several places to judge a creature.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Put the most-used info where it survives a fanned hand, commonly the top-left margin, and keep cost info off the bottom edge where neighboring cards cover it. Test with your own fanning style, since commenters disagreed on which corner shows.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Give each element or type a distinct shape, plus a small text label where possible, rather than relying on color or identical frame textures. This keeps colorblind players reading as fast as everyone else.",
+      "threads": [
+        "T5",
+        "T3",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "lesson": "Test icons at the smallest size they will appear, such as weakness badges or combo tokens. Complex glyphs degrade first, so let a simple shape carry the information and use thematic glyphs as a watermark or inner decoration.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Build a visual hierarchy. When text is heavy, simplify decoration and give blocks distinct weight, shape or proximity, because equal emphasis everywhere reads as noise. Reserve color and shapes for meaning: decorative diamonds that resemble mana icons, or half-thematic text colors, make players doubt every signal.",
+      "threads": [
+        "T2",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "lesson": "Prefer a number over making players count. A 12-tick level bar or a long row of mana diamonds (worse with a gap) reads slower than one icon plus a number. Showing the evolved stage's total HP beats a +4 bonus.",
+      "threads": [
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Print at actual size and play with the card in person. Commenters suspected several cards were only judged on screen. Check that combat numbers read upside down across a table and that the card can be read aloud to an opponent.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Make keywords self-explaining. Bold or italicize mechanic words, add in-theme reminder text such as code comments that can drop off once players learn it, signal what a keyword's number measures, and avoid jargon like -= where a plain -1 works.",
+      "threads": [
+        "T8",
+        "T4",
+        "T9"
+      ]
+    },
+    {
+      "lesson": "Make rules text bigger and higher-contrast than feels necessary, especially in minimalist layouts or over detailed art, where small text becomes the first complaint.",
+      "threads": [
+        "T9",
+        "S8",
+        "S5"
+      ]
+    },
+    {
+      "lesson": "Protect the art. Shrink bulky stat bars, let art run under frame elements, and test with real color art because overlays can fight it. Keep pop-out art from crossing the card name, which one commenter found distracting.",
+      "threads": [
+        "T1",
+        "T3",
+        "S11"
+      ]
+    },
+    {
+      "lesson": "Give attacks and passives separate containers, and keep the core action (such as a basic attack) visually distinct. Readers in two threads mistook one box for another.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Stress-test the template beyond the first card: longest names, other elements' themes, stat positions that drift between cards, and a safe margin for trimming variance. Full-bleed cards make misalignment more visible.",
+      "threads": [
+        "T7",
+        "T4",
+        "T2"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Label placeholder or AI art clearly when posting drafts. Otherwise the art, its originality or legal risk, and AI pushback absorb the feedback you wanted on layout.",
+      "threads": [
+        "T3",
+        "T9",
+        "T1",
+        "S6"
+      ]
+    },
+    {
+      "lesson": "Close resemblance to Pokemon was the top critique on one near-final card post. Change distinctive shapes and structure, such as cost-icon shape, element icons and text section, so the game does not read as a clone, and be ready to say what sets it apart beyond visuals.",
+      "threads": [
+        "T4",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Recognizable IP, even as placeholder art, draws immediate legal warnings. Swap in original art before selling, and one commenter suggested adding artist credit, copyright, set name and collector number.",
+      "threads": [
+        "T9"
+      ]
+    },
+    {
+      "lesson": "Give reviewers a rulebook link or card-anatomy explainer before asking for pre-print feedback. Otherwise comment threads turn into rules Q&A. Regular public updates drew follow and playtest offers, so keep a keyword list ready.",
+      "threads": [
+        "T4",
+        "T8"
+      ]
+    },
+    {
+      "lesson": "One commenter noted that a beginner-focused game should ship every special component it needs, such as specific dice, in each starter product.",
+      "threads": [
+        "T6"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "A designer says the card's density is intentional. Commenters weren't convinced.",
+      "why": "T2's commenters overwhelmingly called the hero card overloaded (9 commenters, 146 points). The poster argued the density fits an RPG style and is a rules matter, which is a clear depth-versus-readability tension. T1's 12-zone template drew the same verdict.",
+      "threads": [
+        "T2",
+        "T1"
+      ]
+    },
+    {
+      "hook": "When theme fights readability on a card, which should win?",
+      "why": "Kanji vs custom icons split on flavor versus clarity, with custom icons ahead by score. The code-syntax card text split the same way, and other threads weighed characterful fonts against legibility. Hybrids such as watermarks and reminder text give a middle ground to discuss.",
+      "threads": [
+        "T5",
+        "T8",
+        "S6",
+        "S13"
+      ]
+    },
+    {
+      "hook": "Should you post AI placeholder art when asking for layout feedback?",
+      "why": "Placeholder art drew the most-scored replies in T3 and T9, crowding out layout critique, and AI use drew pushback in T1 and S6. Viewers have strong opinions on both process and disclosure.",
+      "threads": [
+        "T3",
+        "T9",
+        "T1",
+        "S6"
+      ]
+    },
+    {
+      "hook": "Pokemon-inspired card layout: an accessible shorthand or a clone problem?",
+      "why": "The top comment on a near-final card post was about Pokemon resemblance, and two other threads raised the same concern alongside a few defenders of the nostalgic style.",
+      "threads": [
+        "T4",
+        "T3",
+        "T9"
+      ]
+    },
+    {
+      "hook": "Full art or framed art: what serves a beginner-friendly TCG?",
+      "why": "In supporting threads, full art led on looks while a real group defended framed cards for clarity. Many commenters landed on framed commons with full-art reward tiers, which connects to this chapter's protect-the-art versus fit-the-text tension.",
+      "threads": [
+        "S2",
+        "S11",
+        "T1"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Which corner of a card do players actually see in a fanned hand?",
+      "why": "Commenters in one thread disagreed on top left versus top right, and another flagged costs at the bottom edge getting covered. It is concrete, testable and easy to film with a real hand of cards.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "hook": "Could a colorblind player tell these card types apart?",
+      "why": "The don't-rely-on-color point came up independently in four threads, including a 23-point comment in the kanji debate and a colorblind player's own account.",
+      "threads": [
+        "T5",
+        "T3",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "hook": "Can a stranger read this card without the rulebook?",
+      "why": "Unexplained icons, keyword numbers and footer symbols triggered rules Q&A across several threads, a pain point any designer posting cards recognizes.",
+      "threads": [
+        "T4",
+        "T6",
+        "T2",
+        "T8"
+      ]
+    },
+    {
+      "hook": "Can you read the damage number upside down from across the table?",
+      "why": "Sunken bevelled stat icons and tiny damage numbers were the main layout critique in T3. Print-at-size advice recurred elsewhere, which makes for a simple physical demo.",
+      "threads": [
+        "T3",
+        "T2",
+        "T4",
+        "S10"
+      ]
+    },
+    {
+      "hook": "Eight mana icons, a tick bar, or just one icon and a number?",
+      "why": "A 12-segment level bar and a gapped row of mana diamonds both confused commenters. It is a common, visual before-and-after choice.",
+      "threads": [
+        "T4",
+        "T6"
+      ]
+    }
+  ]
+}

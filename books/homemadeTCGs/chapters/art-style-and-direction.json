@@ -1,0 +1,304 @@
+{
+  "slug": "art-style-and-direction",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.078602,
+  "refs": {
+    "T1": "1v5w74a",
+    "T2": "1rjrir0",
+    "T3": "1v7pahj",
+    "T4": "1x7ko6b",
+    "T5": "1ud0uat",
+    "T6": "1vibcpr",
+    "T7": "1pkyce8",
+    "T8": "1uzrt59",
+    "S1": "1uvo0d1",
+    "S2": "1x1obd2",
+    "S3": "1ugpsu0",
+    "S4": "1wmrhog",
+    "S5": "1s4la31",
+    "S6": "1sz9zve",
+    "S7": "1pjhhbr",
+    "S8": "1x4ewd7",
+    "S9": "1tsnlih",
+    "S10": "1vzwjk9",
+    "S11": "1xichnd",
+    "S12": "1r2bn5m",
+    "S13": "1t3q6md"
+  },
+  "tldr": "Across these threads, a distinctive handmade style drew warm, consistent praise as a way to stand out. That held for hand-drawn sketches, stick figures, crochet photos, watercolor and acrylic painting. The useful critique was about fit and function rather than the art: frames that clash with painted art, thin linework or same-color subjects getting lost against backgrounds, and text that is too small or low-contrast. The main takeaway is to commit to a style that suits the game's tone, then build the frame, contrast and print tests around it.",
+  "one_line": "Handmade art styles win praise; the real work is matching frames and keeping cards readable.",
+  "consensus": [
+    {
+      "point": "Distinctive handmade or unusual art styles were praised as unique and likely to help a game stand out. This held for rough digital sketches, stick figures, crochet photography, ink-and-watercolor and acrylic painting. It was the dominant response in nearly every thread.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3",
+        "T5",
+        "T7",
+        "T8",
+        "S2",
+        "S5",
+        "S7",
+        "S8"
+      ]
+    },
+    {
+      "point": "When the art is painterly, a clean or flat digital frame tends to clash with it. Commenters wanted the frame to share the art's texture or medium.",
+      "threads": [
+        "T4",
+        "T5",
+        "S3"
+      ]
+    },
+    {
+      "point": "Strong art alone produced follow and purchase intent before any rules were shown, with commenters saying they would buy or follow on the look.",
+      "threads": [
+        "T5",
+        "T7",
+        "T8",
+        "S1"
+      ]
+    },
+    {
+      "point": "Dropping AI placeholders for the designer's own art, even rough art, was received with encouragement rather than criticism of skill.",
+      "threads": [
+        "T1",
+        "S2",
+        "S5"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Should the stick-figure cards use an outer glow behind the characters?",
+      "side_a": "Use the glow: it separates the thin black figure from the colored background and adds dimension.",
+      "side_b": "The clean version looks better because the glow pulls too much attention.",
+      "weight": "Side A overwhelmingly heavier: 8 commenters, 99 points vs 1 commenter, 2 points.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "issue": "Is a glow alone enough, or should figures also get a solid fill or white outline?",
+      "side_a": "The glow alone is enough and keeps the minimal look.",
+      "side_b": "Add a fill or solid outline to separate figures from the background more firmly.",
+      "weight": "Side A clearly heavier: 5 commenters, 91 points vs 4 commenters, 14 points.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "issue": "Should the card art be painted digitally or stay hand-painted?",
+      "side_a": "Paint digitally to keep the line definition that the hand-painted version loses.",
+      "side_b": "The rougher, lower-definition painted look is a strength worth keeping.",
+      "weight": "Mixed: side A had one commenter but the top comment (13 points); side B had 3 commenters but only 6 points.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "issue": "Which full-art crochet photo works better: the moody close crop or the wider diorama?",
+      "side_a": "The close, cinematic crop in dark blue yarn waves is better.",
+      "side_b": "The wider shot separates the subject from the background and reads more clearly at small size.",
+      "weight": "Side A heavily favored: 13 commenters, 72 points vs 2 commenters, 5 points. Side B raised a readability point the majority did not rebut.",
+      "threads": [
+        "T6"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Separate thin dark linework from colored or dark backgrounds with a halo, glow, outline or fill. A glow was the clear favorite, and it also future-proofs darker faction colors.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Make the frame match the art medium. Options include a painted or hand-drawn frame template you scan, brush-stroke or rice-paper textures, or roughened text holders. Sharp vector borders fight loose painted art.",
+      "threads": [
+        "T4",
+        "T5",
+        "S3"
+      ]
+    },
+    {
+      "lesson": "Choose a style that fits the world's tone and keep it consistent across the set. A rough style read as fitting a brutal setting, and buyers tied their interest to the quality holding across the whole set.",
+      "threads": [
+        "T1",
+        "T7"
+      ]
+    },
+    {
+      "lesson": "Test art at card and thumbnail size. A subject in the same color as its background can look great large but blur together small. Tight crops add drama but must keep the subject big enough, and uncluttered backgrounds helped.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Check text and stat contrast and size, not only the art. Commenters flagged light stats on light cards, small gray rules text and small font sizes. Keep typography conventions consistent, such as colon spacing after ability names.",
+      "threads": [
+        "T2",
+        "T5",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Protect and plan the art box. Trim text lines to enlarge it, let parts of the character overlap the name bar, and leave headroom when composing for a landscape crop.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Test print darkness before committing. Soft-proof in CMYK, order cheap test prints, and lighten backgrounds if they print dark.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "With minimalist styles, plan variety in pose, framing and scale. One commenter warned that simple characters can blur together across a set of around 100 cards.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "A physical medium like crochet or clay lowers the barrier for designers who can't illustrate, and the novelty becomes the hook. One commenter suggested themed backgrounds in the same material, but the poster noted a clutter and workload tradeoff, and a later thread flagged a background clashing with the photos.",
+      "threads": [
+        "T8",
+        "T3",
+        "S10"
+      ]
+    },
+    {
+      "lesson": "For painted art: when placing cut-out creatures on white space, add contact shadows so they don't float. When painting traditionally, work large and shrink down to recover detail (each suggested by one commenter).",
+      "threads": [
+        "T5",
+        "T4"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Posting art early and on a steady cadence built follows and purchase intent. Gallery dumps, character closeups and first-card reveals all drew requests to follow along.",
+      "threads": [
+        "T1",
+        "T5",
+        "T7",
+        "T8",
+        "S1"
+      ]
+    },
+    {
+      "lesson": "Showing the making process, not just the finished card, earned explicit praise. A distinctive handmade process works as marketing in itself.",
+      "threads": [
+        "T8",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Physical craft art can extend into products. Pattern codes on cards and the crochet figures themselves were floated as extras or merch.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "lesson": "One commenter suggested running art polls where people can actually vote, such as on the crowdfunding page, which also drives traffic to the campaign.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Full-art variants of painted art were suggested as collectible special versions.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Two commenters asked where the lore would live, and one suggested tie-in stories or an art book with development notes as extra products.",
+      "threads": [
+        "T7"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "A moody crop won the art vote, but two flagged it blends in.",
+      "why": "Most votes and points went to Option A, while a minority raised a concrete small-size readability problem. That is a clean popularity-versus-function tension.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "hook": "Hand-painted card art or digital painting: what's worth keeping?",
+      "why": "The top-scoring comment pushed digital for sharper lines, while more commenters, with fewer points, defended the rough painted look.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Stick-figure art: charming and intentional, or does it feel like a board game?",
+      "why": "The style got broad praise from 11 commenters, but individual commenters questioned its collectible feel and whether it gets samey over a big set.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Should a painted card get a painted frame, or a clean layout?",
+      "why": "Commenters in three threads flagged frame and art clashing, and a follow-up update moving to brush strokes was received far better.",
+      "threads": [
+        "T4",
+        "T5",
+        "S3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Can't draw? These designers used crochet, stick figures and rough sketches instead.",
+      "why": "Non-illustrator media and rough self-drawn art were consistently welcomed, and the barrier for solo designers comes up repeatedly.",
+      "threads": [
+        "T8",
+        "T3",
+        "T2",
+        "T1",
+        "S2",
+        "S5"
+      ]
+    },
+    {
+      "hook": "Does your card art still read when the card is tiny?",
+      "why": "Same-color subjects, thin linework and low-contrast stats were the most practical critiques. The glow fix drew 99 points.",
+      "threads": [
+        "T2",
+        "T6",
+        "T5"
+      ]
+    },
+    {
+      "hook": "Will your dark card colors print darker than they look on screen?",
+      "why": "The stick-figure designer asked this directly and got a cheap fix: CMYK soft-proofing and retail test prints.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Does a distinctive art style sell a card game before anyone sees rules?",
+      "why": "Several threads drew buy-and-follow comments based on art alone, from watercolor to crochet.",
+      "threads": [
+        "T5",
+        "T7",
+        "T8",
+        "S1"
+      ]
+    },
+    {
+      "hook": "Where should a card game's lore live when the cards are small?",
+      "why": "Two commenters asked how lore would be told, with tie-in fiction and art books suggested as models.",
+      "threads": [
+        "T7",
+        "T3"
+      ]
+    }
+  ]
+}

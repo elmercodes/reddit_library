@@ -1,0 +1,231 @@
+{
+  "slug": "ai-art-debate",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.060904,
+  "refs": {
+    "T1": "1v5oizl",
+    "T2": "1qv7ztx",
+    "T3": "1unj3c9",
+    "S1": "1m4x1yq",
+    "S2": "1ww9h9v",
+    "S3": "1rdjj2s",
+    "S4": "1vzyi02",
+    "S5": "1qn3g25",
+    "S6": "1sysr95"
+  },
+  "tldr": "The subreddit has moved from arguing about AI art to banning it outright. The ban covers placeholder art too, and both the ban announcement and the earlier proposal drew heavy score support for the anti-AI side. The live disagreement now is narrower: whether AI is acceptable in private or prototype work, and how designers on a budget should handle art. The most useful takeaway is to show your ruleset and card template first, and to use honest placeholders that read clearly. Sketches, stock silhouettes, DIY photos or a labeled blank all work, and in this space they earn more goodwill than polished generated images.",
+  "one_line": "How r/homemadeTCGs came to ban AI art, placeholders included, and what designers use instead.",
+  "consensus": [
+    {
+      "point": "Placeholder art is a normal part of prototyping, and nobody argued prototypes need finished art. The dispute is only over which kind of placeholder is acceptable.",
+      "threads": [
+        "T2",
+        "T3",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "point": "Disclosure is a floor that people on both sides of the ban question accepted. Tags, labels or a filter for AI content were raised by ban supporters and opponents alike.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "point": "In practice, AI art in posts here draws downvotes and pushback, even in threads asking for unrelated feedback such as card layout. AI placeholder art is known well enough to appear as a running joke among the sub's common tropes.",
+      "threads": [
+        "T2",
+        "S5",
+        "S6"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Should r/homemadeTCGs ban AI art?",
+      "side_a": "Yes. The ban protects the sub's handmade identity, respects artists and keeps out low-effort AI collectibles that have no real ruleset.",
+      "side_b": "No, or with reservations. Dissenters included one person who blocked the sub, one sarcastic pro-AI jab, and one worry that report-driven enforcement becomes a witchhunt.",
+      "weight": "Side A overwhelmingly heavier: 8 commenters and 343 points vs 3 commenters and 17 points.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "issue": "Should the ban extend to AI used only as placeholder art?",
+      "side_a": "Yes. AI is unnecessary for prototyping, signals carelessness, harms artists and the environment, and clutters the sub.",
+      "side_b": "No. Placeholders are a normal workflow, many designers worldwide can't afford commissions, and AI is just a tool others can ignore. A middle group asked for labels instead of a ban.",
+      "weight": "Side A clearly heavier: 12 commenters and 205 points vs 9 commenters and 68 points. The rule announced later in T1 and the pigeon post in S2 confirm placeholders are now covered.",
+      "threads": [
+        "T2",
+        "T1",
+        "S2"
+      ]
+    },
+    {
+      "issue": "Is AI acceptable for private or prototype use outside the sub's rules?",
+      "side_a": "Use your own sketches or stick figures. AI cheapens a project and makes it blend in with other AI games.",
+      "side_b": "Others have no right to dictate tools. Personal-use AI is nobody's business, and decent-looking art helps recruit playtesters.",
+      "weight": "Dead even: 4 commenters and 33 points vs 5 commenters and 33 points. The top two community comments scored 21 points each, one on each side.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "issue": "Do better-looking placeholders help the design process?",
+      "side_a": "Nicer placeholder images make it easier to generate game ideas and to attract playtesters.",
+      "side_b": "Rough personal sketches carry the designer's intent and give a future artist real direction, while a generic generated image locks in a look you did not choose.",
+      "weight": "Thin on both sides. Side A rests mainly on one comment with 29 points plus one with 6. Side B rests on one comment with 4 points, though sketch-friendly sentiment runs through the ban threads.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Lead with the ruleset and card template, not the art. You don't need art to get feedback on borders, layout or rules, and a polished image on a hollow game reads as low effort here.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Treat placeholder art as a legibility tool. Pick placeholders that signal what a card does so players can tell cards apart across the table. Don't reuse one generic image everywhere: the pigeon post's main pushback was that a single placeholder isn't enough for real playtesting.",
+      "threads": [
+        "T2",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "Use hand sketches as placeholders. They earn goodwill with this audience, show visible iteration, and pass your intent to a future artist better than a generic generated image would.",
+      "threads": [
+        "T2",
+        "T3",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "There are non-AI options when you can't draw. Designers suggested stock vector silhouettes, posed action figures, game-engine screenshots, found-object photos, playdough, collage, a question-mark art box, or the community's shared pigeon placeholder.",
+      "threads": [
+        "S3",
+        "S4",
+        "T2",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "Anything you post publicly gets read as your art direction, even a placeholder. The ban was reportedly triggered by AI placeholder art on a card-frame feedback post, and a layout feedback thread got pulled off-topic by its AI art.",
+      "threads": [
+        "T1",
+        "S5"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Decide your art policy early and state it openly. Craft-focused hobby spaces reward visible handmade effort and punish AI use, and at least one commenter said they would never back a project with AI art.",
+      "threads": [
+        "T1",
+        "T3",
+        "S4"
+      ]
+    },
+    {
+      "lesson": "If you use AI anywhere in public, label it up front. Commenters here treated undisclosed or final-product AI far more harshly than clearly marked prototype use.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Separate yourself from low-effort AI collectible cash grabs by showing a real, playable ruleset. Commenters said those grabs erode trust in new games.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Get quotes before budgeting a full set of art, because estimates vary widely. One designer reported spending about 3-4k on roughly 180 commissioned pieces for a TCG alpha, while another expected about 15k for a TTRPG. Support for these figures was low, so treat them as anecdotes.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Free resources you share, such as a placeholder image or a DIY art guide, can earn warm engagement and collaborators in a community that has taken a clear stance.",
+      "threads": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "This card game subreddit now bans AI art, even placeholders. Right call?",
+      "why": "These are the chapter's highest-engagement threads. The rule announcement drew 343 supporting points against 17, and the earlier proposal ran 205 to 68. Opponents still raised affordability and workflow points worth taking seriously.",
+      "threads": [
+        "T1",
+        "T2",
+        "S2"
+      ]
+    },
+    {
+      "hook": "AI on a prototype nobody else sees: anyone's business but yours?",
+      "why": "The thread on private and prototype use split exactly evenly by score, with the top two comments tied on opposite sides. That makes it a genuinely open question.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "Can't afford commissions. Is AI really the only affordable option?",
+      "why": "Cost was the main argument against the ban, and a commission-vs-AI exchange also came up under a tournament post. Other threads answered with DIY art methods and real commission figures.",
+      "threads": [
+        "T2",
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "hook": "Do prettier placeholders make better games, or just prettier prototypes?",
+      "why": "One well-scored comment said nicer placeholders spark ideas and attract playtesters. Others said rough sketches carry more intent and that templates matter more than art.",
+      "threads": [
+        "T2",
+        "T3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Sketch, stock, question mark, or pigeon: what placeholder art should you use?",
+      "why": "Commenters ranked placeholder options differently. Several threads offered concrete alternatives, and the shared pigeon raised the practical problem of needing many distinct placeholders.",
+      "threads": [
+        "T2",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "hook": "What does commissioning art for a full card set actually cost?",
+      "why": "Indie designers want real numbers, and two commenters gave very different ones (about 3-4k for roughly 180 pieces vs about 15k for a TTRPG), though support was low.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Does your rough sketch help a future artist more than a generated image?",
+      "why": "This is a practical angle for anyone planning commissions. One commenter argued sketches give direction and generic images don't, and it connects to how sketch posts are received here.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "hook": "When AI bans run on user reports, how do you show your art is yours?",
+      "why": "Only one low-scoring commenter raised the witchhunt worry, but false accusations are a real risk for artists under report-based enforcement.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ]
+}

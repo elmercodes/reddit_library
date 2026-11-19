@@ -1,0 +1,309 @@
+{
+  "slug": "card-frames-and-templates",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.091246,
+  "refs": {
+    "T1": "1ugpsu0",
+    "T2": "1vcq0fm",
+    "T3": "1qxllp8",
+    "T4": "1p8zisv",
+    "T5": "1qns58a",
+    "T6": "1waha80",
+    "T7": "1vnqm2t",
+    "T8": "1rk4lm0",
+    "T9": "1xg0qb3",
+    "T10": "1pemndc",
+    "T11": "1tnb92v",
+    "T12": "1ru1chp",
+    "S1": "1xntzql",
+    "S2": "1r8q2t4",
+    "S3": "1rolfe6",
+    "S4": "1x7ko6b",
+    "S5": "1ud0uat",
+    "S6": "1x8qb52",
+    "S7": "1txqr99",
+    "S8": "1q7f1um"
+  },
+  "tldr": "Across these threads, distinctive themed frames (brush strokes, monster mouths, wax seals, retro OS windows, archival paper) drew warm praise when they suited the art. Nearly every thread also flagged the same cost: themed fonts, low contrast and decorative icons make stats and rules harder to read. A second recurring worry is looking like an established game (MTG, Yu-Gi-Oh, Flesh and Blood, Riftbound icons). The practical takeaway is to let the frame carry the theme while keeping stats, icons and text plain and high-contrast, and to check bleed, art space and front/back cohesion before printing.",
+  "one_line": "Themed frames win praise, but readability, originality and art fit decide whether they work.",
+  "consensus": [
+    {
+      "point": "A frame whose texture or shape matches the art style and theme is the most praised thing in these threads, from painted brush strokes beside watercolor art to themed borders that hint at a card's flavor.",
+      "threads": [
+        "T1",
+        "T7",
+        "T8",
+        "T2",
+        "T5",
+        "T9"
+      ]
+    },
+    {
+      "point": "Even commenters who loved a stylized frame asked for legibility fixes: stronger contrast, plainer fonts, clearer icons and bigger stat numbers.",
+      "threads": [
+        "T3",
+        "T8",
+        "T10",
+        "T12",
+        "T11",
+        "T5"
+      ]
+    },
+    {
+      "point": "A painterly or loose art style clashes with sharp, flat digital frames, and the front and back should share one visual language.",
+      "threads": [
+        "T1",
+        "T11",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "point": "Blank templates are hard to judge. Feedback gets sharper once real art and effect text are on the card.",
+      "threads": [
+        "T11",
+        "T5"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Character versus clarity: the quirky archival template or the clean traditional fantasy one",
+      "side_a": "The archival field-journal card has more identity and originality and is worth fixing for legibility.",
+      "side_b": "The traditional card's cleaner layout, contrast and art framing make it the better pick.",
+      "weight": "Side A clearly heavier: 6 commenters, 28 points vs 5 commenters, 11 points.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "issue": "Is a minimal retro template clean, or too simple and derivative?",
+      "side_a": "The frames are charming, clean and need nothing more.",
+      "side_b": "Card types differ only by title-bar color, and the top half reads like Yu-Gi-Oh.",
+      "weight": "Side A heavier: 4 commenters, 22 points vs 2 commenters, 5 points.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "issue": "Is an MTG-like look a problem?",
+      "side_a": "The palette, layout and texture are too close to old-border MTG, and a commercial release would need a redesign.",
+      "side_b": "The retro look is appealing in its own right, even to someone who has never played MTG.",
+      "weight": "Side A somewhat heavier: 3 commenters, 9 points vs 2 commenters, 4 points. Low engagement overall.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "issue": "Where a decorative faction seal belongs on the frame",
+      "side_a": "The new top-left wax seal and ribbon is an improvement.",
+      "side_b": "A bottom seal feels like opening a sealed scroll, while a top seal looks tacked on.",
+      "weight": "Side A heavier: 4 commenters, 14 points vs 2 commenters, 5 points.",
+      "threads": [
+        "T10"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Let the frame be ornate, but keep gameplay icons and numbers plain and high-contrast, for example a uniform dark fill with white numerals. Stats get scanned constantly and decoration slows that down.",
+      "threads": [
+        "T10",
+        "T8",
+        "T5",
+        "T11"
+      ]
+    },
+    {
+      "lesson": "Test themed fonts and paper textures for legibility. Low-contrast parchment, text over busy art and cursive (which some younger players can't read) all drew complaints. Use backing panels, darker text or saturated accents.",
+      "threads": [
+        "T3",
+        "T8",
+        "T12",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Match frame texture and edges to the art. Brush-stroke or painted frames suit watercolor art, while hard tech frames clash with it. A digital brush frame stays editable without rescanning hand-made boxes.",
+      "threads": [
+        "T1",
+        "S5",
+        "S4"
+      ]
+    },
+    {
+      "lesson": "Check your layout and icons against well-known games. Commenters quickly compared frames to MTG, Yu-Gi-Oh, Flesh and Blood and a Riftbound rune. Change palette, texture and frame treatment while keeping familiar information placement.",
+      "threads": [
+        "T6",
+        "T5",
+        "T7",
+        "T10",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Protect art space. Oversized corner badges, thick borders, extra boxes and ribbons over the art crowd or compete with the illustration.",
+      "threads": [
+        "T5",
+        "T11",
+        "T10",
+        "S4"
+      ]
+    },
+    {
+      "lesson": "Don't make icons repeat or add unexplained color. A faction crest repeated in the cost marker confused one reader. Color-coded stats make players wonder what the colors mean. Similar stat shapes, like the fang holders, need distinct icons or labels.",
+      "threads": [
+        "T2",
+        "T10",
+        "T8"
+      ]
+    },
+    {
+      "lesson": "When card types or factions share one template, give each a structural or high-contrast difference, not just a title-bar color, so they read at a glance.",
+      "threads": [
+        "T5",
+        "T12",
+        "T2",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Reserve prominent slots for information that matters in play. Commenters suggested moving rarity out of the top-right corner and polishing the stat box players check most. Also test layout changes in hand, where a thumb can cover left-edge stats.",
+      "threads": [
+        "T9",
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Keep text inside safe margins and add about 2.5 mm of bleed, so cutting shifts don't trim content or leave lopsided borders.",
+      "threads": [
+        "T11",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Build the template once and treat cards as data. Commenters recommended Magic Set Editor for early proxies and Dextrous for data-driven templates, with final polish only on locked cards.",
+      "threads": [
+        "T6",
+        "T9"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "A striking frame posted in public pulls in people asking for rules, Tabletop Simulator or Untap access, or playtests. Have a rules page and a playtest route ready before posting.",
+      "threads": [
+        "T4",
+        "T8",
+        "T9",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "If you plan a commercial release, fix any resemblance to a dominant game in the production template before the first real print run.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Set up bleed and safe margins before sending files to a printer.",
+      "threads": [
+        "T11",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Share your project in other creators' threads without pitching it as better than theirs. One commenter objected when someone did.",
+      "threads": [
+        "T6"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Your card looks like Magic. Is familiarity a problem or a feature?",
+      "why": "Clone comparisons came up in several threads (MTG, Yu-Gi-Oh, Flesh and Blood, Riftbound), and in T6 the clone concern was the thread's top-scored feedback while others defended the retro look.",
+      "threads": [
+        "T6",
+        "T5",
+        "T7",
+        "T10",
+        "T3"
+      ]
+    },
+    {
+      "hook": "Quirky themed template or clean classic frame: which would you playtest?",
+      "why": "In T3 the character-rich archival card won on points, but commenters on both sides wanted readability fixes. That tension repeats in T8 and T12.",
+      "threads": [
+        "T3",
+        "T8",
+        "T12"
+      ]
+    },
+    {
+      "hook": "Should stat icons stay boring while the frame goes ornate?",
+      "why": "In T10 the stat recolor was the most-backed critique, and T8 raised the same problem with look-alike fang stat holders. It is a concrete, visual question.",
+      "threads": [
+        "T10",
+        "T8"
+      ]
+    },
+    {
+      "hook": "Do decorative seals, ribbons and notches add identity or clutter?",
+      "why": "T10 split on wax seal placement, T2 debated border notches that tie into the logo, and commenters noted ribbons competing with the art.",
+      "threads": [
+        "T10",
+        "T2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Your card frame looks great, but can anyone actually read it?",
+      "why": "Legibility was the repeated caveat in heavily praised threads: contrast, fonts over busy art, cursive and small stats.",
+      "threads": [
+        "T3",
+        "T8",
+        "T12",
+        "T11",
+        "T5"
+      ]
+    },
+    {
+      "hook": "Does your card frame match your art, and your card back?",
+      "why": "Brush strokes fitting painted art earned praise, while sharp frames on painterly art and mismatched fronts and backs drew critique.",
+      "threads": [
+        "T1",
+        "T11",
+        "S5",
+        "S4"
+      ]
+    },
+    {
+      "hook": "What is print bleed, and why does a printer want 2.5 mm?",
+      "why": "It was the top practical tip in T11, and T1 raised edge cut-off too. First-time printers often miss it.",
+      "threads": [
+        "T11",
+        "T1"
+      ]
+    },
+    {
+      "hook": "How do you build a card template without fighting Canva or Photoshop?",
+      "why": "Commenters asked how others get a professional template look, and replies pointed to Magic Set Editor and Dextrous.",
+      "threads": [
+        "T6",
+        "T9"
+      ]
+    },
+    {
+      "hook": "Is it worth sharing a blank template before the art exists?",
+      "why": "Commenters said blank frames are hard to judge, and the NETHERWEB poster said art was the real bottleneck.",
+      "threads": [
+        "T11",
+        "T5"
+      ]
+    }
+  ]
+}

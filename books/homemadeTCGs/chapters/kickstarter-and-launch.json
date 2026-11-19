@@ -1,0 +1,260 @@
+{
+  "slug": "kickstarter-and-launch",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.065442,
+  "refs": {
+    "T1": "1uvo0d1",
+    "T2": "1xurdr1",
+    "T3": "1vzwjk9",
+    "T4": "1xnwbt1",
+    "T5": "1u30qmb",
+    "T6": "1vnbr1h",
+    "T7": "1vlf5tj",
+    "S1": "1qb6zrp",
+    "S2": "1wmc2hi",
+    "S3": "1v2t8uc"
+  },
+  "tldr": "These threads are mostly launch showcases: Kickstarter print runs, a Backerkit launch, a two-deck starter box and pre-launch announcements. Replies lean heavily toward art praise, while the practical questions (tiers, grassroots selling, manufacturers) get only a few substantive answers. The most useful takeaways are about product format: a complete, playable entry product, a full-set option with optional cosmetic boosters, and rules, print-and-play files or gameplay footage ready before launch. All of these rest on small support, often a single commenter.",
+  "one_line": "Launch showcases: starter boxes, full sets vs boosters, reward tiers, and what to have ready before crowdfunding.",
+  "consensus": [
+    {
+      "point": "Showcase and launch posts mostly draw praise for art and theme. Direct business questions get few substantive replies, so the practical advice in these threads comes from a handful of commenters.",
+      "threads": [
+        "T1",
+        "T3",
+        "T7",
+        "T2",
+        "T5"
+      ]
+    },
+    {
+      "point": "Interest in the art quickly turns into requests to see how the game plays: a public rulebook, print-and-play files, or gameplay video and a trailer.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "point": "Posts showing finished physical product bring out practical questions about where to buy, which rarities are in the box, and who manufactured it.",
+      "threads": [
+        "T5",
+        "T6",
+        "S1"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Full set purchase vs random boosters",
+      "side_a": "Buy the whole set at once, with boosters limited to optional foils and alt arts, or use a living-card-game model that avoids the chase.",
+      "side_b": "Boosters bring their own thrill and make trading possible.",
+      "weight": "Side A is somewhat heavier but the numbers are tiny: 2 commenters (7 points) in T2 plus 1 (2 points) in T1, against a single commenter in T2 sharing a 4-point bucket.",
+      "threads": [
+        "T2",
+        "T1"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Use a consistent visual system: thick outlines, colour coding by type, and a clear header, attack bar and trait box. Commenters said this makes a set read as one cohesive world, and the approach drew the most-supported design praise in the chapter.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Offer a ready-to-play box with two pre-balanced opposing decks. It lowers the barrier for new players, and one commenter pointed to Pokémon, MTG and Weiss equivalents as proof the format works. Another commenter suggested adding a rulebook and two playmats so the box covers a complete first session.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Any entry-level product should hold everything needed for a full game, not a half-deck demo.",
+      "threads": [
+        "T7",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Chance-based card text such as '50% increased chance' confused readers. State the exact resolution method (coin flip, die, fixed rule) or make the effect deterministic.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "If you commission many artists, give them a style guide early. One viewer noticed that varied styles hurt cohesion.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "When the art is photographed handmade work, keep frames and backgrounds from overpowering it. Pastel tones or textures that echo the medium help.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Creature-collector art reads as appealing but invites comparisons to existing franchises. Make your own details stand out, and keep a short list of concrete mechanical differences ready if the game resembles an established one.",
+      "threads": [
+        "T5",
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Test and state how the game plays at 2 players, because many players mostly play one-on-one.",
+      "threads": [
+        "T7"
+      ]
+    },
+    {
+      "lesson": "A companion site with a tutorial, score keeper and deck builder lowers the barrier for new players. Playtest the tutorial itself, since one viewer got stuck on a mechanic.",
+      "threads": [
+        "T5"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Build a Discord early and put the game name and links in every post. The most-upvoted practical advice in T1 said this, and S3's discussion of Discords before a Kickstarter supports it.",
+      "threads": [
+        "T1",
+        "S3"
+      ]
+    },
+    {
+      "lesson": "Get physical copies played widely before the Kickstarter, and have the rulebook, print-and-play files and gameplay footage ready. Proof of real play makes the campaign credible, supports a grassroots fallback, and lets reviewers cover the game.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Reward tier advice from one commenter: put cheap-to-make exclusive promos in low tiers, start with a $1 tier and then a full starter-deck tier, and give a clear route to a booster box without forced bundles or add-ons.",
+      "threads": [
+        "T7"
+      ]
+    },
+    {
+      "lesson": "One model that fit the respondents is a full-set box plus an optional booster line of foils and alt arts. It serves players and collectors separately. If you use an unfamiliar label like ECG, explain in one line how people buy the game.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Collectors ask first about chase items such as box toppers and rare odds, so put them in your marketing early.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Posts about print-run completion and arrival build goodwill. Replying with a store link can turn a showcase thread straight into orders.",
+      "threads": [
+        "T5",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Small-run creators keep asking who prints sealed booster packs affordably. Sharing your manufacturer earns engagement, and overseas shipping costs to your main market need pricing before you commit to a supplier.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Print-on-demand services like The Game Crafter can make a retail-style starter box without a large print run.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "One commenter flagged that a 6+ age rating may trigger legal safety inspections for products marketed to under-12s. Check compliance before printing.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Fans who missed a campaign window or are short on money suggest that cheap entry tiers, a clear launch date and a late-pledge option are worth planning.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Booster box dimensions that fit store display drawers caught a retailer's attention, and the post raised questions about how indie games get into local stores.",
+      "threads": [
+        "S1"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Full set in one box, or random boosters? Indie designers weigh in.",
+      "why": "T2's poster asked this directly. Respondents leaned toward a full set with cosmetic boosters, one commenter defended boosters for trading, and T1 had a vote for an LCG model.",
+      "threads": [
+        "T2",
+        "T1"
+      ]
+    },
+    {
+      "hook": "Art carried every launch thread here. Is that enough to sell a game?",
+      "why": "Art praise held the majority of points in T1, T3 and T7, yet the follow-ups asked for rules, print-and-play files and gameplay video.",
+      "threads": [
+        "T1",
+        "T3",
+        "T7"
+      ]
+    },
+    {
+      "hook": "Cute creature art: where does homage end and lookalike begin?",
+      "why": "In T5, a comparison to Elemental Creatures and Pokémon drew the thread's largest notable bucket, alongside praise for the Sugimori-like style.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "hook": "'Expandable card game': a useful new label or just confusing?",
+      "why": "Commenters asked why VaelStrike was not simply called a TCG or CCG. The answer tied the label to a buy-the-whole-set model.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Who actually prints small-run sealed booster packs without huge costs?",
+      "why": "Three commenters raised or echoed this in T6 and it went unanswered. Overseas shipping costs came up as a related worry.",
+      "threads": [
+        "T6"
+      ]
+    },
+    {
+      "hook": "How should Kickstarter reward tiers be laid out for a card game?",
+      "why": "T7 asked for tier suggestions. The only substantive answer covered low-tier promos, full starter decks and an easy route to a booster box.",
+      "threads": [
+        "T7"
+      ]
+    },
+    {
+      "hook": "What goes in a starter box so a first game just works?",
+      "why": "The top comment in T4 praised the two-deck format with examples from big TCGs, and another suggested adding a rulebook and playmats.",
+      "threads": [
+        "T4",
+        "T7"
+      ]
+    },
+    {
+      "hook": "If the Kickstarter fails, how do you sell a card game grassroots?",
+      "why": "The question behind the chapter's most-engaged thread got few direct answers: Discord, getting cards played early, and gameplay video.",
+      "threads": [
+        "T1",
+        "S3"
+      ]
+    },
+    {
+      "hook": "Printing an age rating on your box: what compliance does that trigger?",
+      "why": "One commenter raised safety inspections for under-12 products, a pitfall that rarely comes up before printing.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "slug": "mechanics-and-balance",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.066176,
+  "refs": {
+    "T1": "1slrnm2",
+    "T2": "1ryhz14",
+    "T3": "1seml2f",
+    "T4": "1u85n3t",
+    "T5": "1sej6k2",
+    "S1": "1vf4fdd",
+    "S2": "1q81b1f"
+  },
+  "tldr": "This chapter's threads keep returning to two things. One is how a single strong option, such as a free tutor, combos that beat attacking, or land-draw variance, can flatten a game's decisions. The other is how much players should have to remember versus see on the table. The most useful takeaway is to check every new card or action against the best existing default, and to replace memory with something physical, such as discards, tokens, printed weaknesses or visible stacks.",
+  "one_line": "Dominant defaults, resource variance, attack risk-reward, readable stacks, and loved or hated mechanics from other TCGs.",
+  "consensus": [
+    {
+      "point": "A visibly offset stack of cards, with each lower ability panel showing, reads intuitively as a menu of available abilities. Commenters pointed to Digimon, One Deck Dungeon, Pokémon and the MapleStory TCG as precedents.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "point": "Name ability types by what they do. If the stacked abilities include heals, items and utility, 'actions' fits better than 'attacks'. A separate naming thread similarly pushed designers to choose card-type words that fit the game rather than inheriting Magic terms.",
+      "threads": [
+        "T5",
+        "S2"
+      ]
+    },
+    {
+      "point": "Putting resource cards like lands in the main deck lets draw variance decide games. Separate resource decks or mulligans are credited as improvements, even though people disagree on what the ideal replacement is.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "point": "In the elemental-cycle game, attacking risks too much for too little: the attacker spends their action and a card while the defender gains cards, so players default to combos.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "point": "Put information players need during play on the components themselves rather than in their heads or on a rules sheet. Suggested ways included printing element strengths and weaknesses on cards, using tokens or counters for statuses, and discarding one-shot cards.",
+      "threads": [
+        "T4",
+        "T3",
+        "T5"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Is a free, colorless one-of tutor a balance problem in a one-Legendary-per-deck game?",
+      "side_a": "Yes. A tutor effectively counts as every creature in the deck, so a free generic one will beat situational Legendaries and warp the format around itself.",
+      "side_b": "Not much. As a single copy in the deck, it adds only limited consistency.",
+      "weight": "Side A clearly heavier: 3 commenters and 38 points (about half the thread's comment points) vs 1 commenter and 5 points.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "issue": "Are automatic or risk-free resource systems a good fix for land-draw variance?",
+      "side_a": "Automatic, generic or separate-deck resources are an improvement over lands in the main deck.",
+      "side_b": "Resources that arrive with no risk are dull and make games feel samey.",
+      "weight": "Side A heavier on points: 2 commenters and 24 points vs 2 commenters and 8 points. The headcount is even, so this is a live disagreement.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "issue": "Should card text say 'any hero' or 'any 1 hero'?",
+      "side_a": "Use the simpler 'any hero' and keep it consistent.",
+      "side_b": "Use 'any 1 hero' so the template scales when future cards name other numbers of targets.",
+      "weight": "Low stakes. Side A slightly ahead with 1 commenter and 8 points vs 1 commenter and 3 points.",
+      "threads": [
+        "T5"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Treat any free, generic tutor as the power ceiling for its slot. A new Legendary has to beat 'fetch my best creature for 0', so either give the tutor a cost or restriction, or make Legendaries only slightly more functional than regular cards so no single pick dominates. To judge whether a rare card is too strong, compare it against your normal cards.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Offset stacking is a clear way to show accumulated abilities from leveling. Keep each visible panel readable on its own, and test whether players read the stack as level progression or as an inventory, since one commenter saw it as an inventory.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "If you want resource variance, cushion it with a mulligan or a separate resource deck. Also test any resource or turn system for loops: one commenter said Digimon's memory gauge needs constant patching because a player can end their turn and get the gauge straight back. A designer whose first playtest bored them was likewise advised to rethink a convoluted shared-resource system.",
+      "threads": [
+        "T3",
+        "S1"
+      ]
+    },
+    {
+      "lesson": "Balance risk and reward between the actions you want players to take. If a failed attack costs the attacker an action and a card while the defender gains cards, nobody attacks. Narrow that gap, for example by letting the attacker take a random card instead of the defender picking a useless one. Limiting combos per turn is another option.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Keep per-card text short and let depth come from how cards interact. Long paragraphs, keyword piles and hidden state slow play. In a related thread, small whole-number stats and a stripped-down core loop were the top fixes for a boring prototype.",
+      "threads": [
+        "T3",
+        "S1"
+      ]
+    },
+    {
+      "lesson": "Enforce once-per-game abilities with a physical consequence, such as discarding, banishing or folding the used card under the stack, rather than the honor system. Use tokens or counters for statuses and once-per-turn effects.",
+      "threads": [
+        "T5",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "When comparing same-cost effects, remember that self-benefit effects (draw, take) usually beat single-target punishment, especially in multiplayer. Price them accordingly.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Card orientation can track state without extra components. Naruto TCG turned cards sideways for an 'injured' second stat line. Timing-based mechanics like Lightseekers' rotation create tension because opponents can disrupt them.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Cards with two effects (a play effect and a level-up effect) let a simple card pool support engine building, as in the Maplestory and SolForge examples.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Avoid flip or dual-faced cards that force players to memorize the hidden side. They also rule out opaque sleeves.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Make protection cost the opponent something to get past, like a ward-style tax, rather than giving absolute immunity, so counterplay survives. One commenter likewise disliked effects that negate everything.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Give special action cards a distinct mechanical role so they don't duplicate what core element combos already do and dilute their identity.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Set templating rules early and apply them everywhere, and consider whether a phrasing will scale to future cards.",
+      "threads": [
+        "T5"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Tying rarity to power persists because it sells, but a model where rarity does not equal strength can be marketed as a fairness selling point. KeyForge-style fixed random decks were criticized for competitive play.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Nostalgia for defunct TCGs draws attention: a Naruto TCG card drew the top-scoring comment in its thread, which suggests dead-game references are a good engagement hook.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Automatic resources every turn: a real fix, or does it remove the tension?",
+      "why": "The resource thread split. Two commenters with 24 points backed resource decks and automatic systems over lands, while two others with 8 points called risk-free resources boring. It also connects to the consensus that land draws decide too many games.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "Does one free tutor card make every other Legendary pointless?",
+      "why": "This was the chapter's most engaged thread, and its substantive replies (3 commenters, about half the comment points) said a free generic tutor sets the ceiling. One commenter argued a one-of adds little consistency, which makes it easy to argue both ways.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "Should rarer cards be stronger cards?",
+      "why": "Two commenters with 24 points criticized rarity-equals-power and unmodifiable random decks, while acknowledging that the model sells. That frames a design-versus-business tension.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "Hexproof or ward: should protection ever be absolute?",
+      "why": "It is a concrete, familiar comparison with a counterplay argument behind it, though the support was small (one commenter on hexproof, plus one on negate-everything effects).",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Which dead TCG mechanic deserves a comeback?",
+      "why": "A high-engagement nostalgic thread listed rotation, orientation-based injury, leveling cards, squads and multiple win conditions. Viewers can easily add their own picks.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "If attacking costs you cards when it fails, why would anyone attack?",
+      "why": "This was the consensus problem in the elemental-cycle thread, with concrete fixes proposed: random steals, combo limits and cooldowns. It's a common pitfall any designer can test against their own game.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Does a stack of offset cards read as a menu of choices?",
+      "why": "Nine commenters with most of the thread's points found it intuitive, while one read it as an inventory. That makes a quick visual test to run on camera.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "hook": "How much text is too much on one card?",
+      "why": "Five commenters in the hated-mechanics thread wanted shorter text and depth from interactions. A boring-playtest thread got similar 'simplify the core' advice.",
+      "threads": [
+        "T3",
+        "S1"
+      ]
+    },
+    {
+      "hook": "One-time abilities: trust players to remember, or make them discard?",
+      "why": "Concrete fixes appeared in more than one thread: discarding or folding used cards and using tokens for state. The designer in the stacking thread switched to discarding.",
+      "threads": [
+        "T5",
+        "T3"
+      ]
+    }
+  ]
+}

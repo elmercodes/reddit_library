@@ -1,6 +1,6 @@
 ---
 subreddit: homemadeTCGs
-updated_at: '2026-11-19T05:15:52+00:00'
+updated_at: '2026-11-19T05:25:42+00:00'
 chapters:
 - slug: card-frames-and-templates
   title: Card frames and template style
@@ -402,19 +402,19 @@ chapters:
 
 | Chapter | Heat | Comments / thread | Threads | TL;DR |
 |---|---|---|---|---|
-| [Card frames and template style](chapters/card-frames-and-templates.md) | 152.1 | 25 | 12 +8 | *(not written yet)* |
-| [Card layout and readability](chapters/card-layout-readability.md) | 150.7 | 50 | 9 +13 | *(not written yet)* |
-| [Art style and art direction](chapters/art-style-and-direction.md) | 148.0 | 42 | 8 +13 | *(not written yet)* |
-| [Showcases and milestones](chapters/showcases-and-milestones.md) | 146.5 | 27 | 13 +4 | *(not written yet)* |
-| [Placeholder art and DIY alternatives](chapters/placeholder-and-diy-art.md) | 98.9 | 45 | 6 +6 | *(not written yet)* |
-| [Playtesting and prototypes](chapters/playtesting-and-prototypes.md) | 98.3 | 27 | 9 +3 | *(not written yet)* |
-| [Printing, test prints and manufacturing](chapters/printing-and-production.md) | 86.0 | 28 | 7 +4 | *(not written yet)* |
-| [Kickstarter, launch and product formats](chapters/kickstarter-and-launch.md) | 80.7 | 26 | 7 +3 | *(not written yet)* |
-| [AI art debate and community rules](chapters/ai-art-debate.md) | 73.4 | 213 | 3 +6 | *(not written yet)* |
-| [Mechanics, rules and balance](chapters/mechanics-and-balance.md) | 61.0 | 61 | 5 +2 | *(not written yet)* |
-| [Theme, identity and originality](chapters/theme-identity-originality.md) | 60.7 | 29 | 4 +5 | *(not written yet)* |
-| [Card backs, logos and branding](chapters/card-backs-and-logos.md) | 55.8 | 29 | 4 +4 | *(not written yet)* |
-| [Local stores, events and community building](chapters/stores-events-community.md) | 51.5 | 52 | 4 +2 | *(not written yet)* |
-| [Full art vs framed cards](chapters/full-art-cards.md) | 47.7 | 32 | 5 | *(not written yet)* |
-| [Design tools and digital simulators](chapters/design-tools-and-digital.md) | 33.1 | 33 | 2 +3 | *(not written yet)* |
-| [Commissioning art and art budgets](chapters/commissioning-and-art-budgets.md) | 27.9 | 24 | 2 +2 | *(not written yet)* |
+| [Card frames and template style](chapters/card-frames-and-templates.md) | 152.1 | 25 | 12 +8 | Themed frames win praise, but readability, originality and art fit decide whether they work. |
+| [Card layout and readability](chapters/card-layout-readability.md) | 150.7 | 50 | 9 +13 | Crowded zones, scattered stats, color-only signals and tiny text: how layout makes or breaks readability. |
+| [Art style and art direction](chapters/art-style-and-direction.md) | 148.0 | 42 | 8 +13 | Handmade art styles win praise; the real work is matching frames and keeping cards readable. |
+| [Showcases and milestones](chapters/showcases-and-milestones.md) | 146.5 | 27 | 13 +4 | Milestone showcases: art wins praise, but viewers immediately ask how to play, buy and make it. |
+| [Placeholder art and DIY alternatives](chapters/placeholder-and-diy-art.md) | 98.9 | 45 | 6 +6 | Non-AI placeholder options, from pigeons to stick figures, and why readable beats polished. |
+| [Playtesting and prototypes](chapters/playtesting-and-prototypes.md) | 98.3 | 27 | 9 +3 | First playtests expose overload; strip to the core, prototype cheap, and make games easy to try. |
+| [Printing, test prints and manufacturing](chapters/printing-and-production.md) | 86.0 | 28 | 7 +4 | Test prints, printer picks, foil choices and what physical cards reveal that screens hide. |
+| [Kickstarter, launch and product formats](chapters/kickstarter-and-launch.md) | 80.7 | 26 | 7 +3 | Launch showcases: starter boxes, full sets vs boosters, reward tiers, and what to have ready before crowdfunding. |
+| [AI art debate and community rules](chapters/ai-art-debate.md) | 73.4 | 213 | 3 +6 | How r/homemadeTCGs came to ban AI art, placeholders included, and what designers use instead. |
+| [Mechanics, rules and balance](chapters/mechanics-and-balance.md) | 61.0 | 61 | 5 +2 | Dominant defaults, resource variance, attack risk-reward, readable stacks, and loved or hated mechanics from other TCGs. |
+| [Theme, identity and originality](chapters/theme-identity-originality.md) | 60.7 | 29 | 4 +5 | Escaping clone looks and homemade TCG tropes through original themes, terminology, factions and visuals. |
+| [Card backs, logos and branding](chapters/card-backs-and-logos.md) | 55.8 | 29 | 4 +4 | Card backs as recognition and discovery tools: readable names, fanned-hand testing, colour over icons. |
+| [Local stores, events and community building](chapters/stores-events-community.md) | 51.5 | 52 | 4 +2 | Filling first tournaments, getting stocked locally, and growing a Discord around a homemade TCG. |
+| [Full art vs framed cards](chapters/full-art-cards.md) | 47.7 | 32 | 5 | Full art wins on looks, framed on clarity; back text over art and use full art as a reward tier. |
+| [Design tools and digital simulators](chapters/design-tools-and-digital.md) | 33.1 | 33 | 2 +3 | Card database tools and custom simulators: what designers need before adopting, and when to build digital. |
+| [Commissioning art and art budgets](chapters/commissioning-and-art-budgets.md) | 27.9 | 24 | 2 +2 | Card art: quality is rarely the blocker; per-piece cost and hours times set size decide everything. |

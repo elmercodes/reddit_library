@@ -1,0 +1,251 @@
+{
+  "slug": "placeholder-and-diy-art",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.068034,
+  "refs": {
+    "T1": "1ww9h9v",
+    "T2": "1x1obd2",
+    "T3": "1rdjj2s",
+    "T4": "1vzyi02",
+    "T5": "1s4la31",
+    "T6": "1wwaia8",
+    "S1": "1v5oizl",
+    "S2": "1qv7ztx",
+    "S3": "1unj3c9",
+    "S4": "1v5w74a",
+    "S5": "1tfbry5",
+    "S6": "1qfp7ur"
+  },
+  "tldr": "With AI now banned in this subreddit even for placeholders, these threads are about what designers use instead: a shared mascot pigeon, stock silhouettes, posed action figures, clay and collage, and their own rough drawings. Designers who switched to hand-drawn placeholders got warm, near-unanimous encouragement, and several commenters treated human-made art as a way to stand out. The most useful practical point is that placeholders don't need polish, but they do need to make each card easy to tell apart, so one repeated image falls short.",
+  "one_line": "Non-AI placeholder options, from pigeons to stick figures, and why readable beats polished.",
+  "consensus": [
+    {
+      "point": "Rough hand-drawn art from designers who dropped AI was welcomed. Commenters praised its charm and personality and often said the poster was underrating their own work.",
+      "threads": [
+        "T2",
+        "T5",
+        "S4"
+      ]
+    },
+    {
+      "point": "You can make playable prototype art without AI or drawing skill. Stock silhouettes, posed figures, photographed objects, clay, collage and stick figures were all offered as workable options.",
+      "threads": [
+        "T3",
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "point": "Placeholder art only needs to be readable and distinct. Polish doesn't matter, and mixed or crude styles are fine for testing.",
+      "threads": [
+        "T1",
+        "T4",
+        "T6"
+      ]
+    },
+    {
+      "point": "A visibly human-made art identity can help a game stand out from the flood of AI fantasy art.",
+      "threads": [
+        "T3",
+        "T5",
+        "S4"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Is AI acceptable as a prototyping or placeholder tool?",
+      "side_a": "No. It cuts out the designer's own process and growth, and prototypes don't need it.",
+      "side_b": "Yes. It's a legitimate supplementary tool for prototypes and for people who struggle with art or focus, and objecting to it is gatekeeping.",
+      "weight": "Side A clearly heavier in T4: 3 commenters with 66 points vs 3 commenters with 0. The broader subreddit backed a ban [S1], and ban supporters also outscored opponents in [S2]. In [S3] the top comments split roughly evenly, and in [T1] two commenters questioned banning placeholders (10 points).",
+      "threads": [
+        "T4",
+        "T1",
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "issue": "Is one shared mascot placeholder enough for playtesting?",
+      "side_a": "Yes. A single silly mascot clearly marks cards as unfinished, and one commenter plans to use it on every card.",
+      "side_b": "No. Testers need art that hints at each card's role, so one repeated image makes cards hard to tell apart.",
+      "weight": "Side B much heavier: 4 commenters with 64 points in T1 vs 1 commenter with 2 points in T6.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "issue": "Does recommending Unreal Engine undercut an anti-AI message?",
+      "side_a": "Yes. Epic is openly pro-AI, so pointing people to its engine is inconsistent.",
+      "side_b": "No. Running the engine locally is different from feeding AI data centers.",
+      "weight": "Small and close: side A had 1 commenter with 10 points, side B had 3 commenters with 6 points.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Don't use one image for every placeholder. Make variants with palette swaps, hats or accessories, class versions or quick sketches that hint at each card's role, so testers can identify cards at a glance. This was the top pushback on the pigeon, and variant ideas like a wizard pigeon came up naturally.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "If you can't draw, try handmade mediums: photographed found objects, clay or playdough models, collage, or posed action figures. They give a distinctive look that sets the game apart from generic fantasy art.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Lean into rough art as a deliberate style rather than hiding its flaws. A consistent, charming look with strong character concepts reads as intentional. Commenters compared crude drawings to early Flash animation and singled out personality over technical polish.",
+      "threads": [
+        "T2",
+        "T5",
+        "S4"
+      ]
+    },
+    {
+      "lesson": "Consistent black-and-white stock vector silhouettes are enough for a functional print-and-play prototype, as long as the style stays uniform so cards are recognizable.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "If backgrounds are your weak spot, build one strong background or simple texture and reuse it across cards. That saves time and keeps attention on the characters.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "For the earliest builds, one designer suggested skipping images entirely and writing a short description in the art box. Others said stick figures work and that testers enjoyed them more than AI placeholders.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Reusing the same posed figures or 3D models across a set can create cohesion and imply a story without unique illustrations (one commenter's suggestion).",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Make testing easy to join. Free platforms like Cockatrice, Screentop.gg or Tabletopia avoid making testers buy software, and spreadsheet-to-PDF card generators already work without AI.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "When you illustrate a whole set yourself, compare early and recent cards from time to time to see your progress, and resist redoing finished cards so the project keeps moving (one solo artist's advice).",
+      "threads": [
+        "T5"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Positioning a game as clearly human-made gets a strong response from this audience and can differentiate it in a market crowded with AI art.",
+      "threads": [
+        "T3",
+        "T5",
+        "S4",
+        "S1"
+      ]
+    },
+    {
+      "lesson": "A fun mascot plus an open invitation to remix it can turn a community into co-creators. Rating submissions and promising a milestone reward kept people posting, and the low skill barrier drew in non-artists and kids.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "lesson": "Crude art doesn't automatically block commercial interest. One developer reported almost 100 Steam wishlists and favorable reviews with MS Paint art. Keep your wider presence consistent, though: a generic AI-looking website drew a jab at an anti-AI dev.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "This subreddit banned AI even for placeholders. Was that the right call?",
+      "why": "It's the backdrop to the whole chapter. The ban announcement was heavily upvoted [S1], and anti-AI comments dominated by points in [T4] and [S2]. But [S3] split evenly at the top, and commenters in [T1] asked why placeholders count, so both sides have real voices.",
+      "threads": [
+        "S1",
+        "S2",
+        "S3",
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "hook": "Can one placeholder pigeon really replace AI placeholder art?",
+      "why": "The pigeon was the chapter's most engaged thread, and its top practical pushback (4 commenters, 64 points) was that one image makes testing harder. Meanwhile [T6] showed people happily adopting it.",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "hook": "MS Paint card art and almost 100 wishlists. Can crude art actually sell?",
+      "why": "One concrete data point [T2], plus threads where rough hand-drawn art drew overwhelming praise [T5, S4], tests the idea that charm beats polish.",
+      "threads": [
+        "T2",
+        "T5",
+        "S4"
+      ]
+    },
+    {
+      "hook": "Do you even need placeholder art, or is a text description enough?",
+      "why": "One designer's contrarian shortcut challenges a near-universal habit, and it contrasts with others who found handmade sketches improved tester enjoyment.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "No art budget and no drawing skills. What do you put on prototype cards?",
+      "why": "This is the most common pain point in the chapter. The most upvoted answers in [T3] were practical (found objects, playdough, collage, posed figures), and [T4] showed stock silhouettes working in a real prototype.",
+      "threads": [
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "hook": "How do you keep 151 unique cards readable with placeholder art?",
+      "why": "This question drove the main pushback on the pigeon. Palette swaps and hats were offered in [T1], and themed variants like a wizard pigeon in [T6].",
+      "threads": [
+        "T1",
+        "T6"
+      ]
+    },
+    {
+      "hook": "Drawing your own placeholders after dropping AI: how rough is too rough?",
+      "why": "Several designers posted crude replacements and got warm feedback [T2, T5, S4], so viewers will want to know where charming ends and unfinished begins.",
+      "threads": [
+        "T2",
+        "T5",
+        "S4"
+      ]
+    },
+    {
+      "hook": "Can one background carry a whole card set?",
+      "why": "Backgrounds were the stated weak spot in [T5], and reuse or simple textures was the main fix offered. Solo artists face the same tradeoff.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "hook": "Do your playtesters need Tabletop Simulator, or are free tools enough?",
+      "why": "A practical onboarding pain point raised in [T4], which listed free alternatives. It's a narrow but useful answer for solo designers.",
+      "threads": [
+        "T4"
+      ]
+    }
+  ]
+}

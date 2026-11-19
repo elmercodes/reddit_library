@@ -1,0 +1,303 @@
+{
+  "slug": "showcases-and-milestones",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.092732,
+  "refs": {
+    "T1": "1t8ucs3",
+    "T2": "1wo2pn3",
+    "T3": "1wgf6yi",
+    "T4": "1sz9zve",
+    "T5": "1w0y1es",
+    "T6": "1x4ewd7",
+    "T7": "1tsnlih",
+    "T8": "1wymki3",
+    "T9": "1qapqvw",
+    "T10": "1wrrlck",
+    "T11": "1q7f1um",
+    "T12": "1qiektx",
+    "T13": "1w8uydv",
+    "S1": "1rfgz9u",
+    "S2": "1xurdr1",
+    "S3": "1xnwbt1",
+    "S4": "1w77mdb"
+  },
+  "tldr": "These threads are celebrations: finished sets, releases, first cards and childhood projects revived. They draw warm praise, mostly for distinctive art, and almost no pushback. Beyond the compliments, the same practical signals recur. Viewers who like the look immediately ask how to play, where to buy or try it, and how the art or finishes were made. Small legibility problems such as credits, logos, stat icons and crowded text boxes are what critics catch. The most useful takeaway is that a showcase post should ship with onboarding (rules, a demo or video, a sales format) and readable details, because the art alone gets attention but doesn't explain the game.",
+  "one_line": "Milestone showcases: art wins praise, but viewers immediately ask how to play, buy and make it.",
+  "consensus": [
+    {
+      "point": "Distinctive art is the main thing these posts get praised for. Across most threads, the largest support goes to compliments on the art style, whether commissioned, hand-drawn, cartoon or anime.",
+      "threads": [
+        "T1",
+        "T4",
+        "T6",
+        "T8",
+        "T9",
+        "T11",
+        "T7",
+        "T13",
+        "T5",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "point": "Clean, consistent, readable card layouts get specific praise. Consistent frames and colour coding help a set read as one coherent game.",
+      "threads": [
+        "T13",
+        "T5",
+        "T11",
+        "T2"
+      ]
+    },
+    {
+      "point": "Milestone and showcase posts get a friendly, supportive reception with little critique. Critique, when it appears, is small and targeted at legibility details.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T6",
+        "T8",
+        "T12",
+        "T13"
+      ]
+    },
+    {
+      "point": "Interested viewers quickly ask how the game plays. Requests for rules, tutorials or gameplay video appear in many threads, though each is backed by only one or two commenters.",
+      "threads": [
+        "T1",
+        "T8",
+        "T10",
+        "T11",
+        "T13"
+      ]
+    }
+  ],
+  "splits": [],
+  "design_lessons": [
+    {
+      "lesson": "Check that small text survives at photo and print size. In one thread, viewers couldn't tell a bottom-center name was the artist credit. In another, three commenters found an ornate logo hard to read. Effect text that is too small, or rotated, also drew complaints.",
+      "threads": [
+        "T1",
+        "T8"
+      ]
+    },
+    {
+      "lesson": "Keep functional elements visually distinct from decoration, and make stats self-explanatory. Teeth-like frame ornaments were read as level pips, and a viewer couldn't tell what the numbers on hand-drawn cards meant.",
+      "threads": [
+        "T8",
+        "T7"
+      ]
+    },
+    {
+      "lesson": "Size the text box and stat area for your longest card. One shared card had its shield stat overlapping the rules text while a common card had dead space. Cramped handwritten boxes limited what cards could say, and commenters suggested a ruler or a digital template.",
+      "threads": [
+        "T6",
+        "T12"
+      ]
+    },
+    {
+      "lesson": "Use a consistent frame structure with colour coding by faction or rarity, so the set reads as coherent at a glance. Treat the frame as its own polish pass, because strong art can hide a plain frame.",
+      "threads": [
+        "T2",
+        "T5",
+        "T6",
+        "T11",
+        "T13"
+      ]
+    },
+    {
+      "lesson": "Show art inside the real card frame, not only as raw assets. A playable-looking mockup with placeholder frames still earned 'slick' reactions, which suggests locking layout before the art is finished.",
+      "threads": [
+        "T4",
+        "T10"
+      ]
+    },
+    {
+      "lesson": "Give the card back its own deliberate design that matches the face art direction. Prefer something iconographic over reused promo art or a placeholder.",
+      "threads": [
+        "T6",
+        "T8"
+      ]
+    },
+    {
+      "lesson": "Let mechanics and flavor text express the creature. A jellyfish that can't return to hand and paralyzes attackers was singled out, and humorous flavor text got laughs.",
+      "threads": [
+        "T12"
+      ]
+    },
+    {
+      "lesson": "For print-and-play, test very dark art on a home printer. Heavy saturation drains ink and adds friction for players, so an ink-friendly variant may help.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "For prototypes, cut-up glitter or foil stickers placed on key areas fake a holo effect cheaply and guide the eye. It was the most-asked practical question in its thread.",
+      "threads": [
+        "T9"
+      ]
+    },
+    {
+      "lesson": "Design packs or starter boxes so a newcomer can build a playable deck right away. A playtester praised opening two boosters into a working deck, and a two-deck starter box drew praise for the concept itself.",
+      "threads": [
+        "T5",
+        "S3"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Ship onboarding with the reveal: a rulebook, a how-to-play video, and a demo or sign-up link in the original post. Viewers asked for these right away in many threads. Where readable rules existed, one reader went straight to planning a Tabletop Simulator game.",
+      "threads": [
+        "T10",
+        "T13",
+        "T11",
+        "T8",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "State the sales format and purchase path up front: packs, precons, a full set, restock timing and international shipping. These questions recurred, and a U.S.-only store link confused a buyer abroad even though other shipping countries were listed.",
+      "threads": [
+        "T4",
+        "T5",
+        "T1",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "Free print-and-play lowers the barrier and pairs well with a premium sealed product. The catch is that few people actually print, so make it easy with ready PDFs, a card search or a digital table.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3",
+        "T10"
+      ]
+    },
+    {
+      "lesson": "Process content draws curiosity. Viewers asked about clear-ink textures, sticker foils, paint and card stock, printers and manufacturers, and how a card database website was built.",
+      "threads": [
+        "T1",
+        "T9",
+        "T7",
+        "T5",
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "lesson": "Commissioned art is costly but was heavily rewarded with praise, so promote the artists openly. Expect questions about how a solo or indie team handles art cost, AI included, and have an honest answer ready.",
+      "threads": [
+        "T1",
+        "T10",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "A public card database lets people browse the whole set before buying, and one commenter said it raised their interest.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Search existing comics, games and media before committing to a name. One commenter found two prior uses of a TCG's title.",
+      "threads": [
+        "T8"
+      ]
+    },
+    {
+      "lesson": "A personal origin story, such as childhood cards shown beside the finished set, gives a build-in-public project an emotional hook. A fellow designer said this theme draws many DMs.",
+      "threads": [
+        "T2",
+        "T9"
+      ]
+    },
+    {
+      "lesson": "Print-on-demand can be expensive for a non-random game that offers the full card pool at once. One designer priced a single box at about $100 and chose print-and-play instead.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Commissioned artists, your own hand, or something else: how should indie TCGs get art?",
+      "why": "Commissioned art drew the strongest praise in the top thread, and the poster called artists the biggest cost. An illustrator asked how indie teams afford art and said they wouldn't judge an AI answer. Self-made art was praised for improving over a project.",
+      "threads": [
+        "T1",
+        "T10",
+        "T3",
+        "S2"
+      ]
+    },
+    {
+      "hook": "Is print-and-play enough, or does a card game need a physical release?",
+      "why": "One designer chose print-and-play only to focus on expansions. A commenter warned that few people actually print, and another said self-publishing physically is more stress than expected. Elsewhere, print-and-play was paired with premium boxes.",
+      "threads": [
+        "T2",
+        "T3",
+        "T1"
+      ]
+    },
+    {
+      "hook": "Booster chase or the whole card pool at once: what do players want?",
+      "why": "One release puts a copy of every card in each booster box. A non-random game drew a comment that pack collecting is part of the fun. Respondents in another thread leaned toward buying a full set.",
+      "threads": [
+        "T1",
+        "T3",
+        "S2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "People love the cards, then ask one thing: how do you play?",
+      "why": "The request for gameplay video, rules or a tutorial recurs across many showcase threads. In one, it was the first question and the designer had no video yet.",
+      "threads": [
+        "T13",
+        "T8",
+        "T11",
+        "T10",
+        "T1"
+      ]
+    },
+    {
+      "hook": "How do people make foil and textured cards, from stickers to UV ink?",
+      "why": "Texture and foil were the main practical questions in two well-upvoted threads. One commenter wanted to copy the dollar-store sticker technique.",
+      "threads": [
+        "T1",
+        "T9",
+        "T7"
+      ]
+    },
+    {
+      "hook": "Can people actually read your logo, credits and stat icons in a photo?",
+      "why": "Several small but repeated critiques were about legibility: artist credits, an ornate logo (flagged by three commenters), unexplained numbers, and a stat overlapping rules text.",
+      "threads": [
+        "T1",
+        "T8",
+        "T7",
+        "T6"
+      ]
+    },
+    {
+      "hook": "Packs, precons or full sets: how should a homemade TCG actually be sold?",
+      "why": "Sales format, restocks and international ordering came up in several threads. Buyers showed real purchase intent but hit unclear paths.",
+      "threads": [
+        "T4",
+        "T5",
+        "T1",
+        "S2"
+      ]
+    },
+    {
+      "hook": "Dark card art looks great, but what happens when someone prints it at home?",
+      "why": "A print-and-play designer and a commenter both flagged ink drain on saturated cards. It's a concrete tradeoff for anyone offering free printables.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ]
+}

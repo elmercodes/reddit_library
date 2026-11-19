@@ -1,0 +1,194 @@
+{
+  "slug": "commissioning-and-art-budgets",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.039874,
+  "refs": {
+    "T1": "1t3q6md",
+    "T2": "1tkrdeg",
+    "S1": "1t8ucs3",
+    "S2": "1v32yjk"
+  },
+  "tldr": "Both main threads land on the same point: the art itself is rarely the problem, and the real constraints are money and time across a full set. A solo designer is mostly told that hiring only buys speed. A freelance illustrator is mostly told that indie TCG makers cannot afford per-piece rates once they are multiplied by a card count. The most useful takeaway is to multiply cost or hours per illustration by your unique card count before choosing a path, then scope the launch to fit.",
+  "one_line": "Card art: quality is rarely the blocker; per-piece cost and hours times set size decide everything.",
+  "consensus": [
+    {
+      "point": "When the art is already good, quality is not the reason to hire. The real drivers are speed, workload and timeline.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "point": "Indie and hobby TCG budgets, not art quality, are the main barrier to commissioning. Many card projects have little or no money for art.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "point": "A TCG needs a large number of illustrations, so even modest per-piece rates or hours per piece add up to thousands of dollars or months of work.",
+      "threads": [
+        "T1",
+        "T2",
+        "S2"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Is the illustrator's TCG-style art distinctive enough to stand out?",
+      "side_a": "The art is professional and hireable, needing only minor composition or anatomy fixes.",
+      "side_b": "The art is glossy, generic digital work that looks like many current TCGs.",
+      "weight": "Side A far heavier: 8 commenters, 26 points vs 1 commenter, 2 points.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Before deciding to self-illustrate, multiply your time per illustration by the number of unique cards, and let that total set a realistic launch scope. Solo art across a full set is where timelines and burnout bite.",
+      "threads": [
+        "T1",
+        "T2",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "Don't let art block testing. Release or build in batches (one suggestion was about 30 cards at a time) and playtest with unfinished cards printed on cardstock or mocked up over existing cards.",
+      "threads": [
+        "T1",
+        "S2"
+      ]
+    },
+    {
+      "lesson": "Presentation effects can draw more attention than the art question itself. A holo effect built in plain CSS got several commenters asking how it was made, which makes cards more shareable.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "A cohesive frame, font and art style makes self-made cards read as professional. Commenters praised template consistency and mood.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Match each card's art tone to its fantasy and power level, for example playful for mundane items and epic for legendary ones. Check composition and anatomy too, since flat layouts or small focal subjects can put buyers off (raised by one or two commenters).",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "One designer suggested a hybrid route: act as art director, illustrate key characters and a few samples, sketch the rest, and have another artist match the style.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Rates around $150 or more per piece rule many indie TCG buyers out before any conversation, because the card count multiplies the price. Artists can consider lower entry tiers, bundles or revenue-share deals.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Artists seeking paid card work do better pitching to buyers with real budgets, such as board games, LCGs, TTRPGs and larger publishers, rather than hobby TCGs.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Commissioning a full 60-100 piece set in a distinctive style may run to tens of thousands of dollars. One cheaper route offered was a guaranteed batch of 30-75 cards from a newer artist with a similar style.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Solo art is a trade of money for time. Plan the release schedule around a much longer timeline if you illustrate yourself.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Some indie creators work with artists on revenue share instead of upfront pay. One buyer prefers Fiverr for its dispute protection, where a large, varied portfolio helps an artist win work.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Artists can justify their rates by framing the work as solving the client's problem: pitching the game, securing funding or presenting a solid prototype.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Strong commissioned art and a sleek full-art layout can carry a launch announcement on their own, drawing almost entirely positive attention.",
+      "threads": [
+        "S1"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Is $150 per card illustration fair, or out of reach for indie TCGs?",
+      "why": "Budget arguments carried the most points in T2 (consensus at 6 commenters, 28 points), and several commenters said rates at that level are a hard no once multiplied by a card count.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Polished but generic: does TCG art need a distinct style to get hired?",
+      "why": "T2 split on this, though lopsidedly, with most praising the art and one calling it look-alike glossy work. A buyer's comment about wanting proof of range across a full set adds a separate angle.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Revenue share with artists: workable deal or risky for both sides?",
+      "why": "T2 raised revenue share as the realistic alternative when indie budgets can't cover upfront rates. It's a live tension between designers with no money and artists who need pay.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Should you draw your own card art or hire? Let's run the numbers.",
+      "why": "T1's top consensus (7 commenters) frames hiring as purely a speed trade-off, and commenters supplied concrete figures: tens of thousands for 60-100 pieces versus a much longer solo timeline. S2 shows the solo grind even for a 32-card game.",
+      "threads": [
+        "T1",
+        "S2"
+      ]
+    },
+    {
+      "hook": "How do indie designers actually budget art for a whole set?",
+      "why": "This is the central pain point in T2. Options raised included revenue share, DIY art, Fiverr and smaller guaranteed batches, plus T1's estimate for a full set.",
+      "threads": [
+        "T2",
+        "T1"
+      ]
+    },
+    {
+      "hook": "What do TCG buyers look for when hiring a card artist?",
+      "why": "T2 gave buyer-side criteria: range across a set, storytelling and tone, composition, portfolio depth, and framing art as solving the client's problem.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Could you art-direct your set instead of illustrating every card?",
+      "why": "T1 floated sketching the set and handing finals to a style-matched artist as a middle path for solo designers, though only one commenter suggested it.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "A card holo effect made in plain CSS: how it works, why it matters.",
+      "why": "In T1, 4 commenters skipped the art question to ask about the holo effect, which shows real demand for presentation tips.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ]
+}

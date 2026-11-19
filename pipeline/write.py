@@ -24,7 +24,7 @@ from lib.store import read_json, write_json, write_text
 
 from .cluster import heat_table, load_threads, plan_path
 
-EST_OUTPUT_TOKENS = 9500          # per chapter at high effort (visible text + thinking), estimate
+EST_OUTPUT_TOKENS = 4500          # per chapter at high effort; measured 4,022 avg on r/homemadeTCGs (16 chapters)
 CHAPTER_MAX_TOKENS = 32000
 PENDING = C.DATA / "pending_chapter_batches.json"
 

@@ -1,0 +1,243 @@
+{
+  "slug": "theme-identity-originality",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.05605,
+  "refs": {
+    "T1": "1sysr95",
+    "T2": "1q81b1f",
+    "T3": "1tgh9ld",
+    "T4": "1r2bn5m",
+    "S1": "1q5tk3l",
+    "S2": "1uy1ngw",
+    "S3": "1vhft8r",
+    "S4": "1qns58a",
+    "S5": "1waha80"
+  },
+  "tldr": "These threads circle one worry: how a homemade TCG avoids looking like every other homemade TCG. The best-supported signal is a meme thread where commenters piled on recognizable tropes, especially AI placeholder art, Pokemon-style clones, untested templates and idea-only posts. Smaller threads show what reads as derivative: borrowed keywords and layouts as well as type names. Fresh themes like racing or hacker aesthetics get a warm welcome but bring their own risks, such as licensing and readability. The most useful takeaway is to audit the whole package (art, layout, keywords, terminology) against the big games, and to tie names and faction visuals to your own world.",
+  "one_line": "Escaping clone looks and homemade TCG tropes through original themes, terminology, factions and visuals.",
+  "consensus": [
+    {
+      "point": "AI placeholder art and Pokemon-style clones are widely recognized tropes in this community, and some players say outright that they avoid AI-art games.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "point": "Themes outside fantasy creature-fighting, such as car racing or retro computing and hacking, are welcomed as fresh even when niche.",
+      "threads": [
+        "T3",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "point": "Resemblance to a big game gets flagged quickly, and it comes from layout and keywords as much as from names: Pokemon-like cards, Yu-Gi-Oh-like templates, old-border MTG frames, and MTG keywords like Scry or Lifesteal.",
+      "threads": [
+        "T2",
+        "S1",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "point": "Card terminology works best when it grows out of the game's lore or is a coined word, rather than a swap for one generic synonym.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "point": "Real-world brands, cars and landmarks raise licensing questions, so content should be original or renamed.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Should you avoid the word \"creature\" to distance yourself from MTG?",
+      "side_a": "Coin a custom term or pick one from your lore (Unit, Minion, Champion, Arcana and others were offered) so the game has its own identity.",
+      "side_b": "One designer spent three years trying alternatives, went back to \"creature\", and found that accepting it unblocked their design work.",
+      "weight": "Side A heavier but small: about 5 commenters and 15 points vs 1 commenter and 7 points. Unit was the single most-upvoted suggestion at 12 points.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "issue": "Thematic script (Hanzi/Kanji) or custom icons for element symbols",
+      "side_a": "Custom icons read better and can be made colorblind-friendly.",
+      "side_b": "Kanji carry the Wuxing flavor and theme. Many suggested combining both.",
+      "weight": "Custom icons clearly heavier: the top comment (44 points) and a colorblind-accessibility reply (23 points) backed them, while a smaller group defended kanji.",
+      "threads": [
+        "S2"
+      ]
+    },
+    {
+      "issue": "Is code-style rules text in a hacker-themed game readable enough?",
+      "side_a": "It is too hard to parse during play.",
+      "side_b": "It is readable enough and adds strong theme.",
+      "weight": "Roughly even. The hard-to-read side carried slightly more points.",
+      "threads": [
+        "S3"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Check more than card names for clone resemblance. Frame shape, layout and borrowed keywords (Scry, Lifesteal, Indestructible) are what make readers say Pokemon, Yu-Gi-Oh or MTG.",
+      "threads": [
+        "T2",
+        "S1",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "lesson": "Don't show off polished templates or rarity tiers as progress before the game is playtested. Readers spot the gap. Show real rules and a rough physical playtest instead.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Settle your world before naming card types. Knowing what the beings are and why they fight suggests the term, and theme-specific verbs (such as a tarot-flavored replacement for 'summon') carry identity further.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Check any new type name against your existing subtypes. Fighter or Warrior clashes with a 'warrior' subtype. Prefer short words that fit the type line, but watch their tone (Unit can sound military).",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Design cars, tracks, locations and other real-world-inspired content as original from the start. Even renamed real cars may carry protected silhouettes, and a later redraw is costly.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Make faction identity readable through color and shape. Players picked guilds on looks before lore, and one standout emblem shows up the weaker ones.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "When showing factions, double-check that labels match images. A mix-up led one commenter to choose the wrong guild and another to ask which was which.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Thematic iconography and text styling must stay legible. Custom icons beat script characters on accessibility, and code-style or colored ASCII art can hurt readability.",
+      "threads": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "lesson": "Study prior games in your niche (several racing card games were named) to find a mechanical hook that sets yours apart. A fresh theme alone isn't enough.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "AI placeholder art is read as a red flag here and can turn players away. If you use it publicly, label it clearly as temporary, or avoid it.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Treat licensing as a first-order question for any theme built on real brands or places, before going public or crowdfunding.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "An uncommon theme can be a positioning hook in a genre crowded with fantasy creature games.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Asking an audience which faction they would join is an easy engagement prompt. It drew picks and follow-up questions about the game itself.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Idea-only and 'how do I protect my idea' posts get mocked or ignored. Lead with concrete rules or a playable prototype to earn attention.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Is avoiding the word 'creature' worth the effort, or just a distraction?",
+      "why": "Most commenters pushed for lore-based or coined terms, but one designer said three years of avoidance stalled them, which gives a real tension.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "What actually makes a homemade TCG look like a clone?",
+      "why": "Clone comparisons recur across several threads but target different things: Pokemon-like cards, Yu-Gi-Oh-like templates, an old MTG frame, MTG keywords.",
+      "threads": [
+        "T2",
+        "S1",
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "hook": "Thematic script or custom icons: where should flavor yield to readability?",
+      "why": "A busy thread where custom icons won on accessibility while a smaller group defended thematic kanji, and many proposed a hybrid.",
+      "threads": [
+        "S2",
+        "S3"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Designers made a homemade TCG cliché list. Which ones apply here?",
+      "why": "The most-upvoted thread in the chapter. Commenters piled on tropes like AI art, Pokemon clones, untested templates and 3x7 playmats, which viewers will recognize.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "What should you call a card that stays on the field and fights?",
+      "why": "A long list of answers with no clear winner invites viewers to share their own pick.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Can you put real cars, brands or landmarks in a card game?",
+      "why": "Licensing was the top concern in the racing-theme thread, including warnings about car silhouettes and real locations.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "Do players choose a faction for its lore or its look?",
+      "why": "Commenters mostly picked guild patches by color and shape, with one picking by lore role.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Do you need to protect your card game idea?",
+      "why": "Idea-protection posts are a known trope here and a real anxiety for new designers, though support in the thread was small.",
+      "threads": [
+        "T1"
+      ]
+    }
+  ]
+}

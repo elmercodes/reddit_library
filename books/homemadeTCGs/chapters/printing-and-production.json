@@ -1,0 +1,263 @@
+{
+  "slug": "printing-and-production",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.066086,
+  "refs": {
+    "T1": "1rfgz9u",
+    "T2": "1uscm37",
+    "T3": "1wmrhog",
+    "T4": "1x7a612",
+    "T5": "1s1n6id",
+    "T6": "1w77mdb",
+    "T7": "1pezeic",
+    "S1": "1wgf6yi",
+    "S2": "1qapqvw",
+    "S3": "1u30qmb",
+    "S4": "1vnbr1h"
+  },
+  "tldr": "These threads are mostly celebratory posts about holding a first test print, prototype or print run. The practical value comes from the follow-up questions about which printer to use, what stock and foil to choose, and what problems only show up on paper. Recurring takeaways: print cheaply for playtesting and treat every print as a proofing pass, because typos, spacing, icon readability and art contrast often only show on the physical card. Ask early whether a printer can do selective foil. Engagement is warm but low in points, so most specific tips rest on one or two commenters.",
+  "one_line": "Test prints, printer picks, foil choices and what physical cards reveal that screens hide.",
+  "consensus": [
+    {
+      "point": "Holding physical cards for the first time is a distinct, motivating milestone. Showcase posts of prints, boxes and uncut sheets reliably draw warm, supportive responses.",
+      "threads": [
+        "T1",
+        "T2",
+        "T3",
+        "T6",
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "point": "Test prints work as a proofing step. Typos, cramped emblems, misreadable logos and upside-down box panels surfaced only once cards were printed.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "point": "Which printer or manufacturer someone used is the most common practical question under showcase posts, and small designers actively want real recommendations.",
+      "threads": [
+        "T1",
+        "T6",
+        "T7",
+        "S4"
+      ]
+    },
+    {
+      "point": "Strong, consistent art and color treatment is what viewers praise first on printed cards, often before they know anything about the rules.",
+      "threads": [
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "How polished a playtest prototype should be",
+      "side_a": "Keep playtest prints cheap. Use print-shop photo paper sleeved over throwaway cards, or skip card backs, for about 3.5 cents a card, and save premium stock for the real product.",
+      "side_b": "A polished physical prototype is worth the extra cost (about 30 cents a card here), because it attracts playtesters that a bare print-and-play file did not.",
+      "weight": "Side A heavier: about 2 commenters and 16 points vs 1 commenter and 2 points, all in one thread.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "issue": "When to start printing",
+      "side_a": "Print early. Physical cards make the project tangible and catch layout and proofing problems.",
+      "side_b": "Hold off until mechanics are tested, since printing cards that will change wastes money.",
+      "weight": "Very thin. Side A is implied by several showcase threads, while side B is a single commenter with 1 point. Not a real community split.",
+      "threads": [
+        "T5",
+        "T1",
+        "T3"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "For playtest copies, print fronts at a print shop on plain photo paper and sleeve each one over a filler card such as a bulk energy card. It feels sturdy and stays cheap. Skipping card backs cuts costs further.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Do a deliberate proofing pass on every physical print: flavor-text typos, emblem spacing from borders, and whether logos and symbols read as intended to people who have never seen them. Screens hid each of these problems in the threads.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Plan foil around your text. Full-card foil can look amateur and compete with rules text. Selective foil on art or frame looks more professional but needs white-ink printing that many print-on-demand services and some production lines don't offer, so confirm capability before designing for it.",
+      "threads": [
+        "T7",
+        "T5"
+      ]
+    },
+    {
+      "lesson": "If your art is lineless, order a physical proof early. CMYK printing can flatten color separation, and designers who work lineless found that adding some outlines helped shapes read.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Use a corner punch or a cutting machine instead of scissors. Uneven hand-cut corners distort how a prototype feels. A home printer, laminated photo paper and a cutting machine can turn out a 60-card deck in minutes.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Show generic icons such as a fist or a skull to players of other TCGs before printing. They may instantly read as another game's established symbols.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Check box dielines for orientation. Logos on the large side panels should read upright when the box sits on a table.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "On a printed card, audit stat fields that rarely change and fold them elsewhere, so the numbers players actually compare stand out.",
+      "threads": [
+        "T5"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Before the bulk run, order a small expedited batch as marketing copies for trade shows, demos, content creators and store owners.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Printers named by designers in these threads: Panda (praised as flexible to the designer's goals), Bayaya (endorsed by two independent users), MakePlayingCards (for playtests and foil promos), aura-print (holo test prints) and GameCrafter (bridge-size decks felt narrow to one user). Flexibility and peer validation were the cited reasons for choosing a printer.",
+      "threads": [
+        "T1",
+        "T6",
+        "T7",
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Print-on-demand foil promos are a concrete cost reference: one designer paid about $37 for 55 foil cards plus $10 shipping at MakePlayingCards. One commenter still considered MPC pricey.",
+      "threads": [
+        "T7"
+      ]
+    },
+    {
+      "lesson": "Showcase posts work as a sales funnel only if the next step exists. Have a card gallery, a website and a rulebook ready, since viewers immediately asked to see cards, read the rules or pre-order.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Free foil promos as rewards for missions in Tabletop Simulator, routed through a Discord, were used as a low-cost community-building tactic.",
+      "threads": [
+        "T7"
+      ]
+    },
+    {
+      "lesson": "There is visible demand for build-in-public process content on templates, Canva frames, where to print and how to get holo, which can grow an audience of fellow designers.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Affordable manufacturers for small sealed-booster runs remain an open question in the community; the one direct ask went unanswered.",
+      "threads": [
+        "S4"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "A 3.5-cent playtest card or a 30-cent polished prototype?",
+      "why": "The highest-supported tip in its thread pushed cheap sleeved prints, while the poster and one commenter argued polish draws playtesters, giving a concrete cost-versus-pull tradeoff.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "hook": "Full-card foil versus selective foil: is that the amateur-pro line?",
+      "why": "The top discussion in the MPC thread wished for selective foil and framed full-card foil as amateur. Another commenter explained the white-ink limitation, and foil also drew praise in other threads.",
+      "threads": [
+        "T7",
+        "T5",
+        "S2"
+      ]
+    },
+    {
+      "hook": "Should you print cards before your rules are locked?",
+      "why": "Many threads celebrate early prints as milestones and proofing tools, yet one commenter warned it wastes money on cards that will change.",
+      "threads": [
+        "T5",
+        "T2",
+        "T1"
+      ]
+    },
+    {
+      "hook": "When does a generic icon start looking like Pokemon or Magic?",
+      "why": "Two commenters said a fist and a skull instantly recalled fighting energy and Swamp mana despite being generic, a worry most designers share.",
+      "threads": [
+        "T4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "Which printer should an indie card game actually use?",
+      "why": "Printer questions were the top practical comment in several showcase threads. Answers named Panda, Bayaya, MPC, aura-print and GameCrafter, and the question about small sealed-pack runs went unanswered.",
+      "threads": [
+        "T1",
+        "T6",
+        "T7",
+        "T5",
+        "S4"
+      ]
+    },
+    {
+      "hook": "Designers keep asking how to build card frames and templates.",
+      "why": "The top comment and follow-ups in one thread asked about Canva, and others said they were stuck at the frame design stage.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Lineless card art looks great on screen. Does it survive printing?",
+      "why": "A designer said CMYK printing pushed them to add outlines, and two commenters who work lineless agreed.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "What do test prints reveal that a screen never shows?",
+      "why": "Typos, cramped emblems, unreadable logo symbols and upside-down box art all surfaced only on physical prints across several threads.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "hook": "How long does it take to get a card game to print solo?",
+      "why": "Commenters asked directly about timelines. Answers ranged from about a year to a first prototype to four years for a first set, with a much faster expansion after.",
+      "threads": [
+        "T6",
+        "T3"
+      ]
+    }
+  ]
+}

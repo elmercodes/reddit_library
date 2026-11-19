@@ -1,0 +1,247 @@
+{
+  "slug": "full-art-cards",
+  "written_at": "2026-11-19T05:25:42+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.058912,
+  "refs": {
+    "T1": "1se6651",
+    "T2": "1xb5mjy",
+    "T3": "1x8qb52",
+    "T4": "1wmc2hi",
+    "T5": "1qlztqk"
+  },
+  "tldr": "Across these threads, full art usually wins on looks. The recurring caveat is that rules text over busy art needs a backing, such as a semi-opaque box, a blurred panel or a dark gradient, to stay readable. Many designers settle on a hybrid, with framed cards as the clear default and full art as a rarity or progression reward. The most-upvoted practical tip is to plan the layout before commissioning art and compose illustrations for the full vertical crop.",
+  "one_line": "Full art wins on looks, framed on clarity; back text over art and use full art as a reward tier.",
+  "consensus": [
+    {
+      "point": "Framed and full art layouts both have a place. Framed reads as the clear, standard card look, while full art feels special and suits a higher rarity or reward tier.",
+      "threads": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "point": "Text placed directly over busy art is a legibility problem. Several threads recommend some backing behind rules text, such as a semi-opaque or blurred panel, a dark gradient, or a more opaque box with contrasting text, rather than outlines alone.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T1"
+      ]
+    },
+    {
+      "point": "Once the art goes full bleed, leftover UI pieces that don't match its style look pasted on. Stark white badges and mismatched icon polish were flagged as the main remaining flaws.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "point": "Full art gives less room for rules text, so long abilities, sentence-length rules and keywords need compressing into symbols, keywords or bolded terms.",
+      "threads": [
+        "T5",
+        "T2",
+        "T4"
+      ]
+    }
+  ],
+  "splits": [
+    {
+      "issue": "Should full art or a framed layout be the main look of the card?",
+      "side_a": "Full art looks better and reads as premium; redesigns that moved to full bleed were seen as clear improvements.",
+      "side_b": "Framed is better because the information stays clear for new players and stats and text don't cover the art.",
+      "weight": "Side A clearly heavier across threads: about 17 commenters and 114 points vs 5 commenters and 24 points. The framed side was strongest in the beginner-focused thread (3 commenters, 17 points).",
+      "threads": [
+        "T1",
+        "T3",
+        "T5"
+      ]
+    },
+    {
+      "issue": "Should a borderless full art card get a thin black border back?",
+      "side_a": "Add a thin black border, because edge-to-edge art feels like too much.",
+      "side_b": "Borderless works as is and lets the art shine.",
+      "weight": "Side B heavier: 3 commenters, 23 points vs 2 commenters, 4 points.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "issue": "Should full art variants keep their gameplay text?",
+      "side_a": "Keep the text, or at least key info as symbols, so the card stays playable.",
+      "side_b": "Treat it as a show-off collector piece and strip or minimize text, as MTG Secret Lairs do.",
+      "weight": "Small and roughly even: 2 commenters, 6 points vs 1 commenter, 4 points.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "issue": "Is a dense full art hero card too overwhelming?",
+      "side_a": "It has too much going on for a multi-card opening hand.",
+      "side_b": "It reads fine and is playable as is.",
+      "weight": "Mixed: side A was a single top comment with 19 points, while side B had more people (3 commenters) but only 6 points.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "design_lessons": [
+    {
+      "lesson": "Finalize the layout before commissioning art, and have illustrations composed for the full vertical crop, placing focal subjects with the rule of thirds so frame elements and text don't cut off key features.",
+      "threads": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "lesson": "Put a semi-opaque, blurred or gradient backing behind rules text on full art, and keep its opacity consistent across title, rules and ability text. The art still shows through, but text doesn't fight busy backgrounds the way outlines alone do.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T1"
+      ]
+    },
+    {
+      "lesson": "Use layout as a progression or rarity signal: boxed art for basics or early levels, fancier frames in the middle, and full art at the top. This makes upgrades feel like a payoff without hurting clarity on everyday cards. Frame-breaking art can serve as an extra in-between tier.",
+      "threads": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "When the art has a painted or textured style, restyle every UI element (cost circle, stat badges, type labels, name plate) to match, and keep shading and detail consistent across badges. Leftover plain white pieces read as unfinished.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Free up space and improve scanning by making keywords visually distinct with bold text or bubbles, bolding referenced card names, and turning sentence-length rules like deck copy limits into keywords or symbols.",
+      "threads": [
+        "T2",
+        "T5",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Design a physical tracking method, such as counters, for effects that stack or last several turns, and state the rule plainly on the card.",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "lesson": "Tune text outlines to the art. Thinner strokes, or strokes in the card's main color, blend better, and text should never share its background's color.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "If text sits directly on the art, limit full art to cards with short abilities. Consider placing stat badges on the text area instead of over the illustration, and give corner numbers icons or color coding so new players can tell them apart.",
+      "threads": [
+        "T5"
+      ]
+    },
+    {
+      "lesson": "Check small polish details: vertically center text in boxes and badges, thicken small text on transparent boxes, and keep box colors in the card's palette.",
+      "threads": [
+        "T3"
+      ]
+    }
+  ],
+  "business_lessons": [
+    {
+      "lesson": "Established TCGs use full art as a chase or rarity tier, and pairing tiers with finishes like foil or cold stamping can give stretch goals a structure. Full art also costs more to print because of the extra ink coverage.",
+      "threads": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Backers will give design feedback mid-campaign, and asking them builds goodwill. Short stretch goal windows can frustrate them, though.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "lesson": "Posting early frames publicly, labeling placeholders openly and replying to each critique drew detailed free feedback and some direct interest.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "hook": "Full art or framed: which layout should a beginner-friendly card game use?",
+      "why": "The most engaged thread split: full art led on looks (9 commenters, 67 points), but a smaller camp made a real clarity case for new players. Before-and-after redesigns also favored full art.",
+      "threads": [
+        "T1",
+        "T3",
+        "T5"
+      ]
+    },
+    {
+      "hook": "Should full art variants keep their rules text, or become pure art pieces?",
+      "why": "Playability versus collector appeal is a choice every designer making variants faces. MTG Secret Lairs were cited as the minimal-text precedent.",
+      "threads": [
+        "T4"
+      ]
+    },
+    {
+      "hook": "Borderless edge-to-edge, or a thin black border: what finishes a full art card?",
+      "why": "A small but concrete split: most praised going borderless, while a couple felt it was too much without a border. It is easy to show side by side.",
+      "threads": [
+        "T3"
+      ]
+    },
+    {
+      "hook": "When does a gorgeous full art card become too much to read?",
+      "why": "The top comment on a polished hero card found it overwhelming, while more commenters said it read fine. It frames where complexity tips over.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "hook": "How do you keep rules text readable over busy full art?",
+      "why": "This is the most repeated concern in the chapter, with concrete fixes to demo: semi-opaque boxes, blurred panels, dark gradients, outline tuning and even opacity.",
+      "threads": [
+        "T2",
+        "T3",
+        "T4",
+        "T1"
+      ]
+    },
+    {
+      "hook": "Should full art be the default layout, or a reward for rare cards?",
+      "why": "Many commenters landed on framed for basics and full art for higher rarities or levels, citing established TCGs as models.",
+      "threads": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "hook": "Does art need to be painted differently for full art cards?",
+      "why": "The highest-scoring advice in the chapter was about composing for the vertical crop and the rule of thirds, a step many designers skip.",
+      "threads": [
+        "T1"
+      ]
+    },
+    {
+      "hook": "Is your card's UI clashing with its art?",
+      "why": "Leftover white badges and mismatched icon polish were flagged as the remaining flaws on otherwise praised full art redesigns.",
+      "threads": [
+        "T3",
+        "T2"
+      ]
+    },
+    {
+      "hook": "How do you track an ability that grows every time it's used?",
+      "why": "Stacking damage on a full art hero card raised multiple tracking questions and suggestions to use counters, a common pain point.",
+      "threads": [
+        "T2"
+      ]
+    }
+  ]
+}
