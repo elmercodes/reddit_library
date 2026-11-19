@@ -1,0 +1,624 @@
+{
+  "subreddit": "homemadeTCGs",
+  "status": "proposed",
+  "created_at": "2026-11-19T05:12:03+00:00",
+  "model": "claude-opus-5-5",
+  "cost_usd": 0.341124,
+  "chapters": [
+    {
+      "slug": "ai-art-debate",
+      "title": "AI art debate and community rules",
+      "description": "Threads arguing whether AI art is acceptable in card games or prototypes, and the subreddit's rules and moderation around AI.",
+      "keywords": [
+        "ai art",
+        "ai ban",
+        "community rules",
+        "moderation",
+        "ethics",
+        "prototype ai"
+      ]
+    },
+    {
+      "slug": "placeholder-and-diy-art",
+      "title": "Placeholder art and DIY alternatives",
+      "description": "Threads about what to use instead of finished art, such as placeholder pigeons, stick figures, stock silhouettes, and designers drawing their own replacements after dropping AI.",
+      "keywords": [
+        "placeholder art",
+        "diy art",
+        "hand-drawn placeholders",
+        "stock art",
+        "placeholder pigeon",
+        "no-skill art"
+      ]
+    },
+    {
+      "slug": "art-style-and-direction",
+      "title": "Art style and art direction",
+      "description": "Feedback on a game's illustration style or medium, such as watercolor, crochet, stick figures or hand painting, and whether the style works on a card.",
+      "keywords": [
+        "art style",
+        "watercolor",
+        "hand-painted",
+        "crochet art",
+        "art critique",
+        "visual identity"
+      ]
+    },
+    {
+      "slug": "commissioning-and-art-budgets",
+      "title": "Commissioning art and art budgets",
+      "description": "Whether to hire artists or do art solo, what card art costs, freelance pricing, and the art workload of a full set.",
+      "keywords": [
+        "commissioning",
+        "outsourcing art",
+        "art budget",
+        "freelance pricing",
+        "solo artist",
+        "art workload"
+      ]
+    },
+    {
+      "slug": "card-layout-readability",
+      "title": "Card layout and readability",
+      "description": "How information is arranged on the card face: information density, text size, stat and icon legibility, visual hierarchy and accessibility.",
+      "keywords": [
+        "card layout",
+        "readability",
+        "information density",
+        "icons",
+        "text size",
+        "accessibility",
+        "visual hierarchy"
+      ]
+    },
+    {
+      "slug": "card-frames-and-templates",
+      "title": "Card frames and template style",
+      "description": "The look of card frames, borders and templates, including themed frames, frame redesigns and whether the frame matches the art.",
+      "keywords": [
+        "card frame",
+        "template",
+        "borders",
+        "frame redesign",
+        "themed frame",
+        "frame and art match"
+      ]
+    },
+    {
+      "slug": "full-art-cards",
+      "title": "Full art vs framed cards",
+      "description": "Designing full-art or borderless cards, comparing them with framed layouts, and keeping text readable over art.",
+      "keywords": [
+        "full art",
+        "borderless",
+        "framed vs full art",
+        "text over art",
+        "alt art",
+        "rarity variants"
+      ]
+    },
+    {
+      "slug": "card-backs-and-logos",
+      "title": "Card backs, logos and branding",
+      "description": "Card back designs, game logos and naming on the back, and how branding reads at a glance.",
+      "keywords": [
+        "card back",
+        "logo",
+        "branding",
+        "logo legibility",
+        "card back design",
+        "game title"
+      ]
+    },
+    {
+      "slug": "mechanics-and-balance",
+      "title": "Mechanics, rules and balance",
+      "description": "Game mechanics, rules design, resource systems, card balance and favourite or hated mechanics from other TCGs.",
+      "keywords": [
+        "mechanics",
+        "balance",
+        "resource systems",
+        "rules",
+        "tutors",
+        "dead tcgs",
+        "combat"
+      ]
+    },
+    {
+      "slug": "playtesting-and-prototypes",
+      "title": "Playtesting and prototypes",
+      "description": "Running playtests (solo, with family, online), building paper or printed prototypes, and what early tests reveal.",
+      "keywords": [
+        "playtesting",
+        "prototype",
+        "paper prototype",
+        "proxies",
+        "playtest feedback",
+        "print and play testing"
+      ]
+    },
+    {
+      "slug": "printing-and-production",
+      "title": "Printing, test prints and manufacturing",
+      "description": "Test prints, card stock, foil, print-on-demand services like MakePlayingCards, manufacturers and production runs.",
+      "keywords": [
+        "printing",
+        "test print",
+        "foil",
+        "makeplayingcards",
+        "card stock",
+        "manufacturer",
+        "print run"
+      ]
+    },
+    {
+      "slug": "kickstarter-and-launch",
+      "title": "Kickstarter, launch and product formats",
+      "description": "Crowdfunding campaigns, reward tiers, fulfillment, and how to package and sell a game, such as boosters, full sets and starter boxes.",
+      "keywords": [
+        "kickstarter",
+        "crowdfunding",
+        "launch",
+        "booster packs",
+        "starter decks",
+        "reward tiers",
+        "fulfillment"
+      ]
+    },
+    {
+      "slug": "stores-events-community",
+      "title": "Local stores, events and community building",
+      "description": "Getting a game into local game stores, running tournaments, and building a player community through Discord and events.",
+      "keywords": [
+        "local game store",
+        "tournaments",
+        "discord",
+        "community building",
+        "distribution",
+        "events"
+      ]
+    },
+    {
+      "slug": "theme-identity-originality",
+      "title": "Theme, identity and originality",
+      "description": "Choosing a game's theme and factions, card terminology and naming, avoiding Pokemon or MTG clone looks, and common homemade TCG tropes.",
+      "keywords": [
+        "theme",
+        "originality",
+        "pokemon clone",
+        "factions",
+        "terminology",
+        "naming",
+        "tropes"
+      ]
+    },
+    {
+      "slug": "design-tools-and-digital",
+      "title": "Design tools and digital simulators",
+      "description": "Software and tools for designing and testing cards, such as card databases, template tools, Tabletop Simulator and custom digital simulators.",
+      "keywords": [
+        "tools",
+        "card database",
+        "tabletop simulator",
+        "simulator",
+        "canva",
+        "workflow"
+      ]
+    },
+    {
+      "slug": "showcases-and-milestones",
+      "title": "Showcases and milestones",
+      "description": "Designers sharing finished sets, releases, first cards and personal progress milestones, with little specific feedback requested.",
+      "keywords": [
+        "showcase",
+        "milestone",
+        "finished set",
+        "release",
+        "progress",
+        "first cards"
+      ]
+    }
+  ],
+  "assignments": {
+    "1v5oizl": {
+      "primary": "ai-art-debate",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1qv7ztx": {
+      "primary": "ai-art-debate",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1m4x1yq": {
+      "primary": "stores-events-community",
+      "secondary": "ai-art-debate"
+    },
+    "1unj3c9": {
+      "primary": "ai-art-debate",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1v5w74a": {
+      "primary": "art-style-and-direction",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1ww9h9v": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": "ai-art-debate"
+    },
+    "1t8ucs3": {
+      "primary": "showcases-and-milestones",
+      "secondary": "commissioning-and-art-budgets"
+    },
+    "1rjrir0": {
+      "primary": "art-style-and-direction",
+      "secondary": "card-layout-readability"
+    },
+    "1uvo0d1": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "art-style-and-direction"
+    },
+    "1xntzql": {
+      "primary": "card-layout-readability",
+      "secondary": "card-frames-and-templates"
+    },
+    "1slrnm2": {
+      "primary": "mechanics-and-balance",
+      "secondary": ""
+    },
+    "1x1obd2": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": "art-style-and-direction"
+    },
+    "1r8q2t4": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "card-frames-and-templates"
+    },
+    "1pfe8a9": {
+      "primary": "stores-events-community",
+      "secondary": ""
+    },
+    "1rdjj2s": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": "ai-art-debate"
+    },
+    "1rfgz9u": {
+      "primary": "printing-and-production",
+      "secondary": "showcases-and-milestones"
+    },
+    "1wo2pn3": {
+      "primary": "showcases-and-milestones",
+      "secondary": ""
+    },
+    "1ryhz14": {
+      "primary": "mechanics-and-balance",
+      "secondary": ""
+    },
+    "1se6651": {
+      "primary": "full-art-cards",
+      "secondary": "card-layout-readability"
+    },
+    "1seml2f": {
+      "primary": "mechanics-and-balance",
+      "secondary": ""
+    },
+    "1xurdr1": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "showcases-and-milestones"
+    },
+    "1uscm37": {
+      "primary": "printing-and-production",
+      "secondary": "playtesting-and-prototypes"
+    },
+    "1vzyi02": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": "ai-art-debate"
+    },
+    "1v7pahj": {
+      "primary": "art-style-and-direction",
+      "secondary": "card-layout-readability"
+    },
+    "1ugpsu0": {
+      "primary": "card-frames-and-templates",
+      "secondary": "art-style-and-direction"
+    },
+    "1rolfe6": {
+      "primary": "card-layout-readability",
+      "secondary": "card-frames-and-templates"
+    },
+    "1x7ko6b": {
+      "primary": "art-style-and-direction",
+      "secondary": "card-frames-and-templates"
+    },
+    "1wgf6yi": {
+      "primary": "showcases-and-milestones",
+      "secondary": "printing-and-production"
+    },
+    "1ud0uat": {
+      "primary": "art-style-and-direction",
+      "secondary": "card-frames-and-templates"
+    },
+    "1wmrhog": {
+      "primary": "printing-and-production",
+      "secondary": "art-style-and-direction"
+    },
+    "1vibcpr": {
+      "primary": "art-style-and-direction",
+      "secondary": "card-layout-readability"
+    },
+    "1s4la31": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": "art-style-and-direction"
+    },
+    "1qn3g25": {
+      "primary": "card-layout-readability",
+      "secondary": "ai-art-debate"
+    },
+    "1sz9zve": {
+      "primary": "showcases-and-milestones",
+      "secondary": "art-style-and-direction"
+    },
+    "1u85n3t": {
+      "primary": "mechanics-and-balance",
+      "secondary": ""
+    },
+    "1w0y1es": {
+      "primary": "showcases-and-milestones",
+      "secondary": "design-tools-and-digital"
+    },
+    "1pjhhbr": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "art-style-and-direction"
+    },
+    "1pkyce8": {
+      "primary": "art-style-and-direction",
+      "secondary": ""
+    },
+    "1x4ewd7": {
+      "primary": "showcases-and-milestones",
+      "secondary": "art-style-and-direction"
+    },
+    "1q5tk3l": {
+      "primary": "card-layout-readability",
+      "secondary": "theme-identity-originality"
+    },
+    "1tsnlih": {
+      "primary": "showcases-and-milestones",
+      "secondary": "art-style-and-direction"
+    },
+    "1sysr95": {
+      "primary": "theme-identity-originality",
+      "secondary": "ai-art-debate"
+    },
+    "1wwaia8": {
+      "primary": "placeholder-and-diy-art",
+      "secondary": ""
+    },
+    "1xb5mjy": {
+      "primary": "full-art-cards",
+      "secondary": "card-layout-readability"
+    },
+    "1sqv27p": {
+      "primary": "design-tools-and-digital",
+      "secondary": ""
+    },
+    "1qb6zrp": {
+      "primary": "stores-events-community",
+      "secondary": "kickstarter-and-launch"
+    },
+    "1vcq0fm": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-backs-and-logos"
+    },
+    "1uy1ngw": {
+      "primary": "card-layout-readability",
+      "secondary": "theme-identity-originality"
+    },
+    "1qxllp8": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-layout-readability"
+    },
+    "1sm0b6x": {
+      "primary": "design-tools-and-digital",
+      "secondary": "playtesting-and-prototypes"
+    },
+    "1wymki3": {
+      "primary": "showcases-and-milestones",
+      "secondary": "card-backs-and-logos"
+    },
+    "1sx9e28": {
+      "primary": "card-layout-readability",
+      "secondary": ""
+    },
+    "1ukcxhg": {
+      "primary": "card-backs-and-logos",
+      "secondary": ""
+    },
+    "1qapqvw": {
+      "primary": "showcases-and-milestones",
+      "secondary": "printing-and-production"
+    },
+    "1x8qb52": {
+      "primary": "full-art-cards",
+      "secondary": "card-frames-and-templates"
+    },
+    "1p8zisv": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-backs-and-logos"
+    },
+    "1txqr99": {
+      "primary": "card-layout-readability",
+      "secondary": "card-frames-and-templates"
+    },
+    "1vzwjk9": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "art-style-and-direction"
+    },
+    "1wrrlck": {
+      "primary": "showcases-and-milestones",
+      "secondary": "playtesting-and-prototypes"
+    },
+    "1stnuxh": {
+      "primary": "card-backs-and-logos",
+      "secondary": ""
+    },
+    "1sej6k2": {
+      "primary": "mechanics-and-balance",
+      "secondary": "card-layout-readability"
+    },
+    "1vf4fdd": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "mechanics-and-balance"
+    },
+    "1q81b1f": {
+      "primary": "theme-identity-originality",
+      "secondary": "mechanics-and-balance"
+    },
+    "1vhft8r": {
+      "primary": "card-layout-readability",
+      "secondary": "theme-identity-originality"
+    },
+    "1qns58a": {
+      "primary": "card-frames-and-templates",
+      "secondary": "theme-identity-originality"
+    },
+    "1waha80": {
+      "primary": "card-frames-and-templates",
+      "secondary": "theme-identity-originality"
+    },
+    "1tgh9ld": {
+      "primary": "theme-identity-originality",
+      "secondary": ""
+    },
+    "1vnqm2t": {
+      "primary": "card-frames-and-templates",
+      "secondary": ""
+    },
+    "1p6g6ye": {
+      "primary": "card-backs-and-logos",
+      "secondary": ""
+    },
+    "1xichnd": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "art-style-and-direction"
+    },
+    "1p5nj47": {
+      "primary": "card-backs-and-logos",
+      "secondary": ""
+    },
+    "1rk4lm0": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-layout-readability"
+    },
+    "1xg0qb3": {
+      "primary": "card-frames-and-templates",
+      "secondary": "design-tools-and-digital"
+    },
+    "1xnwbt1": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "showcases-and-milestones"
+    },
+    "1u30qmb": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "printing-and-production"
+    },
+    "1pemndc": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-layout-readability"
+    },
+    "1wmc2hi": {
+      "primary": "full-art-cards",
+      "secondary": "kickstarter-and-launch"
+    },
+    "1uzrt59": {
+      "primary": "art-style-and-direction",
+      "secondary": ""
+    },
+    "1x7a612": {
+      "primary": "printing-and-production",
+      "secondary": "design-tools-and-digital"
+    },
+    "1s1n6id": {
+      "primary": "printing-and-production",
+      "secondary": "card-layout-readability"
+    },
+    "1tfbry5": {
+      "primary": "card-layout-readability",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1rnjk30": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "stores-events-community"
+    },
+    "1vdkbmb": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": ""
+    },
+    "1qlztqk": {
+      "primary": "full-art-cards",
+      "secondary": "card-layout-readability"
+    },
+    "1r2bn5m": {
+      "primary": "theme-identity-originality",
+      "secondary": "art-style-and-direction"
+    },
+    "1v32yjk": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "commissioning-and-art-budgets"
+    },
+    "1w77mdb": {
+      "primary": "printing-and-production",
+      "secondary": "showcases-and-milestones"
+    },
+    "1tszn8p": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": ""
+    },
+    "1q7f1um": {
+      "primary": "showcases-and-milestones",
+      "secondary": "card-frames-and-templates"
+    },
+    "1pezeic": {
+      "primary": "printing-and-production",
+      "secondary": ""
+    },
+    "1t3q6md": {
+      "primary": "commissioning-and-art-budgets",
+      "secondary": "art-style-and-direction"
+    },
+    "1qiektx": {
+      "primary": "showcases-and-milestones",
+      "secondary": "card-layout-readability"
+    },
+    "1tkrdeg": {
+      "primary": "commissioning-and-art-budgets",
+      "secondary": ""
+    },
+    "1qfp7ur": {
+      "primary": "playtesting-and-prototypes",
+      "secondary": "placeholder-and-diy-art"
+    },
+    "1tnb92v": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-backs-and-logos"
+    },
+    "1vnbr1h": {
+      "primary": "kickstarter-and-launch",
+      "secondary": "printing-and-production"
+    },
+    "1w8uydv": {
+      "primary": "showcases-and-milestones",
+      "secondary": "stores-events-community"
+    },
+    "1v2t8uc": {
+      "primary": "stores-events-community",
+      "secondary": "kickstarter-and-launch"
+    },
+    "1vlf5tj": {
+      "primary": "kickstarter-and-launch",
+      "secondary": ""
+    },
+    "1ru1chp": {
+      "primary": "card-frames-and-templates",
+      "secondary": "card-layout-readability"
+    }
+  }
+}

@@ -321,6 +321,16 @@ def show_thread(post_id: str = typer.Argument(...)) -> None:
     print(_json.dumps(data, indent=2, ensure_ascii=False) if data else f"No summary for {post_id} yet.")
 
 
+@app.command("chapters")
+def chapters(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    show_only: bool = typer.Option(False, "--show", help="Just print the current chapter plan (free)"),
+) -> None:
+    """Phase 5 Step A: propose chapters and assign threads (one Opus call, y/N)."""
+    from pipeline.cluster import propose, show
+    show(sub) if show_only else propose(sub)
+
+
 @app.command("ranked")
 def ranked(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     """Re-print the ranked list from the last collect (free)."""

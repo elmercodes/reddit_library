@@ -21,7 +21,11 @@ FALLBACK_MODELS = {"claude-opus-5-5", "claude-sonnet-5-5"}
 
 
 class ClaudeError(RuntimeError):
-    pass
+    """A call that failed after being billed carries its cost and usage, so callers can log it."""
+    def __init__(self, message: str, cost: float = 0.0, usage: dict | None = None):
+        super().__init__(message)
+        self.cost = cost
+        self.usage = usage or {}
 
 
 @lru_cache(maxsize=1)
@@ -99,8 +103,16 @@ def call(role: str, messages: list, system=None, schema: dict | None = None,
     """One Messages API call. Returns (text_or_parsed_json, cost_usd, usage_dict)."""
     params = build_request(role, messages, system, schema, max_tokens, model)
     model = params["model"]
+    stream = max_tokens > 16000  # long outputs stream to avoid HTTP timeouts
     if model in FALLBACK_MODELS:
-        resp = client().beta.messages.create(betas=[FALLBACK_BETA], fallbacks="default", **params)
+        if stream:
+            with client().beta.messages.stream(betas=[FALLBACK_BETA], fallbacks="default", **params) as s:
+                resp = s.get_final_message()
+        else:
+            resp = client().beta.messages.create(betas=[FALLBACK_BETA], fallbacks="default", **params)
+    elif stream:
+        with client().messages.stream(**params) as s:
+            resp = s.get_final_message()
     else:
         resp = client().messages.create(**params)
 
@@ -110,9 +122,10 @@ def call(role: str, messages: list, system=None, schema: dict | None = None,
 
     if resp.stop_reason == "refusal":
         details = getattr(resp, "stop_details", None)
-        raise ClaudeError(f"Refused ({getattr(details, 'category', None)}): {getattr(details, 'explanation', '')}")
+        raise ClaudeError(f"Refused ({getattr(details, 'category', None)}): {getattr(details, 'explanation', '')}",
+                          cost, usage)
     if resp.stop_reason == "max_tokens":
-        raise ClaudeError(f"Hit max_tokens={max_tokens}; output truncated.")
+        raise ClaudeError(f"Hit max_tokens={max_tokens}; output truncated.", cost, usage)
     text = next((b.text for b in resp.content if b.type == "text"), "")
     result = json.loads(text) if schema else text
     return result, cost, usage
