@@ -234,10 +234,48 @@ def anthropic_check() -> None:
 
 
 @app.command("images")
-def images(sub: str = typer.Option(..., help="Subreddit name")) -> None:
+def images(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    model: str = typer.Option(None, help="opus / sonnet / haiku or a model ID (default: models.images)"),
+    ids: str = typer.Option(None, help="Comma-separated post IDs to (re)describe; only these are paid for"),
+) -> None:
     """Phase 3: select image posts, download (free), describe with Claude (y/N)."""
     from pipeline.describe_images import run
-    run(sub)
+    run(sub, model=model, ids=[i.strip() for i in ids.split(",") if i.strip()] if ids else None)
+
+
+@app.command("image-notes")
+def image_notes(
+    sub: str = typer.Option(..., help="Subreddit name"),
+    flair: str = typer.Option(None, help="Only posts with this flair"),
+    n: int = typer.Option(4, help="How many posts to show"),
+    ids: str = typer.Option(None, help="Comma-separated post IDs instead of picking"),
+) -> None:
+    """Print image descriptions next to their file paths, for spot-checking (free)."""
+    from lib.ledger import Ledger
+    from lib.store import read_json
+    from pipeline.describe_images import load_raw, notes_path
+
+    led = Ledger()
+    if ids:
+        pick = [i.strip() for i in ids.split(",") if i.strip()]
+    else:
+        pick = [pid for pid, e in sorted(led.threads.items(), key=lambda kv: -(kv[1].get("engagement_score") or 0))
+                if e.get("subreddit") == sub and e.get("images_done") == "described"
+                and (not flair or (load_raw(sub, pid)["post"].get("flair") or "").lower() == flair.lower())][:n]
+    for pid in pick:
+        notes = read_json(notes_path(pid))
+        post = load_raw(sub, pid)["post"]
+        if not notes:
+            print(f"\n=== {pid}: no image notes yet")
+            continue
+        print(f"\n=== {pid}  [{post.get('flair')}]  {post['title']}")
+        print(f"    {post['url']}")
+        print(f"    model: {notes['model']}  asked: {notes['what_is_asked']}")
+        for img in notes["images"]:
+            print(f"\n  data/images/{pid}/{img['file']}")
+            for line in img["description"].splitlines() or [""]:
+                print(f"    {line}")
 
 
 @app.command("ranked")

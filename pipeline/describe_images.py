@@ -143,14 +143,19 @@ SCHEMA = {
 }
 
 
-def estimate_usd(images_by_post: dict[str, list[LocalImage]]) -> tuple[float, int, int]:
-    model = claude.model_for("images")
-    tin = sum(PROMPT_OVERHEAD_TOKENS + sum(i.est_tokens for i in imgs) for imgs in images_by_post.values())
-    tout = sum(OUTPUT_TOKENS_PER_POST + OUTPUT_TOKENS_PER_IMAGE * len(imgs) for imgs in images_by_post.values())
-    return costs.claude_cost(model, tin, tout), tin, tout
+def estimate_usd(images_by_post: dict[str, list[LocalImage]], model: str) -> tuple[float, int, int]:
+    """Priced per post (each post is its own request, which matters for Haiku's long-context tier)."""
+    usd = tin = tout = 0
+    for imgs in images_by_post.values():
+        i = PROMPT_OVERHEAD_TOKENS + sum(x.est_tokens for x in imgs)
+        o = OUTPUT_TOKENS_PER_POST + OUTPUT_TOKENS_PER_IMAGE * len(imgs)
+        usd += costs.claude_cost(model, i, o)
+        tin += i
+        tout += o
+    return usd, tin, tout
 
 
-def describe(post: dict, images: list[LocalImage]) -> tuple[dict, float, dict]:
+def describe(post: dict, images: list[LocalImage], model: str) -> tuple[dict, float, dict]:
     system = (C.PROMPTS / "describe_images.md").read_text(encoding="utf-8")
     content: list = []
     for n, img in enumerate(images, start=1):
@@ -163,13 +168,14 @@ def describe(post: dict, images: list[LocalImage]) -> tuple[dict, float, dict]:
                     f"Subreddit: r/{post['subreddit']}\nFlair: {post.get('flair')}\nTitle: {post['title']}\n"
                     f"Post text: {body or '(none)'}\n\nDescribe images 1-{len(images)}."})
     result, cost, usage = claude.call("images", [{"role": "user", "content": content}],
-                                      system=system, schema=SCHEMA, max_tokens=8000)
+                                      system=system, schema=SCHEMA, max_tokens=8000, model=model)
     return result, cost, usage
 
 
-def save_notes(post: dict, images: list[LocalImage], result: dict, cost: float) -> None:
+def save_notes(post: dict, images: list[LocalImage], result: dict, cost: float, model: str) -> None:
     by_index = {d["index"]: d["description"] for d in result["images"]}
-    notes = {"post_id": post["id"], "described_at": now(), "model": claude.model_for("images"),
+    previous = read_json(notes_path(post["id"]))
+    notes = {"post_id": post["id"], "described_at": now(), "model": model,
              "cost_usd": round(cost, 6), "design_relevant": result["design_relevant"],
              "skip_reason": result["skip_reason"], "what_is_asked": result["what_is_asked"],
              "images": []}
@@ -177,41 +183,62 @@ def save_notes(post: dict, images: list[LocalImage], result: dict, cost: float) 
         desc = by_index.get(n, "")
         write_text(img.path.with_suffix(".md"), f"# Image {n}: {post['title']}\n\n{desc}\n")
         notes["images"].append({"file": img.path.name, "index": n, "description": desc})
+    if previous:  # keep a record of what a rerun replaced
+        notes["replaced"] = [{k: previous.get(k) for k in ("model", "described_at", "cost_usd")}] + previous.get("replaced", [])
     write_json(notes_path(post["id"]), notes)
 
 
 # --- the phase ----------------------------------------------------------------
 
-def run(sub: str) -> None:
-    ledger = Ledger()
-    ids = sorted(i for i, e in ledger.threads.items() if e.get("subreddit") == sub and e.get("fetched_at"))
-    todo = [i for i in ids if not ledger.has(i, "images_done")]
-    print(f"r/{sub}: {len(ids)} fetched threads, {len(ids) - len(todo)} already done for images.")
+def run(sub: str, model: str | None = None, ids: list[str] | None = None) -> None:
+    """Describe images for a subreddit.
 
+    With `ids`, only those posts are (re)described, even if already done, and only they are paid
+    for. Combine with `model` (e.g. "opus") to redo posts a cheaper model misread.
+    """
+    model = claude.resolve_model(model) or claude.model_for("images")
+    ledger = Ledger()
     chosen: dict[str, tuple[dict, list[LocalImage]]] = {}
     skipped: dict[str, int] = {}
-    for pid in todo:
-        post = load_raw(sub, pid)["post"]
-        ok, reason = select(post)
-        if not ok:
-            ledger.mark(pid, images_done=f"skipped: {reason}")
-            skipped[reason] = skipped.get(reason, 0) + 1
-            continue
-        imgs = download(post)
-        if not imgs:
-            ledger.mark(pid, images_done="skipped: download failed")
-            skipped["download failed"] = skipped.get("download failed", 0) + 1
-            continue
-        chosen[pid] = (post, imgs)
-    ledger.save()
 
-    n_img = sum(len(v[1]) for v in chosen.values())
-    print(f"Selected {len(chosen)} posts ({n_img} images, downloaded to data/images/). Skipped: {skipped or 'none'}")
+    if ids:
+        for pid in ids:
+            raw = load_raw(sub, pid)
+            if not raw:
+                print(f"  {pid}: not a fetched r/{sub} thread; ignored.")
+                continue
+            post = raw["post"]
+            imgs = download(post)  # already on disk: no download cost
+            if not imgs:
+                print(f"  {pid}: no images; ignored.")
+                continue
+            chosen[pid] = (post, imgs)
+        print(f"Re-describing {len(chosen)} listed post(s) on {model}.")
+    else:
+        all_ids = sorted(i for i, e in ledger.threads.items() if e.get("subreddit") == sub and e.get("fetched_at"))
+        todo = [i for i in all_ids if not ledger.has(i, "images_done")]
+        print(f"r/{sub}: {len(all_ids)} fetched threads, {len(all_ids) - len(todo)} already done for images.")
+        for pid in todo:
+            post = load_raw(sub, pid)["post"]
+            ok, reason = select(post)
+            if not ok:
+                ledger.mark(pid, images_done=f"skipped: {reason}")
+                skipped[reason] = skipped.get(reason, 0) + 1
+                continue
+            imgs = download(post)
+            if not imgs:
+                ledger.mark(pid, images_done="skipped: download failed")
+                skipped["download failed"] = skipped.get("download failed", 0) + 1
+                continue
+            chosen[pid] = (post, imgs)
+        ledger.save()
+        n_img = sum(len(v[1]) for v in chosen.values())
+        print(f"Selected {len(chosen)} posts ({n_img} images, downloaded to data/images/). Skipped: {skipped or 'none'}")
     if not chosen:
         return
 
-    usd, tin, tout = estimate_usd({k: v[1] for k, v in chosen.items()})
-    model = claude.model_for("images")
+    n_img = sum(len(v[1]) for v in chosen.values())
+    usd, tin, tout = estimate_usd({k: v[1] for k, v in chosen.items()}, model)
     est = costs.Estimate(f"Phase 3 image descriptions for r/{sub}")
     est.add(f"{len(chosen)} posts / {n_img} images on {model}", f"~{tin:,} in / {tout:,} out", usd)
     if not costs.confirm(est):
@@ -224,21 +251,23 @@ def run(sub: str) -> None:
     try:
         for pid, (post, imgs) in chosen.items():
             try:
-                result, cost, usage = describe(post, imgs)
+                result, cost, usage = describe(post, imgs, model)
             except claude.ClaudeError as e:
                 print(f"  {pid}: {e}")
                 failed += 1
                 continue
             spend.add(cost, usage)
-            save_notes(post, imgs, result, cost)
-            ledger.mark(pid, images_done="described", images_described=len(imgs))
+            save_notes(post, imgs, result, cost, model)
+            # A rerun invalidates this thread's extraction so Phase 4 picks up the new notes.
+            ledger.mark(pid, images_done="described", images_described=len(imgs), images_model=model,
+                        **({"extracted_at": None} if ids else {}))
             ledger.save()
             described += 1
             flag = "" if result["design_relevant"] else f"  (not design: {result['skip_reason']})"
-            print(f"  [{described}/{len(chosen)}] {post['title'][:60]}  ${cost:.4f}{flag}")
+            print(f"  [{described}/{len(chosen)}] {pid} {post['title'][:55]}  ${cost:.4f}{flag}")
     finally:
         if spend.calls:
-            costs.log(run_id, "phase3", "anthropic", model, f"r/{sub} image descriptions ({described} posts)",
+            what = f"rerun {len(chosen)} listed posts" if ids else f"{described} posts"
+            costs.log(run_id, "phase3", "anthropic", model, f"r/{sub} image descriptions ({what})",
                       spend.units(), usd, spend.usd)
-    print(f"\nDescribed {described} posts ({sum(len(chosen[p][1]) for p in chosen if ledger.get(p).get('images_done') == 'described')} images) "
-          f"for ${spend.usd:.4f} (estimate ${usd:.4f}). Failed: {failed}.")
+    print(f"\nDescribed {described} posts for ${spend.usd:.4f} (estimate ${usd:.4f}). Failed: {failed}.")

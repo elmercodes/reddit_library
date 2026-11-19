@@ -36,6 +36,17 @@ def model_for(role: str) -> str:
     return C.config()["models"][role]
 
 
+def resolve_model(name: str | None) -> str | None:
+    """'opus' / 'sonnet' / 'haiku' (config model_aliases) or a full model ID."""
+    if not name:
+        return None
+    aliases = C.config().get("model_aliases", {})
+    model = aliases.get(name.lower(), name)
+    if model not in C.config()["prices"]:
+        raise ClaudeError(f"Unknown model {name!r}. Use one of {sorted(aliases)} or a priced model ID.")
+    return model
+
+
 def effort_for(role: str) -> str | None:
     return C.config().get("effort", {}).get(role)
 

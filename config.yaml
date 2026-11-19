@@ -97,7 +97,7 @@ models:
   route: claude-haiku-5-5        # chapter routing for new threads (Phase 8)
   dedupe: claude-haiku-5-5       # ideas board de-duplication (Phase 6)
   summarize_chat: claude-haiku-5-5  # summarizing old chat turns (Phase 7)
-  images: claude-opus-5-5        # image descriptions (Phase 3)
+  images: claude-sonnet-5-5      # image descriptions (Phase 3); rerun posts on Opus with --model opus
   books: claude-opus-5-5         # clustering, chapter writing (Phase 5)
   master: claude-opus-5-5        # master book (Phase 6)
 
@@ -110,6 +110,12 @@ effort:
   images: medium
   books: high
   master: high
+
+# Short names accepted by --model flags (e.g. `rl images --model opus --ids ...`).
+model_aliases:
+  opus: claude-opus-5-5
+  sonnet: claude-sonnet-5-5
+  haiku: claude-haiku-5-5
 
 # Use the Message Batches API (50% off) for bulk extraction runs.
 batch: true
