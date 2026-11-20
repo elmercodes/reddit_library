@@ -12,6 +12,7 @@ from lib import claude
 from lib import config as C
 from lib import costs
 from lib.ledger import now
+from lib.bookstats import book_dir, heat_table, load_threads, plan_path  # noqa: F401 (re-exported)
 from lib.store import read_json, write_json
 
 CHARS_PER_TOKEN = 3.8
@@ -55,23 +56,6 @@ SCHEMA = {
 }
 
 
-def book_dir(sub: str):
-    return C.BOOKS / sub
-
-
-def plan_path(sub: str):
-    return book_dir(sub) / "plan.json"
-
-
-def load_threads(sub: str) -> dict[str, dict]:
-    out = {}
-    for f in sorted(C.THREADS.glob("*.json")):
-        d = read_json(f)
-        if d and d.get("subreddit") == sub:
-            out[d["id"]] = d
-    return out
-
-
 def digest(d: dict) -> dict:
     return {"id": d["id"], "title": d["title"], "flair": d.get("flair"),
             "engagement": d["engagement_score"], "upvotes": d["upvotes"], "comments": d["comments"],
@@ -91,25 +75,6 @@ def estimate(sub: str, threads: dict[str, dict]) -> tuple[float, int, int]:
     prompt = (C.PROMPTS / "cluster_chapters.md").read_text(encoding="utf-8")
     tin = int((len(prompt) + len(build_input(threads))) / CHARS_PER_TOKEN) + SCHEMA_OVERHEAD_TOKENS
     return costs.claude_cost(model, tin, EST_OUTPUT_TOKENS), tin, EST_OUTPUT_TOKENS
-
-
-def heat_table(plan: dict, threads: dict[str, dict]) -> list[dict]:
-    """Per-chapter stats computed in code. Heat = sum of engagement (secondary threads count half)."""
-    rows = []
-    for ch in plan["chapters"]:
-        prim = [threads[i] for i, a in plan["assignments"].items() if a["primary"] == ch["slug"] and i in threads]
-        sec = [threads[i] for i, a in plan["assignments"].items() if a.get("secondary") == ch["slug"] and i in threads]
-        both = prim + sec
-        dates = sorted(d["date"] for d in both)
-        rows.append({
-            "slug": ch["slug"], "title": ch["title"],
-            "threads": len(prim), "secondary": len(sec),
-            "heat": round(sum(d["engagement_score"] for d in prim) + 0.5 * sum(d["engagement_score"] for d in sec), 2),
-            "upvotes": sum(d["upvotes"] for d in prim), "comments": sum(d["comments"] for d in prim),
-            "date_range": f"{dates[0]} to {dates[-1]}" if dates else "",
-        })
-    rows.sort(key=lambda r: -r["heat"])
-    return rows
 
 
 def validate(result: dict, threads: dict[str, dict]) -> tuple[dict, list[str]]:

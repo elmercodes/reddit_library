@@ -6,7 +6,7 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem("rl." + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem("rl." + k, JSON.stringify(v)); } catch { /* private mode */ } },
 };
-const state = { tree: null, route: null, chatTab: null, sending: false, bookCache: {}, sort: store.get("sort", "heat") };
+const state = { tree: null, route: null, chatTab: null, sending: false, saving: false, status: null, notice: null, chats: {}, bookCache: {}, sort: store.get("sort", "heat") };
 
 // ---------- small utils ----------
 async function api(path, opts = {}) {
@@ -16,7 +16,6 @@ async function api(path, opts = {}) {
 }
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const md = (t) => DOMPurify.sanitize(marked.parse(t || ""));
-const money = (x) => "$" + (x || 0).toFixed((x || 0) < 0.1 ? 4 : 3);
 const ktok = (n) => (n >= 1000 ? (n / 1000).toFixed(1) + "K" : String(n || 0));
 const ICON = {
   copy: '<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M15.5 8.5V6.7a2.2 2.2 0 0 0-2.2-2.2H6.7a2.2 2.2 0 0 0-2.2 2.2v6.6a2.2 2.2 0 0 0 2.2 2.2h1.8" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
@@ -345,6 +344,8 @@ function showSoon(kind) {
 }
 
 // ---------- chat ----------
+// Chats are temporary: each tab's live chat lives only in this page's memory (state.chats) until you
+// press Save. Every answer runs on your Claude Code subscription, never the API.
 const STARTERS = {
   book: [
     "Give me five video hooks from the hottest debates in this book.",
@@ -360,40 +361,97 @@ const STARTERS = {
   ],
 };
 
+const freshChat = () => ({ messages: [], savedId: null, savedCount: 0, savedTitle: null });
+function chatState(tab = state.chatTab) { return state.chats[tab] || (state.chats[tab] = freshChat()); }
+function unsavedCount(c) { return c.messages.length - (c.savedId ? c.savedCount : 0); }
+function confirmLimit() { return state.status?.unsaved_confirm_after ?? 4; }
+function okToDiscard(c, what) {
+  const n = unsavedCount(c);
+  if (n <= confirmLimit()) return true;
+  return confirm(`This chat has ${n} unsaved messages. ${what} anyway? They will be lost (use Save to keep them).`);
+}
+function chatEnabled(tab) {
+  return tab.startsWith("game:") || (tab.startsWith("book:") && state.tree.library.some((b) => `book:${b.id}` === tab && b.status === "ready"));
+}
+
+async function loadStatus(force = false) {
+  if (state.status && state.status.ok && !force) return state.status;
+  try { state.status = await api(`/api/chat/status${force ? "?refresh=true" : ""}`); }
+  catch (e) { state.status = { ok: false, message: `Couldn't check the Claude Code login: ${e.message}` }; }
+  return state.status;
+}
+
 async function openChat(tab) {
   state.chatTab = tab;
   applySplit();
+  closeSaved();
   const pane = $("#chat-pane");
-  const enabled = tab.startsWith("game:") ||
-    (tab.startsWith("book:") && state.tree.library.some((b) => `book:${b.id}` === tab && b.status === "ready"));
+  const enabled = chatEnabled(tab);
   pane.classList.toggle("disabled", !enabled);
   const gameTitle = tab.startsWith("game:") ? (state.tree.games.find((g) => `game:${g.id}` === tab)?.title || "this game") : "";
-  $("#chat-title").textContent = !enabled ? "Chat" : tab.startsWith("game:") ? `Chat · ${gameTitle}` : `Chat · r/${tab.slice(5)}`;
   $("#chat-input").placeholder = tab.startsWith("game:") ? `Ask how the communities' lessons apply to ${gameTitle}…` : `Ask r/${tab.slice(5)}…`;
   if (!enabled) {
+    $("#chat-title").textContent = "Chat";
     $("#messages").innerHTML = `<p class="disabled-note">Chat for this tab arrives with the ${tab === "master" ? "Master Book" : tab === "ideas" ? "Ideas Board" : "book"}.</p>`;
     return;
   }
-  const data = await api(`/api/chat/${encodeURIComponent(tab)}`);
-  if (state.chatTab !== tab) return;
-  $("#model-select").value = data.selected_model;
-  renderMessages(data);
+  renderChat();
+  const s = await loadStatus();
+  if (state.chatTab === tab) renderChat();
+  return s;
 }
 
-function renderMessages(data) {
+function chatTitleText() {
+  const tab = state.chatTab, c = chatState();
+  const base = tab.startsWith("game:") ? `Chat · ${state.tree.games.find((g) => `game:${g.id}` === tab)?.title || "game"}` : `Chat · r/${tab.slice(5)}`;
+  return c.savedTitle ? `${base} — ${c.savedTitle}` : base;
+}
+
+function renderChat() {
+  const c = chatState();
+  $("#chat-title").textContent = chatTitleText();
   const box = $("#messages");
   box.innerHTML = "";
-  if (!data.messages.length) {
+  const s = state.status;
+  const blocked = s && !s.ok;
+  $("#chat-input").disabled = !!blocked;
+  $("#send-btn").disabled = !!blocked || state.sending;
+  if (blocked) {
+    box.innerHTML = `<div class="notice-box"><b>Chat runs on your Claude Code subscription.</b><br>${md(s.message)}
+      <p><button class="btn" id="recheck-login">I've logged in — check again</button></p></div>`;
+    $("#recheck-login").onclick = async () => { await loadStatus(true); renderChat(); };
+  } else if (!c.messages.length) {
     const kind = state.chatTab.split(":")[0];
     const name = kind === "game" ? (state.tree.games.find((g) => `game:${g.id}` === state.chatTab)?.title || "your game") : `r/${state.chatTab.slice(5)}`;
     box.innerHTML = `<div class="empty"><h2>${kind === "game" ? `Test ${esc(name)} against the library` : `Ask ${esc(name)}`}</h2>
-      <p>${kind === "game" ? "Paste your rules and card lists into the game page (Edit) first, so answers are specific." : "Answers cite the chapters and threads they use."}</p>
+      <p>${kind === "game" ? "Paste your rules and card lists into the game page (Edit) first, so answers are specific." : "Answers cite the chapters and threads they use."}
+      Chats are temporary until you press Save.</p>
       <div class="starters">${STARTERS[kind].map((q) => `<button class="starter">${esc(q)}</button>`).join("")}</div></div>`;
     $$(".starter", box).forEach((b) => b.addEventListener("click", () => { $("#chat-input").value = b.textContent; autoGrow(); send(); }));
   }
-  data.messages.forEach((m) => box.appendChild(messageEl(m)));
-  setCost(data.session_cost_usd, data.session_tokens);
+  if (!blocked) c.messages.forEach((m) => box.appendChild(messageEl(m)));
+  updateChatChrome();
   scrollChat();
+}
+
+function updateChatChrome() {
+  if (!state.chatTab || !chatEnabled(state.chatTab)) return;
+  const c = chatState();
+  const tokens = c.messages.reduce((n, m) => n + (m.tokens || 0), 0);
+  $("#chat-usage").textContent = tokens ? `via subscription · ${ktok(tokens)} tokens` : "via subscription";
+  const save = $("#save-chat"), unsaved = unsavedCount(c);
+  save.textContent = state.saving ? "Saving…" : c.savedId && !unsaved ? "Saved" : c.savedId ? "Save changes" : "Save";
+  save.classList.toggle("is-saved", !!c.savedId && !unsaved);
+  save.disabled = state.saving || state.sending || !c.messages.length || (!!c.savedId && !unsaved) || !(state.status?.ok);
+  $("#new-chat").disabled = state.sending || !c.messages.length;
+  const chars = c.messages.reduce((n, m) => n + (m.text || "").length, 0);
+  const banner = $("#chat-banner");
+  if (state.notice) {
+    banner.hidden = false; banner.className = "chat-banner warn"; banner.textContent = state.notice;
+  } else if (chars / 3.8 > (state.status?.long_chat_hint_tokens ?? 60000)) {
+    banner.hidden = false; banner.className = "chat-banner";
+    banner.textContent = "This chat is getting long. Save it, then start a New chat (or Continue the saved one) to keep answers fast — Continue sends Claude a summary plus the last few messages.";
+  } else banner.hidden = true;
 }
 function scrollChat() { const s = $("#messages-scroll"); s.scrollTop = s.scrollHeight; }
 
@@ -414,15 +472,13 @@ function messageEl(m) {
   const el = document.createElement("div");
   el.className = `msg ${m.role}`;
   if (m.role === "user") { el.innerHTML = `<div class="bubble">${esc(m.text)}</div>`; return el; }
+  const tokens = m.tokens ?? Object.values(m.usage || {}).reduce((a, b) => a + (b || 0), 0);
   el.innerHTML = `<div class="md">${md(m.text)}</div>${sourcesHtml(m.sources)}
-    <div class="msg-foot"><span>${esc(m.model_label || m.model)} · ${money(m.cost_usd)}</span>
+    <div class="msg-foot"><span>${esc(m.model_label || m.model)} · via subscription${tokens ? ` · ${ktok(tokens)} tokens` : ""}</span>
     <button class="copy-btn" aria-label="Copy answer" title="Copy answer">${ICON.copy}</button></div>`;
   $(".copy-btn", el).addEventListener("click", (e) => copyText(m.text, e.currentTarget));
   wireAnswerLinks(el);
   return el;
-}
-function setCost(usd, tok) {
-  $("#session-cost").textContent = usd ? `${money(usd)} · ${ktok(tok)} tokens` : "";
 }
 
 function autoGrow() {
@@ -435,12 +491,14 @@ async function send(e) {
   e?.preventDefault();
   const input = $("#chat-input");
   const text = input.value.trim();
-  if (!text || state.sending) return;
-  state.sending = true; $("#send-btn").disabled = true;
-  const tab = state.chatTab;
+  if (!text || state.sending || !(state.status?.ok)) return;
+  const tab = state.chatTab, c = chatState(tab);
+  state.sending = true; state.notice = null; $("#send-btn").disabled = true; closeSaved(); updateChatChrome();
+  const history = c.messages.slice();
   const box = $("#messages");
   $(".empty", box)?.remove();
-  box.appendChild(messageEl({ role: "user", text }));
+  const userMsg = { role: "user", text, ts: new Date().toISOString() };
+  box.appendChild(messageEl(userMsg));
   input.value = ""; autoGrow();
   const live = document.createElement("div");
   live.className = "msg assistant";
@@ -448,11 +506,18 @@ async function send(e) {
   box.appendChild(live);
   scrollChat();
   const status = (t) => { const s = $(".status", live); if (s) { s.hidden = !t; $(".status-text", live).textContent = t || ""; } };
+  const fail = (msg, kind) => {
+    status(""); live.classList.add(kind === "usage_limit" ? "limit" : "error");
+    $(".md", live).innerHTML = md((kind === "usage_limit" ? "" : "Error: ") + msg);
+    // Not added to the chat: your message goes back into the box so you can resend it.
+    if (state.chatTab === tab && !$("#chat-input").value) { $("#chat-input").value = text; autoGrow(); }
+    if (kind === "login") { state.status = null; loadStatus(true).then(() => state.chatTab === tab && renderChat()); }
+  };
   let raw = "";
   try {
     const res = await fetch(`/api/chat/${encodeURIComponent(tab)}`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: text, model: $("#model-select").value }),
+      body: JSON.stringify({ message: text, model: $("#model-select").value, history, saved_id: c.savedId }),
     });
     if (!res.ok) throw new Error((await res.json().catch(() => ({}))).detail || res.statusText);
     const reader = res.body.getReader(), dec = new TextDecoder();
@@ -471,21 +536,112 @@ async function send(e) {
           $(".md", live).innerHTML = md(raw);
         } else if (ev.type === "tool") {
           status(`Reading: ${ev.label || ev.name}…`);
+        } else if (ev.type === "notice") {
+          state.notice = ev.message;
         } else if (ev.type === "done") {
-          if (state.chatTab === tab) { live.replaceWith(messageEl(ev.message)); setCost(ev.session_cost_usd, ev.session_tokens); }
+          c.messages.push(userMsg, ev.message);
+          live.replaceWith(messageEl(ev.message));
         } else if (ev.type === "error") {
-          status(""); live.classList.add("error");
-          $(".md", live).textContent = "Error: " + ev.message;
+          fail(ev.message, ev.kind);
         }
         if (state.chatTab === tab) scrollChat();
       }
     }
   } catch (err) {
-    status(""); live.classList.add("error");
-    $(".md", live).textContent = "Error: " + err.message;
+    fail(err.message);
   } finally {
     state.sending = false; $("#send-btn").disabled = false;
+    if (state.chatTab === tab) updateChatChrome();
   }
+}
+
+// ---------- save / saved list ----------
+async function saveChat() {
+  const tab = state.chatTab, c = chatState(tab);
+  if (!c.messages.length || state.saving) return;
+  state.saving = true; updateChatChrome();
+  try {
+    const meta = await api(`/api/chat/${encodeURIComponent(tab)}/save`, {
+      method: "POST", body: JSON.stringify({ messages: c.messages, saved_id: c.savedId }),
+    });
+    c.savedId = meta.id; c.savedCount = meta.messages; c.savedTitle = meta.title;
+    if (!$("#saved-panel").hidden) renderSavedList();
+  } catch (err) {
+    alert(`Not saved: ${err.message}`);
+  } finally {
+    state.saving = false;
+    if (state.chatTab === tab) { $("#chat-title").textContent = chatTitleText(); updateChatChrome(); }
+  }
+}
+
+function newChat() {
+  const c = chatState();
+  if (!okToDiscard(c, "Start a new chat")) return;
+  state.chats[state.chatTab] = freshChat();
+  state.notice = null;
+  renderChat();
+}
+
+function closeSaved() { $("#saved-panel").hidden = true; $("#saved-toggle").setAttribute("aria-expanded", "false"); }
+async function toggleSaved() {
+  if (!$("#saved-panel").hidden) return closeSaved();
+  $("#saved-panel").hidden = false; $("#saved-toggle").setAttribute("aria-expanded", "true");
+  await renderSavedList();
+}
+const fmtDate = (iso) => new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+
+async function renderSavedList() {
+  const tab = state.chatTab, list = $("#saved-list");
+  list.innerHTML = `<li class="saved-empty">Loading…</li>`;
+  let items;
+  try { items = (await api(`/api/chat/${encodeURIComponent(tab)}/saved`)).saved; }
+  catch (e) { list.innerHTML = `<li class="saved-empty">${esc(e.message)}</li>`; return; }
+  if (state.chatTab !== tab) return;
+  if (!items.length) { list.innerHTML = `<li class="saved-empty">No saved chats for this tab yet. Press Save in a chat to keep it.</li>`; return; }
+  const cur = chatState(tab).savedId;
+  list.innerHTML = items.map((s) => `<li class="${s.id === cur ? "current" : ""}" data-id="${esc(s.id)}">
+      <div class="saved-title">${esc(s.title)}</div>
+      <div class="saved-meta">${fmtDate(s.updated_at)} · ${esc(s.model_label || s.model || "")} · ${s.messages} messages${s.id === cur ? " · open now" : ""}</div>
+      <div class="saved-actions"><button class="text-btn" data-act="continue">Continue</button><button class="text-btn" data-act="rename">Rename</button><button class="text-btn" data-act="delete">Delete</button></div>
+    </li>`).join("");
+  $$("button[data-act]", list).forEach((b) => b.addEventListener("click", () => {
+    const li = b.closest("li"), item = items.find((x) => x.id === li.dataset.id);
+    ({ continue: continueSaved, rename: renameSaved, delete: deleteSaved })[b.dataset.act](item);
+  }));
+}
+
+async function continueSaved(item) {
+  const tab = state.chatTab, c = chatState(tab);
+  if (c.savedId !== item.id && !okToDiscard(c, "Open this saved chat")) return;
+  let d;
+  try { d = await api(`/api/chat/${encodeURIComponent(tab)}/saved/${encodeURIComponent(item.id)}`); }
+  catch (e) { alert(e.message); return; }
+  state.chats[tab] = { messages: d.messages, savedId: d.id, savedCount: d.messages.length, savedTitle: d.title };
+  state.notice = null;
+  closeSaved();
+  if (state.chatTab === tab) renderChat();
+}
+
+async function renameSaved(item) {
+  const title = prompt("Rename saved chat:", item.title);
+  if (!title || title.trim() === item.title) return;
+  const tab = state.chatTab;
+  try {
+    const meta = await api(`/api/chat/${encodeURIComponent(tab)}/saved/${encodeURIComponent(item.id)}`, { method: "PATCH", body: JSON.stringify({ title }) });
+    const c = chatState(tab);
+    if (c.savedId === item.id) { c.savedId = meta.id; c.savedTitle = meta.title; $("#chat-title").textContent = chatTitleText(); }
+  } catch (e) { alert(e.message); }
+  renderSavedList();
+}
+
+async function deleteSaved(item) {
+  if (!confirm(`Delete the saved chat "${item.title}"? This removes its file from chats/saved/.`)) return;
+  const tab = state.chatTab;
+  try { await api(`/api/chat/${encodeURIComponent(tab)}/saved/${encodeURIComponent(item.id)}`, { method: "DELETE" }); }
+  catch (e) { alert(e.message); }
+  const c = chatState(tab);
+  if (c.savedId === item.id) { c.savedId = null; c.savedCount = 0; c.savedTitle = null; renderChat(); }
+  renderSavedList();
 }
 
 // ---------- init ----------
@@ -498,21 +654,22 @@ async function init() {
 
   const m = await api("/api/models");
   $("#model-select").innerHTML = m.models.map((x) => `<option value="${x.id}">${esc(x.label)}</option>`).join("");
-  $("#model-select").value = m.default;
+  const savedModel = store.get("chatModel", m.default);
+  $("#model-select").value = m.models.some((x) => x.id === savedModel) ? savedModel : m.default;
   await loadTree();
 
   $("#chat-form").addEventListener("submit", send);
   const input = $("#chat-input");
   input.addEventListener("input", autoGrow);
   input.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
-  $("#model-select").addEventListener("change", async (e) => {
-    if (state.chatTab && !$("#chat-pane").classList.contains("disabled")) {
-      await api(`/api/chat/${encodeURIComponent(state.chatTab)}/model`, { method: "PUT", body: JSON.stringify({ model: e.target.value }) });
-    }
-  });
-  $("#clear-chat").addEventListener("click", async () => {
-    if (!confirm("Clear this tab's conversation? Its history is deleted from chats/.")) return;
-    renderMessages(await api(`/api/chat/${encodeURIComponent(state.chatTab)}/clear`, { method: "POST" }));
+  $("#model-select").addEventListener("change", (e) => store.set("chatModel", e.target.value));
+  $("#save-chat").addEventListener("click", saveChat);
+  $("#new-chat").addEventListener("click", newChat);
+  $("#saved-toggle").addEventListener("click", toggleSaved);
+  $("#saved-close").addEventListener("click", closeSaved);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSaved(); });
+  window.addEventListener("beforeunload", (e) => {
+    if (Object.values(state.chats).some((c) => unsavedCount(c) > confirmLimit())) { e.preventDefault(); e.returnValue = ""; }
   });
   $("#add-game").addEventListener("click", async () => {
     const name = prompt("Name of the new game:");

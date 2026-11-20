@@ -13,6 +13,7 @@ dependencies = [
     "uvicorn",
     "typer",
     "pillow>=12.3.0",
+    "claude-agent-sdk>=0.2.186",
 ]
 
 [project.scripts]

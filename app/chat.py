@@ -1,11 +1,12 @@
-"""Chat engine: one saved conversation per tab, tool use over the library, per-message cost.
+"""Chat engine: runs only through the Claude Code subscription (app/subscription.py), never the API.
 
-History design (keeps the API's preserved-thinking check happy and the prompt cache warm):
-- Earlier turns are stored and replayed as plain text only. Removing all thinking blocks from
-  earlier turns is allowed; inside one answer's tool loop, the assistant content (thinking,
-  text, tool_use) is passed back unchanged.
-- The system prompt is [instructions, library map (cached)]; a summary of older turns, when one
-  exists, is appended as a mid-conversation system message, never by editing earlier turns.
+Chats are temporary: the browser holds the live conversation and sends it with each message, so
+nothing is written to disk unless you press Save (app/saved.py).
+
+What Claude sees each turn:
+- system prompt: chat instructions + the library map for this tab
+- a fresh chat: the full text-only transcript, then the new message
+- a continued saved chat: the saved summary + the messages from (covers - 6) on, then the new message
 """
 
 from __future__ import annotations
@@ -13,45 +14,16 @@ from __future__ import annotations
 import json
 import re
 from datetime import datetime, timezone
+from typing import Any, AsyncIterator
 
-from lib import claude
+from claude_agent_sdk import tool
+
 from lib import config as C
-from lib import costs
-from lib.store import read_json, write_json
+from lib.store import read_json
+
+from . import subscription as sub
 
 SAFE = re.compile(r"^[A-Za-z0-9_-]+$")
-
-TOOLS = [
-    {
-        "name": "read_chapter",
-        "description": "Read one chapter of a book in full: TL;DR, stats, consensus, splits with support, "
-                       "design and business lessons, content ideas, and its threads with Reddit links.",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "book": {"type": "string", "description": "Book id, e.g. homemadeTCGs"},
-                "chapter": {"type": "string", "description": "Chapter slug from the library map"},
-            },
-            "required": ["book", "chapter"],
-            "additionalProperties": False,
-        },
-        "strict": True,
-        "eager_input_streaming": True,
-    },
-    {
-        "name": "read_thread",
-        "description": "Read one Reddit thread's structured notes: summary, consensus, splits, lessons, "
-                       "content ideas, support counts, image notes and its Reddit URL.",
-        "input_schema": {
-            "type": "object",
-            "properties": {"id": {"type": "string", "description": "Reddit post id, e.g. 1qv7ztx"}},
-            "required": ["id"],
-            "additionalProperties": False,
-        },
-        "strict": True,
-        "eager_input_streaming": True,
-    },
-]
 
 
 def now() -> str:
@@ -76,6 +48,10 @@ def model_entry(model_id: str) -> dict:
     return m
 
 
+def chat_cfg() -> dict:
+    return C.config()["chat"]
+
+
 # --- library access (also the tools) --------------------------------------------
 
 def built_books() -> list[str]:
@@ -92,8 +68,7 @@ def _front_matter(path) -> dict:
 
 def book_map(book: str) -> str:
     """Compact map of one book for the system prompt."""
-    from pipeline.cluster import load_threads
-    from pipeline.write import chapter_stats
+    from lib.bookstats import chapter_stats, load_threads
     front = _front_matter(C.BOOKS / book / "index.md")
     plan = read_json(C.BOOKS / book / "plan.json")
     stats = chapter_stats(plan, load_threads(book)) if plan else {}
@@ -149,15 +124,65 @@ def read_thread(thread_id: str) -> str:
     return json.dumps(out, ensure_ascii=False)
 
 
+def read_idea(idea_id: str) -> str:
+    if not SAFE.match(idea_id):
+        return "Invalid idea id."
+    board = read_json(C.BOARD) or []
+    if not board:
+        return "The Ideas Board is empty (it is built in a later phase), so there is no idea to read yet."
+    idea = next((i for i in board if str(i.get("id")) == idea_id), None)
+    if not idea:
+        return f"No idea '{idea_id}' on the Ideas Board."
+    return json.dumps(idea, ensure_ascii=False)
+
+
 def run_tool(name: str, args: dict) -> tuple[str, bool]:
     try:
         if name == "read_chapter":
             return read_chapter(str(args["book"]), str(args["chapter"])), False
         if name == "read_thread":
             return read_thread(str(args["id"])), False
+        if name == "read_idea":
+            return read_idea(str(args["id"])), False
         return f"Unknown tool {name}", True
     except (KeyError, TypeError) as e:
         return f"Invalid tool input: {e}", True
+
+
+def _result(name: str, args: dict) -> dict:
+    text, is_error = run_tool(name, args)
+    return {"content": [{"type": "text", "text": text}], **({"is_error": True} if is_error else {})}
+
+
+def _schema(props: dict) -> dict:
+    return {"type": "object", "properties": {k: {"type": "string", "description": v} for k, v in props.items()},
+            "required": list(props), "additionalProperties": False}
+
+
+@tool("read_chapter",
+      "Read one chapter of a book in full: TL;DR, stats, consensus, splits with support, design and business "
+      "lessons, content ideas, and its threads with Reddit links.",
+      _schema({"book": "Book id, e.g. homemadeTCGs", "chapter": "Chapter slug from the library map"}))
+async def read_chapter_tool(args: dict[str, Any]) -> dict[str, Any]:
+    return _result("read_chapter", args)
+
+
+@tool("read_thread",
+      "Read one Reddit thread's structured notes: summary, consensus, splits, lessons, content ideas, "
+      "support counts, image notes and its Reddit URL.",
+      _schema({"id": "Reddit post id, e.g. 1qv7ztx"}))
+async def read_thread_tool(args: dict[str, Any]) -> dict[str, Any]:
+    return _result("read_thread", args)
+
+
+@tool("read_idea",
+      "Read one entry from the Ideas Board (content ideas de-duplicated across books) by its id.",
+      _schema({"id": "Idea id from the Ideas Board"}))
+async def read_idea_tool(args: dict[str, Any]) -> dict[str, Any]:
+    return _result("read_idea", args)
+
+
+LIBRARY_TOOLS = [read_chapter_tool, read_thread_tool, read_idea_tool]
 
 
 def tool_label(name: str, args: dict) -> str:
@@ -169,6 +194,8 @@ def tool_label(name: str, args: dict) -> str:
         if name == "read_thread" and SAFE.match(str(args.get("id", ""))):
             d = read_json(C.THREADS / f"{args['id']}.json")
             return d["title"] if d else f"thread {args['id']}"
+        if name == "read_idea":
+            return f"idea {args.get('id', '')}".strip()
     except Exception:  # noqa: BLE001
         pass
     return name
@@ -212,7 +239,7 @@ def tab_kind(tab: str) -> tuple[str, str]:
     return kind, key
 
 
-def system_blocks(tab: str) -> list[dict]:
+def system_prompt(tab: str) -> str:
     kind, key = tab_kind(tab)
     instructions = (C.PROMPTS / "chat.md").read_text(encoding="utf-8")
     if kind == "book":
@@ -228,196 +255,73 @@ def system_blocks(tab: str) -> list[dict]:
             "the communities say to its actual rules, cards and plans, and say what would likely break, "
             "confuse players, or land well. Read the relevant chapters before advising.\n\n"
             f"# The designer's game ({key})\n\n{game_text}\n\n# Library\n\n{maps}")
-    return [{"type": "text", "text": instructions},
-            {"type": "text", "text": context, "cache_control": {"type": "ephemeral"}}]
-
-
-# --- storage ---------------------------------------------------------------------
-
-def chat_path(tab: str):
-    kind, key = tab_kind(tab)
-    return C.CHATS / f"{kind}-{key}.json"
-
-
-def load(tab: str) -> dict:
-    data = read_json(chat_path(tab))
-    if not data:
-        data = {"tab": tab, "selected_model": default_model(), "messages": [], "summary": None,
-                "session_cost_usd": 0.0, "session_tokens": 0}
-    if data["selected_model"] not in [m["id"] for m in chat_models()]:
-        data["selected_model"] = default_model()
-    return data
-
-
-def save(tab: str, data: dict) -> None:
-    write_json(chat_path(tab), data)
-
-
-def clear(tab: str) -> dict:
-    data = load(tab)
-    fresh = {"tab": tab, "selected_model": data["selected_model"], "messages": [], "summary": None,
-             "session_cost_usd": 0.0, "session_tokens": 0}
-    save(tab, fresh)
-    return fresh
-
-
-def set_model(tab: str, model_id: str) -> dict:
-    model_entry(model_id)
-    data = load(tab)
-    data["selected_model"] = model_id
-    save(tab, data)
-    return data
+    return instructions + "\n\n" + context
 
 
 # --- the turn -------------------------------------------------------------------
 
-def _history(data: dict) -> list[dict]:
-    start = (data.get("summary") or {}).get("covers_until", 0)
-    msgs = [{"role": m["role"], "content": m["text"]} for m in data["messages"][start:] if m.get("text")]
-    if data.get("summary"):
-        # Append-only: the summary arrives as a mid-conversation system message after a user turn.
-        msgs = ([{"role": "user", "content": "(Earlier conversation summarized below.)"},
-                 {"role": "system", "content": "Summary of the earlier conversation:\n" + data["summary"]["text"]},
-                 {"role": "assistant", "content": "Understood."}] + msgs)
-    return msgs
+def context_messages(history: list[dict], saved: dict | None) -> tuple[str | None, list[dict]]:
+    """(summary or None, messages to replay). Continued chats replay the last N saved messages
+    plus everything added since; fresh chats replay everything."""
+    msgs = [m for m in history if m.get("text") and m.get("role") in ("user", "assistant")]
+    if not saved or not saved.get("summary"):
+        return None, msgs
+    keep = chat_cfg().get("continue_recent_messages", 6)
+    start = max(0, int(saved.get("covers", len(msgs))) - keep)
+    return saved["summary"], msgs[start:]
 
 
-def _total_tokens(usage: dict) -> int:
-    return sum(usage.get(k, 0) for k in ("input_tokens", "output_tokens",
-                                         "cache_creation_input_tokens", "cache_read_input_tokens"))
+def build_prompt(text: str, summary: str | None, replay: list[dict]) -> str:
+    parts = []
+    if summary:
+        parts.append(f"<earlier_conversation_summary>\n{summary}\n</earlier_conversation_summary>")
+    if replay:
+        turns = "\n\n".join(f"<{m['role']}>\n{m['text']}\n</{m['role']}>" for m in replay)
+        parts.append(f"<conversation_so_far>\n{turns}\n</conversation_so_far>")
+    if parts:
+        parts.append("Continue the conversation above. The designer's new message:")
+    parts.append(text)
+    return "\n\n".join(parts)
 
 
-def send(tab: str, text: str, model_id: str | None = None):
-    """Generator of events: {"type": "text"|"tool"|"done"|"error", ...}."""
-    data = load(tab)
-    model_id = model_id or data["selected_model"]
+async def send(tab: str, text: str, model_id: str | None, history: list[dict],
+               saved: dict | None = None) -> AsyncIterator[dict]:
+    """Async generator of events: {"type": "text"|"tool"|"notice"|"done"|"error", ...}."""
+    model_id = model_id or default_model()
     entry = model_entry(model_id)
-    data["selected_model"] = model_id
-    system = system_blocks(tab)
-    data["messages"].append({"role": "user", "text": text, "ts": now()})
-    save(tab, data)
-
-    messages = _history(data)
-    params = {"model": model_id, "max_tokens": C.config()["chat"]["max_output_tokens"],
-              "system": system, "tools": TOOLS, "messages": messages}
-    if entry.get("effort"):
-        params["output_config"] = {"effort": entry["effort"]}
-
-    usage_total = {"input_tokens": 0, "output_tokens": 0, "cache_creation_input_tokens": 0,
-                   "cache_read_input_tokens": 0}
-    cost_total, answer_parts, tools_used = 0.0, [], []
-    served_by = model_id
-    partial = {"usage": None}       # usage of the round in progress, for client disconnects
+    summary, replay = context_messages(history, saved)
+    prompt = build_prompt(text, summary, replay)
+    options = sub.build_options(system_prompt(tab), model_id, entry.get("effort"), tools=LIBRARY_TOOLS,
+                                max_turns=chat_cfg().get("max_tool_rounds", 8) + 1)
+    answer_parts: list[str] = []
+    tools_used: list[dict] = []
+    usage, subtype, init = {}, "success", {}
     try:
-        for _ in range(C.config()["chat"].get("max_tool_rounds", 8)):
-            if model_id in claude.FALLBACK_MODELS:
-                stream_cm = claude.client().beta.messages.stream(
-                    betas=[claude.FALLBACK_BETA], fallbacks="default", **params)
-            else:
-                stream_cm = claude.client().messages.stream(**params)
-            with stream_cm as stream:
-                for event in stream:
-                    partial["usage"] = getattr(stream.current_message_snapshot, "usage", None)
-                    if event.type == "content_block_delta" and getattr(event.delta, "type", "") == "text_delta":
-                        answer_parts.append(event.delta.text)
-                        yield {"type": "text", "delta": event.delta.text}
-                final = stream.get_final_message()
-            partial["usage"] = None
-            usage = claude.usage_dict(final.usage)
-            served_by = final.model if final.model in C.config()["prices"] else model_id
-            cost_total += costs.cost_from_usage(served_by, usage)
-            for k in usage_total:
-                usage_total[k] += usage[k]
-
-            if final.stop_reason == "refusal":
-                answer_parts.append("\n\n*(The model declined to answer this.)*")
-                break
-            if final.stop_reason != "tool_use":
-                break
-            # Pass this answer's assistant content back unchanged, then the tool results.
-            params["messages"] = params["messages"] + [
-                {"role": "assistant", "content": [b.to_dict() for b in final.content]}]
-            results = []
-            for block in final.content:
-                if block.type != "tool_use":
-                    continue
-                args = block.input if isinstance(block.input, dict) else {}
-                label = tool_label(block.name, args)
-                tools_used.append({"name": block.name, "input": args, "label": label})
-                yield {"type": "tool", "name": block.name, "input": args, "label": label}
-                output, is_error = run_tool(block.name, args)
-                results.append({"type": "tool_result", "tool_use_id": block.id, "content": output,
-                                **({"is_error": True} if is_error else {})})
-            params["messages"] = params["messages"] + [{"role": "user", "content": results}]
-            if answer_parts and not answer_parts[-1].endswith("\n"):
-                answer_parts.append("\n\n")
-                yield {"type": "text", "delta": "\n\n"}
-        else:
-            answer_parts.append("\n\n*(Stopped after the maximum number of library reads.)*")
-    except GeneratorExit:
-        # The browser went away mid-answer (closed tab, reload). Anthropic still billed what ran:
-        # log finished rounds plus the round in progress, and keep the partial text.
-        if partial["usage"] is not None:
-            cost_total += costs.cost_from_usage(model_id, claude.usage_dict(partial["usage"]))
-        data["messages"].append({"role": "assistant", "text": "".join(answer_parts).strip() + "\n\n*(Interrupted.)*",
-                                 "ts": now(), "model": model_id, "model_label": entry["label"],
-                                 "cost_usd": round(cost_total, 6), "usage": usage_total, "tools_used": tools_used,
-                                 "sources": []})
-        data["session_cost_usd"] = round(data["session_cost_usd"] + cost_total, 6)
-        save(tab, data)
-        if cost_total:
-            costs.log(costs.new_run_id("chat"), "chat", "anthropic", model_id,
-                      f"chat {tab} (interrupted: client disconnected)", "partial", cost_total, cost_total)
-        raise
-    except Exception as e:  # noqa: BLE001 - surface API errors in the chat instead of crashing
-        if cost_total:
-            costs.log(costs.new_run_id("chat"), "chat", "anthropic", model_id, f"chat {tab} (error)",
-                      f"{_total_tokens(usage_total):,} tokens", cost_total, cost_total)
-        data["session_cost_usd"] += cost_total
-        save(tab, data)
-        yield {"type": "error", "message": str(e), "session_cost_usd": data["session_cost_usd"]}
+        async for ev in sub.run(prompt, options):
+            if ev["type"] == "init":
+                init = ev
+            elif ev["type"] == "text":
+                answer_parts.append(ev["delta"])
+                yield {"type": "text", "delta": ev["delta"]}
+            elif ev["type"] == "tool":
+                label = tool_label(ev["name"], ev["input"])
+                tools_used.append({"name": ev["name"], "input": ev["input"], "label": label})
+                yield {"type": "tool", "name": ev["name"], "input": ev["input"], "label": label}
+                if answer_parts and not answer_parts[-1].endswith("\n"):
+                    answer_parts.append("\n\n")
+                    yield {"type": "text", "delta": "\n\n"}
+            elif ev["type"] == "notice":
+                yield ev
+            elif ev["type"] == "result":
+                usage, subtype = ev["usage"], ev["subtype"]
+    except sub.SubscriptionError as e:
+        yield {"type": "error", "kind": e.kind, "message": str(e)}
         return
 
-    label = next((m["label"] for m in chat_models() if m["id"] == served_by), served_by)
     answer = "".join(answer_parts).strip()
-    msg = {"role": "assistant", "text": answer, "ts": now(), "model": served_by,
-           "model_label": label, "cost_usd": round(cost_total, 6), "usage": usage_total, "tools_used": tools_used,
-           "sources": sources_for(answer, tools_used)}
-    data["messages"].append(msg)
-    data["session_cost_usd"] = round(data["session_cost_usd"] + cost_total, 6)
-    data["session_tokens"] += _total_tokens(usage_total)
-    costs.log(costs.new_run_id("chat"), "chat", "anthropic", served_by, f"chat {tab}",
-              f"{_total_tokens(usage_total):,} tokens, {len(tools_used)} reads", cost_total, cost_total)
-    summary_cost = maybe_summarize(tab, data)
-    save(tab, data)
-    yield {"type": "done", "message": msg, "session_cost_usd": data["session_cost_usd"],
-           "session_tokens": data["session_tokens"], "summary_cost_usd": summary_cost}
-
-
-def maybe_summarize(tab: str, data: dict) -> float:
-    """Summarize older turns (cheap model) once the replayed history gets long. Nothing is deleted:
-    every message stays in the file and on screen; only the text sent to the model is condensed."""
-    cfg = C.config()["chat"]
-    start = (data.get("summary") or {}).get("covers_until", 0)
-    active = data["messages"][start:]
-    if sum(len(m.get("text", "")) for m in active) / 3.8 < cfg["summarize_after_tokens"]:
-        return 0.0
-    keep = cfg["keep_recent_turns"] * 2
-    cut = len(data["messages"]) - keep
-    while cut > start and data["messages"][cut]["role"] != "user":
-        cut -= 1                                    # keep the replayed history starting on a user turn
-    if cut <= start:
-        return 0.0
-    old = data["messages"][start:cut]
-    transcript = "\n\n".join(f"{m['role'].upper()}: {m['text']}" for m in old)
-    prior = (data.get("summary") or {}).get("text", "")
-    prompt = ("Summarize this conversation between a card game designer and their research assistant so "
-              "it can continue without the full transcript. Keep decisions, the designer's game details, "
-              "conclusions, and every chapter or thread link that was cited. Be compact.\n\n"
-              + (f"Earlier summary:\n{prior}\n\n" if prior else "") + f"Conversation:\n{transcript}")
-    text, cost, usage = claude.call("summarize_chat", [{"role": "user", "content": prompt}], max_tokens=4000)
-    data["summary"] = {"text": text, "covers_until": cut, "updated_at": now()}
-    data["session_cost_usd"] = round(data["session_cost_usd"] + cost, 6)
-    costs.log(costs.new_run_id("chat-summary"), "chat", "anthropic", claude.model_for("summarize_chat"),
-              f"chat {tab} history summary", f"{_total_tokens(usage):,} tokens", cost, cost)
-    return cost
+    if subtype == "error_max_turns":
+        answer += "\n\n*(Stopped after the maximum number of library reads.)*"
+    msg = {"role": "assistant", "text": answer, "ts": now(), "model": model_id, "model_label": entry["label"],
+           "via": "subscription", "usage": usage, "tokens": sub.total_tokens(usage),
+           "tools_used": tools_used, "sources": sources_for(answer, tools_used)}
+    yield {"type": "done", "message": msg, "credential": init.get("api_key_source"), "tools": init.get("tools")}

@@ -22,7 +22,7 @@ from lib import costs
 from lib.ledger import now
 from lib.store import read_json, write_json, write_text
 
-from .cluster import heat_table, load_threads, plan_path
+from lib.bookstats import chapter_refs, chapter_stats, heat_table, load_threads, plan_path  # noqa: F401
 
 EST_OUTPUT_TOKENS = 4500          # per chapter at high effort; measured 4,022 avg on r/homemadeTCGs (16 chapters)
 CHAPTER_MAX_TOKENS = 32000
@@ -99,14 +99,6 @@ def main_thread_input(d: dict) -> dict:
 
 def secondary_thread_input(d: dict) -> dict:
     return {k: d[k] for k in ("title", "date", "upvotes", "comments", "engagement_score", "topics", "summary")}
-
-
-def chapter_refs(plan: dict, slug: str, threads: dict) -> tuple[list, list]:
-    """(main, secondary) as lists of (ref, thread), each sorted by engagement."""
-    by_eng = lambda d: -(d["engagement_score"] or 0)
-    main = sorted((threads[i] for i, a in plan["assignments"].items() if a["primary"] == slug), key=by_eng)
-    sec = sorted((threads[i] for i, a in plan["assignments"].items() if a.get("secondary") == slug), key=by_eng)
-    return [(f"T{n}", d) for n, d in enumerate(main, 1)], [(f"S{n}", d) for n, d in enumerate(sec, 1)]
 
 
 def chapter_request(sub: str, plan: dict, chapter: dict, threads: dict) -> dict:
@@ -232,13 +224,6 @@ def render_chapter(sub: str, chapter: dict, out: dict, main: list, sec: list, st
 def _img_rel(path: str) -> str:
     # chapter files live at books/<sub>/chapters/<slug>.md
     return "../../../" + path
-
-
-def chapter_stats(plan: dict, threads: dict) -> dict:
-    rows = {r["slug"]: r for r in heat_table(plan, threads)}
-    for r in rows.values():
-        r["comments_per_thread"] = r["comments"] / r["threads"] if r["threads"] else 0.0
-    return rows
 
 
 def save_chapter(sub: str, plan: dict, chapter: dict, threads: dict, out: dict, cost: float, model: str) -> None:

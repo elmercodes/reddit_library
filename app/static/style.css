@@ -290,7 +290,27 @@ details.more summary { cursor: pointer; color: var(--muted); font-size: 14px; ma
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .send-btn { color: #16162a; } }
 .send-btn:hover { background: var(--accent-hover); }
 .send-btn:disabled { opacity: .4; cursor: default; }
-.chat-pane.disabled .composer-wrap, .chat-pane.disabled #clear-chat, .chat-pane.disabled #session-cost { display: none; }
+.chat-pane.disabled .composer-wrap, .chat-pane.disabled .chat-meta, .chat-pane.disabled .chat-banner { display: none; }
+.chat-head { position: relative; }
+#save-chat.is-saved { color: var(--accent-ink); }
+.text-btn:disabled { opacity: .45; cursor: default; background: none; }
+.saved-panel { position: absolute; right: 12px; top: calc(100% - 4px); z-index: 10; width: min(420px, calc(100% - 24px)); max-height: 60vh; overflow-y: auto;
+  background: var(--surface); border: 1px solid var(--border-strong); border-radius: 12px; box-shadow: var(--shadow); padding: 8px; }
+.saved-head { display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: var(--muted); padding: 2px 6px 6px; }
+.saved-list { list-style: none; margin: 0; padding: 0; }
+.saved-list li { padding: 9px 8px; border-radius: 8px; }
+.saved-list li + li { border-top: 1px solid var(--border); }
+.saved-list li.current { background: var(--accent-soft); }
+.saved-title { font-weight: 600; font-size: 14px; line-height: 1.35; overflow-wrap: anywhere; }
+.saved-meta { font-size: 12.5px; color: var(--muted); margin: 2px 0 6px; }
+.saved-actions { display: flex; gap: 4px; margin-left: -6px; }
+.saved-empty { color: var(--muted); font-size: 14px; padding: 10px 8px; }
+.chat-banner { flex-shrink: 0; font-size: 13.5px; line-height: 1.45; color: var(--text-2); background: var(--surface-2); border-bottom: 1px solid var(--border); padding: 8px 18px; }
+.chat-banner.warn { background: var(--accent-soft); color: var(--accent-ink); }
+.notice-box { border: 1px solid var(--border-strong); background: var(--surface); border-radius: 12px; padding: 14px 16px; line-height: 1.55; color: var(--text-2); margin: 8vh auto 0; max-width: 520px; }
+.notice-box code { background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }
+.msg.limit .md { color: var(--accent-ink); font-weight: 500; }
+.msg-note { font-size: 13px; color: var(--muted); margin-top: 6px; }
 
 /* ---------- narrow ---------- */
 /* The read pane adapts to its own width (split mode can make it narrow on a wide screen). */

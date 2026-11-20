@@ -67,11 +67,18 @@
           <div class="chat-head-inner">
             <div class="chat-title" id="chat-title">Chat</div>
             <div class="chat-meta">
-              <span id="session-cost" class="cost" title="What this conversation has cost so far"></span>
-              <button id="clear-chat" class="text-btn">Clear</button>
+              <span id="chat-usage" class="cost" title="Runs on your Claude Code subscription; never billed to the API"></span>
+              <button id="save-chat" class="text-btn" title="Save this conversation">Save</button>
+              <button id="saved-toggle" class="text-btn" aria-expanded="false" aria-controls="saved-panel">Saved</button>
+              <button id="new-chat" class="text-btn" title="Start a new temporary chat">New chat</button>
             </div>
           </div>
+          <div class="saved-panel" id="saved-panel" hidden>
+            <div class="saved-head"><span>Saved chats for this tab</span><button class="text-btn" id="saved-close" aria-label="Close saved chats">Close</button></div>
+            <ul class="saved-list" id="saved-list"></ul>
+          </div>
         </div>
+        <div class="chat-banner" id="chat-banner" hidden></div>
         <div class="messages" id="messages-scroll">
           <div class="column" id="messages"></div>
         </div>

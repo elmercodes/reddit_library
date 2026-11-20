@@ -107,7 +107,6 @@ models:
   extract: claude-sonnet-5-5     # per-thread extraction (Phase 4); chosen over Haiku after a 3-thread comparison
   route: claude-haiku-5-5        # chapter routing for new threads (Phase 8)
   dedupe: claude-haiku-5-5       # ideas board de-duplication (Phase 6)
-  summarize_chat: claude-haiku-5-5  # summarizing old chat turns (Phase 7)
   images: claude-sonnet-5-5      # image descriptions (Phase 3); rerun posts on Opus with --model opus
   books: claude-opus-5-5         # clustering, chapter writing (Phase 5)
   master: claude-opus-5-5        # master book (Phase 6)
@@ -117,7 +116,6 @@ effort:
   extract: low
   route: low
   dedupe: low
-  summarize_chat: low
   images: medium
   books: high
   master: high
@@ -148,29 +146,33 @@ prices:
 batch_discount: 0.5
 
 # ---------------------------------------------------------------------------
-# Chat (Phase 7). Model picker shown next to every chat box.
-# Add, remove or rename entries freely; prices come from `prices` above.
+# Chat (Phase 7). Runs ONLY on your Claude Code subscription via the Claude Agent SDK;
+# it never uses ANTHROPIC_API_KEY and is never logged in costs.csv.
+# Model picker ids are Claude Code aliases (opus / sonnet / haiku).
 # ---------------------------------------------------------------------------
 chat_models:
-  - id: claude-opus-5-5
+  - id: opus
     label: Opus (deep)
     effort: high
-  - id: claude-sonnet-5-5
+  - id: sonnet
     label: Sonnet (default)
     default: true
     effort: medium
-  - id: claude-haiku-5-5
+  - id: haiku
     label: Haiku (quick)
     effort: low
 
 chat:
-  # Summarize older turns once a conversation's history passes this many tokens.
-  summarize_after_tokens: 60000
-  # Keep this many most recent turns verbatim when summarizing.
-  keep_recent_turns: 6
-  max_output_tokens: 16000
-  # Max tool rounds (read_chapter / read_thread) per answer.
+  # Max tool rounds (read_chapter / read_thread / read_idea) per answer.
   max_tool_rounds: 8
+  # Continuing a saved chat: Claude gets its summary plus this many most recent messages.
+  continue_recent_messages: 6
+  # Ask before clearing or leaving a chat with more than this many unsaved messages.
+  unsaved_confirm_after: 4
+  # Suggest "save and start fresh" once a live chat's transcript passes about this many tokens.
+  long_chat_hint_tokens: 60000
+  # Alias used to write the title and summary when you press Save.
+  summary_model: haiku
 
 # ---------------------------------------------------------------------------
 # App

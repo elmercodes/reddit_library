@@ -39,8 +39,7 @@ def split_support(s: dict) -> dict | None:
 
 
 def _stats(book: str) -> tuple[dict, dict]:
-    from pipeline.cluster import load_threads
-    from pipeline.write import chapter_stats
+    from lib.bookstats import chapter_stats, load_threads
     plan = read_json(C.BOOKS / book / "plan.json")
     threads = load_threads(book)
     return plan, {"stats": chapter_stats(plan, threads), "threads": threads}
@@ -78,7 +77,7 @@ def _thread_card(ref: str, d: dict) -> dict:
 
 
 def chapter_detail(book: str, slug: str) -> dict | None:
-    from pipeline.write import chapter_refs
+    from lib.bookstats import chapter_refs
     plan, ctx = _stats(book)
     ch = next((c for c in plan["chapters"] if c["slug"] == slug), None)
     saved = read_json(C.BOOKS / book / "chapters" / f"{slug}.json")

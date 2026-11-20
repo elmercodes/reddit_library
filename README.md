@@ -11,4 +11,4 @@ uv sync
 uv run rl env-check
 ```
 
-Secrets go in `.env` (copy `.env.example`). Raw scraped data in `data/raw/` is never committed. Books are summaries with links back to Reddit; thread text is never republished.
+Secrets go in `.env` (copy `.env.example`). The API key is for the book pipeline only: chat in the app runs on your Claude Code subscription through the Claude Agent SDK (run `claude` once and log in), is never billed to the API, and is not logged in `data/costs.csv`. Chats are temporary until you press Save (saved to `chats/saved/<tab>/`). Raw scraped data in `data/raw/` is never committed. Books are summaries with links back to Reddit; thread text is never republished.

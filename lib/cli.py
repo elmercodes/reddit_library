@@ -370,6 +370,23 @@ def book_index(sub: str = typer.Option(..., help="Subreddit name")) -> None:
     print(f"Wrote books/{sub}/index.md")
 
 
+@app.command("migrate-chats")
+def migrate_chats() -> None:
+    """Convert old one-per-tab chat files (chats/<tab>.json) into saved chats. Title and summary are
+    written through your Claude Code subscription (not the API; nothing is logged in costs.csv)."""
+    import asyncio
+
+    from app import saved
+    from app import subscription as sub
+    sub.scrub_env()
+    try:
+        done = asyncio.run(saved.migrate_old())
+    except sub.SubscriptionError as e:
+        print(f"Not migrated: {e}")
+        raise typer.Exit(1)
+    print("\n".join(done) if done else "No old chat files to migrate.")
+
+
 @app.command("app")
 def run_app(no_browser: bool = typer.Option(False, "--no-browser", help="Don't open the browser")) -> None:
     """Start the local web app and open it in the browser."""

@@ -1,4 +1,8 @@
-"""Local web app: `uv run rl app`. Reads books from disk; chats through app/chat.py."""
+"""Local web app: `uv run rl app`. Reads books from disk; chats through app/chat.py.
+
+Chat runs only on the Claude Code subscription (app/subscription.py). API credentials are removed
+from this process's environment at import, so nothing the app starts can bill the Anthropic API.
+"""
 
 from __future__ import annotations
 
@@ -13,7 +17,10 @@ from pydantic import BaseModel
 from lib import config as C
 from lib.store import read_json, write_text
 
-from . import bookdata, chat
+from . import bookdata, chat, saved
+from . import subscription as sub
+
+sub.scrub_env()
 
 STATIC = C.ROOT / "app" / "static"
 SAFE = re.compile(r"^[A-Za-z0-9_-]+$")
@@ -132,15 +139,35 @@ def add_game(body: NewGame) -> dict:
     return {"id": slug, "title": name}
 
 
-# --- chat --------------------------------------------------------------------------
+# --- chat (Claude Code subscription only) ----------------------------------------
+
+class Msg(BaseModel):
+    role: str
+    text: str
+    ts: str | None = None
+    model: str | None = None
+    model_label: str | None = None
+    via: str | None = None
+    usage: dict | None = None
+    tokens: int | None = None
+    tools_used: list | None = None
+    sources: list | None = None
+
 
 class ChatIn(BaseModel):
     message: str
     model: str | None = None
+    history: list[Msg] = []
+    saved_id: str | None = None
 
 
-class ModelIn(BaseModel):
-    model: str
+class SaveIn(BaseModel):
+    messages: list[Msg]
+    saved_id: str | None = None
+
+
+class RenameIn(BaseModel):
+    title: str
 
 
 def _tab(tab: str) -> str:
@@ -151,36 +178,76 @@ def _tab(tab: str) -> str:
     return tab
 
 
-@app.get("/api/chat/{tab}")
-def get_chat(tab: str) -> dict:
-    return chat.load(_tab(tab))
+@app.get("/api/chat/status")
+def chat_status(refresh: bool = False) -> dict:
+    s = sub.login_status(force=refresh)
+    cfg = chat.chat_cfg()
+    return {**s, "unsaved_confirm_after": cfg.get("unsaved_confirm_after", 4),
+            "long_chat_hint_tokens": cfg.get("long_chat_hint_tokens", 60000)}
 
 
-@app.put("/api/chat/{tab}/model")
-def put_model(tab: str, body: ModelIn) -> dict:
+@app.post("/api/chat/{tab}")
+async def post_chat(tab: str, body: ChatIn) -> StreamingResponse:
+    _tab(tab)
+    if not body.message.strip():
+        raise HTTPException(400, "Empty message")
     try:
-        return chat.set_model(_tab(tab), body.model)
+        chat.model_entry(body.model or chat.default_model())
+        saved_chat = saved.get(tab, body.saved_id) if body.saved_id else None
+    except ValueError as e:
+        raise HTTPException(400, str(e)) from e
+    history = [m.model_dump(exclude_none=True) for m in body.history]
+
+    async def events():
+        try:
+            async for ev in chat.send(tab, body.message.strip(), body.model, history, saved_chat):
+                yield f"data: {json.dumps(ev, ensure_ascii=False)}\n\n"
+        except ValueError as e:
+            yield f"data: {json.dumps({'type': 'error', 'kind': 'error', 'message': str(e)})}\n\n"
+
+    return StreamingResponse(events(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+
+
+@app.post("/api/chat/{tab}/save")
+async def save_chat(tab: str, body: SaveIn) -> dict:
+    _tab(tab)
+    try:
+        return await saved.save(tab, [m.model_dump(exclude_none=True) for m in body.messages], body.saved_id)
+    except sub.SubscriptionError as e:
+        raise HTTPException(503 if e.kind != "usage_limit" else 429, str(e)) from e
     except ValueError as e:
         raise HTTPException(400, str(e)) from e
 
 
-@app.post("/api/chat/{tab}/clear")
-def clear_chat(tab: str) -> dict:
-    return chat.clear(_tab(tab))
+@app.get("/api/chat/{tab}/saved")
+def list_saved(tab: str) -> dict:
+    return {"saved": saved.list_saved(_tab(tab))}
 
 
-@app.post("/api/chat/{tab}")
-def post_chat(tab: str, body: ChatIn) -> StreamingResponse:
-    _tab(tab)
-    if not body.message.strip():
-        raise HTTPException(400, "Empty message")
+@app.get("/api/chat/{tab}/saved/{saved_id}")
+def get_saved(tab: str, saved_id: str) -> dict:
+    try:
+        d = saved.get(_tab(tab), saved_id)
+    except ValueError as e:
+        raise HTTPException(400, str(e)) from e
+    if not d:
+        raise HTTPException(404, "No such saved chat")
+    return d
 
-    def events():
-        try:
-            for ev in chat.send(tab, body.message.strip(), body.model):
-                yield f"data: {json.dumps(ev, ensure_ascii=False)}\n\n"
-        except ValueError as e:
-            yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
 
-    return StreamingResponse(events(), media_type="text/event-stream",
-                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+@app.patch("/api/chat/{tab}/saved/{saved_id}")
+def rename_saved(tab: str, saved_id: str, body: RenameIn) -> dict:
+    try:
+        return saved.rename(_tab(tab), saved_id, body.title)
+    except ValueError as e:
+        raise HTTPException(400, str(e)) from e
+
+
+@app.delete("/api/chat/{tab}/saved/{saved_id}")
+def delete_saved(tab: str, saved_id: str) -> dict:
+    try:
+        saved.delete(_tab(tab), saved_id)
+    except ValueError as e:
+        raise HTTPException(404, str(e)) from e
+    return {"ok": True}

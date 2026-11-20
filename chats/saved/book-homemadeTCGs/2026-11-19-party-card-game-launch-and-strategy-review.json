@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "tab": "book:homemadeTCGs",
+  "title": "Party card game launch and strategy review",
+  "created_at": "2026-11-19T05:40:00+00:00",
+  "updated_at": "2026-11-20T02:02:35+00:00",
+  "model": "claude-opus-5-5",
+  "model_label": "Opus (deep)",
+  "summary": "The designer asked for the top five launch mistakes for a ~144-card party game with 7 color-coded fan types and commissioned art. Ranked by community agreement: (1) style over readability, (2) color as the only type cue, (3) art shown without how-to-play, (4) cluttered card faces, (5) untested printed proofs. The book is built only from TCG threads, so each point was translated to a party game and TCG-only items were flagged. Chapters: [card frames](#/book/homemadeTCGs/card-frames-and-templates), [layout](#/book/homemadeTCGs/card-layout-readability), [showcases](#/book/homemadeTCGs/showcases-and-milestones), [Kickstarter](#/book/homemadeTCGs/kickstarter-and-launch), [playtesting](#/book/homemadeTCGs/playtesting-and-prototypes), [printing](#/book/homemadeTCGs/printing-and-production), [theme](#/book/homemadeTCGs/theme-identity-originality), [commissioning](#/book/homemadeTCGs/commissioning-and-art-budgets). Threads: https://www.reddit.com/r/homemadeTCGs/comments/1qxllp8/ , https://www.reddit.com/r/homemadeTCGs/comments/1pemndc/ , https://www.reddit.com/r/homemadeTCGs/comments/1wymki3/ , https://www.reddit.com/r/homemadeTCGs/comments/1uy1ngw/ , https://www.reddit.com/r/homemadeTCGs/comments/1qns58a/ , https://www.reddit.com/r/homemadeTCGs/comments/1uvo0d1/ , https://www.reddit.com/r/homemadeTCGs/comments/1rolfe6/ , https://www.reddit.com/r/homemadeTCGs/comments/1xntzql/ , https://www.reddit.com/r/homemadeTCGs/comments/1x7a612/ , https://www.reddit.com/r/homemadeTCGs/comments/1s1n6id/ , https://www.reddit.com/r/homemadeTCGs/comments/1tnb92v/\n\nThe designer then described a 2–8 player, 30–60 minute take-that game (Phase 1 build, Phase 2 Boss roll with 2d6, Dice and Save counters, Loot, discard to 8, five fan-ability timings) and asked for the five strategy problems that kill take-that and elimination games. The assistant said the book barely covers multiplayer take-that. Kingmaking, runaway leaders, gang-ups, elimination downtime, and counter chains are absent. The five supported problems were: too many stacked systems, one dominant option, rules players must remember, luck overriding decisions (1 in 6 at +0), and take-that cards not worth their cost. Each came with playtest measures and suggested fixes, most untested. Gaps were labeled as the assistant's own view: Loot aimed at the weakest player, elimination downtime, counter chain length, passive winners, and testing at 2, 5, and 8 players. TCG-only advice was listed as skippable. Chapters: [mechanics](#/book/homemadeTCGs/mechanics-and-balance), [playtesting](#/book/homemadeTCGs/playtesting-and-prototypes). Threads: https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/ , https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/ , https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/ , https://www.reddit.com/r/homemadeTCGs/comments/1pjhhbr/ , https://www.reddit.com/r/homemadeTCGs/comments/1slrnm2/ , https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/",
+  "summary_usage": {
+    "input_tokens": 2,
+    "output_tokens": 4332,
+    "cache_creation_input_tokens": 7835,
+    "cache_read_input_tokens": 0
+  },
+  "covers": 4,
+  "messages": [
+    {
+      "role": "user",
+      "text": "I'm launching a ~144-card party card game on Kickstarter: poker-size cards, 7 color-coded fan types, short rules text, and art by a commissioned human artist. Across this whole book, what are the 5 mistakes homemade card game creators make most often that would hurt my launch? Rank them by how strongly the community agrees. For each one, cite the threads, say how much support it has, and tell me exactly what to check in my game. Flag anything that applies to collectible TCGs but not to a party game.",
+      "ts": "2026-11-19T05:40:00+00:00"
+    },
+    {
+      "role": "assistant",
+      "text": "I ranked these by how strongly the community agrees. That means two things: how many separate threads raised the problem, and how clearly the score went one way. One caveat applies to everything below: this book is built from **TCG** threads, and none of them are about party games. So I translated each point to your game and flagged what doesn't carry over.\n\n## 1. Choosing style over readability (strongest signal)\n**What the community says:** Themed frames got praised in almost every thread, and almost every thread also asked for the same fixes: more contrast, plainer fonts, bigger text. This came up in at least six threads in [Card frames and templates](#/book/homemadeTCGs/card-frames-and-templates). Examples include the [occult archive vs bureaucratic record](https://www.reddit.com/r/homemadeTCGs/comments/1qxllp8/designing_a_digital_tcg_with_playercreated_cards/) templates and [Spellpatch](https://www.reddit.com/r/homemadeTCGs/comments/1pemndc/spellpatchtcg_looking_for_feedback_on_new_card/). In the showcase threads, the few critiques people did make were about small text, logos and credits, like on [PolterGuys](https://www.reddit.com/r/homemadeTCGs/comments/1wymki3/my_new_tcg_polterguys_im_workin_on/). Nobody pushed back on this.\n**Check:**\n- Is the rules text bigger and higher-contrast than feels necessary?\n- Is any text sitting on busy art or parchment texture without a backing panel?\n- Are you using cursive or decorative fonts on anything players need to read?\n- Can someone read the card from across the table? In a party game, people read cards aloud.\n\n## 2. Using color as the only way to tell types apart\n**What the community says:** Four threads raised this independently, as noted in [Card layout and readability](#/book/homemadeTCGs/card-layout-readability). In the [Kanji vs custom icons](https://www.reddit.com/r/homemadeTCGs/comments/1uy1ngw/which_element_icons_set_are_better_chinese_hanzi/) thread, the side favoring clear shapes won clearly: 9 commenters and 86 points against 6 and 11. That included a 23-point comment about colorblind players. One exception: on [NETHERWEB](https://www.reddit.com/r/homemadeTCGs/comments/1qns58a/netherweb_card_faces_thoughts_and_opinions/), most commenters were fine with types that differed only by title-bar color. Only 2 of them objected.\n**Check, and this matters most for your game:**\n- Does each of the 7 fan types have its own **shape or icon plus a text label**, not just a color?\n- Run the cards through a colorblind simulator.\n- Test the icons at their smallest printed size.\n\n*My own view, not from the book:* 7 colors is a lot to keep apart. Some pair will almost certainly collide for colorblind players.\n\n## 3. Showing off the art without showing how to play\n**What the community says:** This is the broadest pattern in the book. It shows up in the [Showcases](#/book/homemadeTCGs/showcases-and-milestones), [Kickstarter](#/book/homemadeTCGs/kickstarter-and-launch), [Playtesting](#/book/homemadeTCGs/playtesting-and-prototypes) and [Printing](#/book/homemadeTCGs/printing-and-production) chapters. But in each thread it rests on only one or two commenters. People liked the art, then asked how to play and where to buy. In [Getting ready to produce my TCG](https://www.reddit.com/r/homemadeTCGs/comments/1uvo0d1/getting_ready_to_finally_produce_my_self_made_tcg/), the most-upvoted practical advice was to start a Discord early and put links in every post.\n**Check before launch:**\n- Is there a short how-to-play video or gameplay footage?\n- Are the rules public?\n- Is there a print-and-play or demo?\n- Is the purchase path clear, including international shipping?\n- Have real groups played physical copies before the campaign?\n\n## 4. Cluttered card faces and icons nobody explains\n**What the community says:** In the [new frame designs](https://www.reddit.com/r/homemadeTCGs/comments/1rolfe6/thoughts_on_the_new_frame_designs_example/) thread, the \"too much on the card\" side clearly won: 5 commenters and 87 points against 2 and 8. [Is this too much on a single card?](https://www.reddit.com/r/homemadeTCGs/comments/1xntzql/is_this_to_much_on_a_single_card/) drew the same verdict. Icons and numbers without labels led to repeated \"what does this mean?\" questions across four threads.\n**Check:**\n- Can a stranger understand a card without you explaining it?\n- Are there decorations that look like functional symbols?\n- Is the key information still visible when the cards are fanned in a hand? Commenters disagreed on which corner stays visible, so test it with your own grip.\n\n**TCG-only parts:** grouping attack/defense stats together and counting how many stats a card has. With short rules text, this mistake mostly doesn't apply to you. Just make sure the type icon doesn't get lost.\n\n## 5. Judging cards on screen instead of printing a proof\n**What the community says:** Several threads in [Printing](#/book/homemadeTCGs/printing-and-production) agree that typos, cramped symbols and logos people misread only showed up once the cards were printed. Examples: [Duel Eterna test prints](https://www.reddit.com/r/homemadeTCGs/comments/1x7a612/got_some_test_prints_in_for_duel_eterna/) and [First test print](https://www.reddit.com/r/homemadeTCGs/comments/1s1n6id/first_test_print_feedback_would_be_appreciated/). The tip to use roughly 2.5 mm of bleed and keep text inside safe margins was the top practical tip in [one frames thread](https://www.reddit.com/r/homemadeTCGs/comments/1tnb92v/what_do_you_think_of_my_card_design/). Support here is moderate, from a handful of commenters per thread.\n**Check:**\n- Order a poker-size proof of all 144 cards, not just a sample.\n- Proofread on paper.\n- Make sure the darker art still separates from the background in CMYK print.\n- If you want selective foil, ask the printer early whether they can do it.\n\n## Also worth a look\n- **Looking like a famous game.** This gets flagged fast, and the cause is usually layout and keywords, not names ([Theme and originality](#/book/homemadeTCGs/theme-identity-originality)). The comparisons were always to MTG, Pokemon or Yu-Gi-Oh, so for a party game this is lower risk.\n- **Art budget.** The usual advice is to multiply the cost per piece by the number of unique cards ([Commissioning](#/book/homemadeTCGs/commissioning-and-art-budgets)). With 144 cards, confirm the art schedule fits your campaign timeline. Commissioned human art gets a lot of praise in this community, so name your artist openly.\n- **Age rating.** One commenter warned that marketing to under-12s can trigger safety inspections. It's a single source, but if your game targets families, check it before you print.\n\n## Advice that doesn't apply to you\nThese are TCG-only: boosters vs. full set, chasing rare cards and rarity odds, two-deck starter boxes, small runs of sealed booster packs, resource and mana balance, and debates about calling cards \"creatures.\" A party game is sold as one complete box, which sidesteps most of the product-format arguments in the [Kickstarter chapter](#/book/homemadeTCGs/kickstarter-and-launch). Most of that chapter's reward-tier advice also comes from a single commenter.",
+      "ts": "2026-11-19T05:40:53+00:00",
+      "model": "claude-opus-5-5",
+      "model_label": "Opus (deep)",
+      "usage": {
+        "input_tokens": 35909,
+        "output_tokens": 5152,
+        "cache_creation_input_tokens": 5997,
+        "cache_read_input_tokens": 5997
+      },
+      "tokens": 53055,
+      "tools_used": [
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "card-layout-readability"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "card-frames-and-templates"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "kickstarter-and-launch"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "showcases-and-milestones"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "playtesting-and-prototypes"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "printing-and-production"
+          }
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "theme-identity-originality"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "text": "My game is a ~144-card party card game, a \"strategic party game\" in the same lane as Unstable Unicorns and Here to Slay. It plays 2–8 in 30–60 minutes, and casual players should be able to learn it in under 10 minutes.\n\nHOW A TURN WORKS\nEvery turn: (1) you may use one Start of Turn ability, (2) take your phase turn, (3) discard down to 8 cards. Counter cards (Dice and Save) can be played anytime, even on a rival's turn. They don't count as your play, and they chain like a stack: last played resolves first.\n\nPhase 1 (build): choose Draw 2, OR Draw 1 and then play 1 card (a Fan or an Action card). Take-that Action cards Attack, Steal, Destroy, or Move. Nobody can be eliminated. Phase 1 ends the moment everyone has 3+ fans, or when someone plays Speedrun to start Phase 2 early.\n\nPhase 2 (survive the Boss): fans left in your hand are discarded. Each turn you choose: play up to 2 Action cards, OR draw 1 card. Then you roll 2 dice against the Boss.\n- 10+ is safe, and 6-6 also gains you a fan.\n- Under 10 loses a fan. Without doubles, the player on your left picks which fan; with doubles, you pick.\n- 1-1 loses 2 fans.\n- On average a player loses about 0.83 fans per roll.\nLose your last fan and you're out. If a rival's card took your last fan, they Loot you, stealing a card from your hand. Last fandom standing wins.\n\nFAN ABILITIES\nSuperfans have abilities in 5 timing types:\n- Start of Turn: optional, max 1 per turn\n- When Entering: fires again if the fan is Moved to another fandom\n- While In: always on\n- Triggered: optional, works even on rivals' turns\n- On Death: doesn't fire if the fan is saved\nNormies have no ability but still count as lives. Boss weaknesses give +1 to your roll per fan of a certain type, so what you build in Phase 1 shapes your odds in Phase 2.\n\nWHERE THE STRATEGY COMES FROM\n- Deciding when to spend Save and Dice Counters versus holding them for Phase 2, where fans are your lives\n- Phase 2's choice between playing 2 cards or drawing 1\n- Looting, which draws attention to the weakest player while the real leader slips by\n- Start of Turn engines that compete for your one slot per turn\n- Who you target, since the design goal is \"target the leader, the winner earns it\"\n\nTHE QUESTION\nAcross this whole book, what are the 5 strategy problems that most often kill take-that and elimination games, where the game feels random, unfair, or stalled instead of skillful? Think kingmaking, runaway leaders, players ganging up on whoever is ahead, downtime after elimination, hoarding counters, dice swamping decisions, too many always-on or triggered abilities to track, and long counter chains that cause analysis paralysis. Rank them by how strongly the community agrees. For each one:\n- cite the threads and say how much support it has\n- tell me exactly what to test in my playtests, with a concrete thing to watch or measure at the table\n- name the fixes people suggested, and which ones the community thinks actually worked\n\nThen list any strategy advice that applies to competitive TCGs but not to a party game, where casual players have to learn it in under 10 minutes.",
+      "ts": "2026-11-19T06:06:49+00:00"
+    },
+    {
+      "role": "assistant",
+      "text": "I need to start with a caveat. This book covers only part of what you asked. It comes from homemade TCG threads, and almost none of them are about multiplayer take-that games. **Kingmaking, runaway leaders, players ganging up on the leader, downtime after elimination, and long counter chains don't come up in it at all.** The closest match to your game is one thread about an [elemental-cycle party card game](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/).\n\nBelow are the 5 problems the book does support, ranked by how much the community agrees. After that come the gaps, with my own view labeled as mine.\n\n## 1. Too many systems stacked together, so the game drags (strongest)\n- **Evidence:** In the [boring first playtest](https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/looking_for_some_advice_first_playtest_went/) thread, 6 commenters (28 points) said to strip the game back to a simple core. In [mechanics you never want to see again](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/), 5 commenters (19 points) said long text and keyword piles slow play. Both the [Mechanics](#/book/homemadeTCGs/mechanics-and-balance) and [Playtesting](#/book/homemadeTCGs/playtesting-and-prototypes) chapters agree.\n- **Your exposure:** You have 2 phases, 5 timing types, a counter stack, Speedrun, boss weaknesses, Loot, discard to 8, and fans in hand discarded at Phase 2. That's a lot for a 10-minute teach.\n- **What to test:**\n  - Time the teach with new players.\n  - Count rules questions in the first 20 minutes.\n  - Play one game with only Normies and Action cards. If that version isn't fun, the abilities won't save it.\n  - Add the timing types back one at a time.\n- **Fixes:** Strip down to a basic version, then add layers back and keep each one only if it makes decisions better. One designer rewrote combat after the first session and fixed the bookkeeping problem ([first playtest session](https://www.reddit.com/r/homemadeTCGs/comments/1pjhhbr/first_playtest_session_of_my_homemade_tcg_i_love/)). The step-by-step method itself rests on 1 to 3 commenters with very few points.\n\n## 2. One option is always the right choice, so nobody picks the others\n- **Evidence:** In [Have I broke this mechanic?](https://www.reddit.com/r/homemadeTCGs/comments/1slrnm2/have_i_broke_this_mechanic_already/), the side saying a free generic option crowds everything else out won clearly: 3 commenters and 38 points against 1 commenter and 5 points. The elemental thread found the same pattern, where safe combos beat risky attacks.\n- **Your exposure:** Draw 2 vs. Draw 1 + Play, play 2 vs. draw 1 in Phase 2, and holding counters forever.\n- **What to test:**\n  - Tally which choice each player makes every turn.\n  - Count the counters still unused at game end, and how many get spent in Phase 1.\n  - *My threshold, not the book's:* if one choice wins more than about 70% of the time, it's dominant. If most hands end the game with unused counters, holding them is the dominant play.\n- **Fixes:** Give the strong option a cost or restriction. That's the winning side in the tutor thread. A per-turn limit or cooldown was also suggested (2 commenters, 8 points). Nobody reported testing either fix.\n\n## 3. Rules players have to remember instead of seeing on the table\n- **Evidence:** This came up in three threads, each with small support. Tokens for once-per-turn effects and statuses got 2 commenters and 6 points ([never again](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/)). Printing weaknesses on the cards got 2 commenters and 9 points ([elemental](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/)). In the [stacking cards](https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/) thread, the poster switched one-shot abilities to discard instead of tracking them.\n- **Your exposure:** Always-on (While In) effects, Triggered abilities on rivals' turns, When Entering firing again after a Move, On Death not firing after a Save, the one Start of Turn slot, and counting boss-weakness bonuses.\n- **What to test:** Have an observer log every missed or late-noticed trigger. If it happens more than about once per game, that's a problem (my threshold).\n- **Fixes:**\n  - Print a timing icon on every Superfan.\n  - Add a token you flip when you use your Start of Turn ability.\n  - Print the weakness icon on the Boss.\n  - Group fans by type on the table so players can count the bonus at a glance.\n  - Discarding one-shot abilities is the only fix someone actually adopted.\n\n## 4. Luck you can't control decides the game\n- **Evidence:** This comes from one thread, as an analogy. Draws that decide games got 3 commenters and 31 points, and fully random decks got 2 commenters and 24 points ([never again](https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/)). The complaint there is about TCG land draws, not dice.\n- **Your math:** With no bonus, a 2d6 roll of 10+ is safe only **1 in 6** times. Each +1 helps a lot: +1 is 28%, +2 is 42%, +3 is 58%. So Phase 1 building really matters, which is good. But a player at +0 is probably dead whatever they choose.\n- **What to test:** Log each player's bonus and how many fans they bring into Phase 2, then compare that with who wins. If the winners over roughly 10 games don't line up with better Phase 1 setups, the dice are drowning out decisions.\n- **Fixes:** The book's version is giving players ways to smooth out bad luck, like mulligans. Your Dice counters already do this job. Untested.\n\n## 5. Take-that cards aren't worth their cost in multiplayer\n- **Evidence:** This comes from the closest thread to your game. 4 commenters (12 points) said attacking was too risky for what it paid back, and the related lesson got 3 commenters and 10 points ([elemental](https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/)). The idea that helping yourself beats hitting one opponent in multiplayer is thin: 1 to 3 commenters with few points.\n- **Your exposure:** In Phase 1, an Attack costs you the Draw 2 option. Hitting one rival also helps everyone else at the table.\n- **What to test:**\n  - Count take-that plays per player in Phase 1.\n  - Log who gets targeted: the leader, the weakest player, or whoever's next to you.\n  - Ask players after the game why they picked their targets.\n- **Fixes:** Let the attacker choose or take a random card, so the defender can't hand over junk (2 commenters, 5 points). Limit how many plays a player gets per turn (2 commenters, 8 points). A small comeback steal was also suggested (1 commenter). None were tested.\n\n## Not covered by the book (my own view)\n- **Loot works against \"target the leader.\"** The reward goes to whoever finishes off the weakest player. Log who takes each final fan and how many fans the victim had. If it's mostly the weakest player, consider tying Loot to something else.\n- **Downtime after elimination.** At 8 players, time the gap from the first elimination to game end. Over about 10 minutes, give eliminated players a job, like rolling for the Boss or choosing the fan in the \"left player picks\" rule.\n- **Counter chains.** Log the longest chain and how long it takes to resolve. Also test Move combined with When Entering for loops. That last point has a small book source: 2 commenters (7 points) said to test turn-manipulation systems for loops.\n- **The passive player wins.** Check whether the player who made the fewest take-that plays wins too often.\n- **Playtest at 2, 5 and 8 players, and not solo.** The book does back this: 3 commenters (15 points) said solo tests mislead.\n\n## TCG-only advice you can skip\n- Deck building, tutors and one-Legendary limits\n- Land and mana systems, and resource decks\n- Whether rarity should mean power, and random sealed decks\n- Hexproof vs. ward debates (though \"protection should cost something\" is a useful idea for Saves)\n- Mining mechanics from dead TCGs\n- Level-up stacking cards\n- Tournament balance\n\nThe parts that do carry over are short text, small numbers, and putting game state on the table.",
+      "ts": "2026-11-19T06:08:16+00:00",
+      "model": "claude-opus-5-5",
+      "model_label": "Opus (deep)",
+      "usage": {
+        "input_tokens": 37810,
+        "output_tokens": 8870,
+        "cache_creation_input_tokens": 5913,
+        "cache_read_input_tokens": 11826
+      },
+      "tokens": 64419,
+      "tools_used": [
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "mechanics-and-balance"
+          },
+          "label": "Mechanics, rules and balance"
+        },
+        {
+          "name": "read_chapter",
+          "input": {
+            "book": "homemadeTCGs",
+            "chapter": "playtesting-and-prototypes"
+          },
+          "label": "Playtesting and prototypes"
+        },
+        {
+          "name": "read_thread",
+          "input": {
+            "id": "1u85n3t"
+          },
+          "label": "First time designing card game based on the elemental cycle. Need feedback on mechanics"
+        },
+        {
+          "name": "read_thread",
+          "input": {
+            "id": "1seml2f"
+          },
+          "label": "What are TCG mechanics you never want to see again?"
+        },
+        {
+          "name": "read_thread",
+          "input": {
+            "id": "1vf4fdd"
+          },
+          "label": "Looking for some advice. First playtest went miserably! I got bored of my own game."
+        }
+      ],
+      "sources": [
+        {
+          "type": "chapter",
+          "book": "homemadeTCGs",
+          "slug": "mechanics-and-balance",
+          "title": "Mechanics, rules and balance"
+        },
+        {
+          "type": "chapter",
+          "book": "homemadeTCGs",
+          "slug": "playtesting-and-prototypes",
+          "title": "Playtesting and prototypes"
+        },
+        {
+          "type": "thread",
+          "title": "First time designing card game based on the elemental cycle. Need feedback on mechanics",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1u85n3t/first_time_designing_card_game_based_on_the/"
+        },
+        {
+          "type": "thread",
+          "title": "What are TCG mechanics you never want to see again?",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1seml2f/what_are_tcg_mechanics_you_never_want_to_see_again/"
+        },
+        {
+          "type": "thread",
+          "title": "Looking for some advice. First playtest went miserably! I got bored of my own game.",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1vf4fdd/looking_for_some_advice_first_playtest_went/"
+        },
+        {
+          "type": "thread",
+          "title": "first playtest session",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1pjhhbr/first_playtest_session_of_my_homemade_tcg_i_love/"
+        },
+        {
+          "type": "thread",
+          "title": "Have I broke this mechanic?",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1slrnm2/have_i_broke_this_mechanic_already/"
+        },
+        {
+          "type": "thread",
+          "title": "stacking cards",
+          "url": "https://www.reddit.com/r/homemadeTCGs/comments/1sej6k2/when_stacking_cards_to_level_up_does_it_look_like/"
+        }
+      ]
+    }
+  ],
+  "tokens_total": 117474
+}
